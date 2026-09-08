@@ -1,0 +1,182 @@
+{
+  "projectRoot": "/home/maruti/julia",
+  "batchFiles": [
+    {
+      "path": "stdlib/LibGit2/src/rebase.jl",
+      "language": "jl",
+      "sizeLines": 119,
+      "fileCategory": "code"
+    },
+    {
+      "path": "stdlib/LibGit2/src/reference.jl",
+      "language": "jl",
+      "sizeLines": 359,
+      "fileCategory": "code"
+    },
+    {
+      "path": "stdlib/LibGit2/src/remote.jl",
+      "language": "jl",
+      "sizeLines": 497,
+      "fileCategory": "code"
+    },
+    {
+      "path": "stdlib/LibGit2/src/repository.jl",
+      "language": "jl",
+      "sizeLines": 555,
+      "fileCategory": "code"
+    },
+    {
+      "path": "stdlib/LibGit2/src/signature.jl",
+      "language": "jl",
+      "sizeLines": 73,
+      "fileCategory": "code"
+    },
+    {
+      "path": "stdlib/LibGit2/src/status.jl",
+      "language": "jl",
+      "sizeLines": 57,
+      "fileCategory": "code"
+    },
+    {
+      "path": "stdlib/LibGit2/src/strarray.jl",
+      "language": "jl",
+      "sizeLines": 16,
+      "fileCategory": "code"
+    },
+    {
+      "path": "stdlib/LibGit2/src/tag.jl",
+      "language": "jl",
+      "sizeLines": 88,
+      "fileCategory": "code"
+    },
+    {
+      "path": "stdlib/LibGit2/src/tree.jl",
+      "language": "jl",
+      "sizeLines": 250,
+      "fileCategory": "code"
+    },
+    {
+      "path": "stdlib/LibGit2/src/types.jl",
+      "language": "jl",
+      "sizeLines": 1575,
+      "fileCategory": "code"
+    },
+    {
+      "path": "stdlib/LibGit2/src/utils.jl",
+      "language": "jl",
+      "sizeLines": 177,
+      "fileCategory": "code"
+    },
+    {
+      "path": "stdlib/LibGit2/src/walker.jl",
+      "language": "jl",
+      "sizeLines": 173,
+      "fileCategory": "code"
+    },
+    {
+      "path": "stdlib/LibGit2_jll/Project.toml",
+      "language": "toml",
+      "sizeLines": 22,
+      "fileCategory": "config"
+    },
+    {
+      "path": "stdlib/LibGit2_jll/src/LibGit2_jll.jl",
+      "language": "jl",
+      "sizeLines": 74,
+      "fileCategory": "code"
+    },
+    {
+      "path": "stdlib/LibSSH2_jll/Project.toml",
+      "language": "toml",
+      "sizeLines": 20,
+      "fileCategory": "config"
+    },
+    {
+      "path": "stdlib/LibSSH2_jll/src/LibSSH2_jll.jl",
+      "language": "jl",
+      "sizeLines": 79,
+      "fileCategory": "code"
+    },
+    {
+      "path": "stdlib/LibUV_jll/Project.toml",
+      "language": "toml",
+      "sizeLines": 16,
+      "fileCategory": "config"
+    },
+    {
+      "path": "stdlib/LibUV_jll/src/LibUV_jll.jl",
+      "language": "jl",
+      "sizeLines": 11,
+      "fileCategory": "code"
+    },
+    {
+      "path": "stdlib/LibUnwind_jll/Project.toml",
+      "language": "toml",
+      "sizeLines": 18,
+      "fileCategory": "config"
+    },
+    {
+      "path": "stdlib/LibUnwind_jll/src/LibUnwind_jll.jl",
+      "language": "jl",
+      "sizeLines": 51,
+      "fileCategory": "code"
+    },
+    {
+      "path": "stdlib/Libdl/Project.toml",
+      "language": "toml",
+      "sizeLines": 9,
+      "fileCategory": "config"
+    },
+    {
+      "path": "stdlib/Libdl/docs/src/index.md",
+      "language": "markdown",
+      "sizeLines": 32,
+      "fileCategory": "docs"
+    },
+    {
+      "path": "stdlib/Libdl/src/Libdl.jl",
+      "language": "jl",
+      "sizeLines": 21,
+      "fileCategory": "code"
+    },
+    {
+      "path": "stdlib/LinearAlgebra.version",
+      "language": "version",
+      "sizeLines": 4,
+      "fileCategory": "code"
+    },
+    {
+      "path": "stdlib/Logging/Project.toml",
+      "language": "toml",
+      "sizeLines": 9,
+      "fileCategory": "config"
+    }
+  ],
+  "batchImportData": {
+    "stdlib/LibGit2/src/rebase.jl": [],
+    "stdlib/LibGit2/src/reference.jl": [],
+    "stdlib/LibGit2/src/remote.jl": [],
+    "stdlib/LibGit2/src/repository.jl": [],
+    "stdlib/LibGit2/src/signature.jl": [],
+    "stdlib/LibGit2/src/status.jl": [],
+    "stdlib/LibGit2/src/strarray.jl": [],
+    "stdlib/LibGit2/src/tag.jl": [],
+    "stdlib/LibGit2/src/tree.jl": [],
+    "stdlib/LibGit2/src/types.jl": [],
+    "stdlib/LibGit2/src/utils.jl": [],
+    "stdlib/LibGit2/src/walker.jl": [],
+    "stdlib/LibGit2_jll/Project.toml": [],
+    "stdlib/LibGit2_jll/src/LibGit2_jll.jl": [],
+    "stdlib/LibSSH2_jll/Project.toml": [],
+    "stdlib/LibSSH2_jll/src/LibSSH2_jll.jl": [],
+    "stdlib/LibUV_jll/Project.toml": [],
+    "stdlib/LibUV_jll/src/LibUV_jll.jl": [],
+    "stdlib/LibUnwind_jll/Project.toml": [],
+    "stdlib/LibUnwind_jll/src/LibUnwind_jll.jl": [],
+    "stdlib/Libdl/Project.toml": [],
+    "stdlib/Libdl/docs/src/index.md": [],
+    "stdlib/Libdl/src/Libdl.jl": [],
+    "stdlib/LinearAlgebra.version": [],
+    "stdlib/Logging/Project.toml": []
+  }
+}

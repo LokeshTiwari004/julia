@@ -1,0 +1,147 @@
+{
+  "projectRoot": "/home/maruti/julia",
+  "batchFiles": [
+    {
+      "path": "doc/src/devdocs/init.md",
+      "language": "markdown",
+      "sizeLines": 222,
+      "fileCategory": "docs"
+    },
+    {
+      "path": "doc/src/devdocs/isbitsunionarrays.md",
+      "language": "markdown",
+      "sizeLines": 29,
+      "fileCategory": "docs"
+    },
+    {
+      "path": "doc/src/devdocs/jit.md",
+      "language": "markdown",
+      "sizeLines": 89,
+      "fileCategory": "docs"
+    },
+    {
+      "path": "doc/src/devdocs/llvm-passes.md",
+      "language": "markdown",
+      "sizeLines": 140,
+      "fileCategory": "docs"
+    },
+    {
+      "path": "doc/src/devdocs/llvm.md",
+      "language": "markdown",
+      "sizeLines": 407,
+      "fileCategory": "docs"
+    },
+    {
+      "path": "doc/src/devdocs/locks.md",
+      "language": "markdown",
+      "sizeLines": 255,
+      "fileCategory": "docs"
+    },
+    {
+      "path": "doc/src/devdocs/meta.md",
+      "language": "markdown",
+      "sizeLines": 47,
+      "fileCategory": "docs"
+    },
+    {
+      "path": "doc/src/devdocs/object.md",
+      "language": "markdown",
+      "sizeLines": 209,
+      "fileCategory": "docs"
+    },
+    {
+      "path": "doc/src/devdocs/offset-arrays.md",
+      "language": "markdown",
+      "sizeLines": 209,
+      "fileCategory": "docs"
+    },
+    {
+      "path": "doc/src/devdocs/pkgimg.md",
+      "language": "markdown",
+      "sizeLines": 51,
+      "fileCategory": "docs"
+    },
+    {
+      "path": "doc/src/devdocs/precompile_hang.md",
+      "language": "markdown",
+      "sizeLines": 98,
+      "fileCategory": "docs"
+    },
+    {
+      "path": "doc/src/devdocs/probes.md",
+      "language": "markdown",
+      "sizeLines": 326,
+      "fileCategory": "docs"
+    },
+    {
+      "path": "doc/src/devdocs/require.md",
+      "language": "markdown",
+      "sizeLines": 28,
+      "fileCategory": "docs"
+    },
+    {
+      "path": "doc/src/devdocs/sanitizers.md",
+      "language": "markdown",
+      "sizeLines": 143,
+      "fileCategory": "docs"
+    },
+    {
+      "path": "doc/src/devdocs/scheduler-wakeup.md",
+      "language": "markdown",
+      "sizeLines": 90,
+      "fileCategory": "docs"
+    },
+    {
+      "path": "doc/src/devdocs/ssair.md",
+      "language": "markdown",
+      "sizeLines": 249,
+      "fileCategory": "docs"
+    },
+    {
+      "path": "doc/src/devdocs/stdio.md",
+      "language": "markdown",
+      "sizeLines": 104,
+      "fileCategory": "docs"
+    },
+    {
+      "path": "doc/src/devdocs/subarrays.md",
+      "language": "markdown",
+      "sizeLines": 243,
+      "fileCategory": "docs"
+    },
+    {
+      "path": "doc/src/devdocs/sysimg.md",
+      "language": "markdown",
+      "sizeLines": 204,
+      "fileCategory": "docs"
+    },
+    {
+      "path": "doc/src/devdocs/types.md",
+      "language": "markdown",
+      "sizeLines": 530,
+      "fileCategory": "docs"
+    }
+  ],
+  "batchImportData": {
+    "doc/src/devdocs/init.md": [],
+    "doc/src/devdocs/isbitsunionarrays.md": [],
+    "doc/src/devdocs/jit.md": [],
+    "doc/src/devdocs/llvm-passes.md": [],
+    "doc/src/devdocs/llvm.md": [],
+    "doc/src/devdocs/locks.md": [],
+    "doc/src/devdocs/meta.md": [],
+    "doc/src/devdocs/object.md": [],
+    "doc/src/devdocs/offset-arrays.md": [],
+    "doc/src/devdocs/pkgimg.md": [],
+    "doc/src/devdocs/precompile_hang.md": [],
+    "doc/src/devdocs/probes.md": [],
+    "doc/src/devdocs/require.md": [],
+    "doc/src/devdocs/sanitizers.md": [],
+    "doc/src/devdocs/scheduler-wakeup.md": [],
+    "doc/src/devdocs/ssair.md": [],
+    "doc/src/devdocs/stdio.md": [],
+    "doc/src/devdocs/subarrays.md": [],
+    "doc/src/devdocs/sysimg.md": [],
+    "doc/src/devdocs/types.md": []
+  }
+}

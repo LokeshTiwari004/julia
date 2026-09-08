@@ -1,0 +1,120 @@
+{
+  "batchIndex": 16,
+  "nodes": [
+    {
+      "id": "document:JuliaSyntax/LICENSE.md",
+      "type": "document",
+      "name": "LICENSE.md",
+      "filePath": "JuliaSyntax/LICENSE.md",
+      "summary": "Documentation file: LICENSE.md.",
+      "tags": [
+        "documentation"
+      ],
+      "complexity": "simple",
+      "language": "markdown"
+    },
+    {
+      "id": "config:JuliaSyntax/Project.toml",
+      "type": "config",
+      "name": "Project.toml",
+      "filePath": "JuliaSyntax/Project.toml",
+      "summary": "Configuration file: Project.toml.",
+      "tags": [
+        "configuration"
+      ],
+      "complexity": "simple",
+      "language": "toml"
+    },
+    {
+      "id": "document:JuliaSyntax/README.md",
+      "type": "document",
+      "name": "README.md",
+      "filePath": "JuliaSyntax/README.md",
+      "summary": "Documentation covering JuliaSyntax, Status, Getting involved.",
+      "tags": [
+        "documentation"
+      ],
+      "complexity": "simple",
+      "language": "markdown"
+    }
+  ],
+  "edges": [],
+  "batchFiles": [
+    {
+      "path": "JuliaSyntax/LICENSE.md",
+      "language": "markdown",
+      "fileCategory": "docs",
+      "totalLines": 45,
+      "nonEmptyLines": 42,
+      "metrics": {
+        "importCount": 0,
+        "exportCount": 0,
+        "functionCount": 0,
+        "classCount": 0,
+        "sectionCount": 0
+      }
+    },
+    {
+      "path": "JuliaSyntax/Project.toml",
+      "language": "toml",
+      "fileCategory": "config",
+      "totalLines": 16,
+      "nonEmptyLines": 13,
+      "sections": [
+        {
+          "heading": "compat",
+          "level": 1,
+          "line": 6
+        },
+        {
+          "heading": "extras",
+          "level": 1,
+          "line": 10
+        },
+        {
+          "heading": "targets",
+          "level": 1,
+          "line": 15
+        }
+      ],
+      "metrics": {
+        "importCount": 0,
+        "exportCount": 0,
+        "functionCount": 0,
+        "classCount": 0,
+        "sectionCount": 3
+      }
+    },
+    {
+      "path": "JuliaSyntax/README.md",
+      "language": "markdown",
+      "fileCategory": "docs",
+      "totalLines": 46,
+      "nonEmptyLines": 35,
+      "sections": [
+        {
+          "heading": "JuliaSyntax",
+          "level": 1,
+          "line": 1
+        },
+        {
+          "heading": "Status",
+          "level": 3,
+          "line": 11
+        },
+        {
+          "heading": "Getting involved",
+          "level": 1,
+          "line": 27
+        }
+      ],
+      "metrics": {
+        "importCount": 0,
+        "exportCount": 0,
+        "functionCount": 0,
+        "classCount": 0,
+        "sectionCount": 3
+      }
+    }
+  ]
+}

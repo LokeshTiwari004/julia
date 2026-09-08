@@ -1,0 +1,182 @@
+{
+  "projectRoot": "/home/maruti/julia",
+  "batchFiles": [
+    {
+      "path": ".buildkite-external-version",
+      "language": "unknown",
+      "sizeLines": 1,
+      "fileCategory": "code"
+    },
+    {
+      "path": ".clang-format",
+      "language": "unknown",
+      "sizeLines": 117,
+      "fileCategory": "code"
+    },
+    {
+      "path": ".clangd",
+      "language": "unknown",
+      "sizeLines": 2,
+      "fileCategory": "code"
+    },
+    {
+      "path": ".devcontainer/devcontainer.json",
+      "language": "json",
+      "sizeLines": 12,
+      "fileCategory": "config"
+    },
+    {
+      "path": ".git-blame-ignore-revs",
+      "language": "unknown",
+      "sizeLines": 13,
+      "fileCategory": "code"
+    },
+    {
+      "path": ".gitattributes",
+      "language": "unknown",
+      "sizeLines": 2,
+      "fileCategory": "code"
+    },
+    {
+      "path": ".github/CODEOWNERS",
+      "language": "unknown",
+      "sizeLines": 18,
+      "fileCategory": "code"
+    },
+    {
+      "path": ".github/_typos.toml",
+      "language": "toml",
+      "sizeLines": 4,
+      "fileCategory": "config"
+    },
+    {
+      "path": ".github/dependabot.yml",
+      "language": "yaml",
+      "sizeLines": 65,
+      "fileCategory": "config"
+    },
+    {
+      "path": ".mailmap",
+      "language": "unknown",
+      "sizeLines": 310,
+      "fileCategory": "code"
+    },
+    {
+      "path": ".ua/.understandignore",
+      "language": "unknown",
+      "sizeLines": 112,
+      "fileCategory": "code"
+    },
+    {
+      "path": ".ua/intermediate/scan-result.json",
+      "language": "json",
+      "sizeLines": 1163,
+      "fileCategory": "config"
+    },
+    {
+      "path": "CITATION.bib",
+      "language": "bib",
+      "sizeLines": 15,
+      "fileCategory": "code"
+    },
+    {
+      "path": "CITATION.cff",
+      "language": "cff",
+      "sizeLines": 41,
+      "fileCategory": "code"
+    },
+    {
+      "path": "Compiler/extras/CompilerDevTools/Project.toml",
+      "language": "toml",
+      "sizeLines": 5,
+      "fileCategory": "config"
+    },
+    {
+      "path": "Compiler/extras/CompilerDevTools/src/CompilerDevTools.jl",
+      "language": "jl",
+      "sizeLines": 81,
+      "fileCategory": "code"
+    },
+    {
+      "path": "Compiler/src/Compiler.jl",
+      "language": "jl",
+      "sizeLines": 254,
+      "fileCategory": "code"
+    },
+    {
+      "path": "Compiler/src/abstractinterpretation.jl",
+      "language": "jl",
+      "sizeLines": 5152,
+      "fileCategory": "code"
+    },
+    {
+      "path": "Compiler/src/abstractlattice.jl",
+      "language": "jl",
+      "sizeLines": 325,
+      "fileCategory": "code"
+    },
+    {
+      "path": "Compiler/src/bindinginvalidations.jl",
+      "language": "jl",
+      "sizeLines": 203,
+      "fileCategory": "code"
+    },
+    {
+      "path": "Compiler/src/bootstrap.jl",
+      "language": "jl",
+      "sizeLines": 90,
+      "fileCategory": "code"
+    },
+    {
+      "path": "Compiler/src/cicache.jl",
+      "language": "jl",
+      "sizeLines": 70,
+      "fileCategory": "code"
+    },
+    {
+      "path": "Compiler/src/effects.jl",
+      "language": "jl",
+      "sizeLines": 400,
+      "fileCategory": "code"
+    },
+    {
+      "path": "Compiler/src/inferenceresult.jl",
+      "language": "jl",
+      "sizeLines": 260,
+      "fileCategory": "code"
+    },
+    {
+      "path": "Compiler/src/inferencestate.jl",
+      "language": "jl",
+      "sizeLines": 1583,
+      "fileCategory": "code"
+    }
+  ],
+  "batchImportData": {
+    ".buildkite-external-version": [],
+    ".clang-format": [],
+    ".clangd": [],
+    ".devcontainer/devcontainer.json": [],
+    ".git-blame-ignore-revs": [],
+    ".gitattributes": [],
+    ".github/CODEOWNERS": [],
+    ".github/_typos.toml": [],
+    ".github/dependabot.yml": [],
+    ".mailmap": [],
+    ".ua/.understandignore": [],
+    ".ua/intermediate/scan-result.json": [],
+    "CITATION.bib": [],
+    "CITATION.cff": [],
+    "Compiler/extras/CompilerDevTools/Project.toml": [],
+    "Compiler/extras/CompilerDevTools/src/CompilerDevTools.jl": [],
+    "Compiler/src/Compiler.jl": [],
+    "Compiler/src/abstractinterpretation.jl": [],
+    "Compiler/src/abstractlattice.jl": [],
+    "Compiler/src/bindinginvalidations.jl": [],
+    "Compiler/src/bootstrap.jl": [],
+    "Compiler/src/cicache.jl": [],
+    "Compiler/src/effects.jl": [],
+    "Compiler/src/inferenceresult.jl": [],
+    "Compiler/src/inferencestate.jl": []
+  }
+}

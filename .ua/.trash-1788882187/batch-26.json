@@ -1,0 +1,2378 @@
+{
+  "batchIndex": 26,
+  "nodes": [
+    {
+      "id": "document:doc/src/manual/arrays.md",
+      "type": "document",
+      "name": "arrays.md",
+      "filePath": "doc/src/manual/arrays.md",
+      "summary": "Documentation covering [Single- and multi-dimensional Arrays](@id man-multi-dim-arrays), Basic Functions, Construction and Initialization and more.",
+      "tags": [
+        "documentation",
+        "runtime"
+      ],
+      "complexity": "complex",
+      "language": "markdown"
+    },
+    {
+      "id": "document:doc/src/manual/asynchronous-programming.md",
+      "type": "document",
+      "name": "asynchronous-programming.md",
+      "filePath": "doc/src/manual/asynchronous-programming.md",
+      "summary": "Documentation covering [Asynchronous Programming](@id man-asynchronous), Basic `Task` operations, Communicating with Channels and more.",
+      "tags": [
+        "documentation",
+        "runtime"
+      ],
+      "complexity": "complex",
+      "language": "markdown"
+    },
+    {
+      "id": "document:doc/src/manual/calling-c-and-fortran-code.md",
+      "type": "document",
+      "name": "calling-c-and-fortran-code.md",
+      "filePath": "doc/src/manual/calling-c-and-fortran-code.md",
+      "summary": "Documentation covering Calling C and Fortran Code, Creating C-Compatible Julia Function Pointers, [Mapping C Types to Julia](@id mapping-c-types-to-julia) and more.",
+      "tags": [
+        "documentation",
+        "runtime"
+      ],
+      "complexity": "complex",
+      "language": "markdown"
+    },
+    {
+      "id": "document:doc/src/manual/code-loading.md",
+      "type": "document",
+      "name": "code-loading.md",
+      "filePath": "doc/src/manual/code-loading.md",
+      "summary": "Documentation covering [Code Loading](@id code-loading), Definitions, Federation of packages and more.",
+      "tags": [
+        "documentation",
+        "runtime"
+      ],
+      "complexity": "complex",
+      "language": "markdown"
+    },
+    {
+      "id": "document:doc/src/manual/command-line-interface.md",
+      "type": "document",
+      "name": "command-line-interface.md",
+      "filePath": "doc/src/manual/command-line-interface.md",
+      "summary": "Documentation covering [Command-line Interface](@id cli), Using arguments inside scripts, The `Main.main` entry point and more.",
+      "tags": [
+        "documentation",
+        "runtime"
+      ],
+      "complexity": "moderate",
+      "language": "markdown"
+    },
+    {
+      "id": "document:doc/src/manual/complex-and-rational-numbers.md",
+      "type": "document",
+      "name": "complex-and-rational-numbers.md",
+      "filePath": "doc/src/manual/complex-and-rational-numbers.md",
+      "summary": "Documentation covering Complex and Rational Numbers, Complex Numbers, Rational Numbers.",
+      "tags": [
+        "documentation",
+        "runtime"
+      ],
+      "complexity": "complex",
+      "language": "markdown"
+    },
+    {
+      "id": "document:doc/src/manual/constructors.md",
+      "type": "document",
+      "name": "constructors.md",
+      "filePath": "doc/src/manual/constructors.md",
+      "summary": "Documentation covering [Constructors](@id man-constructors), [Outer Constructor Methods](@id man-outer-constructor-methods), [Inner Constructor Methods](@id man-inner-constructor-methods) and more.",
+      "tags": [
+        "documentation",
+        "runtime"
+      ],
+      "complexity": "complex",
+      "language": "markdown"
+    },
+    {
+      "id": "document:doc/src/manual/control-flow.md",
+      "type": "document",
+      "name": "control-flow.md",
+      "filePath": "doc/src/manual/control-flow.md",
+      "summary": "Documentation covering Control Flow, [Compound Expressions](@id man-compound-expressions), [Conditional Evaluation](@id man-conditional-evaluation) and more.",
+      "tags": [
+        "documentation",
+        "runtime"
+      ],
+      "complexity": "complex",
+      "language": "markdown"
+    },
+    {
+      "id": "document:doc/src/manual/conversion-and-promotion.md",
+      "type": "document",
+      "name": "conversion-and-promotion.md",
+      "filePath": "doc/src/manual/conversion-and-promotion.md",
+      "summary": "Documentation covering [Conversion and Promotion](@id conversion-and-promotion), Conversion, When is `convert` called? and more.",
+      "tags": [
+        "documentation",
+        "runtime"
+      ],
+      "complexity": "complex",
+      "language": "markdown"
+    },
+    {
+      "id": "document:doc/src/manual/distributed-computing.md",
+      "type": "document",
+      "name": "distributed-computing.md",
+      "filePath": "doc/src/manual/distributed-computing.md",
+      "summary": "Documentation covering Multiprocessing and Distributed Computing, [Code Availability and Loading Packages](@id code-availability), Starting and managing worker processes and more.",
+      "tags": [
+        "documentation",
+        "runtime"
+      ],
+      "complexity": "complex",
+      "language": "markdown"
+    },
+    {
+      "id": "document:doc/src/manual/documentation.md",
+      "type": "document",
+      "name": "documentation.md",
+      "filePath": "doc/src/manual/documentation.md",
+      "summary": "Documentation covering [Documentation](@id man-documentation), Accessing Documentation, [Writing Documentation](@id man-writing-documentation) and more.",
+      "tags": [
+        "documentation",
+        "runtime"
+      ],
+      "complexity": "complex",
+      "language": "markdown"
+    },
+    {
+      "id": "document:doc/src/manual/embedding.md",
+      "type": "document",
+      "name": "embedding.md",
+      "filePath": "doc/src/manual/embedding.md",
+      "summary": "Documentation covering Embedding Julia, High-Level Embedding, Using julia-config to automatically determine build parameters and more.",
+      "tags": [
+        "documentation",
+        "runtime"
+      ],
+      "complexity": "complex",
+      "language": "markdown"
+    },
+    {
+      "id": "document:doc/src/manual/environment-variables.md",
+      "type": "document",
+      "name": "environment-variables.md",
+      "filePath": "doc/src/manual/environment-variables.md",
+      "summary": "Documentation covering Environment Variables, File locations, [`JULIA_BINDIR`](@id JULIA_BINDIR) and more.",
+      "tags": [
+        "documentation",
+        "runtime"
+      ],
+      "complexity": "complex",
+      "language": "markdown"
+    },
+    {
+      "id": "document:doc/src/manual/faq.md",
+      "type": "document",
+      "name": "faq.md",
+      "filePath": "doc/src/manual/faq.md",
+      "summary": "Documentation covering Frequently Asked Questions, General, Is Julia named after someone or something? and more.",
+      "tags": [
+        "documentation",
+        "runtime"
+      ],
+      "complexity": "complex",
+      "language": "markdown"
+    },
+    {
+      "id": "document:doc/src/manual/functions.md",
+      "type": "document",
+      "name": "functions.md",
+      "filePath": "doc/src/manual/functions.md",
+      "summary": "Documentation covering [Functions](@id man-functions), [Argument Passing Behavior](@id man-argument-passing), Argument-type declarations and more.",
+      "tags": [
+        "documentation",
+        "runtime"
+      ],
+      "complexity": "complex",
+      "language": "markdown"
+    },
+    {
+      "id": "document:doc/src/manual/getting-started.md",
+      "type": "document",
+      "name": "getting-started.md",
+      "filePath": "doc/src/manual/getting-started.md",
+      "summary": "Documentation covering [Getting Started](@id man-getting-started), Resources.",
+      "tags": [
+        "documentation",
+        "runtime"
+      ],
+      "complexity": "simple",
+      "language": "markdown"
+    },
+    {
+      "id": "document:doc/src/manual/handling-operating-system-variation.md",
+      "type": "document",
+      "name": "handling-operating-system-variation.md",
+      "filePath": "doc/src/manual/handling-operating-system-variation.md",
+      "summary": "Documentation covering Handling Operating System Variation.",
+      "tags": [
+        "documentation",
+        "runtime"
+      ],
+      "complexity": "simple",
+      "language": "markdown"
+    },
+    {
+      "id": "document:doc/src/manual/installation.md",
+      "type": "document",
+      "name": "installation.md",
+      "filePath": "doc/src/manual/installation.md",
+      "summary": "Documentation covering [Installation](@id man-installation), Windows, Mac and Linux and more.",
+      "tags": [
+        "documentation",
+        "runtime"
+      ],
+      "complexity": "moderate",
+      "language": "markdown"
+    },
+    {
+      "id": "document:doc/src/manual/integers-and-floating-point-numbers.md",
+      "type": "document",
+      "name": "integers-and-floating-point-numbers.md",
+      "filePath": "doc/src/manual/integers-and-floating-point-numbers.md",
+      "summary": "Documentation covering Integers and Floating-Point Numbers, Integers, Overflow behavior and more.",
+      "tags": [
+        "documentation",
+        "runtime"
+      ],
+      "complexity": "complex",
+      "language": "markdown"
+    },
+    {
+      "id": "document:doc/src/manual/interfaces.md",
+      "type": "document",
+      "name": "interfaces.md",
+      "filePath": "doc/src/manual/interfaces.md",
+      "summary": "Documentation covering Interfaces, [Iteration](@id man-interface-iteration), Indexing and more.",
+      "tags": [
+        "documentation",
+        "runtime"
+      ],
+      "complexity": "complex",
+      "language": "markdown"
+    }
+  ],
+  "edges": [],
+  "batchFiles": [
+    {
+      "path": "doc/src/manual/arrays.md",
+      "language": "markdown",
+      "fileCategory": "docs",
+      "totalLines": 1299,
+      "nonEmptyLines": 1036,
+      "sections": [
+        {
+          "heading": "[Single- and multi-dimensional Arrays](@id man-multi-dim-arrays)",
+          "level": 1,
+          "line": 1
+        },
+        {
+          "heading": "Basic Functions",
+          "level": 2,
+          "line": 33
+        },
+        {
+          "heading": "Construction and Initialization",
+          "level": 2,
+          "line": 48
+        },
+        {
+          "heading": "[Array literals](@id man-array-literals)",
+          "level": 2,
+          "line": 96
+        },
+        {
+          "heading": "[Concatenation](@id man-array-concatenation)",
+          "level": 3,
+          "line": 135
+        },
+        {
+          "heading": "[Typed array literals](@id man-array-typed-literal)",
+          "level": 3,
+          "line": 334
+        },
+        {
+          "heading": "[Comprehensions](@id man-comprehensions)",
+          "level": 2,
+          "line": 353
+        },
+        {
+          "heading": "[Generator Expressions](@id man-generators)",
+          "level": 2,
+          "line": 401
+        },
+        {
+          "heading": "[Uninitialized arrays](@id uninitialized-arrays)",
+          "level": 2,
+          "line": 467
+        },
+        {
+          "heading": "Uninitialized isbits data",
+          "level": 3,
+          "line": 473
+        },
+        {
+          "heading": "Uninitialized non-isbits data",
+          "level": 3,
+          "line": 516
+        },
+        {
+          "heading": "[Indexing](@id man-array-indexing)",
+          "level": 2,
+          "line": 531
+        },
+        {
+          "heading": "[Indexed Assignment](@id man-indexed-assignment)",
+          "level": 2,
+          "line": 661
+        },
+        {
+          "heading": "[Supported index types](@id man-supported-index-types)",
+          "level": 2,
+          "line": 722
+        },
+        {
+          "heading": "Cartesian indices",
+          "level": 3,
+          "line": 791
+        },
+        {
+          "heading": "Logical indexing",
+          "level": 3,
+          "line": 865
+        },
+        {
+          "heading": "Number of indices",
+          "level": 3,
+          "line": 915
+        },
+        {
+          "heading": "Cartesian indexing",
+          "level": 4,
+          "line": 917
+        },
+        {
+          "heading": "Linear indexing",
+          "level": 4,
+          "line": 924
+        },
+        {
+          "heading": "Omitted and extra indices",
+          "level": 4,
+          "line": 976
+        },
+        {
+          "heading": "Iteration",
+          "level": 2,
+          "line": 1032
+        },
+        {
+          "heading": "Array traits",
+          "level": 2,
+          "line": 1072
+        },
+        {
+          "heading": "[Array and Vectorized Operators and Functions](@id man-array-and-vectorized-operators-and-functions)",
+          "level": 2,
+          "line": 1083
+        },
+        {
+          "heading": "Broadcasting",
+          "level": 2,
+          "line": 1109
+        },
+        {
+          "heading": "Implementation",
+          "level": 2,
+          "line": 1187
+        }
+      ],
+      "metrics": {
+        "importCount": 0,
+        "exportCount": 0,
+        "functionCount": 0,
+        "classCount": 0,
+        "sectionCount": 25
+      }
+    },
+    {
+      "path": "doc/src/manual/asynchronous-programming.md",
+      "language": "markdown",
+      "fileCategory": "docs",
+      "totalLines": 342,
+      "nonEmptyLines": 273,
+      "sections": [
+        {
+          "heading": "[Asynchronous Programming](@id man-asynchronous)",
+          "level": 1,
+          "line": 1
+        },
+        {
+          "heading": "Basic `Task` operations",
+          "level": 2,
+          "line": 24
+        },
+        {
+          "heading": "Communicating with Channels",
+          "level": 2,
+          "line": 70
+        },
+        {
+          "heading": "More on Channels",
+          "level": 3,
+          "line": 163
+        },
+        {
+          "heading": "More task operations",
+          "level": 2,
+          "line": 297
+        },
+        {
+          "heading": "Tasks and events",
+          "level": 2,
+          "line": 321
+        }
+      ],
+      "metrics": {
+        "importCount": 0,
+        "exportCount": 0,
+        "functionCount": 0,
+        "classCount": 0,
+        "sectionCount": 6
+      }
+    },
+    {
+      "path": "doc/src/manual/calling-c-and-fortran-code.md",
+      "language": "markdown",
+      "fileCategory": "docs",
+      "totalLines": 1288,
+      "nonEmptyLines": 984,
+      "sections": [
+        {
+          "heading": "Calling C and Fortran Code",
+          "level": 1,
+          "line": 1
+        },
+        {
+          "heading": "Creating C-Compatible Julia Function Pointers",
+          "level": 2,
+          "line": 149
+        },
+        {
+          "heading": "[Mapping C Types to Julia](@id mapping-c-types-to-julia)",
+          "level": 2,
+          "line": 236
+        },
+        {
+          "heading": "[Automatic Type Conversion](@id automatic-type-conversion)",
+          "level": 3,
+          "line": 246
+        },
+        {
+          "heading": "Type Correspondences",
+          "level": 3,
+          "line": 277
+        },
+        {
+          "heading": "[Bits Types](@id man-bits-types)",
+          "level": 3,
+          "line": 293
+        },
+        {
+          "heading": "Struct Type Correspondences",
+          "level": 3,
+          "line": 473
+        },
+        {
+          "heading": "Type Parameters",
+          "level": 3,
+          "line": 530
+        },
+        {
+          "heading": "SIMD Values",
+          "level": 3,
+          "line": 550
+        },
+        {
+          "heading": "Memory Ownership",
+          "level": 3,
+          "line": 590
+        },
+        {
+          "heading": "When to use `T`, `Ptr{T}` and `Ref{T}`",
+          "level": 3,
+          "line": 600
+        },
+        {
+          "heading": "Mapping C Functions to Julia",
+          "level": 2,
+          "line": 616
+        },
+        {
+          "heading": "`@ccall` / `@cfunction` argument translation guide",
+          "level": 3,
+          "line": 618
+        },
+        {
+          "heading": "`@ccall` / `@cfunction` return type translation guide",
+          "level": 3,
+          "line": 672
+        },
+        {
+          "heading": "Passing Pointers for Modifying Inputs",
+          "level": 3,
+          "line": 720
+        },
+        {
+          "heading": "C Wrapper Examples",
+          "level": 2,
+          "line": 736
+        },
+        {
+          "heading": "Fortran Wrapper Example",
+          "level": 2,
+          "line": 808
+        },
+        {
+          "heading": "Garbage Collection Safety",
+          "level": 2,
+          "line": 829
+        },
+        {
+          "heading": "Non-constant Function Specifications",
+          "level": 2,
+          "line": 851
+        },
+        {
+          "heading": "[Using LazyLibrary for Lazy Loading](@id man-lazylibrary)",
+          "level": 3,
+          "line": 858
+        },
+        {
+          "heading": "Basic Usage",
+          "level": 4,
+          "line": 868
+        },
+        {
+          "heading": "Platform-Specific Libraries",
+          "level": 4,
+          "line": 883
+        },
+        {
+          "heading": "Libraries with Dependencies",
+          "level": 4,
+          "line": 899
+        },
+        {
+          "heading": "Lazy Path Construction",
+          "level": 4,
+          "line": 912
+        },
+        {
+          "heading": "Initialization Callbacks",
+          "level": 4,
+          "line": 921
+        },
+        {
+          "heading": "Conversion from `__init__()` Pattern",
+          "level": 4,
+          "line": 935
+        },
+        {
+          "heading": "Overloading `dlopen` for Custom Types",
+          "level": 3,
+          "line": 970
+        },
+        {
+          "heading": "Computed Function Names",
+          "level": 3,
+          "line": 980
+        },
+        {
+          "heading": "Indirect Calls",
+          "level": 3,
+          "line": 995
+        },
+        {
+          "heading": "Closure cfunctions",
+          "level": 2,
+          "line": 1027
+        },
+        {
+          "heading": "Closing a Library",
+          "level": 2,
+          "line": 1058
+        },
+        {
+          "heading": "Variadic function calls",
+          "level": 2,
+          "line": 1077
+        },
+        {
+          "heading": "[`ccall` interface](@id ccall-interface)",
+          "level": 2,
+          "line": 1089
+        },
+        {
+          "heading": "[Calling Convention](@id calling-convention)",
+          "level": 2,
+          "line": 1160
+        },
+        {
+          "heading": "Accessing Global Variables",
+          "level": 2,
+          "line": 1191
+        },
+        {
+          "heading": "Accessing Data through a Pointer",
+          "level": 2,
+          "line": 1214
+        },
+        {
+          "heading": "Thread-safety",
+          "level": 2,
+          "line": 1255
+        },
+        {
+          "heading": "More About Callbacks",
+          "level": 2,
+          "line": 1274
+        },
+        {
+          "heading": "C++",
+          "level": 2,
+          "line": 1278
+        }
+      ],
+      "metrics": {
+        "importCount": 0,
+        "exportCount": 0,
+        "functionCount": 0,
+        "classCount": 0,
+        "sectionCount": 39
+      }
+    },
+    {
+      "path": "doc/src/manual/code-loading.md",
+      "language": "markdown",
+      "fileCategory": "docs",
+      "totalLines": 479,
+      "nonEmptyLines": 344,
+      "sections": [
+        {
+          "heading": "[Code Loading](@id code-loading)",
+          "level": 1,
+          "line": 1
+        },
+        {
+          "heading": "Definitions",
+          "level": 2,
+          "line": 6
+        },
+        {
+          "heading": "Federation of packages",
+          "level": 2,
+          "line": 20
+        },
+        {
+          "heading": "Environments",
+          "level": 2,
+          "line": 30
+        },
+        {
+          "heading": "[Project environments](@id project-environments)",
+          "level": 3,
+          "line": 67
+        },
+        {
+          "heading": "Package directories",
+          "level": 3,
+          "line": 215
+        },
+        {
+          "heading": "Environment stacks",
+          "level": 3,
+          "line": 336
+        },
+        {
+          "heading": "[Package Extensions](@id man-extensions)",
+          "level": 3,
+          "line": 355
+        },
+        {
+          "heading": "[Workspaces](@id workspaces)",
+          "level": 3,
+          "line": 400
+        },
+        {
+          "heading": "[Package/Environment Preferences](@id preferences)",
+          "level": 3,
+          "line": 424
+        },
+        {
+          "heading": "[Syntax Versioning](@id syntax-versioning)",
+          "level": 3,
+          "line": 441
+        },
+        {
+          "heading": "Syntax Version Determination",
+          "level": 4,
+          "line": 448
+        },
+        {
+          "heading": "In scripts and the REPL",
+          "level": 4,
+          "line": 467
+        },
+        {
+          "heading": "Conclusion",
+          "level": 2,
+          "line": 477
+        }
+      ],
+      "metrics": {
+        "importCount": 0,
+        "exportCount": 0,
+        "functionCount": 0,
+        "classCount": 0,
+        "sectionCount": 14
+      }
+    },
+    {
+      "path": "doc/src/manual/command-line-interface.md",
+      "language": "markdown",
+      "fileCategory": "docs",
+      "totalLines": 242,
+      "nonEmptyLines": 195,
+      "sections": [
+        {
+          "heading": "[Command-line Interface](@id cli)",
+          "level": 1,
+          "line": 1
+        },
+        {
+          "heading": "Using arguments inside scripts",
+          "level": 2,
+          "line": 3
+        },
+        {
+          "heading": "The `Main.main` entry point",
+          "level": 2,
+          "line": 42
+        },
+        {
+          "heading": "Parallel mode",
+          "level": 2,
+          "line": 122
+        },
+        {
+          "heading": "Startup file",
+          "level": 2,
+          "line": 134
+        },
+        {
+          "heading": "[Command-line switches for Julia](@id command-line-interface)",
+          "level": 2,
+          "line": 162
+        }
+      ],
+      "metrics": {
+        "importCount": 0,
+        "exportCount": 0,
+        "functionCount": 0,
+        "classCount": 0,
+        "sectionCount": 6
+      }
+    },
+    {
+      "path": "doc/src/manual/complex-and-rational-numbers.md",
+      "language": "markdown",
+      "fileCategory": "docs",
+      "totalLines": 340,
+      "nonEmptyLines": 241,
+      "sections": [
+        {
+          "heading": "Complex and Rational Numbers",
+          "level": 1,
+          "line": 1
+        },
+        {
+          "heading": "Complex Numbers",
+          "level": 2,
+          "line": 8
+        },
+        {
+          "heading": "Rational Numbers",
+          "level": 2,
+          "line": 180
+        }
+      ],
+      "metrics": {
+        "importCount": 0,
+        "exportCount": 0,
+        "functionCount": 0,
+        "classCount": 0,
+        "sectionCount": 3
+      }
+    },
+    {
+      "path": "doc/src/manual/constructors.md",
+      "language": "markdown",
+      "fileCategory": "docs",
+      "totalLines": 631,
+      "nonEmptyLines": 493,
+      "sections": [
+        {
+          "heading": "[Constructors](@id man-constructors)",
+          "level": 1,
+          "line": 1
+        },
+        {
+          "heading": "[Outer Constructor Methods](@id man-outer-constructor-methods)",
+          "level": 2,
+          "line": 41
+        },
+        {
+          "heading": "[Inner Constructor Methods](@id man-inner-constructor-methods)",
+          "level": 2,
+          "line": 74
+        },
+        {
+          "heading": "Incomplete Initialization",
+          "level": 2,
+          "line": 169
+        },
+        {
+          "heading": "Parametric Constructors",
+          "level": 2,
+          "line": 275
+        },
+        {
+          "heading": "How `new` works in parametric constructors",
+          "level": 3,
+          "line": 417
+        },
+        {
+          "heading": "Case Study: Rational",
+          "level": 2,
+          "line": 440
+        },
+        {
+          "heading": "Outer-only constructors",
+          "level": 2,
+          "line": 546
+        },
+        {
+          "heading": "Constructors are just callable objects",
+          "level": 2,
+          "line": 604
+        }
+      ],
+      "metrics": {
+        "importCount": 0,
+        "exportCount": 0,
+        "functionCount": 0,
+        "classCount": 0,
+        "sectionCount": 9
+      }
+    },
+    {
+      "path": "doc/src/manual/control-flow.md",
+      "language": "markdown",
+      "fileCategory": "docs",
+      "totalLines": 947,
+      "nonEmptyLines": 759,
+      "sections": [
+        {
+          "heading": "Control Flow",
+          "level": 1,
+          "line": 1
+        },
+        {
+          "heading": "[Compound Expressions](@id man-compound-expressions)",
+          "level": 2,
+          "line": 18
+        },
+        {
+          "heading": "[Conditional Evaluation](@id man-conditional-evaluation)",
+          "level": 2,
+          "line": 56
+        },
+        {
+          "heading": "Short-Circuit Evaluation",
+          "level": 2,
+          "line": 248
+        },
+        {
+          "heading": "[Repeated Evaluation: Loops](@id man-loops)",
+          "level": 2,
+          "line": 383
+        },
+        {
+          "heading": "Exception Handling",
+          "level": 2,
+          "line": 582
+        },
+        {
+          "heading": "Built-in `Exception`s",
+          "level": 3,
+          "line": 589
+        },
+        {
+          "heading": "The [`throw`](@ref) function",
+          "level": 3,
+          "line": 640
+        },
+        {
+          "heading": "Errors",
+          "level": 3,
+          "line": 703
+        },
+        {
+          "heading": "The `try/catch` statement",
+          "level": 3,
+          "line": 755
+        },
+        {
+          "heading": "`else` Clauses",
+          "level": 3,
+          "line": 845
+        },
+        {
+          "heading": "`finally` Clauses",
+          "level": 3,
+          "line": 884
+        },
+        {
+          "heading": "[Tasks (aka Coroutines)](@id man-tasks)",
+          "level": 2,
+          "line": 943
+        }
+      ],
+      "metrics": {
+        "importCount": 0,
+        "exportCount": 0,
+        "functionCount": 0,
+        "classCount": 0,
+        "sectionCount": 13
+      }
+    },
+    {
+      "path": "doc/src/manual/conversion-and-promotion.md",
+      "language": "markdown",
+      "fileCategory": "docs",
+      "totalLines": 360,
+      "nonEmptyLines": 285,
+      "sections": [
+        {
+          "heading": "[Conversion and Promotion](@id conversion-and-promotion)",
+          "level": 1,
+          "line": 1
+        },
+        {
+          "heading": "Conversion",
+          "level": 2,
+          "line": 42
+        },
+        {
+          "heading": "When is `convert` called?",
+          "level": 3,
+          "line": 101
+        },
+        {
+          "heading": "Conversion vs. Construction",
+          "level": 3,
+          "line": 112
+        },
+        {
+          "heading": "Constructors for types unrelated to their arguments",
+          "level": 4,
+          "line": 125
+        },
+        {
+          "heading": "Mutable collections",
+          "level": 4,
+          "line": 131
+        },
+        {
+          "heading": "Wrapper types",
+          "level": 4,
+          "line": 137
+        },
+        {
+          "heading": "Constructors that don't return instances of their own type",
+          "level": 4,
+          "line": 148
+        },
+        {
+          "heading": "Defining New Conversions",
+          "level": 3,
+          "line": 157
+        },
+        {
+          "heading": "Promotion",
+          "level": 2,
+          "line": 201
+        },
+        {
+          "heading": "Defining Promotion Rules",
+          "level": 3,
+          "line": 287
+        },
+        {
+          "heading": "Case Study: Rational Promotions",
+          "level": 3,
+          "line": 337
+        }
+      ],
+      "metrics": {
+        "importCount": 0,
+        "exportCount": 0,
+        "functionCount": 0,
+        "classCount": 0,
+        "sectionCount": 12
+      }
+    },
+    {
+      "path": "doc/src/manual/distributed-computing.md",
+      "language": "markdown",
+      "fileCategory": "docs",
+      "totalLines": 1483,
+      "nonEmptyLines": 1116,
+      "sections": [
+        {
+          "heading": "Multiprocessing and Distributed Computing",
+          "level": 1,
+          "line": 1
+        },
+        {
+          "heading": "[Code Availability and Loading Packages](@id code-availability)",
+          "level": 2,
+          "line": 145
+        },
+        {
+          "heading": "Starting and managing worker processes",
+          "level": 2,
+          "line": 241
+        },
+        {
+          "heading": "Data Movement",
+          "level": 2,
+          "line": 282
+        },
+        {
+          "heading": "Global variables",
+          "level": 2,
+          "line": 330
+        },
+        {
+          "heading": "Parallel Map and Loops",
+          "level": 2,
+          "line": 401
+        },
+        {
+          "heading": "Remote References and AbstractChannels",
+          "level": 2,
+          "line": 520
+        },
+        {
+          "heading": "Channels and RemoteChannels",
+          "level": 2,
+          "line": 611
+        },
+        {
+          "heading": "Remote References and Distributed Garbage Collection",
+          "level": 3,
+          "line": 686
+        },
+        {
+          "heading": "Local invocations",
+          "level": 2,
+          "line": 725
+        },
+        {
+          "heading": "[Shared Arrays](@id man-shared-arrays)",
+          "level": 2,
+          "line": 815
+        },
+        {
+          "heading": "Shared Arrays and Distributed Garbage Collection",
+          "level": 3,
+          "line": 1017
+        },
+        {
+          "heading": "ClusterManagers",
+          "level": 2,
+          "line": 1024
+        },
+        {
+          "heading": "Cluster Managers with Custom Transports",
+          "level": 3,
+          "line": 1188
+        },
+        {
+          "heading": "Network Requirements for LocalManager and SSHManager",
+          "level": 3,
+          "line": 1246
+        },
+        {
+          "heading": "[Cluster Cookie](@id man-cluster-cookie)",
+          "level": 3,
+          "line": 1289
+        },
+        {
+          "heading": "Specifying Network Topology (Experimental)",
+          "level": 2,
+          "line": 1308
+        },
+        {
+          "heading": "Noteworthy external packages",
+          "level": 2,
+          "line": 1329
+        }
+      ],
+      "metrics": {
+        "importCount": 0,
+        "exportCount": 0,
+        "functionCount": 0,
+        "classCount": 0,
+        "sectionCount": 18
+      }
+    },
+    {
+      "path": "doc/src/manual/documentation.md",
+      "language": "markdown",
+      "fileCategory": "docs",
+      "totalLines": 672,
+      "nonEmptyLines": 510,
+      "sections": [
+        {
+          "heading": "[Documentation](@id man-documentation)",
+          "level": 1,
+          "line": 1
+        },
+        {
+          "heading": "Accessing Documentation",
+          "level": 2,
+          "line": 3
+        },
+        {
+          "heading": "[Writing Documentation](@id man-writing-documentation)",
+          "level": 2,
+          "line": 26
+        },
+        {
+          "heading": "Functions & Methods",
+          "level": 2,
+          "line": 261
+        },
+        {
+          "heading": "Advanced Usage",
+          "level": 2,
+          "line": 306
+        },
+        {
+          "heading": "Dynamic documentation",
+          "level": 3,
+          "line": 384
+        },
+        {
+          "heading": "Syntax Guide",
+          "level": 2,
+          "line": 404
+        },
+        {
+          "heading": "`$` and `\\` characters",
+          "level": 3,
+          "line": 411
+        },
+        {
+          "heading": "Functions and Methods",
+          "level": 3,
+          "line": 427
+        },
+        {
+          "heading": "Macros",
+          "level": 3,
+          "line": 462
+        },
+        {
+          "heading": "Types",
+          "level": 3,
+          "line": 481
+        },
+        {
+          "heading": "Modules",
+          "level": 3,
+          "line": 533
+        },
+        {
+          "heading": "Global Variables",
+          "level": 3,
+          "line": 580
+        },
+        {
+          "heading": "Multiple Objects",
+          "level": 3,
+          "line": 630
+        },
+        {
+          "heading": "Macro-generated code",
+          "level": 3,
+          "line": 651
+        }
+      ],
+      "metrics": {
+        "importCount": 0,
+        "exportCount": 0,
+        "functionCount": 0,
+        "classCount": 0,
+        "sectionCount": 15
+      }
+    },
+    {
+      "path": "doc/src/manual/embedding.md",
+      "language": "markdown",
+      "fileCategory": "docs",
+      "totalLines": 723,
+      "nonEmptyLines": 551,
+      "sections": [
+        {
+          "heading": "Embedding Julia",
+          "level": 1,
+          "line": 1
+        },
+        {
+          "heading": "High-Level Embedding",
+          "level": 2,
+          "line": 12
+        },
+        {
+          "heading": "Using julia-config to automatically determine build parameters",
+          "level": 3,
+          "line": 81
+        },
+        {
+          "heading": "Example",
+          "level": 4,
+          "line": 89
+        },
+        {
+          "heading": "On the command line",
+          "level": 4,
+          "line": 103
+        },
+        {
+          "heading": "Use in Makefiles",
+          "level": 4,
+          "line": 122
+        },
+        {
+          "heading": "High-Level Embedding on Windows with Visual Studio",
+          "level": 2,
+          "line": 143
+        },
+        {
+          "heading": "Converting Types",
+          "level": 2,
+          "line": 187
+        },
+        {
+          "heading": "Calling Julia Functions",
+          "level": 2,
+          "line": 224
+        },
+        {
+          "heading": "Memory Management",
+          "level": 2,
+          "line": 263
+        },
+        {
+          "heading": "Updating fields of GC-managed objects",
+          "level": 3,
+          "line": 419
+        },
+        {
+          "heading": "Controlling the Garbage Collector",
+          "level": 3,
+          "line": 464
+        },
+        {
+          "heading": "Working with Arrays",
+          "level": 2,
+          "line": 477
+        },
+        {
+          "heading": "Accessing Returned Arrays",
+          "level": 3,
+          "line": 530
+        },
+        {
+          "heading": "Multidimensional Arrays",
+          "level": 3,
+          "line": 543
+        },
+        {
+          "heading": "Exceptions",
+          "level": 2,
+          "line": 571
+        },
+        {
+          "heading": "Throwing Julia Exceptions",
+          "level": 3,
+          "line": 591
+        },
+        {
+          "heading": "Thread-safety",
+          "level": 3,
+          "line": 618
+        }
+      ],
+      "metrics": {
+        "importCount": 0,
+        "exportCount": 0,
+        "functionCount": 0,
+        "classCount": 0,
+        "sectionCount": 18
+      }
+    },
+    {
+      "path": "doc/src/manual/environment-variables.md",
+      "language": "markdown",
+      "fileCategory": "docs",
+      "totalLines": 633,
+      "nonEmptyLines": 436,
+      "sections": [
+        {
+          "heading": "Environment Variables",
+          "level": 1,
+          "line": 1
+        },
+        {
+          "heading": "File locations",
+          "level": 2,
+          "line": 36
+        },
+        {
+          "heading": "[`JULIA_BINDIR`](@id JULIA_BINDIR)",
+          "level": 3,
+          "line": 38
+        },
+        {
+          "heading": "[`JULIA_PROJECT`](@id JULIA_PROJECT)",
+          "level": 3,
+          "line": 87
+        },
+        {
+          "heading": "[`JULIA_LOAD_PATH`](@id JULIA_LOAD_PATH)",
+          "level": 3,
+          "line": 102
+        },
+        {
+          "heading": "[`JULIA_DEPOT_PATH`](@id JULIA_DEPOT_PATH)",
+          "level": 3,
+          "line": 131
+        },
+        {
+          "heading": "[`JULIA_HISTORY`](@id JULIA_HISTORY)",
+          "level": 3,
+          "line": 183
+        },
+        {
+          "heading": "[`JULIA_MAX_NUM_PRECOMPILE_FILES`](@id JULIA_MAX_NUM_PRECOMPILE_FILES)",
+          "level": 3,
+          "line": 192
+        },
+        {
+          "heading": "[`JULIA_VERBOSE_LINKING`](@id JULIA_VERBOSE_LINKING)",
+          "level": 3,
+          "line": 196
+        },
+        {
+          "heading": "Pkg.jl",
+          "level": 2,
+          "line": 200
+        },
+        {
+          "heading": "[`JULIA_CI`](@id JULIA_CI)",
+          "level": 3,
+          "line": 202
+        },
+        {
+          "heading": "[`JULIA_NUM_PRECOMPILE_TASKS`](@id JULIA_NUM_PRECOMPILE_TASKS)",
+          "level": 3,
+          "line": 206
+        },
+        {
+          "heading": "[`JULIA_PRECOMPILE_THREADS`](@id JULIA_PRECOMPILE_THREADS)",
+          "level": 3,
+          "line": 211
+        },
+        {
+          "heading": "[`JULIA_PKG_DEVDIR`](@id JULIA_PKG_DEVDIR)",
+          "level": 3,
+          "line": 231
+        },
+        {
+          "heading": "[`JULIA_PKG_IGNORE_HASHES`](@id JULIA_PKG_IGNORE_HASHES)",
+          "level": 3,
+          "line": 235
+        },
+        {
+          "heading": "[`JULIA_PKG_OFFLINE`](@id JULIA_PKG_OFFLINE)",
+          "level": 3,
+          "line": 242
+        },
+        {
+          "heading": "[`JULIA_PKG_PRECOMPILE_AUTO`](@id JULIA_PKG_PRECOMPILE_AUTO)",
+          "level": 3,
+          "line": 249
+        },
+        {
+          "heading": "[`JULIA_PKG_SERVER`](@id JULIA_PKG_SERVER)",
+          "level": 3,
+          "line": 253
+        },
+        {
+          "heading": "[`JULIA_PKG_SERVER_REGISTRY_PREFERENCE`](@id JULIA_PKG_SERVER_REGISTRY_PREFERENCE)",
+          "level": 3,
+          "line": 260
+        },
+        {
+          "heading": "[`JULIA_PKG_UNPACK_REGISTRY`](@id JULIA_PKG_UNPACK_REGISTRY)",
+          "level": 3,
+          "line": 272
+        },
+        {
+          "heading": "[`JULIA_PKG_USE_CLI_GIT`](@id JULIA_PKG_USE_CLI_GIT)",
+          "level": 3,
+          "line": 279
+        },
+        {
+          "heading": "[`JULIA_PKGRESOLVE_ACCURACY`](@id JULIA_PKGRESOLVE_ACCURACY)",
+          "level": 3,
+          "line": 286
+        },
+        {
+          "heading": "[`JULIA_PKG_PRESERVE_TIERED_INSTALLED`](@id JULIA_PKG_PRESERVE_TIERED_INSTALLED)",
+          "level": 3,
+          "line": 290
+        },
+        {
+          "heading": "[`JULIA_PKG_GC_AUTO`](@id JULIA_PKG_GC_AUTO)",
+          "level": 3,
+          "line": 299
+        },
+        {
+          "heading": "Network transport",
+          "level": 2,
+          "line": 307
+        },
+        {
+          "heading": "[`JULIA_NO_VERIFY_HOSTS`](@id JULIA_NO_VERIFY_HOSTS)",
+          "level": 3,
+          "line": 309
+        },
+        {
+          "heading": "[`JULIA_SSL_NO_VERIFY_HOSTS`](@id JULIA_SSL_NO_VERIFY_HOSTS)",
+          "level": 3,
+          "line": 310
+        },
+        {
+          "heading": "[`JULIA_SSH_NO_VERIFY_HOSTS`](@id JULIA_SSH_NO_VERIFY_HOSTS)",
+          "level": 3,
+          "line": 311
+        },
+        {
+          "heading": "[`JULIA_ALWAYS_VERIFY_HOSTS`](@id JULIA_ALWAYS_VERIFY_HOSTS)",
+          "level": 3,
+          "line": 312
+        },
+        {
+          "heading": "[`JULIA_SSL_CA_ROOTS_PATH`](@id JULIA_SSL_CA_ROOTS_PATH)",
+          "level": 3,
+          "line": 316
+        },
+        {
+          "heading": "External applications",
+          "level": 2,
+          "line": 320
+        },
+        {
+          "heading": "[`JULIA_SHELL`](@id JULIA_SHELL)",
+          "level": 3,
+          "line": 322
+        },
+        {
+          "heading": "[`JULIA_EDITOR`](@id JULIA_EDITOR)",
+          "level": 3,
+          "line": 333
+        },
+        {
+          "heading": "Parallelization",
+          "level": 2,
+          "line": 345
+        },
+        {
+          "heading": "[`JULIA_CPU_THREADS`](@id JULIA_CPU_THREADS)",
+          "level": 3,
+          "line": 347
+        },
+        {
+          "heading": "[`JULIA_WORKER_TIMEOUT`](@id JULIA_WORKER_TIMEOUT)",
+          "level": 3,
+          "line": 352
+        },
+        {
+          "heading": "[`JULIA_NUM_THREADS`](@id JULIA_NUM_THREADS)",
+          "level": 3,
+          "line": 358
+        },
+        {
+          "heading": "[`JULIA_THREAD_SLEEP_THRESHOLD`](@id JULIA_THREAD_SLEEP_THRESHOLD)",
+          "level": 3,
+          "line": 391
+        },
+        {
+          "heading": "[`JULIA_NUM_GC_THREADS`](@id JULIA_NUM_GC_THREADS)",
+          "level": 3,
+          "line": 398
+        },
+        {
+          "heading": "[`JULIA_IMAGE_THREADS`](@id JULIA_IMAGE_THREADS)",
+          "level": 3,
+          "line": 405
+        },
+        {
+          "heading": "[`JULIA_IMAGE_TIMINGS`](@id JULIA_IMAGE_TIMINGS)",
+          "level": 3,
+          "line": 419
+        },
+        {
+          "heading": "[`JULIA_EXCLUSIVE`](@id JULIA_EXCLUSIVE)",
+          "level": 3,
+          "line": 423
+        },
+        {
+          "heading": "Garbage Collection",
+          "level": 2,
+          "line": 432
+        },
+        {
+          "heading": "[`JULIA_HEAP_SIZE_HINT`](@id JULIA_HEAP_SIZE_HINT)",
+          "level": 3,
+          "line": 434
+        },
+        {
+          "heading": "REPL formatting",
+          "level": 2,
+          "line": 449
+        },
+        {
+          "heading": "[`JULIA_ERROR_COLOR`](@id JULIA_ERROR_COLOR)",
+          "level": 3,
+          "line": 457
+        },
+        {
+          "heading": "[`JULIA_WARN_COLOR`](@id JULIA_WARN_COLOR)",
+          "level": 3,
+          "line": 462
+        },
+        {
+          "heading": "[`JULIA_INFO_COLOR`](@id JULIA_INFO_COLOR)",
+          "level": 3,
+          "line": 467
+        },
+        {
+          "heading": "[`JULIA_INPUT_COLOR`](@id JULIA_INPUT_COLOR)",
+          "level": 3,
+          "line": 472
+        },
+        {
+          "heading": "[`JULIA_ANSWER_COLOR`](@id JULIA_ANSWER_COLOR)",
+          "level": 3,
+          "line": 477
+        },
+        {
+          "heading": "[`NO_COLOR`](@id NO_COLOR)",
+          "level": 3,
+          "line": 482
+        },
+        {
+          "heading": "[`FORCE_COLOR`](@id FORCE_COLOR)",
+          "level": 3,
+          "line": 489
+        },
+        {
+          "heading": "System and Package Image Building",
+          "level": 2,
+          "line": 495
+        },
+        {
+          "heading": "[`JULIA_CPU_TARGET`](@id JULIA_CPU_TARGET)",
+          "level": 3,
+          "line": 497
+        },
+        {
+          "heading": "Debugging and profiling",
+          "level": 2,
+          "line": 560
+        },
+        {
+          "heading": "[`JULIA_DEBUG`](@id JULIA_DEBUG)",
+          "level": 3,
+          "line": 562
+        },
+        {
+          "heading": "CI Debug Environment Variables",
+          "level": 3,
+          "line": 566
+        },
+        {
+          "heading": "[`JULIA_PROFILE_PEEK_HEAP_SNAPSHOT`](@id JULIA_PROFILE_PEEK_HEAP_SNAPSHOT)",
+          "level": 3,
+          "line": 575
+        },
+        {
+          "heading": "[`JULIA_TIMING_SUBSYSTEMS`](@id JULIA_TIMING_SUBSYSTEMS)",
+          "level": 3,
+          "line": 580
+        },
+        {
+          "heading": "[`JULIA_GC_WAIT_FOR_DEBUGGER`](@id JULIA_GC_WAIT_FOR_DEBUGGER)",
+          "level": 3,
+          "line": 586
+        },
+        {
+          "heading": "[`ENABLE_JITPROFILING`](@id ENABLE_JITPROFILING)",
+          "level": 3,
+          "line": 597
+        },
+        {
+          "heading": "[`ENABLE_GDBLISTENER`](@id ENABLE_GDBLISTENER)",
+          "level": 3,
+          "line": 613
+        },
+        {
+          "heading": "[`JULIA_LLVM_ARGS`](@id JULIA_LLVM_ARGS)",
+          "level": 3,
+          "line": 619
+        },
+        {
+          "heading": "`JULIA_FALLBACK_REPL`",
+          "level": 3,
+          "line": 623
+        },
+        {
+          "heading": "`JULIA_LOAD_CODEGEN_LIB`",
+          "level": 3,
+          "line": 627
+        }
+      ],
+      "metrics": {
+        "importCount": 0,
+        "exportCount": 0,
+        "functionCount": 0,
+        "classCount": 0,
+        "sectionCount": 65
+      }
+    },
+    {
+      "path": "doc/src/manual/faq.md",
+      "language": "markdown",
+      "fileCategory": "docs",
+      "totalLines": 1081,
+      "nonEmptyLines": 833,
+      "sections": [
+        {
+          "heading": "Frequently Asked Questions",
+          "level": 1,
+          "line": 1
+        },
+        {
+          "heading": "General",
+          "level": 2,
+          "line": 3
+        },
+        {
+          "heading": "Is Julia named after someone or something?",
+          "level": 3,
+          "line": 5
+        },
+        {
+          "heading": "Why don't you compile Matlab/Python/R/… code to Julia?",
+          "level": 3,
+          "line": 9
+        },
+        {
+          "heading": "[Public API](@id man-api)",
+          "level": 2,
+          "line": 21
+        },
+        {
+          "heading": "How does Julia define its public API?",
+          "level": 3,
+          "line": 23
+        },
+        {
+          "heading": "There is a useful undocumented function/type/constant. Can I use it?",
+          "level": 3,
+          "line": 48
+        },
+        {
+          "heading": "The documentation is not accurate enough. Can I rely on the existing behavior?",
+          "level": 3,
+          "line": 59
+        },
+        {
+          "heading": "Sessions and the REPL",
+          "level": 2,
+          "line": 65
+        },
+        {
+          "heading": "How do I delete an object in memory?",
+          "level": 3,
+          "line": 67
+        },
+        {
+          "heading": "[Scripting](@id man-scripting)",
+          "level": 2,
+          "line": 77
+        },
+        {
+          "heading": "How do I check if the current file is being run as the main script?",
+          "level": 3,
+          "line": 79
+        },
+        {
+          "heading": "[How do I catch CTRL-C in a script?](@id catch-ctrl-c)",
+          "level": 3,
+          "line": 88
+        },
+        {
+          "heading": "How do I pass options to `julia` using `#!/usr/bin/env`?",
+          "level": 3,
+          "line": 102
+        },
+        {
+          "heading": "Why doesn't `run` support `*` or pipes for scripting external programs?",
+          "level": 3,
+          "line": 120
+        },
+        {
+          "heading": "Variables and Assignments",
+          "level": 2,
+          "line": 139
+        },
+        {
+          "heading": "Why am I getting `UndefVarError` from a simple loop?",
+          "level": 3,
+          "line": 141
+        },
+        {
+          "heading": "Functions",
+          "level": 2,
+          "line": 169
+        },
+        {
+          "heading": "I passed an argument `x` to a function, modified it inside that function, but on the outside, the variable `x` is still unchanged. Why?",
+          "level": 3,
+          "line": 171
+        },
+        {
+          "heading": "Can I use `using` or `import` inside a function?",
+          "level": 3,
+          "line": 227
+        },
+        {
+          "heading": "What does the `...` operator do?",
+          "level": 3,
+          "line": 260
+        },
+        {
+          "heading": "The two uses of the `...` operator: slurping and splatting",
+          "level": 4,
+          "line": 262
+        },
+        {
+          "heading": "`...` combines many arguments into one argument in function definitions",
+          "level": 4,
+          "line": 267
+        },
+        {
+          "heading": "`...` splits one argument into many different arguments in function calls",
+          "level": 4,
+          "line": 292
+        },
+        {
+          "heading": "What is the return value of an assignment?",
+          "level": 3,
+          "line": 322
+        },
+        {
+          "heading": "Is a function that ends with `!` allowed to allocate?",
+          "level": 3,
+          "line": 368
+        },
+        {
+          "heading": "Types, type declarations, and constructors",
+          "level": 2,
+          "line": 374
+        },
+        {
+          "heading": "[What does \"type-stable\" mean?](@id man-type-stability)",
+          "level": 3,
+          "line": 376
+        },
+        {
+          "heading": "[Why does Julia give a `DomainError` for certain seemingly-sensible operations?](@id faq-domain-errors)",
+          "level": 3,
+          "line": 398
+        },
+        {
+          "heading": "How can I constrain or compute type parameters?",
+          "level": 3,
+          "line": 425
+        },
+        {
+          "heading": "[Why does Julia use native machine integer arithmetic?](@id faq-integer-arithmetic)",
+          "level": 3,
+          "line": 464
+        },
+        {
+          "heading": "What are the possible causes of an `UndefVarError` during remote execution?",
+          "level": 3,
+          "line": 696
+        },
+        {
+          "heading": "Troubleshooting \"method not matched\": parametric type invariance and `MethodError`s",
+          "level": 2,
+          "line": 775
+        },
+        {
+          "heading": "Why doesn't it work to declare `foo(bar::Vector{Real}) = 42` and then call `foo([1])`?",
+          "level": 3,
+          "line": 777
+        },
+        {
+          "heading": "Why does Julia use `*` for string concatenation? Why not `+` or something else?",
+          "level": 3,
+          "line": 807
+        },
+        {
+          "heading": "Packages and Modules",
+          "level": 2,
+          "line": 818
+        },
+        {
+          "heading": "What is the difference between \"using\" and \"import\"?",
+          "level": 3,
+          "line": 820
+        },
+        {
+          "heading": "Nothingness and missing values",
+          "level": 2,
+          "line": 838
+        },
+        {
+          "heading": "[How does \"null\", \"nothingness\" or \"missingness\" work in Julia?](@id faq-nothing)",
+          "level": 3,
+          "line": 840
+        },
+        {
+          "heading": "Memory",
+          "level": 2,
+          "line": 873
+        },
+        {
+          "heading": "Why does `x += y` allocate memory when `x` and `y` are arrays?",
+          "level": 3,
+          "line": 875
+        },
+        {
+          "heading": "[Asynchronous IO and concurrent synchronous writes](@id faq-async-io)",
+          "level": 2,
+          "line": 916
+        },
+        {
+          "heading": "Why do concurrent writes to the same stream result in inter-mixed output?",
+          "level": 3,
+          "line": 918
+        },
+        {
+          "heading": "Arrays",
+          "level": 2,
+          "line": 964
+        },
+        {
+          "heading": "[What are the differences between zero-dimensional arrays and scalars?](@id faq-array-0dim)",
+          "level": 3,
+          "line": 966
+        },
+        {
+          "heading": "Why are my Julia benchmarks for linear algebra operations different from other languages?",
+          "level": 3,
+          "line": 1008
+        },
+        {
+          "heading": "Computing cluster",
+          "level": 2,
+          "line": 1032
+        },
+        {
+          "heading": "How do I manage precompilation caches in distributed file systems?",
+          "level": 3,
+          "line": 1034
+        },
+        {
+          "heading": "Julia Releases",
+          "level": 2,
+          "line": 1046
+        },
+        {
+          "heading": "Do I want to use the Stable, LTS, or nightly version of Julia?",
+          "level": 3,
+          "line": 1048
+        },
+        {
+          "heading": "How can I transfer the list of installed packages after updating my version of Julia?",
+          "level": 3,
+          "line": 1075
+        }
+      ],
+      "metrics": {
+        "importCount": 0,
+        "exportCount": 0,
+        "functionCount": 0,
+        "classCount": 0,
+        "sectionCount": 51
+      }
+    },
+    {
+      "path": "doc/src/manual/functions.md",
+      "language": "markdown",
+      "fileCategory": "docs",
+      "totalLines": 1174,
+      "nonEmptyLines": 899,
+      "sections": [
+        {
+          "heading": "[Functions](@id man-functions)",
+          "level": 1,
+          "line": 1
+        },
+        {
+          "heading": "[Argument Passing Behavior](@id man-argument-passing)",
+          "level": 2,
+          "line": 57
+        },
+        {
+          "heading": "Argument-type declarations",
+          "level": 2,
+          "line": 113
+        },
+        {
+          "heading": "The `return` Keyword",
+          "level": 2,
+          "line": 130
+        },
+        {
+          "heading": "[Return type](@id man-functions-return-type)",
+          "level": 3,
+          "line": 196
+        },
+        {
+          "heading": "Returning nothing",
+          "level": 3,
+          "line": 217
+        },
+        {
+          "heading": "Operators Are Functions",
+          "level": 2,
+          "line": 241
+        },
+        {
+          "heading": "Operators With Special Names",
+          "level": 2,
+          "line": 270
+        },
+        {
+          "heading": "[Anonymous Functions](@id man-anonymous-functions)",
+          "level": 2,
+          "line": 289
+        },
+        {
+          "heading": "Tuples",
+          "level": 2,
+          "line": 349
+        },
+        {
+          "heading": "Named Tuples",
+          "level": 2,
+          "line": 375
+        },
+        {
+          "heading": "[Destructuring Assignment and Multiple Return Values](@id destructuring-assignment)",
+          "level": 2,
+          "line": 394
+        },
+        {
+          "heading": "Property destructuring",
+          "level": 2,
+          "line": 568
+        },
+        {
+          "heading": "[Argument destructuring](@id man-argument-destructuring)",
+          "level": 2,
+          "line": 585
+        },
+        {
+          "heading": "Varargs Functions",
+          "level": 2,
+          "line": 632
+        },
+        {
+          "heading": "Optional Arguments",
+          "level": 2,
+          "line": 752
+        },
+        {
+          "heading": "Keyword Arguments",
+          "level": 2,
+          "line": 804
+        },
+        {
+          "heading": "Evaluation Scope of Default Values",
+          "level": 2,
+          "line": 888
+        },
+        {
+          "heading": "Do-Block Syntax for Function Arguments",
+          "level": 2,
+          "line": 902
+        },
+        {
+          "heading": "Function composition and piping",
+          "level": 2,
+          "line": 983
+        },
+        {
+          "heading": "[Dot Syntax for Vectorizing Functions](@id man-vectorized)",
+          "level": 2,
+          "line": 1052
+        },
+        {
+          "heading": "Further Reading",
+          "level": 2,
+          "line": 1168
+        }
+      ],
+      "metrics": {
+        "importCount": 0,
+        "exportCount": 0,
+        "functionCount": 0,
+        "classCount": 0,
+        "sectionCount": 22
+      }
+    },
+    {
+      "path": "doc/src/manual/getting-started.md",
+      "language": "markdown",
+      "fileCategory": "docs",
+      "totalLines": 59,
+      "nonEmptyLines": 43,
+      "sections": [
+        {
+          "heading": "[Getting Started](@id man-getting-started)",
+          "level": 1,
+          "line": 1
+        },
+        {
+          "heading": "Resources",
+          "level": 2,
+          "line": 40
+        }
+      ],
+      "metrics": {
+        "importCount": 0,
+        "exportCount": 0,
+        "functionCount": 0,
+        "classCount": 0,
+        "sectionCount": 2
+      }
+    },
+    {
+      "path": "doc/src/manual/handling-operating-system-variation.md",
+      "language": "markdown",
+      "fileCategory": "docs",
+      "totalLines": 42,
+      "nonEmptyLines": 33,
+      "sections": [
+        {
+          "heading": "Handling Operating System Variation",
+          "level": 1,
+          "line": 1
+        }
+      ],
+      "metrics": {
+        "importCount": 0,
+        "exportCount": 0,
+        "functionCount": 0,
+        "classCount": 0,
+        "sectionCount": 1
+      }
+    },
+    {
+      "path": "doc/src/manual/installation.md",
+      "language": "markdown",
+      "fileCategory": "docs",
+      "totalLines": 131,
+      "nonEmptyLines": 97,
+      "sections": [
+        {
+          "heading": "[Installation](@id man-installation)",
+          "level": 1,
+          "line": 1
+        },
+        {
+          "heading": "Windows",
+          "level": 2,
+          "line": 14
+        },
+        {
+          "heading": "Mac and Linux",
+          "level": 2,
+          "line": 26
+        },
+        {
+          "heading": "Command line arguments",
+          "level": 3,
+          "line": 36
+        },
+        {
+          "heading": "Alternative installation methods",
+          "level": 2,
+          "line": 63
+        },
+        {
+          "heading": "App Installer (Windows)",
+          "level": 3,
+          "line": 72
+        },
+        {
+          "heading": "MSI Installer (Windows)",
+          "level": 3,
+          "line": 85
+        },
+        {
+          "heading": "[Homebrew](https://brew.sh) (Mac and Linux)",
+          "level": 3,
+          "line": 103
+        },
+        {
+          "heading": "[Arch Linux - AUR](https://aur.archlinux.org/packages/juliaup/) (Linux)",
+          "level": 3,
+          "line": 112
+        },
+        {
+          "heading": "[openSUSE Tumbleweed](https://get.opensuse.org/tumbleweed/) (Linux)",
+          "level": 3,
+          "line": 116
+        },
+        {
+          "heading": "[cargo](https://crates.io/crates/juliaup/) (Windows, Mac and Linux)",
+          "level": 3,
+          "line": 125
+        }
+      ],
+      "metrics": {
+        "importCount": 0,
+        "exportCount": 0,
+        "functionCount": 0,
+        "classCount": 0,
+        "sectionCount": 11
+      }
+    },
+    {
+      "path": "doc/src/manual/integers-and-floating-point-numbers.md",
+      "language": "markdown",
+      "fileCategory": "docs",
+      "totalLines": 785,
+      "nonEmptyLines": 579,
+      "sections": [
+        {
+          "heading": "Integers and Floating-Point Numbers",
+          "level": 1,
+          "line": 1
+        },
+        {
+          "heading": "Integers",
+          "level": 2,
+          "line": 47
+        },
+        {
+          "heading": "Overflow behavior",
+          "level": 3,
+          "line": 231
+        },
+        {
+          "heading": "Division errors",
+          "level": 3,
+          "line": 261
+        },
+        {
+          "heading": "Floating-Point Numbers",
+          "level": 2,
+          "line": 268
+        },
+        {
+          "heading": "Floating-point zero",
+          "level": 3,
+          "line": 355
+        },
+        {
+          "heading": "Special floating-point values",
+          "level": 3,
+          "line": 372
+        },
+        {
+          "heading": "Machine epsilon",
+          "level": 3,
+          "line": 451
+        },
+        {
+          "heading": "Rounding modes",
+          "level": 3,
+          "line": 523
+        },
+        {
+          "heading": "Background and References",
+          "level": 3,
+          "line": 533
+        },
+        {
+          "heading": "Arbitrary Precision Arithmetic",
+          "level": 2,
+          "line": 554
+        },
+        {
+          "heading": "[Numeric Literal Coefficients](@id man-numeric-literal-coefficients)",
+          "level": 2,
+          "line": 662
+        },
+        {
+          "heading": "Syntax Conflicts",
+          "level": 3,
+          "line": 733
+        },
+        {
+          "heading": "Literal zero and one",
+          "level": 2,
+          "line": 758
+        }
+      ],
+      "metrics": {
+        "importCount": 0,
+        "exportCount": 0,
+        "functionCount": 0,
+        "classCount": 0,
+        "sectionCount": 14
+      }
+    },
+    {
+      "path": "doc/src/manual/interfaces.md",
+      "language": "markdown",
+      "fileCategory": "docs",
+      "totalLines": 915,
+      "nonEmptyLines": 723,
+      "sections": [
+        {
+          "heading": "Interfaces",
+          "level": 1,
+          "line": 1
+        },
+        {
+          "heading": "[Iteration](@id man-interface-iteration)",
+          "level": 2,
+          "line": 8
+        },
+        {
+          "heading": "Indexing",
+          "level": 2,
+          "line": 151
+        },
+        {
+          "heading": "[Abstract Arrays](@id man-interface-array)",
+          "level": 2,
+          "line": 211
+        },
+        {
+          "heading": "[Strided Arrays](@id man-interface-strided-arrays)",
+          "level": 2,
+          "line": 398
+        },
+        {
+          "heading": "[Customizing broadcasting](@id man-interfaces-broadcasting)",
+          "level": 2,
+          "line": 459
+        },
+        {
+          "heading": "Broadcast Styles",
+          "level": 3,
+          "line": 512
+        },
+        {
+          "heading": "Selecting an appropriate output array",
+          "level": 3,
+          "line": 539
+        },
+        {
+          "heading": "[Extending broadcast with custom implementations](@id extending-in-place-broadcast)",
+          "level": 3,
+          "line": 624
+        },
+        {
+          "heading": "[Extending in-place broadcasting](@id extending-in-place-broadcast)",
+          "level": 3,
+          "line": 667
+        },
+        {
+          "heading": "Working with `Broadcasted` objects",
+          "level": 4,
+          "line": 693
+        },
+        {
+          "heading": "[Writing binary broadcasting rules](@id writing-binary-broadcasting-rules)",
+          "level": 3,
+          "line": 705
+        },
+        {
+          "heading": "[Instance Properties](@id man-instance-properties)",
+          "level": 2,
+          "line": 769
+        },
+        {
+          "heading": "[Rounding](@id man-rounding-interface)",
+          "level": 2,
+          "line": 869
+        }
+      ],
+      "metrics": {
+        "importCount": 0,
+        "exportCount": 0,
+        "functionCount": 0,
+        "classCount": 0,
+        "sectionCount": 14
+      }
+    }
+  ]
+}

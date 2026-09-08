@@ -1,0 +1,237 @@
+{
+  "projectRoot": "/home/maruti/julia",
+  "batchFiles": [
+    {
+      "path": "src/llvm-final-gc-lowering.cpp",
+      "language": "cpp",
+      "sizeLines": 289,
+      "fileCategory": "code"
+    },
+    {
+      "path": "src/llvm-gc-interface-passes.h",
+      "language": "c",
+      "sizeLines": 457,
+      "fileCategory": "code"
+    },
+    {
+      "path": "src/llvm-gc-invariant-verifier.cpp",
+      "language": "cpp",
+      "sizeLines": 201,
+      "fileCategory": "code"
+    },
+    {
+      "path": "src/llvm-julia-licm.cpp",
+      "language": "cpp",
+      "sizeLines": 400,
+      "fileCategory": "code"
+    },
+    {
+      "path": "src/llvm-late-gc-lowering.cpp",
+      "language": "cpp",
+      "sizeLines": 2598,
+      "fileCategory": "code"
+    },
+    {
+      "path": "src/llvm-multiversioning.cpp",
+      "language": "cpp",
+      "sizeLines": 1235,
+      "fileCategory": "code"
+    },
+    {
+      "path": "src/llvm-pass-helpers.cpp",
+      "language": "cpp",
+      "sizeLines": 420,
+      "fileCategory": "code"
+    },
+    {
+      "path": "src/llvm-pass-helpers.h",
+      "language": "c",
+      "sizeLines": 174,
+      "fileCategory": "code"
+    },
+    {
+      "path": "src/llvm-propagate-addrspaces.cpp",
+      "language": "cpp",
+      "sizeLines": 358,
+      "fileCategory": "code"
+    },
+    {
+      "path": "src/llvm-ptls.cpp",
+      "language": "cpp",
+      "sizeLines": 370,
+      "fileCategory": "code"
+    },
+    {
+      "path": "src/llvm-remove-addrspaces.cpp",
+      "language": "cpp",
+      "sizeLines": 461,
+      "fileCategory": "code"
+    },
+    {
+      "path": "src/llvm-remove-ni.cpp",
+      "language": "cpp",
+      "sizeLines": 44,
+      "fileCategory": "code"
+    },
+    {
+      "path": "src/llvm-simdloop.cpp",
+      "language": "cpp",
+      "sizeLines": 335,
+      "fileCategory": "code"
+    },
+    {
+      "path": "src/llvm-version.h",
+      "language": "c",
+      "sizeLines": 37,
+      "fileCategory": "code"
+    },
+    {
+      "path": "src/llvm_api.cpp",
+      "language": "cpp",
+      "sizeLines": 142,
+      "fileCategory": "code"
+    },
+    {
+      "path": "src/llvmcalltest.cpp",
+      "language": "cpp",
+      "sizeLines": 79,
+      "fileCategory": "code"
+    },
+    {
+      "path": "src/null_sysimage.c",
+      "language": "c",
+      "sizeLines": 13,
+      "fileCategory": "code"
+    },
+    {
+      "path": "src/objcache.h",
+      "language": "c",
+      "sizeLines": 91,
+      "fileCategory": "code"
+    },
+    {
+      "path": "src/passes.h",
+      "language": "c",
+      "sizeLines": 156,
+      "fileCategory": "code"
+    },
+    {
+      "path": "src/pipeline.cpp",
+      "language": "cpp",
+      "sizeLines": 1241,
+      "fileCategory": "code"
+    },
+    {
+      "path": "src/processor.h",
+      "language": "c",
+      "sizeLines": 295,
+      "fileCategory": "code"
+    }
+  ],
+  "batchImportData": {
+    "src/llvm-final-gc-lowering.cpp": [
+      "src/llvm-gc-interface-passes.h"
+    ],
+    "src/llvm-gc-interface-passes.h": [
+      "src/julia.h",
+      "src/julia_assert.h",
+      "src/julia_internal.h",
+      "src/llvm-codegen-shared.h",
+      "src/llvm-pass-helpers.h",
+      "src/llvm-version.h",
+      "src/passes.h"
+    ],
+    "src/llvm-gc-invariant-verifier.cpp": [
+      "src/julia.h",
+      "src/llvm-codegen-shared.h",
+      "src/llvm-version.h",
+      "src/passes.h"
+    ],
+    "src/llvm-julia-licm.cpp": [
+      "src/julia.h",
+      "src/llvm-alloc-helpers.h",
+      "src/llvm-codegen-shared.h",
+      "src/llvm-pass-helpers.h",
+      "src/llvm-version.h",
+      "src/passes.h"
+    ],
+    "src/llvm-late-gc-lowering.cpp": [
+      "src/llvm-gc-interface-passes.h"
+    ],
+    "src/llvm-multiversioning.cpp": [
+      "src/julia.h",
+      "src/julia_assert.h",
+      "src/julia_internal.h",
+      "src/llvm-codegen-shared.h",
+      "src/llvm-version.h",
+      "src/passes.h",
+      "src/processor.h",
+      "src/support/dtypes.h"
+    ],
+    "src/llvm-pass-helpers.cpp": [
+      "src/julia_assert.h",
+      "src/llvm-codegen-shared.h",
+      "src/llvm-pass-helpers.h",
+      "src/llvm-version.h"
+    ],
+    "src/llvm-pass-helpers.h": [],
+    "src/llvm-propagate-addrspaces.cpp": [
+      "src/llvm-codegen-shared.h",
+      "src/llvm-version.h",
+      "src/passes.h"
+    ],
+    "src/llvm-ptls.cpp": [
+      "src/julia.h",
+      "src/julia_assert.h",
+      "src/julia_internal.h",
+      "src/llvm-codegen-shared.h",
+      "src/llvm-version.h",
+      "src/passes.h",
+      "src/support/dtypes.h"
+    ],
+    "src/llvm-remove-addrspaces.cpp": [
+      "src/llvm-codegen-shared.h",
+      "src/llvm-version.h",
+      "src/passes.h"
+    ],
+    "src/llvm-remove-ni.cpp": [
+      "src/julia.h",
+      "src/llvm-version.h",
+      "src/passes.h"
+    ],
+    "src/llvm-simdloop.cpp": [
+      "src/julia_assert.h",
+      "src/llvm-version.h",
+      "src/passes.h",
+      "src/support/dtypes.h"
+    ],
+    "src/llvm-version.h": [
+      "src/julia_assert.h"
+    ],
+    "src/llvm_api.cpp": [
+      "src/jitlayers.h",
+      "src/llvm-version.h"
+    ],
+    "src/llvmcalltest.cpp": [
+      "src/julia.h",
+      "src/llvm-codegen-shared.h",
+      "src/llvm-version.h",
+      "src/support/dtypes.h",
+      "src/support/platform.h"
+    ],
+    "src/null_sysimage.c": [
+      "src/processor.h"
+    ],
+    "src/objcache.h": [],
+    "src/passes.h": [],
+    "src/pipeline.cpp": [
+      "src/jitlayers.h",
+      "src/julia.h",
+      "src/julia_assert.h",
+      "src/julia_internal.h",
+      "src/llvm-version.h",
+      "src/passes.h"
+    ],
+    "src/processor.h": []
+  }
+}

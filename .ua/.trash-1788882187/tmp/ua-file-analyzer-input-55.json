@@ -1,0 +1,182 @@
+{
+  "projectRoot": "/home/maruti/julia",
+  "batchFiles": [
+    {
+      "path": "stdlib/Markdown/src/render/terminal/formatting.jl",
+      "language": "jl",
+      "sizeLines": 83,
+      "fileCategory": "code"
+    },
+    {
+      "path": "stdlib/Markdown/src/render/terminal/render.jl",
+      "language": "jl",
+      "sizeLines": 283,
+      "fileCategory": "code"
+    },
+    {
+      "path": "stdlib/Mmap/Project.toml",
+      "language": "toml",
+      "sizeLines": 13,
+      "fileCategory": "config"
+    },
+    {
+      "path": "stdlib/Mmap/docs/src/index.md",
+      "language": "markdown",
+      "sizeLines": 13,
+      "fileCategory": "docs"
+    },
+    {
+      "path": "stdlib/Mmap/src/Mmap.jl",
+      "language": "jl",
+      "sizeLines": 722,
+      "fileCategory": "code"
+    },
+    {
+      "path": "stdlib/MozillaCACerts_jll/Project.toml",
+      "language": "toml",
+      "sizeLines": 10,
+      "fileCategory": "config"
+    },
+    {
+      "path": "stdlib/MozillaCACerts_jll/src/MozillaCACerts_jll.jl",
+      "language": "jl",
+      "sizeLines": 30,
+      "fileCategory": "code"
+    },
+    {
+      "path": "stdlib/NetworkOptions.version",
+      "language": "version",
+      "sizeLines": 4,
+      "fileCategory": "code"
+    },
+    {
+      "path": "stdlib/OpenBLAS_jll/Project.toml",
+      "language": "toml",
+      "sizeLines": 17,
+      "fileCategory": "config"
+    },
+    {
+      "path": "stdlib/OpenBLAS_jll/src/OpenBLAS_jll.jl",
+      "language": "jl",
+      "sizeLines": 83,
+      "fileCategory": "code"
+    },
+    {
+      "path": "stdlib/OpenLibm_jll/Project.toml",
+      "language": "toml",
+      "sizeLines": 18,
+      "fileCategory": "config"
+    },
+    {
+      "path": "stdlib/OpenLibm_jll/src/OpenLibm_jll.jl",
+      "language": "jl",
+      "sizeLines": 53,
+      "fileCategory": "code"
+    },
+    {
+      "path": "stdlib/OpenSSL_jll/Project.toml",
+      "language": "toml",
+      "sizeLines": 16,
+      "fileCategory": "config"
+    },
+    {
+      "path": "stdlib/OpenSSL_jll/src/OpenSSL_jll.jl",
+      "language": "jl",
+      "sizeLines": 75,
+      "fileCategory": "code"
+    },
+    {
+      "path": "stdlib/PCRE2_jll/Project.toml",
+      "language": "toml",
+      "sizeLines": 16,
+      "fileCategory": "config"
+    },
+    {
+      "path": "stdlib/PCRE2_jll/src/PCRE2_jll.jl",
+      "language": "jl",
+      "sizeLines": 49,
+      "fileCategory": "code"
+    },
+    {
+      "path": "stdlib/Pkg.version",
+      "language": "version",
+      "sizeLines": 4,
+      "fileCategory": "code"
+    },
+    {
+      "path": "stdlib/Printf/Project.toml",
+      "language": "toml",
+      "sizeLines": 12,
+      "fileCategory": "config"
+    },
+    {
+      "path": "stdlib/Printf/docs/src/index.md",
+      "language": "markdown",
+      "sizeLines": 14,
+      "fileCategory": "docs"
+    },
+    {
+      "path": "stdlib/Printf/src/Printf.jl",
+      "language": "jl",
+      "sizeLines": 1040,
+      "fileCategory": "code"
+    },
+    {
+      "path": "stdlib/Profile/Project.toml",
+      "language": "toml",
+      "sizeLines": 19,
+      "fileCategory": "config"
+    },
+    {
+      "path": "stdlib/Profile/docs/src/index.md",
+      "language": "markdown",
+      "sizeLines": 162,
+      "fileCategory": "docs"
+    },
+    {
+      "path": "stdlib/Profile/src/Allocs.jl",
+      "language": "jl",
+      "sizeLines": 483,
+      "fileCategory": "code"
+    },
+    {
+      "path": "stdlib/Profile/src/Profile.jl",
+      "language": "jl",
+      "sizeLines": 1576,
+      "fileCategory": "code"
+    },
+    {
+      "path": "stdlib/Profile/src/heapsnapshot_reassemble.jl",
+      "language": "jl",
+      "sizeLines": 327,
+      "fileCategory": "code"
+    }
+  ],
+  "batchImportData": {
+    "stdlib/Markdown/src/render/terminal/formatting.jl": [],
+    "stdlib/Markdown/src/render/terminal/render.jl": [],
+    "stdlib/Mmap/Project.toml": [],
+    "stdlib/Mmap/docs/src/index.md": [],
+    "stdlib/Mmap/src/Mmap.jl": [],
+    "stdlib/MozillaCACerts_jll/Project.toml": [],
+    "stdlib/MozillaCACerts_jll/src/MozillaCACerts_jll.jl": [],
+    "stdlib/NetworkOptions.version": [],
+    "stdlib/OpenBLAS_jll/Project.toml": [],
+    "stdlib/OpenBLAS_jll/src/OpenBLAS_jll.jl": [],
+    "stdlib/OpenLibm_jll/Project.toml": [],
+    "stdlib/OpenLibm_jll/src/OpenLibm_jll.jl": [],
+    "stdlib/OpenSSL_jll/Project.toml": [],
+    "stdlib/OpenSSL_jll/src/OpenSSL_jll.jl": [],
+    "stdlib/PCRE2_jll/Project.toml": [],
+    "stdlib/PCRE2_jll/src/PCRE2_jll.jl": [],
+    "stdlib/Pkg.version": [],
+    "stdlib/Printf/Project.toml": [],
+    "stdlib/Printf/docs/src/index.md": [],
+    "stdlib/Printf/src/Printf.jl": [],
+    "stdlib/Profile/Project.toml": [],
+    "stdlib/Profile/docs/src/index.md": [],
+    "stdlib/Profile/src/Allocs.jl": [],
+    "stdlib/Profile/src/Profile.jl": [],
+    "stdlib/Profile/src/heapsnapshot_reassemble.jl": []
+  }
+}

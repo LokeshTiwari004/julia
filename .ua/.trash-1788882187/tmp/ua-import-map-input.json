@@ -1,0 +1,5590 @@
+{
+  "projectRoot": "/home/maruti/julia",
+  "files": [
+    {
+      "path": ".buildkite-external-version",
+      "language": "unknown",
+      "fileCategory": "code"
+    },
+    {
+      "path": ".clang-format",
+      "language": "unknown",
+      "fileCategory": "code"
+    },
+    {
+      "path": ".clangd",
+      "language": "unknown",
+      "fileCategory": "code"
+    },
+    {
+      "path": ".codecov.yml",
+      "language": "yaml",
+      "fileCategory": "config"
+    },
+    {
+      "path": ".devcontainer/devcontainer.json",
+      "language": "json",
+      "fileCategory": "config"
+    },
+    {
+      "path": ".git-blame-ignore-revs",
+      "language": "unknown",
+      "fileCategory": "code"
+    },
+    {
+      "path": ".gitattributes",
+      "language": "unknown",
+      "fileCategory": "code"
+    },
+    {
+      "path": ".github/CODEOWNERS",
+      "language": "unknown",
+      "fileCategory": "code"
+    },
+    {
+      "path": ".github/_typos.toml",
+      "language": "toml",
+      "fileCategory": "config"
+    },
+    {
+      "path": ".github/dependabot.yml",
+      "language": "yaml",
+      "fileCategory": "config"
+    },
+    {
+      "path": ".github/workflows/LabelCheck.yml",
+      "language": "yaml",
+      "fileCategory": "infra"
+    },
+    {
+      "path": ".github/workflows/Typos.yml",
+      "language": "yaml",
+      "fileCategory": "infra"
+    },
+    {
+      "path": ".github/workflows/Whitespace.yml",
+      "language": "yaml",
+      "fileCategory": "infra"
+    },
+    {
+      "path": ".github/workflows/backport-label-audit.yml",
+      "language": "yaml",
+      "fileCategory": "infra"
+    },
+    {
+      "path": ".github/workflows/cffconvert.yml",
+      "language": "yaml",
+      "fileCategory": "infra"
+    },
+    {
+      "path": ".mailmap",
+      "language": "unknown",
+      "fileCategory": "code"
+    },
+    {
+      "path": ".ua/.understandignore",
+      "language": "unknown",
+      "fileCategory": "code"
+    },
+    {
+      "path": ".ua/intermediate/scan-result.json",
+      "language": "json",
+      "fileCategory": "config"
+    },
+    {
+      "path": "AGENTS.md",
+      "language": "markdown",
+      "fileCategory": "docs"
+    },
+    {
+      "path": "CITATION.bib",
+      "language": "bib",
+      "fileCategory": "code"
+    },
+    {
+      "path": "CITATION.cff",
+      "language": "cff",
+      "fileCategory": "code"
+    },
+    {
+      "path": "CLAUDE.md",
+      "language": "markdown",
+      "fileCategory": "docs"
+    },
+    {
+      "path": "CONTRIBUTING.md",
+      "language": "markdown",
+      "fileCategory": "docs"
+    },
+    {
+      "path": "Compiler/LICENSE.md",
+      "language": "markdown",
+      "fileCategory": "docs"
+    },
+    {
+      "path": "Compiler/Project.toml",
+      "language": "toml",
+      "fileCategory": "config"
+    },
+    {
+      "path": "Compiler/README.md",
+      "language": "markdown",
+      "fileCategory": "docs"
+    },
+    {
+      "path": "Compiler/extras/CompilerDevTools/Project.toml",
+      "language": "toml",
+      "fileCategory": "config"
+    },
+    {
+      "path": "Compiler/extras/CompilerDevTools/src/CompilerDevTools.jl",
+      "language": "jl",
+      "fileCategory": "code"
+    },
+    {
+      "path": "Compiler/src/Compiler.jl",
+      "language": "jl",
+      "fileCategory": "code"
+    },
+    {
+      "path": "Compiler/src/abstractinterpretation.jl",
+      "language": "jl",
+      "fileCategory": "code"
+    },
+    {
+      "path": "Compiler/src/abstractlattice.jl",
+      "language": "jl",
+      "fileCategory": "code"
+    },
+    {
+      "path": "Compiler/src/bindinginvalidations.jl",
+      "language": "jl",
+      "fileCategory": "code"
+    },
+    {
+      "path": "Compiler/src/bootstrap.jl",
+      "language": "jl",
+      "fileCategory": "code"
+    },
+    {
+      "path": "Compiler/src/cicache.jl",
+      "language": "jl",
+      "fileCategory": "code"
+    },
+    {
+      "path": "Compiler/src/effects.jl",
+      "language": "jl",
+      "fileCategory": "code"
+    },
+    {
+      "path": "Compiler/src/inferenceresult.jl",
+      "language": "jl",
+      "fileCategory": "code"
+    },
+    {
+      "path": "Compiler/src/inferencestate.jl",
+      "language": "jl",
+      "fileCategory": "code"
+    },
+    {
+      "path": "Compiler/src/methodtable.jl",
+      "language": "jl",
+      "fileCategory": "code"
+    },
+    {
+      "path": "Compiler/src/opaque_closure.jl",
+      "language": "jl",
+      "fileCategory": "code"
+    },
+    {
+      "path": "Compiler/src/optimize.jl",
+      "language": "jl",
+      "fileCategory": "code"
+    },
+    {
+      "path": "Compiler/src/precompile.jl",
+      "language": "jl",
+      "fileCategory": "code"
+    },
+    {
+      "path": "Compiler/src/reflection_interface.jl",
+      "language": "jl",
+      "fileCategory": "code"
+    },
+    {
+      "path": "Compiler/src/reinfer.jl",
+      "language": "jl",
+      "fileCategory": "code"
+    },
+    {
+      "path": "Compiler/src/sort.jl",
+      "language": "jl",
+      "fileCategory": "code"
+    },
+    {
+      "path": "Compiler/src/ssair/EscapeAnalysis.jl",
+      "language": "jl",
+      "fileCategory": "code"
+    },
+    {
+      "path": "Compiler/src/ssair/basicblock.jl",
+      "language": "jl",
+      "fileCategory": "code"
+    },
+    {
+      "path": "Compiler/src/ssair/disjoint_set.jl",
+      "language": "jl",
+      "fileCategory": "code"
+    },
+    {
+      "path": "Compiler/src/ssair/domtree.jl",
+      "language": "jl",
+      "fileCategory": "code"
+    },
+    {
+      "path": "Compiler/src/ssair/heap.jl",
+      "language": "jl",
+      "fileCategory": "code"
+    },
+    {
+      "path": "Compiler/src/ssair/inlining.jl",
+      "language": "jl",
+      "fileCategory": "code"
+    },
+    {
+      "path": "Compiler/src/ssair/ir.jl",
+      "language": "jl",
+      "fileCategory": "code"
+    },
+    {
+      "path": "Compiler/src/ssair/irinterp.jl",
+      "language": "jl",
+      "fileCategory": "code"
+    },
+    {
+      "path": "Compiler/src/ssair/legacy.jl",
+      "language": "jl",
+      "fileCategory": "code"
+    },
+    {
+      "path": "Compiler/src/ssair/passes.jl",
+      "language": "jl",
+      "fileCategory": "code"
+    },
+    {
+      "path": "Compiler/src/ssair/show.jl",
+      "language": "jl",
+      "fileCategory": "code"
+    },
+    {
+      "path": "Compiler/src/ssair/slot2ssa.jl",
+      "language": "jl",
+      "fileCategory": "code"
+    },
+    {
+      "path": "Compiler/src/ssair/tarjan.jl",
+      "language": "jl",
+      "fileCategory": "code"
+    },
+    {
+      "path": "Compiler/src/ssair/verify.jl",
+      "language": "jl",
+      "fileCategory": "code"
+    },
+    {
+      "path": "Compiler/src/stmtinfo.jl",
+      "language": "jl",
+      "fileCategory": "code"
+    },
+    {
+      "path": "Compiler/src/tfuncs.jl",
+      "language": "jl",
+      "fileCategory": "code"
+    },
+    {
+      "path": "Compiler/src/timing.jl",
+      "language": "jl",
+      "fileCategory": "code"
+    },
+    {
+      "path": "Compiler/src/typeinfer.jl",
+      "language": "jl",
+      "fileCategory": "code"
+    },
+    {
+      "path": "Compiler/src/typelattice.jl",
+      "language": "jl",
+      "fileCategory": "code"
+    },
+    {
+      "path": "Compiler/src/typelimits.jl",
+      "language": "jl",
+      "fileCategory": "code"
+    },
+    {
+      "path": "Compiler/src/types.jl",
+      "language": "jl",
+      "fileCategory": "code"
+    },
+    {
+      "path": "Compiler/src/typeutils.jl",
+      "language": "jl",
+      "fileCategory": "code"
+    },
+    {
+      "path": "Compiler/src/utilities.jl",
+      "language": "jl",
+      "fileCategory": "code"
+    },
+    {
+      "path": "Compiler/src/validation.jl",
+      "language": "jl",
+      "fileCategory": "code"
+    },
+    {
+      "path": "Compiler/src/verifytrim.jl",
+      "language": "jl",
+      "fileCategory": "code"
+    },
+    {
+      "path": "HISTORY.md",
+      "language": "markdown",
+      "fileCategory": "docs"
+    },
+    {
+      "path": "JuliaLowering/Project.toml",
+      "language": "toml",
+      "fileCategory": "config"
+    },
+    {
+      "path": "JuliaLowering/README.md",
+      "language": "markdown",
+      "fileCategory": "docs"
+    },
+    {
+      "path": "JuliaLowering/src/JuliaLowering.jl",
+      "language": "jl",
+      "fileCategory": "code"
+    },
+    {
+      "path": "JuliaLowering/src/ast.jl",
+      "language": "jl",
+      "fileCategory": "code"
+    },
+    {
+      "path": "JuliaLowering/src/binding_analysis.jl",
+      "language": "jl",
+      "fileCategory": "code"
+    },
+    {
+      "path": "JuliaLowering/src/bindings.jl",
+      "language": "jl",
+      "fileCategory": "code"
+    },
+    {
+      "path": "JuliaLowering/src/closure_conversion.jl",
+      "language": "jl",
+      "fileCategory": "code"
+    },
+    {
+      "path": "JuliaLowering/src/compat.jl",
+      "language": "jl",
+      "fileCategory": "code"
+    },
+    {
+      "path": "JuliaLowering/src/desugaring.jl",
+      "language": "jl",
+      "fileCategory": "code"
+    },
+    {
+      "path": "JuliaLowering/src/eval.jl",
+      "language": "jl",
+      "fileCategory": "code"
+    },
+    {
+      "path": "JuliaLowering/src/hooks.jl",
+      "language": "jl",
+      "fileCategory": "code"
+    },
+    {
+      "path": "JuliaLowering/src/kinds.jl",
+      "language": "jl",
+      "fileCategory": "code"
+    },
+    {
+      "path": "JuliaLowering/src/linear_ir.jl",
+      "language": "jl",
+      "fileCategory": "code"
+    },
+    {
+      "path": "JuliaLowering/src/macro_expansion.jl",
+      "language": "jl",
+      "fileCategory": "code"
+    },
+    {
+      "path": "JuliaLowering/src/precompile.jl",
+      "language": "jl",
+      "fileCategory": "code"
+    },
+    {
+      "path": "JuliaLowering/src/runtime.jl",
+      "language": "jl",
+      "fileCategory": "code"
+    },
+    {
+      "path": "JuliaLowering/src/scope_analysis.jl",
+      "language": "jl",
+      "fileCategory": "code"
+    },
+    {
+      "path": "JuliaLowering/src/syntax_macros.jl",
+      "language": "jl",
+      "fileCategory": "code"
+    },
+    {
+      "path": "JuliaLowering/src/utils.jl",
+      "language": "jl",
+      "fileCategory": "code"
+    },
+    {
+      "path": "JuliaLowering/src/validation.jl",
+      "language": "jl",
+      "fileCategory": "code"
+    },
+    {
+      "path": "JuliaSyntax/.mailmap",
+      "language": "unknown",
+      "fileCategory": "code"
+    },
+    {
+      "path": "JuliaSyntax/LICENSE.md",
+      "language": "markdown",
+      "fileCategory": "docs"
+    },
+    {
+      "path": "JuliaSyntax/Project.toml",
+      "language": "toml",
+      "fileCategory": "config"
+    },
+    {
+      "path": "JuliaSyntax/README.md",
+      "language": "markdown",
+      "fileCategory": "docs"
+    },
+    {
+      "path": "JuliaSyntax/docs/Manifest.toml",
+      "language": "toml",
+      "fileCategory": "config"
+    },
+    {
+      "path": "JuliaSyntax/docs/Project.toml",
+      "language": "toml",
+      "fileCategory": "config"
+    },
+    {
+      "path": "JuliaSyntax/docs/make.jl",
+      "language": "jl",
+      "fileCategory": "code"
+    },
+    {
+      "path": "JuliaSyntax/docs/src/api.md",
+      "language": "markdown",
+      "fileCategory": "docs"
+    },
+    {
+      "path": "JuliaSyntax/docs/src/design.md",
+      "language": "markdown",
+      "fileCategory": "docs"
+    },
+    {
+      "path": "JuliaSyntax/docs/src/howto.md",
+      "language": "markdown",
+      "fileCategory": "docs"
+    },
+    {
+      "path": "JuliaSyntax/docs/src/index.md",
+      "language": "markdown",
+      "fileCategory": "docs"
+    },
+    {
+      "path": "JuliaSyntax/docs/src/reference.md",
+      "language": "markdown",
+      "fileCategory": "docs"
+    },
+    {
+      "path": "JuliaSyntax/prototypes/simple_parser.jl",
+      "language": "jl",
+      "fileCategory": "code"
+    },
+    {
+      "path": "JuliaSyntax/prototypes/syntax_interpolation.jl",
+      "language": "jl",
+      "fileCategory": "code"
+    },
+    {
+      "path": "JuliaSyntax/src/JuliaSyntax.jl",
+      "language": "jl",
+      "fileCategory": "code"
+    },
+    {
+      "path": "JuliaSyntax/src/core/diagnostics.jl",
+      "language": "jl",
+      "fileCategory": "code"
+    },
+    {
+      "path": "JuliaSyntax/src/core/parse_stream.jl",
+      "language": "jl",
+      "fileCategory": "code"
+    },
+    {
+      "path": "JuliaSyntax/src/core/source_files.jl",
+      "language": "jl",
+      "fileCategory": "code"
+    },
+    {
+      "path": "JuliaSyntax/src/core/tree_cursors.jl",
+      "language": "jl",
+      "fileCategory": "code"
+    },
+    {
+      "path": "JuliaSyntax/src/integration/expr.jl",
+      "language": "jl",
+      "fileCategory": "code"
+    },
+    {
+      "path": "JuliaSyntax/src/integration/hooks.jl",
+      "language": "jl",
+      "fileCategory": "code"
+    },
+    {
+      "path": "JuliaSyntax/src/julia/julia_parse_stream.jl",
+      "language": "jl",
+      "fileCategory": "code"
+    },
+    {
+      "path": "JuliaSyntax/src/julia/kinds.jl",
+      "language": "jl",
+      "fileCategory": "code"
+    },
+    {
+      "path": "JuliaSyntax/src/julia/literal_parsing.jl",
+      "language": "jl",
+      "fileCategory": "code"
+    },
+    {
+      "path": "JuliaSyntax/src/julia/parser.jl",
+      "language": "jl",
+      "fileCategory": "code"
+    },
+    {
+      "path": "JuliaSyntax/src/julia/parser_api.jl",
+      "language": "jl",
+      "fileCategory": "code"
+    },
+    {
+      "path": "JuliaSyntax/src/julia/tokenize.jl",
+      "language": "jl",
+      "fileCategory": "code"
+    },
+    {
+      "path": "JuliaSyntax/src/porcelain/green_node.jl",
+      "language": "jl",
+      "fileCategory": "code"
+    },
+    {
+      "path": "JuliaSyntax/src/porcelain/syntax.jl",
+      "language": "jl",
+      "fileCategory": "code"
+    },
+    {
+      "path": "JuliaSyntax/src/porcelain/syntax_node.jl",
+      "language": "jl",
+      "fileCategory": "code"
+    },
+    {
+      "path": "JuliaSyntax/src/precompile.jl",
+      "language": "jl",
+      "fileCategory": "code"
+    },
+    {
+      "path": "JuliaSyntax/src/utils.jl",
+      "language": "jl",
+      "fileCategory": "code"
+    },
+    {
+      "path": "JuliaSyntax/sysimage/JuliaSyntaxCore/Project.toml",
+      "language": "toml",
+      "fileCategory": "config"
+    },
+    {
+      "path": "JuliaSyntax/sysimage/JuliaSyntaxCore/src/JuliaSyntaxCore.jl",
+      "language": "jl",
+      "fileCategory": "code"
+    },
+    {
+      "path": "JuliaSyntax/sysimage/compile.jl",
+      "language": "jl",
+      "fileCategory": "code"
+    },
+    {
+      "path": "JuliaSyntax/sysimage/precompile.jl",
+      "language": "jl",
+      "fileCategory": "code"
+    },
+    {
+      "path": "JuliaSyntax/sysimage/precompile_exec.jl",
+      "language": "jl",
+      "fileCategory": "code"
+    },
+    {
+      "path": "JuliaSyntax/tools/bump_in_Base.jl",
+      "language": "jl",
+      "fileCategory": "code"
+    },
+    {
+      "path": "JuliaSyntax/tools/check_all_packages.jl",
+      "language": "jl",
+      "fileCategory": "code"
+    },
+    {
+      "path": "JuliaSyntax/tools/registry_download.jl",
+      "language": "jl",
+      "fileCategory": "code"
+    },
+    {
+      "path": "JuliaSyntax/tools/untar_packages.jl",
+      "language": "jl",
+      "fileCategory": "code"
+    },
+    {
+      "path": "LICENSE.md",
+      "language": "markdown",
+      "fileCategory": "docs"
+    },
+    {
+      "path": "Make.inc",
+      "language": "inc",
+      "fileCategory": "code"
+    },
+    {
+      "path": "Makefile",
+      "language": "makefile",
+      "fileCategory": "infra"
+    },
+    {
+      "path": "NEWS.md",
+      "language": "markdown",
+      "fileCategory": "docs"
+    },
+    {
+      "path": "README.md",
+      "language": "markdown",
+      "fileCategory": "docs"
+    },
+    {
+      "path": "THIRDPARTY.md",
+      "language": "markdown",
+      "fileCategory": "docs"
+    },
+    {
+      "path": "VERSION",
+      "language": "unknown",
+      "fileCategory": "code"
+    },
+    {
+      "path": "base/Base.jl",
+      "language": "jl",
+      "fileCategory": "code"
+    },
+    {
+      "path": "base/Base_compiler.jl",
+      "language": "jl",
+      "fileCategory": "code"
+    },
+    {
+      "path": "base/Enums.jl",
+      "language": "jl",
+      "fileCategory": "code"
+    },
+    {
+      "path": "base/Makefile",
+      "language": "makefile",
+      "fileCategory": "infra"
+    },
+    {
+      "path": "base/Terminals.jl",
+      "language": "jl",
+      "fileCategory": "code"
+    },
+    {
+      "path": "base/abstractarray.jl",
+      "language": "jl",
+      "fileCategory": "code"
+    },
+    {
+      "path": "base/abstractarraymath.jl",
+      "language": "jl",
+      "fileCategory": "code"
+    },
+    {
+      "path": "base/abstractdict.jl",
+      "language": "jl",
+      "fileCategory": "code"
+    },
+    {
+      "path": "base/abstractset.jl",
+      "language": "jl",
+      "fileCategory": "code"
+    },
+    {
+      "path": "base/accumulate.jl",
+      "language": "jl",
+      "fileCategory": "code"
+    },
+    {
+      "path": "base/anyall.jl",
+      "language": "jl",
+      "fileCategory": "code"
+    },
+    {
+      "path": "base/array.jl",
+      "language": "jl",
+      "fileCategory": "code"
+    },
+    {
+      "path": "base/arraymath.jl",
+      "language": "jl",
+      "fileCategory": "code"
+    },
+    {
+      "path": "base/arrayshow.jl",
+      "language": "jl",
+      "fileCategory": "code"
+    },
+    {
+      "path": "base/asyncevent.jl",
+      "language": "jl",
+      "fileCategory": "code"
+    },
+    {
+      "path": "base/asyncmap.jl",
+      "language": "jl",
+      "fileCategory": "code"
+    },
+    {
+      "path": "base/atomics.jl",
+      "language": "jl",
+      "fileCategory": "code"
+    },
+    {
+      "path": "base/baseext.jl",
+      "language": "jl",
+      "fileCategory": "code"
+    },
+    {
+      "path": "base/binaryplatforms.jl",
+      "language": "jl",
+      "fileCategory": "code"
+    },
+    {
+      "path": "base/bitarray.jl",
+      "language": "jl",
+      "fileCategory": "code"
+    },
+    {
+      "path": "base/bitset.jl",
+      "language": "jl",
+      "fileCategory": "code"
+    },
+    {
+      "path": "base/bool.jl",
+      "language": "jl",
+      "fileCategory": "code"
+    },
+    {
+      "path": "base/boot.jl",
+      "language": "jl",
+      "fileCategory": "code"
+    },
+    {
+      "path": "base/broadcast.jl",
+      "language": "jl",
+      "fileCategory": "code"
+    },
+    {
+      "path": "base/c.jl",
+      "language": "jl",
+      "fileCategory": "code"
+    },
+    {
+      "path": "base/cancellation.jl",
+      "language": "jl",
+      "fileCategory": "code"
+    },
+    {
+      "path": "base/cartesian.jl",
+      "language": "jl",
+      "fileCategory": "code"
+    },
+    {
+      "path": "base/channels.jl",
+      "language": "jl",
+      "fileCategory": "code"
+    },
+    {
+      "path": "base/char.jl",
+      "language": "jl",
+      "fileCategory": "code"
+    },
+    {
+      "path": "base/checked.jl",
+      "language": "jl",
+      "fileCategory": "code"
+    },
+    {
+      "path": "base/client.jl",
+      "language": "jl",
+      "fileCategory": "code"
+    },
+    {
+      "path": "base/cmd.jl",
+      "language": "jl",
+      "fileCategory": "code"
+    },
+    {
+      "path": "base/cmem.jl",
+      "language": "jl",
+      "fileCategory": "code"
+    },
+    {
+      "path": "base/combinatorics.jl",
+      "language": "jl",
+      "fileCategory": "code"
+    },
+    {
+      "path": "base/complex.jl",
+      "language": "jl",
+      "fileCategory": "code"
+    },
+    {
+      "path": "base/condition.jl",
+      "language": "jl",
+      "fileCategory": "code"
+    },
+    {
+      "path": "base/coreio.jl",
+      "language": "jl",
+      "fileCategory": "code"
+    },
+    {
+      "path": "base/coreir.jl",
+      "language": "jl",
+      "fileCategory": "code"
+    },
+    {
+      "path": "base/cpuid.jl",
+      "language": "jl",
+      "fileCategory": "code"
+    },
+    {
+      "path": "base/ctypes.jl",
+      "language": "jl",
+      "fileCategory": "code"
+    },
+    {
+      "path": "base/deepcopy.jl",
+      "language": "jl",
+      "fileCategory": "code"
+    },
+    {
+      "path": "base/deprecated.jl",
+      "language": "jl",
+      "fileCategory": "code"
+    },
+    {
+      "path": "base/dict.jl",
+      "language": "jl",
+      "fileCategory": "code"
+    },
+    {
+      "path": "base/div.jl",
+      "language": "jl",
+      "fileCategory": "code"
+    },
+    {
+      "path": "base/docs/Docs.jl",
+      "language": "jl",
+      "fileCategory": "code"
+    },
+    {
+      "path": "base/docs/basedocs.jl",
+      "language": "jl",
+      "fileCategory": "code"
+    },
+    {
+      "path": "base/docs/bindings.jl",
+      "language": "jl",
+      "fileCategory": "code"
+    },
+    {
+      "path": "base/docs/core.jl",
+      "language": "jl",
+      "fileCategory": "code"
+    },
+    {
+      "path": "base/docs/intrinsicsdocs.jl",
+      "language": "jl",
+      "fileCategory": "code"
+    },
+    {
+      "path": "base/docs/utils.jl",
+      "language": "jl",
+      "fileCategory": "code"
+    },
+    {
+      "path": "base/download.jl",
+      "language": "jl",
+      "fileCategory": "code"
+    },
+    {
+      "path": "base/env.jl",
+      "language": "jl",
+      "fileCategory": "code"
+    },
+    {
+      "path": "base/error.jl",
+      "language": "jl",
+      "fileCategory": "code"
+    },
+    {
+      "path": "base/errorshow.jl",
+      "language": "jl",
+      "fileCategory": "code"
+    },
+    {
+      "path": "base/essentials.jl",
+      "language": "jl",
+      "fileCategory": "code"
+    },
+    {
+      "path": "base/experimental.jl",
+      "language": "jl",
+      "fileCategory": "code"
+    },
+    {
+      "path": "base/exports.jl",
+      "language": "jl",
+      "fileCategory": "code"
+    },
+    {
+      "path": "base/expr.jl",
+      "language": "jl",
+      "fileCategory": "code"
+    },
+    {
+      "path": "base/fastmath.jl",
+      "language": "jl",
+      "fileCategory": "code"
+    },
+    {
+      "path": "base/file.jl",
+      "language": "jl",
+      "fileCategory": "code"
+    },
+    {
+      "path": "base/filesystem.jl",
+      "language": "jl",
+      "fileCategory": "code"
+    },
+    {
+      "path": "base/flfrontend.jl",
+      "language": "jl",
+      "fileCategory": "code"
+    },
+    {
+      "path": "base/float.jl",
+      "language": "jl",
+      "fileCategory": "code"
+    },
+    {
+      "path": "base/floatfuncs.jl",
+      "language": "jl",
+      "fileCategory": "code"
+    },
+    {
+      "path": "base/gcutils.jl",
+      "language": "jl",
+      "fileCategory": "code"
+    },
+    {
+      "path": "base/generator.jl",
+      "language": "jl",
+      "fileCategory": "code"
+    },
+    {
+      "path": "base/genericmemory.jl",
+      "language": "jl",
+      "fileCategory": "code"
+    },
+    {
+      "path": "base/gmp.jl",
+      "language": "jl",
+      "fileCategory": "code"
+    },
+    {
+      "path": "base/hamt.jl",
+      "language": "jl",
+      "fileCategory": "code"
+    },
+    {
+      "path": "base/hashing.jl",
+      "language": "jl",
+      "fileCategory": "code"
+    },
+    {
+      "path": "base/iddict.jl",
+      "language": "jl",
+      "fileCategory": "code"
+    },
+    {
+      "path": "base/idset.jl",
+      "language": "jl",
+      "fileCategory": "code"
+    },
+    {
+      "path": "base/indices.jl",
+      "language": "jl",
+      "fileCategory": "code"
+    },
+    {
+      "path": "base/initdefs.jl",
+      "language": "jl",
+      "fileCategory": "code"
+    },
+    {
+      "path": "base/int.jl",
+      "language": "jl",
+      "fileCategory": "code"
+    },
+    {
+      "path": "base/intfuncs.jl",
+      "language": "jl",
+      "fileCategory": "code"
+    },
+    {
+      "path": "base/io.jl",
+      "language": "jl",
+      "fileCategory": "code"
+    },
+    {
+      "path": "base/iobuffer.jl",
+      "language": "jl",
+      "fileCategory": "code"
+    },
+    {
+      "path": "base/iostream.jl",
+      "language": "jl",
+      "fileCategory": "code"
+    },
+    {
+      "path": "base/irrationals.jl",
+      "language": "jl",
+      "fileCategory": "code"
+    },
+    {
+      "path": "base/iterators.jl",
+      "language": "jl",
+      "fileCategory": "code"
+    },
+    {
+      "path": "base/libc.jl",
+      "language": "jl",
+      "fileCategory": "code"
+    },
+    {
+      "path": "base/libdl.jl",
+      "language": "jl",
+      "fileCategory": "code"
+    },
+    {
+      "path": "base/libuv.jl",
+      "language": "jl",
+      "fileCategory": "code"
+    },
+    {
+      "path": "base/linked_list.jl",
+      "language": "jl",
+      "fileCategory": "code"
+    },
+    {
+      "path": "base/linking.jl",
+      "language": "jl",
+      "fileCategory": "code"
+    },
+    {
+      "path": "base/loading.jl",
+      "language": "jl",
+      "fileCategory": "code"
+    },
+    {
+      "path": "base/lock.jl",
+      "language": "jl",
+      "fileCategory": "code"
+    },
+    {
+      "path": "base/locks-mt.jl",
+      "language": "jl",
+      "fileCategory": "code"
+    },
+    {
+      "path": "base/logging/ConsoleLogger.jl",
+      "language": "jl",
+      "fileCategory": "code"
+    },
+    {
+      "path": "base/logging/logging.jl",
+      "language": "jl",
+      "fileCategory": "code"
+    },
+    {
+      "path": "base/math.jl",
+      "language": "jl",
+      "fileCategory": "code"
+    },
+    {
+      "path": "base/mathconstants.jl",
+      "language": "jl",
+      "fileCategory": "code"
+    },
+    {
+      "path": "base/meta.jl",
+      "language": "jl",
+      "fileCategory": "code"
+    },
+    {
+      "path": "base/methodshow.jl",
+      "language": "jl",
+      "fileCategory": "code"
+    },
+    {
+      "path": "base/missing.jl",
+      "language": "jl",
+      "fileCategory": "code"
+    },
+    {
+      "path": "base/module.jl",
+      "language": "jl",
+      "fileCategory": "code"
+    },
+    {
+      "path": "base/mpfr.jl",
+      "language": "jl",
+      "fileCategory": "code"
+    },
+    {
+      "path": "base/multidimensional.jl",
+      "language": "jl",
+      "fileCategory": "code"
+    },
+    {
+      "path": "base/multimedia.jl",
+      "language": "jl",
+      "fileCategory": "code"
+    },
+    {
+      "path": "base/multinverses.jl",
+      "language": "jl",
+      "fileCategory": "code"
+    },
+    {
+      "path": "base/namedtuple.jl",
+      "language": "jl",
+      "fileCategory": "code"
+    },
+    {
+      "path": "base/ntuple.jl",
+      "language": "jl",
+      "fileCategory": "code"
+    },
+    {
+      "path": "base/number.jl",
+      "language": "jl",
+      "fileCategory": "code"
+    },
+    {
+      "path": "base/opaque_closure.jl",
+      "language": "jl",
+      "fileCategory": "code"
+    },
+    {
+      "path": "base/operators.jl",
+      "language": "jl",
+      "fileCategory": "code"
+    },
+    {
+      "path": "base/optimized_generics.jl",
+      "language": "jl",
+      "fileCategory": "code"
+    },
+    {
+      "path": "base/options.jl",
+      "language": "jl",
+      "fileCategory": "code"
+    },
+    {
+      "path": "base/ordering.jl",
+      "language": "jl",
+      "fileCategory": "code"
+    },
+    {
+      "path": "base/osinfo.jl",
+      "language": "jl",
+      "fileCategory": "code"
+    },
+    {
+      "path": "base/osutils.jl",
+      "language": "jl",
+      "fileCategory": "code"
+    },
+    {
+      "path": "base/pair.jl",
+      "language": "jl",
+      "fileCategory": "code"
+    },
+    {
+      "path": "base/park.jl",
+      "language": "jl",
+      "fileCategory": "code"
+    },
+    {
+      "path": "base/parse.jl",
+      "language": "jl",
+      "fileCategory": "code"
+    },
+    {
+      "path": "base/partr.jl",
+      "language": "jl",
+      "fileCategory": "code"
+    },
+    {
+      "path": "base/path.jl",
+      "language": "jl",
+      "fileCategory": "code"
+    },
+    {
+      "path": "base/pcre.jl",
+      "language": "jl",
+      "fileCategory": "code"
+    },
+    {
+      "path": "base/permuteddimsarray.jl",
+      "language": "jl",
+      "fileCategory": "code"
+    },
+    {
+      "path": "base/pkgid.jl",
+      "language": "jl",
+      "fileCategory": "code"
+    },
+    {
+      "path": "base/pointer.jl",
+      "language": "jl",
+      "fileCategory": "code"
+    },
+    {
+      "path": "base/precompilation.jl",
+      "language": "jl",
+      "fileCategory": "code"
+    },
+    {
+      "path": "base/process.jl",
+      "language": "jl",
+      "fileCategory": "code"
+    },
+    {
+      "path": "base/promotion.jl",
+      "language": "jl",
+      "fileCategory": "code"
+    },
+    {
+      "path": "base/public.jl",
+      "language": "jl",
+      "fileCategory": "code"
+    },
+    {
+      "path": "base/range.jl",
+      "language": "jl",
+      "fileCategory": "code"
+    },
+    {
+      "path": "base/rational.jl",
+      "language": "jl",
+      "fileCategory": "code"
+    },
+    {
+      "path": "base/rawbigfloats.jl",
+      "language": "jl",
+      "fileCategory": "code"
+    },
+    {
+      "path": "base/reduce.jl",
+      "language": "jl",
+      "fileCategory": "code"
+    },
+    {
+      "path": "base/reducedim.jl",
+      "language": "jl",
+      "fileCategory": "code"
+    },
+    {
+      "path": "base/reflection.jl",
+      "language": "jl",
+      "fileCategory": "code"
+    },
+    {
+      "path": "base/refpointer.jl",
+      "language": "jl",
+      "fileCategory": "code"
+    },
+    {
+      "path": "base/refvalue.jl",
+      "language": "jl",
+      "fileCategory": "code"
+    },
+    {
+      "path": "base/regex.jl",
+      "language": "jl",
+      "fileCategory": "code"
+    },
+    {
+      "path": "base/reinterpretarray.jl",
+      "language": "jl",
+      "fileCategory": "code"
+    },
+    {
+      "path": "base/reshapedarray.jl",
+      "language": "jl",
+      "fileCategory": "code"
+    },
+    {
+      "path": "base/rounding.jl",
+      "language": "jl",
+      "fileCategory": "code"
+    },
+    {
+      "path": "base/runtime_internals.jl",
+      "language": "jl",
+      "fileCategory": "code"
+    },
+    {
+      "path": "base/ryu/LICENSE.md",
+      "language": "markdown",
+      "fileCategory": "docs"
+    },
+    {
+      "path": "base/ryu/Ryu.jl",
+      "language": "jl",
+      "fileCategory": "code"
+    },
+    {
+      "path": "base/ryu/exp.jl",
+      "language": "jl",
+      "fileCategory": "code"
+    },
+    {
+      "path": "base/ryu/fixed.jl",
+      "language": "jl",
+      "fileCategory": "code"
+    },
+    {
+      "path": "base/ryu/shortest.jl",
+      "language": "jl",
+      "fileCategory": "code"
+    },
+    {
+      "path": "base/ryu/utils.jl",
+      "language": "jl",
+      "fileCategory": "code"
+    },
+    {
+      "path": "base/scope.jl",
+      "language": "jl",
+      "fileCategory": "code"
+    },
+    {
+      "path": "base/scopedvalues.jl",
+      "language": "jl",
+      "fileCategory": "code"
+    },
+    {
+      "path": "base/secretbuffer.jl",
+      "language": "jl",
+      "fileCategory": "code"
+    },
+    {
+      "path": "base/set.jl",
+      "language": "jl",
+      "fileCategory": "code"
+    },
+    {
+      "path": "base/shell.jl",
+      "language": "jl",
+      "fileCategory": "code"
+    },
+    {
+      "path": "base/show.jl",
+      "language": "jl",
+      "fileCategory": "code"
+    },
+    {
+      "path": "base/simdloop.jl",
+      "language": "jl",
+      "fileCategory": "code"
+    },
+    {
+      "path": "base/slicearray.jl",
+      "language": "jl",
+      "fileCategory": "code"
+    },
+    {
+      "path": "base/some.jl",
+      "language": "jl",
+      "fileCategory": "code"
+    },
+    {
+      "path": "base/sort.jl",
+      "language": "jl",
+      "fileCategory": "code"
+    },
+    {
+      "path": "base/special/cbrt.jl",
+      "language": "jl",
+      "fileCategory": "code"
+    },
+    {
+      "path": "base/special/exp.jl",
+      "language": "jl",
+      "fileCategory": "code"
+    },
+    {
+      "path": "base/special/hyperbolic.jl",
+      "language": "jl",
+      "fileCategory": "code"
+    },
+    {
+      "path": "base/special/log.jl",
+      "language": "jl",
+      "fileCategory": "code"
+    },
+    {
+      "path": "base/special/pow.jl",
+      "language": "jl",
+      "fileCategory": "code"
+    },
+    {
+      "path": "base/special/rem2pi.jl",
+      "language": "jl",
+      "fileCategory": "code"
+    },
+    {
+      "path": "base/special/rem_pio2.jl",
+      "language": "jl",
+      "fileCategory": "code"
+    },
+    {
+      "path": "base/special/trig.jl",
+      "language": "jl",
+      "fileCategory": "code"
+    },
+    {
+      "path": "base/stacktraces.jl",
+      "language": "jl",
+      "fileCategory": "code"
+    },
+    {
+      "path": "base/stat.jl",
+      "language": "jl",
+      "fileCategory": "code"
+    },
+    {
+      "path": "base/stream.jl",
+      "language": "jl",
+      "fileCategory": "code"
+    },
+    {
+      "path": "base/strings/annotated.jl",
+      "language": "jl",
+      "fileCategory": "code"
+    },
+    {
+      "path": "base/strings/annotated_io.jl",
+      "language": "jl",
+      "fileCategory": "code"
+    },
+    {
+      "path": "base/strings/basic.jl",
+      "language": "jl",
+      "fileCategory": "code"
+    },
+    {
+      "path": "base/strings/cstring.jl",
+      "language": "jl",
+      "fileCategory": "code"
+    },
+    {
+      "path": "base/strings/io.jl",
+      "language": "jl",
+      "fileCategory": "code"
+    },
+    {
+      "path": "base/strings/lazy.jl",
+      "language": "jl",
+      "fileCategory": "code"
+    },
+    {
+      "path": "base/strings/search.jl",
+      "language": "jl",
+      "fileCategory": "code"
+    },
+    {
+      "path": "base/strings/string.jl",
+      "language": "jl",
+      "fileCategory": "code"
+    },
+    {
+      "path": "base/strings/strings.jl",
+      "language": "jl",
+      "fileCategory": "code"
+    },
+    {
+      "path": "base/strings/stringview.jl",
+      "language": "jl",
+      "fileCategory": "code"
+    },
+    {
+      "path": "base/strings/substring.jl",
+      "language": "jl",
+      "fileCategory": "code"
+    },
+    {
+      "path": "base/strings/unicode.jl",
+      "language": "jl",
+      "fileCategory": "code"
+    },
+    {
+      "path": "base/strings/util.jl",
+      "language": "jl",
+      "fileCategory": "code"
+    },
+    {
+      "path": "base/subarray.jl",
+      "language": "jl",
+      "fileCategory": "code"
+    },
+    {
+      "path": "base/summarysize.jl",
+      "language": "jl",
+      "fileCategory": "code"
+    },
+    {
+      "path": "base/sysimg.jl",
+      "language": "jl",
+      "fileCategory": "code"
+    },
+    {
+      "path": "base/sysinfo.jl",
+      "language": "jl",
+      "fileCategory": "code"
+    },
+    {
+      "path": "base/task.jl",
+      "language": "jl",
+      "fileCategory": "code"
+    },
+    {
+      "path": "base/terminfo.jl",
+      "language": "jl",
+      "fileCategory": "code"
+    },
+    {
+      "path": "base/terminfo_data.jl",
+      "language": "jl",
+      "fileCategory": "code"
+    },
+    {
+      "path": "base/threadcall.jl",
+      "language": "jl",
+      "fileCategory": "code"
+    },
+    {
+      "path": "base/threadingconstructs.jl",
+      "language": "jl",
+      "fileCategory": "code"
+    },
+    {
+      "path": "base/threads.jl",
+      "language": "jl",
+      "fileCategory": "code"
+    },
+    {
+      "path": "base/threads_overloads.jl",
+      "language": "jl",
+      "fileCategory": "code"
+    },
+    {
+      "path": "base/timing.jl",
+      "language": "jl",
+      "fileCategory": "code"
+    },
+    {
+      "path": "base/toml/parser.jl",
+      "language": "jl",
+      "fileCategory": "code"
+    },
+    {
+      "path": "base/toml/printer.jl",
+      "language": "jl",
+      "fileCategory": "code"
+    },
+    {
+      "path": "base/toml/toml.jl",
+      "language": "jl",
+      "fileCategory": "code"
+    },
+    {
+      "path": "base/traits.jl",
+      "language": "jl",
+      "fileCategory": "code"
+    },
+    {
+      "path": "base/tuple.jl",
+      "language": "jl",
+      "fileCategory": "code"
+    },
+    {
+      "path": "base/twiceprecision.jl",
+      "language": "jl",
+      "fileCategory": "code"
+    },
+    {
+      "path": "base/util.jl",
+      "language": "jl",
+      "fileCategory": "code"
+    },
+    {
+      "path": "base/uuid.jl",
+      "language": "jl",
+      "fileCategory": "code"
+    },
+    {
+      "path": "base/version.jl",
+      "language": "jl",
+      "fileCategory": "code"
+    },
+    {
+      "path": "base/version_git.sh",
+      "language": "shell",
+      "fileCategory": "script"
+    },
+    {
+      "path": "base/views.jl",
+      "language": "jl",
+      "fileCategory": "code"
+    },
+    {
+      "path": "base/weakdict.jl",
+      "language": "jl",
+      "fileCategory": "code"
+    },
+    {
+      "path": "cli/Makefile",
+      "language": "makefile",
+      "fileCategory": "infra"
+    },
+    {
+      "path": "cli/README.md",
+      "language": "markdown",
+      "fileCategory": "docs"
+    },
+    {
+      "path": "cli/dl-cache.h",
+      "language": "c",
+      "fileCategory": "code"
+    },
+    {
+      "path": "cli/jl_exports.h",
+      "language": "c",
+      "fileCategory": "code"
+    },
+    {
+      "path": "cli/julia.expmap.in",
+      "language": "in",
+      "fileCategory": "code"
+    },
+    {
+      "path": "cli/list_strip_symbols.h",
+      "language": "c",
+      "fileCategory": "code"
+    },
+    {
+      "path": "cli/loader.h",
+      "language": "c",
+      "fileCategory": "code"
+    },
+    {
+      "path": "cli/loader_exe.c",
+      "language": "c",
+      "fileCategory": "code"
+    },
+    {
+      "path": "cli/loader_lib.c",
+      "language": "c",
+      "fileCategory": "code"
+    },
+    {
+      "path": "cli/loader_library_probe.c",
+      "language": "c",
+      "fileCategory": "code"
+    },
+    {
+      "path": "cli/loader_symbol_probe.c",
+      "language": "c",
+      "fileCategory": "code"
+    },
+    {
+      "path": "cli/loader_win_utils.c",
+      "language": "c",
+      "fileCategory": "code"
+    },
+    {
+      "path": "cli/trampolines/common.h",
+      "language": "c",
+      "fileCategory": "code"
+    },
+    {
+      "path": "cli/trampolines/trampolines_aarch64.S",
+      "language": "s",
+      "fileCategory": "code"
+    },
+    {
+      "path": "cli/trampolines/trampolines_arm.S",
+      "language": "s",
+      "fileCategory": "code"
+    },
+    {
+      "path": "cli/trampolines/trampolines_i686.S",
+      "language": "s",
+      "fileCategory": "code"
+    },
+    {
+      "path": "cli/trampolines/trampolines_powerpc64le.S",
+      "language": "s",
+      "fileCategory": "code"
+    },
+    {
+      "path": "cli/trampolines/trampolines_riscv64.S",
+      "language": "s",
+      "fileCategory": "code"
+    },
+    {
+      "path": "cli/trampolines/trampolines_x86_64.S",
+      "language": "s",
+      "fileCategory": "code"
+    },
+    {
+      "path": "contrib/README.md",
+      "language": "markdown",
+      "fileCategory": "docs"
+    },
+    {
+      "path": "contrib/add_license_to_files.jl",
+      "language": "jl",
+      "fileCategory": "code"
+    },
+    {
+      "path": "contrib/asan/Make.user.asan",
+      "language": "asan",
+      "fileCategory": "code"
+    },
+    {
+      "path": "contrib/asan/Make.user.tools",
+      "language": "tools",
+      "fileCategory": "code"
+    },
+    {
+      "path": "contrib/asan/build.sh",
+      "language": "shell",
+      "fileCategory": "script"
+    },
+    {
+      "path": "contrib/asan/check.jl",
+      "language": "jl",
+      "fileCategory": "code"
+    },
+    {
+      "path": "contrib/bolt/Makefile",
+      "language": "makefile",
+      "fileCategory": "infra"
+    },
+    {
+      "path": "contrib/bolt/README.md",
+      "language": "markdown",
+      "fileCategory": "docs"
+    },
+    {
+      "path": "contrib/bpftrace/gc_all.bt",
+      "language": "bt",
+      "fileCategory": "code"
+    },
+    {
+      "path": "contrib/bpftrace/gc_simple.bt",
+      "language": "bt",
+      "fileCategory": "code"
+    },
+    {
+      "path": "contrib/bpftrace/gc_stop_the_world_latency.bt",
+      "language": "bt",
+      "fileCategory": "code"
+    },
+    {
+      "path": "contrib/bpftrace/rt_all.bt",
+      "language": "bt",
+      "fileCategory": "code"
+    },
+    {
+      "path": "contrib/bump_stdlib.sh",
+      "language": "shell",
+      "fileCategory": "script"
+    },
+    {
+      "path": "contrib/check-whitespace.jl",
+      "language": "jl",
+      "fileCategory": "code"
+    },
+    {
+      "path": "contrib/ci-timing/Project.toml",
+      "language": "toml",
+      "fileCategory": "config"
+    },
+    {
+      "path": "contrib/ci-timing/ci_timing_compare.jl",
+      "language": "jl",
+      "fileCategory": "code"
+    },
+    {
+      "path": "contrib/commit-name.sh",
+      "language": "shell",
+      "fileCategory": "script"
+    },
+    {
+      "path": "contrib/debug_bootstrap.gdb",
+      "language": "gdb",
+      "fileCategory": "code"
+    },
+    {
+      "path": "contrib/delete-all-rpaths.sh",
+      "language": "shell",
+      "fileCategory": "script"
+    },
+    {
+      "path": "contrib/download_cmake.sh",
+      "language": "shell",
+      "fileCategory": "script"
+    },
+    {
+      "path": "contrib/escape_json.sh",
+      "language": "shell",
+      "fileCategory": "script"
+    },
+    {
+      "path": "contrib/excise_stdlib.sh",
+      "language": "shell",
+      "fileCategory": "script"
+    },
+    {
+      "path": "contrib/fixup-libgfortran.sh",
+      "language": "shell",
+      "fileCategory": "script"
+    },
+    {
+      "path": "contrib/fixup-libstdc++.sh",
+      "language": "shell",
+      "fileCategory": "script"
+    },
+    {
+      "path": "contrib/fixup-rpath.sh",
+      "language": "shell",
+      "fileCategory": "script"
+    },
+    {
+      "path": "contrib/generate_precompile.jl",
+      "language": "jl",
+      "fileCategory": "code"
+    },
+    {
+      "path": "contrib/github_source_release.sh",
+      "language": "shell",
+      "fileCategory": "script"
+    },
+    {
+      "path": "contrib/httpbin-prod-swagger-apigateway.yaml",
+      "language": "yaml",
+      "fileCategory": "config"
+    },
+    {
+      "path": "contrib/install.sh",
+      "language": "shell",
+      "fileCategory": "script"
+    },
+    {
+      "path": "contrib/julia-config.jl",
+      "language": "jl",
+      "fileCategory": "code"
+    },
+    {
+      "path": "contrib/julia.appdata.xml",
+      "language": "xml",
+      "fileCategory": "config"
+    },
+    {
+      "path": "contrib/julia.desktop",
+      "language": "desktop",
+      "fileCategory": "code"
+    },
+    {
+      "path": "contrib/mac/app/Entitlements.plist",
+      "language": "xml",
+      "fileCategory": "config"
+    },
+    {
+      "path": "contrib/mac/app/Info.plist.in",
+      "language": "in",
+      "fileCategory": "code"
+    },
+    {
+      "path": "contrib/mac/app/Makefile",
+      "language": "makefile",
+      "fileCategory": "infra"
+    },
+    {
+      "path": "contrib/mac/app/README.md",
+      "language": "markdown",
+      "fileCategory": "docs"
+    },
+    {
+      "path": "contrib/mac/app/julia.icns",
+      "language": "icns",
+      "fileCategory": "code"
+    },
+    {
+      "path": "contrib/mac/app/notarize_check.sh",
+      "language": "shell",
+      "fileCategory": "script"
+    },
+    {
+      "path": "contrib/mac/app/renotarize_dmg.sh",
+      "language": "shell",
+      "fileCategory": "script"
+    },
+    {
+      "path": "contrib/mac/framework/Julia.h",
+      "language": "c",
+      "fileCategory": "code"
+    },
+    {
+      "path": "contrib/mac/framework/Makefile",
+      "language": "makefile",
+      "fileCategory": "infra"
+    },
+    {
+      "path": "contrib/mac/framework/julia.entitlements",
+      "language": "entitlements",
+      "fileCategory": "code"
+    },
+    {
+      "path": "contrib/mac/framework/module.modulemap",
+      "language": "modulemap",
+      "fileCategory": "code"
+    },
+    {
+      "path": "contrib/mac/frameworkapp/ExecSandbox/ExecSandbox.entitlements",
+      "language": "entitlements",
+      "fileCategory": "code"
+    },
+    {
+      "path": "contrib/mac/frameworkapp/ExecSandbox/ExecSandbox.h",
+      "language": "c",
+      "fileCategory": "code"
+    },
+    {
+      "path": "contrib/mac/frameworkapp/ExecSandbox/ExecSandbox.m",
+      "language": "m",
+      "fileCategory": "code"
+    },
+    {
+      "path": "contrib/mac/frameworkapp/ExecSandbox/ExecSandboxProtocol.h",
+      "language": "c",
+      "fileCategory": "code"
+    },
+    {
+      "path": "contrib/mac/frameworkapp/ExecSandbox/ExecSandboxProtocol.m",
+      "language": "m",
+      "fileCategory": "code"
+    },
+    {
+      "path": "contrib/mac/frameworkapp/ExecSandbox/Info.plist",
+      "language": "xml",
+      "fileCategory": "config"
+    },
+    {
+      "path": "contrib/mac/frameworkapp/ExecSandbox/main.m",
+      "language": "m",
+      "fileCategory": "code"
+    },
+    {
+      "path": "contrib/mac/frameworkapp/Julia.dist",
+      "language": "dist",
+      "fileCategory": "code"
+    },
+    {
+      "path": "contrib/mac/frameworkapp/JuliaLauncher.xcodeproj/project.pbxproj",
+      "language": "pbxproj",
+      "fileCategory": "code"
+    },
+    {
+      "path": "contrib/mac/frameworkapp/JuliaLauncher.xcodeproj/project.xcworkspace/contents.xcworkspacedata",
+      "language": "xcworkspacedata",
+      "fileCategory": "code"
+    },
+    {
+      "path": "contrib/mac/frameworkapp/JuliaLauncher.xcodeproj/project.xcworkspace/xcshareddata/IDEWorkspaceChecks.plist",
+      "language": "xml",
+      "fileCategory": "config"
+    },
+    {
+      "path": "contrib/mac/frameworkapp/JuliaLauncher.xcodeproj/xcshareddata/xcschemes/JuliaLauncher.xcscheme",
+      "language": "xcscheme",
+      "fileCategory": "code"
+    },
+    {
+      "path": "contrib/mac/frameworkapp/JuliaLauncher/AppDelegate.h",
+      "language": "c",
+      "fileCategory": "code"
+    },
+    {
+      "path": "contrib/mac/frameworkapp/JuliaLauncher/AppDelegate.m",
+      "language": "m",
+      "fileCategory": "code"
+    },
+    {
+      "path": "contrib/mac/frameworkapp/JuliaLauncher/Assets.xcassets/AppIcon.appiconset/Contents.json",
+      "language": "json",
+      "fileCategory": "config"
+    },
+    {
+      "path": "contrib/mac/frameworkapp/JuliaLauncher/Assets.xcassets/Contents.json",
+      "language": "json",
+      "fileCategory": "config"
+    },
+    {
+      "path": "contrib/mac/frameworkapp/JuliaLauncher/Base.lproj/MainMenu.xib",
+      "language": "xib",
+      "fileCategory": "code"
+    },
+    {
+      "path": "contrib/mac/frameworkapp/JuliaLauncher/Info.plist",
+      "language": "xml",
+      "fileCategory": "config"
+    },
+    {
+      "path": "contrib/mac/frameworkapp/JuliaLauncher/JuliaLauncher.entitlements",
+      "language": "entitlements",
+      "fileCategory": "code"
+    },
+    {
+      "path": "contrib/mac/frameworkapp/JuliaLauncher/julia.idraw",
+      "language": "idraw",
+      "fileCategory": "code"
+    },
+    {
+      "path": "contrib/mac/frameworkapp/JuliaLauncher/main.m",
+      "language": "m",
+      "fileCategory": "code"
+    },
+    {
+      "path": "contrib/mac/frameworkapp/Makefile",
+      "language": "makefile",
+      "fileCategory": "infra"
+    },
+    {
+      "path": "contrib/mac/frameworkapp/README.md",
+      "language": "markdown",
+      "fileCategory": "docs"
+    },
+    {
+      "path": "contrib/mac/frameworkapp/framework-component.plist",
+      "language": "xml",
+      "fileCategory": "config"
+    },
+    {
+      "path": "contrib/mac/frameworkapp/installresources/conclusion.rtf",
+      "language": "rtf",
+      "fileCategory": "code"
+    },
+    {
+      "path": "contrib/mac/frameworkapp/installresources/readme.rtf",
+      "language": "rtf",
+      "fileCategory": "code"
+    },
+    {
+      "path": "contrib/mac/libSystem.tbd",
+      "language": "tbd",
+      "fileCategory": "code"
+    },
+    {
+      "path": "contrib/new-stdlib.sh",
+      "language": "shell",
+      "fileCategory": "script"
+    },
+    {
+      "path": "contrib/normalize_triplet.py",
+      "language": "python",
+      "fileCategory": "code"
+    },
+    {
+      "path": "contrib/pgo-lto-bolt/Makefile",
+      "language": "makefile",
+      "fileCategory": "infra"
+    },
+    {
+      "path": "contrib/pgo-lto-bolt/README.md",
+      "language": "markdown",
+      "fileCategory": "docs"
+    },
+    {
+      "path": "contrib/pgo-lto/Makefile",
+      "language": "makefile",
+      "fileCategory": "infra"
+    },
+    {
+      "path": "contrib/print_sorted_stdlibs.jl",
+      "language": "jl",
+      "fileCategory": "code"
+    },
+    {
+      "path": "contrib/refresh_checksums.mk",
+      "language": "mk",
+      "fileCategory": "code"
+    },
+    {
+      "path": "contrib/relative_path.py",
+      "language": "python",
+      "fileCategory": "code"
+    },
+    {
+      "path": "contrib/stringreplace.c",
+      "language": "c",
+      "fileCategory": "code"
+    },
+    {
+      "path": "contrib/tsan/Make.user.tsan",
+      "language": "tsan",
+      "fileCategory": "code"
+    },
+    {
+      "path": "contrib/tsan/build.sh",
+      "language": "shell",
+      "fileCategory": "script"
+    },
+    {
+      "path": "contrib/tsan/ignorelist.txt",
+      "language": "txt",
+      "fileCategory": "docs"
+    },
+    {
+      "path": "contrib/tsan/suppressions.txt",
+      "language": "txt",
+      "fileCategory": "docs"
+    },
+    {
+      "path": "contrib/updateSPDX.jl",
+      "language": "jl",
+      "fileCategory": "code"
+    },
+    {
+      "path": "contrib/valgrind-julia.supp",
+      "language": "supp",
+      "fileCategory": "code"
+    },
+    {
+      "path": "contrib/windows/build-installer.iss",
+      "language": "iss",
+      "fileCategory": "code"
+    },
+    {
+      "path": "contrib/windows/icon-readme.md",
+      "language": "markdown",
+      "fileCategory": "docs"
+    },
+    {
+      "path": "contrib/windows/julia-banner.bmp",
+      "language": "bmp",
+      "fileCategory": "code"
+    },
+    {
+      "path": "contrib/windows/julia-dots.bmp",
+      "language": "bmp",
+      "fileCategory": "code"
+    },
+    {
+      "path": "contrib/windows/julia-manifest.xml",
+      "language": "xml",
+      "fileCategory": "config"
+    },
+    {
+      "path": "contrib/windows/julia.rc",
+      "language": "rc",
+      "fileCategory": "code"
+    },
+    {
+      "path": "contrib/write_base_cache.jl",
+      "language": "jl",
+      "fileCategory": "code"
+    },
+    {
+      "path": "doc/Makefile",
+      "language": "makefile",
+      "fileCategory": "infra"
+    },
+    {
+      "path": "doc/NEWS-update.jl",
+      "language": "jl",
+      "fileCategory": "code"
+    },
+    {
+      "path": "doc/README.md",
+      "language": "markdown",
+      "fileCategory": "docs"
+    },
+    {
+      "path": "doc/make.jl",
+      "language": "jl",
+      "fileCategory": "code"
+    },
+    {
+      "path": "doc/man/julia.1",
+      "language": "1",
+      "fileCategory": "code"
+    },
+    {
+      "path": "doc/src/assets/cover-splash.tex",
+      "language": "tex",
+      "fileCategory": "code"
+    },
+    {
+      "path": "doc/src/assets/cover.tex",
+      "language": "tex",
+      "fileCategory": "code"
+    },
+    {
+      "path": "doc/src/assets/custom.sty",
+      "language": "sty",
+      "fileCategory": "code"
+    },
+    {
+      "path": "doc/src/assets/julia-manual.css",
+      "language": "css",
+      "fileCategory": "markup"
+    },
+    {
+      "path": "doc/src/assets/logo.tex",
+      "language": "tex",
+      "fileCategory": "code"
+    },
+    {
+      "path": "doc/src/assets/preamble.tex",
+      "language": "tex",
+      "fileCategory": "code"
+    },
+    {
+      "path": "doc/src/base/arrays.md",
+      "language": "markdown",
+      "fileCategory": "docs"
+    },
+    {
+      "path": "doc/src/base/base.md",
+      "language": "markdown",
+      "fileCategory": "docs"
+    },
+    {
+      "path": "doc/src/base/c.md",
+      "language": "markdown",
+      "fileCategory": "docs"
+    },
+    {
+      "path": "doc/src/base/collections.md",
+      "language": "markdown",
+      "fileCategory": "docs"
+    },
+    {
+      "path": "doc/src/base/constants.md",
+      "language": "markdown",
+      "fileCategory": "docs"
+    },
+    {
+      "path": "doc/src/base/file.md",
+      "language": "markdown",
+      "fileCategory": "docs"
+    },
+    {
+      "path": "doc/src/base/io-network.md",
+      "language": "markdown",
+      "fileCategory": "docs"
+    },
+    {
+      "path": "doc/src/base/iterators.md",
+      "language": "markdown",
+      "fileCategory": "docs"
+    },
+    {
+      "path": "doc/src/base/libc.md",
+      "language": "markdown",
+      "fileCategory": "docs"
+    },
+    {
+      "path": "doc/src/base/math.md",
+      "language": "markdown",
+      "fileCategory": "docs"
+    },
+    {
+      "path": "doc/src/base/multi-threading.md",
+      "language": "markdown",
+      "fileCategory": "docs"
+    },
+    {
+      "path": "doc/src/base/numbers.md",
+      "language": "markdown",
+      "fileCategory": "docs"
+    },
+    {
+      "path": "doc/src/base/parallel.md",
+      "language": "markdown",
+      "fileCategory": "docs"
+    },
+    {
+      "path": "doc/src/base/punctuation.md",
+      "language": "markdown",
+      "fileCategory": "docs"
+    },
+    {
+      "path": "doc/src/base/reflection.md",
+      "language": "markdown",
+      "fileCategory": "docs"
+    },
+    {
+      "path": "doc/src/base/scopedvalues.md",
+      "language": "markdown",
+      "fileCategory": "docs"
+    },
+    {
+      "path": "doc/src/base/simd-types.md",
+      "language": "markdown",
+      "fileCategory": "docs"
+    },
+    {
+      "path": "doc/src/base/sort.md",
+      "language": "markdown",
+      "fileCategory": "docs"
+    },
+    {
+      "path": "doc/src/base/stacktraces.md",
+      "language": "markdown",
+      "fileCategory": "docs"
+    },
+    {
+      "path": "doc/src/base/strings.md",
+      "language": "markdown",
+      "fileCategory": "docs"
+    },
+    {
+      "path": "doc/src/devdocs/EscapeAnalysis.md",
+      "language": "markdown",
+      "fileCategory": "docs"
+    },
+    {
+      "path": "doc/src/devdocs/agents/README.md",
+      "language": "markdown",
+      "fileCategory": "docs"
+    },
+    {
+      "path": "doc/src/devdocs/agents/skills/buildkite-logs/SKILL.md",
+      "language": "markdown",
+      "fileCategory": "docs"
+    },
+    {
+      "path": "doc/src/devdocs/agents/skills/c-static-analysis/SKILL.md",
+      "language": "markdown",
+      "fileCategory": "docs"
+    },
+    {
+      "path": "doc/src/devdocs/agents/skills/ci-timing/SKILL.md",
+      "language": "markdown",
+      "fileCategory": "docs"
+    },
+    {
+      "path": "doc/src/devdocs/agents/skills/compiler-jl/SKILL.md",
+      "language": "markdown",
+      "fileCategory": "docs"
+    },
+    {
+      "path": "doc/src/devdocs/agents/skills/doctests/SKILL.md",
+      "language": "markdown",
+      "fileCategory": "docs"
+    },
+    {
+      "path": "doc/src/devdocs/agents/skills/external-deps/SKILL.md",
+      "language": "markdown",
+      "fileCategory": "docs"
+    },
+    {
+      "path": "doc/src/devdocs/agents/skills/julia-syntax-lowering/SKILL.md",
+      "language": "markdown",
+      "fileCategory": "docs"
+    },
+    {
+      "path": "doc/src/devdocs/agents/skills/test-changes/SKILL.md",
+      "language": "markdown",
+      "fileCategory": "docs"
+    },
+    {
+      "path": "doc/src/devdocs/aot.md",
+      "language": "markdown",
+      "fileCategory": "docs"
+    },
+    {
+      "path": "doc/src/devdocs/ast.md",
+      "language": "markdown",
+      "fileCategory": "docs"
+    },
+    {
+      "path": "doc/src/devdocs/backtraces.md",
+      "language": "markdown",
+      "fileCategory": "docs"
+    },
+    {
+      "path": "doc/src/devdocs/boundscheck.md",
+      "language": "markdown",
+      "fileCategory": "docs"
+    },
+    {
+      "path": "doc/src/devdocs/builtins.md",
+      "language": "markdown",
+      "fileCategory": "docs"
+    },
+    {
+      "path": "doc/src/devdocs/callconv.md",
+      "language": "markdown",
+      "fileCategory": "docs"
+    },
+    {
+      "path": "doc/src/devdocs/cartesian.md",
+      "language": "markdown",
+      "fileCategory": "docs"
+    },
+    {
+      "path": "doc/src/devdocs/compiler.md",
+      "language": "markdown",
+      "fileCategory": "docs"
+    },
+    {
+      "path": "doc/src/devdocs/compiler_changes.md",
+      "language": "markdown",
+      "fileCategory": "docs"
+    },
+    {
+      "path": "doc/src/devdocs/contributing/aiagents.md",
+      "language": "markdown",
+      "fileCategory": "docs"
+    },
+    {
+      "path": "doc/src/devdocs/contributing/code-changes.md",
+      "language": "markdown",
+      "fileCategory": "docs"
+    },
+    {
+      "path": "doc/src/devdocs/contributing/documentation.md",
+      "language": "markdown",
+      "fileCategory": "docs"
+    },
+    {
+      "path": "doc/src/devdocs/contributing/formatting.md",
+      "language": "markdown",
+      "fileCategory": "docs"
+    },
+    {
+      "path": "doc/src/devdocs/contributing/git-workflow.md",
+      "language": "markdown",
+      "fileCategory": "docs"
+    },
+    {
+      "path": "doc/src/devdocs/contributing/jldoctests.md",
+      "language": "markdown",
+      "fileCategory": "docs"
+    },
+    {
+      "path": "doc/src/devdocs/contributing/patch-releases.md",
+      "language": "markdown",
+      "fileCategory": "docs"
+    },
+    {
+      "path": "doc/src/devdocs/contributing/tests.md",
+      "language": "markdown",
+      "fileCategory": "docs"
+    },
+    {
+      "path": "doc/src/devdocs/debuggingtips.md",
+      "language": "markdown",
+      "fileCategory": "docs"
+    },
+    {
+      "path": "doc/src/devdocs/diagnostics.md",
+      "language": "markdown",
+      "fileCategory": "docs"
+    },
+    {
+      "path": "doc/src/devdocs/eval.md",
+      "language": "markdown",
+      "fileCategory": "docs"
+    },
+    {
+      "path": "doc/src/devdocs/external_profilers.md",
+      "language": "markdown",
+      "fileCategory": "docs"
+    },
+    {
+      "path": "doc/src/devdocs/functions.md",
+      "language": "markdown",
+      "fileCategory": "docs"
+    },
+    {
+      "path": "doc/src/devdocs/gc-debug.md",
+      "language": "markdown",
+      "fileCategory": "docs"
+    },
+    {
+      "path": "doc/src/devdocs/gc-mmtk.md",
+      "language": "markdown",
+      "fileCategory": "docs"
+    },
+    {
+      "path": "doc/src/devdocs/gc-sa.md",
+      "language": "markdown",
+      "fileCategory": "docs"
+    },
+    {
+      "path": "doc/src/devdocs/gc.md",
+      "language": "markdown",
+      "fileCategory": "docs"
+    },
+    {
+      "path": "doc/src/devdocs/inference.md",
+      "language": "markdown",
+      "fileCategory": "docs"
+    },
+    {
+      "path": "doc/src/devdocs/init.md",
+      "language": "markdown",
+      "fileCategory": "docs"
+    },
+    {
+      "path": "doc/src/devdocs/isbitsunionarrays.md",
+      "language": "markdown",
+      "fileCategory": "docs"
+    },
+    {
+      "path": "doc/src/devdocs/jit.md",
+      "language": "markdown",
+      "fileCategory": "docs"
+    },
+    {
+      "path": "doc/src/devdocs/llvm-passes.md",
+      "language": "markdown",
+      "fileCategory": "docs"
+    },
+    {
+      "path": "doc/src/devdocs/llvm.md",
+      "language": "markdown",
+      "fileCategory": "docs"
+    },
+    {
+      "path": "doc/src/devdocs/locks.md",
+      "language": "markdown",
+      "fileCategory": "docs"
+    },
+    {
+      "path": "doc/src/devdocs/meta.md",
+      "language": "markdown",
+      "fileCategory": "docs"
+    },
+    {
+      "path": "doc/src/devdocs/object.md",
+      "language": "markdown",
+      "fileCategory": "docs"
+    },
+    {
+      "path": "doc/src/devdocs/offset-arrays.md",
+      "language": "markdown",
+      "fileCategory": "docs"
+    },
+    {
+      "path": "doc/src/devdocs/pkgimg.md",
+      "language": "markdown",
+      "fileCategory": "docs"
+    },
+    {
+      "path": "doc/src/devdocs/precompile_hang.md",
+      "language": "markdown",
+      "fileCategory": "docs"
+    },
+    {
+      "path": "doc/src/devdocs/probes.md",
+      "language": "markdown",
+      "fileCategory": "docs"
+    },
+    {
+      "path": "doc/src/devdocs/require.md",
+      "language": "markdown",
+      "fileCategory": "docs"
+    },
+    {
+      "path": "doc/src/devdocs/sanitizers.md",
+      "language": "markdown",
+      "fileCategory": "docs"
+    },
+    {
+      "path": "doc/src/devdocs/scheduler-wakeup.md",
+      "language": "markdown",
+      "fileCategory": "docs"
+    },
+    {
+      "path": "doc/src/devdocs/scheduler-wakeup/MCFixed.cfg",
+      "language": "config",
+      "fileCategory": "config"
+    },
+    {
+      "path": "doc/src/devdocs/scheduler-wakeup/MCFixed.tla",
+      "language": "tla",
+      "fileCategory": "code"
+    },
+    {
+      "path": "doc/src/devdocs/scheduler-wakeup/SchedulerWake.tla",
+      "language": "tla",
+      "fileCategory": "code"
+    },
+    {
+      "path": "doc/src/devdocs/ssair.md",
+      "language": "markdown",
+      "fileCategory": "docs"
+    },
+    {
+      "path": "doc/src/devdocs/stdio.md",
+      "language": "markdown",
+      "fileCategory": "docs"
+    },
+    {
+      "path": "doc/src/devdocs/subarrays.md",
+      "language": "markdown",
+      "fileCategory": "docs"
+    },
+    {
+      "path": "doc/src/devdocs/sysimg.md",
+      "language": "markdown",
+      "fileCategory": "docs"
+    },
+    {
+      "path": "doc/src/devdocs/types.md",
+      "language": "markdown",
+      "fileCategory": "docs"
+    },
+    {
+      "path": "doc/src/devdocs/ub.md",
+      "language": "markdown",
+      "fileCategory": "docs"
+    },
+    {
+      "path": "doc/src/devdocs/valgrind.md",
+      "language": "markdown",
+      "fileCategory": "docs"
+    },
+    {
+      "path": "doc/src/index.md",
+      "language": "markdown",
+      "fileCategory": "docs"
+    },
+    {
+      "path": "doc/src/manual/arrays.md",
+      "language": "markdown",
+      "fileCategory": "docs"
+    },
+    {
+      "path": "doc/src/manual/asynchronous-programming.md",
+      "language": "markdown",
+      "fileCategory": "docs"
+    },
+    {
+      "path": "doc/src/manual/calling-c-and-fortran-code.md",
+      "language": "markdown",
+      "fileCategory": "docs"
+    },
+    {
+      "path": "doc/src/manual/code-loading.md",
+      "language": "markdown",
+      "fileCategory": "docs"
+    },
+    {
+      "path": "doc/src/manual/command-line-interface.md",
+      "language": "markdown",
+      "fileCategory": "docs"
+    },
+    {
+      "path": "doc/src/manual/complex-and-rational-numbers.md",
+      "language": "markdown",
+      "fileCategory": "docs"
+    },
+    {
+      "path": "doc/src/manual/constructors.md",
+      "language": "markdown",
+      "fileCategory": "docs"
+    },
+    {
+      "path": "doc/src/manual/control-flow.md",
+      "language": "markdown",
+      "fileCategory": "docs"
+    },
+    {
+      "path": "doc/src/manual/conversion-and-promotion.md",
+      "language": "markdown",
+      "fileCategory": "docs"
+    },
+    {
+      "path": "doc/src/manual/distributed-computing.md",
+      "language": "markdown",
+      "fileCategory": "docs"
+    },
+    {
+      "path": "doc/src/manual/documentation.md",
+      "language": "markdown",
+      "fileCategory": "docs"
+    },
+    {
+      "path": "doc/src/manual/embedding.md",
+      "language": "markdown",
+      "fileCategory": "docs"
+    },
+    {
+      "path": "doc/src/manual/environment-variables.md",
+      "language": "markdown",
+      "fileCategory": "docs"
+    },
+    {
+      "path": "doc/src/manual/faq.md",
+      "language": "markdown",
+      "fileCategory": "docs"
+    },
+    {
+      "path": "doc/src/manual/functions.md",
+      "language": "markdown",
+      "fileCategory": "docs"
+    },
+    {
+      "path": "doc/src/manual/getting-started.md",
+      "language": "markdown",
+      "fileCategory": "docs"
+    },
+    {
+      "path": "doc/src/manual/handling-operating-system-variation.md",
+      "language": "markdown",
+      "fileCategory": "docs"
+    },
+    {
+      "path": "doc/src/manual/installation.md",
+      "language": "markdown",
+      "fileCategory": "docs"
+    },
+    {
+      "path": "doc/src/manual/integers-and-floating-point-numbers.md",
+      "language": "markdown",
+      "fileCategory": "docs"
+    },
+    {
+      "path": "doc/src/manual/interfaces.md",
+      "language": "markdown",
+      "fileCategory": "docs"
+    },
+    {
+      "path": "doc/src/manual/mathematical-operations.md",
+      "language": "markdown",
+      "fileCategory": "docs"
+    },
+    {
+      "path": "doc/src/manual/memory-management.md",
+      "language": "markdown",
+      "fileCategory": "docs"
+    },
+    {
+      "path": "doc/src/manual/metaprogramming.md",
+      "language": "markdown",
+      "fileCategory": "docs"
+    },
+    {
+      "path": "doc/src/manual/methods.md",
+      "language": "markdown",
+      "fileCategory": "docs"
+    },
+    {
+      "path": "doc/src/manual/missing.md",
+      "language": "markdown",
+      "fileCategory": "docs"
+    },
+    {
+      "path": "doc/src/manual/modules.md",
+      "language": "markdown",
+      "fileCategory": "docs"
+    },
+    {
+      "path": "doc/src/manual/multi-threading.md",
+      "language": "markdown",
+      "fileCategory": "docs"
+    },
+    {
+      "path": "doc/src/manual/networking-and-streams.md",
+      "language": "markdown",
+      "fileCategory": "docs"
+    },
+    {
+      "path": "doc/src/manual/noteworthy-differences.md",
+      "language": "markdown",
+      "fileCategory": "docs"
+    },
+    {
+      "path": "doc/src/manual/parallel-computing.md",
+      "language": "markdown",
+      "fileCategory": "docs"
+    },
+    {
+      "path": "doc/src/manual/performance-tips.md",
+      "language": "markdown",
+      "fileCategory": "docs"
+    },
+    {
+      "path": "doc/src/manual/profile.md",
+      "language": "markdown",
+      "fileCategory": "docs"
+    },
+    {
+      "path": "doc/src/manual/running-external-programs.md",
+      "language": "markdown",
+      "fileCategory": "docs"
+    },
+    {
+      "path": "doc/src/manual/stacktraces.md",
+      "language": "markdown",
+      "fileCategory": "docs"
+    },
+    {
+      "path": "doc/src/manual/strings.md",
+      "language": "markdown",
+      "fileCategory": "docs"
+    },
+    {
+      "path": "doc/src/manual/style-guide.md",
+      "language": "markdown",
+      "fileCategory": "docs"
+    },
+    {
+      "path": "doc/src/manual/types.md",
+      "language": "markdown",
+      "fileCategory": "docs"
+    },
+    {
+      "path": "doc/src/manual/unicode-input.md",
+      "language": "markdown",
+      "fileCategory": "docs"
+    },
+    {
+      "path": "doc/src/manual/variables-and-scoping.md",
+      "language": "markdown",
+      "fileCategory": "docs"
+    },
+    {
+      "path": "doc/src/manual/variables.md",
+      "language": "markdown",
+      "fileCategory": "docs"
+    },
+    {
+      "path": "doc/src/manual/workflow-tips.md",
+      "language": "markdown",
+      "fileCategory": "docs"
+    },
+    {
+      "path": "doc/src/manual/worldage.md",
+      "language": "markdown",
+      "fileCategory": "docs"
+    },
+    {
+      "path": "etc/startup.jl",
+      "language": "jl",
+      "fileCategory": "code"
+    },
+    {
+      "path": "julia.spdx.json",
+      "language": "json",
+      "fileCategory": "config"
+    },
+    {
+      "path": "pkgimage.mk",
+      "language": "mk",
+      "fileCategory": "code"
+    },
+    {
+      "path": "src/.clang-tidy",
+      "language": "unknown",
+      "fileCategory": "code"
+    },
+    {
+      "path": "src/APInt-C.h",
+      "language": "c",
+      "fileCategory": "code"
+    },
+    {
+      "path": "src/APInt.c",
+      "language": "c",
+      "fileCategory": "code"
+    },
+    {
+      "path": "src/Makefile",
+      "language": "makefile",
+      "fileCategory": "infra"
+    },
+    {
+      "path": "src/abi_aarch64.cpp",
+      "language": "cpp",
+      "fileCategory": "code"
+    },
+    {
+      "path": "src/abi_arm.cpp",
+      "language": "cpp",
+      "fileCategory": "code"
+    },
+    {
+      "path": "src/abi_llvm.cpp",
+      "language": "cpp",
+      "fileCategory": "code"
+    },
+    {
+      "path": "src/abi_ppc64le.cpp",
+      "language": "cpp",
+      "fileCategory": "code"
+    },
+    {
+      "path": "src/abi_riscv.cpp",
+      "language": "cpp",
+      "fileCategory": "code"
+    },
+    {
+      "path": "src/abi_win32.cpp",
+      "language": "cpp",
+      "fileCategory": "code"
+    },
+    {
+      "path": "src/abi_win64.cpp",
+      "language": "cpp",
+      "fileCategory": "code"
+    },
+    {
+      "path": "src/abi_x86.cpp",
+      "language": "cpp",
+      "fileCategory": "code"
+    },
+    {
+      "path": "src/abi_x86_64.cpp",
+      "language": "cpp",
+      "fileCategory": "code"
+    },
+    {
+      "path": "src/aotcompile.cpp",
+      "language": "cpp",
+      "fileCategory": "code"
+    },
+    {
+      "path": "src/array.c",
+      "language": "c",
+      "fileCategory": "code"
+    },
+    {
+      "path": "src/ast.c",
+      "language": "c",
+      "fileCategory": "code"
+    },
+    {
+      "path": "src/ast.scm",
+      "language": "scm",
+      "fileCategory": "code"
+    },
+    {
+      "path": "src/bin2hex.scm",
+      "language": "scm",
+      "fileCategory": "code"
+    },
+    {
+      "path": "src/builtin_proto.h",
+      "language": "c",
+      "fileCategory": "code"
+    },
+    {
+      "path": "src/builtins.c",
+      "language": "c",
+      "fileCategory": "code"
+    },
+    {
+      "path": "src/ccall.cpp",
+      "language": "cpp",
+      "fileCategory": "code"
+    },
+    {
+      "path": "src/ccalllazybar.c",
+      "language": "c",
+      "fileCategory": "code"
+    },
+    {
+      "path": "src/ccalllazyfoo.c",
+      "language": "c",
+      "fileCategory": "code"
+    },
+    {
+      "path": "src/ccalltest.c",
+      "language": "c",
+      "fileCategory": "code"
+    },
+    {
+      "path": "src/ccalltest_common.h",
+      "language": "c",
+      "fileCategory": "code"
+    },
+    {
+      "path": "src/cgmemmgr.cpp",
+      "language": "cpp",
+      "fileCategory": "code"
+    },
+    {
+      "path": "src/cgutils.cpp",
+      "language": "cpp",
+      "fileCategory": "code"
+    },
+    {
+      "path": "src/clangsa/FirstDeclAnnotations.cpp",
+      "language": "cpp",
+      "fileCategory": "code"
+    },
+    {
+      "path": "src/clangsa/GCChecker.cpp",
+      "language": "cpp",
+      "fileCategory": "code"
+    },
+    {
+      "path": "src/clangsa/GCChecker.h",
+      "language": "c",
+      "fileCategory": "code"
+    },
+    {
+      "path": "src/clangsa/GCCheckerPropagation.cpp",
+      "language": "cpp",
+      "fileCategory": "code"
+    },
+    {
+      "path": "src/clangsa/GCCheckerReporting.cpp",
+      "language": "cpp",
+      "fileCategory": "code"
+    },
+    {
+      "path": "src/clangsa/GCCheckerState.cpp",
+      "language": "cpp",
+      "fileCategory": "code"
+    },
+    {
+      "path": "src/clangsa/HelpersCommon.hpp",
+      "language": "cpp",
+      "fileCategory": "code"
+    },
+    {
+      "path": "src/clangsa/ImplicitAtomics.cpp",
+      "language": "cpp",
+      "fileCategory": "code"
+    },
+    {
+      "path": "src/clangsa/StaticOrDeclared.cpp",
+      "language": "cpp",
+      "fileCategory": "code"
+    },
+    {
+      "path": "src/codegen-stubs.c",
+      "language": "c",
+      "fileCategory": "code"
+    },
+    {
+      "path": "src/codegen.cpp",
+      "language": "cpp",
+      "fileCategory": "code"
+    },
+    {
+      "path": "src/common_symbols1.inc",
+      "language": "inc",
+      "fileCategory": "code"
+    },
+    {
+      "path": "src/common_symbols2.inc",
+      "language": "inc",
+      "fileCategory": "code"
+    },
+    {
+      "path": "src/coverage.c",
+      "language": "c",
+      "fileCategory": "code"
+    },
+    {
+      "path": "src/crc32c-tables.c",
+      "language": "c",
+      "fileCategory": "code"
+    },
+    {
+      "path": "src/crc32c.c",
+      "language": "c",
+      "fileCategory": "code"
+    },
+    {
+      "path": "src/datatype.c",
+      "language": "c",
+      "fileCategory": "code"
+    },
+    {
+      "path": "src/debug-registry.h",
+      "language": "c",
+      "fileCategory": "code"
+    },
+    {
+      "path": "src/debuginfo.cpp",
+      "language": "cpp",
+      "fileCategory": "code"
+    },
+    {
+      "path": "src/debuginfo.h",
+      "language": "c",
+      "fileCategory": "code"
+    },
+    {
+      "path": "src/disasm.cpp",
+      "language": "cpp",
+      "fileCategory": "code"
+    },
+    {
+      "path": "src/dlload.c",
+      "language": "c",
+      "fileCategory": "code"
+    },
+    {
+      "path": "src/engine.c",
+      "language": "c",
+      "fileCategory": "code"
+    },
+    {
+      "path": "src/file_constants.h",
+      "language": "c",
+      "fileCategory": "code"
+    },
+    {
+      "path": "src/flisp/Makefile",
+      "language": "makefile",
+      "fileCategory": "infra"
+    },
+    {
+      "path": "src/flisp/aliases.scm",
+      "language": "scm",
+      "fileCategory": "code"
+    },
+    {
+      "path": "src/flisp/bootstrap.sh",
+      "language": "shell",
+      "fileCategory": "script"
+    },
+    {
+      "path": "src/flisp/builtins.c",
+      "language": "c",
+      "fileCategory": "code"
+    },
+    {
+      "path": "src/flisp/color.lsp",
+      "language": "lsp",
+      "fileCategory": "code"
+    },
+    {
+      "path": "src/flisp/compiler.lsp",
+      "language": "lsp",
+      "fileCategory": "code"
+    },
+    {
+      "path": "src/flisp/cvalues.c",
+      "language": "c",
+      "fileCategory": "code"
+    },
+    {
+      "path": "src/flisp/equal.c",
+      "language": "c",
+      "fileCategory": "code"
+    },
+    {
+      "path": "src/flisp/equalhash.c",
+      "language": "c",
+      "fileCategory": "code"
+    },
+    {
+      "path": "src/flisp/equalhash.h",
+      "language": "c",
+      "fileCategory": "code"
+    },
+    {
+      "path": "src/flisp/flisp.boot",
+      "language": "boot",
+      "fileCategory": "code"
+    },
+    {
+      "path": "src/flisp/flisp.c",
+      "language": "c",
+      "fileCategory": "code"
+    },
+    {
+      "path": "src/flisp/flisp.h",
+      "language": "c",
+      "fileCategory": "code"
+    },
+    {
+      "path": "src/flisp/flmain.c",
+      "language": "c",
+      "fileCategory": "code"
+    },
+    {
+      "path": "src/flisp/iostream.c",
+      "language": "c",
+      "fileCategory": "code"
+    },
+    {
+      "path": "src/flisp/julia_charmap.h",
+      "language": "c",
+      "fileCategory": "code"
+    },
+    {
+      "path": "src/flisp/julia_extensions.c",
+      "language": "c",
+      "fileCategory": "code"
+    },
+    {
+      "path": "src/flisp/julia_opsuffs.h",
+      "language": "c",
+      "fileCategory": "code"
+    },
+    {
+      "path": "src/flisp/mkboot0.lsp",
+      "language": "lsp",
+      "fileCategory": "code"
+    },
+    {
+      "path": "src/flisp/mkboot1.lsp",
+      "language": "lsp",
+      "fileCategory": "code"
+    },
+    {
+      "path": "src/flisp/opcodes.h",
+      "language": "c",
+      "fileCategory": "code"
+    },
+    {
+      "path": "src/flisp/print.c",
+      "language": "c",
+      "fileCategory": "code"
+    },
+    {
+      "path": "src/flisp/profile.scm",
+      "language": "scm",
+      "fileCategory": "code"
+    },
+    {
+      "path": "src/flisp/read.c",
+      "language": "c",
+      "fileCategory": "code"
+    },
+    {
+      "path": "src/flisp/string.c",
+      "language": "c",
+      "fileCategory": "code"
+    },
+    {
+      "path": "src/flisp/system.lsp",
+      "language": "lsp",
+      "fileCategory": "code"
+    },
+    {
+      "path": "src/flisp/table.c",
+      "language": "c",
+      "fileCategory": "code"
+    },
+    {
+      "path": "src/flisp/types.c",
+      "language": "c",
+      "fileCategory": "code"
+    },
+    {
+      "path": "src/flisp/unittest.lsp",
+      "language": "lsp",
+      "fileCategory": "code"
+    },
+    {
+      "path": "src/gc-alloc-profiler.c",
+      "language": "c",
+      "fileCategory": "code"
+    },
+    {
+      "path": "src/gc-alloc-profiler.h",
+      "language": "c",
+      "fileCategory": "code"
+    },
+    {
+      "path": "src/gc-common.c",
+      "language": "c",
+      "fileCategory": "code"
+    },
+    {
+      "path": "src/gc-common.h",
+      "language": "c",
+      "fileCategory": "code"
+    },
+    {
+      "path": "src/gc-debug.c",
+      "language": "c",
+      "fileCategory": "code"
+    },
+    {
+      "path": "src/gc-heap-snapshot.c",
+      "language": "c",
+      "fileCategory": "code"
+    },
+    {
+      "path": "src/gc-heap-snapshot.h",
+      "language": "c",
+      "fileCategory": "code"
+    },
+    {
+      "path": "src/gc-interface.h",
+      "language": "c",
+      "fileCategory": "code"
+    },
+    {
+      "path": "src/gc-mmtk/Makefile",
+      "language": "makefile",
+      "fileCategory": "infra"
+    },
+    {
+      "path": "src/gc-mmtk/gc-mmtk.c",
+      "language": "c",
+      "fileCategory": "code"
+    },
+    {
+      "path": "src/gc-mmtk/gc-tls-mmtk.h",
+      "language": "c",
+      "fileCategory": "code"
+    },
+    {
+      "path": "src/gc-mmtk/gc-wb-mmtk.h",
+      "language": "c",
+      "fileCategory": "code"
+    },
+    {
+      "path": "src/gc-mmtk/llvm-final-gc-lowering-mmtk.cpp",
+      "language": "cpp",
+      "fileCategory": "code"
+    },
+    {
+      "path": "src/gc-mmtk/mmtk_julia/Cargo.toml",
+      "language": "toml",
+      "fileCategory": "config"
+    },
+    {
+      "path": "src/gc-mmtk/mmtk_julia/api/mmtk.h",
+      "language": "c",
+      "fileCategory": "code"
+    },
+    {
+      "path": "src/gc-mmtk/mmtk_julia/api/mmtkMutator.h",
+      "language": "c",
+      "fileCategory": "code"
+    },
+    {
+      "path": "src/gc-mmtk/mmtk_julia/build.rs",
+      "language": "rust",
+      "fileCategory": "code"
+    },
+    {
+      "path": "src/gc-mmtk/mmtk_julia/rust-toolchain",
+      "language": "unknown",
+      "fileCategory": "code"
+    },
+    {
+      "path": "src/gc-mmtk/mmtk_julia/src/active_plan.rs",
+      "language": "rust",
+      "fileCategory": "code"
+    },
+    {
+      "path": "src/gc-mmtk/mmtk_julia/src/api.rs",
+      "language": "rust",
+      "fileCategory": "code"
+    },
+    {
+      "path": "src/gc-mmtk/mmtk_julia/src/build_info.rs",
+      "language": "rust",
+      "fileCategory": "code"
+    },
+    {
+      "path": "src/gc-mmtk/mmtk_julia/src/collection.rs",
+      "language": "rust",
+      "fileCategory": "code"
+    },
+    {
+      "path": "src/gc-mmtk/mmtk_julia/src/gc_trigger.rs",
+      "language": "rust",
+      "fileCategory": "code"
+    },
+    {
+      "path": "src/gc-mmtk/mmtk_julia/src/julia_finalizer.rs",
+      "language": "rust",
+      "fileCategory": "code"
+    },
+    {
+      "path": "src/gc-mmtk/mmtk_julia/src/julia_scanning.rs",
+      "language": "rust",
+      "fileCategory": "code"
+    },
+    {
+      "path": "src/gc-mmtk/mmtk_julia/src/lib.rs",
+      "language": "rust",
+      "fileCategory": "code"
+    },
+    {
+      "path": "src/gc-mmtk/mmtk_julia/src/object_model.rs",
+      "language": "rust",
+      "fileCategory": "code"
+    },
+    {
+      "path": "src/gc-mmtk/mmtk_julia/src/reference_glue.rs",
+      "language": "rust",
+      "fileCategory": "code"
+    },
+    {
+      "path": "src/gc-mmtk/mmtk_julia/src/scanning.rs",
+      "language": "rust",
+      "fileCategory": "code"
+    },
+    {
+      "path": "src/gc-mmtk/mmtk_julia/src/slots.rs",
+      "language": "rust",
+      "fileCategory": "code"
+    },
+    {
+      "path": "src/gc-mmtk/mmtk_julia/src/util.rs",
+      "language": "rust",
+      "fileCategory": "code"
+    },
+    {
+      "path": "src/gc-page-profiler.c",
+      "language": "c",
+      "fileCategory": "code"
+    },
+    {
+      "path": "src/gc-page-profiler.h",
+      "language": "c",
+      "fileCategory": "code"
+    },
+    {
+      "path": "src/gc-pages.c",
+      "language": "c",
+      "fileCategory": "code"
+    },
+    {
+      "path": "src/gc-stacks.c",
+      "language": "c",
+      "fileCategory": "code"
+    },
+    {
+      "path": "src/gc-stock.c",
+      "language": "c",
+      "fileCategory": "code"
+    },
+    {
+      "path": "src/gc-stock.h",
+      "language": "c",
+      "fileCategory": "code"
+    },
+    {
+      "path": "src/gc-tls-common.h",
+      "language": "c",
+      "fileCategory": "code"
+    },
+    {
+      "path": "src/gc-tls-stock.h",
+      "language": "c",
+      "fileCategory": "code"
+    },
+    {
+      "path": "src/gc-wb-stock.h",
+      "language": "c",
+      "fileCategory": "code"
+    },
+    {
+      "path": "src/gen_sysimg_symtab.jl",
+      "language": "jl",
+      "fileCategory": "code"
+    },
+    {
+      "path": "src/genericmemory.c",
+      "language": "c",
+      "fileCategory": "code"
+    },
+    {
+      "path": "src/gf.c",
+      "language": "c",
+      "fileCategory": "code"
+    },
+    {
+      "path": "src/iddict.c",
+      "language": "c",
+      "fileCategory": "code"
+    },
+    {
+      "path": "src/idset.c",
+      "language": "c",
+      "fileCategory": "code"
+    },
+    {
+      "path": "src/init.c",
+      "language": "c",
+      "fileCategory": "code"
+    },
+    {
+      "path": "src/interpreter.c",
+      "language": "c",
+      "fileCategory": "code"
+    },
+    {
+      "path": "src/intrinsics.cpp",
+      "language": "cpp",
+      "fileCategory": "code"
+    },
+    {
+      "path": "src/intrinsics.h",
+      "language": "c",
+      "fileCategory": "code"
+    },
+    {
+      "path": "src/ircode.c",
+      "language": "c",
+      "fileCategory": "code"
+    },
+    {
+      "path": "src/jitlayers.cpp",
+      "language": "cpp",
+      "fileCategory": "code"
+    },
+    {
+      "path": "src/jitlayers.h",
+      "language": "c",
+      "fileCategory": "code"
+    },
+    {
+      "path": "src/jl_exported_data.inc",
+      "language": "inc",
+      "fileCategory": "code"
+    },
+    {
+      "path": "src/jl_exported_funcs.inc",
+      "language": "inc",
+      "fileCategory": "code"
+    },
+    {
+      "path": "src/jl_internal_data.inc",
+      "language": "inc",
+      "fileCategory": "code"
+    },
+    {
+      "path": "src/jl_uv.c",
+      "language": "c",
+      "fileCategory": "code"
+    },
+    {
+      "path": "src/jlapi.c",
+      "language": "c",
+      "fileCategory": "code"
+    },
+    {
+      "path": "src/jlfrontend.scm",
+      "language": "scm",
+      "fileCategory": "code"
+    },
+    {
+      "path": "src/jloptions.c",
+      "language": "c",
+      "fileCategory": "code"
+    },
+    {
+      "path": "src/jloptions.h",
+      "language": "c",
+      "fileCategory": "code"
+    },
+    {
+      "path": "src/jltypes.c",
+      "language": "c",
+      "fileCategory": "code"
+    },
+    {
+      "path": "src/julia-parser.scm",
+      "language": "scm",
+      "fileCategory": "code"
+    },
+    {
+      "path": "src/julia-syntax.scm",
+      "language": "scm",
+      "fileCategory": "code"
+    },
+    {
+      "path": "src/julia-task-dispatcher.h",
+      "language": "c",
+      "fileCategory": "code"
+    },
+    {
+      "path": "src/julia.expmap.in",
+      "language": "in",
+      "fileCategory": "code"
+    },
+    {
+      "path": "src/julia.h",
+      "language": "c",
+      "fileCategory": "code"
+    },
+    {
+      "path": "src/julia_assert.h",
+      "language": "c",
+      "fileCategory": "code"
+    },
+    {
+      "path": "src/julia_atomics.h",
+      "language": "c",
+      "fileCategory": "code"
+    },
+    {
+      "path": "src/julia_fasttls.h",
+      "language": "c",
+      "fileCategory": "code"
+    },
+    {
+      "path": "src/julia_gcext.h",
+      "language": "c",
+      "fileCategory": "code"
+    },
+    {
+      "path": "src/julia_internal.h",
+      "language": "c",
+      "fileCategory": "code"
+    },
+    {
+      "path": "src/julia_locks.h",
+      "language": "c",
+      "fileCategory": "code"
+    },
+    {
+      "path": "src/julia_threads.h",
+      "language": "c",
+      "fileCategory": "code"
+    },
+    {
+      "path": "src/llvm-Compression.cpp",
+      "language": "cpp",
+      "fileCategory": "code"
+    },
+    {
+      "path": "src/llvm-Compression.h",
+      "language": "c",
+      "fileCategory": "code"
+    },
+    {
+      "path": "src/llvm-alloc-helpers.cpp",
+      "language": "cpp",
+      "fileCategory": "code"
+    },
+    {
+      "path": "src/llvm-alloc-helpers.h",
+      "language": "c",
+      "fileCategory": "code"
+    },
+    {
+      "path": "src/llvm-alloc-opt.cpp",
+      "language": "cpp",
+      "fileCategory": "code"
+    },
+    {
+      "path": "src/llvm-cancellation-lowering.cpp",
+      "language": "cpp",
+      "fileCategory": "code"
+    },
+    {
+      "path": "src/llvm-codegen-shared.h",
+      "language": "c",
+      "fileCategory": "code"
+    },
+    {
+      "path": "src/llvm-cpufeatures.cpp",
+      "language": "cpp",
+      "fileCategory": "code"
+    },
+    {
+      "path": "src/llvm-demote-float16.cpp",
+      "language": "cpp",
+      "fileCategory": "code"
+    },
+    {
+      "path": "src/llvm-expand-atomic-modify.cpp",
+      "language": "cpp",
+      "fileCategory": "code"
+    },
+    {
+      "path": "src/llvm-final-gc-lowering-stock.cpp",
+      "language": "cpp",
+      "fileCategory": "code"
+    },
+    {
+      "path": "src/llvm-final-gc-lowering.cpp",
+      "language": "cpp",
+      "fileCategory": "code"
+    },
+    {
+      "path": "src/llvm-gc-interface-passes.h",
+      "language": "c",
+      "fileCategory": "code"
+    },
+    {
+      "path": "src/llvm-gc-invariant-verifier.cpp",
+      "language": "cpp",
+      "fileCategory": "code"
+    },
+    {
+      "path": "src/llvm-julia-licm.cpp",
+      "language": "cpp",
+      "fileCategory": "code"
+    },
+    {
+      "path": "src/llvm-julia-passes.inc",
+      "language": "inc",
+      "fileCategory": "code"
+    },
+    {
+      "path": "src/llvm-late-gc-lowering.cpp",
+      "language": "cpp",
+      "fileCategory": "code"
+    },
+    {
+      "path": "src/llvm-multiversioning.cpp",
+      "language": "cpp",
+      "fileCategory": "code"
+    },
+    {
+      "path": "src/llvm-pass-helpers.cpp",
+      "language": "cpp",
+      "fileCategory": "code"
+    },
+    {
+      "path": "src/llvm-pass-helpers.h",
+      "language": "c",
+      "fileCategory": "code"
+    },
+    {
+      "path": "src/llvm-propagate-addrspaces.cpp",
+      "language": "cpp",
+      "fileCategory": "code"
+    },
+    {
+      "path": "src/llvm-ptls.cpp",
+      "language": "cpp",
+      "fileCategory": "code"
+    },
+    {
+      "path": "src/llvm-remove-addrspaces.cpp",
+      "language": "cpp",
+      "fileCategory": "code"
+    },
+    {
+      "path": "src/llvm-remove-ni.cpp",
+      "language": "cpp",
+      "fileCategory": "code"
+    },
+    {
+      "path": "src/llvm-simdloop.cpp",
+      "language": "cpp",
+      "fileCategory": "code"
+    },
+    {
+      "path": "src/llvm-version.h",
+      "language": "c",
+      "fileCategory": "code"
+    },
+    {
+      "path": "src/llvm_api.cpp",
+      "language": "cpp",
+      "fileCategory": "code"
+    },
+    {
+      "path": "src/llvmcalltest.cpp",
+      "language": "cpp",
+      "fileCategory": "code"
+    },
+    {
+      "path": "src/macroexpand.scm",
+      "language": "scm",
+      "fileCategory": "code"
+    },
+    {
+      "path": "src/match.scm",
+      "language": "scm",
+      "fileCategory": "code"
+    },
+    {
+      "path": "src/method.c",
+      "language": "c",
+      "fileCategory": "code"
+    },
+    {
+      "path": "src/mig/README.md",
+      "language": "markdown",
+      "fileCategory": "docs"
+    },
+    {
+      "path": "src/mig/exc.h",
+      "language": "c",
+      "fileCategory": "code"
+    },
+    {
+      "path": "src/mig/excServer.c",
+      "language": "c",
+      "fileCategory": "code"
+    },
+    {
+      "path": "src/mig/excUser.c",
+      "language": "c",
+      "fileCategory": "code"
+    },
+    {
+      "path": "src/mig/mach_exc.h",
+      "language": "c",
+      "fileCategory": "code"
+    },
+    {
+      "path": "src/mig/mach_excServer.c",
+      "language": "c",
+      "fileCategory": "code"
+    },
+    {
+      "path": "src/mig/mach_excUser.c",
+      "language": "c",
+      "fileCategory": "code"
+    },
+    {
+      "path": "src/mk_julia_flisp_boot.scm",
+      "language": "scm",
+      "fileCategory": "code"
+    },
+    {
+      "path": "src/module.c",
+      "language": "c",
+      "fileCategory": "code"
+    },
+    {
+      "path": "src/mtarraylist.c",
+      "language": "c",
+      "fileCategory": "code"
+    },
+    {
+      "path": "src/null_sysimage.c",
+      "language": "c",
+      "fileCategory": "code"
+    },
+    {
+      "path": "src/objcache.cpp",
+      "language": "cpp",
+      "fileCategory": "code"
+    },
+    {
+      "path": "src/objcache.h",
+      "language": "c",
+      "fileCategory": "code"
+    },
+    {
+      "path": "src/opaque_closure.c",
+      "language": "c",
+      "fileCategory": "code"
+    },
+    {
+      "path": "src/options.h",
+      "language": "c",
+      "fileCategory": "code"
+    },
+    {
+      "path": "src/passes.h",
+      "language": "c",
+      "fileCategory": "code"
+    },
+    {
+      "path": "src/pipeline.cpp",
+      "language": "cpp",
+      "fileCategory": "code"
+    },
+    {
+      "path": "src/precompile.c",
+      "language": "c",
+      "fileCategory": "code"
+    },
+    {
+      "path": "src/precompile_utils.c",
+      "language": "c",
+      "fileCategory": "code"
+    },
+    {
+      "path": "src/processor.cpp",
+      "language": "cpp",
+      "fileCategory": "code"
+    },
+    {
+      "path": "src/processor.h",
+      "language": "c",
+      "fileCategory": "code"
+    },
+    {
+      "path": "src/rtutils.c",
+      "language": "c",
+      "fileCategory": "code"
+    },
+    {
+      "path": "src/runtime_ccall.c",
+      "language": "c",
+      "fileCategory": "code"
+    },
+    {
+      "path": "src/runtime_intrinsics.c",
+      "language": "c",
+      "fileCategory": "code"
+    },
+    {
+      "path": "src/safepoint.c",
+      "language": "c",
+      "fileCategory": "code"
+    },
+    {
+      "path": "src/scheduler.c",
+      "language": "c",
+      "fileCategory": "code"
+    },
+    {
+      "path": "src/serialize.h",
+      "language": "c",
+      "fileCategory": "code"
+    },
+    {
+      "path": "src/signal-handling.c",
+      "language": "c",
+      "fileCategory": "code"
+    },
+    {
+      "path": "src/signals-mach.c",
+      "language": "c",
+      "fileCategory": "code"
+    },
+    {
+      "path": "src/signals-unix.c",
+      "language": "c",
+      "fileCategory": "code"
+    },
+    {
+      "path": "src/signals-win.c",
+      "language": "c",
+      "fileCategory": "code"
+    },
+    {
+      "path": "src/simplevector.c",
+      "language": "c",
+      "fileCategory": "code"
+    },
+    {
+      "path": "src/smallintset.c",
+      "language": "c",
+      "fileCategory": "code"
+    },
+    {
+      "path": "src/stackwalk.c",
+      "language": "c",
+      "fileCategory": "code"
+    },
+    {
+      "path": "src/staticdata.c",
+      "language": "c",
+      "fileCategory": "code"
+    },
+    {
+      "path": "src/staticdata_utils.c",
+      "language": "c",
+      "fileCategory": "code"
+    },
+    {
+      "path": "src/subtype.c",
+      "language": "c",
+      "fileCategory": "code"
+    },
+    {
+      "path": "src/support/END.h",
+      "language": "c",
+      "fileCategory": "code"
+    },
+    {
+      "path": "src/support/ENTRY.amd64.h",
+      "language": "c",
+      "fileCategory": "code"
+    },
+    {
+      "path": "src/support/ENTRY.i387.h",
+      "language": "c",
+      "fileCategory": "code"
+    },
+    {
+      "path": "src/support/Makefile",
+      "language": "makefile",
+      "fileCategory": "infra"
+    },
+    {
+      "path": "src/support/MurmurHash3.c",
+      "language": "c",
+      "fileCategory": "code"
+    },
+    {
+      "path": "src/support/MurmurHash3.h",
+      "language": "c",
+      "fileCategory": "code"
+    },
+    {
+      "path": "src/support/_setjmp.win32.S",
+      "language": "s",
+      "fileCategory": "code"
+    },
+    {
+      "path": "src/support/_setjmp.win64.S",
+      "language": "s",
+      "fileCategory": "code"
+    },
+    {
+      "path": "src/support/analyzer_annotations.h",
+      "language": "c",
+      "fileCategory": "code"
+    },
+    {
+      "path": "src/support/arraylist.c",
+      "language": "c",
+      "fileCategory": "code"
+    },
+    {
+      "path": "src/support/arraylist.h",
+      "language": "c",
+      "fileCategory": "code"
+    },
+    {
+      "path": "src/support/asprintf.c",
+      "language": "c",
+      "fileCategory": "code"
+    },
+    {
+      "path": "src/support/bitvector.c",
+      "language": "c",
+      "fileCategory": "code"
+    },
+    {
+      "path": "src/support/bitvector.h",
+      "language": "c",
+      "fileCategory": "code"
+    },
+    {
+      "path": "src/support/dirpath.h",
+      "language": "c",
+      "fileCategory": "code"
+    },
+    {
+      "path": "src/support/dtypes.h",
+      "language": "c",
+      "fileCategory": "code"
+    },
+    {
+      "path": "src/support/eytzinger.c",
+      "language": "c",
+      "fileCategory": "code"
+    },
+    {
+      "path": "src/support/eytzinger.h",
+      "language": "c",
+      "fileCategory": "code"
+    },
+    {
+      "path": "src/support/hashing.c",
+      "language": "c",
+      "fileCategory": "code"
+    },
+    {
+      "path": "src/support/hashing.h",
+      "language": "c",
+      "fileCategory": "code"
+    },
+    {
+      "path": "src/support/htable.c",
+      "language": "c",
+      "fileCategory": "code"
+    },
+    {
+      "path": "src/support/htable.h",
+      "language": "c",
+      "fileCategory": "code"
+    },
+    {
+      "path": "src/support/htable.inc",
+      "language": "inc",
+      "fileCategory": "code"
+    },
+    {
+      "path": "src/support/int2str.c",
+      "language": "c",
+      "fileCategory": "code"
+    },
+    {
+      "path": "src/support/ios.c",
+      "language": "c",
+      "fileCategory": "code"
+    },
+    {
+      "path": "src/support/ios.h",
+      "language": "c",
+      "fileCategory": "code"
+    },
+    {
+      "path": "src/support/libsupport.h",
+      "language": "c",
+      "fileCategory": "code"
+    },
+    {
+      "path": "src/support/libsupportinit.c",
+      "language": "c",
+      "fileCategory": "code"
+    },
+    {
+      "path": "src/support/operators.c",
+      "language": "c",
+      "fileCategory": "code"
+    },
+    {
+      "path": "src/support/platform.h",
+      "language": "c",
+      "fileCategory": "code"
+    },
+    {
+      "path": "src/support/ptrhash.c",
+      "language": "c",
+      "fileCategory": "code"
+    },
+    {
+      "path": "src/support/ptrhash.h",
+      "language": "c",
+      "fileCategory": "code"
+    },
+    {
+      "path": "src/support/rle.c",
+      "language": "c",
+      "fileCategory": "code"
+    },
+    {
+      "path": "src/support/rle.h",
+      "language": "c",
+      "fileCategory": "code"
+    },
+    {
+      "path": "src/support/strhash.c",
+      "language": "c",
+      "fileCategory": "code"
+    },
+    {
+      "path": "src/support/strhash.h",
+      "language": "c",
+      "fileCategory": "code"
+    },
+    {
+      "path": "src/support/strptime.c",
+      "language": "c",
+      "fileCategory": "code"
+    },
+    {
+      "path": "src/support/strtod.c",
+      "language": "c",
+      "fileCategory": "code"
+    },
+    {
+      "path": "src/support/strtod.h",
+      "language": "c",
+      "fileCategory": "code"
+    },
+    {
+      "path": "src/support/timefuncs.c",
+      "language": "c",
+      "fileCategory": "code"
+    },
+    {
+      "path": "src/support/timefuncs.h",
+      "language": "c",
+      "fileCategory": "code"
+    },
+    {
+      "path": "src/support/tzfile.h",
+      "language": "c",
+      "fileCategory": "code"
+    },
+    {
+      "path": "src/support/utf8.c",
+      "language": "c",
+      "fileCategory": "code"
+    },
+    {
+      "path": "src/support/utf8.h",
+      "language": "c",
+      "fileCategory": "code"
+    },
+    {
+      "path": "src/support/utils.h",
+      "language": "c",
+      "fileCategory": "code"
+    },
+    {
+      "path": "src/support/win32-clang-ABI-bug/optional",
+      "language": "unknown",
+      "fileCategory": "code"
+    },
+    {
+      "path": "src/symbol.c",
+      "language": "c",
+      "fileCategory": "code"
+    },
+    {
+      "path": "src/sys.c",
+      "language": "c",
+      "fileCategory": "code"
+    },
+    {
+      "path": "src/task.c",
+      "language": "c",
+      "fileCategory": "code"
+    },
+    {
+      "path": "src/threading.c",
+      "language": "c",
+      "fileCategory": "code"
+    },
+    {
+      "path": "src/threading.h",
+      "language": "c",
+      "fileCategory": "code"
+    },
+    {
+      "path": "src/timing.c",
+      "language": "c",
+      "fileCategory": "code"
+    },
+    {
+      "path": "src/timing.h",
+      "language": "c",
+      "fileCategory": "code"
+    },
+    {
+      "path": "src/toplevel.c",
+      "language": "c",
+      "fileCategory": "code"
+    },
+    {
+      "path": "src/typemap.c",
+      "language": "c",
+      "fileCategory": "code"
+    },
+    {
+      "path": "src/uprobes.d",
+      "language": "d",
+      "fileCategory": "code"
+    },
+    {
+      "path": "src/utils.scm",
+      "language": "scm",
+      "fileCategory": "code"
+    },
+    {
+      "path": "src/uv_constants.h",
+      "language": "c",
+      "fileCategory": "code"
+    },
+    {
+      "path": "src/win32_ucontext.c",
+      "language": "c",
+      "fileCategory": "code"
+    },
+    {
+      "path": "src/win32_ucontext.h",
+      "language": "c",
+      "fileCategory": "code"
+    },
+    {
+      "path": "src/work-stealing-queue.h",
+      "language": "c",
+      "fileCategory": "code"
+    },
+    {
+      "path": "stdlib/ArgTools.version",
+      "language": "version",
+      "fileCategory": "code"
+    },
+    {
+      "path": "stdlib/Artifacts/Project.toml",
+      "language": "toml",
+      "fileCategory": "config"
+    },
+    {
+      "path": "stdlib/Artifacts/docs/src/index.md",
+      "language": "markdown",
+      "fileCategory": "docs"
+    },
+    {
+      "path": "stdlib/Artifacts/src/Artifacts.jl",
+      "language": "jl",
+      "fileCategory": "code"
+    },
+    {
+      "path": "stdlib/Base64/Project.toml",
+      "language": "toml",
+      "fileCategory": "config"
+    },
+    {
+      "path": "stdlib/Base64/docs/src/index.md",
+      "language": "markdown",
+      "fileCategory": "docs"
+    },
+    {
+      "path": "stdlib/Base64/src/Base64.jl",
+      "language": "jl",
+      "fileCategory": "code"
+    },
+    {
+      "path": "stdlib/Base64/src/buffer.jl",
+      "language": "jl",
+      "fileCategory": "code"
+    },
+    {
+      "path": "stdlib/Base64/src/decode.jl",
+      "language": "jl",
+      "fileCategory": "code"
+    },
+    {
+      "path": "stdlib/Base64/src/encode.jl",
+      "language": "jl",
+      "fileCategory": "code"
+    },
+    {
+      "path": "stdlib/CRC32c/Project.toml",
+      "language": "toml",
+      "fileCategory": "config"
+    },
+    {
+      "path": "stdlib/CRC32c/docs/src/index.md",
+      "language": "markdown",
+      "fileCategory": "docs"
+    },
+    {
+      "path": "stdlib/CRC32c/src/CRC32c.jl",
+      "language": "jl",
+      "fileCategory": "code"
+    },
+    {
+      "path": "stdlib/CompilerSupportLibraries_jll/Project.toml",
+      "language": "toml",
+      "fileCategory": "config"
+    },
+    {
+      "path": "stdlib/CompilerSupportLibraries_jll/src/CompilerSupportLibraries_jll.jl",
+      "language": "jl",
+      "fileCategory": "code"
+    },
+    {
+      "path": "stdlib/Dates/Project.toml",
+      "language": "toml",
+      "fileCategory": "config"
+    },
+    {
+      "path": "stdlib/Dates/docs/src/index.md",
+      "language": "markdown",
+      "fileCategory": "docs"
+    },
+    {
+      "path": "stdlib/Dates/src/Dates.jl",
+      "language": "jl",
+      "fileCategory": "code"
+    },
+    {
+      "path": "stdlib/Dates/src/accessors.jl",
+      "language": "jl",
+      "fileCategory": "code"
+    },
+    {
+      "path": "stdlib/Dates/src/adjusters.jl",
+      "language": "jl",
+      "fileCategory": "code"
+    },
+    {
+      "path": "stdlib/Dates/src/arithmetic.jl",
+      "language": "jl",
+      "fileCategory": "code"
+    },
+    {
+      "path": "stdlib/Dates/src/conversions.jl",
+      "language": "jl",
+      "fileCategory": "code"
+    },
+    {
+      "path": "stdlib/Dates/src/deprecated.jl",
+      "language": "jl",
+      "fileCategory": "code"
+    },
+    {
+      "path": "stdlib/Dates/src/io.jl",
+      "language": "jl",
+      "fileCategory": "code"
+    },
+    {
+      "path": "stdlib/Dates/src/parse.jl",
+      "language": "jl",
+      "fileCategory": "code"
+    },
+    {
+      "path": "stdlib/Dates/src/periods.jl",
+      "language": "jl",
+      "fileCategory": "code"
+    },
+    {
+      "path": "stdlib/Dates/src/query.jl",
+      "language": "jl",
+      "fileCategory": "code"
+    },
+    {
+      "path": "stdlib/Dates/src/ranges.jl",
+      "language": "jl",
+      "fileCategory": "code"
+    },
+    {
+      "path": "stdlib/Dates/src/rounding.jl",
+      "language": "jl",
+      "fileCategory": "code"
+    },
+    {
+      "path": "stdlib/Dates/src/types.jl",
+      "language": "jl",
+      "fileCategory": "code"
+    },
+    {
+      "path": "stdlib/DelimitedFiles.version",
+      "language": "version",
+      "fileCategory": "code"
+    },
+    {
+      "path": "stdlib/Distributed.version",
+      "language": "version",
+      "fileCategory": "code"
+    },
+    {
+      "path": "stdlib/Downloads.version",
+      "language": "version",
+      "fileCategory": "code"
+    },
+    {
+      "path": "stdlib/FileWatching/Project.toml",
+      "language": "toml",
+      "fileCategory": "config"
+    },
+    {
+      "path": "stdlib/FileWatching/docs/src/index.md",
+      "language": "markdown",
+      "fileCategory": "docs"
+    },
+    {
+      "path": "stdlib/FileWatching/src/FileWatching.jl",
+      "language": "jl",
+      "fileCategory": "code"
+    },
+    {
+      "path": "stdlib/FileWatching/src/pidfile.jl",
+      "language": "jl",
+      "fileCategory": "code"
+    },
+    {
+      "path": "stdlib/Future/Project.toml",
+      "language": "toml",
+      "fileCategory": "config"
+    },
+    {
+      "path": "stdlib/Future/docs/src/index.md",
+      "language": "markdown",
+      "fileCategory": "docs"
+    },
+    {
+      "path": "stdlib/Future/src/Future.jl",
+      "language": "jl",
+      "fileCategory": "code"
+    },
+    {
+      "path": "stdlib/GMP_jll/Project.toml",
+      "language": "toml",
+      "fileCategory": "config"
+    },
+    {
+      "path": "stdlib/GMP_jll/src/GMP_jll.jl",
+      "language": "jl",
+      "fileCategory": "code"
+    },
+    {
+      "path": "stdlib/InteractiveUtils/Project.toml",
+      "language": "toml",
+      "fileCategory": "config"
+    },
+    {
+      "path": "stdlib/InteractiveUtils/docs/src/index.md",
+      "language": "markdown",
+      "fileCategory": "docs"
+    },
+    {
+      "path": "stdlib/InteractiveUtils/src/InteractiveUtils.jl",
+      "language": "jl",
+      "fileCategory": "code"
+    },
+    {
+      "path": "stdlib/InteractiveUtils/src/clipboard.jl",
+      "language": "jl",
+      "fileCategory": "code"
+    },
+    {
+      "path": "stdlib/InteractiveUtils/src/codeview.jl",
+      "language": "jl",
+      "fileCategory": "code"
+    },
+    {
+      "path": "stdlib/InteractiveUtils/src/editless.jl",
+      "language": "jl",
+      "fileCategory": "code"
+    },
+    {
+      "path": "stdlib/InteractiveUtils/src/macros.jl",
+      "language": "jl",
+      "fileCategory": "code"
+    },
+    {
+      "path": "stdlib/JuliaSyntaxHighlighting.version",
+      "language": "version",
+      "fileCategory": "code"
+    },
+    {
+      "path": "stdlib/LLD_jll/Project.toml",
+      "language": "toml",
+      "fileCategory": "config"
+    },
+    {
+      "path": "stdlib/LLD_jll/src/LLD_jll.jl",
+      "language": "jl",
+      "fileCategory": "code"
+    },
+    {
+      "path": "stdlib/LLVMLibUnwind_jll/Project.toml",
+      "language": "toml",
+      "fileCategory": "config"
+    },
+    {
+      "path": "stdlib/LLVMLibUnwind_jll/src/LLVMLibUnwind_jll.jl",
+      "language": "jl",
+      "fileCategory": "code"
+    },
+    {
+      "path": "stdlib/LazyArtifacts.version",
+      "language": "version",
+      "fileCategory": "code"
+    },
+    {
+      "path": "stdlib/LibCURL.version",
+      "language": "version",
+      "fileCategory": "code"
+    },
+    {
+      "path": "stdlib/LibCURL_jll/Project.toml",
+      "language": "toml",
+      "fileCategory": "config"
+    },
+    {
+      "path": "stdlib/LibCURL_jll/src/LibCURL_jll.jl",
+      "language": "jl",
+      "fileCategory": "code"
+    },
+    {
+      "path": "stdlib/LibGit2/Project.toml",
+      "language": "toml",
+      "fileCategory": "config"
+    },
+    {
+      "path": "stdlib/LibGit2/docs/src/index.md",
+      "language": "markdown",
+      "fileCategory": "docs"
+    },
+    {
+      "path": "stdlib/LibGit2/src/LibGit2.jl",
+      "language": "jl",
+      "fileCategory": "code"
+    },
+    {
+      "path": "stdlib/LibGit2/src/blame.jl",
+      "language": "jl",
+      "fileCategory": "code"
+    },
+    {
+      "path": "stdlib/LibGit2/src/blob.jl",
+      "language": "jl",
+      "fileCategory": "code"
+    },
+    {
+      "path": "stdlib/LibGit2/src/callbacks.jl",
+      "language": "jl",
+      "fileCategory": "code"
+    },
+    {
+      "path": "stdlib/LibGit2/src/commit.jl",
+      "language": "jl",
+      "fileCategory": "code"
+    },
+    {
+      "path": "stdlib/LibGit2/src/config.jl",
+      "language": "jl",
+      "fileCategory": "code"
+    },
+    {
+      "path": "stdlib/LibGit2/src/consts.jl",
+      "language": "jl",
+      "fileCategory": "code"
+    },
+    {
+      "path": "stdlib/LibGit2/src/diff.jl",
+      "language": "jl",
+      "fileCategory": "code"
+    },
+    {
+      "path": "stdlib/LibGit2/src/error.jl",
+      "language": "jl",
+      "fileCategory": "code"
+    },
+    {
+      "path": "stdlib/LibGit2/src/gitcredential.jl",
+      "language": "jl",
+      "fileCategory": "code"
+    },
+    {
+      "path": "stdlib/LibGit2/src/index.jl",
+      "language": "jl",
+      "fileCategory": "code"
+    },
+    {
+      "path": "stdlib/LibGit2/src/merge.jl",
+      "language": "jl",
+      "fileCategory": "code"
+    },
+    {
+      "path": "stdlib/LibGit2/src/oid.jl",
+      "language": "jl",
+      "fileCategory": "code"
+    },
+    {
+      "path": "stdlib/LibGit2/src/rebase.jl",
+      "language": "jl",
+      "fileCategory": "code"
+    },
+    {
+      "path": "stdlib/LibGit2/src/reference.jl",
+      "language": "jl",
+      "fileCategory": "code"
+    },
+    {
+      "path": "stdlib/LibGit2/src/remote.jl",
+      "language": "jl",
+      "fileCategory": "code"
+    },
+    {
+      "path": "stdlib/LibGit2/src/repository.jl",
+      "language": "jl",
+      "fileCategory": "code"
+    },
+    {
+      "path": "stdlib/LibGit2/src/signature.jl",
+      "language": "jl",
+      "fileCategory": "code"
+    },
+    {
+      "path": "stdlib/LibGit2/src/status.jl",
+      "language": "jl",
+      "fileCategory": "code"
+    },
+    {
+      "path": "stdlib/LibGit2/src/strarray.jl",
+      "language": "jl",
+      "fileCategory": "code"
+    },
+    {
+      "path": "stdlib/LibGit2/src/tag.jl",
+      "language": "jl",
+      "fileCategory": "code"
+    },
+    {
+      "path": "stdlib/LibGit2/src/tree.jl",
+      "language": "jl",
+      "fileCategory": "code"
+    },
+    {
+      "path": "stdlib/LibGit2/src/types.jl",
+      "language": "jl",
+      "fileCategory": "code"
+    },
+    {
+      "path": "stdlib/LibGit2/src/utils.jl",
+      "language": "jl",
+      "fileCategory": "code"
+    },
+    {
+      "path": "stdlib/LibGit2/src/walker.jl",
+      "language": "jl",
+      "fileCategory": "code"
+    },
+    {
+      "path": "stdlib/LibGit2_jll/Project.toml",
+      "language": "toml",
+      "fileCategory": "config"
+    },
+    {
+      "path": "stdlib/LibGit2_jll/src/LibGit2_jll.jl",
+      "language": "jl",
+      "fileCategory": "code"
+    },
+    {
+      "path": "stdlib/LibSSH2_jll/Project.toml",
+      "language": "toml",
+      "fileCategory": "config"
+    },
+    {
+      "path": "stdlib/LibSSH2_jll/src/LibSSH2_jll.jl",
+      "language": "jl",
+      "fileCategory": "code"
+    },
+    {
+      "path": "stdlib/LibUV_jll/Project.toml",
+      "language": "toml",
+      "fileCategory": "config"
+    },
+    {
+      "path": "stdlib/LibUV_jll/src/LibUV_jll.jl",
+      "language": "jl",
+      "fileCategory": "code"
+    },
+    {
+      "path": "stdlib/LibUnwind_jll/Project.toml",
+      "language": "toml",
+      "fileCategory": "config"
+    },
+    {
+      "path": "stdlib/LibUnwind_jll/src/LibUnwind_jll.jl",
+      "language": "jl",
+      "fileCategory": "code"
+    },
+    {
+      "path": "stdlib/Libdl/Project.toml",
+      "language": "toml",
+      "fileCategory": "config"
+    },
+    {
+      "path": "stdlib/Libdl/docs/src/index.md",
+      "language": "markdown",
+      "fileCategory": "docs"
+    },
+    {
+      "path": "stdlib/Libdl/src/Libdl.jl",
+      "language": "jl",
+      "fileCategory": "code"
+    },
+    {
+      "path": "stdlib/LinearAlgebra.version",
+      "language": "version",
+      "fileCategory": "code"
+    },
+    {
+      "path": "stdlib/Logging/Project.toml",
+      "language": "toml",
+      "fileCategory": "config"
+    },
+    {
+      "path": "stdlib/Logging/docs/src/index.md",
+      "language": "markdown",
+      "fileCategory": "docs"
+    },
+    {
+      "path": "stdlib/Logging/src/Logging.jl",
+      "language": "jl",
+      "fileCategory": "code"
+    },
+    {
+      "path": "stdlib/MPFR_jll/Project.toml",
+      "language": "toml",
+      "fileCategory": "config"
+    },
+    {
+      "path": "stdlib/MPFR_jll/src/MPFR_jll.jl",
+      "language": "jl",
+      "fileCategory": "code"
+    },
+    {
+      "path": "stdlib/Makefile",
+      "language": "makefile",
+      "fileCategory": "infra"
+    },
+    {
+      "path": "stdlib/Manifest.toml",
+      "language": "toml",
+      "fileCategory": "config"
+    },
+    {
+      "path": "stdlib/Markdown/Project.toml",
+      "language": "toml",
+      "fileCategory": "config"
+    },
+    {
+      "path": "stdlib/Markdown/docs/src/index.md",
+      "language": "markdown",
+      "fileCategory": "docs"
+    },
+    {
+      "path": "stdlib/Markdown/etc/regenerate_entities.jl",
+      "language": "jl",
+      "fileCategory": "code"
+    },
+    {
+      "path": "stdlib/Markdown/src/Common/Common.jl",
+      "language": "jl",
+      "fileCategory": "code"
+    },
+    {
+      "path": "stdlib/Markdown/src/Common/block.jl",
+      "language": "jl",
+      "fileCategory": "code"
+    },
+    {
+      "path": "stdlib/Markdown/src/Common/entities.jl",
+      "language": "jl",
+      "fileCategory": "code"
+    },
+    {
+      "path": "stdlib/Markdown/src/Common/inline.jl",
+      "language": "jl",
+      "fileCategory": "code"
+    },
+    {
+      "path": "stdlib/Markdown/src/GitHub/GitHub.jl",
+      "language": "jl",
+      "fileCategory": "code"
+    },
+    {
+      "path": "stdlib/Markdown/src/GitHub/table.jl",
+      "language": "jl",
+      "fileCategory": "code"
+    },
+    {
+      "path": "stdlib/Markdown/src/IPython/IPython.jl",
+      "language": "jl",
+      "fileCategory": "code"
+    },
+    {
+      "path": "stdlib/Markdown/src/Julia/Julia.jl",
+      "language": "jl",
+      "fileCategory": "code"
+    },
+    {
+      "path": "stdlib/Markdown/src/Julia/interp.jl",
+      "language": "jl",
+      "fileCategory": "code"
+    },
+    {
+      "path": "stdlib/Markdown/src/Markdown.jl",
+      "language": "jl",
+      "fileCategory": "code"
+    },
+    {
+      "path": "stdlib/Markdown/src/parse/config.jl",
+      "language": "jl",
+      "fileCategory": "code"
+    },
+    {
+      "path": "stdlib/Markdown/src/parse/parse.jl",
+      "language": "jl",
+      "fileCategory": "code"
+    },
+    {
+      "path": "stdlib/Markdown/src/parse/util.jl",
+      "language": "jl",
+      "fileCategory": "code"
+    },
+    {
+      "path": "stdlib/Markdown/src/render/html.jl",
+      "language": "jl",
+      "fileCategory": "code"
+    },
+    {
+      "path": "stdlib/Markdown/src/render/latex.jl",
+      "language": "jl",
+      "fileCategory": "code"
+    },
+    {
+      "path": "stdlib/Markdown/src/render/plain.jl",
+      "language": "jl",
+      "fileCategory": "code"
+    },
+    {
+      "path": "stdlib/Markdown/src/render/rich.jl",
+      "language": "jl",
+      "fileCategory": "code"
+    },
+    {
+      "path": "stdlib/Markdown/src/render/rst.jl",
+      "language": "jl",
+      "fileCategory": "code"
+    },
+    {
+      "path": "stdlib/Markdown/src/render/terminal/formatting.jl",
+      "language": "jl",
+      "fileCategory": "code"
+    },
+    {
+      "path": "stdlib/Markdown/src/render/terminal/render.jl",
+      "language": "jl",
+      "fileCategory": "code"
+    },
+    {
+      "path": "stdlib/Mmap/Project.toml",
+      "language": "toml",
+      "fileCategory": "config"
+    },
+    {
+      "path": "stdlib/Mmap/docs/src/index.md",
+      "language": "markdown",
+      "fileCategory": "docs"
+    },
+    {
+      "path": "stdlib/Mmap/src/Mmap.jl",
+      "language": "jl",
+      "fileCategory": "code"
+    },
+    {
+      "path": "stdlib/MozillaCACerts_jll/Project.toml",
+      "language": "toml",
+      "fileCategory": "config"
+    },
+    {
+      "path": "stdlib/MozillaCACerts_jll/src/MozillaCACerts_jll.jl",
+      "language": "jl",
+      "fileCategory": "code"
+    },
+    {
+      "path": "stdlib/NetworkOptions.version",
+      "language": "version",
+      "fileCategory": "code"
+    },
+    {
+      "path": "stdlib/OpenBLAS_jll/Project.toml",
+      "language": "toml",
+      "fileCategory": "config"
+    },
+    {
+      "path": "stdlib/OpenBLAS_jll/src/OpenBLAS_jll.jl",
+      "language": "jl",
+      "fileCategory": "code"
+    },
+    {
+      "path": "stdlib/OpenLibm_jll/Project.toml",
+      "language": "toml",
+      "fileCategory": "config"
+    },
+    {
+      "path": "stdlib/OpenLibm_jll/src/OpenLibm_jll.jl",
+      "language": "jl",
+      "fileCategory": "code"
+    },
+    {
+      "path": "stdlib/OpenSSL_jll/Project.toml",
+      "language": "toml",
+      "fileCategory": "config"
+    },
+    {
+      "path": "stdlib/OpenSSL_jll/src/OpenSSL_jll.jl",
+      "language": "jl",
+      "fileCategory": "code"
+    },
+    {
+      "path": "stdlib/PCRE2_jll/Project.toml",
+      "language": "toml",
+      "fileCategory": "config"
+    },
+    {
+      "path": "stdlib/PCRE2_jll/src/PCRE2_jll.jl",
+      "language": "jl",
+      "fileCategory": "code"
+    },
+    {
+      "path": "stdlib/Pkg.version",
+      "language": "version",
+      "fileCategory": "code"
+    },
+    {
+      "path": "stdlib/Printf/Project.toml",
+      "language": "toml",
+      "fileCategory": "config"
+    },
+    {
+      "path": "stdlib/Printf/docs/src/index.md",
+      "language": "markdown",
+      "fileCategory": "docs"
+    },
+    {
+      "path": "stdlib/Printf/src/Printf.jl",
+      "language": "jl",
+      "fileCategory": "code"
+    },
+    {
+      "path": "stdlib/Profile/Project.toml",
+      "language": "toml",
+      "fileCategory": "config"
+    },
+    {
+      "path": "stdlib/Profile/docs/src/index.md",
+      "language": "markdown",
+      "fileCategory": "docs"
+    },
+    {
+      "path": "stdlib/Profile/src/Allocs.jl",
+      "language": "jl",
+      "fileCategory": "code"
+    },
+    {
+      "path": "stdlib/Profile/src/Profile.jl",
+      "language": "jl",
+      "fileCategory": "code"
+    },
+    {
+      "path": "stdlib/Profile/src/heapsnapshot_reassemble.jl",
+      "language": "jl",
+      "fileCategory": "code"
+    },
+    {
+      "path": "stdlib/Profile/src/precompile.jl",
+      "language": "jl",
+      "fileCategory": "code"
+    },
+    {
+      "path": "stdlib/Project.toml",
+      "language": "toml",
+      "fileCategory": "config"
+    },
+    {
+      "path": "stdlib/REPL/Project.toml",
+      "language": "toml",
+      "fileCategory": "config"
+    },
+    {
+      "path": "stdlib/REPL/docs/src/index.md",
+      "language": "markdown",
+      "fileCategory": "docs"
+    },
+    {
+      "path": "stdlib/REPL/src/History/History.jl",
+      "language": "jl",
+      "fileCategory": "code"
+    },
+    {
+      "path": "stdlib/REPL/src/History/display.jl",
+      "language": "jl",
+      "fileCategory": "code"
+    },
+    {
+      "path": "stdlib/REPL/src/History/histfile.jl",
+      "language": "jl",
+      "fileCategory": "code"
+    },
+    {
+      "path": "stdlib/REPL/src/History/prompt.jl",
+      "language": "jl",
+      "fileCategory": "code"
+    },
+    {
+      "path": "stdlib/REPL/src/History/resumablefiltering.jl",
+      "language": "jl",
+      "fileCategory": "code"
+    },
+    {
+      "path": "stdlib/REPL/src/History/search.jl",
+      "language": "jl",
+      "fileCategory": "code"
+    },
+    {
+      "path": "stdlib/REPL/src/LineEdit.jl",
+      "language": "jl",
+      "fileCategory": "code"
+    },
+    {
+      "path": "stdlib/REPL/src/Pkg_beforeload.jl",
+      "language": "jl",
+      "fileCategory": "code"
+    },
+    {
+      "path": "stdlib/REPL/src/REPL.jl",
+      "language": "jl",
+      "fileCategory": "code"
+    },
+    {
+      "path": "stdlib/REPL/src/REPLCompletions.jl",
+      "language": "jl",
+      "fileCategory": "code"
+    },
+    {
+      "path": "stdlib/REPL/src/StylingPasses.jl",
+      "language": "jl",
+      "fileCategory": "code"
+    },
+    {
+      "path": "stdlib/REPL/src/SyntaxUtil.jl",
+      "language": "jl",
+      "fileCategory": "code"
+    },
+    {
+      "path": "stdlib/REPL/src/TerminalMenus/AbstractMenu.jl",
+      "language": "jl",
+      "fileCategory": "code"
+    },
+    {
+      "path": "stdlib/REPL/src/TerminalMenus/LICENSE.md",
+      "language": "markdown",
+      "fileCategory": "docs"
+    },
+    {
+      "path": "stdlib/REPL/src/TerminalMenus/MultiSelectMenu.jl",
+      "language": "jl",
+      "fileCategory": "code"
+    },
+    {
+      "path": "stdlib/REPL/src/TerminalMenus/Pager.jl",
+      "language": "jl",
+      "fileCategory": "code"
+    },
+    {
+      "path": "stdlib/REPL/src/TerminalMenus/RadioMenu.jl",
+      "language": "jl",
+      "fileCategory": "code"
+    },
+    {
+      "path": "stdlib/REPL/src/TerminalMenus/TerminalMenus.jl",
+      "language": "jl",
+      "fileCategory": "code"
+    },
+    {
+      "path": "stdlib/REPL/src/TerminalMenus/config.jl",
+      "language": "jl",
+      "fileCategory": "code"
+    },
+    {
+      "path": "stdlib/REPL/src/TerminalMenus/util.jl",
+      "language": "jl",
+      "fileCategory": "code"
+    },
+    {
+      "path": "stdlib/REPL/src/docview.jl",
+      "language": "jl",
+      "fileCategory": "code"
+    },
+    {
+      "path": "stdlib/REPL/src/emoji_symbols.jl",
+      "language": "jl",
+      "fileCategory": "code"
+    },
+    {
+      "path": "stdlib/REPL/src/latex_symbols.jl",
+      "language": "jl",
+      "fileCategory": "code"
+    },
+    {
+      "path": "stdlib/REPL/src/options.jl",
+      "language": "jl",
+      "fileCategory": "code"
+    },
+    {
+      "path": "stdlib/REPL/src/precompile.jl",
+      "language": "jl",
+      "fileCategory": "code"
+    },
+    {
+      "path": "stdlib/Random/Project.toml",
+      "language": "toml",
+      "fileCategory": "config"
+    },
+    {
+      "path": "stdlib/Random/docs/src/index.md",
+      "language": "markdown",
+      "fileCategory": "docs"
+    },
+    {
+      "path": "stdlib/Random/src/DSFMT.jl",
+      "language": "jl",
+      "fileCategory": "code"
+    },
+    {
+      "path": "stdlib/Random/src/MersenneTwister.jl",
+      "language": "jl",
+      "fileCategory": "code"
+    },
+    {
+      "path": "stdlib/Random/src/RNGs.jl",
+      "language": "jl",
+      "fileCategory": "code"
+    },
+    {
+      "path": "stdlib/Random/src/Random.jl",
+      "language": "jl",
+      "fileCategory": "code"
+    },
+    {
+      "path": "stdlib/Random/src/Xoshiro.jl",
+      "language": "jl",
+      "fileCategory": "code"
+    },
+    {
+      "path": "stdlib/Random/src/XoshiroSimd.jl",
+      "language": "jl",
+      "fileCategory": "code"
+    },
+    {
+      "path": "stdlib/Random/src/generation.jl",
+      "language": "jl",
+      "fileCategory": "code"
+    },
+    {
+      "path": "stdlib/Random/src/misc.jl",
+      "language": "jl",
+      "fileCategory": "code"
+    },
+    {
+      "path": "stdlib/Random/src/normal.jl",
+      "language": "jl",
+      "fileCategory": "code"
+    },
+    {
+      "path": "stdlib/SHA.version",
+      "language": "version",
+      "fileCategory": "code"
+    },
+    {
+      "path": "stdlib/Serialization/Project.toml",
+      "language": "toml",
+      "fileCategory": "config"
+    },
+    {
+      "path": "stdlib/Serialization/docs/src/index.md",
+      "language": "markdown",
+      "fileCategory": "docs"
+    },
+    {
+      "path": "stdlib/Serialization/src/Serialization.jl",
+      "language": "jl",
+      "fileCategory": "code"
+    },
+    {
+      "path": "stdlib/SharedArrays/Project.toml",
+      "language": "toml",
+      "fileCategory": "config"
+    },
+    {
+      "path": "stdlib/SharedArrays/docs/src/index.md",
+      "language": "markdown",
+      "fileCategory": "docs"
+    },
+    {
+      "path": "stdlib/SharedArrays/src/SharedArrays.jl",
+      "language": "jl",
+      "fileCategory": "code"
+    },
+    {
+      "path": "stdlib/Sockets/Project.toml",
+      "language": "toml",
+      "fileCategory": "config"
+    },
+    {
+      "path": "stdlib/Sockets/docs/src/index.md",
+      "language": "markdown",
+      "fileCategory": "docs"
+    },
+    {
+      "path": "stdlib/Sockets/src/IPAddr.jl",
+      "language": "jl",
+      "fileCategory": "code"
+    },
+    {
+      "path": "stdlib/Sockets/src/PipeServer.jl",
+      "language": "jl",
+      "fileCategory": "code"
+    },
+    {
+      "path": "stdlib/Sockets/src/Sockets.jl",
+      "language": "jl",
+      "fileCategory": "code"
+    },
+    {
+      "path": "stdlib/Sockets/src/addrinfo.jl",
+      "language": "jl",
+      "fileCategory": "code"
+    },
+    {
+      "path": "stdlib/SparseArrays.version",
+      "language": "version",
+      "fileCategory": "code"
+    },
+    {
+      "path": "stdlib/Statistics.version",
+      "language": "version",
+      "fileCategory": "code"
+    },
+    {
+      "path": "stdlib/StyledStrings.version",
+      "language": "version",
+      "fileCategory": "code"
+    },
+    {
+      "path": "stdlib/SuiteSparse.version",
+      "language": "version",
+      "fileCategory": "code"
+    },
+    {
+      "path": "stdlib/SuiteSparse_jll/Project.toml",
+      "language": "toml",
+      "fileCategory": "config"
+    },
+    {
+      "path": "stdlib/SuiteSparse_jll/src/SuiteSparse_jll.jl",
+      "language": "jl",
+      "fileCategory": "code"
+    },
+    {
+      "path": "stdlib/TOML/Project.toml",
+      "language": "toml",
+      "fileCategory": "config"
+    },
+    {
+      "path": "stdlib/TOML/benchmark/Manifest.toml",
+      "language": "toml",
+      "fileCategory": "config"
+    },
+    {
+      "path": "stdlib/TOML/benchmark/Project.toml",
+      "language": "toml",
+      "fileCategory": "config"
+    },
+    {
+      "path": "stdlib/TOML/benchmark/benchmarks.jl",
+      "language": "jl",
+      "fileCategory": "code"
+    },
+    {
+      "path": "stdlib/TOML/benchmark/files/Compat.toml",
+      "language": "toml",
+      "fileCategory": "config"
+    },
+    {
+      "path": "stdlib/TOML/benchmark/files/Registry.toml",
+      "language": "toml",
+      "fileCategory": "config"
+    },
+    {
+      "path": "stdlib/TOML/benchmark/tune.json",
+      "language": "json",
+      "fileCategory": "config"
+    },
+    {
+      "path": "stdlib/TOML/docs/Manifest.toml",
+      "language": "toml",
+      "fileCategory": "config"
+    },
+    {
+      "path": "stdlib/TOML/docs/Project.toml",
+      "language": "toml",
+      "fileCategory": "config"
+    },
+    {
+      "path": "stdlib/TOML/docs/make.jl",
+      "language": "jl",
+      "fileCategory": "code"
+    },
+    {
+      "path": "stdlib/TOML/docs/src/index.md",
+      "language": "markdown",
+      "fileCategory": "docs"
+    },
+    {
+      "path": "stdlib/TOML/src/TOML.jl",
+      "language": "jl",
+      "fileCategory": "code"
+    },
+    {
+      "path": "stdlib/TOML/src/precompile.jl",
+      "language": "jl",
+      "fileCategory": "code"
+    },
+    {
+      "path": "stdlib/Tar.version",
+      "language": "version",
+      "fileCategory": "code"
+    },
+    {
+      "path": "stdlib/UUIDs/Project.toml",
+      "language": "toml",
+      "fileCategory": "config"
+    },
+    {
+      "path": "stdlib/UUIDs/docs/src/index.md",
+      "language": "markdown",
+      "fileCategory": "docs"
+    },
+    {
+      "path": "stdlib/UUIDs/src/UUIDs.jl",
+      "language": "jl",
+      "fileCategory": "code"
+    },
+    {
+      "path": "stdlib/Unicode/Project.toml",
+      "language": "toml",
+      "fileCategory": "config"
+    },
+    {
+      "path": "stdlib/Unicode/docs/src/index.md",
+      "language": "markdown",
+      "fileCategory": "docs"
+    },
+    {
+      "path": "stdlib/Unicode/src/Unicode.jl",
+      "language": "jl",
+      "fileCategory": "code"
+    },
+    {
+      "path": "stdlib/Zlib_jll/Project.toml",
+      "language": "toml",
+      "fileCategory": "config"
+    },
+    {
+      "path": "stdlib/Zlib_jll/src/Zlib_jll.jl",
+      "language": "jl",
+      "fileCategory": "code"
+    },
+    {
+      "path": "stdlib/Zstd_jll/Project.toml",
+      "language": "toml",
+      "fileCategory": "config"
+    },
+    {
+      "path": "stdlib/Zstd_jll/src/Zstd_jll.jl",
+      "language": "jl",
+      "fileCategory": "code"
+    },
+    {
+      "path": "stdlib/dSFMT_jll/Project.toml",
+      "language": "toml",
+      "fileCategory": "config"
+    },
+    {
+      "path": "stdlib/dSFMT_jll/src/dSFMT_jll.jl",
+      "language": "jl",
+      "fileCategory": "code"
+    },
+    {
+      "path": "stdlib/libLLVM_jll/Project.toml",
+      "language": "toml",
+      "fileCategory": "config"
+    },
+    {
+      "path": "stdlib/libLLVM_jll/src/libLLVM_jll.jl",
+      "language": "jl",
+      "fileCategory": "code"
+    },
+    {
+      "path": "stdlib/libblastrampoline_jll/Project.toml",
+      "language": "toml",
+      "fileCategory": "config"
+    },
+    {
+      "path": "stdlib/libblastrampoline_jll/src/libblastrampoline_jll.jl",
+      "language": "jl",
+      "fileCategory": "code"
+    },
+    {
+      "path": "stdlib/nghttp2_jll/Project.toml",
+      "language": "toml",
+      "fileCategory": "config"
+    },
+    {
+      "path": "stdlib/nghttp2_jll/src/nghttp2_jll.jl",
+      "language": "jl",
+      "fileCategory": "code"
+    },
+    {
+      "path": "stdlib/p7zip_jll/Project.toml",
+      "language": "toml",
+      "fileCategory": "config"
+    },
+    {
+      "path": "stdlib/p7zip_jll/src/p7zip_jll.jl",
+      "language": "jl",
+      "fileCategory": "code"
+    },
+    {
+      "path": "stdlib/stdlib.mk",
+      "language": "mk",
+      "fileCategory": "code"
+    },
+    {
+      "path": "sysimage.mk",
+      "language": "mk",
+      "fileCategory": "code"
+    },
+    {
+      "path": "typos.toml",
+      "language": "toml",
+      "fileCategory": "config"
+    }
+  ]
+}

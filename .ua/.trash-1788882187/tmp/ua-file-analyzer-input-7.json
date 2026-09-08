@@ -1,0 +1,158 @@
+{
+  "projectRoot": "/home/maruti/julia",
+  "batchFiles": [
+    {
+      "path": "src/gc-alloc-profiler.c",
+      "language": "c",
+      "sizeLines": 374,
+      "fileCategory": "code"
+    },
+    {
+      "path": "src/gc-alloc-profiler.h",
+      "language": "c",
+      "sizeLines": 60,
+      "fileCategory": "code"
+    },
+    {
+      "path": "src/gc-common.c",
+      "language": "c",
+      "sizeLines": 878,
+      "fileCategory": "code"
+    },
+    {
+      "path": "src/gc-common.h",
+      "language": "c",
+      "sizeLines": 236,
+      "fileCategory": "code"
+    },
+    {
+      "path": "src/gc-debug.c",
+      "language": "c",
+      "sizeLines": 1100,
+      "fileCategory": "code"
+    },
+    {
+      "path": "src/gc-mmtk/gc-mmtk.c",
+      "language": "c",
+      "sizeLines": 1575,
+      "fileCategory": "code"
+    },
+    {
+      "path": "src/gc-mmtk/gc-tls-mmtk.h",
+      "language": "c",
+      "sizeLines": 23,
+      "fileCategory": "code"
+    },
+    {
+      "path": "src/gc-mmtk/gc-wb-mmtk.h",
+      "language": "c",
+      "sizeLines": 100,
+      "fileCategory": "code"
+    },
+    {
+      "path": "src/gc-page-profiler.c",
+      "language": "c",
+      "sizeLines": 179,
+      "fileCategory": "code"
+    },
+    {
+      "path": "src/gc-page-profiler.h",
+      "language": "c",
+      "sizeLines": 146,
+      "fileCategory": "code"
+    },
+    {
+      "path": "src/gc-pages.c",
+      "language": "c",
+      "sizeLines": 222,
+      "fileCategory": "code"
+    },
+    {
+      "path": "src/gc-stacks.c",
+      "language": "c",
+      "sizeLines": 281,
+      "fileCategory": "code"
+    },
+    {
+      "path": "src/gc-stock.c",
+      "language": "c",
+      "sizeLines": 4500,
+      "fileCategory": "code"
+    },
+    {
+      "path": "src/gc-stock.h",
+      "language": "c",
+      "sizeLines": 762,
+      "fileCategory": "code"
+    },
+    {
+      "path": "src/julia_atomics.h",
+      "language": "c",
+      "sizeLines": 358,
+      "fileCategory": "code"
+    },
+    {
+      "path": "src/julia_gcext.h",
+      "language": "c",
+      "sizeLines": 148,
+      "fileCategory": "code"
+    }
+  ],
+  "batchImportData": {
+    "src/gc-alloc-profiler.c": [
+      "src/gc-alloc-profiler.h",
+      "src/julia_internal.h"
+    ],
+    "src/gc-alloc-profiler.h": [],
+    "src/gc-common.c": [
+      "src/gc-common.h",
+      "src/julia.h",
+      "src/julia_assert.h",
+      "src/julia_atomics.h",
+      "src/julia_gcext.h",
+      "src/threading.h"
+    ],
+    "src/gc-common.h": [],
+    "src/gc-debug.c": [
+      "src/gc-common.h",
+      "src/gc-stock.h",
+      "src/julia.h",
+      "src/julia_assert.h"
+    ],
+    "src/gc-mmtk/gc-mmtk.c": [
+      "src/gc-common.h",
+      "src/gc-mmtk/gc-tls-mmtk.h",
+      "src/gc-mmtk/gc-wb-mmtk.h",
+      "src/threading.h"
+    ],
+    "src/gc-mmtk/gc-tls-mmtk.h": [],
+    "src/gc-mmtk/gc-wb-mmtk.h": [],
+    "src/gc-page-profiler.c": [
+      "src/gc-page-profiler.h",
+      "src/julia.h"
+    ],
+    "src/gc-page-profiler.h": [],
+    "src/gc-pages.c": [
+      "src/gc-common.h",
+      "src/gc-stock.h"
+    ],
+    "src/gc-stacks.c": [
+      "src/gc-common.h",
+      "src/threading.h"
+    ],
+    "src/gc-stock.c": [
+      "src/gc-alloc-profiler.h",
+      "src/gc-common.h",
+      "src/gc-heap-snapshot.h",
+      "src/gc-page-profiler.h",
+      "src/gc-stock.h",
+      "src/julia.h",
+      "src/julia_assert.h",
+      "src/julia_atomics.h",
+      "src/julia_gcext.h"
+    ],
+    "src/gc-stock.h": [],
+    "src/julia_atomics.h": [],
+    "src/julia_gcext.h": []
+  }
+}

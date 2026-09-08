@@ -1,0 +1,165 @@
+{
+  "projectRoot": "/home/maruti/julia",
+  "batchFiles": [
+    {
+      "path": "cli/jl_exports.h",
+      "language": "c",
+      "sizeLines": 80,
+      "fileCategory": "code"
+    },
+    {
+      "path": "cli/list_strip_symbols.h",
+      "language": "c",
+      "sizeLines": 10,
+      "fileCategory": "code"
+    },
+    {
+      "path": "cli/loader.h",
+      "language": "c",
+      "sizeLines": 85,
+      "fileCategory": "code"
+    },
+    {
+      "path": "cli/loader_exe.c",
+      "language": "c",
+      "sizeLines": 135,
+      "fileCategory": "code"
+    },
+    {
+      "path": "cli/loader_lib.c",
+      "language": "c",
+      "sizeLines": 520,
+      "fileCategory": "code"
+    },
+    {
+      "path": "cli/loader_library_probe.c",
+      "language": "c",
+      "sizeLines": 216,
+      "fileCategory": "code"
+    },
+    {
+      "path": "cli/loader_symbol_probe.c",
+      "language": "c",
+      "sizeLines": 123,
+      "fileCategory": "code"
+    },
+    {
+      "path": "cli/trampolines/common.h",
+      "language": "c",
+      "sizeLines": 77,
+      "fileCategory": "code"
+    },
+    {
+      "path": "src/ccalllazybar.c",
+      "language": "c",
+      "sizeLines": 10,
+      "fileCategory": "code"
+    },
+    {
+      "path": "src/ccalllazyfoo.c",
+      "language": "c",
+      "sizeLines": 7,
+      "fileCategory": "code"
+    },
+    {
+      "path": "src/ccalltest.c",
+      "language": "c",
+      "sizeLines": 984,
+      "fileCategory": "code"
+    },
+    {
+      "path": "src/ccalltest_common.h",
+      "language": "c",
+      "sizeLines": 30,
+      "fileCategory": "code"
+    },
+    {
+      "path": "src/jl_exported_data.inc",
+      "language": "inc",
+      "sizeLines": 175,
+      "fileCategory": "code"
+    },
+    {
+      "path": "src/jl_exported_funcs.inc",
+      "language": "inc",
+      "sizeLines": 587,
+      "fileCategory": "code"
+    },
+    {
+      "path": "src/jloptions.h",
+      "language": "c",
+      "sizeLines": 82,
+      "fileCategory": "code"
+    },
+    {
+      "path": "src/julia_fasttls.h",
+      "language": "c",
+      "sizeLines": 49,
+      "fileCategory": "code"
+    },
+    {
+      "path": "src/support/dirpath.h",
+      "language": "c",
+      "sizeLines": 24,
+      "fileCategory": "code"
+    },
+    {
+      "path": "src/support/platform.h",
+      "language": "c",
+      "sizeLines": 143,
+      "fileCategory": "code"
+    }
+  ],
+  "batchImportData": {
+    "cli/jl_exports.h": [
+      "src/jl_exported_data.inc",
+      "src/jl_exported_funcs.inc"
+    ],
+    "cli/list_strip_symbols.h": [
+      "cli/trampolines/common.h",
+      "src/jl_exported_funcs.inc"
+    ],
+    "cli/loader.h": [
+      "src/jloptions.h",
+      "src/julia_fasttls.h",
+      "src/support/dirpath.h",
+      "src/support/platform.h"
+    ],
+    "cli/loader_exe.c": [
+      "cli/loader.h"
+    ],
+    "cli/loader_lib.c": [
+      "cli/loader.h"
+    ],
+    "cli/loader_library_probe.c": [
+      "cli/loader.h",
+      "src/support/platform.h"
+    ],
+    "cli/loader_symbol_probe.c": [
+      "cli/loader.h",
+      "src/support/platform.h"
+    ],
+    "cli/trampolines/common.h": [
+      "src/support/platform.h"
+    ],
+    "src/ccalllazybar.c": [
+      "src/ccalltest_common.h"
+    ],
+    "src/ccalllazyfoo.c": [
+      "src/ccalltest_common.h"
+    ],
+    "src/ccalltest.c": [
+      "src/ccalltest_common.h"
+    ],
+    "src/ccalltest_common.h": [
+      "src/support/dtypes.h",
+      "src/support/platform.h"
+    ],
+    "src/jl_exported_data.inc": [],
+    "src/jl_exported_funcs.inc": [],
+    "src/jloptions.h": [],
+    "src/julia_fasttls.h": [],
+    "src/support/dirpath.h": [],
+    "src/support/platform.h": []
+  }
+}

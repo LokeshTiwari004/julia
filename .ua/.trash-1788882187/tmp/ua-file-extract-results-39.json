@@ -1,0 +1,57 @@
+{
+  "scriptCompleted": true,
+  "filesAnalyzed": 1,
+  "filesSkipped": [
+    "base/parse.jl",
+    "base/partr.jl",
+    "base/path.jl",
+    "base/pcre.jl",
+    "base/permuteddimsarray.jl",
+    "base/pkgid.jl",
+    "base/pointer.jl",
+    "base/precompilation.jl",
+    "base/process.jl",
+    "base/promotion.jl",
+    "base/public.jl",
+    "base/range.jl",
+    "base/rational.jl",
+    "base/rawbigfloats.jl",
+    "base/reduce.jl",
+    "base/reducedim.jl",
+    "base/reflection.jl",
+    "base/refpointer.jl",
+    "base/refvalue.jl",
+    "base/regex.jl",
+    "base/reinterpretarray.jl",
+    "base/reshapedarray.jl",
+    "base/rounding.jl",
+    "base/runtime_internals.jl"
+  ],
+  "analysisOutcomes": {
+    "structure": {
+      "succeeded": 1,
+      "failed": 0
+    },
+    "callGraph": {
+      "succeeded": 0,
+      "failed": 0,
+      "skipped": 1
+    }
+  },
+  "results": [
+    {
+      "path": "base/ryu/LICENSE.md",
+      "language": "markdown",
+      "fileCategory": "docs",
+      "totalLines": 25,
+      "nonEmptyLines": 21,
+      "metrics": {
+        "importCount": 0,
+        "exportCount": 0,
+        "functionCount": 0,
+        "classCount": 0,
+        "sectionCount": 0
+      }
+    }
+  ]
+}

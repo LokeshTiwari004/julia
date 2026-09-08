@@ -1,0 +1,184 @@
+{
+  "projectRoot": "/home/maruti/julia",
+  "batchFiles": [
+    {
+      "path": "src/clangsa/FirstDeclAnnotations.cpp",
+      "language": "cpp",
+      "sizeLines": 840,
+      "fileCategory": "code"
+    },
+    {
+      "path": "src/clangsa/HelpersCommon.hpp",
+      "language": "cpp",
+      "sizeLines": 62,
+      "fileCategory": "code"
+    },
+    {
+      "path": "src/clangsa/ImplicitAtomics.cpp",
+      "language": "cpp",
+      "sizeLines": 181,
+      "fileCategory": "code"
+    },
+    {
+      "path": "src/clangsa/StaticOrDeclared.cpp",
+      "language": "cpp",
+      "sizeLines": 355,
+      "fileCategory": "code"
+    },
+    {
+      "path": "src/common_symbols1.inc",
+      "language": "inc",
+      "sizeLines": 90,
+      "fileCategory": "code"
+    },
+    {
+      "path": "src/common_symbols2.inc",
+      "language": "inc",
+      "sizeLines": 249,
+      "fileCategory": "code"
+    },
+    {
+      "path": "src/crc32c-tables.c",
+      "language": "c",
+      "sizeLines": 30,
+      "fileCategory": "code"
+    },
+    {
+      "path": "src/file_constants.h",
+      "language": "c",
+      "sizeLines": 112,
+      "fileCategory": "code"
+    },
+    {
+      "path": "src/flisp/Makefile",
+      "language": "makefile",
+      "sizeLines": 192,
+      "fileCategory": "infra"
+    },
+    {
+      "path": "src/flisp/aliases.scm",
+      "language": "scm",
+      "sizeLines": 77,
+      "fileCategory": "code"
+    },
+    {
+      "path": "src/flisp/bootstrap.sh",
+      "language": "shell",
+      "sizeLines": 14,
+      "fileCategory": "script"
+    },
+    {
+      "path": "src/flisp/color.lsp",
+      "language": "lsp",
+      "sizeLines": 89,
+      "fileCategory": "code"
+    },
+    {
+      "path": "src/flisp/compiler.lsp",
+      "language": "lsp",
+      "sizeLines": 894,
+      "fileCategory": "code"
+    },
+    {
+      "path": "src/flisp/cvalues.c",
+      "language": "c",
+      "sizeLines": 1430,
+      "fileCategory": "code"
+    },
+    {
+      "path": "src/flisp/equal.c",
+      "language": "c",
+      "sizeLines": 384,
+      "fileCategory": "code"
+    },
+    {
+      "path": "src/flisp/flisp.boot",
+      "language": "boot",
+      "sizeLines": 409,
+      "fileCategory": "code"
+    },
+    {
+      "path": "src/flisp/julia_charmap.h",
+      "language": "c",
+      "sizeLines": 14,
+      "fileCategory": "code"
+    },
+    {
+      "path": "src/flisp/julia_opsuffs.h",
+      "language": "c",
+      "sizeLines": 135,
+      "fileCategory": "code"
+    },
+    {
+      "path": "src/flisp/mkboot0.lsp",
+      "language": "lsp",
+      "sizeLines": 23,
+      "fileCategory": "code"
+    },
+    {
+      "path": "src/flisp/mkboot1.lsp",
+      "language": "lsp",
+      "sizeLines": 5,
+      "fileCategory": "code"
+    },
+    {
+      "path": "src/flisp/print.c",
+      "language": "c",
+      "sizeLines": 819,
+      "fileCategory": "code"
+    },
+    {
+      "path": "src/flisp/profile.scm",
+      "language": "scm",
+      "sizeLines": 71,
+      "fileCategory": "code"
+    },
+    {
+      "path": "src/flisp/read.c",
+      "language": "c",
+      "sizeLines": 737,
+      "fileCategory": "code"
+    },
+    {
+      "path": "src/flisp/system.lsp",
+      "language": "lsp",
+      "sizeLines": 1028,
+      "fileCategory": "code"
+    },
+    {
+      "path": "src/flisp/unittest.lsp",
+      "language": "lsp",
+      "sizeLines": 289,
+      "fileCategory": "code"
+    }
+  ],
+  "batchImportData": {
+    "src/clangsa/FirstDeclAnnotations.cpp": [
+      "src/clangsa/HelpersCommon.hpp"
+    ],
+    "src/clangsa/HelpersCommon.hpp": [],
+    "src/clangsa/ImplicitAtomics.cpp": [],
+    "src/clangsa/StaticOrDeclared.cpp": [],
+    "src/common_symbols1.inc": [],
+    "src/common_symbols2.inc": [],
+    "src/crc32c-tables.c": [],
+    "src/file_constants.h": [],
+    "src/flisp/Makefile": [],
+    "src/flisp/aliases.scm": [],
+    "src/flisp/bootstrap.sh": [],
+    "src/flisp/color.lsp": [],
+    "src/flisp/compiler.lsp": [],
+    "src/flisp/cvalues.c": [],
+    "src/flisp/equal.c": [],
+    "src/flisp/flisp.boot": [],
+    "src/flisp/julia_charmap.h": [],
+    "src/flisp/julia_opsuffs.h": [],
+    "src/flisp/mkboot0.lsp": [],
+    "src/flisp/mkboot1.lsp": [],
+    "src/flisp/print.c": [],
+    "src/flisp/profile.scm": [],
+    "src/flisp/read.c": [],
+    "src/flisp/system.lsp": [],
+    "src/flisp/unittest.lsp": []
+  }
+}

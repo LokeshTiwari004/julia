@@ -1,0 +1,182 @@
+{
+  "projectRoot": "/home/maruti/julia",
+  "batchFiles": [
+    {
+      "path": "stdlib/Dates/src/io.jl",
+      "language": "jl",
+      "sizeLines": 757,
+      "fileCategory": "code"
+    },
+    {
+      "path": "stdlib/Dates/src/parse.jl",
+      "language": "jl",
+      "sizeLines": 348,
+      "fileCategory": "code"
+    },
+    {
+      "path": "stdlib/Dates/src/periods.jl",
+      "language": "jl",
+      "sizeLines": 478,
+      "fileCategory": "code"
+    },
+    {
+      "path": "stdlib/Dates/src/query.jl",
+      "language": "jl",
+      "sizeLines": 665,
+      "fileCategory": "code"
+    },
+    {
+      "path": "stdlib/Dates/src/ranges.jl",
+      "language": "jl",
+      "sizeLines": 73,
+      "fileCategory": "code"
+    },
+    {
+      "path": "stdlib/Dates/src/rounding.jl",
+      "language": "jl",
+      "sizeLines": 302,
+      "fileCategory": "code"
+    },
+    {
+      "path": "stdlib/Dates/src/types.jl",
+      "language": "jl",
+      "sizeLines": 499,
+      "fileCategory": "code"
+    },
+    {
+      "path": "stdlib/DelimitedFiles.version",
+      "language": "version",
+      "sizeLines": 4,
+      "fileCategory": "code"
+    },
+    {
+      "path": "stdlib/Distributed.version",
+      "language": "version",
+      "sizeLines": 4,
+      "fileCategory": "code"
+    },
+    {
+      "path": "stdlib/Downloads.version",
+      "language": "version",
+      "sizeLines": 4,
+      "fileCategory": "code"
+    },
+    {
+      "path": "stdlib/FileWatching/Project.toml",
+      "language": "toml",
+      "sizeLines": 9,
+      "fileCategory": "config"
+    },
+    {
+      "path": "stdlib/FileWatching/docs/src/index.md",
+      "language": "markdown",
+      "sizeLines": 48,
+      "fileCategory": "docs"
+    },
+    {
+      "path": "stdlib/FileWatching/src/FileWatching.jl",
+      "language": "jl",
+      "sizeLines": 1061,
+      "fileCategory": "code"
+    },
+    {
+      "path": "stdlib/FileWatching/src/pidfile.jl",
+      "language": "jl",
+      "sizeLines": 378,
+      "fileCategory": "code"
+    },
+    {
+      "path": "stdlib/Future/Project.toml",
+      "language": "toml",
+      "sizeLines": 13,
+      "fileCategory": "config"
+    },
+    {
+      "path": "stdlib/Future/docs/src/index.md",
+      "language": "markdown",
+      "sizeLines": 13,
+      "fileCategory": "docs"
+    },
+    {
+      "path": "stdlib/Future/src/Future.jl",
+      "language": "jl",
+      "sizeLines": 45,
+      "fileCategory": "code"
+    },
+    {
+      "path": "stdlib/GMP_jll/Project.toml",
+      "language": "toml",
+      "sizeLines": 17,
+      "fileCategory": "config"
+    },
+    {
+      "path": "stdlib/GMP_jll/src/GMP_jll.jl",
+      "language": "jl",
+      "sizeLines": 74,
+      "fileCategory": "code"
+    },
+    {
+      "path": "stdlib/InteractiveUtils/Project.toml",
+      "language": "toml",
+      "sizeLines": 13,
+      "fileCategory": "config"
+    },
+    {
+      "path": "stdlib/InteractiveUtils/docs/src/index.md",
+      "language": "markdown",
+      "sizeLines": 40,
+      "fileCategory": "docs"
+    },
+    {
+      "path": "stdlib/InteractiveUtils/src/InteractiveUtils.jl",
+      "language": "jl",
+      "sizeLines": 390,
+      "fileCategory": "code"
+    },
+    {
+      "path": "stdlib/InteractiveUtils/src/clipboard.jl",
+      "language": "jl",
+      "sizeLines": 187,
+      "fileCategory": "code"
+    },
+    {
+      "path": "stdlib/InteractiveUtils/src/codeview.jl",
+      "language": "jl",
+      "sizeLines": 592,
+      "fileCategory": "code"
+    },
+    {
+      "path": "stdlib/InteractiveUtils/src/editless.jl",
+      "language": "jl",
+      "sizeLines": 372,
+      "fileCategory": "code"
+    }
+  ],
+  "batchImportData": {
+    "stdlib/Dates/src/io.jl": [],
+    "stdlib/Dates/src/parse.jl": [],
+    "stdlib/Dates/src/periods.jl": [],
+    "stdlib/Dates/src/query.jl": [],
+    "stdlib/Dates/src/ranges.jl": [],
+    "stdlib/Dates/src/rounding.jl": [],
+    "stdlib/Dates/src/types.jl": [],
+    "stdlib/DelimitedFiles.version": [],
+    "stdlib/Distributed.version": [],
+    "stdlib/Downloads.version": [],
+    "stdlib/FileWatching/Project.toml": [],
+    "stdlib/FileWatching/docs/src/index.md": [],
+    "stdlib/FileWatching/src/FileWatching.jl": [],
+    "stdlib/FileWatching/src/pidfile.jl": [],
+    "stdlib/Future/Project.toml": [],
+    "stdlib/Future/docs/src/index.md": [],
+    "stdlib/Future/src/Future.jl": [],
+    "stdlib/GMP_jll/Project.toml": [],
+    "stdlib/GMP_jll/src/GMP_jll.jl": [],
+    "stdlib/InteractiveUtils/Project.toml": [],
+    "stdlib/InteractiveUtils/docs/src/index.md": [],
+    "stdlib/InteractiveUtils/src/InteractiveUtils.jl": [],
+    "stdlib/InteractiveUtils/src/clipboard.jl": [],
+    "stdlib/InteractiveUtils/src/codeview.jl": [],
+    "stdlib/InteractiveUtils/src/editless.jl": []
+  }
+}

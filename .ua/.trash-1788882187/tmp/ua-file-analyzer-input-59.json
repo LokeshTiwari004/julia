@@ -1,0 +1,119 @@
+{
+  "projectRoot": "/home/maruti/julia",
+  "batchFiles": [
+    {
+      "path": "stdlib/Zlib_jll/Project.toml",
+      "language": "toml",
+      "sizeLines": 15,
+      "fileCategory": "config"
+    },
+    {
+      "path": "stdlib/Zlib_jll/src/Zlib_jll.jl",
+      "language": "jl",
+      "sizeLines": 49,
+      "fileCategory": "code"
+    },
+    {
+      "path": "stdlib/Zstd_jll/Project.toml",
+      "language": "toml",
+      "sizeLines": 17,
+      "fileCategory": "config"
+    },
+    {
+      "path": "stdlib/Zstd_jll/src/Zstd_jll.jl",
+      "language": "jl",
+      "sizeLines": 109,
+      "fileCategory": "code"
+    },
+    {
+      "path": "stdlib/dSFMT_jll/Project.toml",
+      "language": "toml",
+      "sizeLines": 16,
+      "fileCategory": "config"
+    },
+    {
+      "path": "stdlib/dSFMT_jll/src/dSFMT_jll.jl",
+      "language": "jl",
+      "sizeLines": 48,
+      "fileCategory": "code"
+    },
+    {
+      "path": "stdlib/libLLVM_jll/Project.toml",
+      "language": "toml",
+      "sizeLines": 22,
+      "fileCategory": "config"
+    },
+    {
+      "path": "stdlib/libLLVM_jll/src/libLLVM_jll.jl",
+      "language": "jl",
+      "sizeLines": 64,
+      "fileCategory": "code"
+    },
+    {
+      "path": "stdlib/libblastrampoline_jll/Project.toml",
+      "language": "toml",
+      "sizeLines": 16,
+      "fileCategory": "config"
+    },
+    {
+      "path": "stdlib/libblastrampoline_jll/src/libblastrampoline_jll.jl",
+      "language": "jl",
+      "sizeLines": 71,
+      "fileCategory": "code"
+    },
+    {
+      "path": "stdlib/nghttp2_jll/Project.toml",
+      "language": "toml",
+      "sizeLines": 18,
+      "fileCategory": "config"
+    },
+    {
+      "path": "stdlib/nghttp2_jll/src/nghttp2_jll.jl",
+      "language": "jl",
+      "sizeLines": 53,
+      "fileCategory": "code"
+    },
+    {
+      "path": "stdlib/p7zip_jll/Project.toml",
+      "language": "toml",
+      "sizeLines": 17,
+      "fileCategory": "config"
+    },
+    {
+      "path": "stdlib/p7zip_jll/src/p7zip_jll.jl",
+      "language": "jl",
+      "sizeLines": 68,
+      "fileCategory": "code"
+    },
+    {
+      "path": "stdlib/stdlib.mk",
+      "language": "mk",
+      "sizeLines": 30,
+      "fileCategory": "code"
+    },
+    {
+      "path": "sysimage.mk",
+      "language": "mk",
+      "sizeLines": 184,
+      "fileCategory": "code"
+    }
+  ],
+  "batchImportData": {
+    "stdlib/Zlib_jll/Project.toml": [],
+    "stdlib/Zlib_jll/src/Zlib_jll.jl": [],
+    "stdlib/Zstd_jll/Project.toml": [],
+    "stdlib/Zstd_jll/src/Zstd_jll.jl": [],
+    "stdlib/dSFMT_jll/Project.toml": [],
+    "stdlib/dSFMT_jll/src/dSFMT_jll.jl": [],
+    "stdlib/libLLVM_jll/Project.toml": [],
+    "stdlib/libLLVM_jll/src/libLLVM_jll.jl": [],
+    "stdlib/libblastrampoline_jll/Project.toml": [],
+    "stdlib/libblastrampoline_jll/src/libblastrampoline_jll.jl": [],
+    "stdlib/nghttp2_jll/Project.toml": [],
+    "stdlib/nghttp2_jll/src/nghttp2_jll.jl": [],
+    "stdlib/p7zip_jll/Project.toml": [],
+    "stdlib/p7zip_jll/src/p7zip_jll.jl": [],
+    "stdlib/stdlib.mk": [],
+    "sysimage.mk": []
+  }
+}

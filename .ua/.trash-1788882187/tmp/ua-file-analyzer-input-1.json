@@ -1,0 +1,294 @@
+{
+  "projectRoot": "/home/maruti/julia",
+  "batchFiles": [
+    {
+      "path": "src/gc-heap-snapshot.c",
+      "language": "c",
+      "sizeLines": 726,
+      "fileCategory": "code"
+    },
+    {
+      "path": "src/gc-heap-snapshot.h",
+      "language": "c",
+      "sizeLines": 140,
+      "fileCategory": "code"
+    },
+    {
+      "path": "src/jl_uv.c",
+      "language": "c",
+      "sizeLines": 1279,
+      "fileCategory": "code"
+    },
+    {
+      "path": "src/runtime_ccall.c",
+      "language": "c",
+      "sizeLines": 460,
+      "fileCategory": "code"
+    },
+    {
+      "path": "src/support/MurmurHash3.c",
+      "language": "c",
+      "sizeLines": 298,
+      "fileCategory": "code"
+    },
+    {
+      "path": "src/support/MurmurHash3.h",
+      "language": "c",
+      "sizeLines": 22,
+      "fileCategory": "code"
+    },
+    {
+      "path": "src/support/arraylist.c",
+      "language": "c",
+      "sizeLines": 150,
+      "fileCategory": "code"
+    },
+    {
+      "path": "src/support/arraylist.h",
+      "language": "c",
+      "sizeLines": 49,
+      "fileCategory": "code"
+    },
+    {
+      "path": "src/support/bitvector.c",
+      "language": "c",
+      "sizeLines": 61,
+      "fileCategory": "code"
+    },
+    {
+      "path": "src/support/bitvector.h",
+      "language": "c",
+      "sizeLines": 22,
+      "fileCategory": "code"
+    },
+    {
+      "path": "src/support/dtypes.h",
+      "language": "c",
+      "sizeLines": 422,
+      "fileCategory": "code"
+    },
+    {
+      "path": "src/support/hashing.c",
+      "language": "c",
+      "sizeLines": 99,
+      "fileCategory": "code"
+    },
+    {
+      "path": "src/support/hashing.h",
+      "language": "c",
+      "sizeLines": 45,
+      "fileCategory": "code"
+    },
+    {
+      "path": "src/support/htable.c",
+      "language": "c",
+      "sizeLines": 71,
+      "fileCategory": "code"
+    },
+    {
+      "path": "src/support/htable.h",
+      "language": "c",
+      "sizeLines": 64,
+      "fileCategory": "code"
+    },
+    {
+      "path": "src/support/htable.inc",
+      "language": "inc",
+      "sizeLines": 247,
+      "fileCategory": "code"
+    },
+    {
+      "path": "src/support/int2str.c",
+      "language": "c",
+      "sizeLines": 69,
+      "fileCategory": "code"
+    },
+    {
+      "path": "src/support/ios.c",
+      "language": "c",
+      "sizeLines": 1300,
+      "fileCategory": "code"
+    },
+    {
+      "path": "src/support/ios.h",
+      "language": "c",
+      "sizeLines": 233,
+      "fileCategory": "code"
+    },
+    {
+      "path": "src/support/operators.c",
+      "language": "c",
+      "sizeLines": 238,
+      "fileCategory": "code"
+    },
+    {
+      "path": "src/support/ptrhash.c",
+      "language": "c",
+      "sizeLines": 33,
+      "fileCategory": "code"
+    },
+    {
+      "path": "src/support/ptrhash.h",
+      "language": "c",
+      "sizeLines": 18,
+      "fileCategory": "code"
+    },
+    {
+      "path": "src/support/strhash.c",
+      "language": "c",
+      "sizeLines": 60,
+      "fileCategory": "code"
+    },
+    {
+      "path": "src/support/strhash.h",
+      "language": "c",
+      "sizeLines": 28,
+      "fileCategory": "code"
+    },
+    {
+      "path": "src/support/strptime.c",
+      "language": "c",
+      "sizeLines": 834,
+      "fileCategory": "code"
+    },
+    {
+      "path": "src/support/timefuncs.c",
+      "language": "c",
+      "sizeLines": 62,
+      "fileCategory": "code"
+    },
+    {
+      "path": "src/support/timefuncs.h",
+      "language": "c",
+      "sizeLines": 23,
+      "fileCategory": "code"
+    },
+    {
+      "path": "src/support/tzfile.h",
+      "language": "c",
+      "sizeLines": 170,
+      "fileCategory": "code"
+    },
+    {
+      "path": "src/support/utf8.c",
+      "language": "c",
+      "sizeLines": 596,
+      "fileCategory": "code"
+    },
+    {
+      "path": "src/support/utf8.h",
+      "language": "c",
+      "sizeLines": 106,
+      "fileCategory": "code"
+    },
+    {
+      "path": "src/support/utils.h",
+      "language": "c",
+      "sizeLines": 55,
+      "fileCategory": "code"
+    }
+  ],
+  "batchImportData": {
+    "src/gc-heap-snapshot.c": [
+      "src/gc-heap-snapshot.h",
+      "src/julia.h",
+      "src/julia_assert.h",
+      "src/julia_internal.h",
+      "src/support/ptrhash.h",
+      "src/support/strhash.h"
+    ],
+    "src/gc-heap-snapshot.h": [],
+    "src/jl_uv.c": [
+      "src/julia.h",
+      "src/julia_assert.h",
+      "src/julia_internal.h",
+      "src/support/dtypes.h",
+      "src/support/ios.h"
+    ],
+    "src/runtime_ccall.c": [
+      "src/julia.h",
+      "src/julia_assert.h",
+      "src/julia_internal.h",
+      "src/processor.h",
+      "src/support/ios.h",
+      "src/support/strhash.h"
+    ],
+    "src/support/MurmurHash3.c": [
+      "src/support/MurmurHash3.h",
+      "src/support/dtypes.h"
+    ],
+    "src/support/MurmurHash3.h": [],
+    "src/support/arraylist.c": [
+      "src/support/arraylist.h",
+      "src/support/dtypes.h"
+    ],
+    "src/support/arraylist.h": [],
+    "src/support/bitvector.c": [
+      "src/support/bitvector.h",
+      "src/support/dtypes.h"
+    ],
+    "src/support/bitvector.h": [],
+    "src/support/dtypes.h": [],
+    "src/support/hashing.c": [
+      "src/support/dtypes.h",
+      "src/support/hashing.h",
+      "src/support/ios.h",
+      "src/support/timefuncs.h",
+      "src/support/utils.h"
+    ],
+    "src/support/hashing.h": [],
+    "src/support/htable.c": [
+      "src/support/dtypes.h",
+      "src/support/hashing.h",
+      "src/support/htable.h"
+    ],
+    "src/support/htable.h": [],
+    "src/support/htable.inc": [],
+    "src/support/int2str.c": [
+      "src/support/dtypes.h",
+      "src/support/utils.h"
+    ],
+    "src/support/ios.c": [
+      "src/support/dtypes.h",
+      "src/support/ios.h",
+      "src/support/timefuncs.h",
+      "src/support/utf8.h",
+      "src/support/utils.h"
+    ],
+    "src/support/ios.h": [],
+    "src/support/operators.c": [
+      "src/support/dtypes.h",
+      "src/support/utils.h"
+    ],
+    "src/support/ptrhash.c": [
+      "src/support/dtypes.h",
+      "src/support/hashing.h",
+      "src/support/htable.inc",
+      "src/support/ptrhash.h"
+    ],
+    "src/support/ptrhash.h": [],
+    "src/support/strhash.c": [
+      "src/support/dtypes.h",
+      "src/support/hashing.h",
+      "src/support/htable.inc",
+      "src/support/strhash.h"
+    ],
+    "src/support/strhash.h": [],
+    "src/support/strptime.c": [
+      "src/support/dtypes.h",
+      "src/support/tzfile.h"
+    ],
+    "src/support/timefuncs.c": [
+      "src/support/dtypes.h",
+      "src/support/timefuncs.h"
+    ],
+    "src/support/timefuncs.h": [],
+    "src/support/tzfile.h": [],
+    "src/support/utf8.c": [
+      "src/support/dtypes.h",
+      "src/support/utf8.h"
+    ],
+    "src/support/utf8.h": [],
+    "src/support/utils.h": []
+  }
+}

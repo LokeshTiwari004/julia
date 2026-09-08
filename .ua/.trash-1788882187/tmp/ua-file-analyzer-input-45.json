@@ -1,0 +1,182 @@
+{
+  "projectRoot": "/home/maruti/julia",
+  "batchFiles": [
+    {
+      "path": "contrib/pgo-lto/Makefile",
+      "language": "makefile",
+      "sizeLines": 87,
+      "fileCategory": "infra"
+    },
+    {
+      "path": "contrib/print_sorted_stdlibs.jl",
+      "language": "jl",
+      "sizeLines": 122,
+      "fileCategory": "code"
+    },
+    {
+      "path": "contrib/refresh_checksums.mk",
+      "language": "mk",
+      "sizeLines": 151,
+      "fileCategory": "code"
+    },
+    {
+      "path": "contrib/relative_path.py",
+      "language": "python",
+      "sizeLines": 10,
+      "fileCategory": "code"
+    },
+    {
+      "path": "contrib/stringreplace.c",
+      "language": "c",
+      "sizeLines": 34,
+      "fileCategory": "code"
+    },
+    {
+      "path": "contrib/tsan/Make.user.tsan",
+      "language": "tsan",
+      "sizeLines": 14,
+      "fileCategory": "code"
+    },
+    {
+      "path": "contrib/updateSPDX.jl",
+      "language": "jl",
+      "sizeLines": 31,
+      "fileCategory": "code"
+    },
+    {
+      "path": "contrib/valgrind-julia.supp",
+      "language": "supp",
+      "sizeLines": 10,
+      "fileCategory": "code"
+    },
+    {
+      "path": "contrib/windows/build-installer.iss",
+      "language": "iss",
+      "sizeLines": 236,
+      "fileCategory": "code"
+    },
+    {
+      "path": "contrib/windows/icon-readme.md",
+      "language": "markdown",
+      "sizeLines": 23,
+      "fileCategory": "docs"
+    },
+    {
+      "path": "contrib/windows/julia-banner.bmp",
+      "language": "bmp",
+      "sizeLines": 18,
+      "fileCategory": "code"
+    },
+    {
+      "path": "contrib/windows/julia-dots.bmp",
+      "language": "bmp",
+      "sizeLines": 1,
+      "fileCategory": "code"
+    },
+    {
+      "path": "contrib/windows/julia-manifest.xml",
+      "language": "xml",
+      "sizeLines": 41,
+      "fileCategory": "config"
+    },
+    {
+      "path": "contrib/windows/julia.rc",
+      "language": "rc",
+      "sizeLines": 35,
+      "fileCategory": "code"
+    },
+    {
+      "path": "contrib/write_base_cache.jl",
+      "language": "jl",
+      "sizeLines": 12,
+      "fileCategory": "code"
+    },
+    {
+      "path": "doc/Makefile",
+      "language": "makefile",
+      "sizeLines": 83,
+      "fileCategory": "infra"
+    },
+    {
+      "path": "doc/NEWS-update.jl",
+      "language": "jl",
+      "sizeLines": 19,
+      "fileCategory": "code"
+    },
+    {
+      "path": "doc/README.md",
+      "language": "markdown",
+      "sizeLines": 37,
+      "fileCategory": "docs"
+    },
+    {
+      "path": "doc/make.jl",
+      "language": "jl",
+      "sizeLines": 635,
+      "fileCategory": "code"
+    },
+    {
+      "path": "doc/man/julia.1",
+      "language": "1",
+      "sizeLines": 334,
+      "fileCategory": "code"
+    },
+    {
+      "path": "doc/src/assets/cover-splash.tex",
+      "language": "tex",
+      "sizeLines": 353,
+      "fileCategory": "code"
+    },
+    {
+      "path": "doc/src/assets/cover.tex",
+      "language": "tex",
+      "sizeLines": 46,
+      "fileCategory": "code"
+    },
+    {
+      "path": "doc/src/assets/custom.sty",
+      "language": "sty",
+      "sizeLines": 46,
+      "fileCategory": "code"
+    },
+    {
+      "path": "doc/src/assets/julia-manual.css",
+      "language": "css",
+      "sizeLines": 15,
+      "fileCategory": "markup"
+    },
+    {
+      "path": "doc/src/assets/logo.tex",
+      "language": "tex",
+      "sizeLines": 142,
+      "fileCategory": "code"
+    }
+  ],
+  "batchImportData": {
+    "contrib/pgo-lto/Makefile": [],
+    "contrib/print_sorted_stdlibs.jl": [],
+    "contrib/refresh_checksums.mk": [],
+    "contrib/relative_path.py": [],
+    "contrib/stringreplace.c": [],
+    "contrib/tsan/Make.user.tsan": [],
+    "contrib/updateSPDX.jl": [],
+    "contrib/valgrind-julia.supp": [],
+    "contrib/windows/build-installer.iss": [],
+    "contrib/windows/icon-readme.md": [],
+    "contrib/windows/julia-banner.bmp": [],
+    "contrib/windows/julia-dots.bmp": [],
+    "contrib/windows/julia-manifest.xml": [],
+    "contrib/windows/julia.rc": [],
+    "contrib/write_base_cache.jl": [],
+    "doc/Makefile": [],
+    "doc/NEWS-update.jl": [],
+    "doc/README.md": [],
+    "doc/make.jl": [],
+    "doc/man/julia.1": [],
+    "doc/src/assets/cover-splash.tex": [],
+    "doc/src/assets/cover.tex": [],
+    "doc/src/assets/custom.sty": [],
+    "doc/src/assets/julia-manual.css": [],
+    "doc/src/assets/logo.tex": []
+  }
+}

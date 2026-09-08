@@ -1,0 +1,113 @@
+{
+  "projectRoot": "/home/maruti/julia",
+  "batchFiles": [
+    {
+      "path": "src/flisp/builtins.c",
+      "language": "c",
+      "sizeLines": 411,
+      "fileCategory": "code"
+    },
+    {
+      "path": "src/flisp/equalhash.c",
+      "language": "c",
+      "sizeLines": 26,
+      "fileCategory": "code"
+    },
+    {
+      "path": "src/flisp/equalhash.h",
+      "language": "c",
+      "sizeLines": 16,
+      "fileCategory": "code"
+    },
+    {
+      "path": "src/flisp/flisp.c",
+      "language": "c",
+      "sizeLines": 2490,
+      "fileCategory": "code"
+    },
+    {
+      "path": "src/flisp/flisp.h",
+      "language": "c",
+      "sizeLines": 524,
+      "fileCategory": "code"
+    },
+    {
+      "path": "src/flisp/flmain.c",
+      "language": "c",
+      "sizeLines": 71,
+      "fileCategory": "code"
+    },
+    {
+      "path": "src/flisp/iostream.c",
+      "language": "c",
+      "sizeLines": 480,
+      "fileCategory": "code"
+    },
+    {
+      "path": "src/flisp/julia_extensions.c",
+      "language": "c",
+      "sizeLines": 439,
+      "fileCategory": "code"
+    },
+    {
+      "path": "src/flisp/opcodes.h",
+      "language": "c",
+      "sizeLines": 102,
+      "fileCategory": "code"
+    },
+    {
+      "path": "src/flisp/string.c",
+      "language": "c",
+      "sizeLines": 300,
+      "fileCategory": "code"
+    },
+    {
+      "path": "src/flisp/table.c",
+      "language": "c",
+      "sizeLines": 221,
+      "fileCategory": "code"
+    },
+    {
+      "path": "src/flisp/types.c",
+      "language": "c",
+      "sizeLines": 96,
+      "fileCategory": "code"
+    }
+  ],
+  "batchImportData": {
+    "src/flisp/builtins.c": [
+      "src/flisp/flisp.h"
+    ],
+    "src/flisp/equalhash.c": [
+      "src/flisp/equalhash.h",
+      "src/flisp/flisp.h"
+    ],
+    "src/flisp/equalhash.h": [],
+    "src/flisp/flisp.c": [
+      "src/flisp/flisp.h",
+      "src/flisp/opcodes.h"
+    ],
+    "src/flisp/flisp.h": [],
+    "src/flisp/flmain.c": [
+      "src/flisp/flisp.h",
+      "src/flisp/opcodes.h"
+    ],
+    "src/flisp/iostream.c": [
+      "src/flisp/flisp.h"
+    ],
+    "src/flisp/julia_extensions.c": [
+      "src/flisp/flisp.h"
+    ],
+    "src/flisp/opcodes.h": [],
+    "src/flisp/string.c": [
+      "src/flisp/flisp.h"
+    ],
+    "src/flisp/table.c": [
+      "src/flisp/equalhash.h",
+      "src/flisp/flisp.h"
+    ],
+    "src/flisp/types.c": [
+      "src/flisp/equalhash.h"
+    ]
+  }
+}

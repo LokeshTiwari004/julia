@@ -1,0 +1,32 @@
+{
+  "projectRoot": "/home/maruti/julia",
+  "batchFiles": [
+    {
+      "path": "src/support/libsupport.h",
+      "language": "c",
+      "sizeLines": 24,
+      "fileCategory": "code"
+    },
+    {
+      "path": "src/support/libsupportinit.c",
+      "language": "c",
+      "sizeLines": 83,
+      "fileCategory": "code"
+    },
+    {
+      "path": "src/support/strtod.c",
+      "language": "c",
+      "sizeLines": 287,
+      "fileCategory": "code"
+    }
+  ],
+  "batchImportData": {
+    "src/support/libsupport.h": [],
+    "src/support/libsupportinit.c": [
+      "src/support/libsupport.h"
+    ],
+    "src/support/strtod.c": [
+      "src/support/libsupport.h"
+    ]
+  }
+}

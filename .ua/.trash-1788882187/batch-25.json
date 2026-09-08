@@ -1,0 +1,397 @@
+{
+  "batchIndex": 25,
+  "nodes": [
+    {
+      "id": "document:doc/src/devdocs/contributing/aiagents.md",
+      "type": "document",
+      "name": "aiagents.md",
+      "filePath": "doc/src/devdocs/contributing/aiagents.md",
+      "summary": "Documentation covering Using AI agents to work on Julia, Google Jules, OpenAI Codex.",
+      "tags": [
+        "documentation",
+        "runtime"
+      ],
+      "complexity": "simple",
+      "language": "markdown"
+    },
+    {
+      "id": "document:doc/src/devdocs/contributing/code-changes.md",
+      "type": "document",
+      "name": "code-changes.md",
+      "filePath": "doc/src/devdocs/contributing/code-changes.md",
+      "summary": "Documentation covering Code changes, Contributing to core functionality or base libraries, Running specific tests and more.",
+      "tags": [
+        "documentation",
+        "runtime"
+      ],
+      "complexity": "moderate",
+      "language": "markdown"
+    },
+    {
+      "id": "document:doc/src/devdocs/contributing/documentation.md",
+      "type": "document",
+      "name": "documentation.md",
+      "filePath": "doc/src/devdocs/contributing/documentation.md",
+      "summary": "Documentation covering Improving documentation, Modifying files in `doc/src/`, Modifying an existing docstring in `base/` and more.",
+      "tags": [
+        "documentation",
+        "runtime"
+      ],
+      "complexity": "moderate",
+      "language": "markdown"
+    },
+    {
+      "id": "document:doc/src/devdocs/contributing/formatting.md",
+      "type": "document",
+      "name": "formatting.md",
+      "filePath": "doc/src/devdocs/contributing/formatting.md",
+      "summary": "Documentation covering Code Formatting Guidelines, General Formatting Guidelines for Julia code contributions, General Formatting Guidelines For C code contributions.",
+      "tags": [
+        "documentation",
+        "runtime"
+      ],
+      "complexity": "simple",
+      "language": "markdown"
+    },
+    {
+      "id": "document:doc/src/devdocs/contributing/git-workflow.md",
+      "type": "document",
+      "name": "git-workflow.md",
+      "filePath": "doc/src/devdocs/contributing/git-workflow.md",
+      "summary": "Documentation covering Git workflow recommendations, Git Recommendations For Pull Requests, Git Recommendations For Pull Request Reviewers.",
+      "tags": [
+        "documentation",
+        "runtime"
+      ],
+      "complexity": "simple",
+      "language": "markdown"
+    },
+    {
+      "id": "document:doc/src/devdocs/contributing/jldoctests.md",
+      "type": "document",
+      "name": "jldoctests.md",
+      "filePath": "doc/src/devdocs/contributing/jldoctests.md",
+      "summary": "Documentation covering [Writing jldoctests](@id writing-jldoctests), Filters, Common filter sequences and more.",
+      "tags": [
+        "documentation",
+        "runtime",
+        "testing"
+      ],
+      "complexity": "moderate",
+      "language": "markdown"
+    },
+    {
+      "id": "document:doc/src/devdocs/contributing/patch-releases.md",
+      "type": "document",
+      "name": "patch-releases.md",
+      "filePath": "doc/src/devdocs/contributing/patch-releases.md",
+      "summary": "Documentation covering Contributing to patch releases.",
+      "tags": [
+        "documentation",
+        "runtime"
+      ],
+      "complexity": "simple",
+      "language": "markdown"
+    },
+    {
+      "id": "document:doc/src/devdocs/contributing/tests.md",
+      "type": "document",
+      "name": "tests.md",
+      "filePath": "doc/src/devdocs/contributing/tests.md",
+      "summary": "Documentation covering Writing tests.",
+      "tags": [
+        "documentation",
+        "runtime",
+        "testing"
+      ],
+      "complexity": "simple",
+      "language": "markdown"
+    }
+  ],
+  "edges": [],
+  "batchFiles": [
+    {
+      "path": "doc/src/devdocs/contributing/aiagents.md",
+      "language": "markdown",
+      "fileCategory": "docs",
+      "totalLines": 49,
+      "nonEmptyLines": 37,
+      "sections": [
+        {
+          "heading": "Using AI agents to work on Julia",
+          "level": 1,
+          "line": 1
+        },
+        {
+          "heading": "Google Jules",
+          "level": 2,
+          "line": 12
+        },
+        {
+          "heading": "OpenAI Codex",
+          "level": 2,
+          "line": 24
+        }
+      ],
+      "metrics": {
+        "importCount": 0,
+        "exportCount": 0,
+        "functionCount": 0,
+        "classCount": 0,
+        "sectionCount": 3
+      }
+    },
+    {
+      "path": "doc/src/devdocs/contributing/code-changes.md",
+      "language": "markdown",
+      "fileCategory": "docs",
+      "totalLines": 114,
+      "nonEmptyLines": 77,
+      "sections": [
+        {
+          "heading": "Code changes",
+          "level": 1,
+          "line": 1
+        },
+        {
+          "heading": "Contributing to core functionality or base libraries",
+          "level": 2,
+          "line": 3
+        },
+        {
+          "heading": "Running specific tests",
+          "level": 3,
+          "line": 30
+        },
+        {
+          "heading": "Modifying base more efficiently with Revise.jl",
+          "level": 3,
+          "line": 40
+        },
+        {
+          "heading": "Contributing to the standard library",
+          "level": 2,
+          "line": 79
+        },
+        {
+          "heading": "News-worthy changes",
+          "level": 3,
+          "line": 97
+        },
+        {
+          "heading": "Annotations for new features, deprecations and behavior changes",
+          "level": 3,
+          "line": 101
+        }
+      ],
+      "metrics": {
+        "importCount": 0,
+        "exportCount": 0,
+        "functionCount": 0,
+        "classCount": 0,
+        "sectionCount": 7
+      }
+    },
+    {
+      "path": "doc/src/devdocs/contributing/documentation.md",
+      "language": "markdown",
+      "fileCategory": "docs",
+      "totalLines": 87,
+      "nonEmptyLines": 60,
+      "sections": [
+        {
+          "heading": "Improving documentation",
+          "level": 1,
+          "line": 1
+        },
+        {
+          "heading": "Modifying files in `doc/src/`",
+          "level": 2,
+          "line": 19
+        },
+        {
+          "heading": "Modifying an existing docstring in `base/`",
+          "level": 2,
+          "line": 36
+        },
+        {
+          "heading": "Adding a new docstring to `base/`",
+          "level": 2,
+          "line": 46
+        },
+        {
+          "heading": "Doctests",
+          "level": 2,
+          "line": 74
+        }
+      ],
+      "metrics": {
+        "importCount": 0,
+        "exportCount": 0,
+        "functionCount": 0,
+        "classCount": 0,
+        "sectionCount": 5
+      }
+    },
+    {
+      "path": "doc/src/devdocs/contributing/formatting.md",
+      "language": "markdown",
+      "fileCategory": "docs",
+      "totalLines": 22,
+      "nonEmptyLines": 18,
+      "sections": [
+        {
+          "heading": "Code Formatting Guidelines",
+          "level": 1,
+          "line": 1
+        },
+        {
+          "heading": "General Formatting Guidelines for Julia code contributions",
+          "level": 2,
+          "line": 3
+        },
+        {
+          "heading": "General Formatting Guidelines For C code contributions",
+          "level": 2,
+          "line": 14
+        }
+      ],
+      "metrics": {
+        "importCount": 0,
+        "exportCount": 0,
+        "functionCount": 0,
+        "classCount": 0,
+        "sectionCount": 3
+      }
+    },
+    {
+      "path": "doc/src/devdocs/contributing/git-workflow.md",
+      "language": "markdown",
+      "fileCategory": "docs",
+      "totalLines": 19,
+      "nonEmptyLines": 15,
+      "sections": [
+        {
+          "heading": "Git workflow recommendations",
+          "level": 1,
+          "line": 1
+        },
+        {
+          "heading": "Git Recommendations For Pull Requests",
+          "level": 2,
+          "line": 3
+        },
+        {
+          "heading": "Git Recommendations For Pull Request Reviewers",
+          "level": 3,
+          "line": 17
+        }
+      ],
+      "metrics": {
+        "importCount": 0,
+        "exportCount": 0,
+        "functionCount": 0,
+        "classCount": 0,
+        "sectionCount": 3
+      }
+    },
+    {
+      "path": "doc/src/devdocs/contributing/jldoctests.md",
+      "language": "markdown",
+      "fileCategory": "docs",
+      "totalLines": 151,
+      "nonEmptyLines": 116,
+      "sections": [
+        {
+          "heading": "[Writing jldoctests](@id writing-jldoctests)",
+          "level": 1,
+          "line": 1
+        },
+        {
+          "heading": "Filters",
+          "level": 2,
+          "line": 5
+        },
+        {
+          "heading": "Common filter sequences",
+          "level": 3,
+          "line": 16
+        },
+        {
+          "heading": "Setup code",
+          "level": 2,
+          "line": 47
+        },
+        {
+          "heading": "Teardown code",
+          "level": 3,
+          "line": 74
+        },
+        {
+          "heading": "Maintaining state between snippets",
+          "level": 2,
+          "line": 85
+        },
+        {
+          "heading": "Syntax versioning",
+          "level": 2,
+          "line": 113
+        },
+        {
+          "heading": "Further reading",
+          "level": 2,
+          "line": 150
+        }
+      ],
+      "metrics": {
+        "importCount": 0,
+        "exportCount": 0,
+        "functionCount": 0,
+        "classCount": 0,
+        "sectionCount": 8
+      }
+    },
+    {
+      "path": "doc/src/devdocs/contributing/patch-releases.md",
+      "language": "markdown",
+      "fileCategory": "docs",
+      "totalLines": 44,
+      "nonEmptyLines": 34,
+      "sections": [
+        {
+          "heading": "Contributing to patch releases",
+          "level": 1,
+          "line": 1
+        }
+      ],
+      "metrics": {
+        "importCount": 0,
+        "exportCount": 0,
+        "functionCount": 0,
+        "classCount": 0,
+        "sectionCount": 1
+      }
+    },
+    {
+      "path": "doc/src/devdocs/contributing/tests.md",
+      "language": "markdown",
+      "fileCategory": "docs",
+      "totalLines": 19,
+      "nonEmptyLines": 11,
+      "sections": [
+        {
+          "heading": "Writing tests",
+          "level": 1,
+          "line": 1
+        }
+      ],
+      "metrics": {
+        "importCount": 0,
+        "exportCount": 0,
+        "functionCount": 0,
+        "classCount": 0,
+        "sectionCount": 1
+      }
+    }
+  ]
+}

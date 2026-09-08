@@ -1,0 +1,43 @@
+{
+  "scriptCompleted": true,
+  "filesAnalyzed": 0,
+  "filesSkipped": [
+    "base/stream.jl",
+    "base/strings/annotated.jl",
+    "base/strings/annotated_io.jl",
+    "base/strings/basic.jl",
+    "base/strings/cstring.jl",
+    "base/strings/io.jl",
+    "base/strings/lazy.jl",
+    "base/strings/search.jl",
+    "base/strings/string.jl",
+    "base/strings/strings.jl",
+    "base/strings/stringview.jl",
+    "base/strings/substring.jl",
+    "base/strings/unicode.jl",
+    "base/strings/util.jl",
+    "base/subarray.jl",
+    "base/summarysize.jl",
+    "base/sysimg.jl",
+    "base/sysinfo.jl",
+    "base/task.jl",
+    "base/terminfo.jl",
+    "base/terminfo_data.jl",
+    "base/threadcall.jl",
+    "base/threadingconstructs.jl",
+    "base/threads.jl",
+    "base/threads_overloads.jl"
+  ],
+  "analysisOutcomes": {
+    "structure": {
+      "succeeded": 0,
+      "failed": 0
+    },
+    "callGraph": {
+      "succeeded": 0,
+      "failed": 0,
+      "skipped": 0
+    }
+  },
+  "results": []
+}

@@ -1,0 +1,182 @@
+{
+  "projectRoot": "/home/maruti/julia",
+  "batchFiles": [
+    {
+      "path": "base/timing.jl",
+      "language": "jl",
+      "sizeLines": 798,
+      "fileCategory": "code"
+    },
+    {
+      "path": "base/toml/parser.jl",
+      "language": "jl",
+      "sizeLines": 1462,
+      "fileCategory": "code"
+    },
+    {
+      "path": "base/toml/printer.jl",
+      "language": "jl",
+      "sizeLines": 389,
+      "fileCategory": "code"
+    },
+    {
+      "path": "base/toml/toml.jl",
+      "language": "jl",
+      "sizeLines": 19,
+      "fileCategory": "code"
+    },
+    {
+      "path": "base/traits.jl",
+      "language": "jl",
+      "sizeLines": 69,
+      "fileCategory": "code"
+    },
+    {
+      "path": "base/tuple.jl",
+      "language": "jl",
+      "sizeLines": 716,
+      "fileCategory": "code"
+    },
+    {
+      "path": "base/twiceprecision.jl",
+      "language": "jl",
+      "sizeLines": 804,
+      "fileCategory": "code"
+    },
+    {
+      "path": "base/util.jl",
+      "language": "jl",
+      "sizeLines": 733,
+      "fileCategory": "code"
+    },
+    {
+      "path": "base/uuid.jl",
+      "language": "jl",
+      "sizeLines": 117,
+      "fileCategory": "code"
+    },
+    {
+      "path": "base/version.jl",
+      "language": "jl",
+      "sizeLines": 744,
+      "fileCategory": "code"
+    },
+    {
+      "path": "base/version_git.sh",
+      "language": "shell",
+      "sizeLines": 145,
+      "fileCategory": "script"
+    },
+    {
+      "path": "base/views.jl",
+      "language": "jl",
+      "sizeLines": 334,
+      "fileCategory": "code"
+    },
+    {
+      "path": "base/weakdict.jl",
+      "language": "jl",
+      "sizeLines": 444,
+      "fileCategory": "code"
+    },
+    {
+      "path": "cli/Makefile",
+      "language": "makefile",
+      "sizeLines": 213,
+      "fileCategory": "infra"
+    },
+    {
+      "path": "cli/README.md",
+      "language": "markdown",
+      "sizeLines": 31,
+      "fileCategory": "docs"
+    },
+    {
+      "path": "cli/dl-cache.h",
+      "language": "c",
+      "sizeLines": 184,
+      "fileCategory": "code"
+    },
+    {
+      "path": "cli/julia.expmap.in",
+      "language": "in",
+      "sizeLines": 1,
+      "fileCategory": "code"
+    },
+    {
+      "path": "cli/loader_win_utils.c",
+      "language": "c",
+      "sizeLines": 351,
+      "fileCategory": "code"
+    },
+    {
+      "path": "cli/trampolines/trampolines_aarch64.S",
+      "language": "s",
+      "sizeLines": 21,
+      "fileCategory": "code"
+    },
+    {
+      "path": "cli/trampolines/trampolines_arm.S",
+      "language": "s",
+      "sizeLines": 24,
+      "fileCategory": "code"
+    },
+    {
+      "path": "cli/trampolines/trampolines_i686.S",
+      "language": "s",
+      "sizeLines": 50,
+      "fileCategory": "code"
+    },
+    {
+      "path": "cli/trampolines/trampolines_powerpc64le.S",
+      "language": "s",
+      "sizeLines": 29,
+      "fileCategory": "code"
+    },
+    {
+      "path": "cli/trampolines/trampolines_riscv64.S",
+      "language": "s",
+      "sizeLines": 20,
+      "fileCategory": "code"
+    },
+    {
+      "path": "cli/trampolines/trampolines_x86_64.S",
+      "language": "s",
+      "sizeLines": 26,
+      "fileCategory": "code"
+    },
+    {
+      "path": "contrib/add_license_to_files.jl",
+      "language": "jl",
+      "sizeLines": 204,
+      "fileCategory": "code"
+    }
+  ],
+  "batchImportData": {
+    "base/timing.jl": [],
+    "base/toml/parser.jl": [],
+    "base/toml/printer.jl": [],
+    "base/toml/toml.jl": [],
+    "base/traits.jl": [],
+    "base/tuple.jl": [],
+    "base/twiceprecision.jl": [],
+    "base/util.jl": [],
+    "base/uuid.jl": [],
+    "base/version.jl": [],
+    "base/version_git.sh": [],
+    "base/views.jl": [],
+    "base/weakdict.jl": [],
+    "cli/Makefile": [],
+    "cli/README.md": [],
+    "cli/dl-cache.h": [],
+    "cli/julia.expmap.in": [],
+    "cli/loader_win_utils.c": [],
+    "cli/trampolines/trampolines_aarch64.S": [],
+    "cli/trampolines/trampolines_arm.S": [],
+    "cli/trampolines/trampolines_i686.S": [],
+    "cli/trampolines/trampolines_powerpc64le.S": [],
+    "cli/trampolines/trampolines_riscv64.S": [],
+    "cli/trampolines/trampolines_x86_64.S": [],
+    "contrib/add_license_to_files.jl": []
+  }
+}

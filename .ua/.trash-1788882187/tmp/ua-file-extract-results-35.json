@@ -1,0 +1,43 @@
+{
+  "scriptCompleted": true,
+  "filesAnalyzed": 0,
+  "filesSkipped": [
+    "base/arrayshow.jl",
+    "base/asyncevent.jl",
+    "base/asyncmap.jl",
+    "base/atomics.jl",
+    "base/baseext.jl",
+    "base/binaryplatforms.jl",
+    "base/bitarray.jl",
+    "base/bitset.jl",
+    "base/bool.jl",
+    "base/boot.jl",
+    "base/broadcast.jl",
+    "base/c.jl",
+    "base/cancellation.jl",
+    "base/cartesian.jl",
+    "base/channels.jl",
+    "base/char.jl",
+    "base/checked.jl",
+    "base/client.jl",
+    "base/cmd.jl",
+    "base/cmem.jl",
+    "base/combinatorics.jl",
+    "base/complex.jl",
+    "base/condition.jl",
+    "base/coreio.jl",
+    "base/coreir.jl"
+  ],
+  "analysisOutcomes": {
+    "structure": {
+      "succeeded": 0,
+      "failed": 0
+    },
+    "callGraph": {
+      "succeeded": 0,
+      "failed": 0,
+      "skipped": 0
+    }
+  },
+  "results": []
+}

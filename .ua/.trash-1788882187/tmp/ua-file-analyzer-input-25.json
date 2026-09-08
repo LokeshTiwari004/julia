@@ -1,0 +1,63 @@
+{
+  "projectRoot": "/home/maruti/julia",
+  "batchFiles": [
+    {
+      "path": "doc/src/devdocs/contributing/aiagents.md",
+      "language": "markdown",
+      "sizeLines": 49,
+      "fileCategory": "docs"
+    },
+    {
+      "path": "doc/src/devdocs/contributing/code-changes.md",
+      "language": "markdown",
+      "sizeLines": 114,
+      "fileCategory": "docs"
+    },
+    {
+      "path": "doc/src/devdocs/contributing/documentation.md",
+      "language": "markdown",
+      "sizeLines": 87,
+      "fileCategory": "docs"
+    },
+    {
+      "path": "doc/src/devdocs/contributing/formatting.md",
+      "language": "markdown",
+      "sizeLines": 22,
+      "fileCategory": "docs"
+    },
+    {
+      "path": "doc/src/devdocs/contributing/git-workflow.md",
+      "language": "markdown",
+      "sizeLines": 19,
+      "fileCategory": "docs"
+    },
+    {
+      "path": "doc/src/devdocs/contributing/jldoctests.md",
+      "language": "markdown",
+      "sizeLines": 151,
+      "fileCategory": "docs"
+    },
+    {
+      "path": "doc/src/devdocs/contributing/patch-releases.md",
+      "language": "markdown",
+      "sizeLines": 44,
+      "fileCategory": "docs"
+    },
+    {
+      "path": "doc/src/devdocs/contributing/tests.md",
+      "language": "markdown",
+      "sizeLines": 19,
+      "fileCategory": "docs"
+    }
+  ],
+  "batchImportData": {
+    "doc/src/devdocs/contributing/aiagents.md": [],
+    "doc/src/devdocs/contributing/code-changes.md": [],
+    "doc/src/devdocs/contributing/documentation.md": [],
+    "doc/src/devdocs/contributing/formatting.md": [],
+    "doc/src/devdocs/contributing/git-workflow.md": [],
+    "doc/src/devdocs/contributing/jldoctests.md": [],
+    "doc/src/devdocs/contributing/patch-releases.md": [],
+    "doc/src/devdocs/contributing/tests.md": []
+  }
+}

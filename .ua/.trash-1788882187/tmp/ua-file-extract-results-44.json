@@ -1,0 +1,314 @@
+{
+  "scriptCompleted": true,
+  "filesAnalyzed": 7,
+  "filesSkipped": [
+    "contrib/mac/frameworkapp/ExecSandbox/ExecSandbox.m",
+    "contrib/mac/frameworkapp/ExecSandbox/ExecSandboxProtocol.m",
+    "contrib/mac/frameworkapp/ExecSandbox/Info.plist",
+    "contrib/mac/frameworkapp/ExecSandbox/main.m",
+    "contrib/mac/frameworkapp/Julia.dist",
+    "contrib/mac/frameworkapp/JuliaLauncher.xcodeproj/project.pbxproj",
+    "contrib/mac/frameworkapp/JuliaLauncher.xcodeproj/project.xcworkspace/contents.xcworkspacedata",
+    "contrib/mac/frameworkapp/JuliaLauncher.xcodeproj/project.xcworkspace/xcshareddata/IDEWorkspaceChecks.plist",
+    "contrib/mac/frameworkapp/JuliaLauncher.xcodeproj/xcshareddata/xcschemes/JuliaLauncher.xcscheme",
+    "contrib/mac/frameworkapp/JuliaLauncher/AppDelegate.m",
+    "contrib/mac/frameworkapp/JuliaLauncher/Base.lproj/MainMenu.xib",
+    "contrib/mac/frameworkapp/JuliaLauncher/Info.plist",
+    "contrib/mac/frameworkapp/JuliaLauncher/JuliaLauncher.entitlements",
+    "contrib/mac/frameworkapp/JuliaLauncher/julia.idraw",
+    "contrib/mac/frameworkapp/JuliaLauncher/main.m",
+    "contrib/mac/frameworkapp/installresources/conclusion.rtf",
+    "contrib/mac/frameworkapp/installresources/readme.rtf",
+    "contrib/mac/libSystem.tbd"
+  ],
+  "analysisOutcomes": {
+    "structure": {
+      "succeeded": 7,
+      "failed": 0
+    },
+    "callGraph": {
+      "succeeded": 3,
+      "failed": 0,
+      "skipped": 4
+    }
+  },
+  "results": [
+    {
+      "path": "contrib/mac/frameworkapp/ExecSandbox/ExecSandboxProtocol.h",
+      "language": "c",
+      "fileCategory": "code",
+      "totalLines": 31,
+      "nonEmptyLines": 26,
+      "metrics": {
+        "importCount": 0,
+        "exportCount": 0,
+        "functionCount": 0,
+        "classCount": 0
+      }
+    },
+    {
+      "path": "contrib/mac/frameworkapp/JuliaLauncher/AppDelegate.h",
+      "language": "c",
+      "fileCategory": "code",
+      "totalLines": 6,
+      "nonEmptyLines": 4,
+      "metrics": {
+        "importCount": 0,
+        "exportCount": 0,
+        "functionCount": 0,
+        "classCount": 0
+      }
+    },
+    {
+      "path": "contrib/mac/frameworkapp/JuliaLauncher/Assets.xcassets/AppIcon.appiconset/Contents.json",
+      "language": "json",
+      "fileCategory": "config",
+      "totalLines": 68,
+      "nonEmptyLines": 68,
+      "sections": [
+        {
+          "heading": "images",
+          "level": 1,
+          "line": 2
+        },
+        {
+          "heading": "info",
+          "level": 1,
+          "line": 64
+        }
+      ],
+      "metrics": {
+        "importCount": 0,
+        "exportCount": 0,
+        "functionCount": 0,
+        "classCount": 0,
+        "sectionCount": 2
+      }
+    },
+    {
+      "path": "contrib/mac/frameworkapp/JuliaLauncher/Assets.xcassets/Contents.json",
+      "language": "json",
+      "fileCategory": "config",
+      "totalLines": 6,
+      "nonEmptyLines": 6,
+      "sections": [
+        {
+          "heading": "info",
+          "level": 1,
+          "line": 2
+        }
+      ],
+      "metrics": {
+        "importCount": 0,
+        "exportCount": 0,
+        "functionCount": 0,
+        "classCount": 0,
+        "sectionCount": 1
+      }
+    },
+    {
+      "path": "contrib/normalize_triplet.py",
+      "language": "python",
+      "fileCategory": "code",
+      "totalLines": 159,
+      "nonEmptyLines": 143,
+      "functions": [
+        {
+          "name": "get_field",
+          "startLine": 72,
+          "endLine": 76,
+          "params": [
+            "m",
+            "mapping"
+          ]
+        },
+        {
+          "name": "r",
+          "startLine": 89,
+          "endLine": 97,
+          "params": [
+            "x"
+          ]
+        },
+        {
+          "name": "p",
+          "startLine": 99,
+          "endLine": 115,
+          "params": [
+            "x"
+          ]
+        }
+      ],
+      "exports": [
+        {
+          "name": "get_field",
+          "line": 72,
+          "isDefault": false
+        },
+        {
+          "name": "r",
+          "line": 89,
+          "isDefault": false
+        },
+        {
+          "name": "p",
+          "line": 99,
+          "isDefault": false
+        }
+      ],
+      "callGraph": [
+        {
+          "caller": "get_field",
+          "callee": "m.groupdict",
+          "lineNumber": 73
+        },
+        {
+          "caller": "r",
+          "callee": "x.replace",
+          "lineNumber": 90
+        },
+        {
+          "caller": "r",
+          "callee": "x.replace",
+          "lineNumber": 91
+        },
+        {
+          "caller": "r",
+          "callee": "x.replace",
+          "lineNumber": 92
+        },
+        {
+          "caller": "r",
+          "callee": "x.replace",
+          "lineNumber": 96
+        },
+        {
+          "caller": "p",
+          "callee": "r",
+          "lineNumber": 110
+        },
+        {
+          "caller": "p",
+          "callee": "x.replace",
+          "lineNumber": 113
+        }
+      ],
+      "metrics": {
+        "importCount": 0,
+        "exportCount": 3,
+        "functionCount": 3,
+        "classCount": 0
+      }
+    },
+    {
+      "path": "contrib/pgo-lto-bolt/Makefile",
+      "language": "makefile",
+      "fileCategory": "infra",
+      "totalLines": 201,
+      "nonEmptyLines": 173,
+      "steps": [
+        {
+          "name": "stage0",
+          "startLine": 95,
+          "endLine": 95
+        },
+        {
+          "name": "stage0",
+          "startLine": 96,
+          "endLine": 102
+        },
+        {
+          "name": "stage1",
+          "startLine": 107,
+          "endLine": 107
+        },
+        {
+          "name": "stage1",
+          "startLine": 108,
+          "endLine": 114
+        },
+        {
+          "name": "stage2",
+          "startLine": 122,
+          "endLine": 122
+        },
+        {
+          "name": "stage2",
+          "startLine": 123,
+          "endLine": 127
+        },
+        {
+          "name": "copy_originals",
+          "startLine": 128,
+          "endLine": 134
+        },
+        {
+          "name": "bolt_instrument",
+          "startLine": 138,
+          "endLine": 148
+        },
+        {
+          "name": "finish_stage2",
+          "startLine": 152,
+          "endLine": 156
+        },
+        {
+          "name": "merge_data",
+          "startLine": 157,
+          "endLine": 163
+        },
+        {
+          "name": "bolt",
+          "startLine": 170,
+          "endLine": 177
+        },
+        {
+          "name": "clean_profiles",
+          "startLine": 178,
+          "endLine": 180
+        },
+        {
+          "name": "clean",
+          "startLine": 181,
+          "endLine": 183
+        },
+        {
+          "name": "restore_originals",
+          "startLine": 184,
+          "endLine": 189
+        },
+        {
+          "name": "delete_originals",
+          "startLine": 190,
+          "endLine": 195
+        },
+        {
+          "name": "top",
+          "startLine": 200,
+          "endLine": 202
+        }
+      ],
+      "metrics": {
+        "importCount": 0,
+        "exportCount": 0,
+        "functionCount": 0,
+        "classCount": 0,
+        "stepCount": 16
+      }
+    },
+    {
+      "path": "contrib/pgo-lto-bolt/README.md",
+      "language": "markdown",
+      "fileCategory": "docs",
+      "totalLines": 18,
+      "nonEmptyLines": 15,
+      "metrics": {
+        "importCount": 0,
+        "exportCount": 0,
+        "functionCount": 0,
+        "classCount": 0,
+        "sectionCount": 0
+      }
+    }
+  ]
+}

@@ -1,0 +1,528 @@
+{
+  "batchIndex": 50,
+  "nodes": [
+    {
+      "id": "file:src/win32_ucontext.h",
+      "type": "file",
+      "name": "win32_ucontext.h",
+      "filePath": "src/win32_ucontext.h",
+      "summary": "Source file: win32_ucontext.h.",
+      "tags": [
+        "source"
+      ],
+      "complexity": "simple",
+      "language": "c"
+    },
+    {
+      "id": "file:src/work-stealing-queue.h",
+      "type": "file",
+      "name": "work-stealing-queue.h",
+      "filePath": "src/work-stealing-queue.h",
+      "summary": "Source file: work-stealing-queue.h.",
+      "tags": [
+        "source"
+      ],
+      "complexity": "moderate",
+      "language": "c"
+    },
+    {
+      "id": "config:stdlib/Artifacts/Project.toml",
+      "type": "config",
+      "name": "Project.toml",
+      "filePath": "stdlib/Artifacts/Project.toml",
+      "summary": "Configuration file: Project.toml.",
+      "tags": [
+        "configuration"
+      ],
+      "complexity": "simple",
+      "language": "toml"
+    },
+    {
+      "id": "document:stdlib/Artifacts/docs/src/index.md",
+      "type": "document",
+      "name": "index.md",
+      "filePath": "stdlib/Artifacts/docs/src/index.md",
+      "summary": "Documentation covering Artifacts.",
+      "tags": [
+        "documentation",
+        "runtime"
+      ],
+      "complexity": "simple",
+      "language": "markdown"
+    },
+    {
+      "id": "config:stdlib/Base64/Project.toml",
+      "type": "config",
+      "name": "Project.toml",
+      "filePath": "stdlib/Base64/Project.toml",
+      "summary": "Configuration file: Project.toml.",
+      "tags": [
+        "configuration"
+      ],
+      "complexity": "simple",
+      "language": "toml"
+    },
+    {
+      "id": "document:stdlib/Base64/docs/src/index.md",
+      "type": "document",
+      "name": "index.md",
+      "filePath": "stdlib/Base64/docs/src/index.md",
+      "summary": "Documentation covering Base64, Encoding, Decoding.",
+      "tags": [
+        "documentation",
+        "runtime"
+      ],
+      "complexity": "simple",
+      "language": "markdown"
+    },
+    {
+      "id": "config:stdlib/CRC32c/Project.toml",
+      "type": "config",
+      "name": "Project.toml",
+      "filePath": "stdlib/CRC32c/Project.toml",
+      "summary": "Configuration file: Project.toml.",
+      "tags": [
+        "configuration"
+      ],
+      "complexity": "simple",
+      "language": "toml"
+    },
+    {
+      "id": "document:stdlib/CRC32c/docs/src/index.md",
+      "type": "document",
+      "name": "index.md",
+      "filePath": "stdlib/CRC32c/docs/src/index.md",
+      "summary": "Documentation covering CRC32c.",
+      "tags": [
+        "documentation",
+        "runtime"
+      ],
+      "complexity": "simple",
+      "language": "markdown"
+    },
+    {
+      "id": "config:stdlib/CompilerSupportLibraries_jll/Project.toml",
+      "type": "config",
+      "name": "Project.toml",
+      "filePath": "stdlib/CompilerSupportLibraries_jll/Project.toml",
+      "summary": "Configuration file: Project.toml.",
+      "tags": [
+        "configuration"
+      ],
+      "complexity": "simple",
+      "language": "toml"
+    },
+    {
+      "id": "config:stdlib/Dates/Project.toml",
+      "type": "config",
+      "name": "Project.toml",
+      "filePath": "stdlib/Dates/Project.toml",
+      "summary": "Configuration file: Project.toml.",
+      "tags": [
+        "configuration"
+      ],
+      "complexity": "simple",
+      "language": "toml"
+    },
+    {
+      "id": "document:stdlib/Dates/docs/src/index.md",
+      "type": "document",
+      "name": "index.md",
+      "filePath": "stdlib/Dates/docs/src/index.md",
+      "summary": "Documentation covering Dates, Constructors, Durations/Comparisons and more.",
+      "tags": [
+        "documentation",
+        "runtime"
+      ],
+      "complexity": "complex",
+      "language": "markdown"
+    }
+  ],
+  "edges": [
+    {
+      "source": "file:src/win32_ucontext.h",
+      "target": "file:src/win32_ucontext.c",
+      "type": "imports",
+      "weight": 0.7
+    }
+  ],
+  "batchFiles": [
+    {
+      "path": "src/win32_ucontext.h",
+      "language": "c",
+      "fileCategory": "code",
+      "totalLines": 30,
+      "nonEmptyLines": 25,
+      "metrics": {
+        "importCount": 0,
+        "exportCount": 0,
+        "functionCount": 0,
+        "classCount": 0
+      }
+    },
+    {
+      "path": "src/work-stealing-queue.h",
+      "language": "c",
+      "fileCategory": "code",
+      "totalLines": 111,
+      "nonEmptyLines": 97,
+      "callGraph": [
+        {
+          "caller": "free_ws_array",
+          "callee": "free",
+          "lineNumber": 41
+        },
+        {
+          "caller": "free_ws_array",
+          "callee": "free",
+          "lineNumber": 42
+        }
+      ],
+      "metrics": {
+        "importCount": 0,
+        "exportCount": 0,
+        "functionCount": 0,
+        "classCount": 0
+      }
+    },
+    {
+      "path": "stdlib/Artifacts/Project.toml",
+      "language": "toml",
+      "fileCategory": "config",
+      "totalLines": 11,
+      "nonEmptyLines": 9,
+      "sections": [
+        {
+          "heading": "extras",
+          "level": 1,
+          "line": 5
+        },
+        {
+          "heading": "targets",
+          "level": 1,
+          "line": 10
+        }
+      ],
+      "metrics": {
+        "importCount": 0,
+        "exportCount": 0,
+        "functionCount": 0,
+        "classCount": 0,
+        "sectionCount": 2
+      }
+    },
+    {
+      "path": "stdlib/Artifacts/docs/src/index.md",
+      "language": "markdown",
+      "fileCategory": "docs",
+      "totalLines": 28,
+      "nonEmptyLines": 22,
+      "sections": [
+        {
+          "heading": "Artifacts",
+          "level": 1,
+          "line": 5
+        }
+      ],
+      "metrics": {
+        "importCount": 0,
+        "exportCount": 0,
+        "functionCount": 0,
+        "classCount": 0,
+        "sectionCount": 1
+      }
+    },
+    {
+      "path": "stdlib/Base64/Project.toml",
+      "language": "toml",
+      "fileCategory": "config",
+      "totalLines": 10,
+      "nonEmptyLines": 8,
+      "sections": [
+        {
+          "heading": "extras",
+          "level": 1,
+          "line": 5
+        },
+        {
+          "heading": "targets",
+          "level": 1,
+          "line": 9
+        }
+      ],
+      "metrics": {
+        "importCount": 0,
+        "exportCount": 0,
+        "functionCount": 0,
+        "classCount": 0,
+        "sectionCount": 2
+      }
+    },
+    {
+      "path": "stdlib/Base64/docs/src/index.md",
+      "language": "markdown",
+      "fileCategory": "docs",
+      "totalLines": 45,
+      "nonEmptyLines": 39,
+      "sections": [
+        {
+          "heading": "Base64",
+          "level": 1,
+          "line": 5
+        },
+        {
+          "heading": "Encoding",
+          "level": 2,
+          "line": 33
+        },
+        {
+          "heading": "Decoding",
+          "level": 2,
+          "line": 41
+        }
+      ],
+      "metrics": {
+        "importCount": 0,
+        "exportCount": 0,
+        "functionCount": 0,
+        "classCount": 0,
+        "sectionCount": 3
+      }
+    },
+    {
+      "path": "stdlib/CRC32c/Project.toml",
+      "language": "toml",
+      "fileCategory": "config",
+      "totalLines": 10,
+      "nonEmptyLines": 8,
+      "sections": [
+        {
+          "heading": "extras",
+          "level": 1,
+          "line": 5
+        },
+        {
+          "heading": "targets",
+          "level": 1,
+          "line": 9
+        }
+      ],
+      "metrics": {
+        "importCount": 0,
+        "exportCount": 0,
+        "functionCount": 0,
+        "classCount": 0,
+        "sectionCount": 2
+      }
+    },
+    {
+      "path": "stdlib/CRC32c/docs/src/index.md",
+      "language": "markdown",
+      "fileCategory": "docs",
+      "totalLines": 12,
+      "nonEmptyLines": 9,
+      "sections": [
+        {
+          "heading": "CRC32c",
+          "level": 1,
+          "line": 5
+        }
+      ],
+      "metrics": {
+        "importCount": 0,
+        "exportCount": 0,
+        "functionCount": 0,
+        "classCount": 0,
+        "sectionCount": 1
+      }
+    },
+    {
+      "path": "stdlib/CompilerSupportLibraries_jll/Project.toml",
+      "language": "toml",
+      "fileCategory": "config",
+      "totalLines": 20,
+      "nonEmptyLines": 15,
+      "sections": [
+        {
+          "heading": "deps",
+          "level": 1,
+          "line": 9
+        },
+        {
+          "heading": "compat",
+          "level": 1,
+          "line": 13
+        },
+        {
+          "heading": "extras",
+          "level": 1,
+          "line": 16
+        },
+        {
+          "heading": "targets",
+          "level": 1,
+          "line": 19
+        }
+      ],
+      "metrics": {
+        "importCount": 0,
+        "exportCount": 0,
+        "functionCount": 0,
+        "classCount": 0,
+        "sectionCount": 4
+      }
+    },
+    {
+      "path": "stdlib/Dates/Project.toml",
+      "language": "toml",
+      "fileCategory": "config",
+      "totalLines": 13,
+      "nonEmptyLines": 10,
+      "sections": [
+        {
+          "heading": "deps",
+          "level": 1,
+          "line": 5
+        },
+        {
+          "heading": "extras",
+          "level": 1,
+          "line": 8
+        },
+        {
+          "heading": "targets",
+          "level": 1,
+          "line": 12
+        }
+      ],
+      "metrics": {
+        "importCount": 0,
+        "exportCount": 0,
+        "functionCount": 0,
+        "classCount": 0,
+        "sectionCount": 3
+      }
+    },
+    {
+      "path": "stdlib/Dates/docs/src/index.md",
+      "language": "markdown",
+      "fileCategory": "docs",
+      "totalLines": 894,
+      "nonEmptyLines": 700,
+      "sections": [
+        {
+          "heading": "Dates",
+          "level": 1,
+          "line": 1
+        },
+        {
+          "heading": "Constructors",
+          "level": 2,
+          "line": 40
+        },
+        {
+          "heading": "Durations/Comparisons",
+          "level": 2,
+          "line": 165
+        },
+        {
+          "heading": "Accessor Functions",
+          "level": 2,
+          "line": 225
+        },
+        {
+          "heading": "Query Functions",
+          "level": 2,
+          "line": 287
+        },
+        {
+          "heading": "TimeType-Period Arithmetic",
+          "level": 2,
+          "line": 374
+        },
+        {
+          "heading": "Adjuster Functions",
+          "level": 2,
+          "line": 462
+        },
+        {
+          "heading": "Period Types",
+          "level": 2,
+          "line": 541
+        },
+        {
+          "heading": "Rounding",
+          "level": 2,
+          "line": 600
+        },
+        {
+          "heading": "Rounding Epoch",
+          "level": 3,
+          "line": 624
+        },
+        {
+          "heading": "[API reference](@id stdlib-dates-api)",
+          "level": 2,
+          "line": 687
+        },
+        {
+          "heading": "Dates and Time Types",
+          "level": 3,
+          "line": 689
+        },
+        {
+          "heading": "Dates Functions",
+          "level": 3,
+          "line": 704
+        },
+        {
+          "heading": "Accessor Functions",
+          "level": 4,
+          "line": 733
+        },
+        {
+          "heading": "Query Functions",
+          "level": 4,
+          "line": 761
+        },
+        {
+          "heading": "Adjuster Functions",
+          "level": 4,
+          "line": 780
+        },
+        {
+          "heading": "Periods",
+          "level": 4,
+          "line": 800
+        },
+        {
+          "heading": "Rounding Functions",
+          "level": 4,
+          "line": 811
+        },
+        {
+          "heading": "Conversion Functions",
+          "level": 4,
+          "line": 840
+        },
+        {
+          "heading": "Constants",
+          "level": 3,
+          "line": 852
+        },
+        {
+          "heading": "Common Date Formatters",
+          "level": 4,
+          "line": 883
+        }
+      ],
+      "metrics": {
+        "importCount": 0,
+        "exportCount": 0,
+        "functionCount": 0,
+        "classCount": 0,
+        "sectionCount": 21
+      }
+    }
+  ]
+}

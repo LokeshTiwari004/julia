@@ -1,0 +1,199 @@
+{
+  "scriptCompleted": true,
+  "filesAnalyzed": 5,
+  "filesSkipped": [
+    ".buildkite-external-version",
+    ".clang-format",
+    ".clangd",
+    ".git-blame-ignore-revs",
+    ".gitattributes",
+    ".github/CODEOWNERS",
+    ".mailmap",
+    ".ua/.understandignore",
+    "CITATION.bib",
+    "CITATION.cff",
+    "Compiler/extras/CompilerDevTools/src/CompilerDevTools.jl",
+    "Compiler/src/Compiler.jl",
+    "Compiler/src/abstractinterpretation.jl",
+    "Compiler/src/abstractlattice.jl",
+    "Compiler/src/bindinginvalidations.jl",
+    "Compiler/src/bootstrap.jl",
+    "Compiler/src/cicache.jl",
+    "Compiler/src/effects.jl",
+    "Compiler/src/inferenceresult.jl",
+    "Compiler/src/inferencestate.jl"
+  ],
+  "analysisOutcomes": {
+    "structure": {
+      "succeeded": 5,
+      "failed": 0
+    },
+    "callGraph": {
+      "succeeded": 0,
+      "failed": 0,
+      "skipped": 5
+    }
+  },
+  "results": [
+    {
+      "path": ".devcontainer/devcontainer.json",
+      "language": "json",
+      "fileCategory": "config",
+      "totalLines": 12,
+      "nonEmptyLines": 12,
+      "sections": [
+        {
+          "heading": "image",
+          "level": 1,
+          "line": 2
+        },
+        {
+          "heading": "customizations",
+          "level": 1,
+          "line": 3
+        },
+        {
+          "heading": "onCreateCommand",
+          "level": 1,
+          "line": 11
+        }
+      ],
+      "metrics": {
+        "importCount": 0,
+        "exportCount": 0,
+        "functionCount": 0,
+        "classCount": 0,
+        "sectionCount": 3
+      }
+    },
+    {
+      "path": ".github/_typos.toml",
+      "language": "toml",
+      "fileCategory": "config",
+      "totalLines": 4,
+      "nonEmptyLines": 4,
+      "sections": [
+        {
+          "heading": "default.extend-words",
+          "level": 2,
+          "line": 2
+        }
+      ],
+      "metrics": {
+        "importCount": 0,
+        "exportCount": 0,
+        "functionCount": 0,
+        "classCount": 0,
+        "sectionCount": 1
+      }
+    },
+    {
+      "path": ".github/dependabot.yml",
+      "language": "yaml",
+      "fileCategory": "config",
+      "totalLines": 65,
+      "nonEmptyLines": 65,
+      "sections": [
+        {
+          "heading": "version",
+          "level": 1,
+          "line": 1
+        },
+        {
+          "heading": "updates",
+          "level": 1,
+          "line": 2
+        }
+      ],
+      "metrics": {
+        "importCount": 0,
+        "exportCount": 0,
+        "functionCount": 0,
+        "classCount": 0,
+        "sectionCount": 2
+      }
+    },
+    {
+      "path": ".ua/intermediate/scan-result.json",
+      "language": "json",
+      "fileCategory": "config",
+      "totalLines": 8495,
+      "nonEmptyLines": 8495,
+      "sections": [
+        {
+          "heading": "name",
+          "level": 1,
+          "line": 2
+        },
+        {
+          "heading": "description",
+          "level": 1,
+          "line": 3
+        },
+        {
+          "heading": "languages",
+          "level": 1,
+          "line": 4
+        },
+        {
+          "heading": "frameworks",
+          "level": 1,
+          "line": 59
+        },
+        {
+          "heading": "files",
+          "level": 1,
+          "line": 68
+        },
+        {
+          "heading": "totalFiles",
+          "level": 1,
+          "line": 6772
+        },
+        {
+          "heading": "filteredByIgnore",
+          "level": 1,
+          "line": 6773
+        },
+        {
+          "heading": "estimatedComplexity",
+          "level": 1,
+          "line": 6774
+        },
+        {
+          "heading": "importMap",
+          "level": 1,
+          "line": 6775
+        }
+      ],
+      "metrics": {
+        "importCount": 0,
+        "exportCount": 0,
+        "functionCount": 0,
+        "classCount": 0,
+        "sectionCount": 9
+      }
+    },
+    {
+      "path": "Compiler/extras/CompilerDevTools/Project.toml",
+      "language": "toml",
+      "fileCategory": "config",
+      "totalLines": 5,
+      "nonEmptyLines": 4,
+      "sections": [
+        {
+          "heading": "deps",
+          "level": 1,
+          "line": 4
+        }
+      ],
+      "metrics": {
+        "importCount": 0,
+        "exportCount": 0,
+        "functionCount": 0,
+        "classCount": 0,
+        "sectionCount": 1
+      }
+    }
+  ]
+}

@@ -1,0 +1,97 @@
+{
+  "projectRoot": "/home/maruti/julia",
+  "batchFiles": [
+    {
+      "path": "src/abi_aarch64.cpp",
+      "language": "cpp",
+      "sizeLines": 383,
+      "fileCategory": "code"
+    },
+    {
+      "path": "src/abi_arm.cpp",
+      "language": "cpp",
+      "sizeLines": 285,
+      "fileCategory": "code"
+    },
+    {
+      "path": "src/abi_llvm.cpp",
+      "language": "cpp",
+      "sizeLines": 58,
+      "fileCategory": "code"
+    },
+    {
+      "path": "src/abi_ppc64le.cpp",
+      "language": "cpp",
+      "sizeLines": 165,
+      "fileCategory": "code"
+    },
+    {
+      "path": "src/abi_riscv.cpp",
+      "language": "cpp",
+      "sizeLines": 315,
+      "fileCategory": "code"
+    },
+    {
+      "path": "src/abi_win32.cpp",
+      "language": "cpp",
+      "sizeLines": 82,
+      "fileCategory": "code"
+    },
+    {
+      "path": "src/abi_win64.cpp",
+      "language": "cpp",
+      "sizeLines": 79,
+      "fileCategory": "code"
+    },
+    {
+      "path": "src/abi_x86.cpp",
+      "language": "cpp",
+      "sizeLines": 94,
+      "fileCategory": "code"
+    },
+    {
+      "path": "src/abi_x86_64.cpp",
+      "language": "cpp",
+      "sizeLines": 274,
+      "fileCategory": "code"
+    },
+    {
+      "path": "src/ccall.cpp",
+      "language": "cpp",
+      "sizeLines": 2417,
+      "fileCategory": "code"
+    },
+    {
+      "path": "src/intrinsics.cpp",
+      "language": "cpp",
+      "sizeLines": 1912,
+      "fileCategory": "code"
+    }
+  ],
+  "batchImportData": {
+    "src/abi_aarch64.cpp": [],
+    "src/abi_arm.cpp": [],
+    "src/abi_llvm.cpp": [],
+    "src/abi_ppc64le.cpp": [],
+    "src/abi_riscv.cpp": [],
+    "src/abi_win32.cpp": [],
+    "src/abi_win64.cpp": [],
+    "src/abi_x86.cpp": [],
+    "src/abi_x86_64.cpp": [],
+    "src/ccall.cpp": [
+      "src/abi_aarch64.cpp",
+      "src/abi_arm.cpp",
+      "src/abi_llvm.cpp",
+      "src/abi_ppc64le.cpp",
+      "src/abi_riscv.cpp",
+      "src/abi_win32.cpp",
+      "src/abi_win64.cpp",
+      "src/abi_x86.cpp",
+      "src/abi_x86_64.cpp"
+    ],
+    "src/intrinsics.cpp": [
+      "src/ccall.cpp",
+      "src/intrinsics.h"
+    ]
+  }
+}

@@ -1,0 +1,233 @@
+{
+  "scriptCompleted": true,
+  "filesAnalyzed": 7,
+  "filesSkipped": [
+    "contrib/asan/Make.user.asan",
+    "contrib/asan/Make.user.tools",
+    "contrib/asan/check.jl",
+    "contrib/bpftrace/gc_all.bt",
+    "contrib/bpftrace/gc_simple.bt",
+    "contrib/bpftrace/gc_stop_the_world_latency.bt",
+    "contrib/bpftrace/rt_all.bt",
+    "contrib/check-whitespace.jl",
+    "contrib/ci-timing/ci_timing_compare.jl",
+    "contrib/debug_bootstrap.gdb",
+    "contrib/generate_precompile.jl",
+    "contrib/julia-config.jl",
+    "contrib/julia.desktop",
+    "contrib/mac/app/Info.plist.in",
+    "contrib/mac/app/julia.icns",
+    "contrib/mac/framework/julia.entitlements",
+    "contrib/mac/framework/module.modulemap",
+    "contrib/mac/frameworkapp/ExecSandbox/ExecSandbox.entitlements"
+  ],
+  "analysisOutcomes": {
+    "structure": {
+      "succeeded": 7,
+      "failed": 0
+    },
+    "callGraph": {
+      "succeeded": 2,
+      "failed": 0,
+      "skipped": 5
+    }
+  },
+  "results": [
+    {
+      "path": "contrib/asan/build.sh",
+      "language": "shell",
+      "fileCategory": "script",
+      "totalLines": 53,
+      "nonEmptyLines": 42,
+      "metrics": {
+        "importCount": 0,
+        "exportCount": 0,
+        "functionCount": 0,
+        "classCount": 0
+      }
+    },
+    {
+      "path": "contrib/bolt/Makefile",
+      "language": "makefile",
+      "fileCategory": "infra",
+      "totalLines": 140,
+      "nonEmptyLines": 119,
+      "steps": [
+        {
+          "name": "stage0",
+          "startLine": 64,
+          "endLine": 67
+        },
+        {
+          "name": "stage1",
+          "startLine": 71,
+          "endLine": 71
+        },
+        {
+          "name": "stage1",
+          "startLine": 72,
+          "endLine": 76
+        },
+        {
+          "name": "copy_originals",
+          "startLine": 77,
+          "endLine": 83
+        },
+        {
+          "name": "bolt_instrument",
+          "startLine": 87,
+          "endLine": 97
+        },
+        {
+          "name": "finish_stage1",
+          "startLine": 98,
+          "endLine": 102
+        },
+        {
+          "name": "merge_data",
+          "startLine": 103,
+          "endLine": 109
+        },
+        {
+          "name": "bolt",
+          "startLine": 116,
+          "endLine": 123
+        },
+        {
+          "name": "clean_profiles",
+          "startLine": 124,
+          "endLine": 126
+        },
+        {
+          "name": "clean",
+          "startLine": 127,
+          "endLine": 129
+        },
+        {
+          "name": "restore_originals",
+          "startLine": 130,
+          "endLine": 135
+        },
+        {
+          "name": "delete_originals",
+          "startLine": 136,
+          "endLine": 141
+        }
+      ],
+      "metrics": {
+        "importCount": 0,
+        "exportCount": 0,
+        "functionCount": 0,
+        "classCount": 0,
+        "stepCount": 12
+      }
+    },
+    {
+      "path": "contrib/bolt/README.md",
+      "language": "markdown",
+      "fileCategory": "docs",
+      "totalLines": 17,
+      "nonEmptyLines": 14,
+      "metrics": {
+        "importCount": 0,
+        "exportCount": 0,
+        "functionCount": 0,
+        "classCount": 0,
+        "sectionCount": 0
+      }
+    },
+    {
+      "path": "contrib/ci-timing/Project.toml",
+      "language": "toml",
+      "fileCategory": "config",
+      "totalLines": 6,
+      "nonEmptyLines": 6,
+      "sections": [
+        {
+          "heading": "deps",
+          "level": 1,
+          "line": 1
+        }
+      ],
+      "metrics": {
+        "importCount": 0,
+        "exportCount": 0,
+        "functionCount": 0,
+        "classCount": 0,
+        "sectionCount": 1
+      }
+    },
+    {
+      "path": "contrib/mac/framework/Julia.h",
+      "language": "c",
+      "fileCategory": "code",
+      "totalLines": 6,
+      "nonEmptyLines": 5,
+      "metrics": {
+        "importCount": 0,
+        "exportCount": 0,
+        "functionCount": 0,
+        "classCount": 0
+      }
+    },
+    {
+      "path": "contrib/mac/framework/Makefile",
+      "language": "makefile",
+      "fileCategory": "infra",
+      "totalLines": 188,
+      "nonEmptyLines": 157,
+      "steps": [
+        {
+          "name": "default",
+          "startLine": 7,
+          "endLine": 8
+        },
+        {
+          "name": "hier_symlinks",
+          "startLine": 67,
+          "endLine": 75
+        },
+        {
+          "name": "hier_symlinks",
+          "startLine": 77,
+          "endLine": 80
+        },
+        {
+          "name": "toplevelinstall",
+          "startLine": 95,
+          "endLine": 95
+        },
+        {
+          "name": "frameworknoinstall",
+          "startLine": 102,
+          "endLine": 106
+        },
+        {
+          "name": "framework",
+          "startLine": 186,
+          "endLine": 187
+        }
+      ],
+      "metrics": {
+        "importCount": 0,
+        "exportCount": 0,
+        "functionCount": 0,
+        "classCount": 0,
+        "stepCount": 6
+      }
+    },
+    {
+      "path": "contrib/mac/frameworkapp/ExecSandbox/ExecSandbox.h",
+      "language": "c",
+      "fileCategory": "code",
+      "totalLines": 7,
+      "nonEmptyLines": 5,
+      "metrics": {
+        "importCount": 0,
+        "exportCount": 0,
+        "functionCount": 0,
+        "classCount": 0
+      }
+    }
+  ]
+}

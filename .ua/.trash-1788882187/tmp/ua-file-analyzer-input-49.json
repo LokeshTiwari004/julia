@@ -1,0 +1,195 @@
+{
+  "projectRoot": "/home/maruti/julia",
+  "batchFiles": [
+    {
+      "path": "src/mig/excUser.c",
+      "language": "c",
+      "sizeLines": 864,
+      "fileCategory": "code"
+    },
+    {
+      "path": "src/mig/mach_exc.h",
+      "language": "c",
+      "sizeLines": 368,
+      "fileCategory": "code"
+    },
+    {
+      "path": "src/mig/mach_excServer.c",
+      "language": "c",
+      "sizeLines": 869,
+      "fileCategory": "code"
+    },
+    {
+      "path": "src/mig/mach_excUser.c",
+      "language": "c",
+      "sizeLines": 864,
+      "fileCategory": "code"
+    },
+    {
+      "path": "src/mk_julia_flisp_boot.scm",
+      "language": "scm",
+      "sizeLines": 5,
+      "fileCategory": "code"
+    },
+    {
+      "path": "src/signals-mach.c",
+      "language": "c",
+      "sizeLines": 1174,
+      "fileCategory": "code"
+    },
+    {
+      "path": "src/signals-win.c",
+      "language": "c",
+      "sizeLines": 970,
+      "fileCategory": "code"
+    },
+    {
+      "path": "src/support/END.h",
+      "language": "c",
+      "sizeLines": 52,
+      "fileCategory": "code"
+    },
+    {
+      "path": "src/support/ENTRY.amd64.h",
+      "language": "c",
+      "sizeLines": 70,
+      "fileCategory": "code"
+    },
+    {
+      "path": "src/support/ENTRY.i387.h",
+      "language": "c",
+      "sizeLines": 67,
+      "fileCategory": "code"
+    },
+    {
+      "path": "src/support/Makefile",
+      "language": "makefile",
+      "sizeLines": 144,
+      "fileCategory": "infra"
+    },
+    {
+      "path": "src/support/_setjmp.win32.S",
+      "language": "s",
+      "sizeLines": 167,
+      "fileCategory": "code"
+    },
+    {
+      "path": "src/support/_setjmp.win64.S",
+      "language": "s",
+      "sizeLines": 156,
+      "fileCategory": "code"
+    },
+    {
+      "path": "src/support/analyzer_annotations.h",
+      "language": "c",
+      "sizeLines": 251,
+      "fileCategory": "code"
+    },
+    {
+      "path": "src/support/asprintf.c",
+      "language": "c",
+      "sizeLines": 117,
+      "fileCategory": "code"
+    },
+    {
+      "path": "src/support/eytzinger.c",
+      "language": "c",
+      "sizeLines": 123,
+      "fileCategory": "code"
+    },
+    {
+      "path": "src/support/eytzinger.h",
+      "language": "c",
+      "sizeLines": 117,
+      "fileCategory": "code"
+    },
+    {
+      "path": "src/support/rle.c",
+      "language": "c",
+      "sizeLines": 92,
+      "fileCategory": "code"
+    },
+    {
+      "path": "src/support/rle.h",
+      "language": "c",
+      "sizeLines": 49,
+      "fileCategory": "code"
+    },
+    {
+      "path": "src/support/strtod.h",
+      "language": "c",
+      "sizeLines": 17,
+      "fileCategory": "code"
+    },
+    {
+      "path": "src/support/win32-clang-ABI-bug/optional",
+      "language": "unknown",
+      "sizeLines": 532,
+      "fileCategory": "code"
+    },
+    {
+      "path": "src/uprobes.d",
+      "language": "d",
+      "sizeLines": 34,
+      "fileCategory": "code"
+    },
+    {
+      "path": "src/utils.scm",
+      "language": "scm",
+      "sizeLines": 134,
+      "fileCategory": "code"
+    },
+    {
+      "path": "src/uv_constants.h",
+      "language": "c",
+      "sizeLines": 27,
+      "fileCategory": "code"
+    },
+    {
+      "path": "src/win32_ucontext.c",
+      "language": "c",
+      "sizeLines": 86,
+      "fileCategory": "code"
+    }
+  ],
+  "batchImportData": {
+    "src/mig/excUser.c": [
+      "src/mig/exc.h"
+    ],
+    "src/mig/mach_exc.h": [],
+    "src/mig/mach_excServer.c": [],
+    "src/mig/mach_excUser.c": [
+      "src/mig/mach_exc.h"
+    ],
+    "src/mk_julia_flisp_boot.scm": [],
+    "src/signals-mach.c": [
+      "src/julia_assert.h",
+      "src/mig/mach_excServer.c"
+    ],
+    "src/signals-win.c": [],
+    "src/support/END.h": [],
+    "src/support/ENTRY.amd64.h": [],
+    "src/support/ENTRY.i387.h": [],
+    "src/support/Makefile": [],
+    "src/support/_setjmp.win32.S": [],
+    "src/support/_setjmp.win64.S": [],
+    "src/support/analyzer_annotations.h": [],
+    "src/support/asprintf.c": [],
+    "src/support/eytzinger.c": [
+      "src/support/eytzinger.h"
+    ],
+    "src/support/eytzinger.h": [],
+    "src/support/rle.c": [
+      "src/support/rle.h"
+    ],
+    "src/support/rle.h": [],
+    "src/support/strtod.h": [],
+    "src/support/win32-clang-ABI-bug/optional": [],
+    "src/uprobes.d": [],
+    "src/utils.scm": [],
+    "src/uv_constants.h": [],
+    "src/win32_ucontext.c": [
+      "src/win32_ucontext.h"
+    ]
+  }
+}

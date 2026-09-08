@@ -1,0 +1,28 @@
+{
+  "projectRoot": "/home/maruti/julia",
+  "batchFiles": [
+    {
+      "path": "Compiler/LICENSE.md",
+      "language": "markdown",
+      "sizeLines": 26,
+      "fileCategory": "docs"
+    },
+    {
+      "path": "Compiler/Project.toml",
+      "language": "toml",
+      "sizeLines": 18,
+      "fileCategory": "config"
+    },
+    {
+      "path": "Compiler/README.md",
+      "language": "markdown",
+      "sizeLines": 45,
+      "fileCategory": "docs"
+    }
+  ],
+  "batchImportData": {
+    "Compiler/LICENSE.md": [],
+    "Compiler/Project.toml": [],
+    "Compiler/README.md": []
+  }
+}

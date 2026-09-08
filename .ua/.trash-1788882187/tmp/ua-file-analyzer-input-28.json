@@ -1,0 +1,28 @@
+{
+  "projectRoot": "/home/maruti/julia",
+  "batchFiles": [
+    {
+      "path": "stdlib/Makefile",
+      "language": "makefile",
+      "sizeLines": 89,
+      "fileCategory": "infra"
+    },
+    {
+      "path": "stdlib/Manifest.toml",
+      "language": "toml",
+      "sizeLines": 502,
+      "fileCategory": "config"
+    },
+    {
+      "path": "stdlib/Project.toml",
+      "language": "toml",
+      "sizeLines": 63,
+      "fileCategory": "config"
+    }
+  ],
+  "batchImportData": {
+    "stdlib/Makefile": [],
+    "stdlib/Manifest.toml": [],
+    "stdlib/Project.toml": []
+  }
+}

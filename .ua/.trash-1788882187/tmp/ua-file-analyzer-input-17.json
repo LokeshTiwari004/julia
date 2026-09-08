@@ -1,0 +1,42 @@
+{
+  "projectRoot": "/home/maruti/julia",
+  "batchFiles": [
+    {
+      "path": "JuliaSyntax/docs/src/api.md",
+      "language": "markdown",
+      "sizeLines": 169,
+      "fileCategory": "docs"
+    },
+    {
+      "path": "JuliaSyntax/docs/src/design.md",
+      "language": "markdown",
+      "sizeLines": 850,
+      "fileCategory": "docs"
+    },
+    {
+      "path": "JuliaSyntax/docs/src/howto.md",
+      "language": "markdown",
+      "sizeLines": 37,
+      "fileCategory": "docs"
+    },
+    {
+      "path": "JuliaSyntax/docs/src/index.md",
+      "language": "markdown",
+      "sizeLines": 79,
+      "fileCategory": "docs"
+    },
+    {
+      "path": "JuliaSyntax/docs/src/reference.md",
+      "language": "markdown",
+      "sizeLines": 327,
+      "fileCategory": "docs"
+    }
+  ],
+  "batchImportData": {
+    "JuliaSyntax/docs/src/api.md": [],
+    "JuliaSyntax/docs/src/design.md": [],
+    "JuliaSyntax/docs/src/howto.md": [],
+    "JuliaSyntax/docs/src/index.md": [],
+    "JuliaSyntax/docs/src/reference.md": []
+  }
+}

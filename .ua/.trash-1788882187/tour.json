@@ -1,0 +1,310 @@
+{
+  "project": "Julia",
+  "description": "Guided learning tour of the Julia programming language codebase, from CLI entry point through runtime, compiler, and standard library layers.",
+  "entryPoint": "cli/loader_exe.c",
+  "totalStops": 12,
+  "estimatedTimeMinutes": 90,
+  "stops": [
+    {
+      "id": "stop-01-entry",
+      "title": "Process Entry & Bootstrap",
+      "description": "Start at the C entry point where the Julia process begins. Understand how the CLI loader initializes the runtime, locates libraries, and transfers control to Julia's initialization.",
+      "layer": "layer:cli",
+      "files": [
+        "cli/loader_exe.c",
+        "cli/loader.h",
+        "cli/loader_lib.c",
+        "cli/loader_library_probe.c"
+      ],
+      "objectives": [
+        "Trace process startup from main() to jl_init()",
+        "Understand library discovery and loading mechanism",
+        "See how C API symbols are exported via trampolines"
+      ],
+      "connections": ["stop-02-runtime-core"]
+    },
+    {
+      "id": "stop-02-runtime-core",
+      "title": "Core Runtime Types & API",
+      "description": "Examine the fundamental C types that represent Julia values, tasks, modules, and the public C API. This is the contract between the runtime and everything above it.",
+      "layer": "layer:runtime",
+      "files": [
+        "src/julia.h",
+        "src/julia_internal.h",
+        "src/builtin_proto.h",
+        "src/intrinsics.h"
+      ],
+      "objectives": [
+        "Learn jl_value_t and the tagged pointer representation",
+        "Understand jl_datatype_t, jl_module_t, jl_task_t",
+        "See the public C API surface (jl_eval_string, jl_call, etc.)"
+      ],
+      "connections": ["stop-03-gc-memory"]
+    },
+    {
+      "id": "stop-03-gc-memory",
+      "title": "Garbage Collection & Memory",
+      "description": "Deep dive into Julia's generational garbage collector, memory allocation, and the write barrier. Critical for understanding performance and embedding.",
+      "layer": "layer:runtime",
+      "files": [
+        "src/gc.h",
+        "src/gc.c",
+        "src/julia_gcext.h",
+        "src/alloc.h"
+      ],
+      "objectives": [
+        "Understand generational GC with page-based nursery",
+        "Learn the write barrier (jl_gc_wb) and remembered sets",
+        "See how finalizers and weak refs integrate",
+        "Understand allocation fast paths (jl_gc_alloc)"
+      ],
+      "connections": ["stop-04-threading-tls"]
+    },
+    {
+      "id": "stop-04-threading-tls",
+      "title": "Threading, Tasks & TLS",
+      "description": "Explore Julia's green-threading model: tasks, the scheduler, thread-local storage, and synchronization primitives. The runtime's concurrency foundation.",
+      "layer": "layer:runtime",
+      "files": [
+        "src/julia_threads.h",
+        "src/julia_threads.c",
+        "src/threading.h",
+        "src/julia_fasttls.h",
+        "src/julia_locks.h",
+        "src/task.c"
+      ],
+      "objectives": [
+        "Distinguish OS threads (jl_n_threads) from Julia tasks",
+        "Understand task scheduling (jl_schedule, jl_yield)",
+        "Learn fast TLS (jl_tls_get/set) vs pthread TLS",
+        "See lock types: spinlocks, mutexes, rwlocks"
+      ],
+      "connections": ["stop-05-jit-codegen"]
+    },
+    {
+      "id": "stop-05-jit-codegen",
+      "title": "JIT Compilation & LLVM Codegen",
+      "description": "Follow the path from Julia IR to machine code. LLVM integration, pass pipeline, object caching, and the JIT layers abstraction.",
+      "layer": "layer:runtime",
+      "files": [
+        "src/jitlayers.h",
+        "src/jitlayers.cpp",
+        "src/llvm-codegen-shared.h",
+        "src/passes.h",
+        "src/objcache.h",
+        "src/codegen.cpp"
+      ],
+      "objectives": [
+        "Understand the JIT layer abstraction (ORC v2)",
+        "Trace codegen: Julia IR -> LLVM IR -> machine code",
+        "See the optimization pass pipeline",
+        "Learn object caching for compilation artifacts"
+      ],
+      "connections": ["stop-06-support-lib"]
+    },
+    {
+      "id": "stop-06-support-lib",
+      "title": "Support Library Utilities",
+      "description": "Platform-agnostic utilities used throughout the runtime: hashing, I/O streams, string processing, platform detection, and core data structures.",
+      "layer": "layer:support",
+      "files": [
+        "src/support/dtypes.h",
+        "src/support/platform.h",
+        "src/support/ptrhash.h",
+        "src/support/strhash.h",
+        "src/support/ios.h",
+        "src/support/strptime.h",
+        "src/support/timefuncs.h"
+      ],
+      "objectives": [
+        "See cross-platform abstractions (atomic ops, SIMD, paths)",
+        "Understand hash tables used by the runtime",
+        "Learn the I/O stream abstraction (ios_t)",
+        "See string parsing and time utilities"
+      ],
+      "connections": ["stop-07-compiler-jl"]
+    },
+    {
+      "id": "stop-07-compiler-jl",
+      "title": "Compiler.jl — Type Inference & Optimization",
+      "description": "Switch to Julia code. The compiler proper: type inference (abstract interpretation), SSA IR, optimizations, and code generation. Written in Julia, swappable as a module.",
+      "layer": "layer:compiler",
+      "files": [
+        "Compiler/src/Compiler.jl",
+        "Compiler/src/inference/abstractinterpretation.jl",
+        "Compiler/src/ir/ir.jl",
+        "Compiler/src/optimize/optimize.jl",
+        "Compiler/src/codegen/codegen.jl"
+      ],
+      "objectives": [
+        "Understand the compiler pipeline stages",
+        "Learn type inference via abstract interpretation",
+        "See SSA IR structure and optimization passes",
+        "Trace how Julia code becomes LLVM IR"
+      ],
+      "connections": ["stop-08-parser-syntax"]
+    },
+    {
+      "id": "stop-08-parser-syntax",
+      "title": "Parser & Syntax (JuliaSyntax)",
+      "description": "The modern Julia parser producing lossless syntax trees with precise source locations. Replaces the legacy flisp parser.",
+      "layer": "layer:parser",
+      "files": [
+        "stdlib/JuliaSyntax/src/JuliaSyntax.jl",
+        "stdlib/JuliaSyntax/src/parse.jl",
+        "stdlib/JuliaSyntax/src/tokens.jl",
+        "stdlib/JuliaSyntax/src/trees.jl",
+        "stdlib/JuliaSyntax/src/green.jl"
+      ],
+      "objectives": [
+        "Understand green/red tree architecture",
+        "See tokenization and parsing phases",
+        "Learn how lossless syntax trees preserve formatting",
+        "Trace parse -> lower -> compile flow"
+      ],
+      "connections": ["stop-09-lowering"]
+    },
+    {
+      "id": "stop-09-lowering",
+      "title": "Lowering (JuliaLowering)",
+      "description": "Bridges the parser's high-level AST to the compiler's SSA IR. Handles macro expansion, comprehension desugaring, and control flow lowering.",
+      "layer": "layer:lowering",
+      "files": [
+        "stdlib/JuliaLowering/src/JuliaLowering.jl",
+        "stdlib/JuliaLowering/src/lowering.jl",
+        "stdlib/JuliaLowering/src/macroexpansion.jl"
+      ],
+      "objectives": [
+        "See AST -> IR lowering rules",
+        "Understand macro expansion pipeline",
+        "Learn how comprehensions/generators desugar",
+        "Trace closure conversion and box capture"
+      ],
+      "connections": ["stop-10-base-lib"]
+    },
+    {
+      "id": "stop-10-base-lib",
+      "title": "Base Library — Core Primitives",
+      "description": "The standard library loaded at startup. Fundamental types (Int, Float, Array, Tuple), collections, I/O, math, reflection, and language primitives — all written in Julia.",
+      "layer": "layer:base",
+      "files": [
+        "base/Base.jl",
+        "base/boot.jl",
+        "base/essentials.jl",
+        "base/array.jl",
+        "base/tuple.jl",
+        "base/io.jl",
+        "base/reflection.jl",
+        "base/sysimg.jl"
+      ],
+      "objectives": [
+        "Understand the bootstrap sequence (boot.jl -> essentials.jl)",
+        "See core type definitions and their C counterparts",
+        "Learn array memory layout and indexing",
+        "Explore reflection and method tables",
+        "Understand system image creation"
+      ],
+      "connections": ["stop-11-stdlib"]
+    },
+    {
+      "id": "stop-11-stdlib",
+      "title": "Standard Library Packages",
+      "description": "Independent packages loaded on demand. Each is a separate Julia package with its own versioning, tests, and dependencies. Key examples: Pkg, LinearAlgebra, Random, Sockets, Dates.",
+      "layer": "layer:stdlib",
+      "files": [
+        "stdlib/Pkg/src/Pkg.jl",
+        "stdlib/LinearAlgebra/src/LinearAlgebra.jl",
+        "stdlib/Random/src/Random.jl",
+        "stdlib/Sockets/src/Sockets.jl",
+        "stdlib/Dates/src/Dates.jl"
+      ],
+      "objectives": [
+        "Understand stdlib package structure and loading",
+        "See how packages register with Base.require",
+        "Explore key stdlibs: Pkg, LinearAlgebra, Random",
+        "Learn versioning and compatibility constraints"
+      ],
+      "connections": ["stop-12-build-test"]
+    },
+    {
+      "id": "stop-12-build-test",
+      "title": "Build System, Testing & Development",
+      "description": "How Julia is built, tested, and developed. Make-based build, dependency management, test suite organization, and developer tooling.",
+      "layer": "layer:build",
+      "files": [
+        "Makefile",
+        "Make.inc",
+        "contrib/rebuild_julia.sh",
+        "test/runtests.jl",
+        "test/perf/perf.jl",
+        "CONTRIBUTING.md",
+        "doc/src/devdocs/agents/skills/c-static-analysis/SKILL.md"
+      ],
+      "objectives": [
+        "Understand the build process (make -j)",
+        "Run tests: make test, make testall",
+        "Learn static analysis for C changes (Clang)",
+        "See CI configuration and performance testing",
+        "Understand contribution workflow"
+      ],
+      "connections": []
+    }
+  ],
+  "crossCuttingConcerns": [
+    {
+      "name": "Bootstrap & System Image",
+      "description": "How Julia builds a precompiled system image (sysimg) containing Base and stdlib for fast startup. See base/sysimg.jl and src/serialize.c",
+      "relevantStops": ["stop-01-entry", "stop-10-base-lib", "stop-12-build-test"]
+    },
+    {
+      "name": "C <-> Julia Interop",
+      "description": "Calling C from Julia (ccall) and embedding Julia in C (jl_init, jl_eval_string). Critical for packages and embedding.",
+      "relevantStops": ["stop-01-entry", "stop-02-runtime-core", "stop-05-jit-codegen"]
+    },
+    {
+      "name": "Performance & Optimization",
+      "description": "Type stability, inference, specialization, inlining, and escape analysis. The compiler's job is to make dynamic code fast.",
+      "relevantStops": ["stop-07-compiler-jl", "stop-09-lowering", "stop-10-base-lib"]
+    },
+    {
+      "name": "Concurrency Model",
+      "description": "Tasks (green threads), channels, @spawn, @threads, and the scheduler. Distinct from OS threads.",
+      "relevantStops": ["stop-04-threading-tls", "stop-10-base-lib", "stop-11-stdlib"]
+    }
+  ],
+  "recommendedPath": [
+    "stop-01-entry",
+    "stop-02-runtime-core",
+    "stop-03-gc-memory",
+    "stop-04-threading-tls",
+    "stop-05-jit-codegen",
+    "stop-06-support-lib",
+    "stop-07-compiler-jl",
+    "stop-08-parser-syntax",
+    "stop-09-lowering",
+    "stop-10-base-lib",
+    "stop-11-stdlib",
+    "stop-12-build-test"
+  ],
+  "alternativePaths": {
+    "runtime-deep-dive": [
+      "stop-01-entry",
+      "stop-02-runtime-core",
+      "stop-03-gc-memory",
+      "stop-04-threading-tls",
+      "stop-05-jit-codegen",
+      "stop-06-support-lib"
+    ],
+    "compiler-deep-dive": [
+      "stop-07-compiler-jl",
+      "stop-08-parser-syntax",
+      "stop-09-lowering",
+      "stop-10-base-lib"
+    ],
+    "stdlib-developer": [
+      "stop-10-base-lib",
+      "stop-11-stdlib",
+      "stop-12-build-test"
+    ]
+  }
+}

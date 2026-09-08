@@ -1,0 +1,6464 @@
+{
+  "batchIndex": 9,
+  "nodes": [
+    {
+      "id": "file:src/flisp/builtins.c",
+      "type": "file",
+      "name": "builtins.c",
+      "filePath": "src/flisp/builtins.c",
+      "summary": "Source file: builtins.c.",
+      "tags": [
+        "source"
+      ],
+      "complexity": "complex",
+      "language": "c"
+    },
+    {
+      "id": "file:src/flisp/equalhash.c",
+      "type": "file",
+      "name": "equalhash.c",
+      "filePath": "src/flisp/equalhash.c",
+      "summary": "Source file: equalhash.c.",
+      "tags": [
+        "source"
+      ],
+      "complexity": "simple",
+      "language": "c"
+    },
+    {
+      "id": "file:src/flisp/equalhash.h",
+      "type": "file",
+      "name": "equalhash.h",
+      "filePath": "src/flisp/equalhash.h",
+      "summary": "Source file: equalhash.h.",
+      "tags": [
+        "source"
+      ],
+      "complexity": "simple",
+      "language": "c"
+    },
+    {
+      "id": "file:src/flisp/flisp.c",
+      "type": "file",
+      "name": "flisp.c",
+      "filePath": "src/flisp/flisp.c",
+      "summary": "Source file: flisp.c.",
+      "tags": [
+        "source"
+      ],
+      "complexity": "complex",
+      "language": "c"
+    },
+    {
+      "id": "file:src/flisp/flisp.h",
+      "type": "file",
+      "name": "flisp.h",
+      "filePath": "src/flisp/flisp.h",
+      "summary": "Source file: flisp.h.",
+      "tags": [
+        "source"
+      ],
+      "complexity": "complex",
+      "language": "c"
+    },
+    {
+      "id": "file:src/flisp/flmain.c",
+      "type": "file",
+      "name": "flmain.c",
+      "filePath": "src/flisp/flmain.c",
+      "summary": "Source file: flmain.c.",
+      "tags": [
+        "source"
+      ],
+      "complexity": "moderate",
+      "language": "c"
+    },
+    {
+      "id": "file:src/flisp/iostream.c",
+      "type": "file",
+      "name": "iostream.c",
+      "filePath": "src/flisp/iostream.c",
+      "summary": "Source file: iostream.c.",
+      "tags": [
+        "source"
+      ],
+      "complexity": "complex",
+      "language": "c"
+    },
+    {
+      "id": "file:src/flisp/julia_extensions.c",
+      "type": "file",
+      "name": "julia_extensions.c",
+      "filePath": "src/flisp/julia_extensions.c",
+      "summary": "Source file: julia_extensions.c.",
+      "tags": [
+        "source"
+      ],
+      "complexity": "complex",
+      "language": "c"
+    },
+    {
+      "id": "file:src/flisp/opcodes.h",
+      "type": "file",
+      "name": "opcodes.h",
+      "filePath": "src/flisp/opcodes.h",
+      "summary": "Source file: opcodes.h.",
+      "tags": [
+        "source"
+      ],
+      "complexity": "moderate",
+      "language": "c"
+    },
+    {
+      "id": "file:src/flisp/string.c",
+      "type": "file",
+      "name": "string.c",
+      "filePath": "src/flisp/string.c",
+      "summary": "Source file: string.c.",
+      "tags": [
+        "source"
+      ],
+      "complexity": "complex",
+      "language": "c"
+    },
+    {
+      "id": "file:src/flisp/table.c",
+      "type": "file",
+      "name": "table.c",
+      "filePath": "src/flisp/table.c",
+      "summary": "Source file: table.c.",
+      "tags": [
+        "source"
+      ],
+      "complexity": "complex",
+      "language": "c"
+    },
+    {
+      "id": "file:src/flisp/types.c",
+      "type": "file",
+      "name": "types.c",
+      "filePath": "src/flisp/types.c",
+      "summary": "Source file: types.c.",
+      "tags": [
+        "type-inference"
+      ],
+      "complexity": "moderate",
+      "language": "c"
+    },
+    {
+      "id": "function:src/flisp/types.c:relocate_typetable",
+      "type": "function",
+      "name": "relocate_typetable",
+      "filePath": "src/flisp/types.c",
+      "summary": "Function relocate_typetable with 1 parameters.",
+      "tags": [
+        "function"
+      ],
+      "complexity": "simple"
+    }
+  ],
+  "edges": [
+    {
+      "source": "file:src/flisp/builtins.c",
+      "target": "file:src/flisp/flisp.h",
+      "type": "imports",
+      "weight": 0.7
+    },
+    {
+      "source": "file:src/flisp/equalhash.c",
+      "target": "file:src/flisp/equalhash.h",
+      "type": "imports",
+      "weight": 0.7
+    },
+    {
+      "source": "file:src/flisp/equalhash.c",
+      "target": "file:src/flisp/flisp.h",
+      "type": "imports",
+      "weight": 0.7
+    },
+    {
+      "source": "file:src/flisp/flisp.c",
+      "target": "file:src/flisp/flisp.h",
+      "type": "imports",
+      "weight": 0.7
+    },
+    {
+      "source": "file:src/flisp/flisp.c",
+      "target": "file:src/flisp/opcodes.h",
+      "type": "imports",
+      "weight": 0.7
+    },
+    {
+      "source": "file:src/flisp/flmain.c",
+      "target": "file:src/flisp/flisp.h",
+      "type": "imports",
+      "weight": 0.7
+    },
+    {
+      "source": "file:src/flisp/flmain.c",
+      "target": "file:src/flisp/opcodes.h",
+      "type": "imports",
+      "weight": 0.7
+    },
+    {
+      "source": "file:src/flisp/iostream.c",
+      "target": "file:src/flisp/flisp.h",
+      "type": "imports",
+      "weight": 0.7
+    },
+    {
+      "source": "file:src/flisp/julia_extensions.c",
+      "target": "file:src/flisp/flisp.h",
+      "type": "imports",
+      "weight": 0.7
+    },
+    {
+      "source": "file:src/flisp/string.c",
+      "target": "file:src/flisp/flisp.h",
+      "type": "imports",
+      "weight": 0.7
+    },
+    {
+      "source": "file:src/flisp/table.c",
+      "target": "file:src/flisp/equalhash.h",
+      "type": "imports",
+      "weight": 0.7
+    },
+    {
+      "source": "file:src/flisp/table.c",
+      "target": "file:src/flisp/flisp.h",
+      "type": "imports",
+      "weight": 0.7
+    },
+    {
+      "source": "file:src/flisp/types.c",
+      "target": "function:src/flisp/types.c:relocate_typetable",
+      "type": "contains",
+      "weight": 1
+    },
+    {
+      "source": "file:src/flisp/types.c",
+      "target": "file:src/flisp/equalhash.h",
+      "type": "imports",
+      "weight": 0.7
+    }
+  ],
+  "batchFiles": [
+    {
+      "path": "src/flisp/builtins.c",
+      "language": "c",
+      "fileCategory": "code",
+      "totalLines": 411,
+      "nonEmptyLines": 373,
+      "callGraph": [
+        {
+          "caller": "llength",
+          "callee": "iscons",
+          "lineNumber": 26
+        },
+        {
+          "caller": "llength",
+          "callee": "cdr_",
+          "lineNumber": 28
+        },
+        {
+          "caller": "fl_nconc",
+          "callee": "iscons",
+          "lineNumber": 44
+        },
+        {
+          "caller": "fl_nconc",
+          "callee": "ptr",
+          "lineNumber": 46
+        },
+        {
+          "caller": "fl_nconc",
+          "callee": "iscons",
+          "lineNumber": 47
+        },
+        {
+          "caller": "fl_nconc",
+          "callee": "ptr",
+          "lineNumber": 48
+        },
+        {
+          "caller": "fl_nconc",
+          "callee": "type_error",
+          "lineNumber": 52
+        },
+        {
+          "caller": "fl_assq",
+          "callee": "argcount",
+          "lineNumber": 61
+        },
+        {
+          "caller": "fl_assq",
+          "callee": "iscons",
+          "lineNumber": 66
+        },
+        {
+          "caller": "fl_assq",
+          "callee": "car_",
+          "lineNumber": 67
+        },
+        {
+          "caller": "fl_assq",
+          "callee": "iscons",
+          "lineNumber": 68
+        },
+        {
+          "caller": "fl_assq",
+          "callee": "car_",
+          "lineNumber": 68
+        },
+        {
+          "caller": "fl_assq",
+          "callee": "cdr_",
+          "lineNumber": 70
+        },
+        {
+          "caller": "fl_memq",
+          "callee": "argcount",
+          "lineNumber": 77
+        },
+        {
+          "caller": "fl_memq",
+          "callee": "iscons",
+          "lineNumber": 78
+        },
+        {
+          "caller": "fl_memq",
+          "callee": "ptr",
+          "lineNumber": 79
+        },
+        {
+          "caller": "fl_length",
+          "callee": "argcount",
+          "lineNumber": 89
+        },
+        {
+          "caller": "fl_length",
+          "callee": "isvector",
+          "lineNumber": 92
+        },
+        {
+          "caller": "fl_length",
+          "callee": "fixnum",
+          "lineNumber": 93
+        },
+        {
+          "caller": "fl_length",
+          "callee": "vector_size",
+          "lineNumber": 93
+        },
+        {
+          "caller": "fl_length",
+          "callee": "iscprim",
+          "lineNumber": 95
+        },
+        {
+          "caller": "fl_length",
+          "callee": "ptr",
+          "lineNumber": 96
+        },
+        {
+          "caller": "fl_length",
+          "callee": "cp_class",
+          "lineNumber": 97
+        },
+        {
+          "caller": "fl_length",
+          "callee": "fixnum",
+          "lineNumber": 98
+        },
+        {
+          "caller": "fl_length",
+          "callee": "cp_class",
+          "lineNumber": 99
+        },
+        {
+          "caller": "fl_length",
+          "callee": "fixnum",
+          "lineNumber": 100
+        },
+        {
+          "caller": "fl_length",
+          "callee": "u8_charlen",
+          "lineNumber": 100
+        },
+        {
+          "caller": "fl_length",
+          "callee": "cp_data",
+          "lineNumber": 100
+        },
+        {
+          "caller": "fl_length",
+          "callee": "iscvalue",
+          "lineNumber": 102
+        },
+        {
+          "caller": "fl_length",
+          "callee": "ptr",
+          "lineNumber": 103
+        },
+        {
+          "caller": "fl_length",
+          "callee": "cv_class",
+          "lineNumber": 104
+        },
+        {
+          "caller": "fl_length",
+          "callee": "size_wrap",
+          "lineNumber": 105
+        },
+        {
+          "caller": "fl_length",
+          "callee": "cvalue_arraylen",
+          "lineNumber": 105
+        },
+        {
+          "caller": "fl_length",
+          "callee": "fixnum",
+          "lineNumber": 108
+        },
+        {
+          "caller": "fl_length",
+          "callee": "iscons",
+          "lineNumber": 110
+        },
+        {
+          "caller": "fl_length",
+          "callee": "fixnum",
+          "lineNumber": 111
+        },
+        {
+          "caller": "fl_length",
+          "callee": "llength",
+          "lineNumber": 111
+        },
+        {
+          "caller": "fl_length",
+          "callee": "type_error",
+          "lineNumber": 113
+        },
+        {
+          "caller": "fl_f_raise",
+          "callee": "argcount",
+          "lineNumber": 118
+        },
+        {
+          "caller": "fl_f_raise",
+          "callee": "fl_raise",
+          "lineNumber": 119
+        },
+        {
+          "caller": "fl_exit",
+          "callee": "exit",
+          "lineNumber": 125
+        },
+        {
+          "caller": "fl_exit",
+          "callee": "tofixnum",
+          "lineNumber": 125
+        },
+        {
+          "caller": "fl_exit",
+          "callee": "exit",
+          "lineNumber": 126
+        },
+        {
+          "caller": "fl_symbol",
+          "callee": "argcount",
+          "lineNumber": 132
+        },
+        {
+          "caller": "fl_symbol",
+          "callee": "fl_isstring",
+          "lineNumber": 133
+        },
+        {
+          "caller": "fl_symbol",
+          "callee": "type_error",
+          "lineNumber": 134
+        },
+        {
+          "caller": "fl_symbol",
+          "callee": "symbol",
+          "lineNumber": 135
+        },
+        {
+          "caller": "fl_symbol",
+          "callee": "cvalue_data",
+          "lineNumber": 135
+        },
+        {
+          "caller": "fl_keywordp",
+          "callee": "argcount",
+          "lineNumber": 140
+        },
+        {
+          "caller": "fl_keywordp",
+          "callee": "issymbol",
+          "lineNumber": 141
+        },
+        {
+          "caller": "fl_keywordp",
+          "callee": "iskeyword",
+          "lineNumber": 142
+        },
+        {
+          "caller": "fl_keywordp",
+          "callee": "ptr",
+          "lineNumber": 142
+        },
+        {
+          "caller": "fl_top_level_value",
+          "callee": "argcount",
+          "lineNumber": 147
+        },
+        {
+          "caller": "fl_top_level_value",
+          "callee": "tosymbol",
+          "lineNumber": 148
+        },
+        {
+          "caller": "fl_top_level_value",
+          "callee": "fl_raise",
+          "lineNumber": 150
+        },
+        {
+          "caller": "fl_top_level_value",
+          "callee": "fl_list2",
+          "lineNumber": 150
+        },
+        {
+          "caller": "fl_set_top_level_value",
+          "callee": "argcount",
+          "lineNumber": 156
+        },
+        {
+          "caller": "fl_set_top_level_value",
+          "callee": "tosymbol",
+          "lineNumber": 157
+        },
+        {
+          "caller": "fl_set_top_level_value",
+          "callee": "isconstant",
+          "lineNumber": 158
+        },
+        {
+          "caller": "global_env_list",
+          "callee": "fl_cons",
+          "lineNumber": 167
+        },
+        {
+          "caller": "global_env_list",
+          "callee": "tagptr",
+          "lineNumber": 167
+        },
+        {
+          "caller": "global_env_list",
+          "callee": "global_env_list",
+          "lineNumber": 169
+        },
+        {
+          "caller": "fl_global_env",
+          "callee": "argcount",
+          "lineNumber": 177
+        },
+        {
+          "caller": "fl_global_env",
+          "callee": "fl_gc_handle",
+          "lineNumber": 179
+        },
+        {
+          "caller": "fl_global_env",
+          "callee": "global_env_list",
+          "lineNumber": 180
+        },
+        {
+          "caller": "fl_global_env",
+          "callee": "fl_free_gc_handles",
+          "lineNumber": 181
+        },
+        {
+          "caller": "fl_constantp",
+          "callee": "argcount",
+          "lineNumber": 187
+        },
+        {
+          "caller": "fl_constantp",
+          "callee": "issymbol",
+          "lineNumber": 188
+        },
+        {
+          "caller": "fl_constantp",
+          "callee": "isconstant",
+          "lineNumber": 189
+        },
+        {
+          "caller": "fl_constantp",
+          "callee": "ptr",
+          "lineNumber": 189
+        },
+        {
+          "caller": "fl_constantp",
+          "callee": "iscons",
+          "lineNumber": 190
+        },
+        {
+          "caller": "fl_constantp",
+          "callee": "car_",
+          "lineNumber": 191
+        },
+        {
+          "caller": "fl_integer_valuedp",
+          "callee": "argcount",
+          "lineNumber": 200
+        },
+        {
+          "caller": "fl_integer_valuedp",
+          "callee": "isfixnum",
+          "lineNumber": 202
+        },
+        {
+          "caller": "fl_integer_valuedp",
+          "callee": "iscprim",
+          "lineNumber": 205
+        },
+        {
+          "caller": "fl_integer_valuedp",
+          "callee": "cp_numtype",
+          "lineNumber": 206
+        },
+        {
+          "caller": "fl_integer_valuedp",
+          "callee": "ptr",
+          "lineNumber": 206
+        },
+        {
+          "caller": "fl_integer_valuedp",
+          "callee": "cp_data",
+          "lineNumber": 209
+        },
+        {
+          "caller": "fl_integer_valuedp",
+          "callee": "ptr",
+          "lineNumber": 209
+        },
+        {
+          "caller": "fl_integer_valuedp",
+          "callee": "assert",
+          "lineNumber": 217
+        },
+        {
+          "caller": "fl_integerp",
+          "callee": "argcount",
+          "lineNumber": 229
+        },
+        {
+          "caller": "fl_integerp",
+          "callee": "isfixnum",
+          "lineNumber": 231
+        },
+        {
+          "caller": "fl_integerp",
+          "callee": "iscprim",
+          "lineNumber": 232
+        },
+        {
+          "caller": "fl_integerp",
+          "callee": "cp_numtype",
+          "lineNumber": 232
+        },
+        {
+          "caller": "fl_integerp",
+          "callee": "ptr",
+          "lineNumber": 232
+        },
+        {
+          "caller": "fl_fixnum",
+          "callee": "argcount",
+          "lineNumber": 238
+        },
+        {
+          "caller": "fl_fixnum",
+          "callee": "isfixnum",
+          "lineNumber": 239
+        },
+        {
+          "caller": "fl_fixnum",
+          "callee": "iscprim",
+          "lineNumber": 242
+        },
+        {
+          "caller": "fl_fixnum",
+          "callee": "ptr",
+          "lineNumber": 243
+        },
+        {
+          "caller": "fl_fixnum",
+          "callee": "fixnum",
+          "lineNumber": 244
+        },
+        {
+          "caller": "fl_fixnum",
+          "callee": "conv_to_ptrdiff",
+          "lineNumber": 244
+        },
+        {
+          "caller": "fl_fixnum",
+          "callee": "cp_data",
+          "lineNumber": 244
+        },
+        {
+          "caller": "fl_fixnum",
+          "callee": "cp_numtype",
+          "lineNumber": 244
+        },
+        {
+          "caller": "fl_fixnum",
+          "callee": "type_error",
+          "lineNumber": 246
+        },
+        {
+          "caller": "fl_truncate",
+          "callee": "argcount",
+          "lineNumber": 251
+        },
+        {
+          "caller": "fl_truncate",
+          "callee": "isfixnum",
+          "lineNumber": 252
+        },
+        {
+          "caller": "fl_truncate",
+          "callee": "iscprim",
+          "lineNumber": 254
+        },
+        {
+          "caller": "fl_truncate",
+          "callee": "ptr",
+          "lineNumber": 255
+        },
+        {
+          "caller": "fl_truncate",
+          "callee": "cp_data",
+          "lineNumber": 256
+        },
+        {
+          "caller": "fl_truncate",
+          "callee": "cp_numtype",
+          "lineNumber": 257
+        },
+        {
+          "caller": "fl_truncate",
+          "callee": "return_from_uint64",
+          "lineNumber": 268
+        },
+        {
+          "caller": "fl_truncate",
+          "callee": "return_from_int64",
+          "lineNumber": 272
+        },
+        {
+          "caller": "fl_truncate",
+          "callee": "type_error",
+          "lineNumber": 274
+        },
+        {
+          "caller": "fl_vector_alloc",
+          "callee": "lerror",
+          "lineNumber": 282
+        },
+        {
+          "caller": "fl_vector_alloc",
+          "callee": "tosize",
+          "lineNumber": 283
+        },
+        {
+          "caller": "fl_vector_alloc",
+          "callee": "lerror",
+          "lineNumber": 285
+        },
+        {
+          "caller": "fl_vector_alloc",
+          "callee": "FL_UNSPECIFIED",
+          "lineNumber": 289
+        },
+        {
+          "caller": "fl_vector_alloc",
+          "callee": "alloc_vector",
+          "lineNumber": 290
+        },
+        {
+          "caller": "fl_vector_alloc",
+          "callee": "FL_UNSPECIFIED",
+          "lineNumber": 290
+        },
+        {
+          "caller": "fl_vector_alloc",
+          "callee": "FL_UNSPECIFIED",
+          "lineNumber": 291
+        },
+        {
+          "caller": "fl_vector_alloc",
+          "callee": "vector_elt",
+          "lineNumber": 294
+        },
+        {
+          "caller": "fl_time_now",
+          "callee": "argcount",
+          "lineNumber": 301
+        },
+        {
+          "caller": "fl_time_now",
+          "callee": "mk_double",
+          "lineNumber": 303
+        },
+        {
+          "caller": "fl_time_now",
+          "callee": "jl_clock_now",
+          "lineNumber": 303
+        },
+        {
+          "caller": "fl_path_cwd",
+          "callee": "argcount",
+          "lineNumber": 310
+        },
+        {
+          "caller": "fl_path_cwd",
+          "callee": "uv_cwd",
+          "lineNumber": 314
+        },
+        {
+          "caller": "fl_path_cwd",
+          "callee": "lerrorf",
+          "lineNumber": 316
+        },
+        {
+          "caller": "fl_path_cwd",
+          "callee": "uv_strerror",
+          "lineNumber": 316
+        },
+        {
+          "caller": "fl_path_cwd",
+          "callee": "string_from_cstrn",
+          "lineNumber": 317
+        },
+        {
+          "caller": "fl_path_cwd",
+          "callee": "tostring",
+          "lineNumber": 319
+        },
+        {
+          "caller": "fl_path_cwd",
+          "callee": "uv_chdir",
+          "lineNumber": 320
+        },
+        {
+          "caller": "fl_path_cwd",
+          "callee": "lerrorf",
+          "lineNumber": 322
+        },
+        {
+          "caller": "fl_path_cwd",
+          "callee": "uv_strerror",
+          "lineNumber": 322
+        },
+        {
+          "caller": "fl_os_getenv",
+          "callee": "argcount",
+          "lineNumber": 328
+        },
+        {
+          "caller": "fl_os_getenv",
+          "callee": "tostring",
+          "lineNumber": 329
+        },
+        {
+          "caller": "fl_os_getenv",
+          "callee": "getenv",
+          "lineNumber": 330
+        },
+        {
+          "caller": "fl_os_getenv",
+          "callee": "symbol_value",
+          "lineNumber": 333
+        },
+        {
+          "caller": "fl_os_getenv",
+          "callee": "cvalue_static_cstring",
+          "lineNumber": 334
+        },
+        {
+          "caller": "fl_os_setenv",
+          "callee": "argcount",
+          "lineNumber": 339
+        },
+        {
+          "caller": "fl_os_setenv",
+          "callee": "tostring",
+          "lineNumber": 340
+        },
+        {
+          "caller": "fl_os_setenv",
+          "callee": "unsetenv",
+          "lineNumber": 344
+        },
+        {
+          "caller": "fl_os_setenv",
+          "callee": "SetEnvironmentVariable",
+          "lineNumber": 346
+        },
+        {
+          "caller": "fl_os_setenv",
+          "callee": "unsetenv",
+          "lineNumber": 348
+        },
+        {
+          "caller": "fl_os_setenv",
+          "callee": "tostring",
+          "lineNumber": 354
+        },
+        {
+          "caller": "fl_os_setenv",
+          "callee": "SetEnvironmentVariable",
+          "lineNumber": 356
+        },
+        {
+          "caller": "fl_os_setenv",
+          "callee": "setenv",
+          "lineNumber": 358
+        },
+        {
+          "caller": "fl_os_setenv",
+          "callee": "lerror",
+          "lineNumber": 362
+        },
+        {
+          "caller": "builtins_init",
+          "callee": "assign_global_builtins",
+          "lineNumber": 403
+        },
+        {
+          "caller": "builtins_init",
+          "callee": "stringfuncs_init",
+          "lineNumber": 404
+        },
+        {
+          "caller": "builtins_init",
+          "callee": "table_init",
+          "lineNumber": 405
+        },
+        {
+          "caller": "builtins_init",
+          "callee": "iostream_init",
+          "lineNumber": 406
+        }
+      ],
+      "metrics": {
+        "importCount": 1,
+        "exportCount": 0,
+        "functionCount": 0,
+        "classCount": 0
+      }
+    },
+    {
+      "path": "src/flisp/equalhash.c",
+      "language": "c",
+      "fileCategory": "code",
+      "totalLines": 26,
+      "nonEmptyLines": 20,
+      "metrics": {
+        "importCount": 2,
+        "exportCount": 0,
+        "functionCount": 0,
+        "classCount": 0
+      }
+    },
+    {
+      "path": "src/flisp/equalhash.h",
+      "language": "c",
+      "fileCategory": "code",
+      "totalLines": 16,
+      "nonEmptyLines": 11,
+      "metrics": {
+        "importCount": 0,
+        "exportCount": 0,
+        "functionCount": 0,
+        "classCount": 0
+      }
+    },
+    {
+      "path": "src/flisp/flisp.c",
+      "language": "c",
+      "fileCategory": "code",
+      "totalLines": 2490,
+      "nonEmptyLines": 2315,
+      "callGraph": [
+        {
+          "caller": "free_readstate",
+          "callee": "htable_free",
+          "lineNumber": 103
+        },
+        {
+          "caller": "free_readstate",
+          "callee": "htable_free",
+          "lineNumber": 104
+        },
+        {
+          "caller": "fl_raise",
+          "callee": "free_readstate",
+          "lineNumber": 143
+        },
+        {
+          "caller": "fl_raise",
+          "callee": "fl_longjmp",
+          "lineNumber": 152
+        },
+        {
+          "caller": "make_error_msg",
+          "callee": "vsnprintf",
+          "lineNumber": 158
+        },
+        {
+          "caller": "make_error_msg",
+          "callee": "string_from_cstrn",
+          "lineNumber": 159
+        },
+        {
+          "caller": "lerrorf",
+          "callee": "PUSH",
+          "lineNumber": 165
+        },
+        {
+          "caller": "lerrorf",
+          "callee": "va_start",
+          "lineNumber": 166
+        },
+        {
+          "caller": "lerrorf",
+          "callee": "make_error_msg",
+          "lineNumber": 167
+        },
+        {
+          "caller": "lerrorf",
+          "callee": "va_end",
+          "lineNumber": 168
+        },
+        {
+          "caller": "lerrorf",
+          "callee": "POP",
+          "lineNumber": 170
+        },
+        {
+          "caller": "lerrorf",
+          "callee": "fl_raise",
+          "lineNumber": 171
+        },
+        {
+          "caller": "lerrorf",
+          "callee": "fl_list2",
+          "lineNumber": 171
+        },
+        {
+          "caller": "lerror",
+          "callee": "PUSH",
+          "lineNumber": 176
+        },
+        {
+          "caller": "lerror",
+          "callee": "cvalue_static_cstring",
+          "lineNumber": 177
+        },
+        {
+          "caller": "lerror",
+          "callee": "POP",
+          "lineNumber": 178
+        },
+        {
+          "caller": "lerror",
+          "callee": "fl_raise",
+          "lineNumber": 179
+        },
+        {
+          "caller": "lerror",
+          "callee": "fl_list2",
+          "lineNumber": 179
+        },
+        {
+          "caller": "type_error",
+          "callee": "fl_raise",
+          "lineNumber": 184
+        },
+        {
+          "caller": "type_error",
+          "callee": "fl_listn",
+          "lineNumber": 184
+        },
+        {
+          "caller": "type_error",
+          "callee": "symbol",
+          "lineNumber": 184
+        },
+        {
+          "caller": "type_error",
+          "callee": "symbol",
+          "lineNumber": 184
+        },
+        {
+          "caller": "bounds_error",
+          "callee": "fl_raise",
+          "lineNumber": 189
+        },
+        {
+          "caller": "bounds_error",
+          "callee": "fl_listn",
+          "lineNumber": 189
+        },
+        {
+          "caller": "bounds_error",
+          "callee": "symbol",
+          "lineNumber": 189
+        },
+        {
+          "caller": "symbol",
+          "callee": "symtab_lookup",
+          "lineNumber": 260
+        },
+        {
+          "caller": "symbol",
+          "callee": "mk_symbol",
+          "lineNumber": 262
+        },
+        {
+          "caller": "symbol",
+          "callee": "tagptr",
+          "lineNumber": 263
+        },
+        {
+          "caller": "fl_gensym",
+          "callee": "uint2str",
+          "lineNumber": 270
+        },
+        {
+          "caller": "fl_gensym",
+          "callee": "tagptr",
+          "lineNumber": 272
+        },
+        {
+          "caller": "fl_gensym",
+          "callee": "mk_symbol",
+          "lineNumber": 272
+        },
+        {
+          "caller": "fl_gensym",
+          "callee": "argcount",
+          "lineNumber": 274
+        },
+        {
+          "caller": "fl_gensym",
+          "callee": "alloc_words",
+          "lineNumber": 276
+        },
+        {
+          "caller": "fl_gensym",
+          "callee": "tagptr",
+          "lineNumber": 281
+        },
+        {
+          "caller": "fl_isgensym",
+          "callee": "isgensym",
+          "lineNumber": 287
+        },
+        {
+          "caller": "fl_gensymp",
+          "callee": "argcount",
+          "lineNumber": 292
+        },
+        {
+          "caller": "fl_gensymp",
+          "callee": "isgensym",
+          "lineNumber": 293
+        },
+        {
+          "caller": "mk_cons",
+          "callee": "gc",
+          "lineNumber": 326
+        },
+        {
+          "caller": "mk_cons",
+          "callee": "malloc",
+          "lineNumber": 327
+        },
+        {
+          "caller": "mk_cons",
+          "callee": "CHECK_ALIGN8",
+          "lineNumber": 329
+        },
+        {
+          "caller": "mk_cons",
+          "callee": "__unlikely",
+          "lineNumber": 334
+        },
+        {
+          "caller": "mk_cons",
+          "callee": "gc",
+          "lineNumber": 335
+        },
+        {
+          "caller": "mk_cons",
+          "callee": "tagptr",
+          "lineNumber": 339
+        },
+        {
+          "caller": "alloc_vector",
+          "callee": "alloc_words",
+          "lineNumber": 392
+        },
+        {
+          "caller": "alloc_vector",
+          "callee": "tagptr",
+          "lineNumber": 393
+        },
+        {
+          "caller": "alloc_vector",
+          "callee": "vector_setsize",
+          "lineNumber": 394
+        },
+        {
+          "caller": "alloc_vector",
+          "callee": "vector_elt",
+          "lineNumber": 398
+        },
+        {
+          "caller": "alloc_vector",
+          "callee": "FL_UNSPECIFIED",
+          "lineNumber": 398
+        },
+        {
+          "caller": "fl_gc_handle",
+          "callee": "lerror",
+          "lineNumber": 420
+        },
+        {
+          "caller": "fl_free_gc_handles",
+          "callee": "assert",
+          "lineNumber": 426
+        },
+        {
+          "caller": "relocate_lispvalue",
+          "callee": "relocate",
+          "lineNumber": 432
+        },
+        {
+          "caller": "trace_globals",
+          "callee": "relocate",
+          "lineNumber": 439
+        },
+        {
+          "caller": "trace_globals",
+          "callee": "trace_globals",
+          "lineNumber": 440
+        },
+        {
+          "caller": "relocate",
+          "callee": "tag",
+          "lineNumber": 448
+        },
+        {
+          "caller": "relocate",
+          "callee": "car_",
+          "lineNumber": 454
+        },
+        {
+          "caller": "relocate",
+          "callee": "cdr_",
+          "lineNumber": 455
+        },
+        {
+          "caller": "relocate",
+          "callee": "mk_cons",
+          "lineNumber": 459
+        },
+        {
+          "caller": "relocate",
+          "callee": "tagptr",
+          "lineNumber": 461
+        },
+        {
+          "caller": "relocate",
+          "callee": "cdr_",
+          "lineNumber": 464
+        },
+        {
+          "caller": "relocate",
+          "callee": "car_",
+          "lineNumber": 465
+        },
+        {
+          "caller": "relocate",
+          "callee": "cdr_",
+          "lineNumber": 465
+        },
+        {
+          "caller": "relocate",
+          "callee": "tag",
+          "lineNumber": 466
+        },
+        {
+          "caller": "relocate",
+          "callee": "ismanaged",
+          "lineNumber": 466
+        },
+        {
+          "caller": "relocate",
+          "callee": "car_",
+          "lineNumber": 467
+        },
+        {
+          "caller": "relocate",
+          "callee": "car_",
+          "lineNumber": 469
+        },
+        {
+          "caller": "relocate",
+          "callee": "relocate",
+          "lineNumber": 469
+        },
+        {
+          "caller": "relocate",
+          "callee": "cdr_",
+          "lineNumber": 470
+        },
+        {
+          "caller": "relocate",
+          "callee": "iscons",
+          "lineNumber": 472
+        },
+        {
+          "caller": "relocate",
+          "callee": "relocate",
+          "lineNumber": 473
+        },
+        {
+          "caller": "relocate",
+          "callee": "ismanaged",
+          "lineNumber": 477
+        },
+        {
+          "caller": "relocate",
+          "callee": "isforwarded",
+          "lineNumber": 478
+        },
+        {
+          "caller": "relocate",
+          "callee": "forwardloc",
+          "lineNumber": 478
+        },
+        {
+          "caller": "relocate",
+          "callee": "vector_size",
+          "lineNumber": 482
+        },
+        {
+          "caller": "relocate",
+          "callee": "vector_elt",
+          "lineNumber": 483
+        },
+        {
+          "caller": "relocate",
+          "callee": "relocate",
+          "lineNumber": 485
+        },
+        {
+          "caller": "relocate",
+          "callee": "vector_elt",
+          "lineNumber": 485
+        },
+        {
+          "caller": "relocate",
+          "callee": "forward",
+          "lineNumber": 486
+        },
+        {
+          "caller": "relocate",
+          "callee": "tagptr",
+          "lineNumber": 489
+        },
+        {
+          "caller": "relocate",
+          "callee": "alloc_words",
+          "lineNumber": 489
+        },
+        {
+          "caller": "relocate",
+          "callee": "vector_setsize",
+          "lineNumber": 490
+        },
+        {
+          "caller": "relocate",
+          "callee": "vector_elt",
+          "lineNumber": 491
+        },
+        {
+          "caller": "relocate",
+          "callee": "forward",
+          "lineNumber": 492
+        },
+        {
+          "caller": "relocate",
+          "callee": "vector_elt",
+          "lineNumber": 494
+        },
+        {
+          "caller": "relocate",
+          "callee": "relocate",
+          "lineNumber": 494
+        },
+        {
+          "caller": "relocate",
+          "callee": "vector_elt",
+          "lineNumber": 496
+        },
+        {
+          "caller": "relocate",
+          "callee": "tag",
+          "lineNumber": 497
+        },
+        {
+          "caller": "relocate",
+          "callee": "ismanaged",
+          "lineNumber": 497
+        },
+        {
+          "caller": "relocate",
+          "callee": "vector_elt",
+          "lineNumber": 498
+        },
+        {
+          "caller": "relocate",
+          "callee": "vector_elt",
+          "lineNumber": 500
+        },
+        {
+          "caller": "relocate",
+          "callee": "relocate",
+          "lineNumber": 500
+        },
+        {
+          "caller": "relocate",
+          "callee": "ptr",
+          "lineNumber": 507
+        },
+        {
+          "caller": "relocate",
+          "callee": "NWORDS",
+          "lineNumber": 508
+        },
+        {
+          "caller": "relocate",
+          "callee": "cp_class",
+          "lineNumber": 508
+        },
+        {
+          "caller": "relocate",
+          "callee": "alloc_words",
+          "lineNumber": 509
+        },
+        {
+          "caller": "relocate",
+          "callee": "tagptr",
+          "lineNumber": 512
+        },
+        {
+          "caller": "relocate",
+          "callee": "forward",
+          "lineNumber": 513
+        },
+        {
+          "caller": "relocate",
+          "callee": "cvalue_relocate",
+          "lineNumber": 517
+        },
+        {
+          "caller": "relocate",
+          "callee": "ptr",
+          "lineNumber": 520
+        },
+        {
+          "caller": "relocate",
+          "callee": "alloc_words",
+          "lineNumber": 521
+        },
+        {
+          "caller": "relocate",
+          "callee": "tagptr",
+          "lineNumber": 524
+        },
+        {
+          "caller": "relocate",
+          "callee": "forward",
+          "lineNumber": 525
+        },
+        {
+          "caller": "relocate",
+          "callee": "relocate",
+          "lineNumber": 526
+        },
+        {
+          "caller": "relocate",
+          "callee": "relocate",
+          "lineNumber": 527
+        },
+        {
+          "caller": "relocate",
+          "callee": "relocate",
+          "lineNumber": 528
+        },
+        {
+          "caller": "relocate",
+          "callee": "ptr",
+          "lineNumber": 533
+        },
+        {
+          "caller": "relocate",
+          "callee": "alloc_words",
+          "lineNumber": 534
+        },
+        {
+          "caller": "relocate",
+          "callee": "tagptr",
+          "lineNumber": 538
+        },
+        {
+          "caller": "relocate",
+          "callee": "forward",
+          "lineNumber": 539
+        },
+        {
+          "caller": "relocate",
+          "callee": "relocate",
+          "lineNumber": 541
+        },
+        {
+          "caller": "gc",
+          "callee": "LLT_ALLOC",
+          "lineNumber": 559
+        },
+        {
+          "caller": "gc",
+          "callee": "relocate",
+          "lineNumber": 575
+        },
+        {
+          "caller": "gc",
+          "callee": "relocate",
+          "lineNumber": 581
+        },
+        {
+          "caller": "gc",
+          "callee": "trace_globals",
+          "lineNumber": 582
+        },
+        {
+          "caller": "gc",
+          "callee": "relocate_typetable",
+          "lineNumber": 583
+        },
+        {
+          "caller": "gc",
+          "callee": "relocate",
+          "lineNumber": 587
+        },
+        {
+          "caller": "gc",
+          "callee": "relocate",
+          "lineNumber": 589
+        },
+        {
+          "caller": "gc",
+          "callee": "relocate",
+          "lineNumber": 590
+        },
+        {
+          "caller": "gc",
+          "callee": "relocate",
+          "lineNumber": 593
+        },
+        {
+          "caller": "gc",
+          "callee": "relocate",
+          "lineNumber": 594
+        },
+        {
+          "caller": "gc",
+          "callee": "relocate",
+          "lineNumber": 595
+        },
+        {
+          "caller": "gc",
+          "callee": "sweep_finalizers",
+          "lineNumber": 597
+        },
+        {
+          "caller": "gc",
+          "callee": "free",
+          "lineNumber": 602
+        },
+        {
+          "caller": "gc",
+          "callee": "printf",
+          "lineNumber": 608
+        },
+        {
+          "caller": "gc",
+          "callee": "LLT_REALLOC",
+          "lineNumber": 627
+        },
+        {
+          "caller": "gc",
+          "callee": "fl_raise",
+          "lineNumber": 629
+        },
+        {
+          "caller": "gc",
+          "callee": "bitvector_resize",
+          "lineNumber": 633
+        },
+        {
+          "caller": "gc",
+          "callee": "fl_raise",
+          "lineNumber": 635
+        },
+        {
+          "caller": "gc",
+          "callee": "LLT_FREE",
+          "lineNumber": 641
+        },
+        {
+          "caller": "gc",
+          "callee": "gc",
+          "lineNumber": 647
+        },
+        {
+          "caller": "grow_stack",
+          "callee": "realloc",
+          "lineNumber": 655
+        },
+        {
+          "caller": "grow_stack",
+          "callee": "lerror",
+          "lineNumber": 657
+        },
+        {
+          "caller": "_applyn",
+          "callee": "iscbuiltin",
+          "lineNumber": 670
+        },
+        {
+          "caller": "_applyn",
+          "callee": "((builtin_t*)ptr(f))[3]",
+          "lineNumber": 671
+        },
+        {
+          "caller": "_applyn",
+          "callee": "ptr",
+          "lineNumber": 671
+        },
+        {
+          "caller": "_applyn",
+          "callee": "isfunction",
+          "lineNumber": 673
+        },
+        {
+          "caller": "_applyn",
+          "callee": "apply_cl",
+          "lineNumber": 674
+        },
+        {
+          "caller": "_applyn",
+          "callee": "isbuiltin",
+          "lineNumber": 676
+        },
+        {
+          "caller": "_applyn",
+          "callee": "symbol_value",
+          "lineNumber": 677
+        },
+        {
+          "caller": "_applyn",
+          "callee": "vector_elt",
+          "lineNumber": 678
+        },
+        {
+          "caller": "_applyn",
+          "callee": "uintval",
+          "lineNumber": 678
+        },
+        {
+          "caller": "_applyn",
+          "callee": "apply_cl",
+          "lineNumber": 679
+        },
+        {
+          "caller": "_applyn",
+          "callee": "type_error",
+          "lineNumber": 682
+        },
+        {
+          "caller": "fl_apply",
+          "callee": "PUSH",
+          "lineNumber": 693
+        },
+        {
+          "caller": "fl_apply",
+          "callee": "iscons",
+          "lineNumber": 694
+        },
+        {
+          "caller": "fl_apply",
+          "callee": "grow_stack",
+          "lineNumber": 696
+        },
+        {
+          "caller": "fl_apply",
+          "callee": "PUSH",
+          "lineNumber": 697
+        },
+        {
+          "caller": "fl_apply",
+          "callee": "car_",
+          "lineNumber": 697
+        },
+        {
+          "caller": "fl_apply",
+          "callee": "cdr_",
+          "lineNumber": 698
+        },
+        {
+          "caller": "fl_apply",
+          "callee": "_applyn",
+          "lineNumber": 701
+        },
+        {
+          "caller": "fl_apply",
+          "callee": "POPN",
+          "lineNumber": 702
+        },
+        {
+          "caller": "fl_applyn",
+          "callee": "va_start",
+          "lineNumber": 709
+        },
+        {
+          "caller": "fl_applyn",
+          "callee": "PUSH",
+          "lineNumber": 712
+        },
+        {
+          "caller": "fl_applyn",
+          "callee": "grow_stack",
+          "lineNumber": 714
+        },
+        {
+          "caller": "fl_applyn",
+          "callee": "va_arg",
+          "lineNumber": 716
+        },
+        {
+          "caller": "fl_applyn",
+          "callee": "PUSH",
+          "lineNumber": 717
+        },
+        {
+          "caller": "fl_applyn",
+          "callee": "_applyn",
+          "lineNumber": 719
+        },
+        {
+          "caller": "fl_applyn",
+          "callee": "POPN",
+          "lineNumber": 720
+        },
+        {
+          "caller": "fl_applyn",
+          "callee": "va_end",
+          "lineNumber": 721
+        },
+        {
+          "caller": "fl_listn",
+          "callee": "va_start",
+          "lineNumber": 728
+        },
+        {
+          "caller": "fl_listn",
+          "callee": "grow_stack",
+          "lineNumber": 733
+        },
+        {
+          "caller": "fl_listn",
+          "callee": "va_arg",
+          "lineNumber": 735
+        },
+        {
+          "caller": "fl_listn",
+          "callee": "PUSH",
+          "lineNumber": 736
+        },
+        {
+          "caller": "fl_listn",
+          "callee": "fl_cons",
+          "lineNumber": 742
+        },
+        {
+          "caller": "fl_listn",
+          "callee": "POPN",
+          "lineNumber": 744
+        },
+        {
+          "caller": "fl_listn",
+          "callee": "va_end",
+          "lineNumber": 745
+        },
+        {
+          "caller": "fl_listn",
+          "callee": "alloc_words",
+          "lineNumber": 748
+        },
+        {
+          "caller": "fl_listn",
+          "callee": "tagptr",
+          "lineNumber": 752
+        },
+        {
+          "caller": "fl_listn",
+          "callee": "POPN",
+          "lineNumber": 756
+        },
+        {
+          "caller": "fl_listn",
+          "callee": "va_end",
+          "lineNumber": 757
+        },
+        {
+          "caller": "fl_listn",
+          "callee": "tagptr",
+          "lineNumber": 758
+        },
+        {
+          "caller": "fl_list2",
+          "callee": "PUSH",
+          "lineNumber": 764
+        },
+        {
+          "caller": "fl_list2",
+          "callee": "PUSH",
+          "lineNumber": 765
+        },
+        {
+          "caller": "fl_list2",
+          "callee": "fl_cons",
+          "lineNumber": 767
+        },
+        {
+          "caller": "fl_list2",
+          "callee": "fl_cons",
+          "lineNumber": 768
+        },
+        {
+          "caller": "fl_list2",
+          "callee": "POPN",
+          "lineNumber": 769
+        },
+        {
+          "caller": "fl_list2",
+          "callee": "alloc_words",
+          "lineNumber": 772
+        },
+        {
+          "caller": "fl_list2",
+          "callee": "POP",
+          "lineNumber": 773
+        },
+        {
+          "caller": "fl_list2",
+          "callee": "POP",
+          "lineNumber": 774
+        },
+        {
+          "caller": "fl_list2",
+          "callee": "tagptr",
+          "lineNumber": 776
+        },
+        {
+          "caller": "fl_list2",
+          "callee": "tagptr",
+          "lineNumber": 779
+        },
+        {
+          "caller": "fl_cons",
+          "callee": "PUSH",
+          "lineNumber": 785
+        },
+        {
+          "caller": "fl_cons",
+          "callee": "PUSH",
+          "lineNumber": 786
+        },
+        {
+          "caller": "fl_cons",
+          "callee": "mk_cons",
+          "lineNumber": 787
+        },
+        {
+          "caller": "fl_cons",
+          "callee": "cdr_",
+          "lineNumber": 788
+        },
+        {
+          "caller": "fl_cons",
+          "callee": "POP",
+          "lineNumber": 788
+        },
+        {
+          "caller": "fl_cons",
+          "callee": "car_",
+          "lineNumber": 789
+        },
+        {
+          "caller": "fl_cons",
+          "callee": "POP",
+          "lineNumber": 789
+        },
+        {
+          "caller": "fl_isnumber",
+          "callee": "isfixnum",
+          "lineNumber": 795
+        },
+        {
+          "caller": "fl_isnumber",
+          "callee": "iscprim",
+          "lineNumber": 796
+        },
+        {
+          "caller": "fl_isnumber",
+          "callee": "ptr",
+          "lineNumber": 797
+        },
+        {
+          "caller": "_list",
+          "callee": "mk_cons",
+          "lineNumber": 824
+        },
+        {
+          "caller": "_list",
+          "callee": "ptr",
+          "lineNumber": 825
+        },
+        {
+          "caller": "_list",
+          "callee": "PUSH",
+          "lineNumber": 834
+        },
+        {
+          "caller": "_list",
+          "callee": "mk_cons",
+          "lineNumber": 836
+        },
+        {
+          "caller": "_list",
+          "callee": "ptr",
+          "lineNumber": 837
+        },
+        {
+          "caller": "_list",
+          "callee": "POP",
+          "lineNumber": 842
+        },
+        {
+          "caller": "_list",
+          "callee": "cons_reserve",
+          "lineNumber": 844
+        },
+        {
+          "caller": "_list",
+          "callee": "ptr",
+          "lineNumber": 845
+        },
+        {
+          "caller": "_list",
+          "callee": "tagptr",
+          "lineNumber": 848
+        },
+        {
+          "caller": "copy_list",
+          "callee": "iscons",
+          "lineNumber": 861
+        },
+        {
+          "caller": "copy_list",
+          "callee": "PUSH",
+          "lineNumber": 863
+        },
+        {
+          "caller": "copy_list",
+          "callee": "PUSH",
+          "lineNumber": 864
+        },
+        {
+          "caller": "copy_list",
+          "callee": "mk_cons",
+          "lineNumber": 868
+        },
+        {
+          "caller": "copy_list",
+          "callee": "PUSH",
+          "lineNumber": 868
+        },
+        {
+          "caller": "copy_list",
+          "callee": "car_",
+          "lineNumber": 869
+        },
+        {
+          "caller": "copy_list",
+          "callee": "car_",
+          "lineNumber": 869
+        },
+        {
+          "caller": "copy_list",
+          "callee": "cdr_",
+          "lineNumber": 870
+        },
+        {
+          "caller": "copy_list",
+          "callee": "cdr_",
+          "lineNumber": 872
+        },
+        {
+          "caller": "copy_list",
+          "callee": "iscons",
+          "lineNumber": 873
+        },
+        {
+          "caller": "copy_list",
+          "callee": "mk_cons",
+          "lineNumber": 874
+        },
+        {
+          "caller": "copy_list",
+          "callee": "car_",
+          "lineNumber": 875
+        },
+        {
+          "caller": "copy_list",
+          "callee": "car_",
+          "lineNumber": 875
+        },
+        {
+          "caller": "copy_list",
+          "callee": "cdr_",
+          "lineNumber": 876
+        },
+        {
+          "caller": "copy_list",
+          "callee": "cdr_",
+          "lineNumber": 877
+        },
+        {
+          "caller": "copy_list",
+          "callee": "cdr_",
+          "lineNumber": 879
+        },
+        {
+          "caller": "copy_list",
+          "callee": "POP",
+          "lineNumber": 881
+        },
+        {
+          "caller": "copy_list",
+          "callee": "POPN",
+          "lineNumber": 882
+        },
+        {
+          "caller": "FL_TRY",
+          "callee": "apply_cl",
+          "lineNumber": 895
+        },
+        {
+          "caller": "FL_CATCH",
+          "callee": "PUSH",
+          "lineNumber": 899
+        },
+        {
+          "caller": "FL_CATCH",
+          "callee": "PUSH",
+          "lineNumber": 900
+        },
+        {
+          "caller": "FL_CATCH",
+          "callee": "apply_cl",
+          "lineNumber": 901
+        },
+        {
+          "caller": "process_keys",
+          "callee": "alloca",
+          "lineNumber": 918
+        },
+        {
+          "caller": "process_keys",
+          "callee": "lerror",
+          "lineNumber": 925
+        },
+        {
+          "caller": "process_keys",
+          "callee": "issymbol",
+          "lineNumber": 929
+        },
+        {
+          "caller": "process_keys",
+          "callee": "iskeyword",
+          "lineNumber": 929
+        },
+        {
+          "caller": "process_keys",
+          "callee": "ptr",
+          "lineNumber": 929
+        },
+        {
+          "caller": "process_keys",
+          "callee": "vector_size",
+          "lineNumber": 937
+        },
+        {
+          "caller": "process_keys",
+          "callee": "lerrorf",
+          "lineNumber": 941
+        },
+        {
+          "caller": "process_keys",
+          "callee": "symbol_name",
+          "lineNumber": 942
+        },
+        {
+          "caller": "process_keys",
+          "callee": "fixnum",
+          "lineNumber": 943
+        },
+        {
+          "caller": "process_keys",
+          "callee": "ptr",
+          "lineNumber": 943
+        },
+        {
+          "caller": "process_keys",
+          "callee": "labs",
+          "lineNumber": 944
+        },
+        {
+          "caller": "process_keys",
+          "callee": "numval",
+          "lineNumber": 944
+        },
+        {
+          "caller": "process_keys",
+          "callee": "vector_elt",
+          "lineNumber": 945
+        },
+        {
+          "caller": "process_keys",
+          "callee": "numval",
+          "lineNumber": 946
+        },
+        {
+          "caller": "process_keys",
+          "callee": "vector_elt",
+          "lineNumber": 946
+        },
+        {
+          "caller": "process_keys",
+          "callee": "assert",
+          "lineNumber": 947
+        },
+        {
+          "caller": "process_keys",
+          "callee": "lerrorf",
+          "lineNumber": 955
+        },
+        {
+          "caller": "process_keys",
+          "callee": "symbol_name",
+          "lineNumber": 955
+        },
+        {
+          "caller": "process_keys",
+          "callee": "issymbol",
+          "lineNumber": 960
+        },
+        {
+          "caller": "process_keys",
+          "callee": "iskeyword",
+          "lineNumber": 960
+        },
+        {
+          "caller": "process_keys",
+          "callee": "ptr",
+          "lineNumber": 960
+        },
+        {
+          "caller": "process_keys",
+          "callee": "lerror",
+          "lineNumber": 964
+        },
+        {
+          "caller": "process_keys",
+          "callee": "memmove",
+          "lineNumber": 967
+        },
+        {
+          "caller": "process_keys",
+          "callee": "memcpy",
+          "lineNumber": 968
+        },
+        {
+          "caller": "process_keys",
+          "callee": "assert",
+          "lineNumber": 970
+        },
+        {
+          "caller": "process_keys",
+          "callee": "PUSH",
+          "lineNumber": 971
+        },
+        {
+          "caller": "process_keys",
+          "callee": "PUSH",
+          "lineNumber": 972
+        },
+        {
+          "caller": "process_keys",
+          "callee": "PUSH",
+          "lineNumber": 973
+        },
+        {
+          "caller": "process_keys",
+          "callee": "PUSH",
+          "lineNumber": 974
+        },
+        {
+          "caller": "compute_maxstack",
+          "callee": "SWAP_INT32",
+          "lineNumber": 1874
+        },
+        {
+          "caller": "compute_maxstack",
+          "callee": "GET_INT32",
+          "lineNumber": 1875
+        },
+        {
+          "caller": "compute_maxstack",
+          "callee": "SWAP_INT32",
+          "lineNumber": 1878
+        },
+        {
+          "caller": "compute_maxstack",
+          "callee": "GET_INT32",
+          "lineNumber": 1879
+        },
+        {
+          "caller": "compute_maxstack",
+          "callee": "SWAP_INT32",
+          "lineNumber": 1883
+        },
+        {
+          "caller": "compute_maxstack",
+          "callee": "GET_INT32",
+          "lineNumber": 1884
+        },
+        {
+          "caller": "compute_maxstack",
+          "callee": "SWAP_INT32",
+          "lineNumber": 1885
+        },
+        {
+          "caller": "compute_maxstack",
+          "callee": "abs",
+          "lineNumber": 1886
+        },
+        {
+          "caller": "compute_maxstack",
+          "callee": "GET_INT32",
+          "lineNumber": 1886
+        },
+        {
+          "caller": "compute_maxstack",
+          "callee": "SWAP_INT32",
+          "lineNumber": 1890
+        },
+        {
+          "caller": "compute_maxstack",
+          "callee": "GET_INT32",
+          "lineNumber": 1891
+        },
+        {
+          "caller": "compute_maxstack",
+          "callee": "SWAP_INT32",
+          "lineNumber": 1892
+        },
+        {
+          "caller": "compute_maxstack",
+          "callee": "GET_INT32",
+          "lineNumber": 1893
+        },
+        {
+          "caller": "compute_maxstack",
+          "callee": "SWAP_INT32",
+          "lineNumber": 1894
+        },
+        {
+          "caller": "compute_maxstack",
+          "callee": "abs",
+          "lineNumber": 1895
+        },
+        {
+          "caller": "compute_maxstack",
+          "callee": "GET_INT32",
+          "lineNumber": 1895
+        },
+        {
+          "caller": "compute_maxstack",
+          "callee": "SWAP_INT32",
+          "lineNumber": 1899
+        },
+        {
+          "caller": "compute_maxstack",
+          "callee": "SWAP_INT32",
+          "lineNumber": 1909
+        },
+        {
+          "caller": "compute_maxstack",
+          "callee": "GET_INT32",
+          "lineNumber": 1910
+        },
+        {
+          "caller": "compute_maxstack",
+          "callee": "SWAP_INT16",
+          "lineNumber": 1914
+        },
+        {
+          "caller": "compute_maxstack",
+          "callee": "SWAP_INT32",
+          "lineNumber": 1917
+        },
+        {
+          "caller": "compute_maxstack",
+          "callee": "SWAP_INT16",
+          "lineNumber": 1920
+        },
+        {
+          "caller": "compute_maxstack",
+          "callee": "SWAP_INT32",
+          "lineNumber": 1925
+        },
+        {
+          "caller": "compute_maxstack",
+          "callee": "SWAP_INT16",
+          "lineNumber": 1930
+        },
+        {
+          "caller": "compute_maxstack",
+          "callee": "SWAP_INT32",
+          "lineNumber": 1935
+        },
+        {
+          "caller": "compute_maxstack",
+          "callee": "SWAP_INT16",
+          "lineNumber": 1940
+        },
+        {
+          "caller": "compute_maxstack",
+          "callee": "SWAP_INT32",
+          "lineNumber": 1945
+        },
+        {
+          "caller": "compute_maxstack",
+          "callee": "SWAP_INT32",
+          "lineNumber": 2002
+        },
+        {
+          "caller": "compute_maxstack",
+          "callee": "SWAP_INT32",
+          "lineNumber": 2011
+        },
+        {
+          "caller": "compute_maxstack",
+          "callee": "SWAP_INT32",
+          "lineNumber": 2017
+        },
+        {
+          "caller": "_stacktrace",
+          "callee": "fl_gc_handle",
+          "lineNumber": 2030
+        },
+        {
+          "caller": "_stacktrace",
+          "callee": "alloc_vector",
+          "lineNumber": 2034
+        },
+        {
+          "caller": "_stacktrace",
+          "callee": "memcpy",
+          "lineNumber": 2035
+        },
+        {
+          "caller": "_stacktrace",
+          "callee": "vector_elt",
+          "lineNumber": 2035
+        },
+        {
+          "caller": "_stacktrace",
+          "callee": "fl_cons",
+          "lineNumber": 2036
+        },
+        {
+          "caller": "_stacktrace",
+          "callee": "fl_free_gc_handles",
+          "lineNumber": 2039
+        },
+        {
+          "caller": "assign_global_builtins",
+          "callee": "setc",
+          "lineNumber": 2048
+        },
+        {
+          "caller": "assign_global_builtins",
+          "callee": "symbol",
+          "lineNumber": 2048
+        },
+        {
+          "caller": "assign_global_builtins",
+          "callee": "cbuiltin",
+          "lineNumber": 2048
+        },
+        {
+          "caller": "fl_function",
+          "callee": "issymbol",
+          "lineNumber": 2055
+        },
+        {
+          "caller": "fl_function",
+          "callee": "fl_builtin",
+          "lineNumber": 2056
+        },
+        {
+          "caller": "fl_function",
+          "callee": "argcount",
+          "lineNumber": 2058
+        },
+        {
+          "caller": "fl_function",
+          "callee": "fl_isstring",
+          "lineNumber": 2059
+        },
+        {
+          "caller": "fl_function",
+          "callee": "type_error",
+          "lineNumber": 2060
+        },
+        {
+          "caller": "fl_function",
+          "callee": "isvector",
+          "lineNumber": 2061
+        },
+        {
+          "caller": "fl_function",
+          "callee": "type_error",
+          "lineNumber": 2062
+        },
+        {
+          "caller": "fl_function",
+          "callee": "ptr",
+          "lineNumber": 2063
+        },
+        {
+          "caller": "fl_function",
+          "callee": "cv_pin",
+          "lineNumber": 2064
+        },
+        {
+          "caller": "fl_function",
+          "callee": "cv_data",
+          "lineNumber": 2065
+        },
+        {
+          "caller": "fl_function",
+          "callee": "cv_len",
+          "lineNumber": 2069
+        },
+        {
+          "caller": "fl_function",
+          "callee": "compute_maxstack",
+          "lineNumber": 2078
+        },
+        {
+          "caller": "fl_function",
+          "callee": "cv_len",
+          "lineNumber": 2078
+        },
+        {
+          "caller": "fl_function",
+          "callee": "PUT_INT32",
+          "lineNumber": 2079
+        },
+        {
+          "caller": "fl_function",
+          "callee": "alloc_words",
+          "lineNumber": 2080
+        },
+        {
+          "caller": "fl_function",
+          "callee": "tagptr",
+          "lineNumber": 2081
+        },
+        {
+          "caller": "fl_function",
+          "callee": "issymbol",
+          "lineNumber": 2087
+        },
+        {
+          "caller": "fl_function",
+          "callee": "issymbol",
+          "lineNumber": 2095
+        },
+        {
+          "caller": "fl_function",
+          "callee": "type_error",
+          "lineNumber": 2096
+        },
+        {
+          "caller": "fl_function",
+          "callee": "isgensym",
+          "lineNumber": 2100
+        },
+        {
+          "caller": "fl_function",
+          "callee": "lerror",
+          "lineNumber": 2101
+        },
+        {
+          "caller": "fl_function_code",
+          "callee": "argcount",
+          "lineNumber": 2108
+        },
+        {
+          "caller": "fl_function_code",
+          "callee": "isclosure",
+          "lineNumber": 2110
+        },
+        {
+          "caller": "fl_function_code",
+          "callee": "type_error",
+          "lineNumber": 2110
+        },
+        {
+          "caller": "fl_function_code",
+          "callee": "fn_bcode",
+          "lineNumber": 2111
+        },
+        {
+          "caller": "fl_function_vals",
+          "callee": "argcount",
+          "lineNumber": 2115
+        },
+        {
+          "caller": "fl_function_vals",
+          "callee": "isclosure",
+          "lineNumber": 2117
+        },
+        {
+          "caller": "fl_function_vals",
+          "callee": "type_error",
+          "lineNumber": 2117
+        },
+        {
+          "caller": "fl_function_vals",
+          "callee": "fn_vals",
+          "lineNumber": 2118
+        },
+        {
+          "caller": "fl_function_env",
+          "callee": "argcount",
+          "lineNumber": 2122
+        },
+        {
+          "caller": "fl_function_env",
+          "callee": "isclosure",
+          "lineNumber": 2124
+        },
+        {
+          "caller": "fl_function_env",
+          "callee": "type_error",
+          "lineNumber": 2124
+        },
+        {
+          "caller": "fl_function_env",
+          "callee": "fn_env",
+          "lineNumber": 2125
+        },
+        {
+          "caller": "fl_function_name",
+          "callee": "argcount",
+          "lineNumber": 2129
+        },
+        {
+          "caller": "fl_function_name",
+          "callee": "isclosure",
+          "lineNumber": 2131
+        },
+        {
+          "caller": "fl_function_name",
+          "callee": "type_error",
+          "lineNumber": 2131
+        },
+        {
+          "caller": "fl_function_name",
+          "callee": "fn_name",
+          "lineNumber": 2132
+        },
+        {
+          "caller": "fl_copylist",
+          "callee": "argcount",
+          "lineNumber": 2137
+        },
+        {
+          "caller": "fl_copylist",
+          "callee": "copy_list",
+          "lineNumber": 2138
+        },
+        {
+          "caller": "fl_append",
+          "callee": "fl_gc_handle",
+          "lineNumber": 2146
+        },
+        {
+          "caller": "fl_append",
+          "callee": "fl_gc_handle",
+          "lineNumber": 2147
+        },
+        {
+          "caller": "fl_append",
+          "callee": "iscons",
+          "lineNumber": 2152
+        },
+        {
+          "caller": "fl_append",
+          "callee": "copy_list",
+          "lineNumber": 2153
+        },
+        {
+          "caller": "fl_append",
+          "callee": "cdr_",
+          "lineNumber": 2157
+        },
+        {
+          "caller": "fl_append",
+          "callee": "cdr_",
+          "lineNumber": 2160
+        },
+        {
+          "caller": "fl_append",
+          "callee": "cdr_",
+          "lineNumber": 2161
+        },
+        {
+          "caller": "fl_append",
+          "callee": "tagptr",
+          "lineNumber": 2163
+        },
+        {
+          "caller": "fl_append",
+          "callee": "type_error",
+          "lineNumber": 2167
+        },
+        {
+          "caller": "fl_append",
+          "callee": "cdr_",
+          "lineNumber": 2173
+        },
+        {
+          "caller": "fl_append",
+          "callee": "fl_free_gc_handles",
+          "lineNumber": 2174
+        },
+        {
+          "caller": "fl_liststar",
+          "callee": "argcount",
+          "lineNumber": 2181
+        },
+        {
+          "caller": "fl_liststar",
+          "callee": "_list",
+          "lineNumber": 2182
+        },
+        {
+          "caller": "fl_stacktrace",
+          "callee": "argcount",
+          "lineNumber": 2188
+        },
+        {
+          "caller": "fl_stacktrace",
+          "callee": "_stacktrace",
+          "lineNumber": 2189
+        },
+        {
+          "caller": "fl_map1",
+          "callee": "lerror",
+          "lineNumber": 2195
+        },
+        {
+          "caller": "fl_map1",
+          "callee": "iscons",
+          "lineNumber": 2196
+        },
+        {
+          "caller": "fl_map1",
+          "callee": "assert",
+          "lineNumber": 2199
+        },
+        {
+          "caller": "fl_map1",
+          "callee": "grow_stack",
+          "lineNumber": 2201
+        },
+        {
+          "caller": "fl_map1",
+          "callee": "PUSH",
+          "lineNumber": 2202
+        },
+        {
+          "caller": "fl_map1",
+          "callee": "PUSH",
+          "lineNumber": 2203
+        },
+        {
+          "caller": "fl_map1",
+          "callee": "car_",
+          "lineNumber": 2203
+        },
+        {
+          "caller": "fl_map1",
+          "callee": "_applyn",
+          "lineNumber": 2204
+        },
+        {
+          "caller": "fl_map1",
+          "callee": "POPN",
+          "lineNumber": 2205
+        },
+        {
+          "caller": "fl_map1",
+          "callee": "PUSH",
+          "lineNumber": 2206
+        },
+        {
+          "caller": "fl_map1",
+          "callee": "mk_cons",
+          "lineNumber": 2207
+        },
+        {
+          "caller": "fl_map1",
+          "callee": "car_",
+          "lineNumber": 2208
+        },
+        {
+          "caller": "fl_map1",
+          "callee": "POP",
+          "lineNumber": 2208
+        },
+        {
+          "caller": "fl_map1",
+          "callee": "cdr_",
+          "lineNumber": 2208
+        },
+        {
+          "caller": "fl_map1",
+          "callee": "PUSH",
+          "lineNumber": 2209
+        },
+        {
+          "caller": "fl_map1",
+          "callee": "PUSH",
+          "lineNumber": 2210
+        },
+        {
+          "caller": "fl_map1",
+          "callee": "cdr_",
+          "lineNumber": 2213
+        },
+        {
+          "caller": "fl_map1",
+          "callee": "iscons",
+          "lineNumber": 2214
+        },
+        {
+          "caller": "fl_map1",
+          "callee": "PUSH",
+          "lineNumber": 2215
+        },
+        {
+          "caller": "fl_map1",
+          "callee": "PUSH",
+          "lineNumber": 2216
+        },
+        {
+          "caller": "fl_map1",
+          "callee": "car_",
+          "lineNumber": 2216
+        },
+        {
+          "caller": "fl_map1",
+          "callee": "_applyn",
+          "lineNumber": 2217
+        },
+        {
+          "caller": "fl_map1",
+          "callee": "POPN",
+          "lineNumber": 2218
+        },
+        {
+          "caller": "fl_map1",
+          "callee": "PUSH",
+          "lineNumber": 2219
+        },
+        {
+          "caller": "fl_map1",
+          "callee": "mk_cons",
+          "lineNumber": 2220
+        },
+        {
+          "caller": "fl_map1",
+          "callee": "car_",
+          "lineNumber": 2221
+        },
+        {
+          "caller": "fl_map1",
+          "callee": "POP",
+          "lineNumber": 2221
+        },
+        {
+          "caller": "fl_map1",
+          "callee": "cdr_",
+          "lineNumber": 2221
+        },
+        {
+          "caller": "fl_map1",
+          "callee": "cdr_",
+          "lineNumber": 2222
+        },
+        {
+          "caller": "fl_map1",
+          "callee": "cdr_",
+          "lineNumber": 2224
+        },
+        {
+          "caller": "fl_map1",
+          "callee": "POPN",
+          "lineNumber": 2226
+        },
+        {
+          "caller": "fl_map1",
+          "callee": "grow_stack",
+          "lineNumber": 2230
+        },
+        {
+          "caller": "fl_map1",
+          "callee": "PUSH",
+          "lineNumber": 2231
+        },
+        {
+          "caller": "fl_map1",
+          "callee": "PUSH",
+          "lineNumber": 2233
+        },
+        {
+          "caller": "fl_map1",
+          "callee": "car",
+          "lineNumber": 2233
+        },
+        {
+          "caller": "fl_map1",
+          "callee": "cdr_",
+          "lineNumber": 2234
+        },
+        {
+          "caller": "fl_map1",
+          "callee": "_applyn",
+          "lineNumber": 2236
+        },
+        {
+          "caller": "fl_map1",
+          "callee": "POPN",
+          "lineNumber": 2237
+        },
+        {
+          "caller": "fl_map1",
+          "callee": "PUSH",
+          "lineNumber": 2238
+        },
+        {
+          "caller": "fl_map1",
+          "callee": "mk_cons",
+          "lineNumber": 2239
+        },
+        {
+          "caller": "fl_map1",
+          "callee": "car_",
+          "lineNumber": 2240
+        },
+        {
+          "caller": "fl_map1",
+          "callee": "POP",
+          "lineNumber": 2240
+        },
+        {
+          "caller": "fl_map1",
+          "callee": "cdr_",
+          "lineNumber": 2240
+        },
+        {
+          "caller": "fl_map1",
+          "callee": "PUSH",
+          "lineNumber": 2241
+        },
+        {
+          "caller": "fl_map1",
+          "callee": "PUSH",
+          "lineNumber": 2242
+        },
+        {
+          "caller": "fl_map1",
+          "callee": "iscons",
+          "lineNumber": 2245
+        },
+        {
+          "caller": "fl_map1",
+          "callee": "PUSH",
+          "lineNumber": 2246
+        },
+        {
+          "caller": "fl_map1",
+          "callee": "PUSH",
+          "lineNumber": 2248
+        },
+        {
+          "caller": "fl_map1",
+          "callee": "car",
+          "lineNumber": 2248
+        },
+        {
+          "caller": "fl_map1",
+          "callee": "cdr_",
+          "lineNumber": 2249
+        },
+        {
+          "caller": "fl_map1",
+          "callee": "_applyn",
+          "lineNumber": 2251
+        },
+        {
+          "caller": "fl_map1",
+          "callee": "POPN",
+          "lineNumber": 2252
+        },
+        {
+          "caller": "fl_map1",
+          "callee": "PUSH",
+          "lineNumber": 2253
+        },
+        {
+          "caller": "fl_map1",
+          "callee": "mk_cons",
+          "lineNumber": 2254
+        },
+        {
+          "caller": "fl_map1",
+          "callee": "car_",
+          "lineNumber": 2255
+        },
+        {
+          "caller": "fl_map1",
+          "callee": "POP",
+          "lineNumber": 2255
+        },
+        {
+          "caller": "fl_map1",
+          "callee": "cdr_",
+          "lineNumber": 2255
+        },
+        {
+          "caller": "fl_map1",
+          "callee": "cdr_",
+          "lineNumber": 2256
+        },
+        {
+          "caller": "fl_map1",
+          "callee": "POPN",
+          "lineNumber": 2259
+        },
+        {
+          "caller": "fl_foreach",
+          "callee": "lerror",
+          "lineNumber": 2267
+        },
+        {
+          "caller": "fl_foreach",
+          "callee": "assert",
+          "lineNumber": 2269
+        },
+        {
+          "caller": "fl_foreach",
+          "callee": "grow_stack",
+          "lineNumber": 2270
+        },
+        {
+          "caller": "fl_foreach",
+          "callee": "PUSH",
+          "lineNumber": 2271
+        },
+        {
+          "caller": "fl_foreach",
+          "callee": "PUSH",
+          "lineNumber": 2272
+        },
+        {
+          "caller": "fl_foreach",
+          "callee": "iscons",
+          "lineNumber": 2273
+        },
+        {
+          "caller": "fl_foreach",
+          "callee": "car_",
+          "lineNumber": 2275
+        },
+        {
+          "caller": "fl_foreach",
+          "callee": "_applyn",
+          "lineNumber": 2276
+        },
+        {
+          "caller": "fl_foreach",
+          "callee": "cdr_",
+          "lineNumber": 2277
+        },
+        {
+          "caller": "fl_foreach",
+          "callee": "POPN",
+          "lineNumber": 2279
+        },
+        {
+          "caller": "lisp_init",
+          "callee": "libsupport_init",
+          "lineNumber": 2310
+        },
+        {
+          "caller": "lisp_init",
+          "callee": "LLT_ALLOC",
+          "lineNumber": 2326
+        },
+        {
+          "caller": "lisp_init",
+          "callee": "LLT_ALLOC",
+          "lineNumber": 2330
+        },
+        {
+          "caller": "lisp_init",
+          "callee": "bitvector_new",
+          "lineNumber": 2334
+        },
+        {
+          "caller": "lisp_init",
+          "callee": "fl_print_init",
+          "lineNumber": 2335
+        },
+        {
+          "caller": "lisp_init",
+          "callee": "comparehash_init",
+          "lineNumber": 2336
+        },
+        {
+          "caller": "lisp_init",
+          "callee": "malloc",
+          "lineNumber": 2338
+        },
+        {
+          "caller": "lisp_init",
+          "callee": "CHECK_ALIGN8",
+          "lineNumber": 2340
+        },
+        {
+          "caller": "lisp_init",
+          "callee": "builtin",
+          "lineNumber": 2342
+        },
+        {
+          "caller": "lisp_init",
+          "callee": "builtin",
+          "lineNumber": 2343
+        },
+        {
+          "caller": "lisp_init",
+          "callee": "builtin",
+          "lineNumber": 2344
+        },
+        {
+          "caller": "lisp_init",
+          "callee": "builtin",
+          "lineNumber": 2345
+        },
+        {
+          "caller": "lisp_init",
+          "callee": "symbol",
+          "lineNumber": 2346
+        },
+        {
+          "caller": "lisp_init",
+          "callee": "symbol",
+          "lineNumber": 2346
+        },
+        {
+          "caller": "lisp_init",
+          "callee": "symbol",
+          "lineNumber": 2347
+        },
+        {
+          "caller": "lisp_init",
+          "callee": "symbol",
+          "lineNumber": 2347
+        },
+        {
+          "caller": "lisp_init",
+          "callee": "symbol",
+          "lineNumber": 2348
+        },
+        {
+          "caller": "lisp_init",
+          "callee": "symbol",
+          "lineNumber": 2348
+        },
+        {
+          "caller": "lisp_init",
+          "callee": "symbol",
+          "lineNumber": 2349
+        },
+        {
+          "caller": "lisp_init",
+          "callee": "symbol",
+          "lineNumber": 2349
+        },
+        {
+          "caller": "lisp_init",
+          "callee": "symbol",
+          "lineNumber": 2350
+        },
+        {
+          "caller": "lisp_init",
+          "callee": "symbol",
+          "lineNumber": 2350
+        },
+        {
+          "caller": "lisp_init",
+          "callee": "symbol",
+          "lineNumber": 2351
+        },
+        {
+          "caller": "lisp_init",
+          "callee": "symbol",
+          "lineNumber": 2351
+        },
+        {
+          "caller": "lisp_init",
+          "callee": "symbol",
+          "lineNumber": 2352
+        },
+        {
+          "caller": "lisp_init",
+          "callee": "symbol",
+          "lineNumber": 2353
+        },
+        {
+          "caller": "lisp_init",
+          "callee": "symbol",
+          "lineNumber": 2353
+        },
+        {
+          "caller": "lisp_init",
+          "callee": "symbol",
+          "lineNumber": 2354
+        },
+        {
+          "caller": "lisp_init",
+          "callee": "symbol",
+          "lineNumber": 2355
+        },
+        {
+          "caller": "lisp_init",
+          "callee": "symbol",
+          "lineNumber": 2356
+        },
+        {
+          "caller": "lisp_init",
+          "callee": "symbol",
+          "lineNumber": 2357
+        },
+        {
+          "caller": "lisp_init",
+          "callee": "symbol",
+          "lineNumber": 2358
+        },
+        {
+          "caller": "lisp_init",
+          "callee": "symbol",
+          "lineNumber": 2358
+        },
+        {
+          "caller": "lisp_init",
+          "callee": "symbol",
+          "lineNumber": 2359
+        },
+        {
+          "caller": "lisp_init",
+          "callee": "symbol",
+          "lineNumber": 2359
+        },
+        {
+          "caller": "lisp_init",
+          "callee": "symbol",
+          "lineNumber": 2360
+        },
+        {
+          "caller": "lisp_init",
+          "callee": "symbol",
+          "lineNumber": 2360
+        },
+        {
+          "caller": "lisp_init",
+          "callee": "symbol",
+          "lineNumber": 2361
+        },
+        {
+          "caller": "lisp_init",
+          "callee": "symbol",
+          "lineNumber": 2361
+        },
+        {
+          "caller": "lisp_init",
+          "callee": "symbol",
+          "lineNumber": 2362
+        },
+        {
+          "caller": "lisp_init",
+          "callee": "symbol",
+          "lineNumber": 2363
+        },
+        {
+          "caller": "lisp_init",
+          "callee": "symbol",
+          "lineNumber": 2363
+        },
+        {
+          "caller": "lisp_init",
+          "callee": "symbol",
+          "lineNumber": 2364
+        },
+        {
+          "caller": "lisp_init",
+          "callee": "symbol",
+          "lineNumber": 2364
+        },
+        {
+          "caller": "lisp_init",
+          "callee": "symbol",
+          "lineNumber": 2365
+        },
+        {
+          "caller": "lisp_init",
+          "callee": "symbol",
+          "lineNumber": 2365
+        },
+        {
+          "caller": "lisp_init",
+          "callee": "symbol",
+          "lineNumber": 2366
+        },
+        {
+          "caller": "lisp_init",
+          "callee": "symbol",
+          "lineNumber": 2366
+        },
+        {
+          "caller": "lisp_init",
+          "callee": "symbol",
+          "lineNumber": 2367
+        },
+        {
+          "caller": "lisp_init",
+          "callee": "symbol",
+          "lineNumber": 2367
+        },
+        {
+          "caller": "lisp_init",
+          "callee": "symbol",
+          "lineNumber": 2368
+        },
+        {
+          "caller": "lisp_init",
+          "callee": "symbol",
+          "lineNumber": 2368
+        },
+        {
+          "caller": "lisp_init",
+          "callee": "symbol",
+          "lineNumber": 2369
+        },
+        {
+          "caller": "lisp_init",
+          "callee": "symbol",
+          "lineNumber": 2369
+        },
+        {
+          "caller": "lisp_init",
+          "callee": "symbol",
+          "lineNumber": 2370
+        },
+        {
+          "caller": "lisp_init",
+          "callee": "symbol",
+          "lineNumber": 2370
+        },
+        {
+          "caller": "lisp_init",
+          "callee": "symbol",
+          "lineNumber": 2371
+        },
+        {
+          "caller": "lisp_init",
+          "callee": "symbol",
+          "lineNumber": 2371
+        },
+        {
+          "caller": "lisp_init",
+          "callee": "symbol",
+          "lineNumber": 2372
+        },
+        {
+          "caller": "lisp_init",
+          "callee": "symbol",
+          "lineNumber": 2372
+        },
+        {
+          "caller": "lisp_init",
+          "callee": "set",
+          "lineNumber": 2373
+        },
+        {
+          "caller": "lisp_init",
+          "callee": "symbol",
+          "lineNumber": 2373
+        },
+        {
+          "caller": "lisp_init",
+          "callee": "set",
+          "lineNumber": 2374
+        },
+        {
+          "caller": "lisp_init",
+          "callee": "symbol",
+          "lineNumber": 2374
+        },
+        {
+          "caller": "lisp_init",
+          "callee": "set",
+          "lineNumber": 2375
+        },
+        {
+          "caller": "lisp_init",
+          "callee": "symbol",
+          "lineNumber": 2375
+        },
+        {
+          "caller": "lisp_init",
+          "callee": "fixnum",
+          "lineNumber": 2375
+        },
+        {
+          "caller": "lisp_init",
+          "callee": "set",
+          "lineNumber": 2376
+        },
+        {
+          "caller": "lisp_init",
+          "callee": "symbol",
+          "lineNumber": 2376
+        },
+        {
+          "caller": "lisp_init",
+          "callee": "set",
+          "lineNumber": 2377
+        },
+        {
+          "caller": "lisp_init",
+          "callee": "symbol",
+          "lineNumber": 2377
+        },
+        {
+          "caller": "lisp_init",
+          "callee": "symbol",
+          "lineNumber": 2378
+        },
+        {
+          "caller": "lisp_init",
+          "callee": "setc",
+          "lineNumber": 2382
+        },
+        {
+          "caller": "lisp_init",
+          "callee": "symbol",
+          "lineNumber": 2382
+        },
+        {
+          "caller": "lisp_init",
+          "callee": "builtin",
+          "lineNumber": 2382
+        },
+        {
+          "caller": "lisp_init",
+          "callee": "setc",
+          "lineNumber": 2384
+        },
+        {
+          "caller": "lisp_init",
+          "callee": "symbol",
+          "lineNumber": 2384
+        },
+        {
+          "caller": "lisp_init",
+          "callee": "builtin",
+          "lineNumber": 2384
+        },
+        {
+          "caller": "lisp_init",
+          "callee": "setc",
+          "lineNumber": 2385
+        },
+        {
+          "caller": "lisp_init",
+          "callee": "symbol",
+          "lineNumber": 2385
+        },
+        {
+          "caller": "lisp_init",
+          "callee": "builtin",
+          "lineNumber": 2385
+        },
+        {
+          "caller": "lisp_init",
+          "callee": "setc",
+          "lineNumber": 2386
+        },
+        {
+          "caller": "lisp_init",
+          "callee": "symbol",
+          "lineNumber": 2386
+        },
+        {
+          "caller": "lisp_init",
+          "callee": "builtin",
+          "lineNumber": 2386
+        },
+        {
+          "caller": "lisp_init",
+          "callee": "set",
+          "lineNumber": 2389
+        },
+        {
+          "caller": "lisp_init",
+          "callee": "symbol",
+          "lineNumber": 2389
+        },
+        {
+          "caller": "lisp_init",
+          "callee": "symbol",
+          "lineNumber": 2389
+        },
+        {
+          "caller": "lisp_init",
+          "callee": "set",
+          "lineNumber": 2391
+        },
+        {
+          "caller": "lisp_init",
+          "callee": "symbol",
+          "lineNumber": 2391
+        },
+        {
+          "caller": "lisp_init",
+          "callee": "symbol",
+          "lineNumber": 2391
+        },
+        {
+          "caller": "lisp_init",
+          "callee": "set",
+          "lineNumber": 2393
+        },
+        {
+          "caller": "lisp_init",
+          "callee": "symbol",
+          "lineNumber": 2393
+        },
+        {
+          "caller": "lisp_init",
+          "callee": "symbol",
+          "lineNumber": 2393
+        },
+        {
+          "caller": "lisp_init",
+          "callee": "set",
+          "lineNumber": 2395
+        },
+        {
+          "caller": "lisp_init",
+          "callee": "symbol",
+          "lineNumber": 2395
+        },
+        {
+          "caller": "lisp_init",
+          "callee": "symbol",
+          "lineNumber": 2395
+        },
+        {
+          "caller": "lisp_init",
+          "callee": "symbol",
+          "lineNumber": 2398
+        },
+        {
+          "caller": "lisp_init",
+          "callee": "symbol",
+          "lineNumber": 2399
+        },
+        {
+          "caller": "lisp_init",
+          "callee": "tagptr",
+          "lineNumber": 2401
+        },
+        {
+          "caller": "lisp_init",
+          "callee": "alloc_words",
+          "lineNumber": 2401
+        },
+        {
+          "caller": "lisp_init",
+          "callee": "vector_setsize",
+          "lineNumber": 2402
+        },
+        {
+          "caller": "lisp_init",
+          "callee": "cvalues_init",
+          "lineNumber": 2404
+        },
+        {
+          "caller": "lisp_init",
+          "callee": "uv_exepath",
+          "lineNumber": 2408
+        },
+        {
+          "caller": "lisp_init",
+          "callee": "setc",
+          "lineNumber": 2409
+        },
+        {
+          "caller": "lisp_init",
+          "callee": "symbol",
+          "lineNumber": 2409
+        },
+        {
+          "caller": "lisp_init",
+          "callee": "cvalue_static_cstring",
+          "lineNumber": 2409
+        },
+        {
+          "caller": "lisp_init",
+          "callee": "strdup",
+          "lineNumber": 2409
+        },
+        {
+          "caller": "lisp_init",
+          "callee": "dirname",
+          "lineNumber": 2409
+        },
+        {
+          "caller": "lisp_init",
+          "callee": "fl_list2",
+          "lineNumber": 2412
+        },
+        {
+          "caller": "lisp_init",
+          "callee": "cvalue_static_cstring",
+          "lineNumber": 2413
+        },
+        {
+          "caller": "lisp_init",
+          "callee": "assign_global_builtins",
+          "lineNumber": 2415
+        },
+        {
+          "caller": "lisp_init",
+          "callee": "fl_read_init",
+          "lineNumber": 2417
+        },
+        {
+          "caller": "lisp_init",
+          "callee": "builtins_init",
+          "lineNumber": 2419
+        },
+        {
+          "caller": "fl_toplevel_eval",
+          "callee": "fl_applyn",
+          "lineNumber": 2426
+        },
+        {
+          "caller": "fl_toplevel_eval",
+          "callee": "symbol_value",
+          "lineNumber": 2426
+        },
+        {
+          "caller": "fl_init",
+          "callee": "lisp_init",
+          "lineNumber": 2433
+        },
+        {
+          "caller": "fl_init",
+          "callee": "fl_init_julia_extensions",
+          "lineNumber": 2434
+        },
+        {
+          "caller": "fl_load_system_image_str",
+          "callee": "cvalue",
+          "lineNumber": 2439
+        },
+        {
+          "caller": "fl_load_system_image_str",
+          "callee": "value2c",
+          "lineNumber": 2440
+        },
+        {
+          "caller": "fl_load_system_image_str",
+          "callee": "ios_static_buffer",
+          "lineNumber": 2441
+        },
+        {
+          "caller": "fl_load_system_image_str",
+          "callee": "fl_load_system_image",
+          "lineNumber": 2443
+        },
+        {
+          "caller": "fl_load_system_image",
+          "callee": "PUSH",
+          "lineNumber": 2452
+        },
+        {
+          "caller": "FL_TRY",
+          "callee": "fl_read_sexpr",
+          "lineNumber": 2456
+        },
+        {
+          "caller": "FL_TRY",
+          "callee": "PUSH",
+          "lineNumber": 2460
+        },
+        {
+          "caller": "FL_TRY",
+          "callee": "_applyn",
+          "lineNumber": 2461
+        },
+        {
+          "caller": "FL_TRY",
+          "callee": "while",
+          "lineNumber": 2466
+        },
+        {
+          "caller": "FL_TRY",
+          "callee": "iscons",
+          "lineNumber": 2466
+        },
+        {
+          "caller": "FL_TRY",
+          "callee": "tosymbol",
+          "lineNumber": 2467
+        },
+        {
+          "caller": "FL_TRY",
+          "callee": "car_",
+          "lineNumber": 2467
+        },
+        {
+          "caller": "FL_TRY",
+          "callee": "cdr_",
+          "lineNumber": 2468
+        },
+        {
+          "caller": "FL_TRY",
+          "callee": "tocons",
+          "lineNumber": 2469
+        },
+        {
+          "caller": "FL_TRY",
+          "callee": "car_",
+          "lineNumber": 2470
+        },
+        {
+          "caller": "FL_TRY",
+          "callee": "cdr_",
+          "lineNumber": 2471
+        },
+        {
+          "caller": "FL_CATCH",
+          "callee": "ios_puts",
+          "lineNumber": 2478
+        },
+        {
+          "caller": "FL_CATCH",
+          "callee": "fl_print",
+          "lineNumber": 2479
+        },
+        {
+          "caller": "FL_CATCH",
+          "callee": "ios_putc",
+          "lineNumber": 2480
+        },
+        {
+          "caller": "fl_load_system_image",
+          "callee": "POPN",
+          "lineNumber": 2484
+        }
+      ],
+      "metrics": {
+        "importCount": 2,
+        "exportCount": 0,
+        "functionCount": 0,
+        "classCount": 0
+      }
+    },
+    {
+      "path": "src/flisp/flisp.h",
+      "language": "c",
+      "fileCategory": "code",
+      "totalLines": 524,
+      "nonEmptyLines": 446,
+      "callGraph": [
+        {
+          "caller": "argcount",
+          "callee": "__unlikely",
+          "lineNumber": 516
+        },
+        {
+          "caller": "argcount",
+          "callee": "lerrorf",
+          "lineNumber": 517
+        }
+      ],
+      "metrics": {
+        "importCount": 0,
+        "exportCount": 0,
+        "functionCount": 0,
+        "classCount": 0
+      }
+    },
+    {
+      "path": "src/flisp/flmain.c",
+      "language": "c",
+      "fileCategory": "code",
+      "totalLines": 71,
+      "nonEmptyLines": 60,
+      "callGraph": [
+        {
+          "caller": "argv_list",
+          "callee": "fl_gc_handle",
+          "lineNumber": 15
+        },
+        {
+          "caller": "argv_list",
+          "callee": "fl_gc_handle",
+          "lineNumber": 16
+        },
+        {
+          "caller": "argv_list",
+          "callee": "cvalue_static_cstring",
+          "lineNumber": 18
+        },
+        {
+          "caller": "argv_list",
+          "callee": "fl_cons",
+          "lineNumber": 19
+        },
+        {
+          "caller": "argv_list",
+          "callee": "fl_free_gc_handles",
+          "lineNumber": 21
+        },
+        {
+          "caller": "main",
+          "callee": "fl_init",
+          "lineNumber": 34
+        },
+        {
+          "caller": "main",
+          "callee": "symbol_value",
+          "lineNumber": 37
+        },
+        {
+          "caller": "main",
+          "callee": "symbol",
+          "lineNumber": 37
+        },
+        {
+          "caller": "main",
+          "callee": "cvalue_data",
+          "lineNumber": 38
+        },
+        {
+          "caller": "main",
+          "callee": "strcat",
+          "lineNumber": 40
+        },
+        {
+          "caller": "main",
+          "callee": "strcat",
+          "lineNumber": 41
+        },
+        {
+          "caller": "main",
+          "callee": "strcat",
+          "lineNumber": 43
+        },
+        {
+          "caller": "main",
+          "callee": "fl_gc_handle",
+          "lineNumber": 46
+        },
+        {
+          "caller": "main",
+          "callee": "fl_gc_handle",
+          "lineNumber": 47
+        },
+        {
+          "caller": "FL_TRY_EXTERN",
+          "callee": "cvalue_static_cstring",
+          "lineNumber": 49
+        },
+        {
+          "caller": "FL_TRY_EXTERN",
+          "callee": "symbol",
+          "lineNumber": 50
+        },
+        {
+          "caller": "FL_TRY_EXTERN",
+          "callee": "fl_file",
+          "lineNumber": 51
+        },
+        {
+          "caller": "FL_TRY_EXTERN",
+          "callee": "fl_free_gc_handles",
+          "lineNumber": 52
+        },
+        {
+          "caller": "FL_TRY_EXTERN",
+          "callee": "fl_load_system_image",
+          "lineNumber": 54
+        },
+        {
+          "caller": "FL_TRY_EXTERN",
+          "callee": "fl_applyn",
+          "lineNumber": 57
+        },
+        {
+          "caller": "FL_TRY_EXTERN",
+          "callee": "symbol_value",
+          "lineNumber": 57
+        },
+        {
+          "caller": "FL_TRY_EXTERN",
+          "callee": "symbol",
+          "lineNumber": 57
+        },
+        {
+          "caller": "FL_TRY_EXTERN",
+          "callee": "argv_list",
+          "lineNumber": 58
+        },
+        {
+          "caller": "FL_CATCH_EXTERN",
+          "callee": "ios_puts",
+          "lineNumber": 61
+        },
+        {
+          "caller": "FL_CATCH_EXTERN",
+          "callee": "fl_print",
+          "lineNumber": 62
+        },
+        {
+          "caller": "FL_CATCH_EXTERN",
+          "callee": "ios_putc",
+          "lineNumber": 63
+        }
+      ],
+      "metrics": {
+        "importCount": 2,
+        "exportCount": 0,
+        "functionCount": 0,
+        "classCount": 0
+      }
+    },
+    {
+      "path": "src/flisp/iostream.c",
+      "language": "c",
+      "fileCategory": "code",
+      "totalLines": 480,
+      "nonEmptyLines": 438,
+      "callGraph": [
+        {
+          "caller": "print_iostream",
+          "callee": "fl_print_str",
+          "lineNumber": 17
+        },
+        {
+          "caller": "free_iostream",
+          "callee": "value2c",
+          "lineNumber": 23
+        },
+        {
+          "caller": "free_iostream",
+          "callee": "ios_close",
+          "lineNumber": 24
+        },
+        {
+          "caller": "relocate_iostream",
+          "callee": "value2c",
+          "lineNumber": 30
+        },
+        {
+          "caller": "relocate_iostream",
+          "callee": "value2c",
+          "lineNumber": 31
+        },
+        {
+          "caller": "fl_isiostream",
+          "callee": "iscvalue",
+          "lineNumber": 42
+        },
+        {
+          "caller": "fl_isiostream",
+          "callee": "cv_class",
+          "lineNumber": 42
+        },
+        {
+          "caller": "fl_isiostream",
+          "callee": "ptr",
+          "lineNumber": 42
+        },
+        {
+          "caller": "fl_iostreamp",
+          "callee": "argcount",
+          "lineNumber": 47
+        },
+        {
+          "caller": "fl_iostreamp",
+          "callee": "fl_isiostream",
+          "lineNumber": 48
+        },
+        {
+          "caller": "fl_eof_object",
+          "callee": "argcount",
+          "lineNumber": 54
+        },
+        {
+          "caller": "fl_eof_objectp",
+          "callee": "argcount",
+          "lineNumber": 60
+        },
+        {
+          "caller": "fl_file",
+          "callee": "argcount",
+          "lineNumber": 79
+        },
+        {
+          "caller": "fl_file",
+          "callee": "cvalue",
+          "lineNumber": 89
+        },
+        {
+          "caller": "fl_file",
+          "callee": "tostring",
+          "lineNumber": 90
+        },
+        {
+          "caller": "fl_file",
+          "callee": "value2c",
+          "lineNumber": 91
+        },
+        {
+          "caller": "fl_file",
+          "callee": "ios_file",
+          "lineNumber": 92
+        },
+        {
+          "caller": "fl_file",
+          "callee": "lerrorf",
+          "lineNumber": 93
+        },
+        {
+          "caller": "fl_file",
+          "callee": "ios_seek_end",
+          "lineNumber": 94
+        },
+        {
+          "caller": "fl_buffer",
+          "callee": "argcount",
+          "lineNumber": 100
+        },
+        {
+          "caller": "fl_buffer",
+          "callee": "cvalue",
+          "lineNumber": 102
+        },
+        {
+          "caller": "fl_buffer",
+          "callee": "value2c",
+          "lineNumber": 103
+        },
+        {
+          "caller": "fl_buffer",
+          "callee": "ios_mem",
+          "lineNumber": 104
+        },
+        {
+          "caller": "fl_buffer",
+          "callee": "lerror",
+          "lineNumber": 105
+        },
+        {
+          "caller": "fl_read",
+          "callee": "argcount",
+          "lineNumber": 113
+        },
+        {
+          "caller": "fl_read",
+          "callee": "symbol_value",
+          "lineNumber": 116
+        },
+        {
+          "caller": "fl_read",
+          "callee": "toiostream",
+          "lineNumber": 121
+        },
+        {
+          "caller": "fl_read",
+          "callee": "fl_gc_handle",
+          "lineNumber": 122
+        },
+        {
+          "caller": "fl_read",
+          "callee": "fl_read_sexpr",
+          "lineNumber": 123
+        },
+        {
+          "caller": "fl_read",
+          "callee": "fl_free_gc_handles",
+          "lineNumber": 124
+        },
+        {
+          "caller": "fl_iogetc",
+          "callee": "argcount",
+          "lineNumber": 132
+        },
+        {
+          "caller": "fl_iogetc",
+          "callee": "toiostream",
+          "lineNumber": 133
+        },
+        {
+          "caller": "fl_iogetc",
+          "callee": "ios_getutf8",
+          "lineNumber": 135
+        },
+        {
+          "caller": "fl_iogetc",
+          "callee": "lerror",
+          "lineNumber": 140
+        },
+        {
+          "caller": "fl_iogetc",
+          "callee": "mk_wchar",
+          "lineNumber": 141
+        },
+        {
+          "caller": "fl_iopeekc",
+          "callee": "argcount",
+          "lineNumber": 146
+        },
+        {
+          "caller": "fl_iopeekc",
+          "callee": "toiostream",
+          "lineNumber": 147
+        },
+        {
+          "caller": "fl_iopeekc",
+          "callee": "ios_peekutf8",
+          "lineNumber": 149
+        },
+        {
+          "caller": "fl_iopeekc",
+          "callee": "lerror",
+          "lineNumber": 153
+        },
+        {
+          "caller": "fl_iopeekc",
+          "callee": "mk_wchar",
+          "lineNumber": 154
+        },
+        {
+          "caller": "fl_ioputc",
+          "callee": "argcount",
+          "lineNumber": 159
+        },
+        {
+          "caller": "fl_ioputc",
+          "callee": "toiostream",
+          "lineNumber": 160
+        },
+        {
+          "caller": "fl_ioputc",
+          "callee": "iscprim",
+          "lineNumber": 161
+        },
+        {
+          "caller": "fl_ioputc",
+          "callee": "ptr",
+          "lineNumber": 161
+        },
+        {
+          "caller": "fl_ioputc",
+          "callee": "type_error",
+          "lineNumber": 162
+        },
+        {
+          "caller": "fl_ioputc",
+          "callee": "cp_data",
+          "lineNumber": 163
+        },
+        {
+          "caller": "fl_ioputc",
+          "callee": "ptr",
+          "lineNumber": 163
+        },
+        {
+          "caller": "fl_ioputc",
+          "callee": "fixnum",
+          "lineNumber": 164
+        },
+        {
+          "caller": "fl_ioputc",
+          "callee": "ios_pututf8",
+          "lineNumber": 164
+        },
+        {
+          "caller": "fl_ioflush",
+          "callee": "argcount",
+          "lineNumber": 169
+        },
+        {
+          "caller": "fl_ioflush",
+          "callee": "toiostream",
+          "lineNumber": 170
+        },
+        {
+          "caller": "fl_ioflush",
+          "callee": "ios_flush",
+          "lineNumber": 171
+        },
+        {
+          "caller": "fl_ioclose",
+          "callee": "argcount",
+          "lineNumber": 178
+        },
+        {
+          "caller": "fl_ioclose",
+          "callee": "toiostream",
+          "lineNumber": 179
+        },
+        {
+          "caller": "fl_ioclose",
+          "callee": "ios_close",
+          "lineNumber": 180
+        },
+        {
+          "caller": "fl_iopurge",
+          "callee": "argcount",
+          "lineNumber": 186
+        },
+        {
+          "caller": "fl_iopurge",
+          "callee": "toiostream",
+          "lineNumber": 187
+        },
+        {
+          "caller": "fl_iopurge",
+          "callee": "ios_purge",
+          "lineNumber": 188
+        },
+        {
+          "caller": "fl_ioeof",
+          "callee": "argcount",
+          "lineNumber": 194
+        },
+        {
+          "caller": "fl_ioeof",
+          "callee": "toiostream",
+          "lineNumber": 195
+        },
+        {
+          "caller": "fl_ioeof",
+          "callee": "ios_eof",
+          "lineNumber": 196
+        },
+        {
+          "caller": "fl_iolineno",
+          "callee": "argcount",
+          "lineNumber": 201
+        },
+        {
+          "caller": "fl_iolineno",
+          "callee": "toiostream",
+          "lineNumber": 202
+        },
+        {
+          "caller": "fl_iolineno",
+          "callee": "size_wrap",
+          "lineNumber": 203
+        },
+        {
+          "caller": "fl_iosetlineno",
+          "callee": "argcount",
+          "lineNumber": 208
+        },
+        {
+          "caller": "fl_iosetlineno",
+          "callee": "toiostream",
+          "lineNumber": 209
+        },
+        {
+          "caller": "fl_iosetlineno",
+          "callee": "tosize",
+          "lineNumber": 210
+        },
+        {
+          "caller": "fl_iocolno",
+          "callee": "argcount",
+          "lineNumber": 217
+        },
+        {
+          "caller": "fl_iocolno",
+          "callee": "toiostream",
+          "lineNumber": 218
+        },
+        {
+          "caller": "fl_iocolno",
+          "callee": "size_wrap",
+          "lineNumber": 219
+        },
+        {
+          "caller": "fl_ioseek",
+          "callee": "argcount",
+          "lineNumber": 224
+        },
+        {
+          "caller": "fl_ioseek",
+          "callee": "toiostream",
+          "lineNumber": 225
+        },
+        {
+          "caller": "fl_ioseek",
+          "callee": "tosize",
+          "lineNumber": 226
+        },
+        {
+          "caller": "fl_ioseek",
+          "callee": "ios_seek",
+          "lineNumber": 227
+        },
+        {
+          "caller": "fl_ioskip",
+          "callee": "argcount",
+          "lineNumber": 235
+        },
+        {
+          "caller": "fl_ioskip",
+          "callee": "toiostream",
+          "lineNumber": 236
+        },
+        {
+          "caller": "fl_ioskip",
+          "callee": "tosize",
+          "lineNumber": 237
+        },
+        {
+          "caller": "fl_ioskip",
+          "callee": "ios_skip",
+          "lineNumber": 238
+        },
+        {
+          "caller": "fl_iopos",
+          "callee": "argcount",
+          "lineNumber": 246
+        },
+        {
+          "caller": "fl_iopos",
+          "callee": "toiostream",
+          "lineNumber": 247
+        },
+        {
+          "caller": "fl_iopos",
+          "callee": "ios_pos",
+          "lineNumber": 248
+        },
+        {
+          "caller": "fl_iopos",
+          "callee": "size_wrap",
+          "lineNumber": 251
+        },
+        {
+          "caller": "fl_write",
+          "callee": "argcount",
+          "lineNumber": 257
+        },
+        {
+          "caller": "fl_write",
+          "callee": "toiostream",
+          "lineNumber": 260
+        },
+        {
+          "caller": "fl_write",
+          "callee": "toiostream",
+          "lineNumber": 262
+        },
+        {
+          "caller": "fl_write",
+          "callee": "symbol_value",
+          "lineNumber": 262
+        },
+        {
+          "caller": "fl_write",
+          "callee": "fl_print",
+          "lineNumber": 263
+        },
+        {
+          "caller": "fl_ioread",
+          "callee": "argcount",
+          "lineNumber": 270
+        },
+        {
+          "caller": "fl_ioread",
+          "callee": "toiostream",
+          "lineNumber": 271
+        },
+        {
+          "caller": "fl_ioread",
+          "callee": "get_array_type",
+          "lineNumber": 276
+        },
+        {
+          "caller": "fl_ioread",
+          "callee": "tosize",
+          "lineNumber": 277
+        },
+        {
+          "caller": "fl_ioread",
+          "callee": "get_type",
+          "lineNumber": 280
+        },
+        {
+          "caller": "fl_ioread",
+          "callee": "iscons",
+          "lineNumber": 281
+        },
+        {
+          "caller": "fl_ioread",
+          "callee": "cdr_",
+          "lineNumber": 281
+        },
+        {
+          "caller": "fl_ioread",
+          "callee": "cdr_",
+          "lineNumber": 281
+        },
+        {
+          "caller": "fl_ioread",
+          "callee": "lerror",
+          "lineNumber": 282
+        },
+        {
+          "caller": "fl_ioread",
+          "callee": "cvalue",
+          "lineNumber": 285
+        },
+        {
+          "caller": "fl_ioread",
+          "callee": "iscvalue",
+          "lineNumber": 287
+        },
+        {
+          "caller": "fl_ioread",
+          "callee": "cv_data",
+          "lineNumber": 287
+        },
+        {
+          "caller": "fl_ioread",
+          "callee": "ptr",
+          "lineNumber": 287
+        },
+        {
+          "caller": "fl_ioread",
+          "callee": "cp_data",
+          "lineNumber": 288
+        },
+        {
+          "caller": "fl_ioread",
+          "callee": "ptr",
+          "lineNumber": 288
+        },
+        {
+          "caller": "fl_ioread",
+          "callee": "ios_read",
+          "lineNumber": 289
+        },
+        {
+          "caller": "fl_ioread",
+          "callee": "value2c",
+          "lineNumber": 289
+        },
+        {
+          "caller": "get_start_count_args",
+          "callee": "tosize",
+          "lineNumber": 301
+        },
+        {
+          "caller": "get_start_count_args",
+          "callee": "tosize",
+          "lineNumber": 303
+        },
+        {
+          "caller": "get_start_count_args",
+          "callee": "bounds_error",
+          "lineNumber": 307
+        },
+        {
+          "caller": "fl_iowrite",
+          "callee": "argcount",
+          "lineNumber": 314
+        },
+        {
+          "caller": "fl_iowrite",
+          "callee": "toiostream",
+          "lineNumber": 315
+        },
+        {
+          "caller": "fl_iowrite",
+          "callee": "iscprim",
+          "lineNumber": 316
+        },
+        {
+          "caller": "fl_iowrite",
+          "callee": "ptr",
+          "lineNumber": 316
+        },
+        {
+          "caller": "fl_iowrite",
+          "callee": "lerror",
+          "lineNumber": 318
+        },
+        {
+          "caller": "fl_iowrite",
+          "callee": "cp_data",
+          "lineNumber": 320
+        },
+        {
+          "caller": "fl_iowrite",
+          "callee": "ptr",
+          "lineNumber": 320
+        },
+        {
+          "caller": "fl_iowrite",
+          "callee": "fixnum",
+          "lineNumber": 321
+        },
+        {
+          "caller": "fl_iowrite",
+          "callee": "ios_pututf8",
+          "lineNumber": 321
+        },
+        {
+          "caller": "fl_iowrite",
+          "callee": "to_sized_ptr",
+          "lineNumber": 325
+        },
+        {
+          "caller": "fl_iowrite",
+          "callee": "get_start_count_args",
+          "lineNumber": 328
+        },
+        {
+          "caller": "fl_iowrite",
+          "callee": "size_wrap",
+          "lineNumber": 331
+        },
+        {
+          "caller": "fl_iowrite",
+          "callee": "ios_write",
+          "lineNumber": 331
+        },
+        {
+          "caller": "get_delim_arg",
+          "callee": "tosize",
+          "lineNumber": 336
+        },
+        {
+          "caller": "get_delim_arg",
+          "callee": "iscprim",
+          "lineNumber": 339
+        },
+        {
+          "caller": "get_delim_arg",
+          "callee": "cp_class",
+          "lineNumber": 339
+        },
+        {
+          "caller": "get_delim_arg",
+          "callee": "ptr",
+          "lineNumber": 339
+        },
+        {
+          "caller": "get_delim_arg",
+          "callee": "lerrorf",
+          "lineNumber": 341
+        },
+        {
+          "caller": "fl_ioreaduntil",
+          "callee": "argcount",
+          "lineNumber": 348
+        },
+        {
+          "caller": "fl_ioreaduntil",
+          "callee": "cvalue_string",
+          "lineNumber": 349
+        },
+        {
+          "caller": "fl_ioreaduntil",
+          "callee": "ptr",
+          "lineNumber": 350
+        },
+        {
+          "caller": "fl_ioreaduntil",
+          "callee": "cv_data",
+          "lineNumber": 351
+        },
+        {
+          "caller": "fl_ioreaduntil",
+          "callee": "ios_mem",
+          "lineNumber": 353
+        },
+        {
+          "caller": "fl_ioreaduntil",
+          "callee": "ios_setbuf",
+          "lineNumber": 354
+        },
+        {
+          "caller": "fl_ioreaduntil",
+          "callee": "get_delim_arg",
+          "lineNumber": 355
+        },
+        {
+          "caller": "fl_ioreaduntil",
+          "callee": "toiostream",
+          "lineNumber": 356
+        },
+        {
+          "caller": "fl_ioreaduntil",
+          "callee": "ios_copyuntil",
+          "lineNumber": 357
+        },
+        {
+          "caller": "fl_ioreaduntil",
+          "callee": "ios_take_buffer",
+          "lineNumber": 362
+        },
+        {
+          "caller": "fl_ioreaduntil",
+          "callee": "cv_autorelease",
+          "lineNumber": 363
+        },
+        {
+          "caller": "fl_ioreaduntil",
+          "callee": "ios_eof",
+          "lineNumber": 368
+        },
+        {
+          "caller": "fl_iocopyuntil",
+          "callee": "argcount",
+          "lineNumber": 375
+        },
+        {
+          "caller": "fl_iocopyuntil",
+          "callee": "toiostream",
+          "lineNumber": 376
+        },
+        {
+          "caller": "fl_iocopyuntil",
+          "callee": "toiostream",
+          "lineNumber": 377
+        },
+        {
+          "caller": "fl_iocopyuntil",
+          "callee": "get_delim_arg",
+          "lineNumber": 378
+        },
+        {
+          "caller": "fl_iocopyuntil",
+          "callee": "size_wrap",
+          "lineNumber": 379
+        },
+        {
+          "caller": "fl_iocopyuntil",
+          "callee": "ios_copyuntil",
+          "lineNumber": 379
+        },
+        {
+          "caller": "fl_iocopy",
+          "callee": "argcount",
+          "lineNumber": 385
+        },
+        {
+          "caller": "fl_iocopy",
+          "callee": "toiostream",
+          "lineNumber": 386
+        },
+        {
+          "caller": "fl_iocopy",
+          "callee": "toiostream",
+          "lineNumber": 387
+        },
+        {
+          "caller": "fl_iocopy",
+          "callee": "tosize",
+          "lineNumber": 389
+        },
+        {
+          "caller": "fl_iocopy",
+          "callee": "size_wrap",
+          "lineNumber": 390
+        },
+        {
+          "caller": "fl_iocopy",
+          "callee": "ios_copy",
+          "lineNumber": 390
+        },
+        {
+          "caller": "fl_iocopy",
+          "callee": "size_wrap",
+          "lineNumber": 392
+        },
+        {
+          "caller": "fl_iocopy",
+          "callee": "ios_copyall",
+          "lineNumber": 392
+        },
+        {
+          "caller": "stream_to_string",
+          "callee": "value2c",
+          "lineNumber": 399
+        },
+        {
+          "caller": "stream_to_string",
+          "callee": "cvalue_string",
+          "lineNumber": 402
+        },
+        {
+          "caller": "stream_to_string",
+          "callee": "value2c",
+          "lineNumber": 403
+        },
+        {
+          "caller": "stream_to_string",
+          "callee": "memcpy",
+          "lineNumber": 404
+        },
+        {
+          "caller": "stream_to_string",
+          "callee": "cvalue_data",
+          "lineNumber": 404
+        },
+        {
+          "caller": "stream_to_string",
+          "callee": "ios_trunc",
+          "lineNumber": 405
+        },
+        {
+          "caller": "stream_to_string",
+          "callee": "ios_take_buffer",
+          "lineNumber": 408
+        },
+        {
+          "caller": "stream_to_string",
+          "callee": "cvalue_from_ref",
+          "lineNumber": 410
+        },
+        {
+          "caller": "stream_to_string",
+          "callee": "cv_autorelease",
+          "lineNumber": 411
+        },
+        {
+          "caller": "stream_to_string",
+          "callee": "ptr",
+          "lineNumber": 411
+        },
+        {
+          "caller": "fl_iotostring",
+          "callee": "argcount",
+          "lineNumber": 418
+        },
+        {
+          "caller": "fl_iotostring",
+          "callee": "toiostream",
+          "lineNumber": 419
+        },
+        {
+          "caller": "fl_iotostring",
+          "callee": "lerror",
+          "lineNumber": 421
+        },
+        {
+          "caller": "fl_iotostring",
+          "callee": "stream_to_string",
+          "lineNumber": 422
+        },
+        {
+          "caller": "iostream_init",
+          "callee": "symbol",
+          "lineNumber": 458
+        },
+        {
+          "caller": "iostream_init",
+          "callee": "symbol",
+          "lineNumber": 459
+        },
+        {
+          "caller": "iostream_init",
+          "callee": "symbol",
+          "lineNumber": 460
+        },
+        {
+          "caller": "iostream_init",
+          "callee": "symbol",
+          "lineNumber": 461
+        },
+        {
+          "caller": "iostream_init",
+          "callee": "symbol",
+          "lineNumber": 462
+        },
+        {
+          "caller": "iostream_init",
+          "callee": "symbol",
+          "lineNumber": 463
+        },
+        {
+          "caller": "iostream_init",
+          "callee": "symbol",
+          "lineNumber": 464
+        },
+        {
+          "caller": "iostream_init",
+          "callee": "symbol",
+          "lineNumber": 465
+        },
+        {
+          "caller": "iostream_init",
+          "callee": "define_opaque_type",
+          "lineNumber": 466
+        },
+        {
+          "caller": "iostream_init",
+          "callee": "assign_global_builtins",
+          "lineNumber": 468
+        },
+        {
+          "caller": "iostream_init",
+          "callee": "setc",
+          "lineNumber": 470
+        },
+        {
+          "caller": "iostream_init",
+          "callee": "symbol",
+          "lineNumber": 470
+        },
+        {
+          "caller": "iostream_init",
+          "callee": "cvalue_from_ref",
+          "lineNumber": 470
+        },
+        {
+          "caller": "iostream_init",
+          "callee": "setc",
+          "lineNumber": 472
+        },
+        {
+          "caller": "iostream_init",
+          "callee": "symbol",
+          "lineNumber": 472
+        },
+        {
+          "caller": "iostream_init",
+          "callee": "cvalue_from_ref",
+          "lineNumber": 472
+        },
+        {
+          "caller": "iostream_init",
+          "callee": "setc",
+          "lineNumber": 474
+        },
+        {
+          "caller": "iostream_init",
+          "callee": "symbol",
+          "lineNumber": 474
+        },
+        {
+          "caller": "iostream_init",
+          "callee": "cvalue_from_ref",
+          "lineNumber": 474
+        }
+      ],
+      "metrics": {
+        "importCount": 1,
+        "exportCount": 0,
+        "functionCount": 0,
+        "classCount": 0
+      }
+    },
+    {
+      "path": "src/flisp/julia_extensions.c",
+      "language": "c",
+      "fileCategory": "code",
+      "totalLines": 439,
+      "nonEmptyLines": 391,
+      "callGraph": [
+        {
+          "caller": "safe_peekutf8",
+          "callee": "ios_peekutf8",
+          "lineNumber": 36
+        },
+        {
+          "caller": "safe_peekutf8",
+          "callee": "lerror",
+          "lineNumber": 38
+        },
+        {
+          "caller": "fl_skipws",
+          "callee": "argcount",
+          "lineNumber": 44
+        },
+        {
+          "caller": "fl_skipws",
+          "callee": "fl_toiostream",
+          "lineNumber": 45
+        },
+        {
+          "caller": "fl_skipws",
+          "callee": "safe_peekutf8",
+          "lineNumber": 50
+        },
+        {
+          "caller": "fl_skipws",
+          "callee": "ios_getutf8",
+          "lineNumber": 51
+        },
+        {
+          "caller": "fl_skipws",
+          "callee": "ios_eof",
+          "lineNumber": 52
+        },
+        {
+          "caller": "fl_skipws",
+          "callee": "lerror",
+          "lineNumber": 53
+        },
+        {
+          "caller": "fl_skipws",
+          "callee": "symbol",
+          "lineNumber": 53
+        },
+        {
+          "caller": "fl_skipws",
+          "callee": "ios_eof",
+          "lineNumber": 56
+        },
+        {
+          "caller": "fl_skipws",
+          "callee": "is_uws",
+          "lineNumber": 56
+        },
+        {
+          "caller": "fl_skipws",
+          "callee": "is_bom",
+          "lineNumber": 56
+        },
+        {
+          "caller": "fl_skipws",
+          "callee": "ios_getutf8",
+          "lineNumber": 58
+        },
+        {
+          "caller": "jl_id_start_char",
+          "callee": "is_wc_cat_id_start",
+          "lineNumber": 136
+        },
+        {
+          "caller": "jl_id_start_char",
+          "callee": "utf8proc_category",
+          "lineNumber": 136
+        },
+        {
+          "caller": "jl_id_char",
+          "callee": "utf8proc_category",
+          "lineNumber": 146
+        },
+        {
+          "caller": "jl_id_char",
+          "callee": "is_wc_cat_id_start",
+          "lineNumber": 147
+        },
+        {
+          "caller": "jl_op_suffix_char",
+          "callee": "htable_new",
+          "lineNumber": 168
+        },
+        {
+          "caller": "jl_op_suffix_char",
+          "callee": "assert",
+          "lineNumber": 169
+        },
+        {
+          "caller": "jl_op_suffix_char",
+          "callee": "wcharhash_put_r",
+          "lineNumber": 171
+        },
+        {
+          "caller": "jl_op_suffix_char",
+          "callee": "utf8proc_category",
+          "lineNumber": 174
+        },
+        {
+          "caller": "jl_op_suffix_char",
+          "callee": "wcharhash_get_r",
+          "lineNumber": 179
+        },
+        {
+          "caller": "never_id_char",
+          "callee": "utf8proc_category",
+          "lineNumber": 185
+        },
+        {
+          "caller": "fl_julia_identifier_char",
+          "callee": "argcount",
+          "lineNumber": 210
+        },
+        {
+          "caller": "fl_julia_identifier_char",
+          "callee": "iscprim",
+          "lineNumber": 211
+        },
+        {
+          "caller": "fl_julia_identifier_char",
+          "callee": "ptr",
+          "lineNumber": 211
+        },
+        {
+          "caller": "fl_julia_identifier_char",
+          "callee": "type_error",
+          "lineNumber": 212
+        },
+        {
+          "caller": "fl_julia_identifier_char",
+          "callee": "cp_data",
+          "lineNumber": 213
+        },
+        {
+          "caller": "fl_julia_identifier_char",
+          "callee": "ptr",
+          "lineNumber": 213
+        },
+        {
+          "caller": "fl_julia_identifier_char",
+          "callee": "jl_id_char",
+          "lineNumber": 214
+        },
+        {
+          "caller": "fl_julia_identifier_start_char",
+          "callee": "argcount",
+          "lineNumber": 219
+        },
+        {
+          "caller": "fl_julia_identifier_start_char",
+          "callee": "iscprim",
+          "lineNumber": 220
+        },
+        {
+          "caller": "fl_julia_identifier_start_char",
+          "callee": "ptr",
+          "lineNumber": 220
+        },
+        {
+          "caller": "fl_julia_identifier_start_char",
+          "callee": "type_error",
+          "lineNumber": 221
+        },
+        {
+          "caller": "fl_julia_identifier_start_char",
+          "callee": "cp_data",
+          "lineNumber": 222
+        },
+        {
+          "caller": "fl_julia_identifier_start_char",
+          "callee": "ptr",
+          "lineNumber": 222
+        },
+        {
+          "caller": "fl_julia_identifier_start_char",
+          "callee": "jl_id_start_char",
+          "lineNumber": 223
+        },
+        {
+          "caller": "fl_julia_never_identifier_char",
+          "callee": "argcount",
+          "lineNumber": 228
+        },
+        {
+          "caller": "fl_julia_never_identifier_char",
+          "callee": "iscprim",
+          "lineNumber": 229
+        },
+        {
+          "caller": "fl_julia_never_identifier_char",
+          "callee": "ptr",
+          "lineNumber": 229
+        },
+        {
+          "caller": "fl_julia_never_identifier_char",
+          "callee": "type_error",
+          "lineNumber": 230
+        },
+        {
+          "caller": "fl_julia_never_identifier_char",
+          "callee": "cp_data",
+          "lineNumber": 231
+        },
+        {
+          "caller": "fl_julia_never_identifier_char",
+          "callee": "ptr",
+          "lineNumber": 231
+        },
+        {
+          "caller": "fl_julia_never_identifier_char",
+          "callee": "never_id_char",
+          "lineNumber": 232
+        },
+        {
+          "caller": "fl_julia_op_suffix_char",
+          "callee": "argcount",
+          "lineNumber": 238
+        },
+        {
+          "caller": "fl_julia_op_suffix_char",
+          "callee": "iscprim",
+          "lineNumber": 239
+        },
+        {
+          "caller": "fl_julia_op_suffix_char",
+          "callee": "ptr",
+          "lineNumber": 239
+        },
+        {
+          "caller": "fl_julia_op_suffix_char",
+          "callee": "type_error",
+          "lineNumber": 240
+        },
+        {
+          "caller": "fl_julia_op_suffix_char",
+          "callee": "cp_data",
+          "lineNumber": 241
+        },
+        {
+          "caller": "fl_julia_op_suffix_char",
+          "callee": "ptr",
+          "lineNumber": 241
+        },
+        {
+          "caller": "fl_julia_op_suffix_char",
+          "callee": "jl_op_suffix_char",
+          "lineNumber": 242
+        },
+        {
+          "caller": "fl_julia_strip_op_suffix",
+          "callee": "argcount",
+          "lineNumber": 247
+        },
+        {
+          "caller": "fl_julia_strip_op_suffix",
+          "callee": "issymbol",
+          "lineNumber": 248
+        },
+        {
+          "caller": "fl_julia_strip_op_suffix",
+          "callee": "type_error",
+          "lineNumber": 249
+        },
+        {
+          "caller": "fl_julia_strip_op_suffix",
+          "callee": "symbol_name",
+          "lineNumber": 250
+        },
+        {
+          "caller": "fl_julia_strip_op_suffix",
+          "callee": "jl_op_suffix_char",
+          "lineNumber": 254
+        },
+        {
+          "caller": "fl_julia_strip_op_suffix",
+          "callee": "u8_nextchar",
+          "lineNumber": 254
+        },
+        {
+          "caller": "fl_julia_strip_op_suffix",
+          "callee": "strncpy",
+          "lineNumber": 260
+        },
+        {
+          "caller": "fl_julia_strip_op_suffix",
+          "callee": "malloc",
+          "lineNumber": 260
+        },
+        {
+          "caller": "fl_julia_strip_op_suffix",
+          "callee": "symbol",
+          "lineNumber": 263
+        },
+        {
+          "caller": "fl_julia_strip_op_suffix",
+          "callee": "free",
+          "lineNumber": 264
+        },
+        {
+          "caller": "fl_julia_underscore_symbolp",
+          "callee": "argcount",
+          "lineNumber": 271
+        },
+        {
+          "caller": "fl_julia_underscore_symbolp",
+          "callee": "issymbol",
+          "lineNumber": 272
+        },
+        {
+          "caller": "fl_julia_underscore_symbolp",
+          "callee": "symbol_name",
+          "lineNumber": 273
+        },
+        {
+          "caller": "jl_charmap_map",
+          "callee": "htable_new",
+          "lineNumber": 286
+        },
+        {
+          "caller": "jl_charmap_map",
+          "callee": "assert",
+          "lineNumber": 287
+        },
+        {
+          "caller": "jl_charmap_map",
+          "callee": "assert",
+          "lineNumber": 293
+        },
+        {
+          "caller": "jl_charmap_map",
+          "callee": "wcharhash_put_r",
+          "lineNumber": 294
+        },
+        {
+          "caller": "jl_charmap_map",
+          "callee": "wcharhash_get_r",
+          "lineNumber": 298
+        },
+        {
+          "caller": "jl_charmap_map",
+          "callee": "(utf8proc_int32_t)",
+          "lineNumber": 299
+        },
+        {
+          "caller": "fl_accum_julia_symbol",
+          "callee": "argcount",
+          "lineNumber": 332
+        },
+        {
+          "caller": "fl_accum_julia_symbol",
+          "callee": "fl_toiostream",
+          "lineNumber": 333
+        },
+        {
+          "caller": "fl_accum_julia_symbol",
+          "callee": "iscprim",
+          "lineNumber": 334
+        },
+        {
+          "caller": "fl_accum_julia_symbol",
+          "callee": "ptr",
+          "lineNumber": 334
+        },
+        {
+          "caller": "fl_accum_julia_symbol",
+          "callee": "type_error",
+          "lineNumber": 335
+        },
+        {
+          "caller": "fl_accum_julia_symbol",
+          "callee": "cp_data",
+          "lineNumber": 336
+        },
+        {
+          "caller": "fl_accum_julia_symbol",
+          "callee": "ptr",
+          "lineNumber": 336
+        },
+        {
+          "caller": "fl_accum_julia_symbol",
+          "callee": "ios_mem",
+          "lineNumber": 339
+        },
+        {
+          "caller": "fl_accum_julia_symbol",
+          "callee": "ios_getutf8",
+          "lineNumber": 341
+        },
+        {
+          "caller": "fl_accum_julia_symbol",
+          "callee": "ios_peekutf8",
+          "lineNumber": 344
+        },
+        {
+          "caller": "fl_accum_julia_symbol",
+          "callee": "ios_skip",
+          "lineNumber": 347
+        },
+        {
+          "caller": "fl_accum_julia_symbol",
+          "callee": "ios_pututf8",
+          "lineNumber": 352
+        },
+        {
+          "caller": "fl_accum_julia_symbol",
+          "callee": "safe_peekutf8",
+          "lineNumber": 353
+        },
+        {
+          "caller": "fl_accum_julia_symbol",
+          "callee": "jl_id_char",
+          "lineNumber": 355
+        },
+        {
+          "caller": "fl_accum_julia_symbol",
+          "callee": "ios_pututf8",
+          "lineNumber": 356
+        },
+        {
+          "caller": "fl_accum_julia_symbol",
+          "callee": "symbol",
+          "lineNumber": 357
+        },
+        {
+          "caller": "fl_accum_julia_symbol",
+          "callee": "normalize",
+          "lineNumber": 357
+        },
+        {
+          "caller": "fl_string2normsymbol",
+          "callee": "argcount",
+          "lineNumber": 363
+        },
+        {
+          "caller": "fl_string2normsymbol",
+          "callee": "fl_isstring",
+          "lineNumber": 364
+        },
+        {
+          "caller": "fl_string2normsymbol",
+          "callee": "type_error",
+          "lineNumber": 365
+        },
+        {
+          "caller": "fl_string2normsymbol",
+          "callee": "symbol",
+          "lineNumber": 366
+        },
+        {
+          "caller": "fl_string2normsymbol",
+          "callee": "normalize",
+          "lineNumber": 366
+        },
+        {
+          "caller": "fl_string2normsymbol",
+          "callee": "cvalue_data",
+          "lineNumber": 366
+        },
+        {
+          "caller": "_string_only_julia_char",
+          "callee": "_iterate_continued",
+          "lineNumber": 398
+        },
+        {
+          "caller": "fl_string_only_julia_char",
+          "callee": "argcount",
+          "lineNumber": 407
+        },
+        {
+          "caller": "fl_string_only_julia_char",
+          "callee": "fl_isstring",
+          "lineNumber": 408
+        },
+        {
+          "caller": "fl_string_only_julia_char",
+          "callee": "type_error",
+          "lineNumber": 409
+        },
+        {
+          "caller": "fl_string_only_julia_char",
+          "callee": "cvalue_data",
+          "lineNumber": 410
+        },
+        {
+          "caller": "fl_string_only_julia_char",
+          "callee": "cv_len",
+          "lineNumber": 411
+        },
+        {
+          "caller": "fl_string_only_julia_char",
+          "callee": "ptr",
+          "lineNumber": 411
+        },
+        {
+          "caller": "fl_string_only_julia_char",
+          "callee": "_string_only_julia_char",
+          "lineNumber": 412
+        },
+        {
+          "caller": "fl_string_only_julia_char",
+          "callee": "fl_list2",
+          "lineNumber": 415
+        },
+        {
+          "caller": "fl_string_only_julia_char",
+          "callee": "mk_uint32",
+          "lineNumber": 415
+        },
+        {
+          "caller": "fl_init_julia_extensions",
+          "callee": "assign_global_builtins",
+          "lineNumber": 434
+        }
+      ],
+      "metrics": {
+        "importCount": 1,
+        "exportCount": 0,
+        "functionCount": 0,
+        "classCount": 0
+      }
+    },
+    {
+      "path": "src/flisp/opcodes.h",
+      "language": "c",
+      "fileCategory": "code",
+      "totalLines": 102,
+      "nonEmptyLines": 90,
+      "metrics": {
+        "importCount": 0,
+        "exportCount": 0,
+        "functionCount": 0,
+        "classCount": 0
+      }
+    },
+    {
+      "path": "src/flisp/string.c",
+      "language": "c",
+      "fileCategory": "code",
+      "totalLines": 300,
+      "nonEmptyLines": 276,
+      "callGraph": [
+        {
+          "caller": "fl_stringp",
+          "callee": "argcount",
+          "lineNumber": 30
+        },
+        {
+          "caller": "fl_stringp",
+          "callee": "fl_isstring",
+          "lineNumber": 31
+        },
+        {
+          "caller": "fl_string_count",
+          "callee": "argcount",
+          "lineNumber": 38
+        },
+        {
+          "caller": "fl_string_count",
+          "callee": "fl_isstring",
+          "lineNumber": 39
+        },
+        {
+          "caller": "fl_string_count",
+          "callee": "type_error",
+          "lineNumber": 40
+        },
+        {
+          "caller": "fl_string_count",
+          "callee": "cv_len",
+          "lineNumber": 41
+        },
+        {
+          "caller": "fl_string_count",
+          "callee": "ptr",
+          "lineNumber": 41
+        },
+        {
+          "caller": "fl_string_count",
+          "callee": "tosize",
+          "lineNumber": 44
+        },
+        {
+          "caller": "fl_string_count",
+          "callee": "bounds_error",
+          "lineNumber": 46
+        },
+        {
+          "caller": "fl_string_count",
+          "callee": "tosize",
+          "lineNumber": 48
+        },
+        {
+          "caller": "fl_string_count",
+          "callee": "bounds_error",
+          "lineNumber": 50
+        },
+        {
+          "caller": "fl_string_count",
+          "callee": "fixnum",
+          "lineNumber": 52
+        },
+        {
+          "caller": "fl_string_count",
+          "callee": "cvalue_data",
+          "lineNumber": 55
+        },
+        {
+          "caller": "fl_string_count",
+          "callee": "size_wrap",
+          "lineNumber": 56
+        },
+        {
+          "caller": "fl_string_count",
+          "callee": "u8_charnum",
+          "lineNumber": 56
+        },
+        {
+          "caller": "fl_string",
+          "callee": "fl_isstring",
+          "lineNumber": 64
+        },
+        {
+          "caller": "fl_string",
+          "callee": "fl_buffer",
+          "lineNumber": 66
+        },
+        {
+          "caller": "fl_string",
+          "callee": "fl_gc_handle",
+          "lineNumber": 67
+        },
+        {
+          "caller": "fl_string",
+          "callee": "value2c",
+          "lineNumber": 68
+        },
+        {
+          "caller": "fl_string",
+          "callee": "symbol_value",
+          "lineNumber": 70
+        },
+        {
+          "caller": "fl_string",
+          "callee": "symbol_value",
+          "lineNumber": 71
+        },
+        {
+          "caller": "fl_string",
+          "callee": "set",
+          "lineNumber": 72
+        },
+        {
+          "caller": "fl_string",
+          "callee": "set",
+          "lineNumber": 73
+        },
+        {
+          "caller": "fl_string",
+          "callee": "FOR_ARGS",
+          "lineNumber": 74
+        },
+        {
+          "caller": "fl_string",
+          "callee": "fl_print",
+          "lineNumber": 75
+        },
+        {
+          "caller": "fl_string",
+          "callee": "set",
+          "lineNumber": 77
+        },
+        {
+          "caller": "fl_string",
+          "callee": "set",
+          "lineNumber": 78
+        },
+        {
+          "caller": "fl_string",
+          "callee": "stream_to_string",
+          "lineNumber": 79
+        },
+        {
+          "caller": "fl_string",
+          "callee": "fl_free_gc_handles",
+          "lineNumber": 80
+        },
+        {
+          "caller": "fl_string_sub",
+          "callee": "argcount",
+          "lineNumber": 87
+        },
+        {
+          "caller": "fl_string_sub",
+          "callee": "tostring",
+          "lineNumber": 88
+        },
+        {
+          "caller": "fl_string_sub",
+          "callee": "cv_len",
+          "lineNumber": 89
+        },
+        {
+          "caller": "fl_string_sub",
+          "callee": "ptr",
+          "lineNumber": 89
+        },
+        {
+          "caller": "fl_string_sub",
+          "callee": "tosize",
+          "lineNumber": 91
+        },
+        {
+          "caller": "fl_string_sub",
+          "callee": "bounds_error",
+          "lineNumber": 93
+        },
+        {
+          "caller": "fl_string_sub",
+          "callee": "tosize",
+          "lineNumber": 95
+        },
+        {
+          "caller": "fl_string_sub",
+          "callee": "bounds_error",
+          "lineNumber": 97
+        },
+        {
+          "caller": "fl_string_sub",
+          "callee": "cvalue_string",
+          "lineNumber": 103
+        },
+        {
+          "caller": "fl_string_sub",
+          "callee": "cvalue_string",
+          "lineNumber": 104
+        },
+        {
+          "caller": "fl_string_sub",
+          "callee": "cvalue_data",
+          "lineNumber": 105
+        },
+        {
+          "caller": "fl_string_sub",
+          "callee": "memcpy",
+          "lineNumber": 106
+        },
+        {
+          "caller": "fl_string_sub",
+          "callee": "cv_data",
+          "lineNumber": 106
+        },
+        {
+          "caller": "fl_string_sub",
+          "callee": "ptr",
+          "lineNumber": 106
+        },
+        {
+          "caller": "fl_string_char",
+          "callee": "argcount",
+          "lineNumber": 112
+        },
+        {
+          "caller": "fl_string_char",
+          "callee": "tostring",
+          "lineNumber": 113
+        },
+        {
+          "caller": "fl_string_char",
+          "callee": "cv_len",
+          "lineNumber": 114
+        },
+        {
+          "caller": "fl_string_char",
+          "callee": "ptr",
+          "lineNumber": 114
+        },
+        {
+          "caller": "fl_string_char",
+          "callee": "tosize",
+          "lineNumber": 115
+        },
+        {
+          "caller": "fl_string_char",
+          "callee": "bounds_error",
+          "lineNumber": 117
+        },
+        {
+          "caller": "fl_string_char",
+          "callee": "u8_seqlen",
+          "lineNumber": 118
+        },
+        {
+          "caller": "fl_string_char",
+          "callee": "bounds_error",
+          "lineNumber": 120
+        },
+        {
+          "caller": "fl_string_char",
+          "callee": "mk_wchar",
+          "lineNumber": 121
+        },
+        {
+          "caller": "fl_string_char",
+          "callee": "u8_nextchar",
+          "lineNumber": 121
+        },
+        {
+          "caller": "mem_find_byte",
+          "callee": "memchr",
+          "lineNumber": 126
+        },
+        {
+          "caller": "mem_find_byte",
+          "callee": "size_wrap",
+          "lineNumber": 129
+        },
+        {
+          "caller": "fl_string_find",
+          "callee": "tosize",
+          "lineNumber": 137
+        },
+        {
+          "caller": "fl_string_find",
+          "callee": "argcount",
+          "lineNumber": 139
+        },
+        {
+          "caller": "fl_string_find",
+          "callee": "tostring",
+          "lineNumber": 140
+        },
+        {
+          "caller": "fl_string_find",
+          "callee": "cv_len",
+          "lineNumber": 141
+        },
+        {
+          "caller": "fl_string_find",
+          "callee": "ptr",
+          "lineNumber": 141
+        },
+        {
+          "caller": "fl_string_find",
+          "callee": "bounds_error",
+          "lineNumber": 143
+        },
+        {
+          "caller": "fl_string_find",
+          "callee": "ptr",
+          "lineNumber": 147
+        },
+        {
+          "caller": "fl_string_find",
+          "callee": "iscprim",
+          "lineNumber": 148
+        },
+        {
+          "caller": "fl_string_find",
+          "callee": "cp_class",
+          "lineNumber": 148
+        },
+        {
+          "caller": "fl_string_find",
+          "callee": "cp_data",
+          "lineNumber": 149
+        },
+        {
+          "caller": "fl_string_find",
+          "callee": "mem_find_byte",
+          "lineNumber": 151
+        },
+        {
+          "caller": "fl_string_find",
+          "callee": "u8_toutf8",
+          "lineNumber": 152
+        },
+        {
+          "caller": "fl_string_find",
+          "callee": "iscprim",
+          "lineNumber": 155
+        },
+        {
+          "caller": "fl_string_find",
+          "callee": "cp_class",
+          "lineNumber": 155
+        },
+        {
+          "caller": "fl_string_find",
+          "callee": "mem_find_byte",
+          "lineNumber": 156
+        },
+        {
+          "caller": "fl_string_find",
+          "callee": "cp_data",
+          "lineNumber": 156
+        },
+        {
+          "caller": "fl_string_find",
+          "callee": "fl_isstring",
+          "lineNumber": 158
+        },
+        {
+          "caller": "fl_string_find",
+          "callee": "ptr",
+          "lineNumber": 159
+        },
+        {
+          "caller": "fl_string_find",
+          "callee": "cv_len",
+          "lineNumber": 160
+        },
+        {
+          "caller": "fl_string_find",
+          "callee": "cv_data",
+          "lineNumber": 161
+        },
+        {
+          "caller": "fl_string_find",
+          "callee": "type_error",
+          "lineNumber": 164
+        },
+        {
+          "caller": "fl_string_find",
+          "callee": "mem_find_byte",
+          "lineNumber": 169
+        },
+        {
+          "caller": "fl_string_find",
+          "callee": "size_wrap",
+          "lineNumber": 171
+        },
+        {
+          "caller": "fl_string_find",
+          "callee": "memcmp",
+          "lineNumber": 175
+        },
+        {
+          "caller": "fl_string_find",
+          "callee": "size_wrap",
+          "lineNumber": 176
+        },
+        {
+          "caller": "fl_string_inc",
+          "callee": "argcount",
+          "lineNumber": 185
+        },
+        {
+          "caller": "fl_string_inc",
+          "callee": "tostring",
+          "lineNumber": 186
+        },
+        {
+          "caller": "fl_string_inc",
+          "callee": "cv_len",
+          "lineNumber": 187
+        },
+        {
+          "caller": "fl_string_inc",
+          "callee": "ptr",
+          "lineNumber": 187
+        },
+        {
+          "caller": "fl_string_inc",
+          "callee": "tosize",
+          "lineNumber": 188
+        },
+        {
+          "caller": "fl_string_inc",
+          "callee": "tosize",
+          "lineNumber": 191
+        },
+        {
+          "caller": "fl_string_inc",
+          "callee": "bounds_error",
+          "lineNumber": 194
+        },
+        {
+          "caller": "fl_string_inc",
+          "callee": "isutf",
+          "lineNumber": 195
+        },
+        {
+          "caller": "fl_string_inc",
+          "callee": "isutf",
+          "lineNumber": 195
+        },
+        {
+          "caller": "fl_string_inc",
+          "callee": "isutf",
+          "lineNumber": 195
+        },
+        {
+          "caller": "fl_string_inc",
+          "callee": "size_wrap",
+          "lineNumber": 197
+        },
+        {
+          "caller": "fl_string_dec",
+          "callee": "argcount",
+          "lineNumber": 203
+        },
+        {
+          "caller": "fl_string_dec",
+          "callee": "tostring",
+          "lineNumber": 204
+        },
+        {
+          "caller": "fl_string_dec",
+          "callee": "cv_len",
+          "lineNumber": 205
+        },
+        {
+          "caller": "fl_string_dec",
+          "callee": "ptr",
+          "lineNumber": 205
+        },
+        {
+          "caller": "fl_string_dec",
+          "callee": "tosize",
+          "lineNumber": 206
+        },
+        {
+          "caller": "fl_string_dec",
+          "callee": "tosize",
+          "lineNumber": 209
+        },
+        {
+          "caller": "fl_string_dec",
+          "callee": "bounds_error",
+          "lineNumber": 212
+        },
+        {
+          "caller": "fl_string_dec",
+          "callee": "bounds_error",
+          "lineNumber": 215
+        },
+        {
+          "caller": "fl_string_dec",
+          "callee": "isutf",
+          "lineNumber": 216
+        },
+        {
+          "caller": "fl_string_dec",
+          "callee": "isutf",
+          "lineNumber": 216
+        },
+        {
+          "caller": "fl_string_dec",
+          "callee": "isutf",
+          "lineNumber": 216
+        },
+        {
+          "caller": "fl_string_dec",
+          "callee": "size_wrap",
+          "lineNumber": 218
+        },
+        {
+          "caller": "get_radix_arg",
+          "callee": "tosize",
+          "lineNumber": 223
+        },
+        {
+          "caller": "get_radix_arg",
+          "callee": "lerrorf",
+          "lineNumber": 225
+        },
+        {
+          "caller": "fl_numbertostring",
+          "callee": "argcount",
+          "lineNumber": 232
+        },
+        {
+          "caller": "fl_numbertostring",
+          "callee": "isfixnum",
+          "lineNumber": 236
+        },
+        {
+          "caller": "fl_numbertostring",
+          "callee": "numval",
+          "lineNumber": 236
+        },
+        {
+          "caller": "fl_numbertostring",
+          "callee": "iscprim",
+          "lineNumber": 237
+        },
+        {
+          "caller": "fl_numbertostring",
+          "callee": "type_error",
+          "lineNumber": 237
+        },
+        {
+          "caller": "fl_numbertostring",
+          "callee": "conv_to_uint64",
+          "lineNumber": 238
+        },
+        {
+          "caller": "fl_numbertostring",
+          "callee": "cp_data",
+          "lineNumber": 238
+        },
+        {
+          "caller": "fl_numbertostring",
+          "callee": "ptr",
+          "lineNumber": 238
+        },
+        {
+          "caller": "fl_numbertostring",
+          "callee": "cp_numtype",
+          "lineNumber": 239
+        },
+        {
+          "caller": "fl_numbertostring",
+          "callee": "ptr",
+          "lineNumber": 239
+        },
+        {
+          "caller": "fl_numbertostring",
+          "callee": "numval",
+          "lineNumber": 240
+        },
+        {
+          "caller": "fl_numbertostring",
+          "callee": "fl_compare",
+          "lineNumber": 240
+        },
+        {
+          "caller": "fl_numbertostring",
+          "callee": "fixnum",
+          "lineNumber": 240
+        },
+        {
+          "caller": "fl_numbertostring",
+          "callee": "get_radix_arg",
+          "lineNumber": 246
+        },
+        {
+          "caller": "fl_numbertostring",
+          "callee": "uint2str",
+          "lineNumber": 248
+        },
+        {
+          "caller": "fl_numbertostring",
+          "callee": "string_from_cstr",
+          "lineNumber": 251
+        },
+        {
+          "caller": "fl_stringtonumber",
+          "callee": "argcount",
+          "lineNumber": 257
+        },
+        {
+          "caller": "fl_stringtonumber",
+          "callee": "tostring",
+          "lineNumber": 258
+        },
+        {
+          "caller": "fl_stringtonumber",
+          "callee": "get_radix_arg",
+          "lineNumber": 262
+        },
+        {
+          "caller": "fl_stringtonumber",
+          "callee": "isnumtok_base",
+          "lineNumber": 263
+        },
+        {
+          "caller": "fl_string_isutf8",
+          "callee": "argcount",
+          "lineNumber": 270
+        },
+        {
+          "caller": "fl_string_isutf8",
+          "callee": "tostring",
+          "lineNumber": 271
+        },
+        {
+          "caller": "fl_string_isutf8",
+          "callee": "cv_len",
+          "lineNumber": 272
+        },
+        {
+          "caller": "fl_string_isutf8",
+          "callee": "ptr",
+          "lineNumber": 272
+        },
+        {
+          "caller": "fl_string_isutf8",
+          "callee": "u8_isvalid",
+          "lineNumber": 273
+        },
+        {
+          "caller": "stringfuncs_init",
+          "callee": "assign_global_builtins",
+          "lineNumber": 295
+        }
+      ],
+      "metrics": {
+        "importCount": 1,
+        "exportCount": 0,
+        "functionCount": 0,
+        "classCount": 0
+      }
+    },
+    {
+      "path": "src/flisp/table.c",
+      "language": "c",
+      "fileCategory": "code",
+      "totalLines": 221,
+      "nonEmptyLines": 202,
+      "callGraph": [
+        {
+          "caller": "print_htable",
+          "callee": "cv_data",
+          "lineNumber": 16
+        },
+        {
+          "caller": "print_htable",
+          "callee": "ptr",
+          "lineNumber": 16
+        },
+        {
+          "caller": "print_htable",
+          "callee": "fl_print_str",
+          "lineNumber": 19
+        },
+        {
+          "caller": "print_htable",
+          "callee": "fl_print_str",
+          "lineNumber": 22
+        },
+        {
+          "caller": "print_htable",
+          "callee": "fl_print_child",
+          "lineNumber": 23
+        },
+        {
+          "caller": "print_htable",
+          "callee": "fl_print_chr",
+          "lineNumber": 24
+        },
+        {
+          "caller": "print_htable",
+          "callee": "fl_print_child",
+          "lineNumber": 25
+        },
+        {
+          "caller": "print_htable",
+          "callee": "fl_print_chr",
+          "lineNumber": 29
+        },
+        {
+          "caller": "print_traverse_htable",
+          "callee": "cv_data",
+          "lineNumber": 34
+        },
+        {
+          "caller": "print_traverse_htable",
+          "callee": "ptr",
+          "lineNumber": 34
+        },
+        {
+          "caller": "print_traverse_htable",
+          "callee": "print_traverse",
+          "lineNumber": 38
+        },
+        {
+          "caller": "print_traverse_htable",
+          "callee": "print_traverse",
+          "lineNumber": 39
+        },
+        {
+          "caller": "free_htable",
+          "callee": "cv_data",
+          "lineNumber": 47
+        },
+        {
+          "caller": "free_htable",
+          "callee": "ptr",
+          "lineNumber": 47
+        },
+        {
+          "caller": "free_htable",
+          "callee": "htable_free",
+          "lineNumber": 48
+        },
+        {
+          "caller": "relocate_htable",
+          "callee": "cv_data",
+          "lineNumber": 53
+        },
+        {
+          "caller": "relocate_htable",
+          "callee": "ptr",
+          "lineNumber": 53
+        },
+        {
+          "caller": "relocate_htable",
+          "callee": "cv_data",
+          "lineNumber": 54
+        },
+        {
+          "caller": "relocate_htable",
+          "callee": "ptr",
+          "lineNumber": 54
+        },
+        {
+          "caller": "relocate_htable",
+          "callee": "relocate_lispvalue",
+          "lineNumber": 60
+        },
+        {
+          "caller": "ishashtable",
+          "callee": "iscvalue",
+          "lineNumber": 66
+        },
+        {
+          "caller": "ishashtable",
+          "callee": "cv_class",
+          "lineNumber": 66
+        },
+        {
+          "caller": "ishashtable",
+          "callee": "ptr",
+          "lineNumber": 66
+        },
+        {
+          "caller": "fl_tablep",
+          "callee": "argcount",
+          "lineNumber": 71
+        },
+        {
+          "caller": "fl_tablep",
+          "callee": "ishashtable",
+          "lineNumber": 72
+        },
+        {
+          "caller": "fl_table",
+          "callee": "lerror",
+          "lineNumber": 86
+        },
+        {
+          "caller": "fl_table",
+          "callee": "cvalue_no_finalizer",
+          "lineNumber": 90
+        },
+        {
+          "caller": "fl_table",
+          "callee": "cvalue",
+          "lineNumber": 93
+        },
+        {
+          "caller": "fl_table",
+          "callee": "cv_data",
+          "lineNumber": 95
+        },
+        {
+          "caller": "fl_table",
+          "callee": "ptr",
+          "lineNumber": 95
+        },
+        {
+          "caller": "fl_table",
+          "callee": "htable_new",
+          "lineNumber": 96
+        },
+        {
+          "caller": "fl_table",
+          "callee": "FOR_ARGS",
+          "lineNumber": 99
+        },
+        {
+          "caller": "fl_table",
+          "callee": "equalhash_put_r",
+          "lineNumber": 101
+        },
+        {
+          "caller": "fl_table",
+          "callee": "add_finalizer",
+          "lineNumber": 108
+        },
+        {
+          "caller": "fl_table",
+          "callee": "ptr",
+          "lineNumber": 108
+        },
+        {
+          "caller": "fl_table",
+          "callee": "ptr",
+          "lineNumber": 109
+        },
+        {
+          "caller": "fl_table_put",
+          "callee": "argcount",
+          "lineNumber": 117
+        },
+        {
+          "caller": "fl_table_put",
+          "callee": "totable",
+          "lineNumber": 118
+        },
+        {
+          "caller": "fl_table_put",
+          "callee": "equalhash_put_r",
+          "lineNumber": 120
+        },
+        {
+          "caller": "fl_table_put",
+          "callee": "ptr",
+          "lineNumber": 123
+        },
+        {
+          "caller": "fl_table_put",
+          "callee": "add_finalizer",
+          "lineNumber": 124
+        },
+        {
+          "caller": "key_error",
+          "callee": "lerrorf",
+          "lineNumber": 132
+        },
+        {
+          "caller": "key_error",
+          "callee": "fl_list2",
+          "lineNumber": 132
+        },
+        {
+          "caller": "fl_table_get",
+          "callee": "argcount",
+          "lineNumber": 139
+        },
+        {
+          "caller": "fl_table_get",
+          "callee": "totable",
+          "lineNumber": 140
+        },
+        {
+          "caller": "fl_table_get",
+          "callee": "equalhash_get_r",
+          "lineNumber": 141
+        },
+        {
+          "caller": "fl_table_get",
+          "callee": "key_error",
+          "lineNumber": 145
+        },
+        {
+          "caller": "fl_table_has",
+          "callee": "argcount",
+          "lineNumber": 153
+        },
+        {
+          "caller": "fl_table_has",
+          "callee": "totable",
+          "lineNumber": 154
+        },
+        {
+          "caller": "fl_table_has",
+          "callee": "equalhash_has_r",
+          "lineNumber": 155
+        },
+        {
+          "caller": "fl_table_del",
+          "callee": "argcount",
+          "lineNumber": 161
+        },
+        {
+          "caller": "fl_table_del",
+          "callee": "totable",
+          "lineNumber": 162
+        },
+        {
+          "caller": "fl_table_del",
+          "callee": "equalhash_remove_r",
+          "lineNumber": 163
+        },
+        {
+          "caller": "fl_table_del",
+          "callee": "key_error",
+          "lineNumber": 164
+        },
+        {
+          "caller": "fl_table_foldl",
+          "callee": "argcount",
+          "lineNumber": 170
+        },
+        {
+          "caller": "fl_table_foldl",
+          "callee": "totable",
+          "lineNumber": 172
+        },
+        {
+          "caller": "fl_table_foldl",
+          "callee": "fl_gc_handle",
+          "lineNumber": 175
+        },
+        {
+          "caller": "fl_table_foldl",
+          "callee": "fl_gc_handle",
+          "lineNumber": 176
+        },
+        {
+          "caller": "fl_table_foldl",
+          "callee": "fl_gc_handle",
+          "lineNumber": 177
+        },
+        {
+          "caller": "fl_table_foldl",
+          "callee": "fl_applyn",
+          "lineNumber": 180
+        },
+        {
+          "caller": "fl_table_foldl",
+          "callee": "cv_data",
+          "lineNumber": 185
+        },
+        {
+          "caller": "fl_table_foldl",
+          "callee": "ptr",
+          "lineNumber": 185
+        },
+        {
+          "caller": "fl_table_foldl",
+          "callee": "lerror",
+          "lineNumber": 187
+        },
+        {
+          "caller": "fl_table_foldl",
+          "callee": "fl_free_gc_handles",
+          "lineNumber": 191
+        },
+        {
+          "caller": "table_init",
+          "callee": "symbol",
+          "lineNumber": 213
+        },
+        {
+          "caller": "table_init",
+          "callee": "define_opaque_type",
+          "lineNumber": 214
+        },
+        {
+          "caller": "table_init",
+          "callee": "assign_global_builtins",
+          "lineNumber": 216
+        }
+      ],
+      "metrics": {
+        "importCount": 2,
+        "exportCount": 0,
+        "functionCount": 0,
+        "classCount": 0
+      }
+    },
+    {
+      "path": "src/flisp/types.c",
+      "language": "c",
+      "fileCategory": "code",
+      "totalLines": 96,
+      "nonEmptyLines": 90,
+      "functions": [
+        {
+          "name": "relocate_typetable",
+          "startLine": 83,
+          "endLine": 96,
+          "params": [
+            "fl_ctx"
+          ]
+        }
+      ],
+      "exports": [
+        {
+          "name": "relocate_typetable",
+          "line": 83,
+          "isDefault": false
+        }
+      ],
+      "callGraph": [
+        {
+          "caller": "relocate_typetable",
+          "callee": "relocate",
+          "lineNumber": 90
+        }
+      ],
+      "metrics": {
+        "importCount": 1,
+        "exportCount": 1,
+        "functionCount": 1,
+        "classCount": 0
+      }
+    }
+  ]
+}

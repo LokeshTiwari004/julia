@@ -1,0 +1,181 @@
+{
+  "batchIndex": 19,
+  "nodes": [
+    {
+      "id": "service:contrib/mac/app/Makefile",
+      "type": "service",
+      "name": "Makefile",
+      "filePath": "contrib/mac/app/Makefile",
+      "summary": "Infrastructure file: Makefile.",
+      "tags": [
+        "infrastructure"
+      ],
+      "complexity": "moderate",
+      "language": "makefile"
+    },
+    {
+      "id": "document:contrib/mac/app/README.md",
+      "type": "document",
+      "name": "README.md",
+      "filePath": "contrib/mac/app/README.md",
+      "summary": "Documentation file: README.md.",
+      "tags": [
+        "documentation"
+      ],
+      "complexity": "simple",
+      "language": "markdown"
+    },
+    {
+      "id": "file:contrib/mac/app/notarize_check.sh",
+      "type": "file",
+      "name": "notarize_check.sh",
+      "filePath": "contrib/mac/app/notarize_check.sh",
+      "summary": "Script file: notarize_check.sh.",
+      "tags": [
+        "script"
+      ],
+      "complexity": "moderate",
+      "language": "shell"
+    },
+    {
+      "id": "function:contrib/mac/app/notarize_check.sh:extract_uuid",
+      "type": "function",
+      "name": "extract_uuid",
+      "filePath": "contrib/mac/app/notarize_check.sh",
+      "summary": "Function extract_uuid with 0 parameters.",
+      "tags": [
+        "function"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:contrib/mac/app/notarize_check.sh:wait_until_completed",
+      "type": "function",
+      "name": "wait_until_completed",
+      "filePath": "contrib/mac/app/notarize_check.sh",
+      "summary": "Function wait_until_completed with 0 parameters.",
+      "tags": [
+        "function"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "file:contrib/mac/app/renotarize_dmg.sh",
+      "type": "file",
+      "name": "renotarize_dmg.sh",
+      "filePath": "contrib/mac/app/renotarize_dmg.sh",
+      "summary": "Script file: renotarize_dmg.sh.",
+      "tags": [
+        "script"
+      ],
+      "complexity": "simple",
+      "language": "shell"
+    }
+  ],
+  "edges": [
+    {
+      "source": "file:contrib/mac/app/notarize_check.sh",
+      "target": "function:contrib/mac/app/notarize_check.sh:extract_uuid",
+      "type": "contains",
+      "weight": 1
+    },
+    {
+      "source": "file:contrib/mac/app/notarize_check.sh",
+      "target": "function:contrib/mac/app/notarize_check.sh:wait_until_completed",
+      "type": "contains",
+      "weight": 1
+    }
+  ],
+  "batchFiles": [
+    {
+      "path": "contrib/mac/app/Makefile",
+      "language": "makefile",
+      "fileCategory": "infra",
+      "totalLines": 113,
+      "nonEmptyLines": 95,
+      "steps": [
+        {
+          "name": "all",
+          "startLine": 23,
+          "endLine": 24
+        },
+        {
+          "name": "clean",
+          "startLine": 79,
+          "endLine": 79
+        },
+        {
+          "name": "notarize-check",
+          "startLine": 94,
+          "endLine": 97
+        },
+        {
+          "name": "notarize",
+          "startLine": 104,
+          "endLine": 112
+        }
+      ],
+      "metrics": {
+        "importCount": 0,
+        "exportCount": 0,
+        "functionCount": 0,
+        "classCount": 0,
+        "stepCount": 4
+      }
+    },
+    {
+      "path": "contrib/mac/app/README.md",
+      "language": "markdown",
+      "fileCategory": "docs",
+      "totalLines": 30,
+      "nonEmptyLines": 23,
+      "metrics": {
+        "importCount": 0,
+        "exportCount": 0,
+        "functionCount": 0,
+        "classCount": 0,
+        "sectionCount": 0
+      }
+    },
+    {
+      "path": "contrib/mac/app/notarize_check.sh",
+      "language": "shell",
+      "fileCategory": "script",
+      "totalLines": 66,
+      "nonEmptyLines": 56,
+      "functions": [
+        {
+          "name": "extract_uuid",
+          "startLine": 7,
+          "endLine": 16,
+          "params": []
+        },
+        {
+          "name": "wait_until_completed",
+          "startLine": 19,
+          "endLine": 46,
+          "params": []
+        }
+      ],
+      "metrics": {
+        "importCount": 0,
+        "exportCount": 0,
+        "functionCount": 2,
+        "classCount": 0
+      }
+    },
+    {
+      "path": "contrib/mac/app/renotarize_dmg.sh",
+      "language": "shell",
+      "fileCategory": "script",
+      "totalLines": 54,
+      "nonEmptyLines": 45,
+      "metrics": {
+        "importCount": 0,
+        "exportCount": 0,
+        "functionCount": 0,
+        "classCount": 0
+      }
+    }
+  ]
+}

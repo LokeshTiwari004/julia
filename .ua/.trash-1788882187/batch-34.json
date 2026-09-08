@@ -1,0 +1,109 @@
+{
+  "batchIndex": 34,
+  "nodes": [
+    {
+      "id": "config:JuliaSyntax/sysimage/JuliaSyntaxCore/Project.toml",
+      "type": "config",
+      "name": "Project.toml",
+      "filePath": "JuliaSyntax/sysimage/JuliaSyntaxCore/Project.toml",
+      "summary": "Configuration file: Project.toml.",
+      "tags": [
+        "configuration"
+      ],
+      "complexity": "simple",
+      "language": "toml"
+    },
+    {
+      "id": "service:base/Makefile",
+      "type": "service",
+      "name": "Makefile",
+      "filePath": "base/Makefile",
+      "summary": "Infrastructure file: Makefile.",
+      "tags": [
+        "infrastructure"
+      ],
+      "complexity": "complex",
+      "language": "makefile"
+    }
+  ],
+  "edges": [],
+  "batchFiles": [
+    {
+      "path": "JuliaSyntax/sysimage/JuliaSyntaxCore/Project.toml",
+      "language": "toml",
+      "fileCategory": "config",
+      "totalLines": 10,
+      "nonEmptyLines": 8,
+      "sections": [
+        {
+          "heading": "compat",
+          "level": 1,
+          "line": 6
+        },
+        {
+          "heading": "deps",
+          "level": 1,
+          "line": 9
+        }
+      ],
+      "metrics": {
+        "importCount": 0,
+        "exportCount": 0,
+        "functionCount": 0,
+        "classCount": 0,
+        "sectionCount": 2
+      }
+    },
+    {
+      "path": "base/Makefile",
+      "language": "makefile",
+      "fileCategory": "infra",
+      "totalLines": 315,
+      "nonEmptyLines": 283,
+      "steps": [
+        {
+          "name": "all",
+          "startLine": 11,
+          "endLine": 12
+        },
+        {
+          "name": "all",
+          "startLine": 129,
+          "endLine": 129
+        },
+        {
+          "name": "symlink_p7zip",
+          "startLine": 190,
+          "endLine": 191
+        },
+        {
+          "name": "symlink_llvm_utils",
+          "startLine": 202,
+          "endLine": 203
+        },
+        {
+          "name": "symlink_libLLVM",
+          "startLine": 279,
+          "endLine": 279
+        },
+        {
+          "name": "symlink_system_libraries",
+          "startLine": 300,
+          "endLine": 301
+        },
+        {
+          "name": "clean",
+          "startLine": 304,
+          "endLine": 316
+        }
+      ],
+      "metrics": {
+        "importCount": 0,
+        "exportCount": 0,
+        "functionCount": 0,
+        "classCount": 0,
+        "stepCount": 7
+      }
+    }
+  ]
+}

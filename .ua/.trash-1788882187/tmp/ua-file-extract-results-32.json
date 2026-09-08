@@ -1,0 +1,139 @@
+{
+  "scriptCompleted": true,
+  "filesAnalyzed": 2,
+  "filesSkipped": [
+    "Compiler/src/typelattice.jl",
+    "Compiler/src/typelimits.jl",
+    "Compiler/src/types.jl",
+    "Compiler/src/typeutils.jl",
+    "Compiler/src/utilities.jl",
+    "Compiler/src/validation.jl",
+    "Compiler/src/verifytrim.jl",
+    "JuliaLowering/src/JuliaLowering.jl",
+    "JuliaLowering/src/ast.jl",
+    "JuliaLowering/src/binding_analysis.jl",
+    "JuliaLowering/src/bindings.jl",
+    "JuliaLowering/src/closure_conversion.jl",
+    "JuliaLowering/src/compat.jl",
+    "JuliaLowering/src/desugaring.jl",
+    "JuliaLowering/src/eval.jl",
+    "JuliaLowering/src/hooks.jl",
+    "JuliaLowering/src/kinds.jl",
+    "JuliaLowering/src/linear_ir.jl",
+    "JuliaLowering/src/macro_expansion.jl",
+    "JuliaLowering/src/precompile.jl",
+    "JuliaLowering/src/runtime.jl",
+    "JuliaLowering/src/scope_analysis.jl",
+    "JuliaLowering/src/syntax_macros.jl"
+  ],
+  "analysisOutcomes": {
+    "structure": {
+      "succeeded": 2,
+      "failed": 0
+    },
+    "callGraph": {
+      "succeeded": 0,
+      "failed": 0,
+      "skipped": 2
+    }
+  },
+  "results": [
+    {
+      "path": "JuliaLowering/Project.toml",
+      "language": "toml",
+      "fileCategory": "config",
+      "totalLines": 22,
+      "nonEmptyLines": 17,
+      "sections": [
+        {
+          "heading": "deps",
+          "level": 1,
+          "line": 6
+        },
+        {
+          "heading": "sources",
+          "level": 1,
+          "line": 9
+        },
+        {
+          "heading": "compat",
+          "level": 1,
+          "line": 12
+        },
+        {
+          "heading": "extras",
+          "level": 1,
+          "line": 15
+        },
+        {
+          "heading": "targets",
+          "level": 1,
+          "line": 21
+        }
+      ],
+      "metrics": {
+        "importCount": 0,
+        "exportCount": 0,
+        "functionCount": 0,
+        "classCount": 0,
+        "sectionCount": 5
+      }
+    },
+    {
+      "path": "JuliaLowering/README.md",
+      "language": "markdown",
+      "fileCategory": "docs",
+      "totalLines": 245,
+      "nonEmptyLines": 202,
+      "sections": [
+        {
+          "heading": "JuliaLowering",
+          "level": 1,
+          "line": 1
+        },
+        {
+          "heading": "Goals",
+          "level": 2,
+          "line": 7
+        },
+        {
+          "heading": "Trying it out",
+          "level": 2,
+          "line": 19
+        },
+        {
+          "heading": "Syntax type",
+          "level": 2,
+          "line": 70
+        },
+        {
+          "heading": "New macros with automatic hygiene",
+          "level": 2,
+          "line": 109
+        },
+        {
+          "heading": "AST input specification, error messages",
+          "level": 2,
+          "line": 162
+        },
+        {
+          "heading": "Compatibility",
+          "level": 2,
+          "line": 178
+        },
+        {
+          "heading": "Why do we need to rewrite macros to get provenance and automatic hygiene?",
+          "level": 3,
+          "line": 220
+        }
+      ],
+      "metrics": {
+        "importCount": 0,
+        "exportCount": 0,
+        "functionCount": 0,
+        "classCount": 0,
+        "sectionCount": 8
+      }
+    }
+  ]
+}

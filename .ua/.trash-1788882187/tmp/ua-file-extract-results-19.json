@@ -1,0 +1,110 @@
+{
+  "scriptCompleted": true,
+  "filesAnalyzed": 4,
+  "filesSkipped": [
+    "contrib/mac/app/Entitlements.plist"
+  ],
+  "analysisOutcomes": {
+    "structure": {
+      "succeeded": 4,
+      "failed": 0
+    },
+    "callGraph": {
+      "succeeded": 0,
+      "failed": 0,
+      "skipped": 4
+    }
+  },
+  "results": [
+    {
+      "path": "contrib/mac/app/Makefile",
+      "language": "makefile",
+      "fileCategory": "infra",
+      "totalLines": 113,
+      "nonEmptyLines": 95,
+      "steps": [
+        {
+          "name": "all",
+          "startLine": 23,
+          "endLine": 24
+        },
+        {
+          "name": "clean",
+          "startLine": 79,
+          "endLine": 79
+        },
+        {
+          "name": "notarize-check",
+          "startLine": 94,
+          "endLine": 97
+        },
+        {
+          "name": "notarize",
+          "startLine": 104,
+          "endLine": 112
+        }
+      ],
+      "metrics": {
+        "importCount": 0,
+        "exportCount": 0,
+        "functionCount": 0,
+        "classCount": 0,
+        "stepCount": 4
+      }
+    },
+    {
+      "path": "contrib/mac/app/README.md",
+      "language": "markdown",
+      "fileCategory": "docs",
+      "totalLines": 30,
+      "nonEmptyLines": 23,
+      "metrics": {
+        "importCount": 0,
+        "exportCount": 0,
+        "functionCount": 0,
+        "classCount": 0,
+        "sectionCount": 0
+      }
+    },
+    {
+      "path": "contrib/mac/app/notarize_check.sh",
+      "language": "shell",
+      "fileCategory": "script",
+      "totalLines": 66,
+      "nonEmptyLines": 56,
+      "functions": [
+        {
+          "name": "extract_uuid",
+          "startLine": 7,
+          "endLine": 16,
+          "params": []
+        },
+        {
+          "name": "wait_until_completed",
+          "startLine": 19,
+          "endLine": 46,
+          "params": []
+        }
+      ],
+      "metrics": {
+        "importCount": 0,
+        "exportCount": 0,
+        "functionCount": 2,
+        "classCount": 0
+      }
+    },
+    {
+      "path": "contrib/mac/app/renotarize_dmg.sh",
+      "language": "shell",
+      "fileCategory": "script",
+      "totalLines": 54,
+      "nonEmptyLines": 45,
+      "metrics": {
+        "importCount": 0,
+        "exportCount": 0,
+        "functionCount": 0,
+        "classCount": 0
+      }
+    }
+  ]
+}

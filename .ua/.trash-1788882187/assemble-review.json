@@ -1,0 +1,48 @@
+{
+  "review": {
+    "timestamp": "2026-09-08",
+    "assembledGraphPath": "/home/maruti/julia/.ua/intermediate/assembled-graph.json",
+    "summary": {
+      "inputNodes": 2281,
+      "inputEdges": 4547,
+      "outputNodes": 2183,
+      "outputEdges": 3503,
+      "batchesProcessed": 59,
+      "duplicateNodesRemoved": 98,
+      "emptyBatches": 7,
+      "unresolvedImportEdges": 5,
+      "importMapEntriesScanned": 1117,
+      "importEdgesRecovered": 0
+    },
+    "issues": {
+      "critical": [
+        "5 import edges dropped due to missing target nodes: htable.inc, jl_exported_data.inc, jl_exported_funcs.inc (2x). These are generated/included files that may not have file nodes in the graph."
+      ],
+      "warnings": [
+        "7 batch files (31, 35, 36, 37, 38, 40, 41) contributed 0 nodes and 0 edges — likely empty or mid-write reads",
+        "98 duplicate node IDs removed (kept last) — indicates overlapping batch boundaries or repeated analysis",
+        "Import map recovery yielded 0 edges from 1117 entries; 5 target paths had no file: node in graph"
+      ],
+      "observations": [
+        "Graph contains 2183 nodes (files, functions, classes) and 3503 edges after deduplication",
+        "Node types include: file, function, class with complexity tags (simple, moderate, complex)",
+        "Language coverage: C, C++ files in src/, cli/, Compiler/ directories",
+        "High-function-count files flagged: gc-heap-snapshot.c (31), APInt.c (79), cgmemmgr.cpp (32)",
+        "Type-heavy files flagged: cgmemmgr.cpp (8 types)"
+      ]
+    },
+    "recommendations": [
+      "Investigate empty batches (31, 35-38, 40-41) — verify analyzer output completeness",
+      "Add file nodes for generated .inc files (htable.inc, jl_exported_data.inc, jl_exported_funcs.inc) to resolve import edges",
+      "Review duplicate node ID source — may indicate batch partitioning issues",
+      "Verify importMap generation includes all generated/included headers",
+      "Consider adding batch validation step to skip empty files before merge"
+    ],
+    "graphQuality": {
+      "nodeRetentionRate": 0.957,
+      "edgeRetentionRate": 0.770,
+      "duplicateRate": 0.043,
+      "emptyBatchRate": 0.119
+    }
+  }
+}

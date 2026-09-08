@@ -1,0 +1,182 @@
+{
+  "projectRoot": "/home/maruti/julia",
+  "batchFiles": [
+    {
+      "path": "Compiler/src/typelattice.jl",
+      "language": "jl",
+      "sizeLines": 795,
+      "fileCategory": "code"
+    },
+    {
+      "path": "Compiler/src/typelimits.jl",
+      "language": "jl",
+      "sizeLines": 1008,
+      "fileCategory": "code"
+    },
+    {
+      "path": "Compiler/src/types.jl",
+      "language": "jl",
+      "sizeLines": 728,
+      "fileCategory": "code"
+    },
+    {
+      "path": "Compiler/src/typeutils.jl",
+      "language": "jl",
+      "sizeLines": 482,
+      "fileCategory": "code"
+    },
+    {
+      "path": "Compiler/src/utilities.jl",
+      "language": "jl",
+      "sizeLines": 420,
+      "fileCategory": "code"
+    },
+    {
+      "path": "Compiler/src/validation.jl",
+      "language": "jl",
+      "sizeLines": 256,
+      "fileCategory": "code"
+    },
+    {
+      "path": "Compiler/src/verifytrim.jl",
+      "language": "jl",
+      "sizeLines": 541,
+      "fileCategory": "code"
+    },
+    {
+      "path": "JuliaLowering/Project.toml",
+      "language": "toml",
+      "sizeLines": 22,
+      "fileCategory": "config"
+    },
+    {
+      "path": "JuliaLowering/README.md",
+      "language": "markdown",
+      "sizeLines": 245,
+      "fileCategory": "docs"
+    },
+    {
+      "path": "JuliaLowering/src/JuliaLowering.jl",
+      "language": "jl",
+      "sizeLines": 60,
+      "fileCategory": "code"
+    },
+    {
+      "path": "JuliaLowering/src/ast.jl",
+      "language": "jl",
+      "sizeLines": 499,
+      "fileCategory": "code"
+    },
+    {
+      "path": "JuliaLowering/src/binding_analysis.jl",
+      "language": "jl",
+      "sizeLines": 374,
+      "fileCategory": "code"
+    },
+    {
+      "path": "JuliaLowering/src/bindings.jl",
+      "language": "jl",
+      "sizeLines": 189,
+      "fileCategory": "code"
+    },
+    {
+      "path": "JuliaLowering/src/closure_conversion.jl",
+      "language": "jl",
+      "sizeLines": 694,
+      "fileCategory": "code"
+    },
+    {
+      "path": "JuliaLowering/src/compat.jl",
+      "language": "jl",
+      "sizeLines": 814,
+      "fileCategory": "code"
+    },
+    {
+      "path": "JuliaLowering/src/desugaring.jl",
+      "language": "jl",
+      "sizeLines": 4547,
+      "fileCategory": "code"
+    },
+    {
+      "path": "JuliaLowering/src/eval.jl",
+      "language": "jl",
+      "sizeLines": 876,
+      "fileCategory": "code"
+    },
+    {
+      "path": "JuliaLowering/src/hooks.jl",
+      "language": "jl",
+      "sizeLines": 75,
+      "fileCategory": "code"
+    },
+    {
+      "path": "JuliaLowering/src/kinds.jl",
+      "language": "jl",
+      "sizeLines": 225,
+      "fileCategory": "code"
+    },
+    {
+      "path": "JuliaLowering/src/linear_ir.jl",
+      "language": "jl",
+      "sizeLines": 1350,
+      "fileCategory": "code"
+    },
+    {
+      "path": "JuliaLowering/src/macro_expansion.jl",
+      "language": "jl",
+      "sizeLines": 413,
+      "fileCategory": "code"
+    },
+    {
+      "path": "JuliaLowering/src/precompile.jl",
+      "language": "jl",
+      "sizeLines": 55,
+      "fileCategory": "code"
+    },
+    {
+      "path": "JuliaLowering/src/runtime.jl",
+      "language": "jl",
+      "sizeLines": 437,
+      "fileCategory": "code"
+    },
+    {
+      "path": "JuliaLowering/src/scope_analysis.jl",
+      "language": "jl",
+      "sizeLines": 968,
+      "fileCategory": "code"
+    },
+    {
+      "path": "JuliaLowering/src/syntax_macros.jl",
+      "language": "jl",
+      "sizeLines": 441,
+      "fileCategory": "code"
+    }
+  ],
+  "batchImportData": {
+    "Compiler/src/typelattice.jl": [],
+    "Compiler/src/typelimits.jl": [],
+    "Compiler/src/types.jl": [],
+    "Compiler/src/typeutils.jl": [],
+    "Compiler/src/utilities.jl": [],
+    "Compiler/src/validation.jl": [],
+    "Compiler/src/verifytrim.jl": [],
+    "JuliaLowering/Project.toml": [],
+    "JuliaLowering/README.md": [],
+    "JuliaLowering/src/JuliaLowering.jl": [],
+    "JuliaLowering/src/ast.jl": [],
+    "JuliaLowering/src/binding_analysis.jl": [],
+    "JuliaLowering/src/bindings.jl": [],
+    "JuliaLowering/src/closure_conversion.jl": [],
+    "JuliaLowering/src/compat.jl": [],
+    "JuliaLowering/src/desugaring.jl": [],
+    "JuliaLowering/src/eval.jl": [],
+    "JuliaLowering/src/hooks.jl": [],
+    "JuliaLowering/src/kinds.jl": [],
+    "JuliaLowering/src/linear_ir.jl": [],
+    "JuliaLowering/src/macro_expansion.jl": [],
+    "JuliaLowering/src/precompile.jl": [],
+    "JuliaLowering/src/runtime.jl": [],
+    "JuliaLowering/src/scope_analysis.jl": [],
+    "JuliaLowering/src/syntax_macros.jl": []
+  }
+}

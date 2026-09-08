@@ -1,0 +1,42 @@
+{
+  "projectRoot": "/home/maruti/julia",
+  "batchFiles": [
+    {
+      "path": "contrib/mac/app/Entitlements.plist",
+      "language": "xml",
+      "sizeLines": 24,
+      "fileCategory": "config"
+    },
+    {
+      "path": "contrib/mac/app/Makefile",
+      "language": "makefile",
+      "sizeLines": 113,
+      "fileCategory": "infra"
+    },
+    {
+      "path": "contrib/mac/app/README.md",
+      "language": "markdown",
+      "sizeLines": 30,
+      "fileCategory": "docs"
+    },
+    {
+      "path": "contrib/mac/app/notarize_check.sh",
+      "language": "shell",
+      "sizeLines": 66,
+      "fileCategory": "script"
+    },
+    {
+      "path": "contrib/mac/app/renotarize_dmg.sh",
+      "language": "shell",
+      "sizeLines": 54,
+      "fileCategory": "script"
+    }
+  ],
+  "batchImportData": {
+    "contrib/mac/app/Entitlements.plist": [],
+    "contrib/mac/app/Makefile": [],
+    "contrib/mac/app/README.md": [],
+    "contrib/mac/app/notarize_check.sh": [],
+    "contrib/mac/app/renotarize_dmg.sh": []
+  }
+}

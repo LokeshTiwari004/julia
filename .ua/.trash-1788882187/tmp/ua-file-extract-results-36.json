@@ -1,0 +1,43 @@
+{
+  "scriptCompleted": true,
+  "filesAnalyzed": 0,
+  "filesSkipped": [
+    "base/cpuid.jl",
+    "base/ctypes.jl",
+    "base/deepcopy.jl",
+    "base/deprecated.jl",
+    "base/dict.jl",
+    "base/div.jl",
+    "base/docs/Docs.jl",
+    "base/docs/basedocs.jl",
+    "base/docs/bindings.jl",
+    "base/docs/core.jl",
+    "base/docs/intrinsicsdocs.jl",
+    "base/docs/utils.jl",
+    "base/download.jl",
+    "base/env.jl",
+    "base/error.jl",
+    "base/errorshow.jl",
+    "base/essentials.jl",
+    "base/experimental.jl",
+    "base/exports.jl",
+    "base/expr.jl",
+    "base/fastmath.jl",
+    "base/file.jl",
+    "base/filesystem.jl",
+    "base/flfrontend.jl",
+    "base/float.jl"
+  ],
+  "analysisOutcomes": {
+    "structure": {
+      "succeeded": 0,
+      "failed": 0
+    },
+    "callGraph": {
+      "succeeded": 0,
+      "failed": 0,
+      "skipped": 0
+    }
+  },
+  "results": []
+}

@@ -1,0 +1,314 @@
+{
+  "scriptCompleted": true,
+  "filesAnalyzed": 8,
+  "filesSkipped": [
+    "stdlib/REPL/src/latex_symbols.jl",
+    "stdlib/REPL/src/options.jl",
+    "stdlib/REPL/src/precompile.jl",
+    "stdlib/Random/src/DSFMT.jl",
+    "stdlib/Random/src/MersenneTwister.jl",
+    "stdlib/Random/src/RNGs.jl",
+    "stdlib/Random/src/Random.jl",
+    "stdlib/Random/src/Xoshiro.jl",
+    "stdlib/Random/src/XoshiroSimd.jl",
+    "stdlib/Random/src/generation.jl",
+    "stdlib/Random/src/misc.jl",
+    "stdlib/Random/src/normal.jl",
+    "stdlib/SHA.version",
+    "stdlib/Serialization/src/Serialization.jl",
+    "stdlib/SharedArrays/src/SharedArrays.jl",
+    "stdlib/Sockets/src/IPAddr.jl",
+    "stdlib/Sockets/src/PipeServer.jl"
+  ],
+  "analysisOutcomes": {
+    "structure": {
+      "succeeded": 8,
+      "failed": 0
+    },
+    "callGraph": {
+      "succeeded": 0,
+      "failed": 0,
+      "skipped": 8
+    }
+  },
+  "results": [
+    {
+      "path": "stdlib/Random/Project.toml",
+      "language": "toml",
+      "fileCategory": "config",
+      "totalLines": 15,
+      "nonEmptyLines": 12,
+      "sections": [
+        {
+          "heading": "deps",
+          "level": 1,
+          "line": 5
+        },
+        {
+          "heading": "extras",
+          "level": 1,
+          "line": 8
+        },
+        {
+          "heading": "targets",
+          "level": 1,
+          "line": 14
+        }
+      ],
+      "metrics": {
+        "importCount": 0,
+        "exportCount": 0,
+        "functionCount": 0,
+        "classCount": 0,
+        "sectionCount": 3
+      }
+    },
+    {
+      "path": "stdlib/Random/docs/src/index.md",
+      "language": "markdown",
+      "fileCategory": "docs",
+      "totalLines": 372,
+      "nonEmptyLines": 276,
+      "sections": [
+        {
+          "heading": "[Random](@id Random-Numbers)",
+          "level": 1,
+          "line": 5
+        },
+        {
+          "heading": "Random numbers module",
+          "level": 2,
+          "line": 45
+        },
+        {
+          "heading": "Random generation functions",
+          "level": 2,
+          "line": 50
+        },
+        {
+          "heading": "Subsequences, permutations and shuffling",
+          "level": 2,
+          "line": 63
+        },
+        {
+          "heading": "Generators (creation and seeding)",
+          "level": 2,
+          "line": 76
+        },
+        {
+          "heading": "[Hooking into the `Random` API](@id rand-api-hook)",
+          "level": 2,
+          "line": 88
+        },
+        {
+          "heading": "Generating random values of custom types",
+          "level": 3,
+          "line": 100
+        },
+        {
+          "heading": "Generating values from a type",
+          "level": 4,
+          "line": 143
+        },
+        {
+          "heading": "A simple sampler without pre-computed data",
+          "level": 4,
+          "line": 182
+        },
+        {
+          "heading": "Generating values for an `AbstractFloat` type",
+          "level": 4,
+          "line": 203
+        },
+        {
+          "heading": "An optimized sampler with pre-computed data",
+          "level": 4,
+          "line": 207
+        },
+        {
+          "heading": "Custom sampler types",
+          "level": 4,
+          "line": 233
+        },
+        {
+          "heading": "Using distinct algorithms for scalar or array generation",
+          "level": 4,
+          "line": 281
+        },
+        {
+          "heading": "Creating new generators",
+          "level": 3,
+          "line": 300
+        },
+        {
+          "heading": "Specializing array generation",
+          "level": 4,
+          "line": 329
+        },
+        {
+          "heading": "Reproducibility",
+          "level": 1,
+          "line": 349
+        }
+      ],
+      "metrics": {
+        "importCount": 0,
+        "exportCount": 0,
+        "functionCount": 0,
+        "classCount": 0,
+        "sectionCount": 16
+      }
+    },
+    {
+      "path": "stdlib/Serialization/Project.toml",
+      "language": "toml",
+      "fileCategory": "config",
+      "totalLines": 11,
+      "nonEmptyLines": 9,
+      "sections": [
+        {
+          "heading": "extras",
+          "level": 1,
+          "line": 5
+        },
+        {
+          "heading": "targets",
+          "level": 1,
+          "line": 10
+        }
+      ],
+      "metrics": {
+        "importCount": 0,
+        "exportCount": 0,
+        "functionCount": 0,
+        "classCount": 0,
+        "sectionCount": 2
+      }
+    },
+    {
+      "path": "stdlib/Serialization/docs/src/index.md",
+      "language": "markdown",
+      "fileCategory": "docs",
+      "totalLines": 25,
+      "nonEmptyLines": 18,
+      "sections": [
+        {
+          "heading": "Serialization",
+          "level": 1,
+          "line": 5
+        },
+        {
+          "heading": "Recommended File Extension",
+          "level": 3,
+          "line": 15
+        }
+      ],
+      "metrics": {
+        "importCount": 0,
+        "exportCount": 0,
+        "functionCount": 0,
+        "classCount": 0,
+        "sectionCount": 2
+      }
+    },
+    {
+      "path": "stdlib/SharedArrays/Project.toml",
+      "language": "toml",
+      "fileCategory": "config",
+      "totalLines": 15,
+      "nonEmptyLines": 12,
+      "sections": [
+        {
+          "heading": "deps",
+          "level": 1,
+          "line": 5
+        },
+        {
+          "heading": "extras",
+          "level": 1,
+          "line": 11
+        },
+        {
+          "heading": "targets",
+          "level": 1,
+          "line": 14
+        }
+      ],
+      "metrics": {
+        "importCount": 0,
+        "exportCount": 0,
+        "functionCount": 0,
+        "classCount": 0,
+        "sectionCount": 3
+      }
+    },
+    {
+      "path": "stdlib/SharedArrays/docs/src/index.md",
+      "language": "markdown",
+      "fileCategory": "docs",
+      "totalLines": 19,
+      "nonEmptyLines": 16,
+      "sections": [
+        {
+          "heading": "SharedArrays",
+          "level": 1,
+          "line": 5
+        }
+      ],
+      "metrics": {
+        "importCount": 0,
+        "exportCount": 0,
+        "functionCount": 0,
+        "classCount": 0,
+        "sectionCount": 1
+      }
+    },
+    {
+      "path": "stdlib/Sockets/Project.toml",
+      "language": "toml",
+      "fileCategory": "config",
+      "totalLines": 10,
+      "nonEmptyLines": 8,
+      "sections": [
+        {
+          "heading": "extras",
+          "level": 1,
+          "line": 5
+        },
+        {
+          "heading": "targets",
+          "level": 1,
+          "line": 9
+        }
+      ],
+      "metrics": {
+        "importCount": 0,
+        "exportCount": 0,
+        "functionCount": 0,
+        "classCount": 0,
+        "sectionCount": 2
+      }
+    },
+    {
+      "path": "stdlib/Sockets/docs/src/index.md",
+      "language": "markdown",
+      "fileCategory": "docs",
+      "totalLines": 37,
+      "nonEmptyLines": 35,
+      "sections": [
+        {
+          "heading": "Sockets",
+          "level": 1,
+          "line": 5
+        }
+      ],
+      "metrics": {
+        "importCount": 0,
+        "exportCount": 0,
+        "functionCount": 0,
+        "classCount": 0,
+        "sectionCount": 1
+      }
+    }
+  ]
+}

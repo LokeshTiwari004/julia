@@ -1,0 +1,28 @@
+{
+  "projectRoot": "/home/maruti/julia",
+  "batchFiles": [
+    {
+      "path": "contrib/mac/frameworkapp/Makefile",
+      "language": "makefile",
+      "sizeLines": 124,
+      "fileCategory": "infra"
+    },
+    {
+      "path": "contrib/mac/frameworkapp/README.md",
+      "language": "markdown",
+      "sizeLines": 26,
+      "fileCategory": "docs"
+    },
+    {
+      "path": "contrib/mac/frameworkapp/framework-component.plist",
+      "language": "xml",
+      "sizeLines": 18,
+      "fileCategory": "config"
+    }
+  ],
+  "batchImportData": {
+    "contrib/mac/frameworkapp/Makefile": [],
+    "contrib/mac/frameworkapp/README.md": [],
+    "contrib/mac/frameworkapp/framework-component.plist": []
+  }
+}

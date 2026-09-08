@@ -1,0 +1,182 @@
+{
+  "projectRoot": "/home/maruti/julia",
+  "batchFiles": [
+    {
+      "path": "JuliaLowering/src/utils.jl",
+      "language": "jl",
+      "sizeLines": 397,
+      "fileCategory": "code"
+    },
+    {
+      "path": "JuliaLowering/src/validation.jl",
+      "language": "jl",
+      "sizeLines": 1392,
+      "fileCategory": "code"
+    },
+    {
+      "path": "JuliaSyntax/.mailmap",
+      "language": "unknown",
+      "sizeLines": 2,
+      "fileCategory": "code"
+    },
+    {
+      "path": "JuliaSyntax/docs/Manifest.toml",
+      "language": "toml",
+      "sizeLines": 254,
+      "fileCategory": "config"
+    },
+    {
+      "path": "JuliaSyntax/docs/Project.toml",
+      "language": "toml",
+      "sizeLines": 5,
+      "fileCategory": "config"
+    },
+    {
+      "path": "JuliaSyntax/docs/make.jl",
+      "language": "jl",
+      "sizeLines": 26,
+      "fileCategory": "code"
+    },
+    {
+      "path": "JuliaSyntax/prototypes/simple_parser.jl",
+      "language": "jl",
+      "sizeLines": 174,
+      "fileCategory": "code"
+    },
+    {
+      "path": "JuliaSyntax/prototypes/syntax_interpolation.jl",
+      "language": "jl",
+      "sizeLines": 56,
+      "fileCategory": "code"
+    },
+    {
+      "path": "JuliaSyntax/src/JuliaSyntax.jl",
+      "language": "jl",
+      "sizeLines": 112,
+      "fileCategory": "code"
+    },
+    {
+      "path": "JuliaSyntax/src/core/diagnostics.jl",
+      "language": "jl",
+      "sizeLines": 110,
+      "fileCategory": "code"
+    },
+    {
+      "path": "JuliaSyntax/src/core/parse_stream.jl",
+      "language": "jl",
+      "sizeLines": 1002,
+      "fileCategory": "code"
+    },
+    {
+      "path": "JuliaSyntax/src/core/source_files.jl",
+      "language": "jl",
+      "sizeLines": 391,
+      "fileCategory": "code"
+    },
+    {
+      "path": "JuliaSyntax/src/core/tree_cursors.jl",
+      "language": "jl",
+      "sizeLines": 175,
+      "fileCategory": "code"
+    },
+    {
+      "path": "JuliaSyntax/src/integration/expr.jl",
+      "language": "jl",
+      "sizeLines": 716,
+      "fileCategory": "code"
+    },
+    {
+      "path": "JuliaSyntax/src/integration/hooks.jl",
+      "language": "jl",
+      "sizeLines": 431,
+      "fileCategory": "code"
+    },
+    {
+      "path": "JuliaSyntax/src/julia/julia_parse_stream.jl",
+      "language": "jl",
+      "sizeLines": 304,
+      "fileCategory": "code"
+    },
+    {
+      "path": "JuliaSyntax/src/julia/kinds.jl",
+      "language": "jl",
+      "sizeLines": 700,
+      "fileCategory": "code"
+    },
+    {
+      "path": "JuliaSyntax/src/julia/literal_parsing.jl",
+      "language": "jl",
+      "sizeLines": 475,
+      "fileCategory": "code"
+    },
+    {
+      "path": "JuliaSyntax/src/julia/parser.jl",
+      "language": "jl",
+      "sizeLines": 3836,
+      "fileCategory": "code"
+    },
+    {
+      "path": "JuliaSyntax/src/julia/parser_api.jl",
+      "language": "jl",
+      "sizeLines": 223,
+      "fileCategory": "code"
+    },
+    {
+      "path": "JuliaSyntax/src/julia/tokenize.jl",
+      "language": "jl",
+      "sizeLines": 1320,
+      "fileCategory": "code"
+    },
+    {
+      "path": "JuliaSyntax/src/porcelain/green_node.jl",
+      "language": "jl",
+      "sizeLines": 175,
+      "fileCategory": "code"
+    },
+    {
+      "path": "JuliaSyntax/src/porcelain/syntax.jl",
+      "language": "jl",
+      "sizeLines": 1437,
+      "fileCategory": "code"
+    },
+    {
+      "path": "JuliaSyntax/src/porcelain/syntax_node.jl",
+      "language": "jl",
+      "sizeLines": 347,
+      "fileCategory": "code"
+    },
+    {
+      "path": "JuliaSyntax/src/precompile.jl",
+      "language": "jl",
+      "sizeLines": 12,
+      "fileCategory": "code"
+    }
+  ],
+  "batchImportData": {
+    "JuliaLowering/src/utils.jl": [],
+    "JuliaLowering/src/validation.jl": [],
+    "JuliaSyntax/.mailmap": [],
+    "JuliaSyntax/docs/Manifest.toml": [],
+    "JuliaSyntax/docs/Project.toml": [],
+    "JuliaSyntax/docs/make.jl": [],
+    "JuliaSyntax/prototypes/simple_parser.jl": [],
+    "JuliaSyntax/prototypes/syntax_interpolation.jl": [],
+    "JuliaSyntax/src/JuliaSyntax.jl": [],
+    "JuliaSyntax/src/core/diagnostics.jl": [],
+    "JuliaSyntax/src/core/parse_stream.jl": [],
+    "JuliaSyntax/src/core/source_files.jl": [],
+    "JuliaSyntax/src/core/tree_cursors.jl": [],
+    "JuliaSyntax/src/integration/expr.jl": [],
+    "JuliaSyntax/src/integration/hooks.jl": [],
+    "JuliaSyntax/src/julia/julia_parse_stream.jl": [],
+    "JuliaSyntax/src/julia/kinds.jl": [],
+    "JuliaSyntax/src/julia/literal_parsing.jl": [],
+    "JuliaSyntax/src/julia/parser.jl": [],
+    "JuliaSyntax/src/julia/parser_api.jl": [],
+    "JuliaSyntax/src/julia/tokenize.jl": [],
+    "JuliaSyntax/src/porcelain/green_node.jl": [],
+    "JuliaSyntax/src/porcelain/syntax.jl": [],
+    "JuliaSyntax/src/porcelain/syntax_node.jl": [],
+    "JuliaSyntax/src/precompile.jl": []
+  }
+}

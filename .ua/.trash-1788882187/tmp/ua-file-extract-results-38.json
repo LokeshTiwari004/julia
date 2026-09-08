@@ -1,0 +1,43 @@
+{
+  "scriptCompleted": true,
+  "filesAnalyzed": 0,
+  "filesSkipped": [
+    "base/locks-mt.jl",
+    "base/logging/ConsoleLogger.jl",
+    "base/logging/logging.jl",
+    "base/math.jl",
+    "base/mathconstants.jl",
+    "base/meta.jl",
+    "base/methodshow.jl",
+    "base/missing.jl",
+    "base/module.jl",
+    "base/mpfr.jl",
+    "base/multidimensional.jl",
+    "base/multimedia.jl",
+    "base/multinverses.jl",
+    "base/namedtuple.jl",
+    "base/ntuple.jl",
+    "base/number.jl",
+    "base/opaque_closure.jl",
+    "base/operators.jl",
+    "base/optimized_generics.jl",
+    "base/options.jl",
+    "base/ordering.jl",
+    "base/osinfo.jl",
+    "base/osutils.jl",
+    "base/pair.jl",
+    "base/park.jl"
+  ],
+  "analysisOutcomes": {
+    "structure": {
+      "succeeded": 0,
+      "failed": 0
+    },
+    "callGraph": {
+      "succeeded": 0,
+      "failed": 0,
+      "skipped": 0
+    }
+  },
+  "results": []
+}

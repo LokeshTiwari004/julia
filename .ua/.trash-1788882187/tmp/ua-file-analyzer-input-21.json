@@ -1,0 +1,28 @@
+{
+  "projectRoot": "/home/maruti/julia",
+  "batchFiles": [
+    {
+      "path": "contrib/tsan/build.sh",
+      "language": "shell",
+      "sizeLines": 75,
+      "fileCategory": "script"
+    },
+    {
+      "path": "contrib/tsan/ignorelist.txt",
+      "language": "txt",
+      "sizeLines": 1,
+      "fileCategory": "docs"
+    },
+    {
+      "path": "contrib/tsan/suppressions.txt",
+      "language": "txt",
+      "sizeLines": 1,
+      "fileCategory": "docs"
+    }
+  ],
+  "batchImportData": {
+    "contrib/tsan/build.sh": [],
+    "contrib/tsan/ignorelist.txt": [],
+    "contrib/tsan/suppressions.txt": []
+  }
+}

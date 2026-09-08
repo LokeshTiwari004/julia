@@ -1,0 +1,182 @@
+{
+  "projectRoot": "/home/maruti/julia",
+  "batchFiles": [
+    {
+      "path": "doc/src/assets/preamble.tex",
+      "language": "tex",
+      "sizeLines": 48,
+      "fileCategory": "code"
+    },
+    {
+      "path": "doc/src/devdocs/agents/README.md",
+      "language": "markdown",
+      "sizeLines": 21,
+      "fileCategory": "docs"
+    },
+    {
+      "path": "doc/src/devdocs/agents/skills/buildkite-logs/SKILL.md",
+      "language": "markdown",
+      "sizeLines": 67,
+      "fileCategory": "docs"
+    },
+    {
+      "path": "doc/src/devdocs/agents/skills/c-static-analysis/SKILL.md",
+      "language": "markdown",
+      "sizeLines": 51,
+      "fileCategory": "docs"
+    },
+    {
+      "path": "doc/src/devdocs/agents/skills/ci-timing/SKILL.md",
+      "language": "markdown",
+      "sizeLines": 31,
+      "fileCategory": "docs"
+    },
+    {
+      "path": "doc/src/devdocs/agents/skills/compiler-jl/SKILL.md",
+      "language": "markdown",
+      "sizeLines": 97,
+      "fileCategory": "docs"
+    },
+    {
+      "path": "doc/src/devdocs/agents/skills/doctests/SKILL.md",
+      "language": "markdown",
+      "sizeLines": 26,
+      "fileCategory": "docs"
+    },
+    {
+      "path": "doc/src/devdocs/agents/skills/external-deps/SKILL.md",
+      "language": "markdown",
+      "sizeLines": 28,
+      "fileCategory": "docs"
+    },
+    {
+      "path": "doc/src/devdocs/agents/skills/julia-syntax-lowering/SKILL.md",
+      "language": "markdown",
+      "sizeLines": 85,
+      "fileCategory": "docs"
+    },
+    {
+      "path": "doc/src/devdocs/agents/skills/test-changes/SKILL.md",
+      "language": "markdown",
+      "sizeLines": 19,
+      "fileCategory": "docs"
+    },
+    {
+      "path": "doc/src/devdocs/scheduler-wakeup/MCFixed.cfg",
+      "language": "config",
+      "sizeLines": 5,
+      "fileCategory": "config"
+    },
+    {
+      "path": "doc/src/devdocs/scheduler-wakeup/MCFixed.tla",
+      "language": "tla",
+      "sizeLines": 17,
+      "fileCategory": "code"
+    },
+    {
+      "path": "doc/src/devdocs/scheduler-wakeup/SchedulerWake.tla",
+      "language": "tla",
+      "sizeLines": 190,
+      "fileCategory": "code"
+    },
+    {
+      "path": "doc/src/devdocs/ub.md",
+      "language": "markdown",
+      "sizeLines": 76,
+      "fileCategory": "docs"
+    },
+    {
+      "path": "doc/src/devdocs/valgrind.md",
+      "language": "markdown",
+      "sizeLines": 92,
+      "fileCategory": "docs"
+    },
+    {
+      "path": "doc/src/index.md",
+      "language": "markdown",
+      "sizeLines": 127,
+      "fileCategory": "docs"
+    },
+    {
+      "path": "doc/src/manual/workflow-tips.md",
+      "language": "markdown",
+      "sizeLines": 118,
+      "fileCategory": "docs"
+    },
+    {
+      "path": "doc/src/manual/worldage.md",
+      "language": "markdown",
+      "sizeLines": 295,
+      "fileCategory": "docs"
+    },
+    {
+      "path": "etc/startup.jl",
+      "language": "jl",
+      "sizeLines": 2,
+      "fileCategory": "code"
+    },
+    {
+      "path": "pkgimage.mk",
+      "language": "mk",
+      "sizeLines": 38,
+      "fileCategory": "code"
+    },
+    {
+      "path": "src/.clang-tidy",
+      "language": "unknown",
+      "sizeLines": 2,
+      "fileCategory": "code"
+    },
+    {
+      "path": "src/Makefile",
+      "language": "makefile",
+      "sizeLines": 949,
+      "fileCategory": "infra"
+    },
+    {
+      "path": "src/ast.scm",
+      "language": "scm",
+      "sizeLines": 568,
+      "fileCategory": "code"
+    },
+    {
+      "path": "src/bin2hex.scm",
+      "language": "scm",
+      "sizeLines": 14,
+      "fileCategory": "code"
+    },
+    {
+      "path": "src/cgutils.cpp",
+      "language": "cpp",
+      "sizeLines": 5315,
+      "fileCategory": "code"
+    }
+  ],
+  "batchImportData": {
+    "doc/src/assets/preamble.tex": [],
+    "doc/src/devdocs/agents/README.md": [],
+    "doc/src/devdocs/agents/skills/buildkite-logs/SKILL.md": [],
+    "doc/src/devdocs/agents/skills/c-static-analysis/SKILL.md": [],
+    "doc/src/devdocs/agents/skills/ci-timing/SKILL.md": [],
+    "doc/src/devdocs/agents/skills/compiler-jl/SKILL.md": [],
+    "doc/src/devdocs/agents/skills/doctests/SKILL.md": [],
+    "doc/src/devdocs/agents/skills/external-deps/SKILL.md": [],
+    "doc/src/devdocs/agents/skills/julia-syntax-lowering/SKILL.md": [],
+    "doc/src/devdocs/agents/skills/test-changes/SKILL.md": [],
+    "doc/src/devdocs/scheduler-wakeup/MCFixed.cfg": [],
+    "doc/src/devdocs/scheduler-wakeup/MCFixed.tla": [],
+    "doc/src/devdocs/scheduler-wakeup/SchedulerWake.tla": [],
+    "doc/src/devdocs/ub.md": [],
+    "doc/src/devdocs/valgrind.md": [],
+    "doc/src/index.md": [],
+    "doc/src/manual/workflow-tips.md": [],
+    "doc/src/manual/worldage.md": [],
+    "etc/startup.jl": [],
+    "pkgimage.mk": [],
+    "src/.clang-tidy": [],
+    "src/Makefile": [],
+    "src/ast.scm": [],
+    "src/bin2hex.scm": [],
+    "src/cgutils.cpp": []
+  }
+}

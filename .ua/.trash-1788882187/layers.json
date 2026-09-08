@@ -1,0 +1,210 @@
+{
+  "project": "Julia",
+  "rootPath": "/home/maruti/julia",
+  "layers": [
+    {
+      "id": "layer:runtime",
+      "name": "Runtime / Platform Layer",
+      "description": "Core C/C++ runtime implementing garbage collection, threading, JIT compilation, LLVM codegen, and low-level system interfaces. This is the foundation that executes Julia code.",
+      "path": "src/",
+      "type": "runtime",
+      "languages": ["C", "C++", "Scheme (flisp)"],
+      "keyComponents": [
+        "Garbage Collector (gc-*.c, gc-mmtk/)",
+        "JIT Compiler (codegen.cpp, jitlayers.cpp, pipeline.cpp)",
+        "Type System (jltypes.c, subtype.c, datatype.c)",
+        "Method Dispatch (gf.c, method.c)",
+        "Task/Thread Runtime (task.c, scheduler.c, threading.c)",
+        "LLVM Passes (llvm-*.cpp, passes.h)",
+        "Builtins & Intrinsics (builtins.c, intrinsics.cpp)",
+        "Dynamic Loading (dlload.c, jl_uv.c)",
+        "Signal Handling (signal-handling.c, signals-*.c)"
+      ],
+      "dependencies": ["layer:support"],
+      "tags": ["runtime", "core", "gc", "jit", "llvm", "threading"]
+    },
+    {
+      "id": "layer:support",
+      "name": "Support Library",
+      "description": "Platform-agnostic utilities and abstractions used by the runtime. Provides hashing, I/O streams, string processing, platform detection, and data structures.",
+      "path": "src/support/",
+      "type": "library",
+      "languages": ["C"],
+      "keyComponents": [
+        "Platform Abstraction (platform.h)",
+        "Hashing (strhash.h, ptrhash.h, MurmurHash3.c)",
+        "I/O Streams (ios.h, ios.c)",
+        "String Parsing (strptime.c, strtod.c)",
+        "Data Structures (htable.c, arraylist.c, bitvector.c)",
+        "UTF-8 Processing (utf8.c)",
+        "Time Functions (timefuncs.c)"
+      ],
+      "dependencies": [],
+      "tags": ["support", "platform", "hashing", "io", "utils"]
+    },
+    {
+      "id": "layer:cli",
+      "name": "CLI / Loader Layer",
+      "description": "Command-line entry point, dynamic library loader, and symbol trampolines. Handles process initialization, library loading, and exports Julia's C API.",
+      "path": "cli/",
+      "type": "executable",
+      "languages": ["C"],
+      "keyComponents": [
+        "Main Entry Point (loader_exe.c)",
+        "Dynamic Loader (loader_lib.c, loader_library_probe.c, loader_symbol_probe.c)",
+        "Exported Symbols (jl_exports.h, jl_exported_funcs.inc, jl_exported_data.inc)",
+        "Trampolines (trampolines/)"
+      ],
+      "dependencies": ["layer:runtime", "layer:support"],
+      "tags": ["cli", "loader", "entry-point", "exports"]
+    },
+    {
+      "id": "layer:compiler",
+      "name": "Compiler Layer (Compiler.jl)",
+      "description": "Julia's compiler written in Julia. Handles type inference, optimization, SSA IR generation, and code generation. Can be swapped as a separate module.",
+      "path": "Compiler/src/",
+      "type": "compiler",
+      "languages": ["Julia"],
+      "keyComponents": [
+        "Type Inference (typeinfer.jl, abstractinterpretation.jl)",
+        "Optimization (optimize.jl, tfuncs.jl)",
+        "SSA IR (ssair/)",
+        "Method Tables (methodtable.jl)",
+        "Effects System (effects.jl)",
+        "Precompilation (precompile.jl)",
+        "Validation & Verification (validation.jl, verifytrim.jl)"
+      ],
+      "dependencies": ["layer:runtime", "layer:base"],
+      "tags": ["compiler", "type-inference", "optimization", "ssa", "julia"]
+    },
+    {
+      "id": "layer:parser",
+      "name": "Parser / Syntax Layer (JuliaSyntax)",
+      "description": "Modern Julia parser implemented in Julia. Produces lossless syntax trees with source location information. Replaces the legacy flisp parser.",
+      "path": "JuliaSyntax/src/",
+      "type": "parser",
+      "languages": ["Julia"],
+      "keyComponents": [
+        "Lexer/Tokenizer",
+        "Parser",
+        "Syntax Trees (CST/AST)",
+        "Source Location Tracking"
+      ],
+      "dependencies": ["layer:base"],
+      "tags": ["parser", "syntax", "juliasyntax", "cst"]
+    },
+    {
+      "id": "layer:lowering",
+      "name": "Lowering Layer (JuliaLowering)",
+      "description": "Lowers high-level AST to compiler IR (SSA). Bridges the parser output to the compiler's internal representation.",
+      "path": "JuliaLowering/src/",
+      "type": "lowering",
+      "languages": ["Julia"],
+      "keyComponents": [
+        "AST Lowering",
+        "IR Generation"
+      ],
+      "dependencies": ["layer:parser", "layer:compiler"],
+      "tags": ["lowering", "ast", "ir", "julialowering"]
+    },
+    {
+      "id": "layer:base",
+      "name": "Base Library",
+      "description": "Core standard library loaded at startup. Provides fundamental types, collections, I/O, math, reflection, and language primitives. Written in Julia.",
+      "path": "base/",
+      "type": "stdlib",
+      "languages": ["Julia"],
+      "keyComponents": [
+        "Core Types (boot.jl, number.jl, complex.jl, rational.jl)",
+        "Collections (array.jl, dict.jl, set.jl, tuple.jl)",
+        "I/O (io.jl, stream.jl, file.jl)",
+        "Math (math.jl, float.jl, intfuncs.jl, gmp.jl, mpfr.jl)",
+        "Reflection (reflection.jl, expr.jl, meta.jl)",
+        "Tasks & Concurrency (task.jl, channels.jl, threadingconstructs.jl)",
+        "Loading & Compilation (loading.jl, precompilation.jl)",
+        "Strings (strings/, regex.jl)",
+        "System Interface (libc.jl, libdl.jl, libuv.jl, process.jl)"
+      ],
+      "dependencies": ["layer:runtime"],
+      "tags": ["base", "stdlib", "core", "collections", "io", "math", "reflection"]
+    },
+    {
+      "id": "layer:stdlib",
+      "name": "Standard Library Packages",
+      "description": "Independent standard library packages that can be loaded on demand. Each is a separate Julia package with its own versioning.",
+      "path": "stdlib/",
+      "type": "stdlib",
+      "languages": ["Julia"],
+      "keyComponents": [
+        "Artifacts, Base64, CRC32c, Dates",
+        "Distributed, Downloads, FileWatching",
+        "InteractiveUtils, LibGit2, Libdl",
+        "LinearAlgebra, Logging, Markdown",
+        "Mmap, Pkg, Printf, Profile",
+        "Random, REPL, Serialization",
+        "SharedArrays, Sockets, SparseArrays",
+        "Statistics, Test, TOML, UUIDs, Unicode",
+        "JLL Wrappers (LLVM, OpenBLAS, PCRE2, etc.)"
+      ],
+      "dependencies": ["layer:base"],
+      "tags": ["stdlib", "packages", "jll", "optional"]
+    },
+    {
+      "id": "layer:docs",
+      "name": "Documentation",
+      "description": "User manual, developer documentation, and API references. Built with Documenter.jl.",
+      "path": "doc/",
+      "type": "documentation",
+      "languages": ["Markdown", "Julia"],
+      "keyComponents": [
+        "User Manual (doc/src/)",
+        "Developer Docs (doc/src/devdocs/)",
+        "API Reference",
+        "Build Script (doc/make.jl)"
+      ],
+      "dependencies": ["layer:base", "layer:stdlib"],
+      "tags": ["docs", "documentation", "manual", "devdocs"]
+    },
+    {
+      "id": "layer:tests",
+      "name": "Test Suite",
+      "description": "Comprehensive test suite covering runtime, base library, standard libraries, compiler, parser, and integration tests.",
+      "path": "test/",
+      "type": "test",
+      "languages": ["Julia", "C"],
+      "keyComponents": [
+        "Core Tests (core.jl, syntax.jl, subtype.jl)",
+        "Runtime Tests (gc/, llvmpasses/, clangsa/)",
+        "Base Library Tests (arrayops.jl, broadcast.jl, etc.)",
+        "Stdlib Tests (per-package test dirs)",
+        "Compiler Tests (inference, optimization)",
+        "Integration Tests (embedding, netload, project/)"
+      ],
+      "dependencies": ["layer:runtime", "layer:base", "layer:stdlib", "layer:compiler", "layer:parser", "layer:lowering"],
+      "tags": ["test", "testing", "ci", "integration"]
+    },
+    {
+      "id": "layer:build",
+      "name": "Build System & Tooling",
+      "description": "Build configuration, dependency management, CI tooling, and development scripts.",
+      "path": ".",
+      "type": "build",
+      "languages": ["Make", "Shell", "Python", "Julia"],
+      "keyComponents": [
+        "Makefile (root, src/, base/, stdlib/)",
+        "Dependencies (deps/, *.jll packages)",
+        "CI Scripts (contrib/ci-timing/, .github/)",
+        "Release Tooling (contrib/*.sh)",
+        "Configuration (Make.inc, sysimage.mk, pkgimage.mk)"
+      ],
+      "dependencies": [],
+      "tags": ["build", "make", "ci", "deps", "tooling"]
+    }
+  ],
+  "summary": {
+    "totalLayers": 10,
+    "primaryLanguages": ["Julia", "C", "C++", "Scheme"],
+    "architecture": "Layered: Runtime (C/C++) -> Support -> CLI -> Compiler/Parser/Lowering (Julia) -> Base -> Stdlib -> Docs/Tests/Build",
+    "notes": "Julia uses a unique architecture where the compiler, parser, and lowering are written in Julia itself (bootstrapped). The C/C++ runtime provides the execution substrate. Base library is the minimal core loaded at startup; stdlib packages are optional add-ons."
+  }
+}

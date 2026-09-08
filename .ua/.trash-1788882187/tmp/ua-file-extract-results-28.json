@@ -1,0 +1,766 @@
+{
+  "scriptCompleted": true,
+  "filesAnalyzed": 3,
+  "filesSkipped": [],
+  "analysisOutcomes": {
+    "structure": {
+      "succeeded": 3,
+      "failed": 0
+    },
+    "callGraph": {
+      "succeeded": 0,
+      "failed": 0,
+      "skipped": 3
+    }
+  },
+  "results": [
+    {
+      "path": "stdlib/Makefile",
+      "language": "makefile",
+      "fileCategory": "infra",
+      "totalLines": 89,
+      "nonEmptyLines": 70,
+      "steps": [
+        {
+          "name": "default",
+          "startLine": 1,
+          "endLine": 2
+        },
+        {
+          "name": "get-MozillaCACerts_jll",
+          "startLine": 27,
+          "endLine": 27
+        },
+        {
+          "name": "install-MozillaCACerts_jll",
+          "startLine": 28,
+          "endLine": 29
+        },
+        {
+          "name": "remove-gpl-libs",
+          "startLine": 64,
+          "endLine": 64
+        },
+        {
+          "name": "getall",
+          "startLine": 74,
+          "endLine": 75
+        },
+        {
+          "name": "install",
+          "startLine": 76,
+          "endLine": 76
+        },
+        {
+          "name": "version-check",
+          "startLine": 78,
+          "endLine": 78
+        },
+        {
+          "name": "uninstall",
+          "startLine": 79,
+          "endLine": 79
+        },
+        {
+          "name": "extstdlibclean",
+          "startLine": 80,
+          "endLine": 83
+        },
+        {
+          "name": "clean",
+          "startLine": 84,
+          "endLine": 84
+        },
+        {
+          "name": "distclean",
+          "startLine": 85,
+          "endLine": 85
+        },
+        {
+          "name": "checksumall",
+          "startLine": 86,
+          "endLine": 87
+        }
+      ],
+      "metrics": {
+        "importCount": 0,
+        "exportCount": 0,
+        "functionCount": 0,
+        "classCount": 0,
+        "stepCount": 12
+      }
+    },
+    {
+      "path": "stdlib/Manifest.toml",
+      "language": "toml",
+      "fileCategory": "config",
+      "totalLines": 502,
+      "nonEmptyLines": 374,
+      "sections": [
+        {
+          "heading": "[[deps.ArgTools]]",
+          "level": 2,
+          "line": 7
+        },
+        {
+          "heading": "deps.ArgTools.syntax",
+          "level": 3,
+          "line": 11
+        },
+        {
+          "heading": "[[deps.Artifacts]]",
+          "level": 2,
+          "line": 14
+        },
+        {
+          "heading": "deps.Artifacts.syntax",
+          "level": 3,
+          "line": 18
+        },
+        {
+          "heading": "[[deps.Base64]]",
+          "level": 2,
+          "line": 21
+        },
+        {
+          "heading": "deps.Base64.syntax",
+          "level": 3,
+          "line": 25
+        },
+        {
+          "heading": "[[deps.CRC32c]]",
+          "level": 2,
+          "line": 28
+        },
+        {
+          "heading": "deps.CRC32c.syntax",
+          "level": 3,
+          "line": 32
+        },
+        {
+          "heading": "[[deps.CompilerSupportLibraries_jll]]",
+          "level": 2,
+          "line": 35
+        },
+        {
+          "heading": "deps.CompilerSupportLibraries_jll.syntax",
+          "level": 3,
+          "line": 40
+        },
+        {
+          "heading": "[[deps.Dates]]",
+          "level": 2,
+          "line": 43
+        },
+        {
+          "heading": "deps.Dates.syntax",
+          "level": 3,
+          "line": 48
+        },
+        {
+          "heading": "[[deps.DelimitedFiles]]",
+          "level": 2,
+          "line": 51
+        },
+        {
+          "heading": "deps.DelimitedFiles.syntax",
+          "level": 3,
+          "line": 58
+        },
+        {
+          "heading": "[[deps.Distributed]]",
+          "level": 2,
+          "line": 61
+        },
+        {
+          "heading": "deps.Distributed.syntax",
+          "level": 3,
+          "line": 66
+        },
+        {
+          "heading": "[[deps.Downloads]]",
+          "level": 2,
+          "line": 69
+        },
+        {
+          "heading": "deps.Downloads.syntax",
+          "level": 3,
+          "line": 74
+        },
+        {
+          "heading": "[[deps.FileWatching]]",
+          "level": 2,
+          "line": 77
+        },
+        {
+          "heading": "deps.FileWatching.syntax",
+          "level": 3,
+          "line": 81
+        },
+        {
+          "heading": "[[deps.Future]]",
+          "level": 2,
+          "line": 84
+        },
+        {
+          "heading": "deps.Future.syntax",
+          "level": 3,
+          "line": 89
+        },
+        {
+          "heading": "[[deps.GMP_jll]]",
+          "level": 2,
+          "line": 92
+        },
+        {
+          "heading": "deps.GMP_jll.syntax",
+          "level": 3,
+          "line": 97
+        },
+        {
+          "heading": "[[deps.InteractiveUtils]]",
+          "level": 2,
+          "line": 100
+        },
+        {
+          "heading": "deps.InteractiveUtils.syntax",
+          "level": 3,
+          "line": 105
+        },
+        {
+          "heading": "[[deps.JuliaSyntaxHighlighting]]",
+          "level": 2,
+          "line": 108
+        },
+        {
+          "heading": "deps.JuliaSyntaxHighlighting.syntax",
+          "level": 3,
+          "line": 113
+        },
+        {
+          "heading": "[[deps.LLD_jll]]",
+          "level": 2,
+          "line": 116
+        },
+        {
+          "heading": "deps.LLD_jll.syntax",
+          "level": 3,
+          "line": 121
+        },
+        {
+          "heading": "[[deps.LLVMLibUnwind_jll]]",
+          "level": 2,
+          "line": 124
+        },
+        {
+          "heading": "deps.LLVMLibUnwind_jll.syntax",
+          "level": 3,
+          "line": 129
+        },
+        {
+          "heading": "[[deps.LazyArtifacts]]",
+          "level": 2,
+          "line": 132
+        },
+        {
+          "heading": "deps.LazyArtifacts.syntax",
+          "level": 3,
+          "line": 137
+        },
+        {
+          "heading": "[[deps.LibCURL]]",
+          "level": 2,
+          "line": 140
+        },
+        {
+          "heading": "deps.LibCURL.syntax",
+          "level": 3,
+          "line": 145
+        },
+        {
+          "heading": "[[deps.LibCURL_jll]]",
+          "level": 2,
+          "line": 148
+        },
+        {
+          "heading": "deps.LibCURL_jll.syntax",
+          "level": 3,
+          "line": 153
+        },
+        {
+          "heading": "[[deps.LibGit2]]",
+          "level": 2,
+          "line": 156
+        },
+        {
+          "heading": "deps.LibGit2.syntax",
+          "level": 3,
+          "line": 161
+        },
+        {
+          "heading": "[[deps.LibGit2_jll]]",
+          "level": 2,
+          "line": 164
+        },
+        {
+          "heading": "deps.LibGit2_jll.syntax",
+          "level": 3,
+          "line": 169
+        },
+        {
+          "heading": "[[deps.LibSSH2_jll]]",
+          "level": 2,
+          "line": 172
+        },
+        {
+          "heading": "deps.LibSSH2_jll.syntax",
+          "level": 3,
+          "line": 177
+        },
+        {
+          "heading": "[[deps.LibUV_jll]]",
+          "level": 2,
+          "line": 180
+        },
+        {
+          "heading": "deps.LibUV_jll.syntax",
+          "level": 3,
+          "line": 185
+        },
+        {
+          "heading": "[[deps.LibUnwind_jll]]",
+          "level": 2,
+          "line": 188
+        },
+        {
+          "heading": "deps.LibUnwind_jll.syntax",
+          "level": 3,
+          "line": 193
+        },
+        {
+          "heading": "[[deps.Libdl]]",
+          "level": 2,
+          "line": 196
+        },
+        {
+          "heading": "deps.Libdl.syntax",
+          "level": 3,
+          "line": 200
+        },
+        {
+          "heading": "[[deps.LinearAlgebra]]",
+          "level": 2,
+          "line": 203
+        },
+        {
+          "heading": "deps.LinearAlgebra.syntax",
+          "level": 3,
+          "line": 208
+        },
+        {
+          "heading": "[[deps.Logging]]",
+          "level": 2,
+          "line": 211
+        },
+        {
+          "heading": "deps.Logging.syntax",
+          "level": 3,
+          "line": 215
+        },
+        {
+          "heading": "[[deps.MPFR_jll]]",
+          "level": 2,
+          "line": 218
+        },
+        {
+          "heading": "deps.MPFR_jll.syntax",
+          "level": 3,
+          "line": 223
+        },
+        {
+          "heading": "[[deps.Markdown]]",
+          "level": 2,
+          "line": 226
+        },
+        {
+          "heading": "deps.Markdown.syntax",
+          "level": 3,
+          "line": 231
+        },
+        {
+          "heading": "[[deps.Mmap]]",
+          "level": 2,
+          "line": 234
+        },
+        {
+          "heading": "deps.Mmap.syntax",
+          "level": 3,
+          "line": 239
+        },
+        {
+          "heading": "[[deps.MozillaCACerts_jll]]",
+          "level": 2,
+          "line": 242
+        },
+        {
+          "heading": "deps.MozillaCACerts_jll.syntax",
+          "level": 3,
+          "line": 246
+        },
+        {
+          "heading": "[[deps.NetworkOptions]]",
+          "level": 2,
+          "line": 249
+        },
+        {
+          "heading": "deps.NetworkOptions.syntax",
+          "level": 3,
+          "line": 253
+        },
+        {
+          "heading": "[[deps.OpenBLAS_jll]]",
+          "level": 2,
+          "line": 256
+        },
+        {
+          "heading": "deps.OpenBLAS_jll.syntax",
+          "level": 3,
+          "line": 261
+        },
+        {
+          "heading": "[[deps.OpenLibm_jll]]",
+          "level": 2,
+          "line": 264
+        },
+        {
+          "heading": "deps.OpenLibm_jll.syntax",
+          "level": 3,
+          "line": 269
+        },
+        {
+          "heading": "[[deps.OpenSSL_jll]]",
+          "level": 2,
+          "line": 272
+        },
+        {
+          "heading": "deps.OpenSSL_jll.syntax",
+          "level": 3,
+          "line": 277
+        },
+        {
+          "heading": "[[deps.PCRE2_jll]]",
+          "level": 2,
+          "line": 280
+        },
+        {
+          "heading": "deps.PCRE2_jll.syntax",
+          "level": 3,
+          "line": 285
+        },
+        {
+          "heading": "[[deps.Pkg]]",
+          "level": 2,
+          "line": 288
+        },
+        {
+          "heading": "deps.Pkg.extensions",
+          "level": 3,
+          "line": 294
+        },
+        {
+          "heading": "deps.Pkg.syntax",
+          "level": 3,
+          "line": 297
+        },
+        {
+          "heading": "[[deps.Printf]]",
+          "level": 2,
+          "line": 300
+        },
+        {
+          "heading": "deps.Printf.syntax",
+          "level": 3,
+          "line": 305
+        },
+        {
+          "heading": "[[deps.Profile]]",
+          "level": 2,
+          "line": 308
+        },
+        {
+          "heading": "deps.Profile.syntax",
+          "level": 3,
+          "line": 313
+        },
+        {
+          "heading": "[[deps.REPL]]",
+          "level": 2,
+          "line": 316
+        },
+        {
+          "heading": "deps.REPL.syntax",
+          "level": 3,
+          "line": 321
+        },
+        {
+          "heading": "[[deps.Random]]",
+          "level": 2,
+          "line": 324
+        },
+        {
+          "heading": "deps.Random.syntax",
+          "level": 3,
+          "line": 329
+        },
+        {
+          "heading": "[[deps.SHA]]",
+          "level": 2,
+          "line": 332
+        },
+        {
+          "heading": "deps.SHA.syntax",
+          "level": 3,
+          "line": 336
+        },
+        {
+          "heading": "[[deps.Serialization]]",
+          "level": 2,
+          "line": 339
+        },
+        {
+          "heading": "deps.Serialization.syntax",
+          "level": 3,
+          "line": 343
+        },
+        {
+          "heading": "[[deps.SharedArrays]]",
+          "level": 2,
+          "line": 346
+        },
+        {
+          "heading": "deps.SharedArrays.syntax",
+          "level": 3,
+          "line": 351
+        },
+        {
+          "heading": "[[deps.Sockets]]",
+          "level": 2,
+          "line": 354
+        },
+        {
+          "heading": "deps.Sockets.syntax",
+          "level": 3,
+          "line": 358
+        },
+        {
+          "heading": "[[deps.SparseArrays]]",
+          "level": 2,
+          "line": 361
+        },
+        {
+          "heading": "deps.SparseArrays.syntax",
+          "level": 3,
+          "line": 366
+        },
+        {
+          "heading": "[[deps.Statistics]]",
+          "level": 2,
+          "line": 369
+        },
+        {
+          "heading": "deps.Statistics.extensions",
+          "level": 3,
+          "line": 377
+        },
+        {
+          "heading": "deps.Statistics.syntax",
+          "level": 3,
+          "line": 380
+        },
+        {
+          "heading": "[[deps.StyledStrings]]",
+          "level": 2,
+          "line": 383
+        },
+        {
+          "heading": "deps.StyledStrings.syntax",
+          "level": 3,
+          "line": 387
+        },
+        {
+          "heading": "[[deps.SuiteSparse]]",
+          "level": 2,
+          "line": 390
+        },
+        {
+          "heading": "deps.SuiteSparse.syntax",
+          "level": 3,
+          "line": 394
+        },
+        {
+          "heading": "[[deps.SuiteSparse_jll]]",
+          "level": 2,
+          "line": 397
+        },
+        {
+          "heading": "deps.SuiteSparse_jll.syntax",
+          "level": 3,
+          "line": 402
+        },
+        {
+          "heading": "[[deps.TOML]]",
+          "level": 2,
+          "line": 405
+        },
+        {
+          "heading": "deps.TOML.syntax",
+          "level": 3,
+          "line": 410
+        },
+        {
+          "heading": "[[deps.Tar]]",
+          "level": 2,
+          "line": 413
+        },
+        {
+          "heading": "deps.Tar.syntax",
+          "level": 3,
+          "line": 418
+        },
+        {
+          "heading": "[[deps.Test]]",
+          "level": 2,
+          "line": 421
+        },
+        {
+          "heading": "deps.Test.syntax",
+          "level": 3,
+          "line": 426
+        },
+        {
+          "heading": "[[deps.UUIDs]]",
+          "level": 2,
+          "line": 429
+        },
+        {
+          "heading": "deps.UUIDs.syntax",
+          "level": 3,
+          "line": 434
+        },
+        {
+          "heading": "[[deps.Unicode]]",
+          "level": 2,
+          "line": 437
+        },
+        {
+          "heading": "deps.Unicode.syntax",
+          "level": 3,
+          "line": 441
+        },
+        {
+          "heading": "[[deps.Zlib_jll]]",
+          "level": 2,
+          "line": 444
+        },
+        {
+          "heading": "deps.Zlib_jll.syntax",
+          "level": 3,
+          "line": 449
+        },
+        {
+          "heading": "[[deps.Zstd_jll]]",
+          "level": 2,
+          "line": 452
+        },
+        {
+          "heading": "deps.Zstd_jll.syntax",
+          "level": 3,
+          "line": 457
+        },
+        {
+          "heading": "[[deps.dSFMT_jll]]",
+          "level": 2,
+          "line": 460
+        },
+        {
+          "heading": "deps.dSFMT_jll.syntax",
+          "level": 3,
+          "line": 465
+        },
+        {
+          "heading": "[[deps.libLLVM_jll]]",
+          "level": 2,
+          "line": 468
+        },
+        {
+          "heading": "deps.libLLVM_jll.syntax",
+          "level": 3,
+          "line": 473
+        },
+        {
+          "heading": "[[deps.libblastrampoline_jll]]",
+          "level": 2,
+          "line": 476
+        },
+        {
+          "heading": "deps.libblastrampoline_jll.syntax",
+          "level": 3,
+          "line": 481
+        },
+        {
+          "heading": "[[deps.nghttp2_jll]]",
+          "level": 2,
+          "line": 484
+        },
+        {
+          "heading": "deps.nghttp2_jll.syntax",
+          "level": 3,
+          "line": 489
+        },
+        {
+          "heading": "[[deps.p7zip_jll]]",
+          "level": 2,
+          "line": 492
+        },
+        {
+          "heading": "deps.p7zip_jll.syntax",
+          "level": 3,
+          "line": 497
+        },
+        {
+          "heading": "registries.General",
+          "level": 2,
+          "line": 500
+        }
+      ],
+      "metrics": {
+        "importCount": 0,
+        "exportCount": 0,
+        "functionCount": 0,
+        "classCount": 0,
+        "sectionCount": 127
+      }
+    },
+    {
+      "path": "stdlib/Project.toml",
+      "language": "toml",
+      "fileCategory": "config",
+      "totalLines": 63,
+      "nonEmptyLines": 63,
+      "sections": [
+        {
+          "heading": "deps",
+          "level": 1,
+          "line": 1
+        }
+      ],
+      "metrics": {
+        "importCount": 0,
+        "exportCount": 0,
+        "functionCount": 0,
+        "classCount": 0,
+        "sectionCount": 1
+      }
+    }
+  ]
+}

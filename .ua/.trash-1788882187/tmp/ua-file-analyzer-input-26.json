@@ -1,0 +1,147 @@
+{
+  "projectRoot": "/home/maruti/julia",
+  "batchFiles": [
+    {
+      "path": "doc/src/manual/arrays.md",
+      "language": "markdown",
+      "sizeLines": 1299,
+      "fileCategory": "docs"
+    },
+    {
+      "path": "doc/src/manual/asynchronous-programming.md",
+      "language": "markdown",
+      "sizeLines": 342,
+      "fileCategory": "docs"
+    },
+    {
+      "path": "doc/src/manual/calling-c-and-fortran-code.md",
+      "language": "markdown",
+      "sizeLines": 1288,
+      "fileCategory": "docs"
+    },
+    {
+      "path": "doc/src/manual/code-loading.md",
+      "language": "markdown",
+      "sizeLines": 479,
+      "fileCategory": "docs"
+    },
+    {
+      "path": "doc/src/manual/command-line-interface.md",
+      "language": "markdown",
+      "sizeLines": 242,
+      "fileCategory": "docs"
+    },
+    {
+      "path": "doc/src/manual/complex-and-rational-numbers.md",
+      "language": "markdown",
+      "sizeLines": 340,
+      "fileCategory": "docs"
+    },
+    {
+      "path": "doc/src/manual/constructors.md",
+      "language": "markdown",
+      "sizeLines": 631,
+      "fileCategory": "docs"
+    },
+    {
+      "path": "doc/src/manual/control-flow.md",
+      "language": "markdown",
+      "sizeLines": 947,
+      "fileCategory": "docs"
+    },
+    {
+      "path": "doc/src/manual/conversion-and-promotion.md",
+      "language": "markdown",
+      "sizeLines": 360,
+      "fileCategory": "docs"
+    },
+    {
+      "path": "doc/src/manual/distributed-computing.md",
+      "language": "markdown",
+      "sizeLines": 1483,
+      "fileCategory": "docs"
+    },
+    {
+      "path": "doc/src/manual/documentation.md",
+      "language": "markdown",
+      "sizeLines": 672,
+      "fileCategory": "docs"
+    },
+    {
+      "path": "doc/src/manual/embedding.md",
+      "language": "markdown",
+      "sizeLines": 723,
+      "fileCategory": "docs"
+    },
+    {
+      "path": "doc/src/manual/environment-variables.md",
+      "language": "markdown",
+      "sizeLines": 633,
+      "fileCategory": "docs"
+    },
+    {
+      "path": "doc/src/manual/faq.md",
+      "language": "markdown",
+      "sizeLines": 1081,
+      "fileCategory": "docs"
+    },
+    {
+      "path": "doc/src/manual/functions.md",
+      "language": "markdown",
+      "sizeLines": 1174,
+      "fileCategory": "docs"
+    },
+    {
+      "path": "doc/src/manual/getting-started.md",
+      "language": "markdown",
+      "sizeLines": 59,
+      "fileCategory": "docs"
+    },
+    {
+      "path": "doc/src/manual/handling-operating-system-variation.md",
+      "language": "markdown",
+      "sizeLines": 42,
+      "fileCategory": "docs"
+    },
+    {
+      "path": "doc/src/manual/installation.md",
+      "language": "markdown",
+      "sizeLines": 131,
+      "fileCategory": "docs"
+    },
+    {
+      "path": "doc/src/manual/integers-and-floating-point-numbers.md",
+      "language": "markdown",
+      "sizeLines": 785,
+      "fileCategory": "docs"
+    },
+    {
+      "path": "doc/src/manual/interfaces.md",
+      "language": "markdown",
+      "sizeLines": 915,
+      "fileCategory": "docs"
+    }
+  ],
+  "batchImportData": {
+    "doc/src/manual/arrays.md": [],
+    "doc/src/manual/asynchronous-programming.md": [],
+    "doc/src/manual/calling-c-and-fortran-code.md": [],
+    "doc/src/manual/code-loading.md": [],
+    "doc/src/manual/command-line-interface.md": [],
+    "doc/src/manual/complex-and-rational-numbers.md": [],
+    "doc/src/manual/constructors.md": [],
+    "doc/src/manual/control-flow.md": [],
+    "doc/src/manual/conversion-and-promotion.md": [],
+    "doc/src/manual/distributed-computing.md": [],
+    "doc/src/manual/documentation.md": [],
+    "doc/src/manual/embedding.md": [],
+    "doc/src/manual/environment-variables.md": [],
+    "doc/src/manual/faq.md": [],
+    "doc/src/manual/functions.md": [],
+    "doc/src/manual/getting-started.md": [],
+    "doc/src/manual/handling-operating-system-variation.md": [],
+    "doc/src/manual/installation.md": [],
+    "doc/src/manual/integers-and-floating-point-numbers.md": [],
+    "doc/src/manual/interfaces.md": []
+  }
+}

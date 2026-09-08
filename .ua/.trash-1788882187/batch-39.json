@@ -1,0 +1,34 @@
+{
+  "batchIndex": 39,
+  "nodes": [
+    {
+      "id": "document:base/ryu/LICENSE.md",
+      "type": "document",
+      "name": "LICENSE.md",
+      "filePath": "base/ryu/LICENSE.md",
+      "summary": "Documentation file: LICENSE.md.",
+      "tags": [
+        "documentation"
+      ],
+      "complexity": "simple",
+      "language": "markdown"
+    }
+  ],
+  "edges": [],
+  "batchFiles": [
+    {
+      "path": "base/ryu/LICENSE.md",
+      "language": "markdown",
+      "fileCategory": "docs",
+      "totalLines": 25,
+      "nonEmptyLines": 21,
+      "metrics": {
+        "importCount": 0,
+        "exportCount": 0,
+        "functionCount": 0,
+        "classCount": 0,
+        "sectionCount": 0
+      }
+    }
+  ]
+}

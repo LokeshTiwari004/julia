@@ -1,0 +1,305 @@
+{
+  "projectRoot": "/home/maruti/julia",
+  "batchFiles": [
+    {
+      "path": "src/APInt-C.h",
+      "language": "c",
+      "sizeLines": 81,
+      "fileCategory": "code"
+    },
+    {
+      "path": "src/APInt.c",
+      "language": "c",
+      "sizeLines": 869,
+      "fileCategory": "code"
+    },
+    {
+      "path": "src/array.c",
+      "language": "c",
+      "sizeLines": 326,
+      "fileCategory": "code"
+    },
+    {
+      "path": "src/ast.c",
+      "language": "c",
+      "sizeLines": 1376,
+      "fileCategory": "code"
+    },
+    {
+      "path": "src/builtin_proto.h",
+      "language": "c",
+      "sizeLines": 109,
+      "fileCategory": "code"
+    },
+    {
+      "path": "src/builtins.c",
+      "language": "c",
+      "sizeLines": 2909,
+      "fileCategory": "code"
+    },
+    {
+      "path": "src/cgmemmgr.cpp",
+      "language": "cpp",
+      "sizeLines": 1051,
+      "fileCategory": "code"
+    },
+    {
+      "path": "src/codegen-stubs.c",
+      "language": "c",
+      "sizeLines": 200,
+      "fileCategory": "code"
+    },
+    {
+      "path": "src/coverage.c",
+      "language": "c",
+      "sizeLines": 336,
+      "fileCategory": "code"
+    },
+    {
+      "path": "src/crc32c.c",
+      "language": "c",
+      "sizeLines": 609,
+      "fileCategory": "code"
+    },
+    {
+      "path": "src/datatype.c",
+      "language": "c",
+      "sizeLines": 3180,
+      "fileCategory": "code"
+    },
+    {
+      "path": "src/dlload.c",
+      "language": "c",
+      "sizeLines": 591,
+      "fileCategory": "code"
+    },
+    {
+      "path": "src/engine.c",
+      "language": "c",
+      "sizeLines": 208,
+      "fileCategory": "code"
+    },
+    {
+      "path": "src/genericmemory.c",
+      "language": "c",
+      "sizeLines": 632,
+      "fileCategory": "code"
+    },
+    {
+      "path": "src/gf.c",
+      "language": "c",
+      "sizeLines": 5852,
+      "fileCategory": "code"
+    },
+    {
+      "path": "src/init.c",
+      "language": "c",
+      "sizeLines": 803,
+      "fileCategory": "code"
+    },
+    {
+      "path": "src/interpreter.c",
+      "language": "c",
+      "sizeLines": 1106,
+      "fileCategory": "code"
+    },
+    {
+      "path": "src/intrinsics.h",
+      "language": "c",
+      "sizeLines": 121,
+      "fileCategory": "code"
+    },
+    {
+      "path": "src/ircode.c",
+      "language": "c",
+      "sizeLines": 1829,
+      "fileCategory": "code"
+    },
+    {
+      "path": "src/jlapi.c",
+      "language": "c",
+      "sizeLines": 1317,
+      "fileCategory": "code"
+    },
+    {
+      "path": "src/jloptions.c",
+      "language": "c",
+      "sizeLines": 1171,
+      "fileCategory": "code"
+    },
+    {
+      "path": "src/jltypes.c",
+      "language": "c",
+      "sizeLines": 4728,
+      "fileCategory": "code"
+    },
+    {
+      "path": "src/julia.h",
+      "language": "c",
+      "sizeLines": 2966,
+      "fileCategory": "code"
+    },
+    {
+      "path": "src/julia_assert.h",
+      "language": "c",
+      "sizeLines": 32,
+      "fileCategory": "code"
+    },
+    {
+      "path": "src/julia_internal.h",
+      "language": "c",
+      "sizeLines": 2365,
+      "fileCategory": "code"
+    },
+    {
+      "path": "src/method.c",
+      "language": "c",
+      "sizeLines": 1543,
+      "fileCategory": "code"
+    },
+    {
+      "path": "src/module.c",
+      "language": "c",
+      "sizeLines": 2467,
+      "fileCategory": "code"
+    },
+    {
+      "path": "src/mtarraylist.c",
+      "language": "c",
+      "sizeLines": 81,
+      "fileCategory": "code"
+    }
+  ],
+  "batchImportData": {
+    "src/APInt-C.h": [],
+    "src/APInt.c": [
+      "src/APInt-C.h",
+      "src/julia_assert.h",
+      "src/julia_internal.h"
+    ],
+    "src/array.c": [
+      "src/julia.h",
+      "src/julia_assert.h",
+      "src/julia_internal.h"
+    ],
+    "src/ast.c": [
+      "src/julia.h",
+      "src/julia_assert.h",
+      "src/julia_internal.h"
+    ],
+    "src/builtin_proto.h": [],
+    "src/builtins.c": [
+      "src/builtin_proto.h",
+      "src/intrinsics.h",
+      "src/julia.h",
+      "src/julia_assert.h",
+      "src/julia_atomics.h",
+      "src/julia_internal.h"
+    ],
+    "src/cgmemmgr.cpp": [
+      "src/julia.h",
+      "src/julia_assert.h",
+      "src/julia_internal.h",
+      "src/llvm-codegen-shared.h",
+      "src/llvm-version.h"
+    ],
+    "src/codegen-stubs.c": [
+      "src/intrinsics.h",
+      "src/julia.h",
+      "src/julia_internal.h"
+    ],
+    "src/coverage.c": [
+      "src/julia.h",
+      "src/julia_internal.h",
+      "src/support/strhash.h"
+    ],
+    "src/crc32c.c": [
+      "src/julia.h",
+      "src/julia_internal.h",
+      "src/processor.h"
+    ],
+    "src/datatype.c": [
+      "src/julia.h",
+      "src/julia_assert.h",
+      "src/julia_gcext.h",
+      "src/julia_internal.h"
+    ],
+    "src/dlload.c": [
+      "src/julia.h",
+      "src/julia_assert.h",
+      "src/julia_internal.h"
+    ],
+    "src/engine.c": [
+      "src/julia.h",
+      "src/julia_assert.h",
+      "src/julia_internal.h"
+    ],
+    "src/genericmemory.c": [
+      "src/julia.h",
+      "src/julia_assert.h",
+      "src/julia_internal.h"
+    ],
+    "src/gf.c": [
+      "src/julia.h",
+      "src/julia_assert.h",
+      "src/julia_internal.h"
+    ],
+    "src/init.c": [
+      "src/builtin_proto.h",
+      "src/julia.h",
+      "src/julia_assert.h",
+      "src/julia_internal.h",
+      "src/processor.h",
+      "src/threading.h"
+    ],
+    "src/interpreter.c": [
+      "src/builtin_proto.h",
+      "src/julia.h",
+      "src/julia_assert.h",
+      "src/julia_internal.h"
+    ],
+    "src/intrinsics.h": [],
+    "src/ircode.c": [
+      "src/julia.h",
+      "src/julia_assert.h",
+      "src/julia_internal.h",
+      "src/serialize.h"
+    ],
+    "src/jlapi.c": [
+      "src/julia.h",
+      "src/julia_assert.h",
+      "src/julia_internal.h",
+      "src/options.h"
+    ],
+    "src/jloptions.c": [
+      "src/julia.h",
+      "src/julia_assert.h",
+      "src/julia_internal.h"
+    ],
+    "src/jltypes.c": [
+      "src/builtin_proto.h",
+      "src/julia.h",
+      "src/julia_assert.h",
+      "src/julia_internal.h"
+    ],
+    "src/julia.h": [],
+    "src/julia_assert.h": [],
+    "src/julia_internal.h": [],
+    "src/method.c": [
+      "src/builtin_proto.h",
+      "src/julia.h",
+      "src/julia_assert.h",
+      "src/julia_internal.h"
+    ],
+    "src/module.c": [
+      "src/julia.h",
+      "src/julia_assert.h",
+      "src/julia_internal.h"
+    ],
+    "src/mtarraylist.c": [
+      "src/julia.h",
+      "src/julia_assert.h",
+      "src/julia_internal.h"
+    ]
+  }
+}

@@ -1,0 +1,182 @@
+{
+  "projectRoot": "/home/maruti/julia",
+  "batchFiles": [
+    {
+      "path": "contrib/mac/frameworkapp/ExecSandbox/ExecSandbox.m",
+      "language": "m",
+      "sizeLines": 149,
+      "fileCategory": "code"
+    },
+    {
+      "path": "contrib/mac/frameworkapp/ExecSandbox/ExecSandboxProtocol.h",
+      "language": "c",
+      "sizeLines": 31,
+      "fileCategory": "code"
+    },
+    {
+      "path": "contrib/mac/frameworkapp/ExecSandbox/ExecSandboxProtocol.m",
+      "language": "m",
+      "sizeLines": 14,
+      "fileCategory": "code"
+    },
+    {
+      "path": "contrib/mac/frameworkapp/ExecSandbox/Info.plist",
+      "language": "xml",
+      "sizeLines": 31,
+      "fileCategory": "config"
+    },
+    {
+      "path": "contrib/mac/frameworkapp/ExecSandbox/main.m",
+      "language": "m",
+      "sizeLines": 28,
+      "fileCategory": "code"
+    },
+    {
+      "path": "contrib/mac/frameworkapp/Julia.dist",
+      "language": "dist",
+      "sizeLines": 26,
+      "fileCategory": "code"
+    },
+    {
+      "path": "contrib/mac/frameworkapp/JuliaLauncher.xcodeproj/project.pbxproj",
+      "language": "pbxproj",
+      "sizeLines": 487,
+      "fileCategory": "code"
+    },
+    {
+      "path": "contrib/mac/frameworkapp/JuliaLauncher.xcodeproj/project.xcworkspace/contents.xcworkspacedata",
+      "language": "xcworkspacedata",
+      "sizeLines": 7,
+      "fileCategory": "code"
+    },
+    {
+      "path": "contrib/mac/frameworkapp/JuliaLauncher.xcodeproj/project.xcworkspace/xcshareddata/IDEWorkspaceChecks.plist",
+      "language": "xml",
+      "sizeLines": 8,
+      "fileCategory": "config"
+    },
+    {
+      "path": "contrib/mac/frameworkapp/JuliaLauncher.xcodeproj/xcshareddata/xcschemes/JuliaLauncher.xcscheme",
+      "language": "xcscheme",
+      "sizeLines": 91,
+      "fileCategory": "code"
+    },
+    {
+      "path": "contrib/mac/frameworkapp/JuliaLauncher/AppDelegate.h",
+      "language": "c",
+      "sizeLines": 6,
+      "fileCategory": "code"
+    },
+    {
+      "path": "contrib/mac/frameworkapp/JuliaLauncher/AppDelegate.m",
+      "language": "m",
+      "sizeLines": 536,
+      "fileCategory": "code"
+    },
+    {
+      "path": "contrib/mac/frameworkapp/JuliaLauncher/Assets.xcassets/AppIcon.appiconset/Contents.json",
+      "language": "json",
+      "sizeLines": 68,
+      "fileCategory": "config"
+    },
+    {
+      "path": "contrib/mac/frameworkapp/JuliaLauncher/Assets.xcassets/Contents.json",
+      "language": "json",
+      "sizeLines": 6,
+      "fileCategory": "config"
+    },
+    {
+      "path": "contrib/mac/frameworkapp/JuliaLauncher/Base.lproj/MainMenu.xib",
+      "language": "xib",
+      "sizeLines": 679,
+      "fileCategory": "code"
+    },
+    {
+      "path": "contrib/mac/frameworkapp/JuliaLauncher/Info.plist",
+      "language": "xml",
+      "sizeLines": 63,
+      "fileCategory": "config"
+    },
+    {
+      "path": "contrib/mac/frameworkapp/JuliaLauncher/JuliaLauncher.entitlements",
+      "language": "entitlements",
+      "sizeLines": 10,
+      "fileCategory": "code"
+    },
+    {
+      "path": "contrib/mac/frameworkapp/JuliaLauncher/julia.idraw",
+      "language": "idraw",
+      "sizeLines": 310,
+      "fileCategory": "code"
+    },
+    {
+      "path": "contrib/mac/frameworkapp/JuliaLauncher/main.m",
+      "language": "m",
+      "sizeLines": 7,
+      "fileCategory": "code"
+    },
+    {
+      "path": "contrib/mac/frameworkapp/installresources/conclusion.rtf",
+      "language": "rtf",
+      "sizeLines": 80,
+      "fileCategory": "code"
+    },
+    {
+      "path": "contrib/mac/frameworkapp/installresources/readme.rtf",
+      "language": "rtf",
+      "sizeLines": 31,
+      "fileCategory": "code"
+    },
+    {
+      "path": "contrib/mac/libSystem.tbd",
+      "language": "tbd",
+      "sizeLines": 3828,
+      "fileCategory": "code"
+    },
+    {
+      "path": "contrib/normalize_triplet.py",
+      "language": "python",
+      "sizeLines": 159,
+      "fileCategory": "code"
+    },
+    {
+      "path": "contrib/pgo-lto-bolt/Makefile",
+      "language": "makefile",
+      "sizeLines": 201,
+      "fileCategory": "infra"
+    },
+    {
+      "path": "contrib/pgo-lto-bolt/README.md",
+      "language": "markdown",
+      "sizeLines": 18,
+      "fileCategory": "docs"
+    }
+  ],
+  "batchImportData": {
+    "contrib/mac/frameworkapp/ExecSandbox/ExecSandbox.m": [],
+    "contrib/mac/frameworkapp/ExecSandbox/ExecSandboxProtocol.h": [],
+    "contrib/mac/frameworkapp/ExecSandbox/ExecSandboxProtocol.m": [],
+    "contrib/mac/frameworkapp/ExecSandbox/Info.plist": [],
+    "contrib/mac/frameworkapp/ExecSandbox/main.m": [],
+    "contrib/mac/frameworkapp/Julia.dist": [],
+    "contrib/mac/frameworkapp/JuliaLauncher.xcodeproj/project.pbxproj": [],
+    "contrib/mac/frameworkapp/JuliaLauncher.xcodeproj/project.xcworkspace/contents.xcworkspacedata": [],
+    "contrib/mac/frameworkapp/JuliaLauncher.xcodeproj/project.xcworkspace/xcshareddata/IDEWorkspaceChecks.plist": [],
+    "contrib/mac/frameworkapp/JuliaLauncher.xcodeproj/xcshareddata/xcschemes/JuliaLauncher.xcscheme": [],
+    "contrib/mac/frameworkapp/JuliaLauncher/AppDelegate.h": [],
+    "contrib/mac/frameworkapp/JuliaLauncher/AppDelegate.m": [],
+    "contrib/mac/frameworkapp/JuliaLauncher/Assets.xcassets/AppIcon.appiconset/Contents.json": [],
+    "contrib/mac/frameworkapp/JuliaLauncher/Assets.xcassets/Contents.json": [],
+    "contrib/mac/frameworkapp/JuliaLauncher/Base.lproj/MainMenu.xib": [],
+    "contrib/mac/frameworkapp/JuliaLauncher/Info.plist": [],
+    "contrib/mac/frameworkapp/JuliaLauncher/JuliaLauncher.entitlements": [],
+    "contrib/mac/frameworkapp/JuliaLauncher/julia.idraw": [],
+    "contrib/mac/frameworkapp/JuliaLauncher/main.m": [],
+    "contrib/mac/frameworkapp/installresources/conclusion.rtf": [],
+    "contrib/mac/frameworkapp/installresources/readme.rtf": [],
+    "contrib/mac/libSystem.tbd": [],
+    "contrib/normalize_triplet.py": [],
+    "contrib/pgo-lto-bolt/Makefile": [],
+    "contrib/pgo-lto-bolt/README.md": []
+  }
+}

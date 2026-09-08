@@ -1,0 +1,33 @@
+{
+  "batchIndex": 21,
+  "nodes": [
+    {
+      "id": "file:contrib/tsan/build.sh",
+      "type": "file",
+      "name": "build.sh",
+      "filePath": "contrib/tsan/build.sh",
+      "summary": "Script file: build.sh.",
+      "tags": [
+        "script"
+      ],
+      "complexity": "moderate",
+      "language": "shell"
+    }
+  ],
+  "edges": [],
+  "batchFiles": [
+    {
+      "path": "contrib/tsan/build.sh",
+      "language": "shell",
+      "fileCategory": "script",
+      "totalLines": 75,
+      "nonEmptyLines": 61,
+      "metrics": {
+        "importCount": 0,
+        "exportCount": 0,
+        "functionCount": 0,
+        "classCount": 0
+      }
+    }
+  ]
+}

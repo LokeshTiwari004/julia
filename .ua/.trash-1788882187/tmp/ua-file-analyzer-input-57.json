@@ -1,0 +1,182 @@
+{
+  "projectRoot": "/home/maruti/julia",
+  "batchFiles": [
+    {
+      "path": "stdlib/REPL/src/latex_symbols.jl",
+      "language": "jl",
+      "sizeLines": 2718,
+      "fileCategory": "code"
+    },
+    {
+      "path": "stdlib/REPL/src/options.jl",
+      "language": "jl",
+      "sizeLines": 68,
+      "fileCategory": "code"
+    },
+    {
+      "path": "stdlib/REPL/src/precompile.jl",
+      "language": "jl",
+      "sizeLines": 214,
+      "fileCategory": "code"
+    },
+    {
+      "path": "stdlib/Random/Project.toml",
+      "language": "toml",
+      "sizeLines": 15,
+      "fileCategory": "config"
+    },
+    {
+      "path": "stdlib/Random/docs/src/index.md",
+      "language": "markdown",
+      "sizeLines": 372,
+      "fileCategory": "docs"
+    },
+    {
+      "path": "stdlib/Random/src/DSFMT.jl",
+      "language": "jl",
+      "sizeLines": 276,
+      "fileCategory": "code"
+    },
+    {
+      "path": "stdlib/Random/src/MersenneTwister.jl",
+      "language": "jl",
+      "sizeLines": 648,
+      "fileCategory": "code"
+    },
+    {
+      "path": "stdlib/Random/src/RNGs.jl",
+      "language": "jl",
+      "sizeLines": 308,
+      "fileCategory": "code"
+    },
+    {
+      "path": "stdlib/Random/src/Random.jl",
+      "language": "jl",
+      "sizeLines": 428,
+      "fileCategory": "code"
+    },
+    {
+      "path": "stdlib/Random/src/Xoshiro.jl",
+      "language": "jl",
+      "sizeLines": 298,
+      "fileCategory": "code"
+    },
+    {
+      "path": "stdlib/Random/src/XoshiroSimd.jl",
+      "language": "jl",
+      "sizeLines": 315,
+      "fileCategory": "code"
+    },
+    {
+      "path": "stdlib/Random/src/generation.jl",
+      "language": "jl",
+      "sizeLines": 615,
+      "fileCategory": "code"
+    },
+    {
+      "path": "stdlib/Random/src/misc.jl",
+      "language": "jl",
+      "sizeLines": 444,
+      "fileCategory": "code"
+    },
+    {
+      "path": "stdlib/Random/src/normal.jl",
+      "language": "jl",
+      "sizeLines": 771,
+      "fileCategory": "code"
+    },
+    {
+      "path": "stdlib/SHA.version",
+      "language": "version",
+      "sizeLines": 4,
+      "fileCategory": "code"
+    },
+    {
+      "path": "stdlib/Serialization/Project.toml",
+      "language": "toml",
+      "sizeLines": 11,
+      "fileCategory": "config"
+    },
+    {
+      "path": "stdlib/Serialization/docs/src/index.md",
+      "language": "markdown",
+      "sizeLines": 25,
+      "fileCategory": "docs"
+    },
+    {
+      "path": "stdlib/Serialization/src/Serialization.jl",
+      "language": "jl",
+      "sizeLines": 1957,
+      "fileCategory": "code"
+    },
+    {
+      "path": "stdlib/SharedArrays/Project.toml",
+      "language": "toml",
+      "sizeLines": 15,
+      "fileCategory": "config"
+    },
+    {
+      "path": "stdlib/SharedArrays/docs/src/index.md",
+      "language": "markdown",
+      "sizeLines": 19,
+      "fileCategory": "docs"
+    },
+    {
+      "path": "stdlib/SharedArrays/src/SharedArrays.jl",
+      "language": "jl",
+      "sizeLines": 740,
+      "fileCategory": "code"
+    },
+    {
+      "path": "stdlib/Sockets/Project.toml",
+      "language": "toml",
+      "sizeLines": 10,
+      "fileCategory": "config"
+    },
+    {
+      "path": "stdlib/Sockets/docs/src/index.md",
+      "language": "markdown",
+      "sizeLines": 37,
+      "fileCategory": "docs"
+    },
+    {
+      "path": "stdlib/Sockets/src/IPAddr.jl",
+      "language": "jl",
+      "sizeLines": 329,
+      "fileCategory": "code"
+    },
+    {
+      "path": "stdlib/Sockets/src/PipeServer.jl",
+      "language": "jl",
+      "sizeLines": 120,
+      "fileCategory": "code"
+    }
+  ],
+  "batchImportData": {
+    "stdlib/REPL/src/latex_symbols.jl": [],
+    "stdlib/REPL/src/options.jl": [],
+    "stdlib/REPL/src/precompile.jl": [],
+    "stdlib/Random/Project.toml": [],
+    "stdlib/Random/docs/src/index.md": [],
+    "stdlib/Random/src/DSFMT.jl": [],
+    "stdlib/Random/src/MersenneTwister.jl": [],
+    "stdlib/Random/src/RNGs.jl": [],
+    "stdlib/Random/src/Random.jl": [],
+    "stdlib/Random/src/Xoshiro.jl": [],
+    "stdlib/Random/src/XoshiroSimd.jl": [],
+    "stdlib/Random/src/generation.jl": [],
+    "stdlib/Random/src/misc.jl": [],
+    "stdlib/Random/src/normal.jl": [],
+    "stdlib/SHA.version": [],
+    "stdlib/Serialization/Project.toml": [],
+    "stdlib/Serialization/docs/src/index.md": [],
+    "stdlib/Serialization/src/Serialization.jl": [],
+    "stdlib/SharedArrays/Project.toml": [],
+    "stdlib/SharedArrays/docs/src/index.md": [],
+    "stdlib/SharedArrays/src/SharedArrays.jl": [],
+    "stdlib/Sockets/Project.toml": [],
+    "stdlib/Sockets/docs/src/index.md": [],
+    "stdlib/Sockets/src/IPAddr.jl": [],
+    "stdlib/Sockets/src/PipeServer.jl": []
+  }
+}

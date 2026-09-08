@@ -1,0 +1,695 @@
+{
+  "batchIndex": 58,
+  "nodes": [
+    {
+      "id": "config:stdlib/SuiteSparse_jll/Project.toml",
+      "type": "config",
+      "name": "Project.toml",
+      "filePath": "stdlib/SuiteSparse_jll/Project.toml",
+      "summary": "Configuration file: Project.toml.",
+      "tags": [
+        "configuration",
+        "parser"
+      ],
+      "complexity": "simple",
+      "language": "toml"
+    },
+    {
+      "id": "config:stdlib/TOML/Project.toml",
+      "type": "config",
+      "name": "Project.toml",
+      "filePath": "stdlib/TOML/Project.toml",
+      "summary": "Configuration file: Project.toml.",
+      "tags": [
+        "configuration"
+      ],
+      "complexity": "simple",
+      "language": "toml"
+    },
+    {
+      "id": "config:stdlib/TOML/benchmark/files/Compat.toml",
+      "type": "config",
+      "name": "Compat.toml",
+      "filePath": "stdlib/TOML/benchmark/files/Compat.toml",
+      "summary": "Configuration file: Compat.toml.",
+      "tags": [
+        "configuration"
+      ],
+      "complexity": "moderate",
+      "language": "toml"
+    },
+    {
+      "id": "config:stdlib/TOML/benchmark/files/Registry.toml",
+      "type": "config",
+      "name": "Registry.toml",
+      "filePath": "stdlib/TOML/benchmark/files/Registry.toml",
+      "summary": "Configuration file: Registry.toml.",
+      "tags": [
+        "configuration"
+      ],
+      "complexity": "complex",
+      "language": "toml"
+    },
+    {
+      "id": "config:stdlib/TOML/docs/Manifest.toml",
+      "type": "config",
+      "name": "Manifest.toml",
+      "filePath": "stdlib/TOML/docs/Manifest.toml",
+      "summary": "Configuration file: Manifest.toml.",
+      "tags": [
+        "configuration"
+      ],
+      "complexity": "moderate",
+      "language": "toml"
+    },
+    {
+      "id": "config:stdlib/TOML/docs/Project.toml",
+      "type": "config",
+      "name": "Project.toml",
+      "filePath": "stdlib/TOML/docs/Project.toml",
+      "summary": "Configuration file: Project.toml.",
+      "tags": [
+        "configuration"
+      ],
+      "complexity": "simple",
+      "language": "toml"
+    },
+    {
+      "id": "document:stdlib/TOML/docs/src/index.md",
+      "type": "document",
+      "name": "index.md",
+      "filePath": "stdlib/TOML/docs/src/index.md",
+      "summary": "Documentation covering TOML, Parsing TOML data, Exporting data to TOML file and more.",
+      "tags": [
+        "documentation",
+        "runtime"
+      ],
+      "complexity": "moderate",
+      "language": "markdown"
+    },
+    {
+      "id": "config:stdlib/UUIDs/Project.toml",
+      "type": "config",
+      "name": "Project.toml",
+      "filePath": "stdlib/UUIDs/Project.toml",
+      "summary": "Configuration file: Project.toml.",
+      "tags": [
+        "configuration"
+      ],
+      "complexity": "simple",
+      "language": "toml"
+    },
+    {
+      "id": "document:stdlib/UUIDs/docs/src/index.md",
+      "type": "document",
+      "name": "index.md",
+      "filePath": "stdlib/UUIDs/docs/src/index.md",
+      "summary": "Documentation covering UUIDs.",
+      "tags": [
+        "documentation",
+        "runtime"
+      ],
+      "complexity": "simple",
+      "language": "markdown"
+    },
+    {
+      "id": "config:stdlib/Unicode/Project.toml",
+      "type": "config",
+      "name": "Project.toml",
+      "filePath": "stdlib/Unicode/Project.toml",
+      "summary": "Configuration file: Project.toml.",
+      "tags": [
+        "configuration"
+      ],
+      "complexity": "simple",
+      "language": "toml"
+    },
+    {
+      "id": "document:stdlib/Unicode/docs/src/index.md",
+      "type": "document",
+      "name": "index.md",
+      "filePath": "stdlib/Unicode/docs/src/index.md",
+      "summary": "Documentation covering Unicode.",
+      "tags": [
+        "documentation",
+        "runtime"
+      ],
+      "complexity": "simple",
+      "language": "markdown"
+    }
+  ],
+  "edges": [],
+  "batchFiles": [
+    {
+      "path": "stdlib/SuiteSparse_jll/Project.toml",
+      "language": "toml",
+      "fileCategory": "config",
+      "totalLines": 19,
+      "nonEmptyLines": 15,
+      "sections": [
+        {
+          "heading": "deps",
+          "level": 1,
+          "line": 5
+        },
+        {
+          "heading": "compat",
+          "level": 1,
+          "line": 11
+        },
+        {
+          "heading": "extras",
+          "level": 1,
+          "line": 15
+        },
+        {
+          "heading": "targets",
+          "level": 1,
+          "line": 18
+        }
+      ],
+      "metrics": {
+        "importCount": 0,
+        "exportCount": 0,
+        "functionCount": 0,
+        "classCount": 0,
+        "sectionCount": 4
+      }
+    },
+    {
+      "path": "stdlib/TOML/Project.toml",
+      "language": "toml",
+      "fileCategory": "config",
+      "totalLines": 19,
+      "nonEmptyLines": 15,
+      "sections": [
+        {
+          "heading": "deps",
+          "level": 1,
+          "line": 5
+        },
+        {
+          "heading": "compat",
+          "level": 1,
+          "line": 8
+        },
+        {
+          "heading": "extras",
+          "level": 1,
+          "line": 12
+        },
+        {
+          "heading": "targets",
+          "level": 1,
+          "line": 18
+        }
+      ],
+      "metrics": {
+        "importCount": 0,
+        "exportCount": 0,
+        "functionCount": 0,
+        "classCount": 0,
+        "sectionCount": 4
+      }
+    },
+    {
+      "path": "stdlib/TOML/benchmark/files/Compat.toml",
+      "language": "toml",
+      "fileCategory": "config",
+      "totalLines": 153,
+      "nonEmptyLines": 125,
+      "sections": [
+        {
+          "heading": "5",
+          "level": 1,
+          "line": 1
+        },
+        {
+          "heading": "\"5-5.2\"",
+          "level": 2,
+          "line": 20
+        },
+        {
+          "heading": "\"5-6.2\"",
+          "level": 2,
+          "line": 23
+        },
+        {
+          "heading": "\"5-6.3\"",
+          "level": 2,
+          "line": 26
+        },
+        {
+          "heading": "\"5-6.4\"",
+          "level": 2,
+          "line": 33
+        },
+        {
+          "heading": "\"5.3-6.3\"",
+          "level": 3,
+          "line": 36
+        },
+        {
+          "heading": "\"6-6.3\"",
+          "level": 2,
+          "line": 39
+        },
+        {
+          "heading": "\"6-6.7\"",
+          "level": 2,
+          "line": 51
+        },
+        {
+          "heading": "\"6.10-6\"",
+          "level": 2,
+          "line": 54
+        },
+        {
+          "heading": "\"6.10.0\"",
+          "level": 3,
+          "line": 57
+        },
+        {
+          "heading": "\"6.10.1-6\"",
+          "level": 3,
+          "line": 60
+        },
+        {
+          "heading": "\"6.11\"",
+          "level": 2,
+          "line": 63
+        },
+        {
+          "heading": "\"6.12-6\"",
+          "level": 2,
+          "line": 66
+        },
+        {
+          "heading": "\"6.13-6\"",
+          "level": 2,
+          "line": 70
+        },
+        {
+          "heading": "\"6.14\"",
+          "level": 2,
+          "line": 73
+        },
+        {
+          "heading": "\"6.15-6\"",
+          "level": 2,
+          "line": 76
+        },
+        {
+          "heading": "\"6.4\"",
+          "level": 2,
+          "line": 79
+        },
+        {
+          "heading": "\"6.4-6.6\"",
+          "level": 3,
+          "line": 82
+        },
+        {
+          "heading": "\"6.4-6.7\"",
+          "level": 3,
+          "line": 96
+        },
+        {
+          "heading": "\"6.6\"",
+          "level": 2,
+          "line": 101
+        },
+        {
+          "heading": "\"6.7\"",
+          "level": 2,
+          "line": 104
+        },
+        {
+          "heading": "\"6.7-6\"",
+          "level": 2,
+          "line": 109
+        },
+        {
+          "heading": "\"6.7-6.8\"",
+          "level": 3,
+          "line": 114
+        },
+        {
+          "heading": "\"6.8\"",
+          "level": 2,
+          "line": 123
+        },
+        {
+          "heading": "\"6.8-6.10\"",
+          "level": 3,
+          "line": 131
+        },
+        {
+          "heading": "\"6.9\"",
+          "level": 2,
+          "line": 134
+        },
+        {
+          "heading": "\"6.9-6\"",
+          "level": 2,
+          "line": 138
+        },
+        {
+          "heading": "\"6.9-6.12\"",
+          "level": 3,
+          "line": 149
+        },
+        {
+          "heading": "\"6.9-6.13\"",
+          "level": 3,
+          "line": 152
+        }
+      ],
+      "metrics": {
+        "importCount": 0,
+        "exportCount": 0,
+        "functionCount": 0,
+        "classCount": 0,
+        "sectionCount": 29
+      }
+    },
+    {
+      "path": "stdlib/TOML/benchmark/files/Registry.toml",
+      "language": "toml",
+      "fileCategory": "config",
+      "totalLines": 4120,
+      "nonEmptyLines": 4118,
+      "sections": [
+        {
+          "heading": "packages",
+          "level": 1,
+          "line": 13
+        }
+      ],
+      "metrics": {
+        "importCount": 0,
+        "exportCount": 0,
+        "functionCount": 0,
+        "classCount": 0,
+        "sectionCount": 1
+      }
+    },
+    {
+      "path": "stdlib/TOML/docs/Manifest.toml",
+      "language": "toml",
+      "fileCategory": "config",
+      "totalLines": 98,
+      "nonEmptyLines": 74,
+      "sections": [
+        {
+          "heading": "[[Base64]]",
+          "level": 1,
+          "line": 3
+        },
+        {
+          "heading": "[[Dates]]",
+          "level": 1,
+          "line": 6
+        },
+        {
+          "heading": "[[Distributed]]",
+          "level": 1,
+          "line": 10
+        },
+        {
+          "heading": "[[DocStringExtensions]]",
+          "level": 1,
+          "line": 14
+        },
+        {
+          "heading": "[[Documenter]]",
+          "level": 1,
+          "line": 20
+        },
+        {
+          "heading": "[[InteractiveUtils]]",
+          "level": 1,
+          "line": 26
+        },
+        {
+          "heading": "[[JSON]]",
+          "level": 1,
+          "line": 30
+        },
+        {
+          "heading": "[[LibGit2]]",
+          "level": 1,
+          "line": 36
+        },
+        {
+          "heading": "[[Libdl]]",
+          "level": 1,
+          "line": 39
+        },
+        {
+          "heading": "[[Logging]]",
+          "level": 1,
+          "line": 42
+        },
+        {
+          "heading": "[[Markdown]]",
+          "level": 1,
+          "line": 45
+        },
+        {
+          "heading": "[[Mmap]]",
+          "level": 1,
+          "line": 49
+        },
+        {
+          "heading": "[[Parsers]]",
+          "level": 1,
+          "line": 52
+        },
+        {
+          "heading": "[[Pkg]]",
+          "level": 1,
+          "line": 58
+        },
+        {
+          "heading": "[[Printf]]",
+          "level": 1,
+          "line": 62
+        },
+        {
+          "heading": "[[REPL]]",
+          "level": 1,
+          "line": 66
+        },
+        {
+          "heading": "[[Random]]",
+          "level": 1,
+          "line": 70
+        },
+        {
+          "heading": "[[SHA]]",
+          "level": 1,
+          "line": 74
+        },
+        {
+          "heading": "[[Serialization]]",
+          "level": 1,
+          "line": 77
+        },
+        {
+          "heading": "[[Sockets]]",
+          "level": 1,
+          "line": 80
+        },
+        {
+          "heading": "[[TOML]]",
+          "level": 1,
+          "line": 83
+        },
+        {
+          "heading": "[[Test]]",
+          "level": 1,
+          "line": 89
+        },
+        {
+          "heading": "[[UUIDs]]",
+          "level": 1,
+          "line": 93
+        },
+        {
+          "heading": "[[Unicode]]",
+          "level": 1,
+          "line": 97
+        }
+      ],
+      "metrics": {
+        "importCount": 0,
+        "exportCount": 0,
+        "functionCount": 0,
+        "classCount": 0,
+        "sectionCount": 24
+      }
+    },
+    {
+      "path": "stdlib/TOML/docs/Project.toml",
+      "language": "toml",
+      "fileCategory": "config",
+      "totalLines": 3,
+      "nonEmptyLines": 3,
+      "sections": [
+        {
+          "heading": "deps",
+          "level": 1,
+          "line": 1
+        }
+      ],
+      "metrics": {
+        "importCount": 0,
+        "exportCount": 0,
+        "functionCount": 0,
+        "classCount": 0,
+        "sectionCount": 1
+      }
+    },
+    {
+      "path": "stdlib/TOML/docs/src/index.md",
+      "language": "markdown",
+      "fileCategory": "docs",
+      "totalLines": 195,
+      "nonEmptyLines": 151,
+      "sections": [
+        {
+          "heading": "TOML",
+          "level": 1,
+          "line": 5
+        },
+        {
+          "heading": "Parsing TOML data",
+          "level": 2,
+          "line": 10
+        },
+        {
+          "heading": "Exporting data to TOML file",
+          "level": 2,
+          "line": 64
+        },
+        {
+          "heading": "Preserving comments",
+          "level": 2,
+          "line": 127
+        },
+        {
+          "heading": "References",
+          "level": 2,
+          "line": 185
+        }
+      ],
+      "metrics": {
+        "importCount": 0,
+        "exportCount": 0,
+        "functionCount": 0,
+        "classCount": 0,
+        "sectionCount": 5
+      }
+    },
+    {
+      "path": "stdlib/UUIDs/Project.toml",
+      "language": "toml",
+      "fileCategory": "config",
+      "totalLines": 13,
+      "nonEmptyLines": 10,
+      "sections": [
+        {
+          "heading": "deps",
+          "level": 1,
+          "line": 5
+        },
+        {
+          "heading": "extras",
+          "level": 1,
+          "line": 9
+        },
+        {
+          "heading": "targets",
+          "level": 1,
+          "line": 12
+        }
+      ],
+      "metrics": {
+        "importCount": 0,
+        "exportCount": 0,
+        "functionCount": 0,
+        "classCount": 0,
+        "sectionCount": 3
+      }
+    },
+    {
+      "path": "stdlib/UUIDs/docs/src/index.md",
+      "language": "markdown",
+      "fileCategory": "docs",
+      "totalLines": 13,
+      "nonEmptyLines": 11,
+      "sections": [
+        {
+          "heading": "UUIDs",
+          "level": 1,
+          "line": 5
+        }
+      ],
+      "metrics": {
+        "importCount": 0,
+        "exportCount": 0,
+        "functionCount": 0,
+        "classCount": 0,
+        "sectionCount": 1
+      }
+    },
+    {
+      "path": "stdlib/Unicode/Project.toml",
+      "language": "toml",
+      "fileCategory": "config",
+      "totalLines": 10,
+      "nonEmptyLines": 8,
+      "sections": [
+        {
+          "heading": "extras",
+          "level": 1,
+          "line": 5
+        },
+        {
+          "heading": "targets",
+          "level": 1,
+          "line": 9
+        }
+      ],
+      "metrics": {
+        "importCount": 0,
+        "exportCount": 0,
+        "functionCount": 0,
+        "classCount": 0,
+        "sectionCount": 2
+      }
+    },
+    {
+      "path": "stdlib/Unicode/docs/src/index.md",
+      "language": "markdown",
+      "fileCategory": "docs",
+      "totalLines": 17,
+      "nonEmptyLines": 14,
+      "sections": [
+        {
+          "heading": "Unicode",
+          "level": 1,
+          "line": 5
+        }
+      ],
+      "metrics": {
+        "importCount": 0,
+        "exportCount": 0,
+        "functionCount": 0,
+        "classCount": 0,
+        "sectionCount": 1
+      }
+    }
+  ]
+}

@@ -1,0 +1,147 @@
+{
+  "projectRoot": "/home/maruti/julia",
+  "batchFiles": [
+    {
+      "path": "doc/src/base/arrays.md",
+      "language": "markdown",
+      "sizeLines": 215,
+      "fileCategory": "docs"
+    },
+    {
+      "path": "doc/src/base/base.md",
+      "language": "markdown",
+      "sizeLines": 566,
+      "fileCategory": "docs"
+    },
+    {
+      "path": "doc/src/base/c.md",
+      "language": "markdown",
+      "sizeLines": 58,
+      "fileCategory": "docs"
+    },
+    {
+      "path": "doc/src/base/collections.md",
+      "language": "markdown",
+      "sizeLines": 320,
+      "fileCategory": "docs"
+    },
+    {
+      "path": "doc/src/base/constants.md",
+      "language": "markdown",
+      "sizeLines": 26,
+      "fileCategory": "docs"
+    },
+    {
+      "path": "doc/src/base/file.md",
+      "language": "markdown",
+      "sizeLines": 71,
+      "fileCategory": "docs"
+    },
+    {
+      "path": "doc/src/base/io-network.md",
+      "language": "markdown",
+      "sizeLines": 151,
+      "fileCategory": "docs"
+    },
+    {
+      "path": "doc/src/base/iterators.md",
+      "language": "markdown",
+      "sizeLines": 29,
+      "fileCategory": "docs"
+    },
+    {
+      "path": "doc/src/base/libc.md",
+      "language": "markdown",
+      "sizeLines": 25,
+      "fileCategory": "docs"
+    },
+    {
+      "path": "doc/src/base/math.md",
+      "language": "markdown",
+      "sizeLines": 323,
+      "fileCategory": "docs"
+    },
+    {
+      "path": "doc/src/base/multi-threading.md",
+      "language": "markdown",
+      "sizeLines": 94,
+      "fileCategory": "docs"
+    },
+    {
+      "path": "doc/src/base/numbers.md",
+      "language": "markdown",
+      "sizeLines": 184,
+      "fileCategory": "docs"
+    },
+    {
+      "path": "doc/src/base/parallel.md",
+      "language": "markdown",
+      "sizeLines": 186,
+      "fileCategory": "docs"
+    },
+    {
+      "path": "doc/src/base/punctuation.md",
+      "language": "markdown",
+      "sizeLines": 62,
+      "fileCategory": "docs"
+    },
+    {
+      "path": "doc/src/base/reflection.md",
+      "language": "markdown",
+      "sizeLines": 157,
+      "fileCategory": "docs"
+    },
+    {
+      "path": "doc/src/base/scopedvalues.md",
+      "language": "markdown",
+      "sizeLines": 338,
+      "fileCategory": "docs"
+    },
+    {
+      "path": "doc/src/base/simd-types.md",
+      "language": "markdown",
+      "sizeLines": 35,
+      "fileCategory": "docs"
+    },
+    {
+      "path": "doc/src/base/sort.md",
+      "language": "markdown",
+      "sizeLines": 193,
+      "fileCategory": "docs"
+    },
+    {
+      "path": "doc/src/base/stacktraces.md",
+      "language": "markdown",
+      "sizeLines": 15,
+      "fileCategory": "docs"
+    },
+    {
+      "path": "doc/src/base/strings.md",
+      "language": "markdown",
+      "sizeLines": 242,
+      "fileCategory": "docs"
+    }
+  ],
+  "batchImportData": {
+    "doc/src/base/arrays.md": [],
+    "doc/src/base/base.md": [],
+    "doc/src/base/c.md": [],
+    "doc/src/base/collections.md": [],
+    "doc/src/base/constants.md": [],
+    "doc/src/base/file.md": [],
+    "doc/src/base/io-network.md": [],
+    "doc/src/base/iterators.md": [],
+    "doc/src/base/libc.md": [],
+    "doc/src/base/math.md": [],
+    "doc/src/base/multi-threading.md": [],
+    "doc/src/base/numbers.md": [],
+    "doc/src/base/parallel.md": [],
+    "doc/src/base/punctuation.md": [],
+    "doc/src/base/reflection.md": [],
+    "doc/src/base/scopedvalues.md": [],
+    "doc/src/base/simd-types.md": [],
+    "doc/src/base/sort.md": [],
+    "doc/src/base/stacktraces.md": [],
+    "doc/src/base/strings.md": []
+  }
+}

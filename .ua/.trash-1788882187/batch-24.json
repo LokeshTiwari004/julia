@@ -1,0 +1,1417 @@
+{
+  "batchIndex": 24,
+  "nodes": [
+    {
+      "id": "document:doc/src/devdocs/init.md",
+      "type": "document",
+      "name": "init.md",
+      "filePath": "doc/src/devdocs/init.md",
+      "summary": "Documentation covering Initialization of the Julia runtime, `main()`, `jl_repl_entrypoint()` and more.",
+      "tags": [
+        "documentation",
+        "runtime"
+      ],
+      "complexity": "moderate",
+      "language": "markdown"
+    },
+    {
+      "id": "document:doc/src/devdocs/isbitsunionarrays.md",
+      "type": "document",
+      "name": "isbitsunionarrays.md",
+      "filePath": "doc/src/devdocs/isbitsunionarrays.md",
+      "summary": "Documentation covering isbits Union Optimizations, isbits Union Structs, isbits Union Memory.",
+      "tags": [
+        "documentation",
+        "runtime"
+      ],
+      "complexity": "simple",
+      "language": "markdown"
+    },
+    {
+      "id": "document:doc/src/devdocs/jit.md",
+      "type": "document",
+      "name": "jit.md",
+      "filePath": "doc/src/devdocs/jit.md",
+      "summary": "Documentation covering JIT Design and Implementation, Introduction, Overview and more.",
+      "tags": [
+        "documentation",
+        "runtime",
+        "codegen"
+      ],
+      "complexity": "moderate",
+      "language": "markdown"
+    },
+    {
+      "id": "document:doc/src/devdocs/llvm-passes.md",
+      "type": "document",
+      "name": "llvm-passes.md",
+      "filePath": "doc/src/devdocs/llvm-passes.md",
+      "summary": "Documentation covering Custom LLVM Passes, Semantic Passes, CPUFeatures and more.",
+      "tags": [
+        "documentation",
+        "runtime",
+        "codegen"
+      ],
+      "complexity": "moderate",
+      "language": "markdown"
+    },
+    {
+      "id": "document:doc/src/devdocs/llvm.md",
+      "type": "document",
+      "name": "llvm.md",
+      "filePath": "doc/src/devdocs/llvm.md",
+      "summary": "Documentation covering Working with LLVM, Overview of Julia to LLVM Interface, [Alias Analysis](@id LLVM-Alias-Analysis) and more.",
+      "tags": [
+        "documentation",
+        "runtime",
+        "codegen"
+      ],
+      "complexity": "complex",
+      "language": "markdown"
+    },
+    {
+      "id": "document:doc/src/devdocs/locks.md",
+      "type": "document",
+      "name": "locks.md",
+      "filePath": "doc/src/devdocs/locks.md",
+      "summary": "Documentation covering [Proper maintenance and care of multi-threading locks](@id Proper-maintenance-and-care-of-multi-threading-locks), Types of locks, Lock hierarchy and more.",
+      "tags": [
+        "documentation",
+        "runtime"
+      ],
+      "complexity": "moderate",
+      "language": "markdown"
+    },
+    {
+      "id": "document:doc/src/devdocs/meta.md",
+      "type": "document",
+      "name": "meta.md",
+      "filePath": "doc/src/devdocs/meta.md",
+      "summary": "Documentation covering Talking to the compiler (the `:meta` mechanism).",
+      "tags": [
+        "documentation",
+        "runtime"
+      ],
+      "complexity": "simple",
+      "language": "markdown"
+    },
+    {
+      "id": "document:doc/src/devdocs/object.md",
+      "type": "document",
+      "name": "object.md",
+      "filePath": "doc/src/devdocs/object.md",
+      "summary": "Documentation covering Memory layout of Julia Objects, Object layout (`jl_value_t`), Garbage collector mark bits and more.",
+      "tags": [
+        "documentation",
+        "runtime"
+      ],
+      "complexity": "moderate",
+      "language": "markdown"
+    },
+    {
+      "id": "document:doc/src/devdocs/offset-arrays.md",
+      "type": "document",
+      "name": "offset-arrays.md",
+      "filePath": "doc/src/devdocs/offset-arrays.md",
+      "summary": "Documentation covering [Arrays with custom indices](@id man-custom-indices), Generalizing existing code, Things to watch out for and more.",
+      "tags": [
+        "documentation",
+        "runtime"
+      ],
+      "complexity": "moderate",
+      "language": "markdown"
+    },
+    {
+      "id": "document:doc/src/devdocs/pkgimg.md",
+      "type": "document",
+      "name": "pkgimg.md",
+      "filePath": "doc/src/devdocs/pkgimg.md",
+      "summary": "Documentation covering [Package Images](@id pkgimages), High-level overview, Linking and more.",
+      "tags": [
+        "documentation",
+        "runtime"
+      ],
+      "complexity": "simple",
+      "language": "markdown"
+    },
+    {
+      "id": "document:doc/src/devdocs/precompile_hang.md",
+      "type": "document",
+      "name": "precompile_hang.md",
+      "filePath": "doc/src/devdocs/precompile_hang.md",
+      "summary": "Documentation covering Fixing precompilation hangs due to open tasks or IO, [Diagnosing and fixing hangs due to a package dependency](@id pchang_deps), [Fixing package code to avoid hangs](@id pchang_fix).",
+      "tags": [
+        "documentation",
+        "runtime"
+      ],
+      "complexity": "moderate",
+      "language": "markdown"
+    },
+    {
+      "id": "document:doc/src/devdocs/probes.md",
+      "type": "document",
+      "name": "probes.md",
+      "filePath": "doc/src/devdocs/probes.md",
+      "summary": "Documentation covering Instrumenting Julia with DTrace, and bpftrace, Enabling support, Verifying and more.",
+      "tags": [
+        "documentation",
+        "runtime"
+      ],
+      "complexity": "complex",
+      "language": "markdown"
+    },
+    {
+      "id": "document:doc/src/devdocs/require.md",
+      "type": "document",
+      "name": "require.md",
+      "filePath": "doc/src/devdocs/require.md",
+      "summary": "Documentation covering Module loading, Experimental features, Package loading callbacks.",
+      "tags": [
+        "documentation",
+        "runtime"
+      ],
+      "complexity": "simple",
+      "language": "markdown"
+    },
+    {
+      "id": "document:doc/src/devdocs/sanitizers.md",
+      "type": "document",
+      "name": "sanitizers.md",
+      "filePath": "doc/src/devdocs/sanitizers.md",
+      "summary": "Documentation covering Sanitizer support, Address Sanitizer: easy build, General considerations and more.",
+      "tags": [
+        "documentation",
+        "runtime"
+      ],
+      "complexity": "moderate",
+      "language": "markdown"
+    },
+    {
+      "id": "document:doc/src/devdocs/scheduler-wakeup.md",
+      "type": "document",
+      "name": "scheduler-wakeup.md",
+      "filePath": "doc/src/devdocs/scheduler-wakeup.md",
+      "summary": "Documentation covering Task scheduler wakeups, The problem, Why waking one worker is enough and more.",
+      "tags": [
+        "documentation",
+        "runtime"
+      ],
+      "complexity": "moderate",
+      "language": "markdown"
+    },
+    {
+      "id": "document:doc/src/devdocs/ssair.md",
+      "type": "document",
+      "name": "ssair.md",
+      "filePath": "doc/src/devdocs/ssair.md",
+      "summary": "Documentation covering Julia SSA-form IR, Background, Categories of IR nodes and more.",
+      "tags": [
+        "documentation",
+        "runtime"
+      ],
+      "complexity": "complex",
+      "language": "markdown"
+    },
+    {
+      "id": "document:doc/src/devdocs/stdio.md",
+      "type": "document",
+      "name": "stdio.md",
+      "filePath": "doc/src/devdocs/stdio.md",
+      "summary": "Documentation covering printf() and stdio in the Julia runtime, [Libuv wrappers for stdio](@id Libuv-wrappers-for-stdio), Interface between JL_STD* and Julia code and more.",
+      "tags": [
+        "documentation",
+        "runtime"
+      ],
+      "complexity": "moderate",
+      "language": "markdown"
+    },
+    {
+      "id": "document:doc/src/devdocs/subarrays.md",
+      "type": "document",
+      "name": "subarrays.md",
+      "filePath": "doc/src/devdocs/subarrays.md",
+      "summary": "Documentation covering SubArrays, Index replacement, SubArray design and more.",
+      "tags": [
+        "documentation",
+        "runtime"
+      ],
+      "complexity": "moderate",
+      "language": "markdown"
+    },
+    {
+      "id": "document:doc/src/devdocs/sysimg.md",
+      "type": "document",
+      "name": "sysimg.md",
+      "filePath": "doc/src/devdocs/sysimg.md",
+      "summary": "Documentation covering System Image Building, [Building the Julia system image](@id Building-the-Julia-system-image), [System image optimized for multiple microarchitectures](@id sysimg-multi-versioning) and more.",
+      "tags": [
+        "documentation",
+        "runtime"
+      ],
+      "complexity": "moderate",
+      "language": "markdown"
+    },
+    {
+      "id": "document:doc/src/devdocs/types.md",
+      "type": "document",
+      "name": "types.md",
+      "filePath": "doc/src/devdocs/types.md",
+      "summary": "Documentation covering More about types, Types and sets (and `Any` and `Union{}`/`Bottom`), UnionAll types and more.",
+      "tags": [
+        "documentation",
+        "runtime",
+        "type-inference"
+      ],
+      "complexity": "complex",
+      "language": "markdown"
+    }
+  ],
+  "edges": [],
+  "batchFiles": [
+    {
+      "path": "doc/src/devdocs/init.md",
+      "language": "markdown",
+      "fileCategory": "docs",
+      "totalLines": 222,
+      "nonEmptyLines": 166,
+      "sections": [
+        {
+          "heading": "Initialization of the Julia runtime",
+          "level": 1,
+          "line": 1
+        },
+        {
+          "heading": "`main()`",
+          "level": 2,
+          "line": 5
+        },
+        {
+          "heading": "`jl_repl_entrypoint()`",
+          "level": 2,
+          "line": 12
+        },
+        {
+          "heading": "`jl_init_()`",
+          "level": 2,
+          "line": 42
+        },
+        {
+          "heading": "`_finish_jl_init_()`",
+          "level": 2,
+          "line": 76
+        },
+        {
+          "heading": "`true_main_()`",
+          "level": 2,
+          "line": 151
+        },
+        {
+          "heading": "`Base._start`",
+          "level": 2,
+          "line": 163
+        },
+        {
+          "heading": "`Core.eval`",
+          "level": 2,
+          "line": 169
+        }
+      ],
+      "metrics": {
+        "importCount": 0,
+        "exportCount": 0,
+        "functionCount": 0,
+        "classCount": 0,
+        "sectionCount": 8
+      }
+    },
+    {
+      "path": "doc/src/devdocs/isbitsunionarrays.md",
+      "language": "markdown",
+      "fileCategory": "docs",
+      "totalLines": 29,
+      "nonEmptyLines": 23,
+      "sections": [
+        {
+          "heading": "isbits Union Optimizations",
+          "level": 1,
+          "line": 1
+        },
+        {
+          "heading": "isbits Union Structs",
+          "level": 2,
+          "line": 7
+        },
+        {
+          "heading": "isbits Union Memory",
+          "level": 2,
+          "line": 21
+        }
+      ],
+      "metrics": {
+        "importCount": 0,
+        "exportCount": 0,
+        "functionCount": 0,
+        "classCount": 0,
+        "sectionCount": 3
+      }
+    },
+    {
+      "path": "doc/src/devdocs/jit.md",
+      "language": "markdown",
+      "fileCategory": "docs",
+      "totalLines": 89,
+      "nonEmptyLines": 68,
+      "sections": [
+        {
+          "heading": "JIT Design and Implementation",
+          "level": 1,
+          "line": 1
+        },
+        {
+          "heading": "Introduction",
+          "level": 2,
+          "line": 5
+        },
+        {
+          "heading": "Overview",
+          "level": 2,
+          "line": 9
+        },
+        {
+          "heading": "Optimization Pipeline",
+          "level": 2,
+          "line": 28
+        },
+        {
+          "heading": "Target-Dependent Optimization and Code Generation",
+          "level": 2,
+          "line": 47
+        },
+        {
+          "heading": "Linking",
+          "level": 2,
+          "line": 51
+        },
+        {
+          "heading": "Execution",
+          "level": 2,
+          "line": 55
+        }
+      ],
+      "metrics": {
+        "importCount": 0,
+        "exportCount": 0,
+        "functionCount": 0,
+        "classCount": 0,
+        "sectionCount": 7
+      }
+    },
+    {
+      "path": "doc/src/devdocs/llvm-passes.md",
+      "language": "markdown",
+      "fileCategory": "docs",
+      "totalLines": 140,
+      "nonEmptyLines": 88,
+      "sections": [
+        {
+          "heading": "Custom LLVM Passes",
+          "level": 1,
+          "line": 1
+        },
+        {
+          "heading": "Semantic Passes",
+          "level": 2,
+          "line": 5
+        },
+        {
+          "heading": "CPUFeatures",
+          "level": 3,
+          "line": 9
+        },
+        {
+          "heading": "DemoteFloat16",
+          "level": 3,
+          "line": 17
+        },
+        {
+          "heading": "LateGCLowering",
+          "level": 3,
+          "line": 25
+        },
+        {
+          "heading": "FinalGCLowering",
+          "level": 3,
+          "line": 33
+        },
+        {
+          "heading": "RemoveNI",
+          "level": 3,
+          "line": 40
+        },
+        {
+          "heading": "SIMDLoop",
+          "level": 3,
+          "line": 48
+        },
+        {
+          "heading": "LowerPTLS",
+          "level": 3,
+          "line": 56
+        },
+        {
+          "heading": "RemoveAddrspaces",
+          "level": 3,
+          "line": 66
+        },
+        {
+          "heading": "RemoveJuliaAddrspaces",
+          "level": 3,
+          "line": 74
+        },
+        {
+          "heading": "Multiversioning",
+          "level": 3,
+          "line": 82
+        },
+        {
+          "heading": "GCInvariantVerifier",
+          "level": 3,
+          "line": 94
+        },
+        {
+          "heading": "Optimization Passes",
+          "level": 2,
+          "line": 104
+        },
+        {
+          "heading": "AllocOpt",
+          "level": 3,
+          "line": 108
+        },
+        {
+          "heading": "PropagateJuliaAddrspaces",
+          "level": 3,
+          "line": 116
+        },
+        {
+          "heading": "JuliaLICM",
+          "level": 3,
+          "line": 124
+        }
+      ],
+      "metrics": {
+        "importCount": 0,
+        "exportCount": 0,
+        "functionCount": 0,
+        "classCount": 0,
+        "sectionCount": 17
+      }
+    },
+    {
+      "path": "doc/src/devdocs/llvm.md",
+      "language": "markdown",
+      "fileCategory": "docs",
+      "totalLines": 407,
+      "nonEmptyLines": 350,
+      "sections": [
+        {
+          "heading": "Working with LLVM",
+          "level": 1,
+          "line": 1
+        },
+        {
+          "heading": "Overview of Julia to LLVM Interface",
+          "level": 2,
+          "line": 6
+        },
+        {
+          "heading": "[Alias Analysis](@id LLVM-Alias-Analysis)",
+          "level": 3,
+          "line": 47
+        },
+        {
+          "heading": "Building Julia with a different version of LLVM",
+          "level": 2,
+          "line": 59
+        },
+        {
+          "heading": "Passing options to LLVM",
+          "level": 2,
+          "line": 82
+        },
+        {
+          "heading": "Useful `JULIA_LLVM_ARGS` parameters",
+          "level": 3,
+          "line": 94
+        },
+        {
+          "heading": "Debugging LLVM transformations in isolation",
+          "level": 2,
+          "line": 124
+        },
+        {
+          "heading": "Running the LLVM test suite",
+          "level": 2,
+          "line": 173
+        },
+        {
+          "heading": "Improving LLVM optimizations for Julia",
+          "level": 2,
+          "line": 187
+        },
+        {
+          "heading": "The jlcall calling convention",
+          "level": 2,
+          "line": 203
+        },
+        {
+          "heading": "GC root placement",
+          "level": 2,
+          "line": 223
+        },
+        {
+          "heading": "Representation",
+          "level": 3,
+          "line": 255
+        },
+        {
+          "heading": "Invariants",
+          "level": 3,
+          "line": 297
+        },
+        {
+          "heading": "Supporting [`ccall`](@ref)",
+          "level": 3,
+          "line": 342
+        },
+        {
+          "heading": "Supporting [`pointer_from_objref`](@ref)",
+          "level": 3,
+          "line": 371
+        },
+        {
+          "heading": "Keeping values alive in the absence of uses",
+          "level": 3,
+          "line": 389
+        }
+      ],
+      "metrics": {
+        "importCount": 0,
+        "exportCount": 0,
+        "functionCount": 0,
+        "classCount": 0,
+        "sectionCount": 16
+      }
+    },
+    {
+      "path": "doc/src/devdocs/locks.md",
+      "language": "markdown",
+      "fileCategory": "docs",
+      "totalLines": 255,
+      "nonEmptyLines": 199,
+      "sections": [
+        {
+          "heading": "[Proper maintenance and care of multi-threading locks](@id Proper-maintenance-and-care-of-multi-threading-locks)",
+          "level": 1,
+          "line": 1
+        },
+        {
+          "heading": "Types of locks",
+          "level": 2,
+          "line": 10
+        },
+        {
+          "heading": "Lock hierarchy",
+          "level": 2,
+          "line": 22
+        },
+        {
+          "heading": "Level 1",
+          "level": 3,
+          "line": 29
+        },
+        {
+          "heading": "Level 2",
+          "level": 3,
+          "line": 70
+        },
+        {
+          "heading": "Level 3",
+          "level": 3,
+          "line": 86
+        },
+        {
+          "heading": "Level 4",
+          "level": 3,
+          "line": 93
+        },
+        {
+          "heading": "Level 5",
+          "level": 3,
+          "line": 97
+        },
+        {
+          "heading": "Level 6",
+          "level": 3,
+          "line": 101
+        },
+        {
+          "heading": "Level 7",
+          "level": 3,
+          "line": 107
+        },
+        {
+          "heading": "Level 8",
+          "level": 3,
+          "line": 131
+        },
+        {
+          "heading": "Exceptions to the lock hierarchy",
+          "level": 2,
+          "line": 136
+        },
+        {
+          "heading": "Broken locks",
+          "level": 3,
+          "line": 148
+        },
+        {
+          "heading": "Updates to the world counter",
+          "level": 2,
+          "line": 156
+        },
+        {
+          "heading": "[Lock free data structures](@id man-lock-free-data)",
+          "level": 2,
+          "line": 254
+        }
+      ],
+      "metrics": {
+        "importCount": 0,
+        "exportCount": 0,
+        "functionCount": 0,
+        "classCount": 0,
+        "sectionCount": 15
+      }
+    },
+    {
+      "path": "doc/src/devdocs/meta.md",
+      "language": "markdown",
+      "fileCategory": "docs",
+      "totalLines": 47,
+      "nonEmptyLines": 37,
+      "sections": [
+        {
+          "heading": "Talking to the compiler (the `:meta` mechanism)",
+          "level": 1,
+          "line": 1
+        }
+      ],
+      "metrics": {
+        "importCount": 0,
+        "exportCount": 0,
+        "functionCount": 0,
+        "classCount": 0,
+        "sectionCount": 1
+      }
+    },
+    {
+      "path": "doc/src/devdocs/object.md",
+      "language": "markdown",
+      "fileCategory": "docs",
+      "totalLines": 209,
+      "nonEmptyLines": 154,
+      "sections": [
+        {
+          "heading": "Memory layout of Julia Objects",
+          "level": 1,
+          "line": 1
+        },
+        {
+          "heading": "Object layout (`jl_value_t`)",
+          "level": 2,
+          "line": 3
+        },
+        {
+          "heading": "Garbage collector mark bits",
+          "level": 2,
+          "line": 100
+        },
+        {
+          "heading": "Object allocation",
+          "level": 2,
+          "line": 106
+        }
+      ],
+      "metrics": {
+        "importCount": 0,
+        "exportCount": 0,
+        "functionCount": 0,
+        "classCount": 0,
+        "sectionCount": 4
+      }
+    },
+    {
+      "path": "doc/src/devdocs/offset-arrays.md",
+      "language": "markdown",
+      "fileCategory": "docs",
+      "totalLines": 209,
+      "nonEmptyLines": 153,
+      "sections": [
+        {
+          "heading": "[Arrays with custom indices](@id man-custom-indices)",
+          "level": 1,
+          "line": 1
+        },
+        {
+          "heading": "Generalizing existing code",
+          "level": 2,
+          "line": 24
+        },
+        {
+          "heading": "Things to watch out for",
+          "level": 3,
+          "line": 34
+        },
+        {
+          "heading": "Using `axes` for bounds checks and loop iteration",
+          "level": 3,
+          "line": 57
+        },
+        {
+          "heading": "Linear indexing (`LinearIndices`)",
+          "level": 3,
+          "line": 72
+        },
+        {
+          "heading": "Allocating storage using generalizations of `similar`",
+          "level": 3,
+          "line": 93
+        },
+        {
+          "heading": "Writing custom array types with non-1 indexing",
+          "level": 2,
+          "line": 113
+        },
+        {
+          "heading": "Custom `AbstractUnitRange` types",
+          "level": 3,
+          "line": 118
+        },
+        {
+          "heading": "Specializing `axes`",
+          "level": 3,
+          "line": 135
+        },
+        {
+          "heading": "Specializing `similar`",
+          "level": 3,
+          "line": 165
+        },
+        {
+          "heading": "Specializing `reshape`",
+          "level": 3,
+          "line": 182
+        },
+        {
+          "heading": "For objects that mimic AbstractArray but are not subtypes",
+          "level": 3,
+          "line": 192
+        },
+        {
+          "heading": "Catching errors",
+          "level": 3,
+          "line": 203
+        }
+      ],
+      "metrics": {
+        "importCount": 0,
+        "exportCount": 0,
+        "functionCount": 0,
+        "classCount": 0,
+        "sectionCount": 13
+      }
+    },
+    {
+      "path": "doc/src/devdocs/pkgimg.md",
+      "language": "markdown",
+      "fileCategory": "docs",
+      "totalLines": 51,
+      "nonEmptyLines": 33,
+      "sections": [
+        {
+          "heading": "[Package Images](@id pkgimages)",
+          "level": 1,
+          "line": 1
+        },
+        {
+          "heading": "High-level overview",
+          "level": 2,
+          "line": 7
+        },
+        {
+          "heading": "Linking",
+          "level": 2,
+          "line": 18
+        },
+        {
+          "heading": "Quirks",
+          "level": 3,
+          "line": 24
+        },
+        {
+          "heading": "Windows",
+          "level": 4,
+          "line": 28
+        },
+        {
+          "heading": "MacOS",
+          "level": 4,
+          "line": 31
+        },
+        {
+          "heading": "[Package images optimized for multiple microarchitectures](@id pkgimgs-multi-versioning)",
+          "level": 2,
+          "line": 35
+        },
+        {
+          "heading": "Flags that impact package image creation and selection",
+          "level": 2,
+          "line": 41
+        }
+      ],
+      "metrics": {
+        "importCount": 0,
+        "exportCount": 0,
+        "functionCount": 0,
+        "classCount": 0,
+        "sectionCount": 8
+      }
+    },
+    {
+      "path": "doc/src/devdocs/precompile_hang.md",
+      "language": "markdown",
+      "fileCategory": "docs",
+      "totalLines": 98,
+      "nonEmptyLines": 65,
+      "sections": [
+        {
+          "heading": "Fixing precompilation hangs due to open tasks or IO",
+          "level": 1,
+          "line": 1
+        },
+        {
+          "heading": "[Diagnosing and fixing hangs due to a package dependency](@id pchang_deps)",
+          "level": 2,
+          "line": 48
+        },
+        {
+          "heading": "[Fixing package code to avoid hangs](@id pchang_fix)",
+          "level": 2,
+          "line": 82
+        }
+      ],
+      "metrics": {
+        "importCount": 0,
+        "exportCount": 0,
+        "functionCount": 0,
+        "classCount": 0,
+        "sectionCount": 3
+      }
+    },
+    {
+      "path": "doc/src/devdocs/probes.md",
+      "language": "markdown",
+      "fileCategory": "docs",
+      "totalLines": 326,
+      "nonEmptyLines": 245,
+      "sections": [
+        {
+          "heading": "Instrumenting Julia with DTrace, and bpftrace",
+          "level": 1,
+          "line": 1
+        },
+        {
+          "heading": "Enabling support",
+          "level": 2,
+          "line": 14
+        },
+        {
+          "heading": "Verifying",
+          "level": 3,
+          "line": 24
+        },
+        {
+          "heading": "Adding probes in libjulia",
+          "level": 2,
+          "line": 58
+        },
+        {
+          "heading": "Available probes",
+          "level": 2,
+          "line": 86
+        },
+        {
+          "heading": "GC probes",
+          "level": 3,
+          "line": 88
+        },
+        {
+          "heading": "Task runtime probes",
+          "level": 3,
+          "line": 99
+        },
+        {
+          "heading": "Task queue probes",
+          "level": 3,
+          "line": 109
+        },
+        {
+          "heading": "Thread sleep/wake probes",
+          "level": 3,
+          "line": 114
+        },
+        {
+          "heading": "Probe usage examples",
+          "level": 2,
+          "line": 123
+        },
+        {
+          "heading": "GC stop-the-world latency",
+          "level": 3,
+          "line": 125
+        },
+        {
+          "heading": "Task spawn monitor",
+          "level": 3,
+          "line": 174
+        },
+        {
+          "heading": "Thundering herd detection",
+          "level": 3,
+          "line": 249
+        },
+        {
+          "heading": "Task Monitor with BPFnative.jl",
+          "level": 3,
+          "line": 298
+        },
+        {
+          "heading": "Notes on using `bpftrace`",
+          "level": 2,
+          "line": 304
+        },
+        {
+          "heading": "Useful references:",
+          "level": 2,
+          "line": 321
+        }
+      ],
+      "metrics": {
+        "importCount": 0,
+        "exportCount": 0,
+        "functionCount": 0,
+        "classCount": 0,
+        "sectionCount": 16
+      }
+    },
+    {
+      "path": "doc/src/devdocs/require.md",
+      "language": "markdown",
+      "fileCategory": "docs",
+      "totalLines": 28,
+      "nonEmptyLines": 20,
+      "sections": [
+        {
+          "heading": "Module loading",
+          "level": 1,
+          "line": 1
+        },
+        {
+          "heading": "Experimental features",
+          "level": 2,
+          "line": 6
+        },
+        {
+          "heading": "Package loading callbacks",
+          "level": 3,
+          "line": 10
+        }
+      ],
+      "metrics": {
+        "importCount": 0,
+        "exportCount": 0,
+        "functionCount": 0,
+        "classCount": 0,
+        "sectionCount": 3
+      }
+    },
+    {
+      "path": "doc/src/devdocs/sanitizers.md",
+      "language": "markdown",
+      "fileCategory": "docs",
+      "totalLines": 143,
+      "nonEmptyLines": 100,
+      "sections": [
+        {
+          "heading": "Sanitizer support",
+          "level": 1,
+          "line": 1
+        },
+        {
+          "heading": "Address Sanitizer: easy build",
+          "level": 2,
+          "line": 6
+        },
+        {
+          "heading": "General considerations",
+          "level": 2,
+          "line": 22
+        },
+        {
+          "heading": "Address Sanitizer (ASAN)",
+          "level": 2,
+          "line": 55
+        },
+        {
+          "heading": "Example setup",
+          "level": 3,
+          "line": 71
+        },
+        {
+          "heading": "Step 1: Install toolchain",
+          "level": 4,
+          "line": 73
+        },
+        {
+          "heading": "Step 2: Build Julia with ASAN",
+          "level": 4,
+          "line": 93
+        },
+        {
+          "heading": "Memory Sanitizer (MSAN)",
+          "level": 2,
+          "line": 135
+        },
+        {
+          "heading": "Thread Sanitizer (TSAN)",
+          "level": 2,
+          "line": 140
+        }
+      ],
+      "metrics": {
+        "importCount": 0,
+        "exportCount": 0,
+        "functionCount": 0,
+        "classCount": 0,
+        "sectionCount": 9
+      }
+    },
+    {
+      "path": "doc/src/devdocs/scheduler-wakeup.md",
+      "language": "markdown",
+      "fileCategory": "docs",
+      "totalLines": 90,
+      "nonEmptyLines": 69,
+      "sections": [
+        {
+          "heading": "Task scheduler wakeups",
+          "level": 1,
+          "line": 1
+        },
+        {
+          "heading": "The problem",
+          "level": 2,
+          "line": 7
+        },
+        {
+          "heading": "Why waking one worker is enough",
+          "level": 2,
+          "line": 21
+        },
+        {
+          "heading": "Why the wake must *not* be skipped using `n_threads_running`",
+          "level": 2,
+          "line": 45
+        },
+        {
+          "heading": "TLA+ model",
+          "level": 2,
+          "line": 67
+        }
+      ],
+      "metrics": {
+        "importCount": 0,
+        "exportCount": 0,
+        "functionCount": 0,
+        "classCount": 0,
+        "sectionCount": 5
+      }
+    },
+    {
+      "path": "doc/src/devdocs/ssair.md",
+      "language": "markdown",
+      "fileCategory": "docs",
+      "totalLines": 249,
+      "nonEmptyLines": 214,
+      "sections": [
+        {
+          "heading": "Julia SSA-form IR",
+          "level": 1,
+          "line": 1
+        },
+        {
+          "heading": "Background",
+          "level": 2,
+          "line": 51
+        },
+        {
+          "heading": "Categories of IR nodes",
+          "level": 2,
+          "line": 62
+        },
+        {
+          "heading": "Phi nodes and Pi nodes",
+          "level": 3,
+          "line": 66
+        },
+        {
+          "heading": "PhiC nodes and Upsilon nodes",
+          "level": 3,
+          "line": 128
+        },
+        {
+          "heading": "Main SSA data structure",
+          "level": 2,
+          "line": 215
+        }
+      ],
+      "metrics": {
+        "importCount": 0,
+        "exportCount": 0,
+        "functionCount": 0,
+        "classCount": 0,
+        "sectionCount": 6
+      }
+    },
+    {
+      "path": "doc/src/devdocs/stdio.md",
+      "language": "markdown",
+      "fileCategory": "docs",
+      "totalLines": 104,
+      "nonEmptyLines": 75,
+      "sections": [
+        {
+          "heading": "printf() and stdio in the Julia runtime",
+          "level": 1,
+          "line": 1
+        },
+        {
+          "heading": "[Libuv wrappers for stdio](@id Libuv-wrappers-for-stdio)",
+          "level": 2,
+          "line": 3
+        },
+        {
+          "heading": "Interface between JL_STD* and Julia code",
+          "level": 2,
+          "line": 30
+        },
+        {
+          "heading": "printf() during initialization",
+          "level": 2,
+          "line": 63
+        },
+        {
+          "heading": "[Legacy `ios.c` library](@id Legacy-ios.c-library)",
+          "level": 2,
+          "line": 77
+        }
+      ],
+      "metrics": {
+        "importCount": 0,
+        "exportCount": 0,
+        "functionCount": 0,
+        "classCount": 0,
+        "sectionCount": 5
+      }
+    },
+    {
+      "path": "doc/src/devdocs/subarrays.md",
+      "language": "markdown",
+      "fileCategory": "docs",
+      "totalLines": 243,
+      "nonEmptyLines": 195,
+      "sections": [
+        {
+          "heading": "SubArrays",
+          "level": 1,
+          "line": 1
+        },
+        {
+          "heading": "Index replacement",
+          "level": 2,
+          "line": 10
+        },
+        {
+          "heading": "SubArray design",
+          "level": 2,
+          "line": 43
+        },
+        {
+          "heading": "Type parameters and fields",
+          "level": 3,
+          "line": 45
+        },
+        {
+          "heading": "Index translation",
+          "level": 3,
+          "line": 78
+        },
+        {
+          "heading": "Linear indexing",
+          "level": 3,
+          "line": 122
+        },
+        {
+          "heading": "A few details",
+          "level": 3,
+          "line": 187
+        }
+      ],
+      "metrics": {
+        "importCount": 0,
+        "exportCount": 0,
+        "functionCount": 0,
+        "classCount": 0,
+        "sectionCount": 7
+      }
+    },
+    {
+      "path": "doc/src/devdocs/sysimg.md",
+      "language": "markdown",
+      "fileCategory": "docs",
+      "totalLines": 204,
+      "nonEmptyLines": 158,
+      "sections": [
+        {
+          "heading": "System Image Building",
+          "level": 1,
+          "line": 1
+        },
+        {
+          "heading": "[Building the Julia system image](@id Building-the-Julia-system-image)",
+          "level": 2,
+          "line": 3
+        },
+        {
+          "heading": "[System image optimized for multiple microarchitectures](@id sysimg-multi-versioning)",
+          "level": 2,
+          "line": 25
+        },
+        {
+          "heading": "Specifying multiple system image targets",
+          "level": 3,
+          "line": 34
+        },
+        {
+          "heading": "Implementation overview",
+          "level": 3,
+          "line": 95
+        },
+        {
+          "heading": "Upgrading LLVM",
+          "level": 3,
+          "line": 110
+        },
+        {
+          "heading": "Trimming",
+          "level": 2,
+          "line": 127
+        },
+        {
+          "heading": "Common problems",
+          "level": 3,
+          "line": 169
+        },
+        {
+          "heading": "Compatibility concerns",
+          "level": 3,
+          "line": 180
+        }
+      ],
+      "metrics": {
+        "importCount": 0,
+        "exportCount": 0,
+        "functionCount": 0,
+        "classCount": 0,
+        "sectionCount": 9
+      }
+    },
+    {
+      "path": "doc/src/devdocs/types.md",
+      "language": "markdown",
+      "fileCategory": "docs",
+      "totalLines": 530,
+      "nonEmptyLines": 411,
+      "sections": [
+        {
+          "heading": "More about types",
+          "level": 1,
+          "line": 1
+        },
+        {
+          "heading": "Types and sets (and `Any` and `Union{}`/`Bottom`)",
+          "level": 2,
+          "line": 6
+        },
+        {
+          "heading": "UnionAll types",
+          "level": 2,
+          "line": 63
+        },
+        {
+          "heading": "Free variables",
+          "level": 2,
+          "line": 139
+        },
+        {
+          "heading": "TypeNames",
+          "level": 2,
+          "line": 156
+        },
+        {
+          "heading": "Tuple types",
+          "level": 2,
+          "line": 250
+        },
+        {
+          "heading": "Diagonal types",
+          "level": 2,
+          "line": 320
+        },
+        {
+          "heading": "Subtyping diagonal variables",
+          "level": 2,
+          "line": 444
+        },
+        {
+          "heading": "Introduction to the internal machinery",
+          "level": 2,
+          "line": 481
+        },
+        {
+          "heading": "Subtyping and method sorting",
+          "level": 2,
+          "line": 513
+        }
+      ],
+      "metrics": {
+        "importCount": 0,
+        "exportCount": 0,
+        "functionCount": 0,
+        "classCount": 0,
+        "sectionCount": 10
+      }
+    }
+  ]
+}

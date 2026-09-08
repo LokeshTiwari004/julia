@@ -1,0 +1,42 @@
+{
+  "projectRoot": "/home/maruti/julia",
+  "batchFiles": [
+    {
+      "path": ".github/workflows/LabelCheck.yml",
+      "language": "yaml",
+      "sizeLines": 23,
+      "fileCategory": "infra"
+    },
+    {
+      "path": ".github/workflows/Typos.yml",
+      "language": "yaml",
+      "sizeLines": 70,
+      "fileCategory": "infra"
+    },
+    {
+      "path": ".github/workflows/Whitespace.yml",
+      "language": "yaml",
+      "sizeLines": 26,
+      "fileCategory": "infra"
+    },
+    {
+      "path": ".github/workflows/backport-label-audit.yml",
+      "language": "yaml",
+      "sizeLines": 29,
+      "fileCategory": "infra"
+    },
+    {
+      "path": ".github/workflows/cffconvert.yml",
+      "language": "yaml",
+      "sizeLines": 33,
+      "fileCategory": "infra"
+    }
+  ],
+  "batchImportData": {
+    ".github/workflows/LabelCheck.yml": [],
+    ".github/workflows/Typos.yml": [],
+    ".github/workflows/Whitespace.yml": [],
+    ".github/workflows/backport-label-audit.yml": [],
+    ".github/workflows/cffconvert.yml": []
+  }
+}

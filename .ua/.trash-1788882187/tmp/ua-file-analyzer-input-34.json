@@ -1,0 +1,182 @@
+{
+  "projectRoot": "/home/maruti/julia",
+  "batchFiles": [
+    {
+      "path": "JuliaSyntax/src/utils.jl",
+      "language": "jl",
+      "sizeLines": 144,
+      "fileCategory": "code"
+    },
+    {
+      "path": "JuliaSyntax/sysimage/JuliaSyntaxCore/Project.toml",
+      "language": "toml",
+      "sizeLines": 10,
+      "fileCategory": "config"
+    },
+    {
+      "path": "JuliaSyntax/sysimage/JuliaSyntaxCore/src/JuliaSyntaxCore.jl",
+      "language": "jl",
+      "sizeLines": 12,
+      "fileCategory": "code"
+    },
+    {
+      "path": "JuliaSyntax/sysimage/compile.jl",
+      "language": "jl",
+      "sizeLines": 47,
+      "fileCategory": "code"
+    },
+    {
+      "path": "JuliaSyntax/sysimage/precompile.jl",
+      "language": "jl",
+      "sizeLines": 6,
+      "fileCategory": "code"
+    },
+    {
+      "path": "JuliaSyntax/sysimage/precompile_exec.jl",
+      "language": "jl",
+      "sizeLines": 3,
+      "fileCategory": "code"
+    },
+    {
+      "path": "JuliaSyntax/tools/bump_in_Base.jl",
+      "language": "jl",
+      "sizeLines": 74,
+      "fileCategory": "code"
+    },
+    {
+      "path": "JuliaSyntax/tools/check_all_packages.jl",
+      "language": "jl",
+      "sizeLines": 99,
+      "fileCategory": "code"
+    },
+    {
+      "path": "JuliaSyntax/tools/registry_download.jl",
+      "language": "jl",
+      "sizeLines": 46,
+      "fileCategory": "code"
+    },
+    {
+      "path": "JuliaSyntax/tools/untar_packages.jl",
+      "language": "jl",
+      "sizeLines": 68,
+      "fileCategory": "code"
+    },
+    {
+      "path": "Make.inc",
+      "language": "inc",
+      "sizeLines": 2074,
+      "fileCategory": "code"
+    },
+    {
+      "path": "VERSION",
+      "language": "unknown",
+      "sizeLines": 1,
+      "fileCategory": "code"
+    },
+    {
+      "path": "base/Base.jl",
+      "language": "jl",
+      "sizeLines": 647,
+      "fileCategory": "code"
+    },
+    {
+      "path": "base/Base_compiler.jl",
+      "language": "jl",
+      "sizeLines": 414,
+      "fileCategory": "code"
+    },
+    {
+      "path": "base/Enums.jl",
+      "language": "jl",
+      "sizeLines": 254,
+      "fileCategory": "code"
+    },
+    {
+      "path": "base/Makefile",
+      "language": "makefile",
+      "sizeLines": 315,
+      "fileCategory": "infra"
+    },
+    {
+      "path": "base/Terminals.jl",
+      "language": "jl",
+      "sizeLines": 169,
+      "fileCategory": "code"
+    },
+    {
+      "path": "base/abstractarray.jl",
+      "language": "jl",
+      "sizeLines": 3766,
+      "fileCategory": "code"
+    },
+    {
+      "path": "base/abstractarraymath.jl",
+      "language": "jl",
+      "sizeLines": 614,
+      "fileCategory": "code"
+    },
+    {
+      "path": "base/abstractdict.jl",
+      "language": "jl",
+      "sizeLines": 681,
+      "fileCategory": "code"
+    },
+    {
+      "path": "base/abstractset.jl",
+      "language": "jl",
+      "sizeLines": 641,
+      "fileCategory": "code"
+    },
+    {
+      "path": "base/accumulate.jl",
+      "language": "jl",
+      "sizeLines": 491,
+      "fileCategory": "code"
+    },
+    {
+      "path": "base/anyall.jl",
+      "language": "jl",
+      "sizeLines": 257,
+      "fileCategory": "code"
+    },
+    {
+      "path": "base/array.jl",
+      "language": "jl",
+      "sizeLines": 3282,
+      "fileCategory": "code"
+    },
+    {
+      "path": "base/arraymath.jl",
+      "language": "jl",
+      "sizeLines": 317,
+      "fileCategory": "code"
+    }
+  ],
+  "batchImportData": {
+    "JuliaSyntax/src/utils.jl": [],
+    "JuliaSyntax/sysimage/JuliaSyntaxCore/Project.toml": [],
+    "JuliaSyntax/sysimage/JuliaSyntaxCore/src/JuliaSyntaxCore.jl": [],
+    "JuliaSyntax/sysimage/compile.jl": [],
+    "JuliaSyntax/sysimage/precompile.jl": [],
+    "JuliaSyntax/sysimage/precompile_exec.jl": [],
+    "JuliaSyntax/tools/bump_in_Base.jl": [],
+    "JuliaSyntax/tools/check_all_packages.jl": [],
+    "JuliaSyntax/tools/registry_download.jl": [],
+    "JuliaSyntax/tools/untar_packages.jl": [],
+    "Make.inc": [],
+    "VERSION": [],
+    "base/Base.jl": [],
+    "base/Base_compiler.jl": [],
+    "base/Enums.jl": [],
+    "base/Makefile": [],
+    "base/Terminals.jl": [],
+    "base/abstractarray.jl": [],
+    "base/abstractarraymath.jl": [],
+    "base/abstractdict.jl": [],
+    "base/abstractset.jl": [],
+    "base/accumulate.jl": [],
+    "base/anyall.jl": [],
+    "base/array.jl": [],
+    "base/arraymath.jl": []
+  }
+}

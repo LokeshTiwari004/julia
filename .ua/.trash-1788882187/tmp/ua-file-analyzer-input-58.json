@@ -1,0 +1,182 @@
+{
+  "projectRoot": "/home/maruti/julia",
+  "batchFiles": [
+    {
+      "path": "stdlib/Sockets/src/Sockets.jl",
+      "language": "jl",
+      "sizeLines": 917,
+      "fileCategory": "code"
+    },
+    {
+      "path": "stdlib/Sockets/src/addrinfo.jl",
+      "language": "jl",
+      "sizeLines": 338,
+      "fileCategory": "code"
+    },
+    {
+      "path": "stdlib/SparseArrays.version",
+      "language": "version",
+      "sizeLines": 4,
+      "fileCategory": "code"
+    },
+    {
+      "path": "stdlib/Statistics.version",
+      "language": "version",
+      "sizeLines": 4,
+      "fileCategory": "code"
+    },
+    {
+      "path": "stdlib/StyledStrings.version",
+      "language": "version",
+      "sizeLines": 4,
+      "fileCategory": "code"
+    },
+    {
+      "path": "stdlib/SuiteSparse.version",
+      "language": "version",
+      "sizeLines": 4,
+      "fileCategory": "code"
+    },
+    {
+      "path": "stdlib/SuiteSparse_jll/Project.toml",
+      "language": "toml",
+      "sizeLines": 19,
+      "fileCategory": "config"
+    },
+    {
+      "path": "stdlib/SuiteSparse_jll/src/SuiteSparse_jll.jl",
+      "language": "jl",
+      "sizeLines": 291,
+      "fileCategory": "code"
+    },
+    {
+      "path": "stdlib/TOML/Project.toml",
+      "language": "toml",
+      "sizeLines": 19,
+      "fileCategory": "config"
+    },
+    {
+      "path": "stdlib/TOML/benchmark/benchmarks.jl",
+      "language": "jl",
+      "sizeLines": 81,
+      "fileCategory": "code"
+    },
+    {
+      "path": "stdlib/TOML/benchmark/files/Compat.toml",
+      "language": "toml",
+      "sizeLines": 153,
+      "fileCategory": "config"
+    },
+    {
+      "path": "stdlib/TOML/benchmark/files/Registry.toml",
+      "language": "toml",
+      "sizeLines": 4120,
+      "fileCategory": "config"
+    },
+    {
+      "path": "stdlib/TOML/docs/Manifest.toml",
+      "language": "toml",
+      "sizeLines": 98,
+      "fileCategory": "config"
+    },
+    {
+      "path": "stdlib/TOML/docs/Project.toml",
+      "language": "toml",
+      "sizeLines": 3,
+      "fileCategory": "config"
+    },
+    {
+      "path": "stdlib/TOML/docs/make.jl",
+      "language": "jl",
+      "sizeLines": 16,
+      "fileCategory": "code"
+    },
+    {
+      "path": "stdlib/TOML/docs/src/index.md",
+      "language": "markdown",
+      "sizeLines": 195,
+      "fileCategory": "docs"
+    },
+    {
+      "path": "stdlib/TOML/src/TOML.jl",
+      "language": "jl",
+      "sizeLines": 216,
+      "fileCategory": "code"
+    },
+    {
+      "path": "stdlib/TOML/src/precompile.jl",
+      "language": "jl",
+      "sizeLines": 38,
+      "fileCategory": "code"
+    },
+    {
+      "path": "stdlib/Tar.version",
+      "language": "version",
+      "sizeLines": 4,
+      "fileCategory": "code"
+    },
+    {
+      "path": "stdlib/UUIDs/Project.toml",
+      "language": "toml",
+      "sizeLines": 13,
+      "fileCategory": "config"
+    },
+    {
+      "path": "stdlib/UUIDs/docs/src/index.md",
+      "language": "markdown",
+      "sizeLines": 13,
+      "fileCategory": "docs"
+    },
+    {
+      "path": "stdlib/UUIDs/src/UUIDs.jl",
+      "language": "jl",
+      "sizeLines": 207,
+      "fileCategory": "code"
+    },
+    {
+      "path": "stdlib/Unicode/Project.toml",
+      "language": "toml",
+      "sizeLines": 10,
+      "fileCategory": "config"
+    },
+    {
+      "path": "stdlib/Unicode/docs/src/index.md",
+      "language": "markdown",
+      "sizeLines": 17,
+      "fileCategory": "docs"
+    },
+    {
+      "path": "stdlib/Unicode/src/Unicode.jl",
+      "language": "jl",
+      "sizeLines": 348,
+      "fileCategory": "code"
+    }
+  ],
+  "batchImportData": {
+    "stdlib/Sockets/src/Sockets.jl": [],
+    "stdlib/Sockets/src/addrinfo.jl": [],
+    "stdlib/SparseArrays.version": [],
+    "stdlib/Statistics.version": [],
+    "stdlib/StyledStrings.version": [],
+    "stdlib/SuiteSparse.version": [],
+    "stdlib/SuiteSparse_jll/Project.toml": [],
+    "stdlib/SuiteSparse_jll/src/SuiteSparse_jll.jl": [],
+    "stdlib/TOML/Project.toml": [],
+    "stdlib/TOML/benchmark/benchmarks.jl": [],
+    "stdlib/TOML/benchmark/files/Compat.toml": [],
+    "stdlib/TOML/benchmark/files/Registry.toml": [],
+    "stdlib/TOML/docs/Manifest.toml": [],
+    "stdlib/TOML/docs/Project.toml": [],
+    "stdlib/TOML/docs/make.jl": [],
+    "stdlib/TOML/docs/src/index.md": [],
+    "stdlib/TOML/src/TOML.jl": [],
+    "stdlib/TOML/src/precompile.jl": [],
+    "stdlib/Tar.version": [],
+    "stdlib/UUIDs/Project.toml": [],
+    "stdlib/UUIDs/docs/src/index.md": [],
+    "stdlib/UUIDs/src/UUIDs.jl": [],
+    "stdlib/Unicode/Project.toml": [],
+    "stdlib/Unicode/docs/src/index.md": [],
+    "stdlib/Unicode/src/Unicode.jl": []
+  }
+}

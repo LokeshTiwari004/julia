@@ -1,0 +1,257 @@
+{
+  "scriptCompleted": true,
+  "filesAnalyzed": 3,
+  "filesSkipped": [
+    "stdlib/Profile/src/precompile.jl",
+    "stdlib/REPL/src/History/History.jl",
+    "stdlib/REPL/src/History/display.jl",
+    "stdlib/REPL/src/History/histfile.jl",
+    "stdlib/REPL/src/History/prompt.jl",
+    "stdlib/REPL/src/History/resumablefiltering.jl",
+    "stdlib/REPL/src/History/search.jl",
+    "stdlib/REPL/src/LineEdit.jl",
+    "stdlib/REPL/src/Pkg_beforeload.jl",
+    "stdlib/REPL/src/REPL.jl",
+    "stdlib/REPL/src/REPLCompletions.jl",
+    "stdlib/REPL/src/StylingPasses.jl",
+    "stdlib/REPL/src/SyntaxUtil.jl",
+    "stdlib/REPL/src/TerminalMenus/AbstractMenu.jl",
+    "stdlib/REPL/src/TerminalMenus/MultiSelectMenu.jl",
+    "stdlib/REPL/src/TerminalMenus/Pager.jl",
+    "stdlib/REPL/src/TerminalMenus/RadioMenu.jl",
+    "stdlib/REPL/src/TerminalMenus/TerminalMenus.jl",
+    "stdlib/REPL/src/TerminalMenus/config.jl",
+    "stdlib/REPL/src/TerminalMenus/util.jl",
+    "stdlib/REPL/src/docview.jl",
+    "stdlib/REPL/src/emoji_symbols.jl"
+  ],
+  "analysisOutcomes": {
+    "structure": {
+      "succeeded": 3,
+      "failed": 0
+    },
+    "callGraph": {
+      "succeeded": 0,
+      "failed": 0,
+      "skipped": 3
+    }
+  },
+  "results": [
+    {
+      "path": "stdlib/REPL/Project.toml",
+      "language": "toml",
+      "fileCategory": "config",
+      "totalLines": 22,
+      "nonEmptyLines": 19,
+      "sections": [
+        {
+          "heading": "deps",
+          "level": 1,
+          "line": 5
+        },
+        {
+          "heading": "extras",
+          "level": 1,
+          "line": 16
+        },
+        {
+          "heading": "targets",
+          "level": 1,
+          "line": 21
+        }
+      ],
+      "metrics": {
+        "importCount": 0,
+        "exportCount": 0,
+        "functionCount": 0,
+        "classCount": 0,
+        "sectionCount": 3
+      }
+    },
+    {
+      "path": "stdlib/REPL/docs/src/index.md",
+      "language": "markdown",
+      "fileCategory": "docs",
+      "totalLines": 1128,
+      "nonEmptyLines": 857,
+      "sections": [
+        {
+          "heading": "[REPL](@id The-Julia-REPL)",
+          "level": 1,
+          "line": 5
+        },
+        {
+          "heading": "The different prompt modes",
+          "level": 2,
+          "line": 26
+        },
+        {
+          "heading": "The Julian mode",
+          "level": 3,
+          "line": 28
+        },
+        {
+          "heading": "Help mode",
+          "level": 3,
+          "line": 94
+        },
+        {
+          "heading": "[Shell mode](@id man-shell-mode)",
+          "level": 3,
+          "line": 149
+        },
+        {
+          "heading": "Pkg mode",
+          "level": 3,
+          "line": 200
+        },
+        {
+          "heading": "History searching",
+          "level": 3,
+          "line": 208
+        },
+        {
+          "heading": "Key bindings",
+          "level": 2,
+          "line": 223
+        },
+        {
+          "heading": "Customizing keybindings",
+          "level": 3,
+          "line": 295
+        },
+        {
+          "heading": "Automatic bracket insertion",
+          "level": 3,
+          "line": 329
+        },
+        {
+          "heading": "Tab completion",
+          "level": 2,
+          "line": 351
+        },
+        {
+          "heading": "Syntax Highlighting",
+          "level": 2,
+          "line": 567
+        },
+        {
+          "heading": "Customizing Syntax Highlighting Colors",
+          "level": 3,
+          "line": 578
+        },
+        {
+          "heading": "Customising the history searcher",
+          "level": 2,
+          "line": 741
+        },
+        {
+          "heading": "Customizing Colors",
+          "level": 2,
+          "line": 756
+        },
+        {
+          "heading": "Changing the contextual module which is active at the REPL",
+          "level": 2,
+          "line": 804
+        },
+        {
+          "heading": "Numbered prompt",
+          "level": 2,
+          "line": 867
+        },
+        {
+          "heading": "TerminalMenus",
+          "level": 2,
+          "line": 905
+        },
+        {
+          "heading": "Examples",
+          "level": 3,
+          "line": 909
+        },
+        {
+          "heading": "RadioMenu",
+          "level": 4,
+          "line": 920
+        },
+        {
+          "heading": "MultiSelectMenu",
+          "level": 4,
+          "line": 956
+        },
+        {
+          "heading": "Customization / Configuration",
+          "level": 3,
+          "line": 997
+        },
+        {
+          "heading": "ConfiguredMenu subtypes",
+          "level": 4,
+          "line": 999
+        },
+        {
+          "heading": "Legacy interface",
+          "level": 4,
+          "line": 1062
+        },
+        {
+          "heading": "References",
+          "level": 2,
+          "line": 1067
+        },
+        {
+          "heading": "REPL",
+          "level": 3,
+          "line": 1069
+        },
+        {
+          "heading": "TerminalMenus",
+          "level": 3,
+          "line": 1075
+        },
+        {
+          "heading": "Menus",
+          "level": 3,
+          "line": 1077
+        },
+        {
+          "heading": "Configuration",
+          "level": 4,
+          "line": 1084
+        },
+        {
+          "heading": "User interaction",
+          "level": 4,
+          "line": 1092
+        },
+        {
+          "heading": "AbstractMenu extension interface",
+          "level": 4,
+          "line": 1098
+        }
+      ],
+      "metrics": {
+        "importCount": 0,
+        "exportCount": 0,
+        "functionCount": 0,
+        "classCount": 0,
+        "sectionCount": 31
+      }
+    },
+    {
+      "path": "stdlib/REPL/src/TerminalMenus/LICENSE.md",
+      "language": "markdown",
+      "fileCategory": "docs",
+      "totalLines": 22,
+      "nonEmptyLines": 21,
+      "metrics": {
+        "importCount": 0,
+        "exportCount": 0,
+        "functionCount": 0,
+        "classCount": 0,
+        "sectionCount": 0
+      }
+    }
+  ]
+}

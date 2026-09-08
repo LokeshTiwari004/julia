@@ -1,0 +1,50 @@
+{
+  "projectRoot": "/home/maruti/julia",
+  "batchFiles": [
+    {
+      "path": "src/clangsa/GCChecker.cpp",
+      "language": "cpp",
+      "sizeLines": 24,
+      "fileCategory": "code"
+    },
+    {
+      "path": "src/clangsa/GCChecker.h",
+      "language": "c",
+      "sizeLines": 543,
+      "fileCategory": "code"
+    },
+    {
+      "path": "src/clangsa/GCCheckerPropagation.cpp",
+      "language": "cpp",
+      "sizeLines": 2144,
+      "fileCategory": "code"
+    },
+    {
+      "path": "src/clangsa/GCCheckerReporting.cpp",
+      "language": "cpp",
+      "sizeLines": 263,
+      "fileCategory": "code"
+    },
+    {
+      "path": "src/clangsa/GCCheckerState.cpp",
+      "language": "cpp",
+      "sizeLines": 1116,
+      "fileCategory": "code"
+    }
+  ],
+  "batchImportData": {
+    "src/clangsa/GCChecker.cpp": [
+      "src/clangsa/GCChecker.h"
+    ],
+    "src/clangsa/GCChecker.h": [],
+    "src/clangsa/GCCheckerPropagation.cpp": [
+      "src/clangsa/GCChecker.h"
+    ],
+    "src/clangsa/GCCheckerReporting.cpp": [
+      "src/clangsa/GCChecker.h"
+    ],
+    "src/clangsa/GCCheckerState.cpp": [
+      "src/clangsa/GCChecker.h"
+    ]
+  }
+}

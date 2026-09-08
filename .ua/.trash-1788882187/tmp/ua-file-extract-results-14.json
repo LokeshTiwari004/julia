@@ -1,0 +1,1344 @@
+{
+  "scriptCompleted": true,
+  "filesAnalyzed": 12,
+  "filesSkipped": [],
+  "analysisOutcomes": {
+    "structure": {
+      "succeeded": 12,
+      "failed": 0
+    },
+    "callGraph": {
+      "succeeded": 0,
+      "failed": 0,
+      "skipped": 12
+    }
+  },
+  "results": [
+    {
+      "path": ".codecov.yml",
+      "language": "yaml",
+      "fileCategory": "config",
+      "totalLines": 4,
+      "nonEmptyLines": 4,
+      "sections": [
+        {
+          "heading": "coverage",
+          "level": 1,
+          "line": 1
+        }
+      ],
+      "metrics": {
+        "importCount": 0,
+        "exportCount": 0,
+        "functionCount": 0,
+        "classCount": 0,
+        "sectionCount": 1
+      }
+    },
+    {
+      "path": "AGENTS.md",
+      "language": "markdown",
+      "fileCategory": "docs",
+      "totalLines": 110,
+      "nonEmptyLines": 85,
+      "sections": [
+        {
+          "heading": "Information for AI agents",
+          "level": 1,
+          "line": 1
+        },
+        {
+          "heading": "Module Organization",
+          "level": 2,
+          "line": 3
+        },
+        {
+          "heading": "Running Julia",
+          "level": 2,
+          "line": 11
+        },
+        {
+          "heading": "For all changes",
+          "level": 2,
+          "line": 20
+        },
+        {
+          "heading": "Building Julia",
+          "level": 2,
+          "line": 29
+        },
+        {
+          "heading": "Testing LLVM-related changes",
+          "level": 3,
+          "line": 38
+        },
+        {
+          "heading": "Using Revise",
+          "level": 2,
+          "line": 52
+        },
+        {
+          "heading": "Writing code",
+          "level": 2,
+          "line": 64
+        },
+        {
+          "heading": "Task-specific skills",
+          "level": 2,
+          "line": 73
+        },
+        {
+          "heading": "Commit messages and pull requests",
+          "level": 2,
+          "line": 92
+        }
+      ],
+      "metrics": {
+        "importCount": 0,
+        "exportCount": 0,
+        "functionCount": 0,
+        "classCount": 0,
+        "sectionCount": 10
+      }
+    },
+    {
+      "path": "CLAUDE.md",
+      "language": "markdown",
+      "fileCategory": "docs",
+      "totalLines": 9,
+      "nonEmptyLines": 5,
+      "metrics": {
+        "importCount": 0,
+        "exportCount": 0,
+        "functionCount": 0,
+        "classCount": 0,
+        "sectionCount": 0
+      }
+    },
+    {
+      "path": "CONTRIBUTING.md",
+      "language": "markdown",
+      "fileCategory": "docs",
+      "totalLines": 105,
+      "nonEmptyLines": 66,
+      "sections": [
+        {
+          "heading": "Notes for Julia Contributors",
+          "level": 1,
+          "line": 1
+        },
+        {
+          "heading": "Learning Julia",
+          "level": 2,
+          "line": 10
+        },
+        {
+          "heading": "Filing an issue",
+          "level": 2,
+          "line": 14
+        },
+        {
+          "heading": "Before filing an issue",
+          "level": 3,
+          "line": 16
+        },
+        {
+          "heading": "How to file a bug report",
+          "level": 3,
+          "line": 24
+        },
+        {
+          "heading": "Submitting contributions",
+          "level": 2,
+          "line": 44
+        },
+        {
+          "heading": "Working on issues",
+          "level": 3,
+          "line": 46
+        },
+        {
+          "heading": "Reviewing pull requests",
+          "level": 3,
+          "line": 52
+        },
+        {
+          "heading": "Contributor Checklist",
+          "level": 3,
+          "line": 58
+        },
+        {
+          "heading": "Guidance for specific changes",
+          "level": 3,
+          "line": 76
+        },
+        {
+          "heading": "Resources",
+          "level": 2,
+          "line": 87
+        }
+      ],
+      "metrics": {
+        "importCount": 0,
+        "exportCount": 0,
+        "functionCount": 0,
+        "classCount": 0,
+        "sectionCount": 11
+      }
+    },
+    {
+      "path": "HISTORY.md",
+      "language": "markdown",
+      "fileCategory": "docs",
+      "totalLines": 7969,
+      "nonEmptyLines": 6293,
+      "sections": [
+        {
+          "heading": "REPL",
+          "level": 4,
+          "line": 80
+        },
+        {
+          "heading": "Test",
+          "level": 4,
+          "line": 90
+        },
+        {
+          "heading": "InteractiveUtils",
+          "level": 4,
+          "line": 100
+        },
+        {
+          "heading": "Dates",
+          "level": 4,
+          "line": 105
+        },
+        {
+          "heading": "JuliaSyntaxHighlighting",
+          "level": 4,
+          "line": 310
+        },
+        {
+          "heading": "LinearAlgebra",
+          "level": 4,
+          "line": 316
+        },
+        {
+          "heading": "Profile",
+          "level": 4,
+          "line": 334
+        },
+        {
+          "heading": "REPL",
+          "level": 4,
+          "line": 343
+        },
+        {
+          "heading": "Test",
+          "level": 4,
+          "line": 357
+        },
+        {
+          "heading": "InteractiveUtils",
+          "level": 4,
+          "line": 369
+        },
+        {
+          "heading": "StyledStrings",
+          "level": 4,
+          "line": 566
+        },
+        {
+          "heading": "Package Manager",
+          "level": 4,
+          "line": 590
+        },
+        {
+          "heading": "LinearAlgebra",
+          "level": 4,
+          "line": 600
+        },
+        {
+          "heading": "Logging",
+          "level": 4,
+          "line": 611
+        },
+        {
+          "heading": "Printf",
+          "level": 4,
+          "line": 613
+        },
+        {
+          "heading": "Profile",
+          "level": 4,
+          "line": 615
+        },
+        {
+          "heading": "Random",
+          "level": 4,
+          "line": 617
+        },
+        {
+          "heading": "REPL",
+          "level": 4,
+          "line": 624
+        },
+        {
+          "heading": "SuiteSparse",
+          "level": 4,
+          "line": 638
+        },
+        {
+          "heading": "SparseArrays",
+          "level": 4,
+          "line": 641
+        },
+        {
+          "heading": "Test",
+          "level": 4,
+          "line": 643
+        },
+        {
+          "heading": "Dates",
+          "level": 4,
+          "line": 645
+        },
+        {
+          "heading": "Statistics",
+          "level": 4,
+          "line": 649
+        },
+        {
+          "heading": "Distributed",
+          "level": 4,
+          "line": 653
+        },
+        {
+          "heading": "Unicode",
+          "level": 4,
+          "line": 657
+        },
+        {
+          "heading": "DelimitedFiles",
+          "level": 4,
+          "line": 660
+        },
+        {
+          "heading": "InteractiveUtils",
+          "level": 4,
+          "line": 663
+        },
+        {
+          "heading": "Package Manager",
+          "level": 4,
+          "line": 826
+        },
+        {
+          "heading": "LinearAlgebra",
+          "level": 4,
+          "line": 830
+        },
+        {
+          "heading": "Printf",
+          "level": 4,
+          "line": 855
+        },
+        {
+          "heading": "REPL",
+          "level": 4,
+          "line": 859
+        },
+        {
+          "heading": "Test",
+          "level": 4,
+          "line": 864
+        },
+        {
+          "heading": "InteractiveUtils",
+          "level": 4,
+          "line": 870
+        },
+        {
+          "heading": "Package Manager",
+          "level": 4,
+          "line": 1017
+        },
+        {
+          "heading": "LinearAlgebra",
+          "level": 4,
+          "line": 1019
+        },
+        {
+          "heading": "Printf",
+          "level": 4,
+          "line": 1032
+        },
+        {
+          "heading": "Profile",
+          "level": 4,
+          "line": 1037
+        },
+        {
+          "heading": "Random",
+          "level": 4,
+          "line": 1042
+        },
+        {
+          "heading": "REPL",
+          "level": 4,
+          "line": 1046
+        },
+        {
+          "heading": "SuiteSparse",
+          "level": 4,
+          "line": 1056
+        },
+        {
+          "heading": "SparseArrays",
+          "level": 4,
+          "line": 1061
+        },
+        {
+          "heading": "Test",
+          "level": 4,
+          "line": 1070
+        },
+        {
+          "heading": "Dates",
+          "level": 4,
+          "line": 1076
+        },
+        {
+          "heading": "Distributed",
+          "level": 4,
+          "line": 1081
+        },
+        {
+          "heading": "Unicode",
+          "level": 4,
+          "line": 1088
+        },
+        {
+          "heading": "DelimitedFiles",
+          "level": 4,
+          "line": 1092
+        },
+        {
+          "heading": "InteractiveUtils",
+          "level": 4,
+          "line": 1284
+        },
+        {
+          "heading": "LinearAlgebra",
+          "level": 4,
+          "line": 1289
+        },
+        {
+          "heading": "Printf",
+          "level": 4,
+          "line": 1308
+        },
+        {
+          "heading": "Profile",
+          "level": 4,
+          "line": 1312
+        },
+        {
+          "heading": "REPL",
+          "level": 4,
+          "line": 1326
+        },
+        {
+          "heading": "SparseArrays",
+          "level": 4,
+          "line": 1337
+        },
+        {
+          "heading": "Logging",
+          "level": 4,
+          "line": 1348
+        },
+        {
+          "heading": "Unicode",
+          "level": 4,
+          "line": 1353
+        },
+        {
+          "heading": "Test",
+          "level": 4,
+          "line": 1362
+        },
+        {
+          "heading": "Distributed",
+          "level": 4,
+          "line": 1372
+        },
+        {
+          "heading": "Package Manager",
+          "level": 4,
+          "line": 1609
+        },
+        {
+          "heading": "LinearAlgebra",
+          "level": 4,
+          "line": 1635
+        },
+        {
+          "heading": "Markdown",
+          "level": 4,
+          "line": 1658
+        },
+        {
+          "heading": "Printf",
+          "level": 4,
+          "line": 1661
+        },
+        {
+          "heading": "Random",
+          "level": 4,
+          "line": 1664
+        },
+        {
+          "heading": "REPL",
+          "level": 4,
+          "line": 1671
+        },
+        {
+          "heading": "SparseArrays",
+          "level": 4,
+          "line": 1680
+        },
+        {
+          "heading": "Dates",
+          "level": 4,
+          "line": 1687
+        },
+        {
+          "heading": "Downloads",
+          "level": 4,
+          "line": 1692
+        },
+        {
+          "heading": "Statistics",
+          "level": 4,
+          "line": 1707
+        },
+        {
+          "heading": "Sockets",
+          "level": 4,
+          "line": 1710
+        },
+        {
+          "heading": "Tar",
+          "level": 4,
+          "line": 1713
+        },
+        {
+          "heading": "Distributed",
+          "level": 4,
+          "line": 1733
+        },
+        {
+          "heading": "UUIDs",
+          "level": 4,
+          "line": 1736
+        },
+        {
+          "heading": "Mmap",
+          "level": 4,
+          "line": 1739
+        },
+        {
+          "heading": "DelimitedFiles",
+          "level": 4,
+          "line": 1743
+        },
+        {
+          "heading": "Package Manager",
+          "level": 4,
+          "line": 1998
+        },
+        {
+          "heading": "LinearAlgebra",
+          "level": 4,
+          "line": 2013
+        },
+        {
+          "heading": "Markdown",
+          "level": 4,
+          "line": 2027
+        },
+        {
+          "heading": "Printf",
+          "level": 4,
+          "line": 2030
+        },
+        {
+          "heading": "Random",
+          "level": 4,
+          "line": 2041
+        },
+        {
+          "heading": "REPL",
+          "level": 4,
+          "line": 2044
+        },
+        {
+          "heading": "SparseArrays",
+          "level": 4,
+          "line": 2070
+        },
+        {
+          "heading": "Dates",
+          "level": 4,
+          "line": 2077
+        },
+        {
+          "heading": "Statistics",
+          "level": 4,
+          "line": 2084
+        },
+        {
+          "heading": "Sockets",
+          "level": 4,
+          "line": 2087
+        },
+        {
+          "heading": "Distributed",
+          "level": 4,
+          "line": 2090
+        },
+        {
+          "heading": "UUIDs",
+          "level": 4,
+          "line": 2097
+        },
+        {
+          "heading": "Mmap",
+          "level": 4,
+          "line": 2102
+        },
+        {
+          "heading": "LinearAlgebra",
+          "level": 4,
+          "line": 2359
+        },
+        {
+          "heading": "Markdown",
+          "level": 4,
+          "line": 2369
+        },
+        {
+          "heading": "Random",
+          "level": 4,
+          "line": 2376
+        },
+        {
+          "heading": "REPL",
+          "level": 4,
+          "line": 2388
+        },
+        {
+          "heading": "SparseArrays",
+          "level": 4,
+          "line": 2391
+        },
+        {
+          "heading": "Dates",
+          "level": 4,
+          "line": 2399
+        },
+        {
+          "heading": "Statistics",
+          "level": 4,
+          "line": 2404
+        },
+        {
+          "heading": "Sockets",
+          "level": 4,
+          "line": 2407
+        },
+        {
+          "heading": "Distributed",
+          "level": 4,
+          "line": 2412
+        },
+        {
+          "heading": "LinearAlgebra",
+          "level": 4,
+          "line": 2559
+        },
+        {
+          "heading": "Markdown",
+          "level": 4,
+          "line": 2567
+        },
+        {
+          "heading": "Random",
+          "level": 4,
+          "line": 2571
+        },
+        {
+          "heading": "REPL",
+          "level": 4,
+          "line": 2577
+        },
+        {
+          "heading": "SparseArrays",
+          "level": 4,
+          "line": 2582
+        },
+        {
+          "heading": "Libdl",
+          "level": 4,
+          "line": 2698
+        },
+        {
+          "heading": "LinearAlgebra",
+          "level": 4,
+          "line": 2702
+        },
+        {
+          "heading": "SparseArrays",
+          "level": 4,
+          "line": 2710
+        },
+        {
+          "heading": "Dates",
+          "level": 4,
+          "line": 2718
+        },
+        {
+          "heading": "Statistics",
+          "level": 4,
+          "line": 2723
+        },
+        {
+          "heading": "Sockets",
+          "level": 4,
+          "line": 2727
+        },
+        {
+          "heading": "Miscellaneous",
+          "level": 4,
+          "line": 2733
+        },
+        {
+          "heading": "LinearAlgebra",
+          "level": 4,
+          "line": 2873
+        },
+        {
+          "heading": "SparseArrays",
+          "level": 4,
+          "line": 2881
+        },
+        {
+          "heading": "Sockets",
+          "level": 4,
+          "line": 2888
+        },
+        {
+          "heading": "Dates",
+          "level": 4,
+          "line": 2893
+        },
+        {
+          "heading": "Statistics",
+          "level": 4,
+          "line": 2896
+        },
+        {
+          "heading": "Miscellaneous",
+          "level": 4,
+          "line": 2899
+        },
+        {
+          "heading": "Dates",
+          "level": 4,
+          "line": 3054
+        },
+        {
+          "heading": "InteractiveUtils",
+          "level": 4,
+          "line": 3058
+        },
+        {
+          "heading": "LinearAlgebra",
+          "level": 4,
+          "line": 3064
+        },
+        {
+          "heading": "Random",
+          "level": 4,
+          "line": 3071
+        },
+        {
+          "heading": "SparseArrays",
+          "level": 4,
+          "line": 3077
+        },
+        {
+          "heading": "Statistics",
+          "level": 4,
+          "line": 3080
+        }
+      ],
+      "metrics": {
+        "importCount": 0,
+        "exportCount": 0,
+        "functionCount": 0,
+        "classCount": 0,
+        "sectionCount": 118
+      }
+    },
+    {
+      "path": "LICENSE.md",
+      "language": "markdown",
+      "fileCategory": "docs",
+      "totalLines": 26,
+      "nonEmptyLines": 20,
+      "metrics": {
+        "importCount": 0,
+        "exportCount": 0,
+        "functionCount": 0,
+        "classCount": 0,
+        "sectionCount": 0
+      }
+    },
+    {
+      "path": "Makefile",
+      "language": "makefile",
+      "fileCategory": "infra",
+      "totalLines": 841,
+      "nonEmptyLines": 734,
+      "steps": [
+        {
+          "name": "default",
+          "startLine": 26,
+          "endLine": 27
+        },
+        {
+          "name": "all",
+          "startLine": 29,
+          "endLine": 30
+        },
+        {
+          "name": "julia-deps",
+          "startLine": 42,
+          "endLine": 42
+        },
+        {
+          "name": "configure-y",
+          "startLine": 43,
+          "endLine": 43
+        },
+        {
+          "name": "configure",
+          "startLine": 44,
+          "endLine": 44
+        },
+        {
+          "name": "configure",
+          "startLine": 57,
+          "endLine": 58
+        },
+        {
+          "name": "julia_flisp.boot.inc.phony",
+          "startLine": 64,
+          "endLine": 66
+        },
+        {
+          "name": "julia-symlink",
+          "startLine": 72,
+          "endLine": 72
+        },
+        {
+          "name": "julia-deps",
+          "startLine": 90,
+          "endLine": 92
+        },
+        {
+          "name": "julia-mmtk_julia",
+          "startLine": 95,
+          "endLine": 96
+        },
+        {
+          "name": "julia-deps",
+          "startLine": 97,
+          "endLine": 98
+        },
+        {
+          "name": "clean-mmtk_julia",
+          "startLine": 100,
+          "endLine": 101
+        },
+        {
+          "name": "clean",
+          "startLine": 102,
+          "endLine": 102
+        },
+        {
+          "name": "julia-deps",
+          "startLine": 106,
+          "endLine": 106
+        },
+        {
+          "name": "julia-stdlib",
+          "startLine": 113,
+          "endLine": 115
+        },
+        {
+          "name": "julia-base",
+          "startLine": 117,
+          "endLine": 119
+        },
+        {
+          "name": "julia-libccalltest",
+          "startLine": 120,
+          "endLine": 122
+        },
+        {
+          "name": "julia-libccalllazyfoo",
+          "startLine": 123,
+          "endLine": 125
+        },
+        {
+          "name": "julia-libccalllazybar",
+          "startLine": 126,
+          "endLine": 128
+        },
+        {
+          "name": "julia-libllvmcalltest",
+          "startLine": 129,
+          "endLine": 131
+        },
+        {
+          "name": "julia-src-release",
+          "startLine": 133,
+          "endLine": 135
+        },
+        {
+          "name": "julia-cli-release",
+          "startLine": 137,
+          "endLine": 139
+        },
+        {
+          "name": "julia-sysimg-release",
+          "startLine": 141,
+          "endLine": 143
+        },
+        {
+          "name": "julia-sysimg-JL-release",
+          "startLine": 145,
+          "endLine": 147
+        },
+        {
+          "name": "julia-sysbase-release",
+          "startLine": 150,
+          "endLine": 152
+        },
+        {
+          "name": "julia-debug",
+          "startLine": 154,
+          "endLine": 156
+        },
+        {
+          "name": "stdlibs-cache-release",
+          "startLine": 158,
+          "endLine": 160
+        },
+        {
+          "name": "debug",
+          "startLine": 162,
+          "endLine": 163
+        },
+        {
+          "name": "docs",
+          "startLine": 165,
+          "endLine": 167
+        },
+        {
+          "name": "docs-revise",
+          "startLine": 169,
+          "endLine": 171
+        },
+        {
+          "name": "check-whitespace",
+          "startLine": 175,
+          "endLine": 175
+        },
+        {
+          "name": "fix-whitespace",
+          "startLine": 183,
+          "endLine": 183
+        },
+        {
+          "name": "release-candidate",
+          "startLine": 191,
+          "endLine": 228
+        },
+        {
+          "name": "julia-base-cache",
+          "startLine": 246,
+          "endLine": 250
+        },
+        {
+          "name": "install",
+          "startLine": 351,
+          "endLine": 357
+        },
+        {
+          "name": "distclean",
+          "startLine": 636,
+          "endLine": 638
+        },
+        {
+          "name": "binary-dist",
+          "startLine": 640,
+          "endLine": 640
+        },
+        {
+          "name": "exe",
+          "startLine": 673,
+          "endLine": 678
+        },
+        {
+          "name": "app",
+          "startLine": 679,
+          "endLine": 682
+        },
+        {
+          "name": "darwinframework",
+          "startLine": 683,
+          "endLine": 685
+        },
+        {
+          "name": "light-source-dist.tmp",
+          "startLine": 687,
+          "endLine": 687
+        },
+        {
+          "name": "light-source-dist",
+          "startLine": 710,
+          "endLine": 718
+        },
+        {
+          "name": "source-dist",
+          "startLine": 720,
+          "endLine": 722
+        },
+        {
+          "name": "full-source-dist",
+          "startLine": 725,
+          "endLine": 740
+        },
+        {
+          "name": "clean",
+          "startLine": 742,
+          "endLine": 755
+        },
+        {
+          "name": "cleanall",
+          "startLine": 760,
+          "endLine": 764
+        },
+        {
+          "name": "distcleanall",
+          "startLine": 766,
+          "endLine": 770
+        },
+        {
+          "name": "compile-database",
+          "startLine": 778,
+          "endLine": 780
+        },
+        {
+          "name": "test",
+          "startLine": 782,
+          "endLine": 784
+        },
+        {
+          "name": "testall",
+          "startLine": 786,
+          "endLine": 791
+        },
+        {
+          "name": "testall1",
+          "startLine": 793,
+          "endLine": 795
+        },
+        {
+          "name": "win-extras",
+          "startLine": 806,
+          "endLine": 813
+        },
+        {
+          "name": "build-stats",
+          "startLine": 820,
+          "endLine": 820
+        },
+        {
+          "name": "print-locale",
+          "startLine": 840,
+          "endLine": 842
+        }
+      ],
+      "metrics": {
+        "importCount": 0,
+        "exportCount": 0,
+        "functionCount": 0,
+        "classCount": 0,
+        "stepCount": 54
+      }
+    },
+    {
+      "path": "NEWS.md",
+      "language": "markdown",
+      "fileCategory": "docs",
+      "totalLines": 275,
+      "nonEmptyLines": 232,
+      "sections": [
+        {
+          "heading": "JuliaSyntaxHighlighting",
+          "level": 4,
+          "line": 192
+        },
+        {
+          "heading": "LinearAlgebra",
+          "level": 4,
+          "line": 194
+        },
+        {
+          "heading": "Markdown",
+          "level": 4,
+          "line": 196
+        },
+        {
+          "heading": "Profile",
+          "level": 4,
+          "line": 204
+        },
+        {
+          "heading": "Random",
+          "level": 4,
+          "line": 206
+        },
+        {
+          "heading": "REPL",
+          "level": 4,
+          "line": 208
+        },
+        {
+          "heading": "SharedArrays",
+          "level": 4,
+          "line": 210
+        },
+        {
+          "heading": "Test",
+          "level": 4,
+          "line": 216
+        },
+        {
+          "heading": "Test",
+          "level": 4,
+          "line": 222
+        },
+        {
+          "heading": "Dates",
+          "level": 4,
+          "line": 242
+        },
+        {
+          "heading": "InteractiveUtils",
+          "level": 4,
+          "line": 246
+        },
+        {
+          "heading": "Dates",
+          "level": 4,
+          "line": 252
+        },
+        {
+          "heading": "TOML",
+          "level": 4,
+          "line": 254
+        }
+      ],
+      "metrics": {
+        "importCount": 0,
+        "exportCount": 0,
+        "functionCount": 0,
+        "classCount": 0,
+        "sectionCount": 13
+      }
+    },
+    {
+      "path": "README.md",
+      "language": "markdown",
+      "fileCategory": "docs",
+      "totalLines": 175,
+      "nonEmptyLines": 136,
+      "sections": [
+        {
+          "heading": "The Julia Language",
+          "level": 2,
+          "line": 36
+        },
+        {
+          "heading": "Resources",
+          "level": 2,
+          "line": 44
+        },
+        {
+          "heading": "Contributing to Julia",
+          "level": 2,
+          "line": 58
+        },
+        {
+          "heading": "Learning Julia",
+          "level": 3,
+          "line": 68
+        },
+        {
+          "heading": "Binary Installation",
+          "level": 2,
+          "line": 72
+        },
+        {
+          "heading": "Building Julia",
+          "level": 2,
+          "line": 96
+        },
+        {
+          "heading": "Uninstalling Julia",
+          "level": 3,
+          "line": 133
+        },
+        {
+          "heading": "Source Code Organization",
+          "level": 2,
+          "line": 139
+        },
+        {
+          "heading": "Terminal, Editors and IDEs",
+          "level": 2,
+          "line": 155
+        }
+      ],
+      "metrics": {
+        "importCount": 0,
+        "exportCount": 0,
+        "functionCount": 0,
+        "classCount": 0,
+        "sectionCount": 9
+      }
+    },
+    {
+      "path": "THIRDPARTY.md",
+      "language": "markdown",
+      "fileCategory": "docs",
+      "totalLines": 74,
+      "nonEmptyLines": 60,
+      "metrics": {
+        "importCount": 0,
+        "exportCount": 0,
+        "functionCount": 0,
+        "classCount": 0,
+        "sectionCount": 0
+      }
+    },
+    {
+      "path": "julia.spdx.json",
+      "language": "json",
+      "fileCategory": "config",
+      "totalLines": 678,
+      "nonEmptyLines": 678,
+      "sections": [
+        {
+          "heading": "spdxVersion",
+          "level": 1,
+          "line": 2
+        },
+        {
+          "heading": "dataLicense",
+          "level": 1,
+          "line": 3
+        },
+        {
+          "heading": "SPDXID",
+          "level": 1,
+          "line": 4
+        },
+        {
+          "heading": "name",
+          "level": 1,
+          "line": 5
+        },
+        {
+          "heading": "documentNamespace",
+          "level": 1,
+          "line": 6
+        },
+        {
+          "heading": "creationInfo",
+          "level": 1,
+          "line": 7
+        },
+        {
+          "heading": "packages",
+          "level": 1,
+          "line": 14
+        },
+        {
+          "heading": "hasExtractedLicensingInfos",
+          "level": 1,
+          "line": 486
+        },
+        {
+          "heading": "relationships",
+          "level": 1,
+          "line": 493
+        },
+        {
+          "heading": "documentDescribes",
+          "level": 1,
+          "line": 675
+        }
+      ],
+      "metrics": {
+        "importCount": 0,
+        "exportCount": 0,
+        "functionCount": 0,
+        "classCount": 0,
+        "sectionCount": 10
+      }
+    },
+    {
+      "path": "typos.toml",
+      "language": "toml",
+      "fileCategory": "config",
+      "totalLines": 5,
+      "nonEmptyLines": 4,
+      "sections": [
+        {
+          "heading": "default",
+          "level": 1,
+          "line": 1
+        },
+        {
+          "heading": "default.extend-words",
+          "level": 2,
+          "line": 4
+        }
+      ],
+      "metrics": {
+        "importCount": 0,
+        "exportCount": 0,
+        "functionCount": 0,
+        "classCount": 0,
+        "sectionCount": 2
+      }
+    }
+  ]
+}

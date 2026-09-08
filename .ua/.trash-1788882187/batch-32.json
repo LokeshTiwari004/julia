@@ -1,0 +1,129 @@
+{
+  "batchIndex": 32,
+  "nodes": [
+    {
+      "id": "config:JuliaLowering/Project.toml",
+      "type": "config",
+      "name": "Project.toml",
+      "filePath": "JuliaLowering/Project.toml",
+      "summary": "Configuration file: Project.toml.",
+      "tags": [
+        "configuration"
+      ],
+      "complexity": "simple",
+      "language": "toml"
+    },
+    {
+      "id": "document:JuliaLowering/README.md",
+      "type": "document",
+      "name": "README.md",
+      "filePath": "JuliaLowering/README.md",
+      "summary": "Documentation covering JuliaLowering, Goals, Trying it out and more.",
+      "tags": [
+        "documentation"
+      ],
+      "complexity": "complex",
+      "language": "markdown"
+    }
+  ],
+  "edges": [],
+  "batchFiles": [
+    {
+      "path": "JuliaLowering/Project.toml",
+      "language": "toml",
+      "fileCategory": "config",
+      "totalLines": 22,
+      "nonEmptyLines": 17,
+      "sections": [
+        {
+          "heading": "deps",
+          "level": 1,
+          "line": 6
+        },
+        {
+          "heading": "sources",
+          "level": 1,
+          "line": 9
+        },
+        {
+          "heading": "compat",
+          "level": 1,
+          "line": 12
+        },
+        {
+          "heading": "extras",
+          "level": 1,
+          "line": 15
+        },
+        {
+          "heading": "targets",
+          "level": 1,
+          "line": 21
+        }
+      ],
+      "metrics": {
+        "importCount": 0,
+        "exportCount": 0,
+        "functionCount": 0,
+        "classCount": 0,
+        "sectionCount": 5
+      }
+    },
+    {
+      "path": "JuliaLowering/README.md",
+      "language": "markdown",
+      "fileCategory": "docs",
+      "totalLines": 245,
+      "nonEmptyLines": 202,
+      "sections": [
+        {
+          "heading": "JuliaLowering",
+          "level": 1,
+          "line": 1
+        },
+        {
+          "heading": "Goals",
+          "level": 2,
+          "line": 7
+        },
+        {
+          "heading": "Trying it out",
+          "level": 2,
+          "line": 19
+        },
+        {
+          "heading": "Syntax type",
+          "level": 2,
+          "line": 70
+        },
+        {
+          "heading": "New macros with automatic hygiene",
+          "level": 2,
+          "line": 109
+        },
+        {
+          "heading": "AST input specification, error messages",
+          "level": 2,
+          "line": 162
+        },
+        {
+          "heading": "Compatibility",
+          "level": 2,
+          "line": 178
+        },
+        {
+          "heading": "Why do we need to rewrite macros to get provenance and automatic hygiene?",
+          "level": 3,
+          "line": 220
+        }
+      ],
+      "metrics": {
+        "importCount": 0,
+        "exportCount": 0,
+        "functionCount": 0,
+        "classCount": 0,
+        "sectionCount": 8
+      }
+    }
+  ]
+}

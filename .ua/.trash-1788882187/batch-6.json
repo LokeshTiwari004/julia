@@ -1,0 +1,3279 @@
+{
+  "batchIndex": 6,
+  "nodes": [
+    {
+      "id": "file:cli/jl_exports.h",
+      "type": "file",
+      "name": "jl_exports.h",
+      "filePath": "cli/jl_exports.h",
+      "summary": "Source file: jl_exports.h.",
+      "tags": [
+        "source"
+      ],
+      "complexity": "moderate",
+      "language": "c"
+    },
+    {
+      "id": "file:cli/list_strip_symbols.h",
+      "type": "file",
+      "name": "list_strip_symbols.h",
+      "filePath": "cli/list_strip_symbols.h",
+      "summary": "Source file: list_strip_symbols.h.",
+      "tags": [
+        "source"
+      ],
+      "complexity": "simple",
+      "language": "c"
+    },
+    {
+      "id": "file:cli/loader.h",
+      "type": "file",
+      "name": "loader.h",
+      "filePath": "cli/loader.h",
+      "summary": "Source file: loader.h.",
+      "tags": [
+        "source"
+      ],
+      "complexity": "moderate",
+      "language": "c"
+    },
+    {
+      "id": "file:cli/loader_exe.c",
+      "type": "file",
+      "name": "loader_exe.c",
+      "filePath": "cli/loader_exe.c",
+      "summary": "Source file: loader_exe.c.",
+      "tags": [
+        "source"
+      ],
+      "complexity": "moderate",
+      "language": "c"
+    },
+    {
+      "id": "file:cli/loader_lib.c",
+      "type": "file",
+      "name": "loader_lib.c",
+      "filePath": "cli/loader_lib.c",
+      "summary": "Source file: loader_lib.c.",
+      "tags": [
+        "source"
+      ],
+      "complexity": "complex",
+      "language": "c"
+    },
+    {
+      "id": "file:cli/loader_library_probe.c",
+      "type": "file",
+      "name": "loader_library_probe.c",
+      "filePath": "cli/loader_library_probe.c",
+      "summary": "Source file: loader_library_probe.c.",
+      "tags": [
+        "source"
+      ],
+      "complexity": "moderate",
+      "language": "c"
+    },
+    {
+      "id": "file:cli/loader_symbol_probe.c",
+      "type": "file",
+      "name": "loader_symbol_probe.c",
+      "filePath": "cli/loader_symbol_probe.c",
+      "summary": "Source file: loader_symbol_probe.c.",
+      "tags": [
+        "source"
+      ],
+      "complexity": "moderate",
+      "language": "c"
+    },
+    {
+      "id": "file:cli/trampolines/common.h",
+      "type": "file",
+      "name": "common.h",
+      "filePath": "cli/trampolines/common.h",
+      "summary": "Source file: common.h.",
+      "tags": [
+        "source"
+      ],
+      "complexity": "moderate",
+      "language": "c"
+    },
+    {
+      "id": "file:src/ccalllazybar.c",
+      "type": "file",
+      "name": "ccalllazybar.c",
+      "filePath": "src/ccalllazybar.c",
+      "summary": "Source file: ccalllazybar.c.",
+      "tags": [
+        "source"
+      ],
+      "complexity": "simple",
+      "language": "c"
+    },
+    {
+      "id": "function:src/ccalllazybar.c:bar",
+      "type": "function",
+      "name": "bar",
+      "filePath": "src/ccalllazybar.c",
+      "summary": "Function bar with 1 parameters.",
+      "tags": [
+        "function"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "file:src/ccalllazyfoo.c",
+      "type": "file",
+      "name": "ccalllazyfoo.c",
+      "filePath": "src/ccalllazyfoo.c",
+      "summary": "Source file: ccalllazyfoo.c.",
+      "tags": [
+        "source"
+      ],
+      "complexity": "simple",
+      "language": "c"
+    },
+    {
+      "id": "function:src/ccalllazyfoo.c:foo",
+      "type": "function",
+      "name": "foo",
+      "filePath": "src/ccalllazyfoo.c",
+      "summary": "Function foo with 1 parameters.",
+      "tags": [
+        "function"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "file:src/ccalltest.c",
+      "type": "file",
+      "name": "ccalltest.c",
+      "filePath": "src/ccalltest.c",
+      "summary": "Module with 62 functions and 0 types.",
+      "tags": [
+        "high-function-count",
+        "testing"
+      ],
+      "complexity": "complex",
+      "language": "c"
+    },
+    {
+      "id": "function:src/ccalltest.c:testUcharX",
+      "type": "function",
+      "name": "testUcharX",
+      "filePath": "src/ccalltest.c",
+      "summary": "Function testUcharX with 1 parameters.",
+      "tags": [
+        "function"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:src/ccalltest.c:ctest",
+      "type": "function",
+      "name": "ctest",
+      "filePath": "src/ccalltest.c",
+      "summary": "Function ctest with 1 parameters.",
+      "tags": [
+        "function"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:src/ccalltest.c:cgtest",
+      "type": "function",
+      "name": "cgtest",
+      "filePath": "src/ccalltest.c",
+      "summary": "Function cgtest with 1 parameters.",
+      "tags": [
+        "function"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:src/ccalltest.c:cftest",
+      "type": "function",
+      "name": "cftest",
+      "filePath": "src/ccalltest.c",
+      "summary": "Function cftest with 1 parameters.",
+      "tags": [
+        "function"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:src/ccalltest.c:test_1",
+      "type": "function",
+      "name": "test_1",
+      "filePath": "src/ccalltest.c",
+      "summary": "Function test_1 with 2 parameters.",
+      "tags": [
+        "function"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:src/ccalltest.c:test_1long_a",
+      "type": "function",
+      "name": "test_1long_a",
+      "filePath": "src/ccalltest.c",
+      "summary": "Function test_1long_a with 5 parameters.",
+      "tags": [
+        "function"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:src/ccalltest.c:test_1long_b",
+      "type": "function",
+      "name": "test_1long_b",
+      "filePath": "src/ccalltest.c",
+      "summary": "Function test_1long_b with 5 parameters.",
+      "tags": [
+        "function"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:src/ccalltest.c:test_1long_c",
+      "type": "function",
+      "name": "test_1long_c",
+      "filePath": "src/ccalltest.c",
+      "summary": "Function test_1long_c with 6 parameters.",
+      "tags": [
+        "function"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:src/ccalltest.c:test_2a",
+      "type": "function",
+      "name": "test_2a",
+      "filePath": "src/ccalltest.c",
+      "summary": "Function test_2a with 2 parameters.",
+      "tags": [
+        "function"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:src/ccalltest.c:test_2b",
+      "type": "function",
+      "name": "test_2b",
+      "filePath": "src/ccalltest.c",
+      "summary": "Function test_2b with 2 parameters.",
+      "tags": [
+        "function"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:src/ccalltest.c:test_3a",
+      "type": "function",
+      "name": "test_3a",
+      "filePath": "src/ccalltest.c",
+      "summary": "Function test_3a with 2 parameters.",
+      "tags": [
+        "function"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:src/ccalltest.c:test_3b",
+      "type": "function",
+      "name": "test_3b",
+      "filePath": "src/ccalltest.c",
+      "summary": "Function test_3b with 2 parameters.",
+      "tags": [
+        "function"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:src/ccalltest.c:test_4",
+      "type": "function",
+      "name": "test_4",
+      "filePath": "src/ccalltest.c",
+      "summary": "Function test_4 with 2 parameters.",
+      "tags": [
+        "function"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:src/ccalltest.c:test_5",
+      "type": "function",
+      "name": "test_5",
+      "filePath": "src/ccalltest.c",
+      "summary": "Function test_5 with 2 parameters.",
+      "tags": [
+        "function"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:src/ccalltest.c:test_6",
+      "type": "function",
+      "name": "test_6",
+      "filePath": "src/ccalltest.c",
+      "summary": "Function test_6 with 2 parameters.",
+      "tags": [
+        "function"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:src/ccalltest.c:test_7",
+      "type": "function",
+      "name": "test_7",
+      "filePath": "src/ccalltest.c",
+      "summary": "Function test_7 with 2 parameters.",
+      "tags": [
+        "function"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:src/ccalltest.c:test_8",
+      "type": "function",
+      "name": "test_8",
+      "filePath": "src/ccalltest.c",
+      "summary": "Function test_8 with 2 parameters.",
+      "tags": [
+        "function"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:src/ccalltest.c:test_9",
+      "type": "function",
+      "name": "test_9",
+      "filePath": "src/ccalltest.c",
+      "summary": "Function test_9 with 2 parameters.",
+      "tags": [
+        "function"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:src/ccalltest.c:test_10",
+      "type": "function",
+      "name": "test_10",
+      "filePath": "src/ccalltest.c",
+      "summary": "Function test_10 with 2 parameters.",
+      "tags": [
+        "function"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:src/ccalltest.c:test_11",
+      "type": "function",
+      "name": "test_11",
+      "filePath": "src/ccalltest.c",
+      "summary": "Function test_11 with 2 parameters.",
+      "tags": [
+        "function"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:src/ccalltest.c:test_12",
+      "type": "function",
+      "name": "test_12",
+      "filePath": "src/ccalltest.c",
+      "summary": "Function test_12 with 2 parameters.",
+      "tags": [
+        "function"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:src/ccalltest.c:test_13",
+      "type": "function",
+      "name": "test_13",
+      "filePath": "src/ccalltest.c",
+      "summary": "Function test_13 with 2 parameters.",
+      "tags": [
+        "function"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:src/ccalltest.c:test_14",
+      "type": "function",
+      "name": "test_14",
+      "filePath": "src/ccalltest.c",
+      "summary": "Function test_14 with 2 parameters.",
+      "tags": [
+        "function"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:src/ccalltest.c:test_15",
+      "type": "function",
+      "name": "test_15",
+      "filePath": "src/ccalltest.c",
+      "summary": "Function test_15 with 2 parameters.",
+      "tags": [
+        "function"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:src/ccalltest.c:test_16",
+      "type": "function",
+      "name": "test_16",
+      "filePath": "src/ccalltest.c",
+      "summary": "Function test_16 with 2 parameters.",
+      "tags": [
+        "function"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:src/ccalltest.c:test_17",
+      "type": "function",
+      "name": "test_17",
+      "filePath": "src/ccalltest.c",
+      "summary": "Function test_17 with 2 parameters.",
+      "tags": [
+        "function"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:src/ccalltest.c:test_18",
+      "type": "function",
+      "name": "test_18",
+      "filePath": "src/ccalltest.c",
+      "summary": "Function test_18 with 2 parameters.",
+      "tags": [
+        "function"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:src/ccalltest.c:test_128",
+      "type": "function",
+      "name": "test_128",
+      "filePath": "src/ccalltest.c",
+      "summary": "Function test_128 with 2 parameters.",
+      "tags": [
+        "function"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:src/ccalltest.c:test_big",
+      "type": "function",
+      "name": "test_big",
+      "filePath": "src/ccalltest.c",
+      "summary": "Function test_big with 1 parameters.",
+      "tags": [
+        "function"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:src/ccalltest.c:test_big_long",
+      "type": "function",
+      "name": "test_big_long",
+      "filePath": "src/ccalltest.c",
+      "summary": "Function test_big_long with 4 parameters.",
+      "tags": [
+        "function"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:src/ccalltest.c:test_long_args_intp",
+      "type": "function",
+      "name": "test_long_args_intp",
+      "filePath": "src/ccalltest.c",
+      "summary": "Function test_long_args_intp with 14 parameters.",
+      "tags": [
+        "function"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:src/ccalltest.c:test_long_args_int",
+      "type": "function",
+      "name": "test_long_args_int",
+      "filePath": "src/ccalltest.c",
+      "summary": "Function test_long_args_int with 14 parameters.",
+      "tags": [
+        "function"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:src/ccalltest.c:test_long_args_float",
+      "type": "function",
+      "name": "test_long_args_float",
+      "filePath": "src/ccalltest.c",
+      "summary": "Function test_long_args_float with 14 parameters.",
+      "tags": [
+        "function"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:src/ccalltest.c:test_long_args_double",
+      "type": "function",
+      "name": "test_long_args_double",
+      "filePath": "src/ccalltest.c",
+      "summary": "Function test_long_args_double with 14 parameters.",
+      "tags": [
+        "function"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:src/ccalltest.c:test_spill_int1",
+      "type": "function",
+      "name": "test_spill_int1",
+      "filePath": "src/ccalltest.c",
+      "summary": "Function test_spill_int1 with 2 parameters.",
+      "tags": [
+        "function"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:src/ccalltest.c:test_spill_int2",
+      "type": "function",
+      "name": "test_spill_int2",
+      "filePath": "src/ccalltest.c",
+      "summary": "Function test_spill_int2 with 3 parameters.",
+      "tags": [
+        "function"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:src/ccalltest.c:test_spill_int3",
+      "type": "function",
+      "name": "test_spill_int3",
+      "filePath": "src/ccalltest.c",
+      "summary": "Function test_spill_int3 with 4 parameters.",
+      "tags": [
+        "function"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:src/ccalltest.c:test_spill_int4",
+      "type": "function",
+      "name": "test_spill_int4",
+      "filePath": "src/ccalltest.c",
+      "summary": "Function test_spill_int4 with 5 parameters.",
+      "tags": [
+        "function"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:src/ccalltest.c:test_spill_int5",
+      "type": "function",
+      "name": "test_spill_int5",
+      "filePath": "src/ccalltest.c",
+      "summary": "Function test_spill_int5 with 6 parameters.",
+      "tags": [
+        "function"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:src/ccalltest.c:test_spill_int6",
+      "type": "function",
+      "name": "test_spill_int6",
+      "filePath": "src/ccalltest.c",
+      "summary": "Function test_spill_int6 with 7 parameters.",
+      "tags": [
+        "function"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:src/ccalltest.c:test_spill_int7",
+      "type": "function",
+      "name": "test_spill_int7",
+      "filePath": "src/ccalltest.c",
+      "summary": "Function test_spill_int7 with 8 parameters.",
+      "tags": [
+        "function"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:src/ccalltest.c:test_spill_int8",
+      "type": "function",
+      "name": "test_spill_int8",
+      "filePath": "src/ccalltest.c",
+      "summary": "Function test_spill_int8 with 9 parameters.",
+      "tags": [
+        "function"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:src/ccalltest.c:test_spill_int9",
+      "type": "function",
+      "name": "test_spill_int9",
+      "filePath": "src/ccalltest.c",
+      "summary": "Function test_spill_int9 with 10 parameters.",
+      "tags": [
+        "function"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:src/ccalltest.c:test_spill_int10",
+      "type": "function",
+      "name": "test_spill_int10",
+      "filePath": "src/ccalltest.c",
+      "summary": "Function test_spill_int10 with 11 parameters.",
+      "tags": [
+        "function"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:src/ccalltest.c:test_spill_float1",
+      "type": "function",
+      "name": "test_spill_float1",
+      "filePath": "src/ccalltest.c",
+      "summary": "Function test_spill_float1 with 2 parameters.",
+      "tags": [
+        "function"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:src/ccalltest.c:test_spill_float2",
+      "type": "function",
+      "name": "test_spill_float2",
+      "filePath": "src/ccalltest.c",
+      "summary": "Function test_spill_float2 with 3 parameters.",
+      "tags": [
+        "function"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:src/ccalltest.c:test_spill_float3",
+      "type": "function",
+      "name": "test_spill_float3",
+      "filePath": "src/ccalltest.c",
+      "summary": "Function test_spill_float3 with 4 parameters.",
+      "tags": [
+        "function"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:src/ccalltest.c:test_spill_float4",
+      "type": "function",
+      "name": "test_spill_float4",
+      "filePath": "src/ccalltest.c",
+      "summary": "Function test_spill_float4 with 5 parameters.",
+      "tags": [
+        "function"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:src/ccalltest.c:test_spill_float5",
+      "type": "function",
+      "name": "test_spill_float5",
+      "filePath": "src/ccalltest.c",
+      "summary": "Function test_spill_float5 with 6 parameters.",
+      "tags": [
+        "function"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:src/ccalltest.c:test_spill_float6",
+      "type": "function",
+      "name": "test_spill_float6",
+      "filePath": "src/ccalltest.c",
+      "summary": "Function test_spill_float6 with 7 parameters.",
+      "tags": [
+        "function"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:src/ccalltest.c:test_spill_float7",
+      "type": "function",
+      "name": "test_spill_float7",
+      "filePath": "src/ccalltest.c",
+      "summary": "Function test_spill_float7 with 8 parameters.",
+      "tags": [
+        "function"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:src/ccalltest.c:test_spill_float8",
+      "type": "function",
+      "name": "test_spill_float8",
+      "filePath": "src/ccalltest.c",
+      "summary": "Function test_spill_float8 with 9 parameters.",
+      "tags": [
+        "function"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:src/ccalltest.c:test_spill_float9",
+      "type": "function",
+      "name": "test_spill_float9",
+      "filePath": "src/ccalltest.c",
+      "summary": "Function test_spill_float9 with 10 parameters.",
+      "tags": [
+        "function"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:src/ccalltest.c:test_spill_float10",
+      "type": "function",
+      "name": "test_spill_float10",
+      "filePath": "src/ccalltest.c",
+      "summary": "Function test_spill_float10 with 11 parameters.",
+      "tags": [
+        "function"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:src/ccalltest.c:get_c_int",
+      "type": "function",
+      "name": "get_c_int",
+      "filePath": "src/ccalltest.c",
+      "summary": "Function get_c_int with 0 parameters.",
+      "tags": [
+        "function"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:src/ccalltest.c:set_c_int",
+      "type": "function",
+      "name": "set_c_int",
+      "filePath": "src/ccalltest.c",
+      "summary": "Function set_c_int with 1 parameters.",
+      "tags": [
+        "function"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:src/ccalltest.c:finalizer_cptr",
+      "type": "function",
+      "name": "finalizer_cptr",
+      "filePath": "src/ccalltest.c",
+      "summary": "Function finalizer_cptr with 1 parameters.",
+      "tags": [
+        "function"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:src/ccalltest.c:set_verbose",
+      "type": "function",
+      "name": "set_verbose",
+      "filePath": "src/ccalltest.c",
+      "summary": "Function set_verbose with 1 parameters.",
+      "tags": [
+        "function"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:src/ccalltest.c:threadcall_args",
+      "type": "function",
+      "name": "threadcall_args",
+      "filePath": "src/ccalltest.c",
+      "summary": "Function threadcall_args with 2 parameters.",
+      "tags": [
+        "function"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:src/ccalltest.c:c_exit_finalizer",
+      "type": "function",
+      "name": "c_exit_finalizer",
+      "filePath": "src/ccalltest.c",
+      "summary": "Function c_exit_finalizer with 1 parameters.",
+      "tags": [
+        "function"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:src/ccalltest.c:cancelspin_wait",
+      "type": "function",
+      "name": "cancelspin_wait",
+      "filePath": "src/ccalltest.c",
+      "summary": "Function cancelspin_wait with 1 parameters.",
+      "tags": [
+        "function"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:src/ccalltest.c:cancelspin_handler",
+      "type": "function",
+      "name": "cancelspin_handler",
+      "filePath": "src/ccalltest.c",
+      "summary": "Function cancelspin_handler with 2 parameters.",
+      "tags": [
+        "function"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "file:src/ccalltest_common.h",
+      "type": "file",
+      "name": "ccalltest_common.h",
+      "filePath": "src/ccalltest_common.h",
+      "summary": "Source file: ccalltest_common.h.",
+      "tags": [
+        "testing"
+      ],
+      "complexity": "simple",
+      "language": "c"
+    },
+    {
+      "id": "file:src/jloptions.h",
+      "type": "file",
+      "name": "jloptions.h",
+      "filePath": "src/jloptions.h",
+      "summary": "Source file: jloptions.h.",
+      "tags": [
+        "source"
+      ],
+      "complexity": "moderate",
+      "language": "c"
+    },
+    {
+      "id": "file:src/julia_fasttls.h",
+      "type": "file",
+      "name": "julia_fasttls.h",
+      "filePath": "src/julia_fasttls.h",
+      "summary": "Source file: julia_fasttls.h.",
+      "tags": [
+        "source"
+      ],
+      "complexity": "simple",
+      "language": "c"
+    },
+    {
+      "id": "file:src/support/dirpath.h",
+      "type": "file",
+      "name": "dirpath.h",
+      "filePath": "src/support/dirpath.h",
+      "summary": "Source file: dirpath.h.",
+      "tags": [
+        "source"
+      ],
+      "complexity": "simple",
+      "language": "c"
+    },
+    {
+      "id": "file:src/support/platform.h",
+      "type": "file",
+      "name": "platform.h",
+      "filePath": "src/support/platform.h",
+      "summary": "Source file: platform.h.",
+      "tags": [
+        "source"
+      ],
+      "complexity": "moderate",
+      "language": "c"
+    }
+  ],
+  "edges": [
+    {
+      "source": "file:cli/jl_exports.h",
+      "target": "file:src/jl_exported_data.inc",
+      "type": "imports",
+      "weight": 0.7
+    },
+    {
+      "source": "file:cli/jl_exports.h",
+      "target": "file:src/jl_exported_funcs.inc",
+      "type": "imports",
+      "weight": 0.7
+    },
+    {
+      "source": "file:cli/list_strip_symbols.h",
+      "target": "file:cli/trampolines/common.h",
+      "type": "imports",
+      "weight": 0.7
+    },
+    {
+      "source": "file:cli/list_strip_symbols.h",
+      "target": "file:src/jl_exported_funcs.inc",
+      "type": "imports",
+      "weight": 0.7
+    },
+    {
+      "source": "file:cli/loader.h",
+      "target": "file:src/jloptions.h",
+      "type": "imports",
+      "weight": 0.7
+    },
+    {
+      "source": "file:cli/loader.h",
+      "target": "file:src/julia_fasttls.h",
+      "type": "imports",
+      "weight": 0.7
+    },
+    {
+      "source": "file:cli/loader.h",
+      "target": "file:src/support/dirpath.h",
+      "type": "imports",
+      "weight": 0.7
+    },
+    {
+      "source": "file:cli/loader.h",
+      "target": "file:src/support/platform.h",
+      "type": "imports",
+      "weight": 0.7
+    },
+    {
+      "source": "file:cli/loader_exe.c",
+      "target": "file:cli/loader.h",
+      "type": "imports",
+      "weight": 0.7
+    },
+    {
+      "source": "file:cli/loader_lib.c",
+      "target": "file:cli/loader.h",
+      "type": "imports",
+      "weight": 0.7
+    },
+    {
+      "source": "file:cli/loader_library_probe.c",
+      "target": "file:cli/loader.h",
+      "type": "imports",
+      "weight": 0.7
+    },
+    {
+      "source": "file:cli/loader_library_probe.c",
+      "target": "file:src/support/platform.h",
+      "type": "imports",
+      "weight": 0.7
+    },
+    {
+      "source": "file:cli/loader_symbol_probe.c",
+      "target": "file:cli/loader.h",
+      "type": "imports",
+      "weight": 0.7
+    },
+    {
+      "source": "file:cli/loader_symbol_probe.c",
+      "target": "file:src/support/platform.h",
+      "type": "imports",
+      "weight": 0.7
+    },
+    {
+      "source": "file:cli/trampolines/common.h",
+      "target": "file:src/support/platform.h",
+      "type": "imports",
+      "weight": 0.7
+    },
+    {
+      "source": "file:src/ccalllazybar.c",
+      "target": "function:src/ccalllazybar.c:bar",
+      "type": "contains",
+      "weight": 1
+    },
+    {
+      "source": "file:src/ccalllazybar.c",
+      "target": "file:src/ccalltest_common.h",
+      "type": "imports",
+      "weight": 0.7
+    },
+    {
+      "source": "file:src/ccalllazyfoo.c",
+      "target": "function:src/ccalllazyfoo.c:foo",
+      "type": "contains",
+      "weight": 1
+    },
+    {
+      "source": "file:src/ccalllazyfoo.c",
+      "target": "file:src/ccalltest_common.h",
+      "type": "imports",
+      "weight": 0.7
+    },
+    {
+      "source": "file:src/ccalltest.c",
+      "target": "function:src/ccalltest.c:testUcharX",
+      "type": "contains",
+      "weight": 1
+    },
+    {
+      "source": "file:src/ccalltest.c",
+      "target": "function:src/ccalltest.c:ctest",
+      "type": "contains",
+      "weight": 1
+    },
+    {
+      "source": "file:src/ccalltest.c",
+      "target": "function:src/ccalltest.c:cgtest",
+      "type": "contains",
+      "weight": 1
+    },
+    {
+      "source": "file:src/ccalltest.c",
+      "target": "function:src/ccalltest.c:cftest",
+      "type": "contains",
+      "weight": 1
+    },
+    {
+      "source": "file:src/ccalltest.c",
+      "target": "function:src/ccalltest.c:test_1",
+      "type": "contains",
+      "weight": 1
+    },
+    {
+      "source": "file:src/ccalltest.c",
+      "target": "function:src/ccalltest.c:test_1long_a",
+      "type": "contains",
+      "weight": 1
+    },
+    {
+      "source": "file:src/ccalltest.c",
+      "target": "function:src/ccalltest.c:test_1long_b",
+      "type": "contains",
+      "weight": 1
+    },
+    {
+      "source": "file:src/ccalltest.c",
+      "target": "function:src/ccalltest.c:test_1long_c",
+      "type": "contains",
+      "weight": 1
+    },
+    {
+      "source": "file:src/ccalltest.c",
+      "target": "function:src/ccalltest.c:test_2a",
+      "type": "contains",
+      "weight": 1
+    },
+    {
+      "source": "file:src/ccalltest.c",
+      "target": "function:src/ccalltest.c:test_2b",
+      "type": "contains",
+      "weight": 1
+    },
+    {
+      "source": "file:src/ccalltest.c",
+      "target": "function:src/ccalltest.c:test_3a",
+      "type": "contains",
+      "weight": 1
+    },
+    {
+      "source": "file:src/ccalltest.c",
+      "target": "function:src/ccalltest.c:test_3b",
+      "type": "contains",
+      "weight": 1
+    },
+    {
+      "source": "file:src/ccalltest.c",
+      "target": "function:src/ccalltest.c:test_4",
+      "type": "contains",
+      "weight": 1
+    },
+    {
+      "source": "file:src/ccalltest.c",
+      "target": "function:src/ccalltest.c:test_5",
+      "type": "contains",
+      "weight": 1
+    },
+    {
+      "source": "file:src/ccalltest.c",
+      "target": "function:src/ccalltest.c:test_6",
+      "type": "contains",
+      "weight": 1
+    },
+    {
+      "source": "file:src/ccalltest.c",
+      "target": "function:src/ccalltest.c:test_7",
+      "type": "contains",
+      "weight": 1
+    },
+    {
+      "source": "file:src/ccalltest.c",
+      "target": "function:src/ccalltest.c:test_8",
+      "type": "contains",
+      "weight": 1
+    },
+    {
+      "source": "file:src/ccalltest.c",
+      "target": "function:src/ccalltest.c:test_9",
+      "type": "contains",
+      "weight": 1
+    },
+    {
+      "source": "file:src/ccalltest.c",
+      "target": "function:src/ccalltest.c:test_10",
+      "type": "contains",
+      "weight": 1
+    },
+    {
+      "source": "file:src/ccalltest.c",
+      "target": "function:src/ccalltest.c:test_11",
+      "type": "contains",
+      "weight": 1
+    },
+    {
+      "source": "file:src/ccalltest.c",
+      "target": "function:src/ccalltest.c:test_12",
+      "type": "contains",
+      "weight": 1
+    },
+    {
+      "source": "file:src/ccalltest.c",
+      "target": "function:src/ccalltest.c:test_13",
+      "type": "contains",
+      "weight": 1
+    },
+    {
+      "source": "file:src/ccalltest.c",
+      "target": "function:src/ccalltest.c:test_14",
+      "type": "contains",
+      "weight": 1
+    },
+    {
+      "source": "file:src/ccalltest.c",
+      "target": "function:src/ccalltest.c:test_15",
+      "type": "contains",
+      "weight": 1
+    },
+    {
+      "source": "file:src/ccalltest.c",
+      "target": "function:src/ccalltest.c:test_16",
+      "type": "contains",
+      "weight": 1
+    },
+    {
+      "source": "file:src/ccalltest.c",
+      "target": "function:src/ccalltest.c:test_17",
+      "type": "contains",
+      "weight": 1
+    },
+    {
+      "source": "file:src/ccalltest.c",
+      "target": "function:src/ccalltest.c:test_18",
+      "type": "contains",
+      "weight": 1
+    },
+    {
+      "source": "file:src/ccalltest.c",
+      "target": "function:src/ccalltest.c:test_128",
+      "type": "contains",
+      "weight": 1
+    },
+    {
+      "source": "file:src/ccalltest.c",
+      "target": "function:src/ccalltest.c:test_big",
+      "type": "contains",
+      "weight": 1
+    },
+    {
+      "source": "file:src/ccalltest.c",
+      "target": "function:src/ccalltest.c:test_big_long",
+      "type": "contains",
+      "weight": 1
+    },
+    {
+      "source": "file:src/ccalltest.c",
+      "target": "function:src/ccalltest.c:test_long_args_intp",
+      "type": "contains",
+      "weight": 1
+    },
+    {
+      "source": "file:src/ccalltest.c",
+      "target": "function:src/ccalltest.c:test_long_args_int",
+      "type": "contains",
+      "weight": 1
+    },
+    {
+      "source": "file:src/ccalltest.c",
+      "target": "function:src/ccalltest.c:test_long_args_float",
+      "type": "contains",
+      "weight": 1
+    },
+    {
+      "source": "file:src/ccalltest.c",
+      "target": "function:src/ccalltest.c:test_long_args_double",
+      "type": "contains",
+      "weight": 1
+    },
+    {
+      "source": "file:src/ccalltest.c",
+      "target": "function:src/ccalltest.c:test_spill_int1",
+      "type": "contains",
+      "weight": 1
+    },
+    {
+      "source": "file:src/ccalltest.c",
+      "target": "function:src/ccalltest.c:test_spill_int2",
+      "type": "contains",
+      "weight": 1
+    },
+    {
+      "source": "file:src/ccalltest.c",
+      "target": "function:src/ccalltest.c:test_spill_int3",
+      "type": "contains",
+      "weight": 1
+    },
+    {
+      "source": "file:src/ccalltest.c",
+      "target": "function:src/ccalltest.c:test_spill_int4",
+      "type": "contains",
+      "weight": 1
+    },
+    {
+      "source": "file:src/ccalltest.c",
+      "target": "function:src/ccalltest.c:test_spill_int5",
+      "type": "contains",
+      "weight": 1
+    },
+    {
+      "source": "file:src/ccalltest.c",
+      "target": "function:src/ccalltest.c:test_spill_int6",
+      "type": "contains",
+      "weight": 1
+    },
+    {
+      "source": "file:src/ccalltest.c",
+      "target": "function:src/ccalltest.c:test_spill_int7",
+      "type": "contains",
+      "weight": 1
+    },
+    {
+      "source": "file:src/ccalltest.c",
+      "target": "function:src/ccalltest.c:test_spill_int8",
+      "type": "contains",
+      "weight": 1
+    },
+    {
+      "source": "file:src/ccalltest.c",
+      "target": "function:src/ccalltest.c:test_spill_int9",
+      "type": "contains",
+      "weight": 1
+    },
+    {
+      "source": "file:src/ccalltest.c",
+      "target": "function:src/ccalltest.c:test_spill_int10",
+      "type": "contains",
+      "weight": 1
+    },
+    {
+      "source": "file:src/ccalltest.c",
+      "target": "function:src/ccalltest.c:test_spill_float1",
+      "type": "contains",
+      "weight": 1
+    },
+    {
+      "source": "file:src/ccalltest.c",
+      "target": "function:src/ccalltest.c:test_spill_float2",
+      "type": "contains",
+      "weight": 1
+    },
+    {
+      "source": "file:src/ccalltest.c",
+      "target": "function:src/ccalltest.c:test_spill_float3",
+      "type": "contains",
+      "weight": 1
+    },
+    {
+      "source": "file:src/ccalltest.c",
+      "target": "function:src/ccalltest.c:test_spill_float4",
+      "type": "contains",
+      "weight": 1
+    },
+    {
+      "source": "file:src/ccalltest.c",
+      "target": "function:src/ccalltest.c:test_spill_float5",
+      "type": "contains",
+      "weight": 1
+    },
+    {
+      "source": "file:src/ccalltest.c",
+      "target": "function:src/ccalltest.c:test_spill_float6",
+      "type": "contains",
+      "weight": 1
+    },
+    {
+      "source": "file:src/ccalltest.c",
+      "target": "function:src/ccalltest.c:test_spill_float7",
+      "type": "contains",
+      "weight": 1
+    },
+    {
+      "source": "file:src/ccalltest.c",
+      "target": "function:src/ccalltest.c:test_spill_float8",
+      "type": "contains",
+      "weight": 1
+    },
+    {
+      "source": "file:src/ccalltest.c",
+      "target": "function:src/ccalltest.c:test_spill_float9",
+      "type": "contains",
+      "weight": 1
+    },
+    {
+      "source": "file:src/ccalltest.c",
+      "target": "function:src/ccalltest.c:test_spill_float10",
+      "type": "contains",
+      "weight": 1
+    },
+    {
+      "source": "file:src/ccalltest.c",
+      "target": "function:src/ccalltest.c:get_c_int",
+      "type": "contains",
+      "weight": 1
+    },
+    {
+      "source": "file:src/ccalltest.c",
+      "target": "function:src/ccalltest.c:set_c_int",
+      "type": "contains",
+      "weight": 1
+    },
+    {
+      "source": "file:src/ccalltest.c",
+      "target": "function:src/ccalltest.c:finalizer_cptr",
+      "type": "contains",
+      "weight": 1
+    },
+    {
+      "source": "file:src/ccalltest.c",
+      "target": "function:src/ccalltest.c:set_verbose",
+      "type": "contains",
+      "weight": 1
+    },
+    {
+      "source": "file:src/ccalltest.c",
+      "target": "function:src/ccalltest.c:threadcall_args",
+      "type": "contains",
+      "weight": 1
+    },
+    {
+      "source": "file:src/ccalltest.c",
+      "target": "function:src/ccalltest.c:c_exit_finalizer",
+      "type": "contains",
+      "weight": 1
+    },
+    {
+      "source": "file:src/ccalltest.c",
+      "target": "function:src/ccalltest.c:cancelspin_wait",
+      "type": "contains",
+      "weight": 1
+    },
+    {
+      "source": "file:src/ccalltest.c",
+      "target": "function:src/ccalltest.c:cancelspin_handler",
+      "type": "contains",
+      "weight": 1
+    },
+    {
+      "source": "file:src/ccalltest.c",
+      "target": "file:src/ccalltest_common.h",
+      "type": "imports",
+      "weight": 0.7
+    },
+    {
+      "source": "function:src/ccalltest.c:finalizer_cptr",
+      "target": "function:src/ccalltest.c:set_c_int",
+      "type": "calls",
+      "weight": 0.8
+    },
+    {
+      "source": "file:src/ccalltest_common.h",
+      "target": "file:src/support/dtypes.h",
+      "type": "imports",
+      "weight": 0.7
+    },
+    {
+      "source": "file:src/ccalltest_common.h",
+      "target": "file:src/support/platform.h",
+      "type": "imports",
+      "weight": 0.7
+    },
+    {
+      "source": "file:src/ccalltest_common.h",
+      "target": "file:src/support/dtypes.h",
+      "type": "imports",
+      "weight": 0.7
+    },
+    {
+      "source": "file:src/support/platform.h",
+      "target": "file:src/llvmcalltest.cpp",
+      "type": "imports",
+      "weight": 0.7
+    }
+  ],
+  "batchFiles": [
+    {
+      "path": "cli/jl_exports.h",
+      "language": "c",
+      "fileCategory": "code",
+      "totalLines": 80,
+      "nonEmptyLines": 70,
+      "metrics": {
+        "importCount": 2,
+        "exportCount": 0,
+        "functionCount": 0,
+        "classCount": 0
+      }
+    },
+    {
+      "path": "cli/list_strip_symbols.h",
+      "language": "c",
+      "fileCategory": "code",
+      "totalLines": 10,
+      "nonEmptyLines": 9,
+      "metrics": {
+        "importCount": 2,
+        "exportCount": 0,
+        "functionCount": 0,
+        "classCount": 0
+      }
+    },
+    {
+      "path": "cli/loader.h",
+      "language": "c",
+      "fileCategory": "code",
+      "totalLines": 85,
+      "nonEmptyLines": 72,
+      "metrics": {
+        "importCount": 4,
+        "exportCount": 0,
+        "functionCount": 0,
+        "classCount": 0
+      }
+    },
+    {
+      "path": "cli/loader_exe.c",
+      "language": "c",
+      "fileCategory": "code",
+      "totalLines": 135,
+      "nonEmptyLines": 119,
+      "callGraph": [
+        {
+          "caller": "maybe_launch_terminal",
+          "callee": "_NSGetExecutablePath",
+          "lineNumber": 32
+        },
+        {
+          "caller": "maybe_launch_terminal",
+          "callee": "realpath",
+          "lineNumber": 36
+        },
+        {
+          "caller": "maybe_launch_terminal",
+          "callee": "strrchr",
+          "lineNumber": 40
+        },
+        {
+          "caller": "maybe_launch_terminal",
+          "callee": "strcmp",
+          "lineNumber": 44
+        },
+        {
+          "caller": "maybe_launch_terminal",
+          "callee": "strrchr",
+          "lineNumber": 53
+        },
+        {
+          "caller": "maybe_launch_terminal",
+          "callee": "strcmp",
+          "lineNumber": 54
+        },
+        {
+          "caller": "maybe_launch_terminal",
+          "callee": "strcpy",
+          "lineNumber": 58
+        },
+        {
+          "caller": "maybe_launch_terminal",
+          "callee": "strlen",
+          "lineNumber": 62
+        },
+        {
+          "caller": "maybe_launch_terminal",
+          "callee": "strcat",
+          "lineNumber": 64
+        },
+        {
+          "caller": "maybe_launch_terminal",
+          "callee": "execl",
+          "lineNumber": 66
+        },
+        {
+          "caller": "maybe_launch_terminal",
+          "callee": "jl_loader_print_stderr",
+          "lineNumber": 67
+        },
+        {
+          "caller": "maybe_launch_terminal",
+          "callee": "exit",
+          "lineNumber": 68
+        },
+        {
+          "caller": "main",
+          "callee": "putenv",
+          "lineNumber": 97
+        },
+        {
+          "caller": "main",
+          "callee": "maybe_launch_terminal",
+          "lineNumber": 101
+        },
+        {
+          "caller": "main",
+          "callee": "wchar_to_utf8",
+          "lineNumber": 107
+        },
+        {
+          "caller": "main",
+          "callee": "jl_loader_print_stderr",
+          "lineNumber": 109
+        },
+        {
+          "caller": "main",
+          "callee": "jl_load_repl",
+          "lineNumber": 117
+        },
+        {
+          "caller": "main",
+          "callee": "exit",
+          "lineNumber": 120
+        }
+      ],
+      "metrics": {
+        "importCount": 1,
+        "exportCount": 0,
+        "functionCount": 0,
+        "classCount": 0
+      }
+    },
+    {
+      "path": "cli/loader_lib.c",
+      "language": "c",
+      "fileCategory": "code",
+      "totalLines": 520,
+      "nonEmptyLines": 474,
+      "callGraph": [
+        {
+          "caller": "win_file_exists",
+          "callee": "GetFileAttributesW",
+          "lineNumber": 19
+        },
+        {
+          "caller": "jl_loader_print_stderr",
+          "callee": "fputs",
+          "lineNumber": 28
+        },
+        {
+          "caller": "jl_loader_print_stderr3",
+          "callee": "jl_loader_print_stderr",
+          "lineNumber": 33
+        },
+        {
+          "caller": "jl_loader_print_stderr3",
+          "callee": "jl_loader_print_stderr",
+          "lineNumber": 34
+        },
+        {
+          "caller": "jl_loader_print_stderr3",
+          "callee": "jl_loader_print_stderr",
+          "lineNumber": 35
+        },
+        {
+          "caller": "env_var_bool",
+          "callee": "GetEnvironmentVariableA",
+          "lineNumber": 146
+        },
+        {
+          "caller": "env_var_bool",
+          "callee": "getenv",
+          "lineNumber": 150
+        },
+        {
+          "caller": "env_var_bool",
+          "callee": "istrcmp",
+          "lineNumber": 154
+        },
+        {
+          "caller": "env_var_bool",
+          "callee": "istrcmp",
+          "lineNumber": 154
+        },
+        {
+          "caller": "env_var_bool",
+          "callee": "istrcmp",
+          "lineNumber": 154
+        },
+        {
+          "caller": "env_var_bool",
+          "callee": "istrcmp",
+          "lineNumber": 154
+        },
+        {
+          "caller": "env_var_bool",
+          "callee": "istrcmp",
+          "lineNumber": 154
+        },
+        {
+          "caller": "env_var_bool",
+          "callee": "istrcmp",
+          "lineNumber": 158
+        },
+        {
+          "caller": "env_var_bool",
+          "callee": "istrcmp",
+          "lineNumber": 158
+        },
+        {
+          "caller": "env_var_bool",
+          "callee": "istrcmp",
+          "lineNumber": 158
+        },
+        {
+          "caller": "env_var_bool",
+          "callee": "istrcmp",
+          "lineNumber": 158
+        },
+        {
+          "caller": "env_var_bool",
+          "callee": "istrcmp",
+          "lineNumber": 158
+        },
+        {
+          "caller": "*semaphore = lookup_symbol(RTLD_DEFAULT, \"jl_pgcstack_static_semaphore\");\n    if (fptr != NULL && key != NULL && semaphore != NULL) {\n        char already_used = 0;\n        atomic_compare_exchange_strong(semaphore, &already_used, 1);\n        if (already_used == 0) // RMW succeeded - we have exclusive access\n            jl_pgcstack_setkey(fptr, key);\n    }\n#endif\n\n    // jl_options must be initialized very early, in case an embedder sets some\n    // values there before calling jl_init\n    ((void (*)(void))jl_init_options_addr)();\n\n#if defined(_OS_LINUX_)\n    // Restore the original signal mask. `jl_init()` will later setup blocking\n    // for the specific set of signals we `sigwait()` on, and any threads spawned\n    // during loading above will still retain their inherited signal mask.\n    pthread_sigmask(SIG_SETMASK, &prev_mask, NULL);\n#endif\n}\n\n// Load libjulia and run the REPL with the given arguments (in UTF-8 format)\nJL_DLLEXPORT int jl_load_repl(int argc, char * argv[])",
+          "callee": "atomic_compare_exchange_strong(semaphore, &already_used, 1)",
+          "lineNumber": 470
+        },
+        {
+          "caller": "*semaphore = lookup_symbol(RTLD_DEFAULT, \"jl_pgcstack_static_semaphore\");\n    if (fptr != NULL && key != NULL && semaphore != NULL) {\n        char already_used = 0;\n        atomic_compare_exchange_strong(semaphore, &already_used, 1);\n        if (already_used == 0) // RMW succeeded - we have exclusive access\n            jl_pgcstack_setkey(fptr, key);\n    }\n#endif\n\n    // jl_options must be initialized very early, in case an embedder sets some\n    // values there before calling jl_init\n    ((void (*)(void))jl_init_options_addr)();\n\n#if defined(_OS_LINUX_)\n    // Restore the original signal mask. `jl_init()` will later setup blocking\n    // for the specific set of signals we `sigwait()` on, and any threads spawned\n    // during loading above will still retain their inherited signal mask.\n    pthread_sigmask(SIG_SETMASK, &prev_mask, NULL);\n#endif\n}\n\n// Load libjulia and run the REPL with the given arguments (in UTF-8 format)\nJL_DLLEXPORT int jl_load_repl(int argc, char * argv[])",
+          "callee": "atomic_compare_exchange_strong",
+          "lineNumber": 470
+        },
+        {
+          "caller": "*semaphore = lookup_symbol(RTLD_DEFAULT, \"jl_pgcstack_static_semaphore\");\n    if (fptr != NULL && key != NULL && semaphore != NULL) {\n        char already_used = 0;\n        atomic_compare_exchange_strong(semaphore, &already_used, 1);\n        if (already_used == 0) // RMW succeeded - we have exclusive access\n            jl_pgcstack_setkey(fptr, key);\n    }\n#endif\n\n    // jl_options must be initialized very early, in case an embedder sets some\n    // values there before calling jl_init\n    ((void (*)(void))jl_init_options_addr)();\n\n#if defined(_OS_LINUX_)\n    // Restore the original signal mask. `jl_init()` will later setup blocking\n    // for the specific set of signals we `sigwait()` on, and any threads spawned\n    // during loading above will still retain their inherited signal mask.\n    pthread_sigmask(SIG_SETMASK, &prev_mask, NULL);\n#endif\n}\n\n// Load libjulia and run the REPL with the given arguments (in UTF-8 format)\nJL_DLLEXPORT int jl_load_repl(int argc, char * argv[])",
+          "callee": "jl_pgcstack_setkey(fptr, key);\n    }\n#endif\n\n    // jl_options must be initialized very early, in case an embedder sets some\n    // values there before calling jl_init\n    ((void (*)(void))jl_init_options_addr)",
+          "lineNumber": 472
+        },
+        {
+          "caller": "*semaphore = lookup_symbol(RTLD_DEFAULT, \"jl_pgcstack_static_semaphore\");\n    if (fptr != NULL && key != NULL && semaphore != NULL) {\n        char already_used = 0;\n        atomic_compare_exchange_strong(semaphore, &already_used, 1);\n        if (already_used == 0) // RMW succeeded - we have exclusive access\n            jl_pgcstack_setkey(fptr, key);\n    }\n#endif\n\n    // jl_options must be initialized very early, in case an embedder sets some\n    // values there before calling jl_init\n    ((void (*)(void))jl_init_options_addr)();\n\n#if defined(_OS_LINUX_)\n    // Restore the original signal mask. `jl_init()` will later setup blocking\n    // for the specific set of signals we `sigwait()` on, and any threads spawned\n    // during loading above will still retain their inherited signal mask.\n    pthread_sigmask(SIG_SETMASK, &prev_mask, NULL);\n#endif\n}\n\n// Load libjulia and run the REPL with the given arguments (in UTF-8 format)\nJL_DLLEXPORT int jl_load_repl(int argc, char * argv[])",
+          "callee": "jl_pgcstack_setkey(fptr, key)",
+          "lineNumber": 472
+        },
+        {
+          "caller": "*semaphore = lookup_symbol(RTLD_DEFAULT, \"jl_pgcstack_static_semaphore\");\n    if (fptr != NULL && key != NULL && semaphore != NULL) {\n        char already_used = 0;\n        atomic_compare_exchange_strong(semaphore, &already_used, 1);\n        if (already_used == 0) // RMW succeeded - we have exclusive access\n            jl_pgcstack_setkey(fptr, key);\n    }\n#endif\n\n    // jl_options must be initialized very early, in case an embedder sets some\n    // values there before calling jl_init\n    ((void (*)(void))jl_init_options_addr)();\n\n#if defined(_OS_LINUX_)\n    // Restore the original signal mask. `jl_init()` will later setup blocking\n    // for the specific set of signals we `sigwait()` on, and any threads spawned\n    // during loading above will still retain their inherited signal mask.\n    pthread_sigmask(SIG_SETMASK, &prev_mask, NULL);\n#endif\n}\n\n// Load libjulia and run the REPL with the given arguments (in UTF-8 format)\nJL_DLLEXPORT int jl_load_repl(int argc, char * argv[])",
+          "callee": "jl_pgcstack_setkey",
+          "lineNumber": 472
+        },
+        {
+          "caller": "*semaphore = lookup_symbol(RTLD_DEFAULT, \"jl_pgcstack_static_semaphore\");\n    if (fptr != NULL && key != NULL && semaphore != NULL) {\n        char already_used = 0;\n        atomic_compare_exchange_strong(semaphore, &already_used, 1);\n        if (already_used == 0) // RMW succeeded - we have exclusive access\n            jl_pgcstack_setkey(fptr, key);\n    }\n#endif\n\n    // jl_options must be initialized very early, in case an embedder sets some\n    // values there before calling jl_init\n    ((void (*)(void))jl_init_options_addr)();\n\n#if defined(_OS_LINUX_)\n    // Restore the original signal mask. `jl_init()` will later setup blocking\n    // for the specific set of signals we `sigwait()` on, and any threads spawned\n    // during loading above will still retain their inherited signal mask.\n    pthread_sigmask(SIG_SETMASK, &prev_mask, NULL);\n#endif\n}\n\n// Load libjulia and run the REPL with the given arguments (in UTF-8 format)\nJL_DLLEXPORT int jl_load_repl(int argc, char * argv[])",
+          "callee": "jl_load_libjulia_internal",
+          "lineNumber": 493
+        },
+        {
+          "caller": "*semaphore = lookup_symbol(RTLD_DEFAULT, \"jl_pgcstack_static_semaphore\");\n    if (fptr != NULL && key != NULL && semaphore != NULL) {\n        char already_used = 0;\n        atomic_compare_exchange_strong(semaphore, &already_used, 1);\n        if (already_used == 0) // RMW succeeded - we have exclusive access\n            jl_pgcstack_setkey(fptr, key);\n    }\n#endif\n\n    // jl_options must be initialized very early, in case an embedder sets some\n    // values there before calling jl_init\n    ((void (*)(void))jl_init_options_addr)();\n\n#if defined(_OS_LINUX_)\n    // Restore the original signal mask. `jl_init()` will later setup blocking\n    // for the specific set of signals we `sigwait()` on, and any threads spawned\n    // during loading above will still retain their inherited signal mask.\n    pthread_sigmask(SIG_SETMASK, &prev_mask, NULL);\n#endif\n}\n\n// Load libjulia and run the REPL with the given arguments (in UTF-8 format)\nJL_DLLEXPORT int jl_load_repl(int argc, char * argv[])",
+          "callee": "jl_loader_print_stderr",
+          "lineNumber": 495
+        },
+        {
+          "caller": "*semaphore = lookup_symbol(RTLD_DEFAULT, \"jl_pgcstack_static_semaphore\");\n    if (fptr != NULL && key != NULL && semaphore != NULL) {\n        char already_used = 0;\n        atomic_compare_exchange_strong(semaphore, &already_used, 1);\n        if (already_used == 0) // RMW succeeded - we have exclusive access\n            jl_pgcstack_setkey(fptr, key);\n    }\n#endif\n\n    // jl_options must be initialized very early, in case an embedder sets some\n    // values there before calling jl_init\n    ((void (*)(void))jl_init_options_addr)();\n\n#if defined(_OS_LINUX_)\n    // Restore the original signal mask. `jl_init()` will later setup blocking\n    // for the specific set of signals we `sigwait()` on, and any threads spawned\n    // during loading above will still retain their inherited signal mask.\n    pthread_sigmask(SIG_SETMASK, &prev_mask, NULL);\n#endif\n}\n\n// Load libjulia and run the REPL with the given arguments (in UTF-8 format)\nJL_DLLEXPORT int jl_load_repl(int argc, char * argv[])",
+          "callee": "exit",
+          "lineNumber": 496
+        },
+        {
+          "caller": "DllMainCRTStartup",
+          "callee": "setup_stdio",
+          "lineNumber": 510
+        },
+        {
+          "caller": "DllMainCRTStartup",
+          "callee": "jl_load_libjulia_internal",
+          "lineNumber": 513
+        }
+      ],
+      "metrics": {
+        "importCount": 1,
+        "exportCount": 0,
+        "functionCount": 0,
+        "classCount": 0
+      }
+    },
+    {
+      "path": "cli/loader_library_probe.c",
+      "language": "c",
+      "fileCategory": "code",
+      "totalLines": 216,
+      "nonEmptyLines": 180,
+      "metrics": {
+        "importCount": 2,
+        "exportCount": 0,
+        "functionCount": 0,
+        "classCount": 0
+      }
+    },
+    {
+      "path": "cli/loader_symbol_probe.c",
+      "language": "c",
+      "fileCategory": "code",
+      "totalLines": 123,
+      "nonEmptyLines": 101,
+      "callGraph": [
+        {
+          "caller": "Elf64_locate_symbol",
+          "callee": "Elf64_get_section",
+          "lineNumber": 39
+        },
+        {
+          "caller": "Elf64_locate_symbol",
+          "callee": "Elf64_get_section",
+          "lineNumber": 43
+        },
+        {
+          "caller": "Elf64_locate_symbol",
+          "callee": "Elf64_get_strtab",
+          "lineNumber": 44
+        },
+        {
+          "caller": "Elf64_locate_symbol",
+          "callee": "Elf64_get_symbol",
+          "lineNumber": 48
+        },
+        {
+          "caller": "Elf64_locate_symbol",
+          "callee": "strcmp",
+          "lineNumber": 50
+        },
+        {
+          "caller": "Elf32_locate_symbol",
+          "callee": "Elf32_get_section",
+          "lineNumber": 81
+        },
+        {
+          "caller": "Elf32_locate_symbol",
+          "callee": "Elf32_get_section",
+          "lineNumber": 85
+        },
+        {
+          "caller": "Elf32_locate_symbol",
+          "callee": "Elf32_get_strtab",
+          "lineNumber": 86
+        },
+        {
+          "caller": "Elf32_locate_symbol",
+          "callee": "Elf32_get_symbol",
+          "lineNumber": 90
+        },
+        {
+          "caller": "Elf32_locate_symbol",
+          "callee": "strcmp",
+          "lineNumber": 92
+        },
+        {
+          "caller": "jl_loader_locate_symbol",
+          "callee": "jl_loader_open_via_mmap",
+          "lineNumber": 102
+        },
+        {
+          "caller": "jl_loader_locate_symbol",
+          "callee": "strncmp",
+          "lineNumber": 108
+        },
+        {
+          "caller": "jl_loader_locate_symbol",
+          "callee": "assert",
+          "lineNumber": 111
+        },
+        {
+          "caller": "jl_loader_locate_symbol",
+          "callee": "Elf32_locate_symbol",
+          "lineNumber": 113
+        },
+        {
+          "caller": "jl_loader_locate_symbol",
+          "callee": "Elf64_locate_symbol",
+          "lineNumber": 115
+        },
+        {
+          "caller": "jl_loader_locate_symbol",
+          "callee": "munmap",
+          "lineNumber": 119
+        }
+      ],
+      "metrics": {
+        "importCount": 2,
+        "exportCount": 0,
+        "functionCount": 0,
+        "classCount": 0
+      }
+    },
+    {
+      "path": "cli/trampolines/common.h",
+      "language": "c",
+      "fileCategory": "code",
+      "totalLines": 77,
+      "nonEmptyLines": 69,
+      "metrics": {
+        "importCount": 1,
+        "exportCount": 0,
+        "functionCount": 0,
+        "classCount": 0
+      }
+    },
+    {
+      "path": "src/ccalllazybar.c",
+      "language": "c",
+      "fileCategory": "code",
+      "totalLines": 10,
+      "nonEmptyLines": 7,
+      "functions": [
+        {
+          "name": "bar",
+          "startLine": 8,
+          "endLine": 10,
+          "params": [
+            "a"
+          ]
+        }
+      ],
+      "exports": [
+        {
+          "name": "bar",
+          "line": 8,
+          "isDefault": false
+        }
+      ],
+      "callGraph": [
+        {
+          "caller": "bar",
+          "callee": "foo",
+          "lineNumber": 9
+        }
+      ],
+      "metrics": {
+        "importCount": 1,
+        "exportCount": 1,
+        "functionCount": 1,
+        "classCount": 0
+      }
+    },
+    {
+      "path": "src/ccalllazyfoo.c",
+      "language": "c",
+      "fileCategory": "code",
+      "totalLines": 7,
+      "nonEmptyLines": 5,
+      "functions": [
+        {
+          "name": "foo",
+          "startLine": 5,
+          "endLine": 7,
+          "params": [
+            "a"
+          ]
+        }
+      ],
+      "exports": [
+        {
+          "name": "foo",
+          "line": 5,
+          "isDefault": false
+        }
+      ],
+      "metrics": {
+        "importCount": 1,
+        "exportCount": 1,
+        "functionCount": 1,
+        "classCount": 0
+      }
+    },
+    {
+      "path": "src/ccalltest.c",
+      "language": "c",
+      "fileCategory": "code",
+      "totalLines": 984,
+      "nonEmptyLines": 830,
+      "functions": [
+        {
+          "name": "testUcharX",
+          "startLine": 14,
+          "endLine": 17,
+          "params": [
+            "x"
+          ]
+        },
+        {
+          "name": "ctest",
+          "startLine": 29,
+          "endLine": 33,
+          "params": [
+            "a"
+          ]
+        },
+        {
+          "name": "cgtest",
+          "startLine": 35,
+          "endLine": 40,
+          "params": [
+            "double"
+          ]
+        },
+        {
+          "name": "cftest",
+          "startLine": 49,
+          "endLine": 54,
+          "params": [
+            "float"
+          ]
+        },
+        {
+          "name": "test_1",
+          "startLine": 313,
+          "endLine": 319,
+          "params": [
+            "a",
+            "b"
+          ]
+        },
+        {
+          "name": "test_1long_a",
+          "startLine": 321,
+          "endLine": 327,
+          "params": [
+            "x1",
+            "x2",
+            "x3",
+            "a",
+            "b"
+          ]
+        },
+        {
+          "name": "test_1long_b",
+          "startLine": 329,
+          "endLine": 335,
+          "params": [
+            "x1",
+            "x2",
+            "x3",
+            "a",
+            "b"
+          ]
+        },
+        {
+          "name": "test_1long_c",
+          "startLine": 337,
+          "endLine": 343,
+          "params": [
+            "x1",
+            "x2",
+            "x3",
+            "x4",
+            "a",
+            "b"
+          ]
+        },
+        {
+          "name": "test_2a",
+          "startLine": 345,
+          "endLine": 351,
+          "params": [
+            "a",
+            "b"
+          ]
+        },
+        {
+          "name": "test_2b",
+          "startLine": 353,
+          "endLine": 359,
+          "params": [
+            "a",
+            "b"
+          ]
+        },
+        {
+          "name": "test_3a",
+          "startLine": 361,
+          "endLine": 367,
+          "params": [
+            "a",
+            "b"
+          ]
+        },
+        {
+          "name": "test_3b",
+          "startLine": 369,
+          "endLine": 375,
+          "params": [
+            "a",
+            "b"
+          ]
+        },
+        {
+          "name": "test_4",
+          "startLine": 377,
+          "endLine": 383,
+          "params": [
+            "a",
+            "b"
+          ]
+        },
+        {
+          "name": "test_5",
+          "startLine": 385,
+          "endLine": 393,
+          "params": [
+            "a",
+            "b"
+          ]
+        },
+        {
+          "name": "test_6",
+          "startLine": 395,
+          "endLine": 401,
+          "params": [
+            "a",
+            "b"
+          ]
+        },
+        {
+          "name": "test_7",
+          "startLine": 403,
+          "endLine": 408,
+          "params": [
+            "a",
+            "b"
+          ]
+        },
+        {
+          "name": "test_8",
+          "startLine": 410,
+          "endLine": 415,
+          "params": [
+            "a",
+            "b"
+          ]
+        },
+        {
+          "name": "test_9",
+          "startLine": 417,
+          "endLine": 422,
+          "params": [
+            "a",
+            "b"
+          ]
+        },
+        {
+          "name": "test_10",
+          "startLine": 424,
+          "endLine": 432,
+          "params": [
+            "a",
+            "b"
+          ]
+        },
+        {
+          "name": "test_11",
+          "startLine": 434,
+          "endLine": 439,
+          "params": [
+            "a",
+            "b"
+          ]
+        },
+        {
+          "name": "test_12",
+          "startLine": 441,
+          "endLine": 448,
+          "params": [
+            "a",
+            "b"
+          ]
+        },
+        {
+          "name": "test_13",
+          "startLine": 450,
+          "endLine": 455,
+          "params": [
+            "a",
+            "b"
+          ]
+        },
+        {
+          "name": "test_14",
+          "startLine": 457,
+          "endLine": 463,
+          "params": [
+            "a",
+            "b"
+          ]
+        },
+        {
+          "name": "test_15",
+          "startLine": 465,
+          "endLine": 471,
+          "params": [
+            "a",
+            "b"
+          ]
+        },
+        {
+          "name": "test_16",
+          "startLine": 473,
+          "endLine": 483,
+          "params": [
+            "a",
+            "b"
+          ]
+        },
+        {
+          "name": "test_17",
+          "startLine": 485,
+          "endLine": 491,
+          "params": [
+            "a",
+            "b"
+          ]
+        },
+        {
+          "name": "test_18",
+          "startLine": 493,
+          "endLine": 501,
+          "params": [
+            "a",
+            "b"
+          ]
+        },
+        {
+          "name": "test_128",
+          "startLine": 508,
+          "endLine": 515,
+          "params": [
+            "a",
+            "b"
+          ]
+        },
+        {
+          "name": "test_big",
+          "startLine": 517,
+          "endLine": 524,
+          "params": [
+            "a"
+          ]
+        },
+        {
+          "name": "test_big_long",
+          "startLine": 526,
+          "endLine": 533,
+          "params": [
+            "x1",
+            "x2",
+            "x3",
+            "a"
+          ]
+        },
+        {
+          "name": "test_long_args_intp",
+          "startLine": 559,
+          "endLine": 566,
+          "params": [
+            "a1",
+            "a2",
+            "a3",
+            "a4",
+            "a5",
+            "a6",
+            "a7",
+            "a8",
+            "a9",
+            "a10",
+            "a11",
+            "a12",
+            "a13",
+            "a14"
+          ]
+        },
+        {
+          "name": "test_long_args_int",
+          "startLine": 568,
+          "endLine": 575,
+          "params": [
+            "a1",
+            "a2",
+            "a3",
+            "a4",
+            "a5",
+            "a6",
+            "a7",
+            "a8",
+            "a9",
+            "a10",
+            "a11",
+            "a12",
+            "a13",
+            "a14"
+          ]
+        },
+        {
+          "name": "test_long_args_float",
+          "startLine": 577,
+          "endLine": 585,
+          "params": [
+            "a1",
+            "a2",
+            "a3",
+            "a4",
+            "a5",
+            "a6",
+            "a7",
+            "a8",
+            "a9",
+            "a10",
+            "a11",
+            "a12",
+            "a13",
+            "a14"
+          ]
+        },
+        {
+          "name": "test_long_args_double",
+          "startLine": 587,
+          "endLine": 595,
+          "params": [
+            "a1",
+            "a2",
+            "a3",
+            "a4",
+            "a5",
+            "a6",
+            "a7",
+            "a8",
+            "a9",
+            "a10",
+            "a11",
+            "a12",
+            "a13",
+            "a14"
+          ]
+        },
+        {
+          "name": "test_spill_int1",
+          "startLine": 602,
+          "endLine": 605,
+          "params": [
+            "v1",
+            "s"
+          ]
+        },
+        {
+          "name": "test_spill_int2",
+          "startLine": 607,
+          "endLine": 610,
+          "params": [
+            "v1",
+            "v2",
+            "s"
+          ]
+        },
+        {
+          "name": "test_spill_int3",
+          "startLine": 612,
+          "endLine": 615,
+          "params": [
+            "v1",
+            "v2",
+            "v3",
+            "s"
+          ]
+        },
+        {
+          "name": "test_spill_int4",
+          "startLine": 617,
+          "endLine": 621,
+          "params": [
+            "v1",
+            "v2",
+            "v3",
+            "v4",
+            "s"
+          ]
+        },
+        {
+          "name": "test_spill_int5",
+          "startLine": 623,
+          "endLine": 627,
+          "params": [
+            "v1",
+            "v2",
+            "v3",
+            "v4",
+            "v5",
+            "s"
+          ]
+        },
+        {
+          "name": "test_spill_int6",
+          "startLine": 629,
+          "endLine": 633,
+          "params": [
+            "v1",
+            "v2",
+            "v3",
+            "v4",
+            "v5",
+            "v6",
+            "s"
+          ]
+        },
+        {
+          "name": "test_spill_int7",
+          "startLine": 635,
+          "endLine": 639,
+          "params": [
+            "v1",
+            "v2",
+            "v3",
+            "v4",
+            "v5",
+            "v6",
+            "v7",
+            "s"
+          ]
+        },
+        {
+          "name": "test_spill_int8",
+          "startLine": 641,
+          "endLine": 645,
+          "params": [
+            "v1",
+            "v2",
+            "v3",
+            "v4",
+            "v5",
+            "v6",
+            "v7",
+            "v8",
+            "s"
+          ]
+        },
+        {
+          "name": "test_spill_int9",
+          "startLine": 647,
+          "endLine": 652,
+          "params": [
+            "v1",
+            "v2",
+            "v3",
+            "v4",
+            "v5",
+            "v6",
+            "v7",
+            "v8",
+            "v9",
+            "s"
+          ]
+        },
+        {
+          "name": "test_spill_int10",
+          "startLine": 654,
+          "endLine": 660,
+          "params": [
+            "v1",
+            "v2",
+            "v3",
+            "v4",
+            "v5",
+            "v6",
+            "v7",
+            "v8",
+            "v9",
+            "v10",
+            "s"
+          ]
+        },
+        {
+          "name": "test_spill_float1",
+          "startLine": 667,
+          "endLine": 670,
+          "params": [
+            "v1",
+            "s"
+          ]
+        },
+        {
+          "name": "test_spill_float2",
+          "startLine": 672,
+          "endLine": 675,
+          "params": [
+            "v1",
+            "v2",
+            "s"
+          ]
+        },
+        {
+          "name": "test_spill_float3",
+          "startLine": 677,
+          "endLine": 681,
+          "params": [
+            "v1",
+            "v2",
+            "v3",
+            "s"
+          ]
+        },
+        {
+          "name": "test_spill_float4",
+          "startLine": 683,
+          "endLine": 687,
+          "params": [
+            "v1",
+            "v2",
+            "v3",
+            "v4",
+            "s"
+          ]
+        },
+        {
+          "name": "test_spill_float5",
+          "startLine": 689,
+          "endLine": 693,
+          "params": [
+            "v1",
+            "v2",
+            "v3",
+            "v4",
+            "v5",
+            "s"
+          ]
+        },
+        {
+          "name": "test_spill_float6",
+          "startLine": 695,
+          "endLine": 699,
+          "params": [
+            "v1",
+            "v2",
+            "v3",
+            "v4",
+            "v5",
+            "v6",
+            "s"
+          ]
+        },
+        {
+          "name": "test_spill_float7",
+          "startLine": 701,
+          "endLine": 706,
+          "params": [
+            "v1",
+            "v2",
+            "v3",
+            "v4",
+            "v5",
+            "v6",
+            "v7",
+            "s"
+          ]
+        },
+        {
+          "name": "test_spill_float8",
+          "startLine": 708,
+          "endLine": 713,
+          "params": [
+            "v1",
+            "v2",
+            "v3",
+            "v4",
+            "v5",
+            "v6",
+            "v7",
+            "v8",
+            "s"
+          ]
+        },
+        {
+          "name": "test_spill_float9",
+          "startLine": 715,
+          "endLine": 720,
+          "params": [
+            "v1",
+            "v2",
+            "v3",
+            "v4",
+            "v5",
+            "v6",
+            "v7",
+            "v8",
+            "v9",
+            "s"
+          ]
+        },
+        {
+          "name": "test_spill_float10",
+          "startLine": 722,
+          "endLine": 727,
+          "params": [
+            "v1",
+            "v2",
+            "v3",
+            "v4",
+            "v5",
+            "v6",
+            "v7",
+            "v8",
+            "v9",
+            "v10",
+            "s"
+          ]
+        },
+        {
+          "name": "get_c_int",
+          "startLine": 729,
+          "endLine": 732,
+          "params": []
+        },
+        {
+          "name": "set_c_int",
+          "startLine": 734,
+          "endLine": 737,
+          "params": [
+            "i"
+          ]
+        },
+        {
+          "name": "finalizer_cptr",
+          "startLine": 739,
+          "endLine": 742,
+          "params": [
+            "v"
+          ]
+        },
+        {
+          "name": "set_verbose",
+          "startLine": 748,
+          "endLine": 750,
+          "params": [
+            "level"
+          ]
+        },
+        {
+          "name": "threadcall_args",
+          "startLine": 955,
+          "endLine": 957,
+          "params": [
+            "a",
+            "b"
+          ]
+        },
+        {
+          "name": "c_exit_finalizer",
+          "startLine": 959,
+          "endLine": 961,
+          "params": [
+            "v"
+          ]
+        },
+        {
+          "name": "cancelspin_wait",
+          "startLine": 968,
+          "endLine": 973,
+          "params": [
+            "cell"
+          ]
+        },
+        {
+          "name": "cancelspin_handler",
+          "startLine": 977,
+          "endLine": 981,
+          "params": [
+            "state",
+            "sev"
+          ]
+        }
+      ],
+      "exports": [
+        {
+          "name": "testUcharX",
+          "line": 14,
+          "isDefault": false
+        },
+        {
+          "name": "ctest",
+          "line": 29,
+          "isDefault": false
+        },
+        {
+          "name": "cgtest",
+          "line": 35,
+          "isDefault": false
+        },
+        {
+          "name": "cftest",
+          "line": 49,
+          "isDefault": false
+        },
+        {
+          "name": "test_1",
+          "line": 313,
+          "isDefault": false
+        },
+        {
+          "name": "test_1long_a",
+          "line": 321,
+          "isDefault": false
+        },
+        {
+          "name": "test_1long_b",
+          "line": 329,
+          "isDefault": false
+        },
+        {
+          "name": "test_1long_c",
+          "line": 337,
+          "isDefault": false
+        },
+        {
+          "name": "test_2a",
+          "line": 345,
+          "isDefault": false
+        },
+        {
+          "name": "test_2b",
+          "line": 353,
+          "isDefault": false
+        },
+        {
+          "name": "test_3a",
+          "line": 361,
+          "isDefault": false
+        },
+        {
+          "name": "test_3b",
+          "line": 369,
+          "isDefault": false
+        },
+        {
+          "name": "test_4",
+          "line": 377,
+          "isDefault": false
+        },
+        {
+          "name": "test_5",
+          "line": 385,
+          "isDefault": false
+        },
+        {
+          "name": "test_6",
+          "line": 395,
+          "isDefault": false
+        },
+        {
+          "name": "test_7",
+          "line": 403,
+          "isDefault": false
+        },
+        {
+          "name": "test_8",
+          "line": 410,
+          "isDefault": false
+        },
+        {
+          "name": "test_9",
+          "line": 417,
+          "isDefault": false
+        },
+        {
+          "name": "test_10",
+          "line": 424,
+          "isDefault": false
+        },
+        {
+          "name": "test_11",
+          "line": 434,
+          "isDefault": false
+        },
+        {
+          "name": "test_12",
+          "line": 441,
+          "isDefault": false
+        },
+        {
+          "name": "test_13",
+          "line": 450,
+          "isDefault": false
+        },
+        {
+          "name": "test_14",
+          "line": 457,
+          "isDefault": false
+        },
+        {
+          "name": "test_15",
+          "line": 465,
+          "isDefault": false
+        },
+        {
+          "name": "test_16",
+          "line": 473,
+          "isDefault": false
+        },
+        {
+          "name": "test_17",
+          "line": 485,
+          "isDefault": false
+        },
+        {
+          "name": "test_18",
+          "line": 493,
+          "isDefault": false
+        },
+        {
+          "name": "test_128",
+          "line": 508,
+          "isDefault": false
+        },
+        {
+          "name": "test_big",
+          "line": 517,
+          "isDefault": false
+        },
+        {
+          "name": "test_big_long",
+          "line": 526,
+          "isDefault": false
+        },
+        {
+          "name": "test_long_args_intp",
+          "line": 559,
+          "isDefault": false
+        },
+        {
+          "name": "test_long_args_int",
+          "line": 568,
+          "isDefault": false
+        },
+        {
+          "name": "test_long_args_float",
+          "line": 577,
+          "isDefault": false
+        },
+        {
+          "name": "test_long_args_double",
+          "line": 587,
+          "isDefault": false
+        },
+        {
+          "name": "test_spill_int1",
+          "line": 602,
+          "isDefault": false
+        },
+        {
+          "name": "test_spill_int2",
+          "line": 607,
+          "isDefault": false
+        },
+        {
+          "name": "test_spill_int3",
+          "line": 612,
+          "isDefault": false
+        },
+        {
+          "name": "test_spill_int4",
+          "line": 617,
+          "isDefault": false
+        },
+        {
+          "name": "test_spill_int5",
+          "line": 623,
+          "isDefault": false
+        },
+        {
+          "name": "test_spill_int6",
+          "line": 629,
+          "isDefault": false
+        },
+        {
+          "name": "test_spill_int7",
+          "line": 635,
+          "isDefault": false
+        },
+        {
+          "name": "test_spill_int8",
+          "line": 641,
+          "isDefault": false
+        },
+        {
+          "name": "test_spill_int9",
+          "line": 647,
+          "isDefault": false
+        },
+        {
+          "name": "test_spill_int10",
+          "line": 654,
+          "isDefault": false
+        },
+        {
+          "name": "test_spill_float1",
+          "line": 667,
+          "isDefault": false
+        },
+        {
+          "name": "test_spill_float2",
+          "line": 672,
+          "isDefault": false
+        },
+        {
+          "name": "test_spill_float3",
+          "line": 677,
+          "isDefault": false
+        },
+        {
+          "name": "test_spill_float4",
+          "line": 683,
+          "isDefault": false
+        },
+        {
+          "name": "test_spill_float5",
+          "line": 689,
+          "isDefault": false
+        },
+        {
+          "name": "test_spill_float6",
+          "line": 695,
+          "isDefault": false
+        },
+        {
+          "name": "test_spill_float7",
+          "line": 701,
+          "isDefault": false
+        },
+        {
+          "name": "test_spill_float8",
+          "line": 708,
+          "isDefault": false
+        },
+        {
+          "name": "test_spill_float9",
+          "line": 715,
+          "isDefault": false
+        },
+        {
+          "name": "test_spill_float10",
+          "line": 722,
+          "isDefault": false
+        },
+        {
+          "name": "get_c_int",
+          "line": 729,
+          "isDefault": false
+        },
+        {
+          "name": "set_c_int",
+          "line": 734,
+          "isDefault": false
+        },
+        {
+          "name": "finalizer_cptr",
+          "line": 739,
+          "isDefault": false
+        },
+        {
+          "name": "set_verbose",
+          "line": 748,
+          "isDefault": false
+        },
+        {
+          "name": "threadcall_args",
+          "line": 955,
+          "isDefault": false
+        },
+        {
+          "name": "c_exit_finalizer",
+          "line": 959,
+          "isDefault": false
+        },
+        {
+          "name": "cancelspin_wait",
+          "line": 968,
+          "isDefault": false
+        },
+        {
+          "name": "cancelspin_handler",
+          "line": 977,
+          "isDefault": false
+        }
+      ],
+      "callGraph": [
+        {
+          "caller": "cgtest",
+          "callee": "fprintf",
+          "lineNumber": 37
+        },
+        {
+          "caller": "cgtest",
+          "callee": "creal",
+          "lineNumber": 37
+        },
+        {
+          "caller": "cgtest",
+          "callee": "cimag",
+          "lineNumber": 37
+        },
+        {
+          "caller": "cftest",
+          "callee": "fprintf",
+          "lineNumber": 51
+        },
+        {
+          "caller": "cftest",
+          "callee": "creal",
+          "lineNumber": 51
+        },
+        {
+          "caller": "cftest",
+          "callee": "cimag",
+          "lineNumber": 51
+        },
+        {
+          "caller": "test_1",
+          "callee": "fprintf",
+          "lineNumber": 315
+        },
+        {
+          "caller": "test_1long_a",
+          "callee": "fprintf",
+          "lineNumber": 323
+        },
+        {
+          "caller": "test_1long_b",
+          "callee": "fprintf",
+          "lineNumber": 331
+        },
+        {
+          "caller": "test_1long_c",
+          "callee": "fprintf",
+          "lineNumber": 339
+        },
+        {
+          "caller": "test_2a",
+          "callee": "fprintf",
+          "lineNumber": 347
+        },
+        {
+          "caller": "test_2b",
+          "callee": "fprintf",
+          "lineNumber": 355
+        },
+        {
+          "caller": "test_3a",
+          "callee": "fprintf",
+          "lineNumber": 363
+        },
+        {
+          "caller": "test_3b",
+          "callee": "fprintf",
+          "lineNumber": 371
+        },
+        {
+          "caller": "test_4",
+          "callee": "fprintf",
+          "lineNumber": 378
+        },
+        {
+          "caller": "test_5",
+          "callee": "fprintf",
+          "lineNumber": 386
+        },
+        {
+          "caller": "test_6",
+          "callee": "fprintf",
+          "lineNumber": 396
+        },
+        {
+          "caller": "test_7",
+          "callee": "fprintf",
+          "lineNumber": 404
+        },
+        {
+          "caller": "test_8",
+          "callee": "fprintf",
+          "lineNumber": 411
+        },
+        {
+          "caller": "test_9",
+          "callee": "fprintf",
+          "lineNumber": 418
+        },
+        {
+          "caller": "test_10",
+          "callee": "fprintf",
+          "lineNumber": 425
+        },
+        {
+          "caller": "test_11",
+          "callee": "fprintf",
+          "lineNumber": 436
+        },
+        {
+          "caller": "test_11",
+          "callee": "creal",
+          "lineNumber": 436
+        },
+        {
+          "caller": "test_11",
+          "callee": "cimag",
+          "lineNumber": 436
+        },
+        {
+          "caller": "test_12",
+          "callee": "fprintf",
+          "lineNumber": 443
+        },
+        {
+          "caller": "test_12",
+          "callee": "creal",
+          "lineNumber": 444
+        },
+        {
+          "caller": "test_12",
+          "callee": "cimag",
+          "lineNumber": 444
+        },
+        {
+          "caller": "test_12",
+          "callee": "creal",
+          "lineNumber": 444
+        },
+        {
+          "caller": "test_12",
+          "callee": "cimag",
+          "lineNumber": 444
+        },
+        {
+          "caller": "test_13",
+          "callee": "fprintf",
+          "lineNumber": 452
+        },
+        {
+          "caller": "test_13",
+          "callee": "creal",
+          "lineNumber": 452
+        },
+        {
+          "caller": "test_13",
+          "callee": "cimag",
+          "lineNumber": 452
+        },
+        {
+          "caller": "test_14",
+          "callee": "fprintf",
+          "lineNumber": 459
+        },
+        {
+          "caller": "test_15",
+          "callee": "fprintf",
+          "lineNumber": 467
+        },
+        {
+          "caller": "test_16",
+          "callee": "fprintf",
+          "lineNumber": 475
+        },
+        {
+          "caller": "test_17",
+          "callee": "fprintf",
+          "lineNumber": 487
+        },
+        {
+          "caller": "test_18",
+          "callee": "fprintf",
+          "lineNumber": 495
+        },
+        {
+          "caller": "test_128",
+          "callee": "fprintf",
+          "lineNumber": 510
+        },
+        {
+          "caller": "test_big",
+          "callee": "fprintf",
+          "lineNumber": 519
+        },
+        {
+          "caller": "test_big_long",
+          "callee": "fprintf",
+          "lineNumber": 528
+        },
+        {
+          "caller": "finalizer_cptr",
+          "callee": "set_c_int",
+          "lineNumber": 741
+        },
+        {
+          "caller": "test_m128i",
+          "callee": "_mm_add_epi32",
+          "lineNumber": 768
+        },
+        {
+          "caller": "test_m128i",
+          "callee": "_mm_cvtps_epi32",
+          "lineNumber": 769
+        },
+        {
+          "caller": "test_m128i",
+          "callee": "_mm_mul_ps",
+          "lineNumber": 769
+        },
+        {
+          "caller": "test_m128i",
+          "callee": "_mm_cvtepi32_ps",
+          "lineNumber": 769
+        },
+        {
+          "caller": "test_m128i",
+          "callee": "_mm_cvtepi32_ps",
+          "lineNumber": 770
+        },
+        {
+          "caller": "test_m128i",
+          "callee": "_mm_sub_epi32",
+          "lineNumber": 770
+        },
+        {
+          "caller": "test_m128",
+          "callee": "_mm_add_ps",
+          "lineNumber": 775
+        },
+        {
+          "caller": "test_m128",
+          "callee": "_mm_mul_ps",
+          "lineNumber": 775
+        },
+        {
+          "caller": "test_m128",
+          "callee": "_mm_sub_ps",
+          "lineNumber": 775
+        },
+        {
+          "caller": "test_aa64_fp16_1",
+          "callee": "(__fp16)",
+          "lineNumber": 806
+        },
+        {
+          "caller": "test_aa64_vec_1",
+          "callee": "vmovl_s32",
+          "lineNumber": 821
+        },
+        {
+          "caller": "test_aa64_vec_2",
+          "callee": "(int8x8_t)",
+          "lineNumber": 840
+        },
+        {
+          "caller": "test_aa64_vec_2",
+          "callee": "vmovn_s16",
+          "lineNumber": 840
+        },
+        {
+          "caller": "test_aa64_vec_2",
+          "callee": "(float32x2_t)",
+          "lineNumber": 840
+        },
+        {
+          "caller": "c_exit_finalizer",
+          "callee": "printf",
+          "lineNumber": 960
+        }
+      ],
+      "metrics": {
+        "importCount": 1,
+        "exportCount": 62,
+        "functionCount": 62,
+        "classCount": 0
+      }
+    },
+    {
+      "path": "src/ccalltest_common.h",
+      "language": "c",
+      "fileCategory": "code",
+      "totalLines": 30,
+      "nonEmptyLines": 27,
+      "metrics": {
+        "importCount": 2,
+        "exportCount": 0,
+        "functionCount": 0,
+        "classCount": 0
+      }
+    },
+    {
+      "path": "src/jloptions.h",
+      "language": "c",
+      "fileCategory": "code",
+      "totalLines": 82,
+      "nonEmptyLines": 78,
+      "metrics": {
+        "importCount": 0,
+        "exportCount": 0,
+        "functionCount": 0,
+        "classCount": 0
+      }
+    },
+    {
+      "path": "src/julia_fasttls.h",
+      "language": "c",
+      "fileCategory": "code",
+      "totalLines": 49,
+      "nonEmptyLines": 38,
+      "metrics": {
+        "importCount": 0,
+        "exportCount": 0,
+        "functionCount": 0,
+        "classCount": 0
+      }
+    },
+    {
+      "path": "src/support/dirpath.h",
+      "language": "c",
+      "fileCategory": "code",
+      "totalLines": 24,
+      "nonEmptyLines": 21,
+      "metrics": {
+        "importCount": 0,
+        "exportCount": 0,
+        "functionCount": 0,
+        "classCount": 0
+      }
+    },
+    {
+      "path": "src/support/platform.h",
+      "language": "c",
+      "fileCategory": "code",
+      "totalLines": 143,
+      "nonEmptyLines": 130,
+      "metrics": {
+        "importCount": 0,
+        "exportCount": 0,
+        "functionCount": 0,
+        "classCount": 0
+      }
+    }
+  ]
+}

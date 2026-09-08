@@ -1,0 +1,147 @@
+{
+  "projectRoot": "/home/maruti/julia",
+  "batchFiles": [
+    {
+      "path": "doc/src/devdocs/EscapeAnalysis.md",
+      "language": "markdown",
+      "sizeLines": 398,
+      "fileCategory": "docs"
+    },
+    {
+      "path": "doc/src/devdocs/aot.md",
+      "language": "markdown",
+      "sizeLines": 78,
+      "fileCategory": "docs"
+    },
+    {
+      "path": "doc/src/devdocs/ast.md",
+      "language": "markdown",
+      "sizeLines": 868,
+      "fileCategory": "docs"
+    },
+    {
+      "path": "doc/src/devdocs/backtraces.md",
+      "language": "markdown",
+      "sizeLines": 131,
+      "fileCategory": "docs"
+    },
+    {
+      "path": "doc/src/devdocs/boundscheck.md",
+      "language": "markdown",
+      "sizeLines": 126,
+      "fileCategory": "docs"
+    },
+    {
+      "path": "doc/src/devdocs/builtins.md",
+      "language": "markdown",
+      "sizeLines": 203,
+      "fileCategory": "docs"
+    },
+    {
+      "path": "doc/src/devdocs/callconv.md",
+      "language": "markdown",
+      "sizeLines": 43,
+      "fileCategory": "docs"
+    },
+    {
+      "path": "doc/src/devdocs/cartesian.md",
+      "language": "markdown",
+      "sizeLines": 141,
+      "fileCategory": "docs"
+    },
+    {
+      "path": "doc/src/devdocs/compiler.md",
+      "language": "markdown",
+      "sizeLines": 111,
+      "fileCategory": "docs"
+    },
+    {
+      "path": "doc/src/devdocs/compiler_changes.md",
+      "language": "markdown",
+      "sizeLines": 67,
+      "fileCategory": "docs"
+    },
+    {
+      "path": "doc/src/devdocs/debuggingtips.md",
+      "language": "markdown",
+      "sizeLines": 254,
+      "fileCategory": "docs"
+    },
+    {
+      "path": "doc/src/devdocs/diagnostics.md",
+      "language": "markdown",
+      "sizeLines": 37,
+      "fileCategory": "docs"
+    },
+    {
+      "path": "doc/src/devdocs/eval.md",
+      "language": "markdown",
+      "sizeLines": 189,
+      "fileCategory": "docs"
+    },
+    {
+      "path": "doc/src/devdocs/external_profilers.md",
+      "language": "markdown",
+      "sizeLines": 189,
+      "fileCategory": "docs"
+    },
+    {
+      "path": "doc/src/devdocs/functions.md",
+      "language": "markdown",
+      "sizeLines": 231,
+      "fileCategory": "docs"
+    },
+    {
+      "path": "doc/src/devdocs/gc-debug.md",
+      "language": "markdown",
+      "sizeLines": 179,
+      "fileCategory": "docs"
+    },
+    {
+      "path": "doc/src/devdocs/gc-mmtk.md",
+      "language": "markdown",
+      "sizeLines": 32,
+      "fileCategory": "docs"
+    },
+    {
+      "path": "doc/src/devdocs/gc-sa.md",
+      "language": "markdown",
+      "sizeLines": 325,
+      "fileCategory": "docs"
+    },
+    {
+      "path": "doc/src/devdocs/gc.md",
+      "language": "markdown",
+      "sizeLines": 74,
+      "fileCategory": "docs"
+    },
+    {
+      "path": "doc/src/devdocs/inference.md",
+      "language": "markdown",
+      "sizeLines": 115,
+      "fileCategory": "docs"
+    }
+  ],
+  "batchImportData": {
+    "doc/src/devdocs/EscapeAnalysis.md": [],
+    "doc/src/devdocs/aot.md": [],
+    "doc/src/devdocs/ast.md": [],
+    "doc/src/devdocs/backtraces.md": [],
+    "doc/src/devdocs/boundscheck.md": [],
+    "doc/src/devdocs/builtins.md": [],
+    "doc/src/devdocs/callconv.md": [],
+    "doc/src/devdocs/cartesian.md": [],
+    "doc/src/devdocs/compiler.md": [],
+    "doc/src/devdocs/compiler_changes.md": [],
+    "doc/src/devdocs/debuggingtips.md": [],
+    "doc/src/devdocs/diagnostics.md": [],
+    "doc/src/devdocs/eval.md": [],
+    "doc/src/devdocs/external_profilers.md": [],
+    "doc/src/devdocs/functions.md": [],
+    "doc/src/devdocs/gc-debug.md": [],
+    "doc/src/devdocs/gc-mmtk.md": [],
+    "doc/src/devdocs/gc-sa.md": [],
+    "doc/src/devdocs/gc.md": [],
+    "doc/src/devdocs/inference.md": []
+  }
+}
