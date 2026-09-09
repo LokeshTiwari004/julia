@@ -1,0 +1,634 @@
+{
+  "batchIndex": 32,
+  "nodes": [
+    {
+      "id": "document:contrib/README.md",
+      "type": "document",
+      "name": "README.md",
+      "filePath": "contrib/README.md",
+      "summary": "Documentation file: README.md.",
+      "tags": [
+        "documentation"
+      ],
+      "complexity": "simple",
+      "language": "markdown"
+    },
+    {
+      "id": "file:contrib/bump_stdlib.sh",
+      "type": "file",
+      "name": "bump_stdlib.sh",
+      "filePath": "contrib/bump_stdlib.sh",
+      "summary": "Script file: bump_stdlib.sh.",
+      "tags": [
+        "script"
+      ],
+      "complexity": "moderate",
+      "language": "shell"
+    },
+    {
+      "id": "function:contrib/bump_stdlib.sh:usage",
+      "type": "function",
+      "name": "usage",
+      "filePath": "contrib/bump_stdlib.sh",
+      "summary": "Function usage with 0 parameters.",
+      "tags": [
+        "function"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:contrib/bump_stdlib.sh:list_stdlibs",
+      "type": "function",
+      "name": "list_stdlibs",
+      "filePath": "contrib/bump_stdlib.sh",
+      "summary": "Function list_stdlibs with 0 parameters.",
+      "tags": [
+        "function"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:contrib/bump_stdlib.sh:bump_one",
+      "type": "function",
+      "name": "bump_one",
+      "filePath": "contrib/bump_stdlib.sh",
+      "summary": "Function bump_one with 0 parameters.",
+      "tags": [
+        "function"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "file:contrib/commit-name.sh",
+      "type": "file",
+      "name": "commit-name.sh",
+      "filePath": "contrib/commit-name.sh",
+      "summary": "Script file: commit-name.sh.",
+      "tags": [
+        "script"
+      ],
+      "complexity": "simple",
+      "language": "shell"
+    },
+    {
+      "id": "file:contrib/delete-all-rpaths.sh",
+      "type": "file",
+      "name": "delete-all-rpaths.sh",
+      "filePath": "contrib/delete-all-rpaths.sh",
+      "summary": "Script file: delete-all-rpaths.sh.",
+      "tags": [
+        "script"
+      ],
+      "complexity": "simple",
+      "language": "shell"
+    },
+    {
+      "id": "file:contrib/download_cmake.sh",
+      "type": "file",
+      "name": "download_cmake.sh",
+      "filePath": "contrib/download_cmake.sh",
+      "summary": "Script file: download_cmake.sh.",
+      "tags": [
+        "script"
+      ],
+      "complexity": "simple",
+      "language": "shell"
+    },
+    {
+      "id": "file:contrib/escape_json.sh",
+      "type": "file",
+      "name": "escape_json.sh",
+      "filePath": "contrib/escape_json.sh",
+      "summary": "Script file: escape_json.sh.",
+      "tags": [
+        "script"
+      ],
+      "complexity": "simple",
+      "language": "shell"
+    },
+    {
+      "id": "file:contrib/excise_stdlib.sh",
+      "type": "file",
+      "name": "excise_stdlib.sh",
+      "filePath": "contrib/excise_stdlib.sh",
+      "summary": "Script file: excise_stdlib.sh.",
+      "tags": [
+        "script"
+      ],
+      "complexity": "simple",
+      "language": "shell"
+    },
+    {
+      "id": "file:contrib/fixup-libgfortran.sh",
+      "type": "file",
+      "name": "fixup-libgfortran.sh",
+      "filePath": "contrib/fixup-libgfortran.sh",
+      "summary": "Script file: fixup-libgfortran.sh.",
+      "tags": [
+        "script"
+      ],
+      "complexity": "moderate",
+      "language": "shell"
+    },
+    {
+      "id": "function:contrib/fixup-libgfortran.sh:debug",
+      "type": "function",
+      "name": "debug",
+      "filePath": "contrib/fixup-libgfortran.sh",
+      "summary": "Function debug with 0 parameters.",
+      "tags": [
+        "function"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:contrib/fixup-libgfortran.sh:debug",
+      "type": "function",
+      "name": "debug",
+      "filePath": "contrib/fixup-libgfortran.sh",
+      "summary": "Function debug with 0 parameters.",
+      "tags": [
+        "function"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:contrib/fixup-libgfortran.sh:find_shlib",
+      "type": "function",
+      "name": "find_shlib",
+      "filePath": "contrib/fixup-libgfortran.sh",
+      "summary": "Function find_shlib with 0 parameters.",
+      "tags": [
+        "function"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:contrib/fixup-libgfortran.sh:find_shlib_dir",
+      "type": "function",
+      "name": "find_shlib_dir",
+      "filePath": "contrib/fixup-libgfortran.sh",
+      "summary": "Function find_shlib_dir with 0 parameters.",
+      "tags": [
+        "function"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:contrib/fixup-libgfortran.sh:uniquify",
+      "type": "function",
+      "name": "uniquify",
+      "filePath": "contrib/fixup-libgfortran.sh",
+      "summary": "Function uniquify with 0 parameters.",
+      "tags": [
+        "function"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:contrib/fixup-libgfortran.sh:change_linkage",
+      "type": "function",
+      "name": "change_linkage",
+      "filePath": "contrib/fixup-libgfortran.sh",
+      "summary": "Function change_linkage with 0 parameters.",
+      "tags": [
+        "function"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "file:contrib/fixup-libstdc++.sh",
+      "type": "file",
+      "name": "fixup-libstdc++.sh",
+      "filePath": "contrib/fixup-libstdc++.sh",
+      "summary": "Script file: fixup-libstdc++.sh.",
+      "tags": [
+        "script"
+      ],
+      "complexity": "simple",
+      "language": "shell"
+    },
+    {
+      "id": "function:contrib/fixup-libstdc++.sh:find_shlib",
+      "type": "function",
+      "name": "find_shlib",
+      "filePath": "contrib/fixup-libstdc++.sh",
+      "summary": "Function find_shlib with 0 parameters.",
+      "tags": [
+        "function"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "file:contrib/fixup-rpath.sh",
+      "type": "file",
+      "name": "fixup-rpath.sh",
+      "filePath": "contrib/fixup-rpath.sh",
+      "summary": "Script file: fixup-rpath.sh.",
+      "tags": [
+        "script"
+      ],
+      "complexity": "simple",
+      "language": "shell"
+    },
+    {
+      "id": "file:contrib/github_source_release.sh",
+      "type": "file",
+      "name": "github_source_release.sh",
+      "filePath": "contrib/github_source_release.sh",
+      "summary": "Script file: github_source_release.sh.",
+      "tags": [
+        "script"
+      ],
+      "complexity": "moderate",
+      "language": "shell"
+    },
+    {
+      "id": "config:contrib/httpbin-prod-swagger-apigateway.yaml",
+      "type": "config",
+      "name": "httpbin-prod-swagger-apigateway.yaml",
+      "filePath": "contrib/httpbin-prod-swagger-apigateway.yaml",
+      "summary": "Configuration file: httpbin-prod-swagger-apigateway.yaml.",
+      "tags": [
+        "configuration"
+      ],
+      "complexity": "moderate",
+      "language": "yaml"
+    },
+    {
+      "id": "file:contrib/install.sh",
+      "type": "file",
+      "name": "install.sh",
+      "filePath": "contrib/install.sh",
+      "summary": "Script file: install.sh.",
+      "tags": [
+        "script"
+      ],
+      "complexity": "simple",
+      "language": "shell"
+    },
+    {
+      "id": "file:contrib/new-stdlib.sh",
+      "type": "file",
+      "name": "new-stdlib.sh",
+      "filePath": "contrib/new-stdlib.sh",
+      "summary": "Script file: new-stdlib.sh.",
+      "tags": [
+        "script"
+      ],
+      "complexity": "moderate",
+      "language": "shell"
+    }
+  ],
+  "edges": [
+    {
+      "source": "file:contrib/bump_stdlib.sh",
+      "target": "function:contrib/bump_stdlib.sh:usage",
+      "type": "contains",
+      "weight": 1
+    },
+    {
+      "source": "file:contrib/bump_stdlib.sh",
+      "target": "function:contrib/bump_stdlib.sh:list_stdlibs",
+      "type": "contains",
+      "weight": 1
+    },
+    {
+      "source": "file:contrib/bump_stdlib.sh",
+      "target": "function:contrib/bump_stdlib.sh:bump_one",
+      "type": "contains",
+      "weight": 1
+    },
+    {
+      "source": "file:contrib/fixup-libgfortran.sh",
+      "target": "function:contrib/fixup-libgfortran.sh:debug",
+      "type": "contains",
+      "weight": 1
+    },
+    {
+      "source": "file:contrib/fixup-libgfortran.sh",
+      "target": "function:contrib/fixup-libgfortran.sh:debug",
+      "type": "contains",
+      "weight": 1
+    },
+    {
+      "source": "file:contrib/fixup-libgfortran.sh",
+      "target": "function:contrib/fixup-libgfortran.sh:find_shlib",
+      "type": "contains",
+      "weight": 1
+    },
+    {
+      "source": "file:contrib/fixup-libgfortran.sh",
+      "target": "function:contrib/fixup-libgfortran.sh:find_shlib_dir",
+      "type": "contains",
+      "weight": 1
+    },
+    {
+      "source": "file:contrib/fixup-libgfortran.sh",
+      "target": "function:contrib/fixup-libgfortran.sh:uniquify",
+      "type": "contains",
+      "weight": 1
+    },
+    {
+      "source": "file:contrib/fixup-libgfortran.sh",
+      "target": "function:contrib/fixup-libgfortran.sh:change_linkage",
+      "type": "contains",
+      "weight": 1
+    },
+    {
+      "source": "file:contrib/fixup-libstdc++.sh",
+      "target": "function:contrib/fixup-libstdc++.sh:find_shlib",
+      "type": "contains",
+      "weight": 1
+    }
+  ],
+  "batchFiles": [
+    {
+      "path": "contrib/README.md",
+      "language": "markdown",
+      "fileCategory": "docs",
+      "totalLines": 38,
+      "nonEmptyLines": 33,
+      "metrics": {
+        "importCount": 0,
+        "exportCount": 0,
+        "functionCount": 0,
+        "classCount": 0,
+        "sectionCount": 0
+      }
+    },
+    {
+      "path": "contrib/bump_stdlib.sh",
+      "language": "shell",
+      "fileCategory": "script",
+      "totalLines": 219,
+      "nonEmptyLines": 192,
+      "functions": [
+        {
+          "name": "usage",
+          "startLine": 26,
+          "endLine": 29,
+          "params": []
+        },
+        {
+          "name": "list_stdlibs",
+          "startLine": 42,
+          "endLine": 46,
+          "params": []
+        },
+        {
+          "name": "bump_one",
+          "startLine": 68,
+          "endLine": 199,
+          "params": []
+        }
+      ],
+      "metrics": {
+        "importCount": 0,
+        "exportCount": 0,
+        "functionCount": 3,
+        "classCount": 0
+      }
+    },
+    {
+      "path": "contrib/commit-name.sh",
+      "language": "shell",
+      "fileCategory": "script",
+      "totalLines": 43,
+      "nonEmptyLines": 39,
+      "metrics": {
+        "importCount": 0,
+        "exportCount": 0,
+        "functionCount": 0,
+        "classCount": 0
+      }
+    },
+    {
+      "path": "contrib/delete-all-rpaths.sh",
+      "language": "shell",
+      "fileCategory": "script",
+      "totalLines": 33,
+      "nonEmptyLines": 27,
+      "metrics": {
+        "importCount": 0,
+        "exportCount": 0,
+        "functionCount": 0,
+        "classCount": 0
+      }
+    },
+    {
+      "path": "contrib/download_cmake.sh",
+      "language": "shell",
+      "fileCategory": "script",
+      "totalLines": 47,
+      "nonEmptyLines": 42,
+      "metrics": {
+        "importCount": 0,
+        "exportCount": 0,
+        "functionCount": 0,
+        "classCount": 0
+      }
+    },
+    {
+      "path": "contrib/escape_json.sh",
+      "language": "shell",
+      "fileCategory": "script",
+      "totalLines": 9,
+      "nonEmptyLines": 8,
+      "metrics": {
+        "importCount": 0,
+        "exportCount": 0,
+        "functionCount": 0,
+        "classCount": 0
+      }
+    },
+    {
+      "path": "contrib/excise_stdlib.sh",
+      "language": "shell",
+      "fileCategory": "script",
+      "totalLines": 41,
+      "nonEmptyLines": 31,
+      "metrics": {
+        "importCount": 0,
+        "exportCount": 0,
+        "functionCount": 0,
+        "classCount": 0
+      }
+    },
+    {
+      "path": "contrib/fixup-libgfortran.sh",
+      "language": "shell",
+      "fileCategory": "script",
+      "totalLines": 162,
+      "nonEmptyLines": 141,
+      "functions": [
+        {
+          "name": "debug",
+          "startLine": 11,
+          "endLine": 11,
+          "params": []
+        },
+        {
+          "name": "debug",
+          "startLine": 13,
+          "endLine": 13,
+          "params": []
+        },
+        {
+          "name": "find_shlib",
+          "startLine": 34,
+          "endLine": 44,
+          "params": []
+        },
+        {
+          "name": "find_shlib_dir",
+          "startLine": 46,
+          "endLine": 58,
+          "params": []
+        },
+        {
+          "name": "uniquify",
+          "startLine": 95,
+          "endLine": 98,
+          "params": []
+        },
+        {
+          "name": "change_linkage",
+          "startLine": 123,
+          "endLine": 144,
+          "params": []
+        }
+      ],
+      "metrics": {
+        "importCount": 0,
+        "exportCount": 0,
+        "functionCount": 6,
+        "classCount": 0
+      }
+    },
+    {
+      "path": "contrib/fixup-libstdc++.sh",
+      "language": "shell",
+      "fileCategory": "script",
+      "totalLines": 39,
+      "nonEmptyLines": 32,
+      "functions": [
+        {
+          "name": "find_shlib",
+          "startLine": 20,
+          "endLine": 25,
+          "params": []
+        }
+      ],
+      "metrics": {
+        "importCount": 0,
+        "exportCount": 0,
+        "functionCount": 1,
+        "classCount": 0
+      }
+    },
+    {
+      "path": "contrib/fixup-rpath.sh",
+      "language": "shell",
+      "fileCategory": "script",
+      "totalLines": 34,
+      "nonEmptyLines": 26,
+      "metrics": {
+        "importCount": 0,
+        "exportCount": 0,
+        "functionCount": 0,
+        "classCount": 0
+      }
+    },
+    {
+      "path": "contrib/github_source_release.sh",
+      "language": "shell",
+      "fileCategory": "script",
+      "totalLines": 97,
+      "nonEmptyLines": 87,
+      "metrics": {
+        "importCount": 0,
+        "exportCount": 0,
+        "functionCount": 0,
+        "classCount": 0
+      }
+    },
+    {
+      "path": "contrib/httpbin-prod-swagger-apigateway.yaml",
+      "language": "yaml",
+      "fileCategory": "config",
+      "totalLines": 101,
+      "nonEmptyLines": 101,
+      "sections": [
+        {
+          "heading": "swagger",
+          "level": 1,
+          "line": 2
+        },
+        {
+          "heading": "info",
+          "level": 1,
+          "line": 3
+        },
+        {
+          "heading": "host",
+          "level": 1,
+          "line": 7
+        },
+        {
+          "heading": "schemes",
+          "level": 1,
+          "line": 8
+        },
+        {
+          "heading": "paths",
+          "level": 1,
+          "line": 10
+        },
+        {
+          "heading": "definitions",
+          "level": 1,
+          "line": 93
+        },
+        {
+          "heading": "x-amazon-apigateway-gateway-responses",
+          "level": 1,
+          "line": 97
+        }
+      ],
+      "metrics": {
+        "importCount": 0,
+        "exportCount": 0,
+        "functionCount": 0,
+        "classCount": 0,
+        "sectionCount": 7
+      }
+    },
+    {
+      "path": "contrib/install.sh",
+      "language": "shell",
+      "fileCategory": "script",
+      "totalLines": 35,
+      "nonEmptyLines": 28,
+      "metrics": {
+        "importCount": 0,
+        "exportCount": 0,
+        "functionCount": 0,
+        "classCount": 0
+      }
+    },
+    {
+      "path": "contrib/new-stdlib.sh",
+      "language": "shell",
+      "fileCategory": "script",
+      "totalLines": 74,
+      "nonEmptyLines": 55,
+      "metrics": {
+        "importCount": 0,
+        "exportCount": 0,
+        "functionCount": 0,
+        "classCount": 0
+      }
+    }
+  ]
+}

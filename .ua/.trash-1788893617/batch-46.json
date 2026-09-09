@@ -1,0 +1,81 @@
+{
+  "batchIndex": 46,
+  "nodes": [
+    {
+      "id": "config:Compiler/test/CompilerLoadingTest/Manifest.toml",
+      "type": "config",
+      "name": "Manifest.toml",
+      "filePath": "Compiler/test/CompilerLoadingTest/Manifest.toml",
+      "summary": "Configuration file: Manifest.toml.",
+      "tags": [
+        "configuration",
+        "test"
+      ],
+      "complexity": "simple",
+      "language": "toml"
+    },
+    {
+      "id": "config:Compiler/test/CompilerLoadingTest/Project.toml",
+      "type": "config",
+      "name": "Project.toml",
+      "filePath": "Compiler/test/CompilerLoadingTest/Project.toml",
+      "summary": "Configuration file: Project.toml.",
+      "tags": [
+        "configuration",
+        "test"
+      ],
+      "complexity": "simple",
+      "language": "toml"
+    }
+  ],
+  "edges": [],
+  "batchFiles": [
+    {
+      "path": "Compiler/test/CompilerLoadingTest/Manifest.toml",
+      "language": "toml",
+      "fileCategory": "config",
+      "totalLines": 16,
+      "nonEmptyLines": 13,
+      "sections": [
+        {
+          "heading": "[[deps.Compiler]]",
+          "level": 2,
+          "line": 7
+        },
+        {
+          "heading": "[[deps.CompilerLoadingTest]]",
+          "level": 2,
+          "line": 12
+        }
+      ],
+      "metrics": {
+        "importCount": 0,
+        "exportCount": 0,
+        "functionCount": 0,
+        "classCount": 0,
+        "sectionCount": 2
+      }
+    },
+    {
+      "path": "Compiler/test/CompilerLoadingTest/Project.toml",
+      "language": "toml",
+      "fileCategory": "config",
+      "totalLines": 5,
+      "nonEmptyLines": 4,
+      "sections": [
+        {
+          "heading": "deps",
+          "level": 1,
+          "line": 4
+        }
+      ],
+      "metrics": {
+        "importCount": 0,
+        "exportCount": 0,
+        "functionCount": 0,
+        "classCount": 0,
+        "sectionCount": 1
+      }
+    }
+  ]
+}

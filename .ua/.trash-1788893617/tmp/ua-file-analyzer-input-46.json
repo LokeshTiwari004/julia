@@ -1,0 +1,182 @@
+{
+  "projectRoot": "/home/maruti/julia",
+  "batchFiles": [
+    {
+      "path": "Compiler/src/ssair/tarjan.jl",
+      "language": "jl",
+      "sizeLines": 313,
+      "fileCategory": "code"
+    },
+    {
+      "path": "Compiler/src/ssair/verify.jl",
+      "language": "jl",
+      "sizeLines": 438,
+      "fileCategory": "code"
+    },
+    {
+      "path": "Compiler/src/stmtinfo.jl",
+      "language": "jl",
+      "sizeLines": 727,
+      "fileCategory": "code"
+    },
+    {
+      "path": "Compiler/src/tfuncs.jl",
+      "language": "jl",
+      "sizeLines": 3688,
+      "fileCategory": "code"
+    },
+    {
+      "path": "Compiler/src/timing.jl",
+      "language": "jl",
+      "sizeLines": 45,
+      "fileCategory": "code"
+    },
+    {
+      "path": "Compiler/src/typeinfer.jl",
+      "language": "jl",
+      "sizeLines": 2323,
+      "fileCategory": "code"
+    },
+    {
+      "path": "Compiler/src/typelattice.jl",
+      "language": "jl",
+      "sizeLines": 795,
+      "fileCategory": "code"
+    },
+    {
+      "path": "Compiler/src/typelimits.jl",
+      "language": "jl",
+      "sizeLines": 1008,
+      "fileCategory": "code"
+    },
+    {
+      "path": "Compiler/src/types.jl",
+      "language": "jl",
+      "sizeLines": 728,
+      "fileCategory": "code"
+    },
+    {
+      "path": "Compiler/src/typeutils.jl",
+      "language": "jl",
+      "sizeLines": 482,
+      "fileCategory": "code"
+    },
+    {
+      "path": "Compiler/src/utilities.jl",
+      "language": "jl",
+      "sizeLines": 420,
+      "fileCategory": "code"
+    },
+    {
+      "path": "Compiler/src/validation.jl",
+      "language": "jl",
+      "sizeLines": 256,
+      "fileCategory": "code"
+    },
+    {
+      "path": "Compiler/src/verifytrim.jl",
+      "language": "jl",
+      "sizeLines": 541,
+      "fileCategory": "code"
+    },
+    {
+      "path": "Compiler/test/AbstractInterpreter.jl",
+      "language": "jl",
+      "sizeLines": 751,
+      "fileCategory": "code"
+    },
+    {
+      "path": "Compiler/test/CompilerLoadingTest/Manifest.toml",
+      "language": "toml",
+      "sizeLines": 16,
+      "fileCategory": "config"
+    },
+    {
+      "path": "Compiler/test/CompilerLoadingTest/Project.toml",
+      "language": "toml",
+      "sizeLines": 5,
+      "fileCategory": "config"
+    },
+    {
+      "path": "Compiler/test/CompilerLoadingTest/compiler_loading_test.jl",
+      "language": "jl",
+      "sizeLines": 12,
+      "fileCategory": "code"
+    },
+    {
+      "path": "Compiler/test/CompilerLoadingTest/src/CompilerLoadingTest.jl",
+      "language": "jl",
+      "sizeLines": 5,
+      "fileCategory": "code"
+    },
+    {
+      "path": "Compiler/test/EAUtils.jl",
+      "language": "jl",
+      "sizeLines": 359,
+      "fileCategory": "code"
+    },
+    {
+      "path": "Compiler/test/EscapeAnalysis.jl",
+      "language": "jl",
+      "sizeLines": 1719,
+      "fileCategory": "code"
+    },
+    {
+      "path": "Compiler/test/abioverride.jl",
+      "language": "jl",
+      "sizeLines": 61,
+      "fileCategory": "code"
+    },
+    {
+      "path": "Compiler/test/codegen.jl",
+      "language": "jl",
+      "sizeLines": 1158,
+      "fileCategory": "code"
+    },
+    {
+      "path": "Compiler/test/compact.jl",
+      "language": "jl",
+      "sizeLines": 58,
+      "fileCategory": "code"
+    },
+    {
+      "path": "Compiler/test/contextual.jl",
+      "language": "jl",
+      "sizeLines": 152,
+      "fileCategory": "code"
+    },
+    {
+      "path": "Compiler/test/datastructures.jl",
+      "language": "jl",
+      "sizeLines": 115,
+      "fileCategory": "code"
+    }
+  ],
+  "batchImportData": {
+    "Compiler/src/ssair/tarjan.jl": [],
+    "Compiler/src/ssair/verify.jl": [],
+    "Compiler/src/stmtinfo.jl": [],
+    "Compiler/src/tfuncs.jl": [],
+    "Compiler/src/timing.jl": [],
+    "Compiler/src/typeinfer.jl": [],
+    "Compiler/src/typelattice.jl": [],
+    "Compiler/src/typelimits.jl": [],
+    "Compiler/src/types.jl": [],
+    "Compiler/src/typeutils.jl": [],
+    "Compiler/src/utilities.jl": [],
+    "Compiler/src/validation.jl": [],
+    "Compiler/src/verifytrim.jl": [],
+    "Compiler/test/AbstractInterpreter.jl": [],
+    "Compiler/test/CompilerLoadingTest/Manifest.toml": [],
+    "Compiler/test/CompilerLoadingTest/Project.toml": [],
+    "Compiler/test/CompilerLoadingTest/compiler_loading_test.jl": [],
+    "Compiler/test/CompilerLoadingTest/src/CompilerLoadingTest.jl": [],
+    "Compiler/test/EAUtils.jl": [],
+    "Compiler/test/EscapeAnalysis.jl": [],
+    "Compiler/test/abioverride.jl": [],
+    "Compiler/test/codegen.jl": [],
+    "Compiler/test/compact.jl": [],
+    "Compiler/test/contextual.jl": [],
+    "Compiler/test/datastructures.jl": []
+  }
+}

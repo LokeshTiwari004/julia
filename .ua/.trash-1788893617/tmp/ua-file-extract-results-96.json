@@ -1,0 +1,43 @@
+{
+  "scriptCompleted": true,
+  "filesAnalyzed": 0,
+  "filesSkipped": [
+    "test/subarray.jl",
+    "test/subtype.jl",
+    "test/syntax.jl",
+    "test/sysinfo.jl",
+    "test/tempdepot.jl",
+    "test/terminfo.jl",
+    "test/test_exec.jl",
+    "test/test_sourcepath.jl",
+    "test/testdefs.jl",
+    "test/testenv.jl",
+    "test/testhelpers/ChallengePrompts.jl",
+    "test/testhelpers/DualNumbers.jl",
+    "test/testhelpers/EvenIntegers.jl",
+    "test/testhelpers/FakePTYs.jl",
+    "test/testhelpers/FillArrays.jl",
+    "test/testhelpers/Furlongs.jl",
+    "test/testhelpers/ImmutableArrays.jl",
+    "test/testhelpers/InfiniteArrays.jl",
+    "test/testhelpers/MacroCalls.jl",
+    "test/testhelpers/OffsetArrays.jl",
+    "test/testhelpers/OffsetDenseArrays.jl",
+    "test/testhelpers/PhysQuantities.jl",
+    "test/testhelpers/Quaternions.jl",
+    "test/testhelpers/SizedArrays.jl",
+    "test/testhelpers/StridedArrays.jl"
+  ],
+  "analysisOutcomes": {
+    "structure": {
+      "succeeded": 0,
+      "failed": 0
+    },
+    "callGraph": {
+      "succeeded": 0,
+      "failed": 0,
+      "skipped": 0
+    }
+  },
+  "results": []
+}

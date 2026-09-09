@@ -1,0 +1,91 @@
+{
+  "projectRoot": "/home/maruti/julia",
+  "batchFiles": [
+    {
+      "path": ".codecov.yml",
+      "language": "yaml",
+      "sizeLines": 4,
+      "fileCategory": "config"
+    },
+    {
+      "path": "AGENTS.md",
+      "language": "markdown",
+      "sizeLines": 110,
+      "fileCategory": "docs"
+    },
+    {
+      "path": "CLAUDE.md",
+      "language": "markdown",
+      "sizeLines": 9,
+      "fileCategory": "docs"
+    },
+    {
+      "path": "CONTRIBUTING.md",
+      "language": "markdown",
+      "sizeLines": 105,
+      "fileCategory": "docs"
+    },
+    {
+      "path": "HISTORY.md",
+      "language": "markdown",
+      "sizeLines": 7969,
+      "fileCategory": "docs"
+    },
+    {
+      "path": "LICENSE.md",
+      "language": "markdown",
+      "sizeLines": 26,
+      "fileCategory": "docs"
+    },
+    {
+      "path": "Makefile",
+      "language": "makefile",
+      "sizeLines": 841,
+      "fileCategory": "infra"
+    },
+    {
+      "path": "NEWS.md",
+      "language": "markdown",
+      "sizeLines": 275,
+      "fileCategory": "docs"
+    },
+    {
+      "path": "README.md",
+      "language": "markdown",
+      "sizeLines": 175,
+      "fileCategory": "docs"
+    },
+    {
+      "path": "THIRDPARTY.md",
+      "language": "markdown",
+      "sizeLines": 74,
+      "fileCategory": "docs"
+    },
+    {
+      "path": "julia.spdx.json",
+      "language": "json",
+      "sizeLines": 678,
+      "fileCategory": "config"
+    },
+    {
+      "path": "typos.toml",
+      "language": "toml",
+      "sizeLines": 5,
+      "fileCategory": "config"
+    }
+  ],
+  "batchImportData": {
+    ".codecov.yml": [],
+    "AGENTS.md": [],
+    "CLAUDE.md": [],
+    "CONTRIBUTING.md": [],
+    "HISTORY.md": [],
+    "LICENSE.md": [],
+    "Makefile": [],
+    "NEWS.md": [],
+    "README.md": [],
+    "THIRDPARTY.md": [],
+    "julia.spdx.json": [],
+    "typos.toml": []
+  }
+}

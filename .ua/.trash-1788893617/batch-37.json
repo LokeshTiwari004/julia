@@ -1,0 +1,1548 @@
+{
+  "batchIndex": 37,
+  "nodes": [
+    {
+      "id": "document:doc/src/devdocs/EscapeAnalysis.md",
+      "type": "document",
+      "name": "EscapeAnalysis.md",
+      "filePath": "doc/src/devdocs/EscapeAnalysis.md",
+      "summary": "Documentation covering `EscapeAnalysis`, Try it out!, Analysis Design and more.",
+      "tags": [
+        "documentation",
+        "runtime"
+      ],
+      "complexity": "complex",
+      "language": "markdown"
+    },
+    {
+      "id": "document:doc/src/devdocs/aot.md",
+      "type": "document",
+      "name": "aot.md",
+      "filePath": "doc/src/devdocs/aot.md",
+      "summary": "Documentation covering Ahead of Time Compilation, Introduction, High-Level Overview and more.",
+      "tags": [
+        "documentation",
+        "runtime"
+      ],
+      "complexity": "simple",
+      "language": "markdown"
+    },
+    {
+      "id": "document:doc/src/devdocs/ast.md",
+      "type": "document",
+      "name": "ast.md",
+      "filePath": "doc/src/devdocs/ast.md",
+      "summary": "Documentation covering Julia ASTs, Surface syntax AST, Calls and more.",
+      "tags": [
+        "documentation",
+        "runtime"
+      ],
+      "complexity": "complex",
+      "language": "markdown"
+    },
+    {
+      "id": "document:doc/src/devdocs/backtraces.md",
+      "type": "document",
+      "name": "backtraces.md",
+      "filePath": "doc/src/devdocs/backtraces.md",
+      "summary": "Documentation covering Reporting and analyzing crashes (segfaults), [Version/Environment info](@id dev-version-info), Segfaults during bootstrap (`sysimg.jl`) and more.",
+      "tags": [
+        "documentation",
+        "runtime"
+      ],
+      "complexity": "moderate",
+      "language": "markdown"
+    },
+    {
+      "id": "document:doc/src/devdocs/boundscheck.md",
+      "type": "document",
+      "name": "boundscheck.md",
+      "filePath": "doc/src/devdocs/boundscheck.md",
+      "summary": "Documentation covering Bounds checking, Eliding bounds checks, Caution! and more.",
+      "tags": [
+        "documentation",
+        "runtime"
+      ],
+      "complexity": "moderate",
+      "language": "markdown"
+    },
+    {
+      "id": "document:doc/src/devdocs/builtins.md",
+      "type": "document",
+      "name": "builtins.md",
+      "filePath": "doc/src/devdocs/builtins.md",
+      "summary": "Documentation covering [Core.Builtins](@id lib-builtins), Raw access to memory, Managed memory and more.",
+      "tags": [
+        "documentation",
+        "runtime"
+      ],
+      "complexity": "moderate",
+      "language": "markdown"
+    },
+    {
+      "id": "document:doc/src/devdocs/callconv.md",
+      "type": "document",
+      "name": "callconv.md",
+      "filePath": "doc/src/devdocs/callconv.md",
+      "summary": "Documentation covering Calling Conventions, Julia Native Calling Convention, JL Call Convention and more.",
+      "tags": [
+        "documentation",
+        "runtime"
+      ],
+      "complexity": "simple",
+      "language": "markdown"
+    },
+    {
+      "id": "document:doc/src/devdocs/cartesian.md",
+      "type": "document",
+      "name": "cartesian.md",
+      "filePath": "doc/src/devdocs/cartesian.md",
+      "summary": "Documentation covering Base.Cartesian, Principles of usage, Basic syntax and more.",
+      "tags": [
+        "documentation",
+        "runtime"
+      ],
+      "complexity": "moderate",
+      "language": "markdown"
+    },
+    {
+      "id": "document:doc/src/devdocs/compiler.md",
+      "type": "document",
+      "name": "compiler.md",
+      "filePath": "doc/src/devdocs/compiler.md",
+      "summary": "Documentation covering High-level Overview of the Native-Code Generation Process, Representation of Pointers, Representation of Intermediate Values and more.",
+      "tags": [
+        "documentation",
+        "runtime"
+      ],
+      "complexity": "moderate",
+      "language": "markdown"
+    },
+    {
+      "id": "document:doc/src/devdocs/compiler_changes.md",
+      "type": "document",
+      "name": "compiler_changes.md",
+      "filePath": "doc/src/devdocs/compiler_changes.md",
+      "summary": "Documentation covering History of changes to the compiler, v1.14, `get_inference_cache` now returns `InferenceCache` instead of `Vector{InferenceResult}` and more.",
+      "tags": [
+        "documentation",
+        "runtime"
+      ],
+      "complexity": "simple",
+      "language": "markdown"
+    },
+    {
+      "id": "document:doc/src/devdocs/debuggingtips.md",
+      "type": "document",
+      "name": "debuggingtips.md",
+      "filePath": "doc/src/devdocs/debuggingtips.md",
+      "summary": "Documentation covering [gdb debugging tips](@id gdb-debugging-tips), Displaying Julia variables, Useful Julia variables for Inspecting and more.",
+      "tags": [
+        "documentation",
+        "runtime"
+      ],
+      "complexity": "moderate",
+      "language": "markdown"
+    },
+    {
+      "id": "document:doc/src/devdocs/diagnostics.md",
+      "type": "document",
+      "name": "diagnostics.md",
+      "filePath": "doc/src/devdocs/diagnostics.md",
+      "summary": "Documentation covering Diagnostics used by the package ecosystem, SnoopCompile.",
+      "tags": [
+        "documentation",
+        "runtime"
+      ],
+      "complexity": "simple",
+      "language": "markdown"
+    },
+    {
+      "id": "document:doc/src/devdocs/eval.md",
+      "type": "document",
+      "name": "eval.md",
+      "filePath": "doc/src/devdocs/eval.md",
+      "summary": "Documentation covering Eval of Julia code, Julia Execution, [Parsing](@id dev-parsing) and more.",
+      "tags": [
+        "documentation",
+        "runtime"
+      ],
+      "complexity": "moderate",
+      "language": "markdown"
+    },
+    {
+      "id": "document:doc/src/devdocs/external_profilers.md",
+      "type": "document",
+      "name": "external_profilers.md",
+      "filePath": "doc/src/devdocs/external_profilers.md",
+      "summary": "Documentation covering External Profiler Support, Adding New Zones, From C/C++ code and more.",
+      "tags": [
+        "documentation",
+        "runtime"
+      ],
+      "complexity": "moderate",
+      "language": "markdown"
+    },
+    {
+      "id": "document:doc/src/devdocs/functions.md",
+      "type": "document",
+      "name": "functions.md",
+      "filePath": "doc/src/devdocs/functions.md",
+      "summary": "Documentation covering Julia Functions, Method Tables, [Function calls](@id Function-calls) and more.",
+      "tags": [
+        "documentation",
+        "runtime"
+      ],
+      "complexity": "moderate",
+      "language": "markdown"
+    },
+    {
+      "id": "document:doc/src/devdocs/gc-debug.md",
+      "type": "document",
+      "name": "gc-debug.md",
+      "filePath": "doc/src/devdocs/gc-debug.md",
+      "summary": "Documentation covering GC Debug Build Tools, Building with GC Debug Support, Environment Variables and more.",
+      "tags": [
+        "documentation",
+        "runtime",
+        "gc"
+      ],
+      "complexity": "moderate",
+      "language": "markdown"
+    },
+    {
+      "id": "document:doc/src/devdocs/gc-mmtk.md",
+      "type": "document",
+      "name": "gc-mmtk.md",
+      "filePath": "doc/src/devdocs/gc-mmtk.md",
+      "summary": "Documentation covering Julia + MMTk, Building Julia with MMTk, I've got a build error when building Julia with MMTk, what should I do?.",
+      "tags": [
+        "documentation",
+        "runtime",
+        "gc"
+      ],
+      "complexity": "simple",
+      "language": "markdown"
+    },
+    {
+      "id": "document:doc/src/devdocs/gc-sa.md",
+      "type": "document",
+      "name": "gc-sa.md",
+      "filePath": "doc/src/devdocs/gc-sa.md",
+      "summary": "Documentation covering Static analyzer annotations for GC correctness in C code, Running the analysis, General Overview and more.",
+      "tags": [
+        "documentation",
+        "runtime",
+        "gc"
+      ],
+      "complexity": "complex",
+      "language": "markdown"
+    },
+    {
+      "id": "document:doc/src/devdocs/gc.md",
+      "type": "document",
+      "name": "gc.md",
+      "filePath": "doc/src/devdocs/gc.md",
+      "summary": "Documentation covering Julia Garbage Collector (GC) Internals, Introduction, Allocation and more.",
+      "tags": [
+        "documentation",
+        "runtime",
+        "gc"
+      ],
+      "complexity": "simple",
+      "language": "markdown"
+    },
+    {
+      "id": "document:doc/src/devdocs/inference.md",
+      "type": "document",
+      "name": "inference.md",
+      "filePath": "doc/src/devdocs/inference.md",
+      "summary": "Documentation covering Inference, How inference works, Debugging compiler.jl and more.",
+      "tags": [
+        "documentation",
+        "runtime",
+        "type-inference"
+      ],
+      "complexity": "moderate",
+      "language": "markdown"
+    }
+  ],
+  "edges": [],
+  "batchFiles": [
+    {
+      "path": "doc/src/devdocs/EscapeAnalysis.md",
+      "language": "markdown",
+      "fileCategory": "docs",
+      "totalLines": 398,
+      "nonEmptyLines": 347,
+      "sections": [
+        {
+          "heading": "`EscapeAnalysis`",
+          "level": 1,
+          "line": 1
+        },
+        {
+          "heading": "Try it out!",
+          "level": 2,
+          "line": 18
+        },
+        {
+          "heading": "Analysis Design",
+          "level": 2,
+          "line": 68
+        },
+        {
+          "heading": "Lattice Design",
+          "level": 3,
+          "line": 70
+        },
+        {
+          "heading": "Backward Escape Propagation",
+          "level": 3,
+          "line": 89
+        },
+        {
+          "heading": "[Alias Analysis](@id EA-Alias-Analysis)",
+          "level": 3,
+          "line": 129
+        },
+        {
+          "heading": "[Array Analysis](@id EA-Array-Analysis)",
+          "level": 3,
+          "line": 189
+        },
+        {
+          "heading": "[Exception Handling](@id EA-Exception-Handling)",
+          "level": 3,
+          "line": 280
+        },
+        {
+          "heading": "Analysis Usage",
+          "level": 2,
+          "line": 338
+        }
+      ],
+      "metrics": {
+        "importCount": 0,
+        "exportCount": 0,
+        "functionCount": 0,
+        "classCount": 0,
+        "sectionCount": 9
+      }
+    },
+    {
+      "path": "doc/src/devdocs/aot.md",
+      "language": "markdown",
+      "fileCategory": "docs",
+      "totalLines": 78,
+      "nonEmptyLines": 41,
+      "sections": [
+        {
+          "heading": "Ahead of Time Compilation",
+          "level": 1,
+          "line": 1
+        },
+        {
+          "heading": "Introduction",
+          "level": 2,
+          "line": 5
+        },
+        {
+          "heading": "High-Level Overview",
+          "level": 2,
+          "line": 12
+        },
+        {
+          "heading": "Compiling Code Images",
+          "level": 3,
+          "line": 16
+        },
+        {
+          "heading": "Loading Code Images",
+          "level": 3,
+          "line": 30
+        },
+        {
+          "heading": "Compiling Methods",
+          "level": 2,
+          "line": 38
+        },
+        {
+          "heading": "Tracing Compiled Methods",
+          "level": 3,
+          "line": 40
+        },
+        {
+          "heading": "`jl_create_system_image`",
+          "level": 3,
+          "line": 44
+        },
+        {
+          "heading": "`jl_dump_native`",
+          "level": 3,
+          "line": 48
+        },
+        {
+          "heading": "Static Linking",
+          "level": 3,
+          "line": 60
+        },
+        {
+          "heading": "Loading Code Images",
+          "level": 2,
+          "line": 64
+        },
+        {
+          "heading": "Loading the Shared Library",
+          "level": 3,
+          "line": 66
+        },
+        {
+          "heading": "Loading Native Code",
+          "level": 3,
+          "line": 70
+        },
+        {
+          "heading": "Setting Up Julia State",
+          "level": 3,
+          "line": 76
+        }
+      ],
+      "metrics": {
+        "importCount": 0,
+        "exportCount": 0,
+        "functionCount": 0,
+        "classCount": 0,
+        "sectionCount": 14
+      }
+    },
+    {
+      "path": "doc/src/devdocs/ast.md",
+      "language": "markdown",
+      "fileCategory": "docs",
+      "totalLines": 868,
+      "nonEmptyLines": 568,
+      "sections": [
+        {
+          "heading": "Julia ASTs",
+          "level": 1,
+          "line": 1
+        },
+        {
+          "heading": "Surface syntax AST",
+          "level": 2,
+          "line": 13
+        },
+        {
+          "heading": "Calls",
+          "level": 3,
+          "line": 21
+        },
+        {
+          "heading": "Operators",
+          "level": 3,
+          "line": 40
+        },
+        {
+          "heading": "Bracketed forms",
+          "level": 3,
+          "line": 62
+        },
+        {
+          "heading": "Macros",
+          "level": 3,
+          "line": 84
+        },
+        {
+          "heading": "Strings",
+          "level": 3,
+          "line": 92
+        },
+        {
+          "heading": "Imports and such",
+          "level": 3,
+          "line": 111
+        },
+        {
+          "heading": "Numbers",
+          "level": 3,
+          "line": 134
+        },
+        {
+          "heading": "Block forms",
+          "level": 3,
+          "line": 145
+        },
+        {
+          "heading": "Quote expressions",
+          "level": 3,
+          "line": 216
+        },
+        {
+          "heading": "Line numbers",
+          "level": 3,
+          "line": 228
+        },
+        {
+          "heading": "Macros",
+          "level": 3,
+          "line": 236
+        },
+        {
+          "heading": "Lowered form",
+          "level": 2,
+          "line": 244
+        },
+        {
+          "heading": "`Expr` types",
+          "level": 3,
+          "line": 311
+        },
+        {
+          "heading": "[Method](@id ast-lowered-method)",
+          "level": 3,
+          "line": 558
+        },
+        {
+          "heading": "MethodInstance",
+          "level": 3,
+          "line": 598
+        },
+        {
+          "heading": "CodeInstance",
+          "level": 3,
+          "line": 635
+        },
+        {
+          "heading": "CodeInfo",
+          "level": 3,
+          "line": 697
+        },
+        {
+          "heading": "How to interpret line numbers in a `CodeInfo` object",
+          "level": 4,
+          "line": 795
+        }
+      ],
+      "metrics": {
+        "importCount": 0,
+        "exportCount": 0,
+        "functionCount": 0,
+        "classCount": 0,
+        "sectionCount": 20
+      }
+    },
+    {
+      "path": "doc/src/devdocs/backtraces.md",
+      "language": "markdown",
+      "fileCategory": "docs",
+      "totalLines": 131,
+      "nonEmptyLines": 95,
+      "sections": [
+        {
+          "heading": "Reporting and analyzing crashes (segfaults)",
+          "level": 1,
+          "line": 1
+        },
+        {
+          "heading": "[Version/Environment info](@id dev-version-info)",
+          "level": 2,
+          "line": 16
+        },
+        {
+          "heading": "Segfaults during bootstrap (`sysimg.jl`)",
+          "level": 2,
+          "line": 26
+        },
+        {
+          "heading": "Segfaults when running a script",
+          "level": 2,
+          "line": 56
+        },
+        {
+          "heading": "Errors during Julia startup",
+          "level": 2,
+          "line": 81
+        },
+        {
+          "heading": "Other generic segfaults or unreachables reached",
+          "level": 2,
+          "line": 110
+        },
+        {
+          "heading": "Glossary",
+          "level": 2,
+          "line": 126
+        }
+      ],
+      "metrics": {
+        "importCount": 0,
+        "exportCount": 0,
+        "functionCount": 0,
+        "classCount": 0,
+        "sectionCount": 7
+      }
+    },
+    {
+      "path": "doc/src/devdocs/boundscheck.md",
+      "language": "markdown",
+      "fileCategory": "docs",
+      "totalLines": 126,
+      "nonEmptyLines": 94,
+      "sections": [
+        {
+          "heading": "Bounds checking",
+          "level": 1,
+          "line": 1
+        },
+        {
+          "heading": "Eliding bounds checks",
+          "level": 2,
+          "line": 11
+        },
+        {
+          "heading": "Caution!",
+          "level": 3,
+          "line": 39
+        },
+        {
+          "heading": "Propagating inbounds",
+          "level": 2,
+          "line": 70
+        },
+        {
+          "heading": "The bounds checking call hierarchy",
+          "level": 2,
+          "line": 81
+        },
+        {
+          "heading": "Emit bounds checks",
+          "level": 2,
+          "line": 124
+        }
+      ],
+      "metrics": {
+        "importCount": 0,
+        "exportCount": 0,
+        "functionCount": 0,
+        "classCount": 0,
+        "sectionCount": 6
+      }
+    },
+    {
+      "path": "doc/src/devdocs/builtins.md",
+      "language": "markdown",
+      "fileCategory": "docs",
+      "totalLines": 203,
+      "nonEmptyLines": 164,
+      "sections": [
+        {
+          "heading": "[Core.Builtins](@id lib-builtins)",
+          "level": 1,
+          "line": 1
+        },
+        {
+          "heading": "Raw access to memory",
+          "level": 2,
+          "line": 7
+        },
+        {
+          "heading": "Managed memory",
+          "level": 2,
+          "line": 19
+        },
+        {
+          "heading": "Module bindings",
+          "level": 2,
+          "line": 34
+        },
+        {
+          "heading": "Various helper functions",
+          "level": 2,
+          "line": 40
+        },
+        {
+          "heading": "Other",
+          "level": 2,
+          "line": 46
+        },
+        {
+          "heading": "Adding New Builtin Functions",
+          "level": 2,
+          "line": 56
+        },
+        {
+          "heading": "Overview",
+          "level": 3,
+          "line": 60
+        },
+        {
+          "heading": "Step-by-Step Process",
+          "level": 3,
+          "line": 69
+        },
+        {
+          "heading": "1. Add to Builtin Function Registry",
+          "level": 4,
+          "line": 71
+        },
+        {
+          "heading": "2. Julia Inference Integration",
+          "level": 4,
+          "line": 97
+        },
+        {
+          "heading": "3. Complex Inference Integration (if `add_tfunc` was insufficient)",
+          "level": 4,
+          "line": 117
+        },
+        {
+          "heading": "4. Optimization Passes (if applicable)",
+          "level": 4,
+          "line": 146
+        },
+        {
+          "heading": "5. Documentation",
+          "level": 4,
+          "line": 165
+        },
+        {
+          "heading": "6. Testing",
+          "level": 4,
+          "line": 188
+        }
+      ],
+      "metrics": {
+        "importCount": 0,
+        "exportCount": 0,
+        "functionCount": 0,
+        "classCount": 0,
+        "sectionCount": 15
+      }
+    },
+    {
+      "path": "doc/src/devdocs/callconv.md",
+      "language": "markdown",
+      "fileCategory": "docs",
+      "totalLines": 43,
+      "nonEmptyLines": 29,
+      "sections": [
+        {
+          "heading": "Calling Conventions",
+          "level": 1,
+          "line": 1
+        },
+        {
+          "heading": "Julia Native Calling Convention",
+          "level": 2,
+          "line": 12
+        },
+        {
+          "heading": "JL Call Convention",
+          "level": 2,
+          "line": 27
+        },
+        {
+          "heading": "C ABI",
+          "level": 2,
+          "line": 38
+        }
+      ],
+      "metrics": {
+        "importCount": 0,
+        "exportCount": 0,
+        "functionCount": 0,
+        "classCount": 0,
+        "sectionCount": 4
+      }
+    },
+    {
+      "path": "doc/src/devdocs/cartesian.md",
+      "language": "markdown",
+      "fileCategory": "docs",
+      "totalLines": 141,
+      "nonEmptyLines": 109,
+      "sections": [
+        {
+          "heading": "Base.Cartesian",
+          "level": 1,
+          "line": 1
+        },
+        {
+          "heading": "Principles of usage",
+          "level": 2,
+          "line": 6
+        },
+        {
+          "heading": "Basic syntax",
+          "level": 2,
+          "line": 33
+        },
+        {
+          "heading": "Supplying the number of expressions",
+          "level": 3,
+          "line": 70
+        },
+        {
+          "heading": "Anonymous-function expressions as macro arguments",
+          "level": 3,
+          "line": 91
+        },
+        {
+          "heading": "[Macro reference](@id dev-cartesian-reference)",
+          "level": 4,
+          "line": 128
+        }
+      ],
+      "metrics": {
+        "importCount": 0,
+        "exportCount": 0,
+        "functionCount": 0,
+        "classCount": 0,
+        "sectionCount": 6
+      }
+    },
+    {
+      "path": "doc/src/devdocs/compiler.md",
+      "language": "markdown",
+      "fileCategory": "docs",
+      "totalLines": 111,
+      "nonEmptyLines": 83,
+      "sections": [
+        {
+          "heading": "High-level Overview of the Native-Code Generation Process",
+          "level": 1,
+          "line": 1
+        },
+        {
+          "heading": "Representation of Pointers",
+          "level": 2,
+          "line": 3
+        },
+        {
+          "heading": "Representation of Intermediate Values",
+          "level": 2,
+          "line": 30
+        },
+        {
+          "heading": "Union representation",
+          "level": 2,
+          "line": 39
+        },
+        {
+          "heading": "Specialized Calling Convention Signature Representation",
+          "level": 2,
+          "line": 85
+        }
+      ],
+      "metrics": {
+        "importCount": 0,
+        "exportCount": 0,
+        "functionCount": 0,
+        "classCount": 0,
+        "sectionCount": 5
+      }
+    },
+    {
+      "path": "doc/src/devdocs/compiler_changes.md",
+      "language": "markdown",
+      "fileCategory": "docs",
+      "totalLines": 67,
+      "nonEmptyLines": 45,
+      "sections": [
+        {
+          "heading": "History of changes to the compiler",
+          "level": 1,
+          "line": 1
+        },
+        {
+          "heading": "v1.14",
+          "level": 2,
+          "line": 5
+        },
+        {
+          "heading": "`get_inference_cache` now returns `InferenceCache` instead of `Vector{InferenceResult}`",
+          "level": 3,
+          "line": 7
+        },
+        {
+          "heading": "v1.12",
+          "level": 2,
+          "line": 31
+        },
+        {
+          "heading": "Changes to the `IRCode` type",
+          "level": 3,
+          "line": 33
+        },
+        {
+          "heading": "`InstructionStream` constructors have gotten stricter",
+          "level": 3,
+          "line": 44
+        },
+        {
+          "heading": "`CodeInstance`s replacing certain uses of `MethodInstance`s",
+          "level": 3,
+          "line": 48
+        },
+        {
+          "heading": "`SpecInfo` replaces `MethodInfo`",
+          "level": 3,
+          "line": 60
+        },
+        {
+          "heading": "Changes to `OpaqueClosure`s",
+          "level": 3,
+          "line": 64
+        }
+      ],
+      "metrics": {
+        "importCount": 0,
+        "exportCount": 0,
+        "functionCount": 0,
+        "classCount": 0,
+        "sectionCount": 9
+      }
+    },
+    {
+      "path": "doc/src/devdocs/debuggingtips.md",
+      "language": "markdown",
+      "fileCategory": "docs",
+      "totalLines": 254,
+      "nonEmptyLines": 189,
+      "sections": [
+        {
+          "heading": "[gdb debugging tips](@id gdb-debugging-tips)",
+          "level": 1,
+          "line": 1
+        },
+        {
+          "heading": "Displaying Julia variables",
+          "level": 2,
+          "line": 3
+        },
+        {
+          "heading": "Useful Julia variables for Inspecting",
+          "level": 2,
+          "line": 26
+        },
+        {
+          "heading": "Useful Julia functions for Inspecting those variables",
+          "level": 2,
+          "line": 42
+        },
+        {
+          "heading": "Inserting breakpoints for inspection from gdb",
+          "level": 2,
+          "line": 61
+        },
+        {
+          "heading": "Inserting breakpoints upon certain conditions",
+          "level": 2,
+          "line": 95
+        },
+        {
+          "heading": "Loading a particular file",
+          "level": 3,
+          "line": 97
+        },
+        {
+          "heading": "Calling a particular method",
+          "level": 3,
+          "line": 105
+        },
+        {
+          "heading": "Dealing with signals",
+          "level": 2,
+          "line": 113
+        },
+        {
+          "heading": "Debugging during Julia's build process (bootstrap)",
+          "level": 2,
+          "line": 135
+        },
+        {
+          "heading": "Debugging precompilation errors",
+          "level": 2,
+          "line": 219
+        },
+        {
+          "heading": "Mozilla's Record and Replay Framework (rr)",
+          "level": 2,
+          "line": 240
+        },
+        {
+          "heading": "Reproducing concurrency bugs with rr",
+          "level": 3,
+          "line": 249
+        }
+      ],
+      "metrics": {
+        "importCount": 0,
+        "exportCount": 0,
+        "functionCount": 0,
+        "classCount": 0,
+        "sectionCount": 13
+      }
+    },
+    {
+      "path": "doc/src/devdocs/diagnostics.md",
+      "language": "markdown",
+      "fileCategory": "docs",
+      "totalLines": 37,
+      "nonEmptyLines": 31,
+      "sections": [
+        {
+          "heading": "Diagnostics used by the package ecosystem",
+          "level": 1,
+          "line": 1
+        },
+        {
+          "heading": "SnoopCompile",
+          "level": 2,
+          "line": 7
+        }
+      ],
+      "metrics": {
+        "importCount": 0,
+        "exportCount": 0,
+        "functionCount": 0,
+        "classCount": 0,
+        "sectionCount": 2
+      }
+    },
+    {
+      "path": "doc/src/devdocs/eval.md",
+      "language": "markdown",
+      "fileCategory": "docs",
+      "totalLines": 189,
+      "nonEmptyLines": 148,
+      "sections": [
+        {
+          "heading": "Eval of Julia code",
+          "level": 1,
+          "line": 1
+        },
+        {
+          "heading": "Julia Execution",
+          "level": 2,
+          "line": 32
+        },
+        {
+          "heading": "[Parsing](@id dev-parsing)",
+          "level": 2,
+          "line": 73
+        },
+        {
+          "heading": "[Macro Expansion](@id dev-macro-expansion)",
+          "level": 2,
+          "line": 81
+        },
+        {
+          "heading": "[Type Inference](@id dev-type-inference)",
+          "level": 2,
+          "line": 91
+        },
+        {
+          "heading": "[JIT Code Generation](@id dev-codegen)",
+          "level": 2,
+          "line": 141
+        },
+        {
+          "heading": "[System Image](@id dev-sysimg)",
+          "level": 2,
+          "line": 175
+        }
+      ],
+      "metrics": {
+        "importCount": 0,
+        "exportCount": 0,
+        "functionCount": 0,
+        "classCount": 0,
+        "sectionCount": 7
+      }
+    },
+    {
+      "path": "doc/src/devdocs/external_profilers.md",
+      "language": "markdown",
+      "fileCategory": "docs",
+      "totalLines": 189,
+      "nonEmptyLines": 116,
+      "sections": [
+        {
+          "heading": "External Profiler Support",
+          "level": 1,
+          "line": 1
+        },
+        {
+          "heading": "Adding New Zones",
+          "level": 3,
+          "line": 11
+        },
+        {
+          "heading": "From C/C++ code",
+          "level": 4,
+          "line": 13
+        },
+        {
+          "heading": "From Julia code",
+          "level": 4,
+          "line": 18
+        },
+        {
+          "heading": "Dynamically Enabling and Disabling Zones",
+          "level": 3,
+          "line": 28
+        },
+        {
+          "heading": "Tracy Profiler",
+          "level": 2,
+          "line": 33
+        },
+        {
+          "heading": "Building Julia with Tracy",
+          "level": 3,
+          "line": 41
+        },
+        {
+          "heading": "Installing the Tracy Profile Viewer",
+          "level": 3,
+          "line": 48
+        },
+        {
+          "heading": "Profiling Julia with Tracy",
+          "level": 3,
+          "line": 69
+        },
+        {
+          "heading": "Profiling package precompilation with Tracy",
+          "level": 3,
+          "line": 79
+        },
+        {
+          "heading": "Adding metadata to zones",
+          "level": 3,
+          "line": 92
+        },
+        {
+          "heading": "Viewing Tracy files in your browser",
+          "level": 3,
+          "line": 98
+        },
+        {
+          "heading": "Exporting trace data to CSV",
+          "level": 3,
+          "line": 104
+        },
+        {
+          "heading": "Enabling stack trace samples",
+          "level": 3,
+          "line": 117
+        },
+        {
+          "heading": "Intel VTune (ITTAPI) Profiler",
+          "level": 2,
+          "line": 132
+        },
+        {
+          "heading": "NVIDIA Nsight Systems (NVTX)",
+          "level": 2,
+          "line": 136
+        },
+        {
+          "heading": "Building Julia with NVTX support",
+          "level": 3,
+          "line": 143
+        },
+        {
+          "heading": "Profiling Julia with Nsight Systems",
+          "level": 3,
+          "line": 147
+        },
+        {
+          "heading": "Instrumenting arbitrary Julia code",
+          "level": 3,
+          "line": 157
+        },
+        {
+          "heading": "Apple Instruments (OSLog)",
+          "level": 2,
+          "line": 162
+        },
+        {
+          "heading": "Building Julia with OSLog support",
+          "level": 3,
+          "line": 166
+        },
+        {
+          "heading": "Profiling Julia with Instruments",
+          "level": 3,
+          "line": 174
+        }
+      ],
+      "metrics": {
+        "importCount": 0,
+        "exportCount": 0,
+        "functionCount": 0,
+        "classCount": 0,
+        "sectionCount": 22
+      }
+    },
+    {
+      "path": "doc/src/devdocs/functions.md",
+      "language": "markdown",
+      "fileCategory": "docs",
+      "totalLines": 231,
+      "nonEmptyLines": 180,
+      "sections": [
+        {
+          "heading": "Julia Functions",
+          "level": 1,
+          "line": 1
+        },
+        {
+          "heading": "Method Tables",
+          "level": 2,
+          "line": 6
+        },
+        {
+          "heading": "[Function calls](@id Function-calls)",
+          "level": 2,
+          "line": 13
+        },
+        {
+          "heading": "Adding methods",
+          "level": 2,
+          "line": 44
+        },
+        {
+          "heading": "Creating generic functions",
+          "level": 2,
+          "line": 49
+        },
+        {
+          "heading": "Closures",
+          "level": 2,
+          "line": 57
+        },
+        {
+          "heading": "Constructors",
+          "level": 2,
+          "line": 82
+        },
+        {
+          "heading": "Builtins",
+          "level": 2,
+          "line": 86
+        },
+        {
+          "heading": "Keyword arguments",
+          "level": 2,
+          "line": 124
+        },
+        {
+          "heading": "[Compiler efficiency issues](@id compiler-efficiency-issues)",
+          "level": 2,
+          "line": 191
+        }
+      ],
+      "metrics": {
+        "importCount": 0,
+        "exportCount": 0,
+        "functionCount": 0,
+        "classCount": 0,
+        "sectionCount": 10
+      }
+    },
+    {
+      "path": "doc/src/devdocs/gc-debug.md",
+      "language": "markdown",
+      "fileCategory": "docs",
+      "totalLines": 179,
+      "nonEmptyLines": 132,
+      "sections": [
+        {
+          "heading": "GC Debug Build Tools",
+          "level": 1,
+          "line": 1
+        },
+        {
+          "heading": "Building with GC Debug Support",
+          "level": 2,
+          "line": 8
+        },
+        {
+          "heading": "Environment Variables",
+          "level": 2,
+          "line": 31
+        },
+        {
+          "heading": "`JULIA_GC_WAIT_FOR_DEBUGGER`",
+          "level": 3,
+          "line": 36
+        },
+        {
+          "heading": "`JULIA_GC_ALLOC_POOL`, `JULIA_GC_ALLOC_OTHER`, `JULIA_GC_ALLOC_PRINT`",
+          "level": 3,
+          "line": 52
+        },
+        {
+          "heading": "Example: trigger GC on every allocation",
+          "level": 4,
+          "line": 91
+        },
+        {
+          "heading": "Example: randomised stress testing",
+          "level": 4,
+          "line": 100
+        },
+        {
+          "heading": "[GC Verification (`GC_VERIFY`)](@id GC_VERIFY)",
+          "level": 2,
+          "line": 110
+        },
+        {
+          "heading": "Tips for debugging write barrier violations",
+          "level": 3,
+          "line": 137
+        },
+        {
+          "heading": "Related Tools",
+          "level": 2,
+          "line": 175
+        }
+      ],
+      "metrics": {
+        "importCount": 0,
+        "exportCount": 0,
+        "functionCount": 0,
+        "classCount": 0,
+        "sectionCount": 10
+      }
+    },
+    {
+      "path": "doc/src/devdocs/gc-mmtk.md",
+      "language": "markdown",
+      "fileCategory": "docs",
+      "totalLines": 32,
+      "nonEmptyLines": 19,
+      "sections": [
+        {
+          "heading": "Julia + MMTk",
+          "level": 1,
+          "line": 1
+        },
+        {
+          "heading": "Building Julia with MMTk",
+          "level": 2,
+          "line": 8
+        },
+        {
+          "heading": "I've got a build error when building Julia with MMTk, what should I do?",
+          "level": 3,
+          "line": 24
+        }
+      ],
+      "metrics": {
+        "importCount": 0,
+        "exportCount": 0,
+        "functionCount": 0,
+        "classCount": 0,
+        "sectionCount": 3
+      }
+    },
+    {
+      "path": "doc/src/devdocs/gc-sa.md",
+      "language": "markdown",
+      "fileCategory": "docs",
+      "totalLines": 325,
+      "nonEmptyLines": 260,
+      "sections": [
+        {
+          "heading": "Static analyzer annotations for GC correctness in C code",
+          "level": 1,
+          "line": 1
+        },
+        {
+          "heading": "Running the analysis",
+          "level": 2,
+          "line": 3
+        },
+        {
+          "heading": "General Overview",
+          "level": 2,
+          "line": 19
+        },
+        {
+          "heading": "GC Invariants",
+          "level": 2,
+          "line": 54
+        },
+        {
+          "heading": "Static Analysis Algorithm",
+          "level": 2,
+          "line": 73
+        },
+        {
+          "heading": "The analyzer annotations",
+          "level": 2,
+          "line": 97
+        },
+        {
+          "heading": "`JL_CANSAFEPOINT`",
+          "level": 3,
+          "line": 103
+        },
+        {
+          "heading": "`JL_MAYBE_UNROOTED`/`JL_ROOTS_TEMPORARILY`",
+          "level": 3,
+          "line": 126
+        },
+        {
+          "heading": "`JL_PROPAGATES_ROOT`/`JL_PROPAGATES_ROOT_INDEXED(root, index)`",
+          "level": 3,
+          "line": 165
+        },
+        {
+          "heading": "`JL_ROOTED_BY_ARG(n)`/`JL_ROOTED_BY_ARG_INDEXED(root, index)`/`JL_OUT_ROOTED_BY_ARG(n)`/`JL_ROOTED_BY_RETURN`",
+          "level": 3,
+          "line": 192
+        },
+        {
+          "heading": "`JL_GC_DISABLED`",
+          "level": 3,
+          "line": 225
+        },
+        {
+          "heading": "`JL_REQUIRE_ROOTED_SLOT`",
+          "level": 3,
+          "line": 246
+        },
+        {
+          "heading": "`JL_GLOBALLY_ROOTED`",
+          "level": 3,
+          "line": 267
+        },
+        {
+          "heading": "`JL_ALWAYS_LEAFTYPE`",
+          "level": 3,
+          "line": 282
+        },
+        {
+          "heading": "`JL_GC_PROMISE_ROOTED`",
+          "level": 3,
+          "line": 300
+        },
+        {
+          "heading": "Completeness of analysis",
+          "level": 2,
+          "line": 318
+        }
+      ],
+      "metrics": {
+        "importCount": 0,
+        "exportCount": 0,
+        "functionCount": 0,
+        "classCount": 0,
+        "sectionCount": 16
+      }
+    },
+    {
+      "path": "doc/src/devdocs/gc.md",
+      "language": "markdown",
+      "fileCategory": "docs",
+      "totalLines": 74,
+      "nonEmptyLines": 40,
+      "sections": [
+        {
+          "heading": "Julia Garbage Collector (GC) Internals",
+          "level": 1,
+          "line": 1
+        },
+        {
+          "heading": "Introduction",
+          "level": 2,
+          "line": 3
+        },
+        {
+          "heading": "Allocation",
+          "level": 2,
+          "line": 14
+        },
+        {
+          "heading": "Small Object Allocation",
+          "level": 3,
+          "line": 18
+        },
+        {
+          "heading": "Large Object Allocation",
+          "level": 3,
+          "line": 42
+        },
+        {
+          "heading": "Marking and Generational Collection",
+          "level": 2,
+          "line": 48
+        },
+        {
+          "heading": "Sweeping",
+          "level": 2,
+          "line": 58
+        },
+        {
+          "heading": "Memory Accounting",
+          "level": 2,
+          "line": 66
+        },
+        {
+          "heading": "GC Trigger Heuristics",
+          "level": 2,
+          "line": 70
+        }
+      ],
+      "metrics": {
+        "importCount": 0,
+        "exportCount": 0,
+        "functionCount": 0,
+        "classCount": 0,
+        "sectionCount": 9
+      }
+    },
+    {
+      "path": "doc/src/devdocs/inference.md",
+      "language": "markdown",
+      "fileCategory": "docs",
+      "totalLines": 115,
+      "nonEmptyLines": 98,
+      "sections": [
+        {
+          "heading": "Inference",
+          "level": 1,
+          "line": 1
+        },
+        {
+          "heading": "How inference works",
+          "level": 2,
+          "line": 3
+        },
+        {
+          "heading": "Debugging compiler.jl",
+          "level": 2,
+          "line": 12
+        },
+        {
+          "heading": "The inlining algorithm (`inline_worthy`)",
+          "level": 2,
+          "line": 52
+        }
+      ],
+      "metrics": {
+        "importCount": 0,
+        "exportCount": 0,
+        "functionCount": 0,
+        "classCount": 0,
+        "sectionCount": 4
+      }
+    }
+  ]
+}

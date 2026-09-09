@@ -1,0 +1,182 @@
+{
+  "projectRoot": "/home/maruti/julia",
+  "batchFiles": [
+    {
+      "path": "test/trim/BasicJLL/Zstd_jll/Project.toml",
+      "language": "toml",
+      "sizeLines": 15,
+      "fileCategory": "config"
+    },
+    {
+      "path": "test/trim/BasicJLL/Zstd_jll/src/Zstd_jll.jl",
+      "language": "jl",
+      "sizeLines": 78,
+      "fileCategory": "code"
+    },
+    {
+      "path": "test/trim/BasicJLL/Zstd_jll/test/runtests.jl",
+      "language": "jl",
+      "sizeLines": 7,
+      "fileCategory": "code"
+    },
+    {
+      "path": "test/trim/BasicJLL/runtests.jl",
+      "language": "jl",
+      "sizeLines": 14,
+      "fileCategory": "code"
+    },
+    {
+      "path": "test/trim/BasicJLL/src/BasicJLL.jl",
+      "language": "jl",
+      "sizeLines": 38,
+      "fileCategory": "code"
+    },
+    {
+      "path": "test/trim/CompileMinInit/MinInitDep/Project.toml",
+      "language": "toml",
+      "sizeLines": 3,
+      "fileCategory": "config"
+    },
+    {
+      "path": "test/trim/CompileMinInit/MinInitDep/src/MinInitDep.jl",
+      "language": "jl",
+      "sizeLines": 14,
+      "fileCategory": "code"
+    },
+    {
+      "path": "test/trim/CompileMinInit/Project.toml",
+      "language": "toml",
+      "sizeLines": 9,
+      "fileCategory": "config"
+    },
+    {
+      "path": "test/trim/CompileMinInit/runtests.jl",
+      "language": "jl",
+      "sizeLines": 10,
+      "fileCategory": "code"
+    },
+    {
+      "path": "test/trim/CompileMinInit/src/CompileMinInit.jl",
+      "language": "jl",
+      "sizeLines": 11,
+      "fileCategory": "code"
+    },
+    {
+      "path": "test/trim/Hello/Project.toml",
+      "language": "toml",
+      "sizeLines": 3,
+      "fileCategory": "config"
+    },
+    {
+      "path": "test/trim/Hello/runtests.jl",
+      "language": "jl",
+      "sizeLines": 11,
+      "fileCategory": "code"
+    },
+    {
+      "path": "test/trim/Hello/src/Hello.jl",
+      "language": "jl",
+      "sizeLines": 9,
+      "fileCategory": "code"
+    },
+    {
+      "path": "test/trim/LibSimple/Project.toml",
+      "language": "toml",
+      "sizeLines": 11,
+      "fileCategory": "config"
+    },
+    {
+      "path": "test/trim/LibSimple/build.jl",
+      "language": "jl",
+      "sizeLines": 39,
+      "fileCategory": "code"
+    },
+    {
+      "path": "test/trim/LibSimple/capplication.c",
+      "language": "c",
+      "sizeLines": 104,
+      "fileCategory": "code"
+    },
+    {
+      "path": "test/trim/LibSimple/runtests.jl",
+      "language": "jl",
+      "sizeLines": 70,
+      "fileCategory": "code"
+    },
+    {
+      "path": "test/trim/LibSimple/src/LibSimple.jl",
+      "language": "jl",
+      "sizeLines": 58,
+      "fileCategory": "code"
+    },
+    {
+      "path": "test/trim/Trimmability/Project.toml",
+      "language": "toml",
+      "sizeLines": 8,
+      "fileCategory": "config"
+    },
+    {
+      "path": "test/trim/Trimmability/runtests.jl",
+      "language": "jl",
+      "sizeLines": 32,
+      "fileCategory": "code"
+    },
+    {
+      "path": "test/trim/Trimmability/src/Trimmability.jl",
+      "language": "jl",
+      "sizeLines": 327,
+      "fileCategory": "code"
+    },
+    {
+      "path": "test/trimming/Makefile",
+      "language": "makefile",
+      "sizeLines": 11,
+      "fileCategory": "infra"
+    },
+    {
+      "path": "test/triplequote.jl",
+      "language": "jl",
+      "sizeLines": 75,
+      "fileCategory": "code"
+    },
+    {
+      "path": "test/tuple.jl",
+      "language": "jl",
+      "sizeLines": 927,
+      "fileCategory": "code"
+    },
+    {
+      "path": "test/typegroup.jl",
+      "language": "jl",
+      "sizeLines": 969,
+      "fileCategory": "code"
+    }
+  ],
+  "batchImportData": {
+    "test/trim/BasicJLL/Zstd_jll/Project.toml": [],
+    "test/trim/BasicJLL/Zstd_jll/src/Zstd_jll.jl": [],
+    "test/trim/BasicJLL/Zstd_jll/test/runtests.jl": [],
+    "test/trim/BasicJLL/runtests.jl": [],
+    "test/trim/BasicJLL/src/BasicJLL.jl": [],
+    "test/trim/CompileMinInit/MinInitDep/Project.toml": [],
+    "test/trim/CompileMinInit/MinInitDep/src/MinInitDep.jl": [],
+    "test/trim/CompileMinInit/Project.toml": [],
+    "test/trim/CompileMinInit/runtests.jl": [],
+    "test/trim/CompileMinInit/src/CompileMinInit.jl": [],
+    "test/trim/Hello/Project.toml": [],
+    "test/trim/Hello/runtests.jl": [],
+    "test/trim/Hello/src/Hello.jl": [],
+    "test/trim/LibSimple/Project.toml": [],
+    "test/trim/LibSimple/build.jl": [],
+    "test/trim/LibSimple/capplication.c": [],
+    "test/trim/LibSimple/runtests.jl": [],
+    "test/trim/LibSimple/src/LibSimple.jl": [],
+    "test/trim/Trimmability/Project.toml": [],
+    "test/trim/Trimmability/runtests.jl": [],
+    "test/trim/Trimmability/src/Trimmability.jl": [],
+    "test/trimming/Makefile": [],
+    "test/triplequote.jl": [],
+    "test/tuple.jl": [],
+    "test/typegroup.jl": []
+  }
+}

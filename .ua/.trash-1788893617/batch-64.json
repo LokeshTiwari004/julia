@@ -1,0 +1,925 @@
+{
+  "batchIndex": 64,
+  "nodes": [
+    {
+      "id": "document:doc/src/devdocs/agents/README.md",
+      "type": "document",
+      "name": "README.md",
+      "filePath": "doc/src/devdocs/agents/README.md",
+      "summary": "Documentation covering Agent Skills.",
+      "tags": [
+        "documentation",
+        "runtime"
+      ],
+      "complexity": "simple",
+      "language": "markdown"
+    },
+    {
+      "id": "document:doc/src/devdocs/agents/skills/buildkite-logs/SKILL.md",
+      "type": "document",
+      "name": "SKILL.md",
+      "filePath": "doc/src/devdocs/agents/skills/buildkite-logs/SKILL.md",
+      "summary": "Documentation covering Reviewing Buildkite CI logs.",
+      "tags": [
+        "documentation",
+        "runtime"
+      ],
+      "complexity": "moderate",
+      "language": "markdown"
+    },
+    {
+      "id": "document:doc/src/devdocs/agents/skills/c-static-analysis/SKILL.md",
+      "type": "document",
+      "name": "SKILL.md",
+      "filePath": "doc/src/devdocs/agents/skills/c-static-analysis/SKILL.md",
+      "summary": "Documentation covering C/C++ static analysis (src/), Fixing the GC-rooting checker (clang-sagc).",
+      "tags": [
+        "documentation",
+        "runtime"
+      ],
+      "complexity": "simple",
+      "language": "markdown"
+    },
+    {
+      "id": "document:doc/src/devdocs/agents/skills/ci-timing/SKILL.md",
+      "type": "document",
+      "name": "SKILL.md",
+      "filePath": "doc/src/devdocs/agents/skills/ci-timing/SKILL.md",
+      "summary": "Documentation covering CI timing analysis.",
+      "tags": [
+        "documentation",
+        "runtime"
+      ],
+      "complexity": "simple",
+      "language": "markdown"
+    },
+    {
+      "id": "document:doc/src/devdocs/agents/skills/compiler-jl/SKILL.md",
+      "type": "document",
+      "name": "SKILL.md",
+      "filePath": "doc/src/devdocs/agents/skills/compiler-jl/SKILL.md",
+      "summary": "Documentation covering Compiler.jl development, Compiler modules in Julia, Experimenting with Compiler as a stdlib and more.",
+      "tags": [
+        "documentation",
+        "runtime"
+      ],
+      "complexity": "moderate",
+      "language": "markdown"
+    },
+    {
+      "id": "document:doc/src/devdocs/agents/skills/doctests/SKILL.md",
+      "type": "document",
+      "name": "SKILL.md",
+      "filePath": "doc/src/devdocs/agents/skills/doctests/SKILL.md",
+      "summary": "Documentation covering Julia doctests, Writing, Verifying.",
+      "tags": [
+        "documentation",
+        "runtime"
+      ],
+      "complexity": "simple",
+      "language": "markdown"
+    },
+    {
+      "id": "document:doc/src/devdocs/agents/skills/external-deps/SKILL.md",
+      "type": "document",
+      "name": "SKILL.md",
+      "filePath": "doc/src/devdocs/agents/skills/external-deps/SKILL.md",
+      "summary": "Documentation covering External dependencies & JLLs, External dependencies (deps/, deps/patches/), External JLLs.",
+      "tags": [
+        "documentation",
+        "runtime"
+      ],
+      "complexity": "simple",
+      "language": "markdown"
+    },
+    {
+      "id": "document:doc/src/devdocs/agents/skills/julia-syntax-lowering/SKILL.md",
+      "type": "document",
+      "name": "SKILL.md",
+      "filePath": "doc/src/devdocs/agents/skills/julia-syntax-lowering/SKILL.md",
+      "summary": "Documentation covering JuliaSyntax & JuliaLowering development, Testing JuliaSyntax, Testing JuliaLowering and more.",
+      "tags": [
+        "documentation",
+        "runtime"
+      ],
+      "complexity": "moderate",
+      "language": "markdown"
+    },
+    {
+      "id": "document:doc/src/devdocs/agents/skills/test-changes/SKILL.md",
+      "type": "document",
+      "name": "SKILL.md",
+      "filePath": "doc/src/devdocs/agents/skills/test-changes/SKILL.md",
+      "summary": "Documentation covering Julia test changes.",
+      "tags": [
+        "documentation",
+        "runtime"
+      ],
+      "complexity": "simple",
+      "language": "markdown"
+    },
+    {
+      "id": "document:doc/src/devdocs/ub.md",
+      "type": "document",
+      "name": "ub.md",
+      "filePath": "doc/src/devdocs/ub.md",
+      "summary": "Documentation covering Undefined Behavior, List of sources of undefined behavior, Implementation-defined behavior and more.",
+      "tags": [
+        "documentation",
+        "runtime"
+      ],
+      "complexity": "moderate",
+      "language": "markdown"
+    },
+    {
+      "id": "document:doc/src/devdocs/valgrind.md",
+      "type": "document",
+      "name": "valgrind.md",
+      "filePath": "doc/src/devdocs/valgrind.md",
+      "summary": "Documentation covering Using Valgrind with Julia, General considerations, Suppressions and more.",
+      "tags": [
+        "documentation",
+        "runtime"
+      ],
+      "complexity": "moderate",
+      "language": "markdown"
+    },
+    {
+      "id": "document:doc/src/index.md",
+      "type": "document",
+      "name": "index.md",
+      "filePath": "doc/src/index.md",
+      "summary": "Documentation covering [Introduction](@id man-introduction), [Julia Compared to Other Languages](@id man-julia-compared-other-languages), [What Makes Julia, Julia?](@id man-what-makes-julia) and more.",
+      "tags": [
+        "documentation",
+        "runtime"
+      ],
+      "complexity": "moderate",
+      "language": "markdown"
+    },
+    {
+      "id": "document:doc/src/manual/workflow-tips.md",
+      "type": "document",
+      "name": "workflow-tips.md",
+      "filePath": "doc/src/manual/workflow-tips.md",
+      "summary": "Documentation covering [Workflow Tips](@id man-workflow-tips), REPL-based workflow, A basic editor/REPL workflow and more.",
+      "tags": [
+        "documentation",
+        "runtime"
+      ],
+      "complexity": "moderate",
+      "language": "markdown"
+    },
+    {
+      "id": "document:doc/src/manual/worldage.md",
+      "type": "document",
+      "name": "worldage.md",
+      "filePath": "doc/src/manual/worldage.md",
+      "summary": "Documentation covering [The World Age mechanism](@id man-world-age), World age in general, Temporarily raising the world age using `invokelatest` and more.",
+      "tags": [
+        "documentation",
+        "runtime"
+      ],
+      "complexity": "complex",
+      "language": "markdown"
+    },
+    {
+      "id": "file:pkgimage.mk",
+      "type": "file",
+      "name": "pkgimage.mk",
+      "filePath": "pkgimage.mk",
+      "summary": "Source file: pkgimage.mk.",
+      "tags": [
+        "source"
+      ],
+      "complexity": "simple",
+      "language": "mk"
+    },
+    {
+      "id": "service:src/Makefile",
+      "type": "service",
+      "name": "Makefile",
+      "filePath": "src/Makefile",
+      "summary": "Infrastructure file: Makefile.",
+      "tags": [
+        "infrastructure"
+      ],
+      "complexity": "complex",
+      "language": "makefile"
+    }
+  ],
+  "edges": [],
+  "batchFiles": [
+    {
+      "path": "doc/src/devdocs/agents/README.md",
+      "language": "markdown",
+      "fileCategory": "docs",
+      "totalLines": 21,
+      "nonEmptyLines": 17,
+      "sections": [
+        {
+          "heading": "Agent Skills",
+          "level": 1,
+          "line": 1
+        }
+      ],
+      "metrics": {
+        "importCount": 0,
+        "exportCount": 0,
+        "functionCount": 0,
+        "classCount": 0,
+        "sectionCount": 1
+      }
+    },
+    {
+      "path": "doc/src/devdocs/agents/skills/buildkite-logs/SKILL.md",
+      "language": "markdown",
+      "fileCategory": "docs",
+      "totalLines": 67,
+      "nonEmptyLines": 54,
+      "sections": [
+        {
+          "heading": "Reviewing Buildkite CI logs",
+          "level": 1,
+          "line": 6
+        }
+      ],
+      "metrics": {
+        "importCount": 0,
+        "exportCount": 0,
+        "functionCount": 0,
+        "classCount": 0,
+        "sectionCount": 1
+      }
+    },
+    {
+      "path": "doc/src/devdocs/agents/skills/c-static-analysis/SKILL.md",
+      "language": "markdown",
+      "fileCategory": "docs",
+      "totalLines": 51,
+      "nonEmptyLines": 43,
+      "sections": [
+        {
+          "heading": "C/C++ static analysis (src/)",
+          "level": 1,
+          "line": 6
+        },
+        {
+          "heading": "Fixing the GC-rooting checker (clang-sagc)",
+          "level": 2,
+          "line": 31
+        }
+      ],
+      "metrics": {
+        "importCount": 0,
+        "exportCount": 0,
+        "functionCount": 0,
+        "classCount": 0,
+        "sectionCount": 2
+      }
+    },
+    {
+      "path": "doc/src/devdocs/agents/skills/ci-timing/SKILL.md",
+      "language": "markdown",
+      "fileCategory": "docs",
+      "totalLines": 31,
+      "nonEmptyLines": 24,
+      "sections": [
+        {
+          "heading": "CI timing analysis",
+          "level": 1,
+          "line": 6
+        }
+      ],
+      "metrics": {
+        "importCount": 0,
+        "exportCount": 0,
+        "functionCount": 0,
+        "classCount": 0,
+        "sectionCount": 1
+      }
+    },
+    {
+      "path": "doc/src/devdocs/agents/skills/compiler-jl/SKILL.md",
+      "language": "markdown",
+      "fileCategory": "docs",
+      "totalLines": 97,
+      "nonEmptyLines": 69,
+      "sections": [
+        {
+          "heading": "Compiler.jl development",
+          "level": 1,
+          "line": 6
+        },
+        {
+          "heading": "Compiler modules in Julia",
+          "level": 2,
+          "line": 10
+        },
+        {
+          "heading": "Experimenting with Compiler as a stdlib",
+          "level": 2,
+          "line": 29
+        },
+        {
+          "heading": "Reflection backend",
+          "level": 3,
+          "line": 37
+        },
+        {
+          "heading": "Native compilation backend",
+          "level": 3,
+          "line": 51
+        },
+        {
+          "heading": "Testing Compiler as a stdlib package",
+          "level": 2,
+          "line": 70
+        },
+        {
+          "heading": "Testing `Base.Compiler`",
+          "level": 2,
+          "line": 87
+        }
+      ],
+      "metrics": {
+        "importCount": 0,
+        "exportCount": 0,
+        "functionCount": 0,
+        "classCount": 0,
+        "sectionCount": 7
+      }
+    },
+    {
+      "path": "doc/src/devdocs/agents/skills/doctests/SKILL.md",
+      "language": "markdown",
+      "fileCategory": "docs",
+      "totalLines": 26,
+      "nonEmptyLines": 19,
+      "sections": [
+        {
+          "heading": "Julia doctests",
+          "level": 1,
+          "line": 6
+        },
+        {
+          "heading": "Writing",
+          "level": 2,
+          "line": 10
+        },
+        {
+          "heading": "Verifying",
+          "level": 2,
+          "line": 15
+        }
+      ],
+      "metrics": {
+        "importCount": 0,
+        "exportCount": 0,
+        "functionCount": 0,
+        "classCount": 0,
+        "sectionCount": 3
+      }
+    },
+    {
+      "path": "doc/src/devdocs/agents/skills/external-deps/SKILL.md",
+      "language": "markdown",
+      "fileCategory": "docs",
+      "totalLines": 28,
+      "nonEmptyLines": 20,
+      "sections": [
+        {
+          "heading": "External dependencies & JLLs",
+          "level": 1,
+          "line": 6
+        },
+        {
+          "heading": "External dependencies (deps/, deps/patches/)",
+          "level": 2,
+          "line": 10
+        },
+        {
+          "heading": "External JLLs",
+          "level": 2,
+          "line": 22
+        }
+      ],
+      "metrics": {
+        "importCount": 0,
+        "exportCount": 0,
+        "functionCount": 0,
+        "classCount": 0,
+        "sectionCount": 3
+      }
+    },
+    {
+      "path": "doc/src/devdocs/agents/skills/julia-syntax-lowering/SKILL.md",
+      "language": "markdown",
+      "fileCategory": "docs",
+      "totalLines": 85,
+      "nonEmptyLines": 60,
+      "sections": [
+        {
+          "heading": "JuliaSyntax & JuliaLowering development",
+          "level": 1,
+          "line": 6
+        },
+        {
+          "heading": "Testing JuliaSyntax",
+          "level": 2,
+          "line": 11
+        },
+        {
+          "heading": "Testing JuliaLowering",
+          "level": 2,
+          "line": 22
+        },
+        {
+          "heading": "Targeted JuliaLowering tests",
+          "level": 3,
+          "line": 41
+        },
+        {
+          "heading": "Trying JuliaLowering execution",
+          "level": 2,
+          "line": 57
+        }
+      ],
+      "metrics": {
+        "importCount": 0,
+        "exportCount": 0,
+        "functionCount": 0,
+        "classCount": 0,
+        "sectionCount": 5
+      }
+    },
+    {
+      "path": "doc/src/devdocs/agents/skills/test-changes/SKILL.md",
+      "language": "markdown",
+      "fileCategory": "docs",
+      "totalLines": 19,
+      "nonEmptyLines": 16,
+      "sections": [
+        {
+          "heading": "Julia test changes",
+          "level": 1,
+          "line": 6
+        }
+      ],
+      "metrics": {
+        "importCount": 0,
+        "exportCount": 0,
+        "functionCount": 0,
+        "classCount": 0,
+        "sectionCount": 1
+      }
+    },
+    {
+      "path": "doc/src/devdocs/ub.md",
+      "language": "markdown",
+      "fileCategory": "docs",
+      "totalLines": 76,
+      "nonEmptyLines": 52,
+      "sections": [
+        {
+          "heading": "Undefined Behavior",
+          "level": 1,
+          "line": 1
+        },
+        {
+          "heading": "List of sources of undefined behavior",
+          "level": 2,
+          "line": 29
+        },
+        {
+          "heading": "Implementation-defined behavior",
+          "level": 2,
+          "line": 52
+        },
+        {
+          "heading": "Special cases explicitly NOT undefined behavior",
+          "level": 2,
+          "line": 57
+        }
+      ],
+      "metrics": {
+        "importCount": 0,
+        "exportCount": 0,
+        "functionCount": 0,
+        "classCount": 0,
+        "sectionCount": 4
+      }
+    },
+    {
+      "path": "doc/src/devdocs/valgrind.md",
+      "language": "markdown",
+      "fileCategory": "docs",
+      "totalLines": 92,
+      "nonEmptyLines": 67,
+      "sections": [
+        {
+          "heading": "Using Valgrind with Julia",
+          "level": 1,
+          "line": 1
+        },
+        {
+          "heading": "General considerations",
+          "level": 2,
+          "line": 7
+        },
+        {
+          "heading": "Suppressions",
+          "level": 2,
+          "line": 30
+        },
+        {
+          "heading": "Running the Julia test suite under Valgrind",
+          "level": 2,
+          "line": 46
+        },
+        {
+          "heading": "Additional spurious warnings",
+          "level": 2,
+          "line": 58
+        },
+        {
+          "heading": "Unhandled rr system calls",
+          "level": 3,
+          "line": 63
+        },
+        {
+          "heading": "Caveats",
+          "level": 2,
+          "line": 84
+        }
+      ],
+      "metrics": {
+        "importCount": 0,
+        "exportCount": 0,
+        "functionCount": 0,
+        "classCount": 0,
+        "sectionCount": 7
+      }
+    },
+    {
+      "path": "doc/src/index.md",
+      "language": "markdown",
+      "fileCategory": "docs",
+      "totalLines": 127,
+      "nonEmptyLines": 107,
+      "sections": [
+        {
+          "heading": "[Introduction](@id man-introduction)",
+          "level": 2,
+          "line": 35
+        },
+        {
+          "heading": "[Julia Compared to Other Languages](@id man-julia-compared-other-languages)",
+          "level": 2,
+          "line": 51
+        },
+        {
+          "heading": "[What Makes Julia, Julia?](@id man-what-makes-julia)",
+          "level": 3,
+          "line": 83
+        },
+        {
+          "heading": "[Advantages of Julia](@id man-advantages-of-julia)",
+          "level": 3,
+          "line": 100
+        },
+        {
+          "heading": "[Important Links](@id man-important-links)",
+          "level": 2,
+          "line": 118
+        }
+      ],
+      "metrics": {
+        "importCount": 0,
+        "exportCount": 0,
+        "functionCount": 0,
+        "classCount": 0,
+        "sectionCount": 5
+      }
+    },
+    {
+      "path": "doc/src/manual/workflow-tips.md",
+      "language": "markdown",
+      "fileCategory": "docs",
+      "totalLines": 118,
+      "nonEmptyLines": 84,
+      "sections": [
+        {
+          "heading": "[Workflow Tips](@id man-workflow-tips)",
+          "level": 1,
+          "line": 1
+        },
+        {
+          "heading": "REPL-based workflow",
+          "level": 2,
+          "line": 5
+        },
+        {
+          "heading": "A basic editor/REPL workflow",
+          "level": 3,
+          "line": 11
+        },
+        {
+          "heading": "Browser-based workflow",
+          "level": 2,
+          "line": 48
+        },
+        {
+          "heading": "Revise-based workflows",
+          "level": 2,
+          "line": 54
+        }
+      ],
+      "metrics": {
+        "importCount": 0,
+        "exportCount": 0,
+        "functionCount": 0,
+        "classCount": 0,
+        "sectionCount": 5
+      }
+    },
+    {
+      "path": "doc/src/manual/worldage.md",
+      "language": "markdown",
+      "fileCategory": "docs",
+      "totalLines": 295,
+      "nonEmptyLines": 227,
+      "sections": [
+        {
+          "heading": "[The World Age mechanism](@id man-world-age)",
+          "level": 1,
+          "line": 1
+        },
+        {
+          "heading": "World age in general",
+          "level": 2,
+          "line": 18
+        },
+        {
+          "heading": "Temporarily raising the world age using `invokelatest`",
+          "level": 2,
+          "line": 124
+        },
+        {
+          "heading": "World age and const struct redefinitions",
+          "level": 2,
+          "line": 145
+        },
+        {
+          "heading": "Binding partition introspection",
+          "level": 3,
+          "line": 220
+        },
+        {
+          "heading": "World age and `using`/`import`",
+          "level": 2,
+          "line": 235
+        },
+        {
+          "heading": "World age capture",
+          "level": 2,
+          "line": 263
+        }
+      ],
+      "metrics": {
+        "importCount": 0,
+        "exportCount": 0,
+        "functionCount": 0,
+        "classCount": 0,
+        "sectionCount": 7
+      }
+    },
+    {
+      "path": "pkgimage.mk",
+      "language": "mk",
+      "fileCategory": "code",
+      "totalLines": 38,
+      "nonEmptyLines": 29,
+      "steps": [
+        {
+          "name": "default",
+          "startLine": 17,
+          "endLine": 17
+        },
+        {
+          "name": "release",
+          "startLine": 18,
+          "endLine": 18
+        },
+        {
+          "name": "debug",
+          "startLine": 19,
+          "endLine": 19
+        },
+        {
+          "name": "all",
+          "startLine": 20,
+          "endLine": 21
+        },
+        {
+          "name": "print-depot-path",
+          "startLine": 25,
+          "endLine": 27
+        },
+        {
+          "name": "clean",
+          "startLine": 36,
+          "endLine": 39
+        }
+      ],
+      "metrics": {
+        "importCount": 0,
+        "exportCount": 0,
+        "functionCount": 0,
+        "classCount": 0,
+        "stepCount": 6
+      }
+    },
+    {
+      "path": "src/Makefile",
+      "language": "makefile",
+      "fileCategory": "infra",
+      "totalLines": 949,
+      "nonEmptyLines": 847,
+      "steps": [
+        {
+          "name": "default",
+          "startLine": 284,
+          "endLine": 285
+        },
+        {
+          "name": "all",
+          "startLine": 287,
+          "endLine": 288
+        },
+        {
+          "name": "release",
+          "startLine": 290,
+          "endLine": 291
+        },
+        {
+          "name": "libccalltest",
+          "startLine": 404,
+          "endLine": 404
+        },
+        {
+          "name": "libccalllazyfoo",
+          "startLine": 406,
+          "endLine": 406
+        },
+        {
+          "name": "libccalllazybar",
+          "startLine": 408,
+          "endLine": 408
+        },
+        {
+          "name": "libllvmcalltest",
+          "startLine": 410,
+          "endLine": 411
+        },
+        {
+          "name": "julia_flisp.boot.inc.phony",
+          "startLine": 468,
+          "endLine": 469
+        },
+        {
+          "name": "libjulia-internal-release",
+          "startLine": 606,
+          "endLine": 606
+        },
+        {
+          "name": "libjulia-internal-debug",
+          "startLine": 607,
+          "endLine": 607
+        },
+        {
+          "name": "libjulia-internal-release",
+          "startLine": 609,
+          "endLine": 609
+        },
+        {
+          "name": "libjulia-internal-debug",
+          "startLine": 610,
+          "endLine": 610
+        },
+        {
+          "name": "libjulia-internal-debug",
+          "startLine": 611,
+          "endLine": 612
+        },
+        {
+          "name": "libjulia-codegen-release",
+          "startLine": 643,
+          "endLine": 643
+        },
+        {
+          "name": "libjulia-codegen-debug",
+          "startLine": 644,
+          "endLine": 644
+        },
+        {
+          "name": "libjulia-codegen-release",
+          "startLine": 646,
+          "endLine": 646
+        },
+        {
+          "name": "libjulia-codegen-debug",
+          "startLine": 647,
+          "endLine": 647
+        },
+        {
+          "name": "libjulia-codegen-debug",
+          "startLine": 648,
+          "endLine": 649
+        },
+        {
+          "name": "clean",
+          "startLine": 708,
+          "endLine": 716
+        },
+        {
+          "name": "clean-flisp",
+          "startLine": 718,
+          "endLine": 720
+        },
+        {
+          "name": "clean-support",
+          "startLine": 722,
+          "endLine": 724
+        },
+        {
+          "name": "cleanall",
+          "startLine": 726,
+          "endLine": 727
+        },
+        {
+          "name": "install-analysis-deps",
+          "startLine": 760,
+          "endLine": 762
+        },
+        {
+          "name": "analyzegc-deps-check",
+          "startLine": 764,
+          "endLine": 764
+        },
+        {
+          "name": "clangsa",
+          "startLine": 771,
+          "endLine": 772
+        },
+        {
+          "name": "tidysrc",
+          "startLine": 856,
+          "endLine": 856
+        },
+        {
+          "name": "safesrc",
+          "startLine": 858,
+          "endLine": 858
+        },
+        {
+          "name": "analyzesrc",
+          "startLine": 860,
+          "endLine": 860
+        },
+        {
+          "name": "analyzegc",
+          "startLine": 862,
+          "endLine": 862
+        },
+        {
+          "name": "analyze",
+          "startLine": 864,
+          "endLine": 865
+        },
+        {
+          "name": "clean-analyzegc",
+          "startLine": 872,
+          "endLine": 874
+        },
+        {
+          "name": "regenerate-compile_commands",
+          "startLine": 877,
+          "endLine": 941
+        },
+        {
+          "name": "compile-database",
+          "startLine": 943,
+          "endLine": 947
+        }
+      ],
+      "metrics": {
+        "importCount": 0,
+        "exportCount": 0,
+        "functionCount": 0,
+        "classCount": 0,
+        "stepCount": 33
+      }
+    }
+  ]
+}

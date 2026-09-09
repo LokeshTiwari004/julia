@@ -1,0 +1,324 @@
+{
+  "scriptCompleted": true,
+  "filesAnalyzed": 10,
+  "filesSkipped": [
+    "test/project/Extensions/ExtDep3.jl/src/ExtDep3.jl",
+    "test/project/Extensions/ExtNameCollision_A/ext/REPLExt.jl",
+    "test/project/Extensions/ExtNameCollision_A/src/ExtNameCollision_A.jl",
+    "test/project/Extensions/ExtNameCollision_B/ext/REPLExt.jl",
+    "test/project/Extensions/ExtNameCollision_B/src/ExtNameCollision_B.jl",
+    "test/project/Extensions/ExtToExtDependency/ext/ExtA.jl",
+    "test/project/Extensions/ExtToExtDependency/ext/ExtAB.jl",
+    "test/project/Extensions/ExtToExtDependency/src/ExtToExtDependency.jl",
+    "test/project/Extensions/HasDepWithExtensions.jl/src/HasDepWithExtensions.jl",
+    "test/project/Extensions/HasExtensions.jl/ext/Extension.jl",
+    "test/project/Extensions/HasExtensions.jl/ext/ExtensionDep.jl",
+    "test/project/Extensions/HasExtensions.jl/ext/ExtensionFolder/ExtensionFolder.jl",
+    "test/project/Extensions/HasExtensions.jl/src/HasExtensions.jl",
+    "test/project/Extensions/HasExtensions_v2.jl/ext/Extension2.jl",
+    "test/project/Extensions/HasExtensions_v2.jl/src/HasExtensions.jl"
+  ],
+  "analysisOutcomes": {
+    "structure": {
+      "succeeded": 10,
+      "failed": 0
+    },
+    "callGraph": {
+      "succeeded": 0,
+      "failed": 0,
+      "skipped": 10
+    }
+  },
+  "results": [
+    {
+      "path": "test/project/Extensions/ExtNameCollision_A/Project.toml",
+      "language": "toml",
+      "fileCategory": "config",
+      "totalLines": 9,
+      "nonEmptyLines": 7,
+      "sections": [
+        {
+          "heading": "weakdeps",
+          "level": 1,
+          "line": 5
+        },
+        {
+          "heading": "extensions",
+          "level": 1,
+          "line": 8
+        }
+      ],
+      "metrics": {
+        "importCount": 0,
+        "exportCount": 0,
+        "functionCount": 0,
+        "classCount": 0,
+        "sectionCount": 2
+      }
+    },
+    {
+      "path": "test/project/Extensions/ExtNameCollision_B/Project.toml",
+      "language": "toml",
+      "fileCategory": "config",
+      "totalLines": 9,
+      "nonEmptyLines": 7,
+      "sections": [
+        {
+          "heading": "weakdeps",
+          "level": 1,
+          "line": 5
+        },
+        {
+          "heading": "extensions",
+          "level": 1,
+          "line": 8
+        }
+      ],
+      "metrics": {
+        "importCount": 0,
+        "exportCount": 0,
+        "functionCount": 0,
+        "classCount": 0,
+        "sectionCount": 2
+      }
+    },
+    {
+      "path": "test/project/Extensions/ExtToExtDependency/Manifest.toml",
+      "language": "toml",
+      "fileCategory": "config",
+      "totalLines": 21,
+      "nonEmptyLines": 17,
+      "sections": [
+        {
+          "heading": "[[deps.ExtDep]]",
+          "level": 2,
+          "line": 7
+        },
+        {
+          "heading": "[[deps.SomeOtherPackage]]",
+          "level": 2,
+          "line": 13
+        },
+        {
+          "heading": "[[deps.SomePackage]]",
+          "level": 2,
+          "line": 18
+        }
+      ],
+      "metrics": {
+        "importCount": 0,
+        "exportCount": 0,
+        "functionCount": 0,
+        "classCount": 0,
+        "sectionCount": 3
+      }
+    },
+    {
+      "path": "test/project/Extensions/ExtToExtDependency/Project.toml",
+      "language": "toml",
+      "fileCategory": "config",
+      "totalLines": 14,
+      "nonEmptyLines": 11,
+      "sections": [
+        {
+          "heading": "deps",
+          "level": 1,
+          "line": 5
+        },
+        {
+          "heading": "weakdeps",
+          "level": 1,
+          "line": 8
+        },
+        {
+          "heading": "extensions",
+          "level": 1,
+          "line": 12
+        }
+      ],
+      "metrics": {
+        "importCount": 0,
+        "exportCount": 0,
+        "functionCount": 0,
+        "classCount": 0,
+        "sectionCount": 3
+      }
+    },
+    {
+      "path": "test/project/Extensions/HasDepWithExtensions.jl/Manifest.toml",
+      "language": "toml",
+      "fileCategory": "config",
+      "totalLines": 43,
+      "nonEmptyLines": 35,
+      "sections": [
+        {
+          "heading": "[[deps.ExtDep]]",
+          "level": 2,
+          "line": 7
+        },
+        {
+          "heading": "[[deps.ExtDep2]]",
+          "level": 2,
+          "line": 13
+        },
+        {
+          "heading": "[[deps.ExtDep3]]",
+          "level": 2,
+          "line": 18
+        },
+        {
+          "heading": "[[deps.HasExtensions]]",
+          "level": 2,
+          "line": 23
+        },
+        {
+          "heading": "deps.HasExtensions.extensions",
+          "level": 3,
+          "line": 30
+        },
+        {
+          "heading": "[[deps.SomeOtherPackage]]",
+          "level": 2,
+          "line": 35
+        },
+        {
+          "heading": "[[deps.SomePackage]]",
+          "level": 2,
+          "line": 40
+        }
+      ],
+      "metrics": {
+        "importCount": 0,
+        "exportCount": 0,
+        "functionCount": 0,
+        "classCount": 0,
+        "sectionCount": 7
+      }
+    },
+    {
+      "path": "test/project/Extensions/HasDepWithExtensions.jl/Project.toml",
+      "language": "toml",
+      "fileCategory": "config",
+      "totalLines": 9,
+      "nonEmptyLines": 8,
+      "sections": [
+        {
+          "heading": "deps",
+          "level": 1,
+          "line": 5
+        }
+      ],
+      "metrics": {
+        "importCount": 0,
+        "exportCount": 0,
+        "functionCount": 0,
+        "classCount": 0,
+        "sectionCount": 1
+      }
+    },
+    {
+      "path": "test/project/Extensions/HasExtensions.jl/Manifest.toml",
+      "language": "toml",
+      "fileCategory": "config",
+      "totalLines": 10,
+      "nonEmptyLines": 8,
+      "sections": [
+        {
+          "heading": "[[deps.ExtDep3]]",
+          "level": 2,
+          "line": 7
+        }
+      ],
+      "metrics": {
+        "importCount": 0,
+        "exportCount": 0,
+        "functionCount": 0,
+        "classCount": 0,
+        "sectionCount": 1
+      }
+    },
+    {
+      "path": "test/project/Extensions/HasExtensions.jl/Project.toml",
+      "language": "toml",
+      "fileCategory": "config",
+      "totalLines": 15,
+      "nonEmptyLines": 12,
+      "sections": [
+        {
+          "heading": "deps",
+          "level": 1,
+          "line": 5
+        },
+        {
+          "heading": "weakdeps",
+          "level": 1,
+          "line": 8
+        },
+        {
+          "heading": "extensions",
+          "level": 1,
+          "line": 12
+        }
+      ],
+      "metrics": {
+        "importCount": 0,
+        "exportCount": 0,
+        "functionCount": 0,
+        "classCount": 0,
+        "sectionCount": 3
+      }
+    },
+    {
+      "path": "test/project/Extensions/HasExtensions_v2.jl/Project.toml",
+      "language": "toml",
+      "fileCategory": "config",
+      "totalLines": 9,
+      "nonEmptyLines": 7,
+      "sections": [
+        {
+          "heading": "weakdeps",
+          "level": 1,
+          "line": 5
+        },
+        {
+          "heading": "extensions",
+          "level": 1,
+          "line": 8
+        }
+      ],
+      "metrics": {
+        "importCount": 0,
+        "exportCount": 0,
+        "functionCount": 0,
+        "classCount": 0,
+        "sectionCount": 2
+      }
+    },
+    {
+      "path": "test/project/Extensions/ImplicitEnv/A/Project.toml",
+      "language": "toml",
+      "fileCategory": "config",
+      "totalLines": 9,
+      "nonEmptyLines": 7,
+      "sections": [
+        {
+          "heading": "weakdeps",
+          "level": 1,
+          "line": 5
+        },
+        {
+          "heading": "extensions",
+          "level": 1,
+          "line": 8
+        }
+      ],
+      "metrics": {
+        "importCount": 0,
+        "exportCount": 0,
+        "functionCount": 0,
+        "classCount": 0,
+        "sectionCount": 2
+      }
+    }
+  ]
+}

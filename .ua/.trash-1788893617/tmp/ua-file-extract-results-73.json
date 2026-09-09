@@ -1,0 +1,384 @@
+{
+  "scriptCompleted": true,
+  "filesAnalyzed": 9,
+  "filesSkipped": [
+    "stdlib/LibGit2/test/runtests.jl",
+    "stdlib/LibGit2/test/testgroups",
+    "stdlib/LibGit2_jll/src/LibGit2_jll.jl",
+    "stdlib/LibGit2_jll/test/runtests.jl",
+    "stdlib/LibSSH2_jll/src/LibSSH2_jll.jl",
+    "stdlib/LibSSH2_jll/test/runtests.jl",
+    "stdlib/LibUV_jll/src/LibUV_jll.jl",
+    "stdlib/LibUV_jll/test/runtests.jl",
+    "stdlib/LibUnwind_jll/src/LibUnwind_jll.jl",
+    "stdlib/LibUnwind_jll/test/runtests.jl",
+    "stdlib/Libdl/src/Libdl.jl",
+    "stdlib/Libdl/test/runtests.jl",
+    "stdlib/LinearAlgebra.version",
+    "stdlib/Logging/src/Logging.jl",
+    "stdlib/Logging/test/runtests.jl",
+    "stdlib/Logging/test/threads_exec.jl"
+  ],
+  "analysisOutcomes": {
+    "structure": {
+      "succeeded": 9,
+      "failed": 0
+    },
+    "callGraph": {
+      "succeeded": 0,
+      "failed": 0,
+      "skipped": 9
+    }
+  },
+  "results": [
+    {
+      "path": "stdlib/LibGit2_jll/Project.toml",
+      "language": "toml",
+      "fileCategory": "config",
+      "totalLines": 22,
+      "nonEmptyLines": 18,
+      "sections": [
+        {
+          "heading": "deps",
+          "level": 1,
+          "line": 5
+        },
+        {
+          "heading": "compat",
+          "level": 1,
+          "line": 14
+        },
+        {
+          "heading": "extras",
+          "level": 1,
+          "line": 18
+        },
+        {
+          "heading": "targets",
+          "level": 1,
+          "line": 21
+        }
+      ],
+      "metrics": {
+        "importCount": 0,
+        "exportCount": 0,
+        "functionCount": 0,
+        "classCount": 0,
+        "sectionCount": 4
+      }
+    },
+    {
+      "path": "stdlib/LibSSH2_jll/Project.toml",
+      "language": "toml",
+      "fileCategory": "config",
+      "totalLines": 20,
+      "nonEmptyLines": 16,
+      "sections": [
+        {
+          "heading": "deps",
+          "level": 1,
+          "line": 5
+        },
+        {
+          "heading": "compat",
+          "level": 1,
+          "line": 12
+        },
+        {
+          "heading": "extras",
+          "level": 1,
+          "line": 16
+        },
+        {
+          "heading": "targets",
+          "level": 1,
+          "line": 19
+        }
+      ],
+      "metrics": {
+        "importCount": 0,
+        "exportCount": 0,
+        "functionCount": 0,
+        "classCount": 0,
+        "sectionCount": 4
+      }
+    },
+    {
+      "path": "stdlib/LibUV_jll/Project.toml",
+      "language": "toml",
+      "fileCategory": "config",
+      "totalLines": 16,
+      "nonEmptyLines": 12,
+      "sections": [
+        {
+          "heading": "deps",
+          "level": 1,
+          "line": 5
+        },
+        {
+          "heading": "compat",
+          "level": 1,
+          "line": 9
+        },
+        {
+          "heading": "extras",
+          "level": 1,
+          "line": 12
+        },
+        {
+          "heading": "targets",
+          "level": 1,
+          "line": 15
+        }
+      ],
+      "metrics": {
+        "importCount": 0,
+        "exportCount": 0,
+        "functionCount": 0,
+        "classCount": 0,
+        "sectionCount": 4
+      }
+    },
+    {
+      "path": "stdlib/LibUnwind_jll/Project.toml",
+      "language": "toml",
+      "fileCategory": "config",
+      "totalLines": 18,
+      "nonEmptyLines": 14,
+      "sections": [
+        {
+          "heading": "deps",
+          "level": 1,
+          "line": 5
+        },
+        {
+          "heading": "compat",
+          "level": 1,
+          "line": 11
+        },
+        {
+          "heading": "extras",
+          "level": 1,
+          "line": 14
+        },
+        {
+          "heading": "targets",
+          "level": 1,
+          "line": 17
+        }
+      ],
+      "metrics": {
+        "importCount": 0,
+        "exportCount": 0,
+        "functionCount": 0,
+        "classCount": 0,
+        "sectionCount": 4
+      }
+    },
+    {
+      "path": "stdlib/Libdl/Project.toml",
+      "language": "toml",
+      "fileCategory": "config",
+      "totalLines": 9,
+      "nonEmptyLines": 7,
+      "sections": [
+        {
+          "heading": "extras",
+          "level": 1,
+          "line": 5
+        },
+        {
+          "heading": "targets",
+          "level": 1,
+          "line": 8
+        }
+      ],
+      "metrics": {
+        "importCount": 0,
+        "exportCount": 0,
+        "functionCount": 0,
+        "classCount": 0,
+        "sectionCount": 2
+      }
+    },
+    {
+      "path": "stdlib/Libdl/docs/src/index.md",
+      "language": "markdown",
+      "fileCategory": "docs",
+      "totalLines": 32,
+      "nonEmptyLines": 27,
+      "sections": [
+        {
+          "heading": "Libdl (Dynamic Linker)",
+          "level": 1,
+          "line": 9
+        },
+        {
+          "heading": "Lazy Library Loading",
+          "level": 1,
+          "line": 25
+        }
+      ],
+      "metrics": {
+        "importCount": 0,
+        "exportCount": 0,
+        "functionCount": 0,
+        "classCount": 0,
+        "sectionCount": 2
+      }
+    },
+    {
+      "path": "stdlib/Logging/Project.toml",
+      "language": "toml",
+      "fileCategory": "config",
+      "totalLines": 9,
+      "nonEmptyLines": 7,
+      "sections": [
+        {
+          "heading": "extras",
+          "level": 1,
+          "line": 5
+        },
+        {
+          "heading": "targets",
+          "level": 1,
+          "line": 8
+        }
+      ],
+      "metrics": {
+        "importCount": 0,
+        "exportCount": 0,
+        "functionCount": 0,
+        "classCount": 0,
+        "sectionCount": 2
+      }
+    },
+    {
+      "path": "stdlib/Logging/docs/src/index.md",
+      "language": "markdown",
+      "fileCategory": "docs",
+      "totalLines": 348,
+      "nonEmptyLines": 272,
+      "sections": [
+        {
+          "heading": "[Logging](@id man-logging)",
+          "level": 1,
+          "line": 5
+        },
+        {
+          "heading": "Log event structure",
+          "level": 2,
+          "line": 57
+        },
+        {
+          "heading": "Processing log events",
+          "level": 2,
+          "line": 107
+        },
+        {
+          "heading": "Loggers",
+          "level": 3,
+          "line": 120
+        },
+        {
+          "heading": "Early filtering and message handling",
+          "level": 3,
+          "line": 151
+        },
+        {
+          "heading": "Testing log events",
+          "level": 2,
+          "line": 178
+        },
+        {
+          "heading": "Environment variables",
+          "level": 2,
+          "line": 185
+        },
+        {
+          "heading": "Examples",
+          "level": 2,
+          "line": 230
+        },
+        {
+          "heading": "Example: Writing log events to a file",
+          "level": 3,
+          "line": 232
+        },
+        {
+          "heading": "Example: Enable debug-level messages",
+          "level": 3,
+          "line": 269
+        },
+        {
+          "heading": "Reference",
+          "level": 2,
+          "line": 289
+        },
+        {
+          "heading": "Logging module",
+          "level": 3,
+          "line": 291
+        },
+        {
+          "heading": "Creating events",
+          "level": 3,
+          "line": 296
+        },
+        {
+          "heading": "[Processing events with AbstractLogger](@id AbstractLogger-interface)",
+          "level": 3,
+          "line": 309
+        },
+        {
+          "heading": "Using Loggers",
+          "level": 3,
+          "line": 332
+        }
+      ],
+      "metrics": {
+        "importCount": 0,
+        "exportCount": 0,
+        "functionCount": 0,
+        "classCount": 0,
+        "sectionCount": 15
+      }
+    },
+    {
+      "path": "stdlib/MPFR_jll/Project.toml",
+      "language": "toml",
+      "fileCategory": "config",
+      "totalLines": 19,
+      "nonEmptyLines": 15,
+      "sections": [
+        {
+          "heading": "deps",
+          "level": 1,
+          "line": 5
+        },
+        {
+          "heading": "compat",
+          "level": 1,
+          "line": 11
+        },
+        {
+          "heading": "extras",
+          "level": 1,
+          "line": 15
+        },
+        {
+          "heading": "targets",
+          "level": 1,
+          "line": 18
+        }
+      ],
+      "metrics": {
+        "importCount": 0,
+        "exportCount": 0,
+        "functionCount": 0,
+        "classCount": 0,
+        "sectionCount": 4
+      }
+    }
+  ]
+}

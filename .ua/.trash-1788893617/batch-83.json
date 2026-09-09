@@ -1,0 +1,765 @@
+{
+  "batchIndex": 83,
+  "nodes": [
+    {
+      "id": "file:test/clangsa/FirstDeclAnnotationsTest.c",
+      "type": "file",
+      "name": "FirstDeclAnnotationsTest.c",
+      "filePath": "test/clangsa/FirstDeclAnnotationsTest.c",
+      "summary": "Module with 20 functions.",
+      "tags": [
+        "source"
+      ],
+      "complexity": "complex",
+      "language": "c"
+    },
+    {
+      "id": "function:test/clangsa/FirstDeclAnnotationsTest.c:fda_ok_both",
+      "type": "function",
+      "name": "fda_ok_both",
+      "filePath": "test/clangsa/FirstDeclAnnotationsTest.c",
+      "summary": "Function fda_ok_both with 0 parameters.",
+      "tags": [
+        "function"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:test/clangsa/FirstDeclAnnotationsTest.c:fda_ok_header_only",
+      "type": "function",
+      "name": "fda_ok_header_only",
+      "filePath": "test/clangsa/FirstDeclAnnotationsTest.c",
+      "summary": "Function fda_ok_header_only with 0 parameters.",
+      "tags": [
+        "function"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:test/clangsa/FirstDeclAnnotationsTest.c:fda_missing_func",
+      "type": "function",
+      "name": "fda_missing_func",
+      "filePath": "test/clangsa/FirstDeclAnnotationsTest.c",
+      "summary": "Function fda_missing_func with 0 parameters.",
+      "tags": [
+        "function"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:test/clangsa/FirstDeclAnnotationsTest.c:fda_ok_param",
+      "type": "function",
+      "name": "fda_ok_param",
+      "filePath": "test/clangsa/FirstDeclAnnotationsTest.c",
+      "summary": "Function fda_ok_param with 1 parameters.",
+      "tags": [
+        "function"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:test/clangsa/FirstDeclAnnotationsTest.c:fda_missing_param",
+      "type": "function",
+      "name": "fda_missing_param",
+      "filePath": "test/clangsa/FirstDeclAnnotationsTest.c",
+      "summary": "Function fda_missing_param with 1 parameters.",
+      "tags": [
+        "function"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:test/clangsa/FirstDeclAnnotationsTest.c:fda_ok_cbparam",
+      "type": "function",
+      "name": "fda_ok_cbparam",
+      "filePath": "test/clangsa/FirstDeclAnnotationsTest.c",
+      "summary": "Function fda_ok_cbparam with 1 parameters.",
+      "tags": [
+        "function"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:test/clangsa/FirstDeclAnnotationsTest.c:fda_missing_cbparam",
+      "type": "function",
+      "name": "fda_missing_cbparam",
+      "filePath": "test/clangsa/FirstDeclAnnotationsTest.c",
+      "summary": "Function fda_missing_cbparam with 1 parameters.",
+      "tags": [
+        "function"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:test/clangsa/FirstDeclAnnotationsTest.c:fda_ok_vis",
+      "type": "function",
+      "name": "fda_ok_vis",
+      "filePath": "test/clangsa/FirstDeclAnnotationsTest.c",
+      "summary": "Function fda_ok_vis with 0 parameters.",
+      "tags": [
+        "function"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:test/clangsa/FirstDeclAnnotationsTest.c:fda_missing_vis",
+      "type": "function",
+      "name": "fda_missing_vis",
+      "filePath": "test/clangsa/FirstDeclAnnotationsTest.c",
+      "summary": "Function fda_missing_vis with 0 parameters.",
+      "tags": [
+        "function"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:test/clangsa/FirstDeclAnnotationsTest.c:fda_raw_vis",
+      "type": "function",
+      "name": "fda_raw_vis",
+      "filePath": "test/clangsa/FirstDeclAnnotationsTest.c",
+      "summary": "Function fda_raw_vis with 0 parameters.",
+      "tags": [
+        "function"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:test/clangsa/FirstDeclAnnotationsTest.c:fda_chain",
+      "type": "function",
+      "name": "fda_chain",
+      "filePath": "test/clangsa/FirstDeclAnnotationsTest.c",
+      "summary": "Function fda_chain with 0 parameters.",
+      "tags": [
+        "function"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:test/clangsa/FirstDeclAnnotationsTest.c:fda_local_caller",
+      "type": "function",
+      "name": "fda_local_caller",
+      "filePath": "test/clangsa/FirstDeclAnnotationsTest.c",
+      "summary": "Function fda_local_caller with 0 parameters.",
+      "tags": [
+        "function"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:test/clangsa/FirstDeclAnnotationsTest.c:fda_local",
+      "type": "function",
+      "name": "fda_local",
+      "filePath": "test/clangsa/FirstDeclAnnotationsTest.c",
+      "summary": "Function fda_local with 0 parameters.",
+      "tags": [
+        "function"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:test/clangsa/FirstDeclAnnotationsTest.c:fda_localdef",
+      "type": "function",
+      "name": "fda_localdef",
+      "filePath": "test/clangsa/FirstDeclAnnotationsTest.c",
+      "summary": "Function fda_localdef with 0 parameters.",
+      "tags": [
+        "function"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:test/clangsa/FirstDeclAnnotationsTest.c:fda_localdef_caller",
+      "type": "function",
+      "name": "fda_localdef_caller",
+      "filePath": "test/clangsa/FirstDeclAnnotationsTest.c",
+      "summary": "Function fda_localdef_caller with 0 parameters.",
+      "tags": [
+        "function"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:test/clangsa/FirstDeclAnnotationsTest.c:fda_blockonly_caller1",
+      "type": "function",
+      "name": "fda_blockonly_caller1",
+      "filePath": "test/clangsa/FirstDeclAnnotationsTest.c",
+      "summary": "Function fda_blockonly_caller1 with 0 parameters.",
+      "tags": [
+        "function"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:test/clangsa/FirstDeclAnnotationsTest.c:fda_blockonly_caller2",
+      "type": "function",
+      "name": "fda_blockonly_caller2",
+      "filePath": "test/clangsa/FirstDeclAnnotationsTest.c",
+      "summary": "Function fda_blockonly_caller2 with 0 parameters.",
+      "tags": [
+        "function"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:test/clangsa/FirstDeclAnnotationsTest.c:fda_cb_uses",
+      "type": "function",
+      "name": "fda_cb_uses",
+      "filePath": "test/clangsa/FirstDeclAnnotationsTest.c",
+      "summary": "Function fda_cb_uses with 0 parameters.",
+      "tags": [
+        "function"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:test/clangsa/FirstDeclAnnotationsTest.c:fda_cb_ret",
+      "type": "function",
+      "name": "fda_cb_ret",
+      "filePath": "test/clangsa/FirstDeclAnnotationsTest.c",
+      "summary": "Function fda_cb_ret with 0 parameters.",
+      "tags": [
+        "function"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:test/clangsa/FirstDeclAnnotationsTest.c:fda_sysproto",
+      "type": "function",
+      "name": "fda_sysproto",
+      "filePath": "test/clangsa/FirstDeclAnnotationsTest.c",
+      "summary": "Function fda_sysproto with 0 parameters.",
+      "tags": [
+        "function"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "class:test/clangsa/FirstDeclAnnotationsTest.c:fda_cb_holder",
+      "type": "class",
+      "name": "fda_cb_holder",
+      "filePath": "test/clangsa/FirstDeclAnnotationsTest.c",
+      "summary": "Class/struct fda_cb_holder with 0 methods.",
+      "tags": [
+        "class",
+        "type"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "class:test/clangsa/FirstDeclAnnotationsTest.c:fda_cb_holder",
+      "type": "class",
+      "name": "fda_cb_holder",
+      "filePath": "test/clangsa/FirstDeclAnnotationsTest.c",
+      "summary": "Class/struct fda_cb_holder with 0 methods.",
+      "tags": [
+        "class",
+        "type"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "file:test/clangsa/FirstDeclAnnotationsTest.h",
+      "type": "file",
+      "name": "FirstDeclAnnotationsTest.h",
+      "filePath": "test/clangsa/FirstDeclAnnotationsTest.h",
+      "summary": "Source file: FirstDeclAnnotationsTest.h.",
+      "tags": [
+        "source"
+      ],
+      "complexity": "simple",
+      "language": "c"
+    }
+  ],
+  "edges": [
+    {
+      "source": "file:test/clangsa/FirstDeclAnnotationsTest.c",
+      "target": "function:test/clangsa/FirstDeclAnnotationsTest.c:fda_ok_both",
+      "type": "contains",
+      "weight": 1
+    },
+    {
+      "source": "file:test/clangsa/FirstDeclAnnotationsTest.c",
+      "target": "function:test/clangsa/FirstDeclAnnotationsTest.c:fda_ok_header_only",
+      "type": "contains",
+      "weight": 1
+    },
+    {
+      "source": "file:test/clangsa/FirstDeclAnnotationsTest.c",
+      "target": "function:test/clangsa/FirstDeclAnnotationsTest.c:fda_missing_func",
+      "type": "contains",
+      "weight": 1
+    },
+    {
+      "source": "file:test/clangsa/FirstDeclAnnotationsTest.c",
+      "target": "function:test/clangsa/FirstDeclAnnotationsTest.c:fda_ok_param",
+      "type": "contains",
+      "weight": 1
+    },
+    {
+      "source": "file:test/clangsa/FirstDeclAnnotationsTest.c",
+      "target": "function:test/clangsa/FirstDeclAnnotationsTest.c:fda_missing_param",
+      "type": "contains",
+      "weight": 1
+    },
+    {
+      "source": "file:test/clangsa/FirstDeclAnnotationsTest.c",
+      "target": "function:test/clangsa/FirstDeclAnnotationsTest.c:fda_ok_cbparam",
+      "type": "contains",
+      "weight": 1
+    },
+    {
+      "source": "file:test/clangsa/FirstDeclAnnotationsTest.c",
+      "target": "function:test/clangsa/FirstDeclAnnotationsTest.c:fda_missing_cbparam",
+      "type": "contains",
+      "weight": 1
+    },
+    {
+      "source": "file:test/clangsa/FirstDeclAnnotationsTest.c",
+      "target": "function:test/clangsa/FirstDeclAnnotationsTest.c:fda_ok_vis",
+      "type": "contains",
+      "weight": 1
+    },
+    {
+      "source": "file:test/clangsa/FirstDeclAnnotationsTest.c",
+      "target": "function:test/clangsa/FirstDeclAnnotationsTest.c:fda_missing_vis",
+      "type": "contains",
+      "weight": 1
+    },
+    {
+      "source": "file:test/clangsa/FirstDeclAnnotationsTest.c",
+      "target": "function:test/clangsa/FirstDeclAnnotationsTest.c:fda_raw_vis",
+      "type": "contains",
+      "weight": 1
+    },
+    {
+      "source": "file:test/clangsa/FirstDeclAnnotationsTest.c",
+      "target": "function:test/clangsa/FirstDeclAnnotationsTest.c:fda_chain",
+      "type": "contains",
+      "weight": 1
+    },
+    {
+      "source": "file:test/clangsa/FirstDeclAnnotationsTest.c",
+      "target": "function:test/clangsa/FirstDeclAnnotationsTest.c:fda_local_caller",
+      "type": "contains",
+      "weight": 1
+    },
+    {
+      "source": "file:test/clangsa/FirstDeclAnnotationsTest.c",
+      "target": "function:test/clangsa/FirstDeclAnnotationsTest.c:fda_local",
+      "type": "contains",
+      "weight": 1
+    },
+    {
+      "source": "file:test/clangsa/FirstDeclAnnotationsTest.c",
+      "target": "function:test/clangsa/FirstDeclAnnotationsTest.c:fda_localdef",
+      "type": "contains",
+      "weight": 1
+    },
+    {
+      "source": "file:test/clangsa/FirstDeclAnnotationsTest.c",
+      "target": "function:test/clangsa/FirstDeclAnnotationsTest.c:fda_localdef_caller",
+      "type": "contains",
+      "weight": 1
+    },
+    {
+      "source": "file:test/clangsa/FirstDeclAnnotationsTest.c",
+      "target": "function:test/clangsa/FirstDeclAnnotationsTest.c:fda_blockonly_caller1",
+      "type": "contains",
+      "weight": 1
+    },
+    {
+      "source": "file:test/clangsa/FirstDeclAnnotationsTest.c",
+      "target": "function:test/clangsa/FirstDeclAnnotationsTest.c:fda_blockonly_caller2",
+      "type": "contains",
+      "weight": 1
+    },
+    {
+      "source": "file:test/clangsa/FirstDeclAnnotationsTest.c",
+      "target": "function:test/clangsa/FirstDeclAnnotationsTest.c:fda_cb_uses",
+      "type": "contains",
+      "weight": 1
+    },
+    {
+      "source": "file:test/clangsa/FirstDeclAnnotationsTest.c",
+      "target": "function:test/clangsa/FirstDeclAnnotationsTest.c:fda_cb_ret",
+      "type": "contains",
+      "weight": 1
+    },
+    {
+      "source": "file:test/clangsa/FirstDeclAnnotationsTest.c",
+      "target": "function:test/clangsa/FirstDeclAnnotationsTest.c:fda_sysproto",
+      "type": "contains",
+      "weight": 1
+    },
+    {
+      "source": "file:test/clangsa/FirstDeclAnnotationsTest.c",
+      "target": "class:test/clangsa/FirstDeclAnnotationsTest.c:fda_cb_holder",
+      "type": "contains",
+      "weight": 1
+    },
+    {
+      "source": "file:test/clangsa/FirstDeclAnnotationsTest.c",
+      "target": "class:test/clangsa/FirstDeclAnnotationsTest.c:fda_cb_holder",
+      "type": "contains",
+      "weight": 1
+    },
+    {
+      "source": "file:test/clangsa/FirstDeclAnnotationsTest.c",
+      "target": "file:test/clangsa/FirstDeclAnnotationsTest.h",
+      "type": "imports",
+      "weight": 0.7
+    },
+    {
+      "source": "function:test/clangsa/FirstDeclAnnotationsTest.c:fda_local_caller",
+      "target": "function:test/clangsa/FirstDeclAnnotationsTest.c:fda_local",
+      "type": "calls",
+      "weight": 0.8
+    },
+    {
+      "source": "function:test/clangsa/FirstDeclAnnotationsTest.c:fda_localdef_caller",
+      "target": "function:test/clangsa/FirstDeclAnnotationsTest.c:fda_localdef",
+      "type": "calls",
+      "weight": 0.8
+    }
+  ],
+  "batchFiles": [
+    {
+      "path": "test/clangsa/FirstDeclAnnotationsTest.c",
+      "language": "c",
+      "fileCategory": "code",
+      "totalLines": 141,
+      "nonEmptyLines": 120,
+      "functions": [
+        {
+          "name": "fda_ok_both",
+          "startLine": 21,
+          "endLine": 21,
+          "params": []
+        },
+        {
+          "name": "fda_ok_header_only",
+          "startLine": 22,
+          "endLine": 22,
+          "params": []
+        },
+        {
+          "name": "fda_missing_func",
+          "startLine": 26,
+          "endLine": 26,
+          "params": []
+        },
+        {
+          "name": "fda_ok_param",
+          "startLine": 28,
+          "endLine": 28,
+          "params": [
+            "p"
+          ]
+        },
+        {
+          "name": "fda_missing_param",
+          "startLine": 32,
+          "endLine": 32,
+          "params": [
+            "JL_PROPAGATES_ROOT"
+          ]
+        },
+        {
+          "name": "fda_ok_cbparam",
+          "startLine": 34,
+          "endLine": 34,
+          "params": [
+            "JL_CANSAFEPOINT"
+          ]
+        },
+        {
+          "name": "fda_missing_cbparam",
+          "startLine": 38,
+          "endLine": 38,
+          "params": [
+            "JL_CANSAFEPOINT"
+          ]
+        },
+        {
+          "name": "fda_ok_vis",
+          "startLine": 40,
+          "endLine": 40,
+          "params": []
+        },
+        {
+          "name": "fda_missing_vis",
+          "startLine": 44,
+          "endLine": 44,
+          "params": []
+        },
+        {
+          "name": "fda_raw_vis",
+          "startLine": 48,
+          "endLine": 48,
+          "params": []
+        },
+        {
+          "name": "fda_chain",
+          "startLine": 55,
+          "endLine": 55,
+          "params": []
+        },
+        {
+          "name": "fda_local_caller",
+          "startLine": 60,
+          "endLine": 63,
+          "params": []
+        },
+        {
+          "name": "fda_local",
+          "startLine": 64,
+          "endLine": 64,
+          "params": []
+        },
+        {
+          "name": "fda_localdef",
+          "startLine": 68,
+          "endLine": 68,
+          "params": []
+        },
+        {
+          "name": "fda_localdef_caller",
+          "startLine": 69,
+          "endLine": 72,
+          "params": []
+        },
+        {
+          "name": "fda_blockonly_caller1",
+          "startLine": 75,
+          "endLine": 78,
+          "params": []
+        },
+        {
+          "name": "fda_blockonly_caller2",
+          "startLine": 79,
+          "endLine": 82,
+          "params": []
+        },
+        {
+          "name": "fda_cb_uses",
+          "startLine": 91,
+          "endLine": 105,
+          "params": []
+        },
+        {
+          "name": "fda_cb_ret",
+          "startLine": 108,
+          "endLine": 108,
+          "params": []
+        },
+        {
+          "name": "fda_sysproto",
+          "startLine": 141,
+          "endLine": 141,
+          "params": []
+        }
+      ],
+      "classes": [
+        {
+          "name": "fda_cb_holder",
+          "startLine": 110,
+          "endLine": 110,
+          "methods": [],
+          "properties": [
+            "cb"
+          ]
+        },
+        {
+          "name": "fda_cb_holder",
+          "startLine": 112,
+          "endLine": 112,
+          "methods": [],
+          "properties": []
+        }
+      ],
+      "exports": [
+        {
+          "name": "fda_ok_both",
+          "line": 21,
+          "isDefault": false
+        },
+        {
+          "name": "fda_ok_header_only",
+          "line": 22,
+          "isDefault": false
+        },
+        {
+          "name": "fda_missing_func",
+          "line": 26,
+          "isDefault": false
+        },
+        {
+          "name": "fda_ok_param",
+          "line": 28,
+          "isDefault": false
+        },
+        {
+          "name": "fda_missing_param",
+          "line": 32,
+          "isDefault": false
+        },
+        {
+          "name": "fda_ok_cbparam",
+          "line": 34,
+          "isDefault": false
+        },
+        {
+          "name": "fda_missing_cbparam",
+          "line": 38,
+          "isDefault": false
+        },
+        {
+          "name": "fda_ok_vis",
+          "line": 40,
+          "isDefault": false
+        },
+        {
+          "name": "fda_missing_vis",
+          "line": 44,
+          "isDefault": false
+        },
+        {
+          "name": "fda_raw_vis",
+          "line": 48,
+          "isDefault": false
+        },
+        {
+          "name": "fda_chain",
+          "line": 55,
+          "isDefault": false
+        },
+        {
+          "name": "fda_local_caller",
+          "line": 60,
+          "isDefault": false
+        },
+        {
+          "name": "fda_local",
+          "line": 64,
+          "isDefault": false
+        },
+        {
+          "name": "fda_localdef",
+          "line": 68,
+          "isDefault": false
+        },
+        {
+          "name": "fda_localdef_caller",
+          "line": 69,
+          "isDefault": false
+        },
+        {
+          "name": "fda_blockonly_caller1",
+          "line": 75,
+          "isDefault": false
+        },
+        {
+          "name": "fda_blockonly_caller2",
+          "line": 79,
+          "isDefault": false
+        },
+        {
+          "name": "fda_cb_uses",
+          "line": 91,
+          "isDefault": false
+        },
+        {
+          "name": "fda_cb_ret",
+          "line": 108,
+          "isDefault": false
+        },
+        {
+          "name": "fda_cb_holder",
+          "line": 110,
+          "isDefault": false
+        },
+        {
+          "name": "fda_cb_holder",
+          "line": 112,
+          "isDefault": false
+        },
+        {
+          "name": "fda_sysproto",
+          "line": 141,
+          "isDefault": false
+        }
+      ],
+      "callGraph": [
+        {
+          "caller": "fda_ok_cbparam",
+          "callee": "cb",
+          "lineNumber": 34
+        },
+        {
+          "caller": "fda_missing_cbparam",
+          "callee": "cb",
+          "lineNumber": 38
+        },
+        {
+          "caller": "fda_raw_vis",
+          "callee": "visibility",
+          "lineNumber": 48
+        },
+        {
+          "caller": "fda_local_caller",
+          "callee": "fda_local",
+          "lineNumber": 62
+        },
+        {
+          "caller": "fda_localdef_caller",
+          "callee": "fda_localdef",
+          "lineNumber": 71
+        },
+        {
+          "caller": "fda_blockonly_caller1",
+          "callee": "fda_blockonly",
+          "lineNumber": 77
+        },
+        {
+          "caller": "fda_blockonly_caller2",
+          "callee": "fda_blockonly",
+          "lineNumber": 81
+        },
+        {
+          "caller": "fda_cb_uses",
+          "callee": "fda_take_cb",
+          "lineNumber": 99
+        },
+        {
+          "caller": "fda_cb_uses",
+          "callee": "fda_take_cb",
+          "lineNumber": 101
+        },
+        {
+          "caller": "fda_cb_uses",
+          "callee": "fda_take_cansafepoint_cb",
+          "lineNumber": 103
+        }
+      ],
+      "metrics": {
+        "importCount": 1,
+        "exportCount": 22,
+        "functionCount": 20,
+        "classCount": 2
+      }
+    },
+    {
+      "path": "test/clangsa/FirstDeclAnnotationsTest.h",
+      "language": "c",
+      "fileCategory": "code",
+      "totalLines": 35,
+      "nonEmptyLines": 27,
+      "metrics": {
+        "importCount": 0,
+        "exportCount": 0,
+        "functionCount": 0,
+        "classCount": 0
+      }
+    }
+  ]
+}

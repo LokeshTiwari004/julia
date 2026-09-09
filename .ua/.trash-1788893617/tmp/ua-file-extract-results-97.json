@@ -1,0 +1,69 @@
+{
+  "scriptCompleted": true,
+  "filesAnalyzed": 1,
+  "filesSkipped": [
+    "test/testhelpers/StructArrays.jl",
+    "test/testhelpers/ULPError.jl",
+    "test/testhelpers/allocation_file.jl",
+    "test/testhelpers/arrayindexingtypes.jl",
+    "test/testhelpers/coverage_constructs.jl",
+    "test/testhelpers/coverage_file.info",
+    "test/testhelpers/coverage_file.jl",
+    "test/testhelpers/coverage_macros.jl",
+    "test/testhelpers/coverage_macrouse.jl",
+    "test/testhelpers/coverage_threads.jl",
+    "test/testhelpers/coverage_toplevel.jl",
+    "test/testhelpers/include_error.jl",
+    "test/testhelpers/just_module.jl",
+    "test/testhelpers/llvmpasses.jl",
+    "test/testhelpers/print_syntax_version.jl",
+    "test/testhelpers/return_syntax_version.jl",
+    "test/testhelpers/samepath.jl",
+    "test/testhelpers/withlocales.jl",
+    "test/threadpool_latency.jl",
+    "test/threadpool_use.jl",
+    "test/threads.jl",
+    "test/threads_comprehensions.jl",
+    "test/threads_exec.jl",
+    "test/trim.jl"
+  ],
+  "analysisOutcomes": {
+    "structure": {
+      "succeeded": 1,
+      "failed": 0
+    },
+    "callGraph": {
+      "succeeded": 0,
+      "failed": 0,
+      "skipped": 1
+    }
+  },
+  "results": [
+    {
+      "path": "test/trim/BasicJLL/Project.toml",
+      "language": "toml",
+      "fileCategory": "config",
+      "totalLines": 10,
+      "nonEmptyLines": 8,
+      "sections": [
+        {
+          "heading": "deps",
+          "level": 1,
+          "line": 5
+        },
+        {
+          "heading": "sources",
+          "level": 1,
+          "line": 9
+        }
+      ],
+      "metrics": {
+        "importCount": 0,
+        "exportCount": 0,
+        "functionCount": 0,
+        "classCount": 0,
+        "sectionCount": 2
+      }
+    }
+  ]
+}

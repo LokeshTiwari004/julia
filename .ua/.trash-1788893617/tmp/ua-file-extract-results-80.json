@@ -1,0 +1,564 @@
+{
+  "scriptCompleted": true,
+  "filesAnalyzed": 7,
+  "filesSkipped": [
+    "stdlib/TOML/benchmark/benchmarks.jl",
+    "stdlib/TOML/docs/make.jl",
+    "stdlib/TOML/src/TOML.jl",
+    "stdlib/TOML/src/precompile.jl",
+    "stdlib/TOML/test/comments.jl",
+    "stdlib/TOML/test/error_printing.jl",
+    "stdlib/TOML/test/invalids.jl",
+    "stdlib/TOML/test/jsonx.jl",
+    "stdlib/TOML/test/parse.jl",
+    "stdlib/TOML/test/print.jl",
+    "stdlib/TOML/test/readme.jl",
+    "stdlib/TOML/test/runtests.jl",
+    "stdlib/TOML/test/toml_test.jl",
+    "stdlib/TOML/test/values.jl",
+    "stdlib/Tar.version",
+    "stdlib/Test/src/Test.jl",
+    "stdlib/Test/src/logging.jl",
+    "stdlib/Test/src/precompile.jl"
+  ],
+  "analysisOutcomes": {
+    "structure": {
+      "succeeded": 7,
+      "failed": 0
+    },
+    "callGraph": {
+      "succeeded": 0,
+      "failed": 0,
+      "skipped": 7
+    }
+  },
+  "results": [
+    {
+      "path": "stdlib/TOML/benchmark/files/Compat.toml",
+      "language": "toml",
+      "fileCategory": "config",
+      "totalLines": 153,
+      "nonEmptyLines": 125,
+      "sections": [
+        {
+          "heading": "5",
+          "level": 1,
+          "line": 1
+        },
+        {
+          "heading": "\"5-5.2\"",
+          "level": 2,
+          "line": 20
+        },
+        {
+          "heading": "\"5-6.2\"",
+          "level": 2,
+          "line": 23
+        },
+        {
+          "heading": "\"5-6.3\"",
+          "level": 2,
+          "line": 26
+        },
+        {
+          "heading": "\"5-6.4\"",
+          "level": 2,
+          "line": 33
+        },
+        {
+          "heading": "\"5.3-6.3\"",
+          "level": 3,
+          "line": 36
+        },
+        {
+          "heading": "\"6-6.3\"",
+          "level": 2,
+          "line": 39
+        },
+        {
+          "heading": "\"6-6.7\"",
+          "level": 2,
+          "line": 51
+        },
+        {
+          "heading": "\"6.10-6\"",
+          "level": 2,
+          "line": 54
+        },
+        {
+          "heading": "\"6.10.0\"",
+          "level": 3,
+          "line": 57
+        },
+        {
+          "heading": "\"6.10.1-6\"",
+          "level": 3,
+          "line": 60
+        },
+        {
+          "heading": "\"6.11\"",
+          "level": 2,
+          "line": 63
+        },
+        {
+          "heading": "\"6.12-6\"",
+          "level": 2,
+          "line": 66
+        },
+        {
+          "heading": "\"6.13-6\"",
+          "level": 2,
+          "line": 70
+        },
+        {
+          "heading": "\"6.14\"",
+          "level": 2,
+          "line": 73
+        },
+        {
+          "heading": "\"6.15-6\"",
+          "level": 2,
+          "line": 76
+        },
+        {
+          "heading": "\"6.4\"",
+          "level": 2,
+          "line": 79
+        },
+        {
+          "heading": "\"6.4-6.6\"",
+          "level": 3,
+          "line": 82
+        },
+        {
+          "heading": "\"6.4-6.7\"",
+          "level": 3,
+          "line": 96
+        },
+        {
+          "heading": "\"6.6\"",
+          "level": 2,
+          "line": 101
+        },
+        {
+          "heading": "\"6.7\"",
+          "level": 2,
+          "line": 104
+        },
+        {
+          "heading": "\"6.7-6\"",
+          "level": 2,
+          "line": 109
+        },
+        {
+          "heading": "\"6.7-6.8\"",
+          "level": 3,
+          "line": 114
+        },
+        {
+          "heading": "\"6.8\"",
+          "level": 2,
+          "line": 123
+        },
+        {
+          "heading": "\"6.8-6.10\"",
+          "level": 3,
+          "line": 131
+        },
+        {
+          "heading": "\"6.9\"",
+          "level": 2,
+          "line": 134
+        },
+        {
+          "heading": "\"6.9-6\"",
+          "level": 2,
+          "line": 138
+        },
+        {
+          "heading": "\"6.9-6.12\"",
+          "level": 3,
+          "line": 149
+        },
+        {
+          "heading": "\"6.9-6.13\"",
+          "level": 3,
+          "line": 152
+        }
+      ],
+      "metrics": {
+        "importCount": 0,
+        "exportCount": 0,
+        "functionCount": 0,
+        "classCount": 0,
+        "sectionCount": 29
+      }
+    },
+    {
+      "path": "stdlib/TOML/benchmark/files/Registry.toml",
+      "language": "toml",
+      "fileCategory": "config",
+      "totalLines": 4120,
+      "nonEmptyLines": 4118,
+      "sections": [
+        {
+          "heading": "packages",
+          "level": 1,
+          "line": 13
+        }
+      ],
+      "metrics": {
+        "importCount": 0,
+        "exportCount": 0,
+        "functionCount": 0,
+        "classCount": 0,
+        "sectionCount": 1
+      }
+    },
+    {
+      "path": "stdlib/TOML/docs/Manifest.toml",
+      "language": "toml",
+      "fileCategory": "config",
+      "totalLines": 98,
+      "nonEmptyLines": 74,
+      "sections": [
+        {
+          "heading": "[[Base64]]",
+          "level": 1,
+          "line": 3
+        },
+        {
+          "heading": "[[Dates]]",
+          "level": 1,
+          "line": 6
+        },
+        {
+          "heading": "[[Distributed]]",
+          "level": 1,
+          "line": 10
+        },
+        {
+          "heading": "[[DocStringExtensions]]",
+          "level": 1,
+          "line": 14
+        },
+        {
+          "heading": "[[Documenter]]",
+          "level": 1,
+          "line": 20
+        },
+        {
+          "heading": "[[InteractiveUtils]]",
+          "level": 1,
+          "line": 26
+        },
+        {
+          "heading": "[[JSON]]",
+          "level": 1,
+          "line": 30
+        },
+        {
+          "heading": "[[LibGit2]]",
+          "level": 1,
+          "line": 36
+        },
+        {
+          "heading": "[[Libdl]]",
+          "level": 1,
+          "line": 39
+        },
+        {
+          "heading": "[[Logging]]",
+          "level": 1,
+          "line": 42
+        },
+        {
+          "heading": "[[Markdown]]",
+          "level": 1,
+          "line": 45
+        },
+        {
+          "heading": "[[Mmap]]",
+          "level": 1,
+          "line": 49
+        },
+        {
+          "heading": "[[Parsers]]",
+          "level": 1,
+          "line": 52
+        },
+        {
+          "heading": "[[Pkg]]",
+          "level": 1,
+          "line": 58
+        },
+        {
+          "heading": "[[Printf]]",
+          "level": 1,
+          "line": 62
+        },
+        {
+          "heading": "[[REPL]]",
+          "level": 1,
+          "line": 66
+        },
+        {
+          "heading": "[[Random]]",
+          "level": 1,
+          "line": 70
+        },
+        {
+          "heading": "[[SHA]]",
+          "level": 1,
+          "line": 74
+        },
+        {
+          "heading": "[[Serialization]]",
+          "level": 1,
+          "line": 77
+        },
+        {
+          "heading": "[[Sockets]]",
+          "level": 1,
+          "line": 80
+        },
+        {
+          "heading": "[[TOML]]",
+          "level": 1,
+          "line": 83
+        },
+        {
+          "heading": "[[Test]]",
+          "level": 1,
+          "line": 89
+        },
+        {
+          "heading": "[[UUIDs]]",
+          "level": 1,
+          "line": 93
+        },
+        {
+          "heading": "[[Unicode]]",
+          "level": 1,
+          "line": 97
+        }
+      ],
+      "metrics": {
+        "importCount": 0,
+        "exportCount": 0,
+        "functionCount": 0,
+        "classCount": 0,
+        "sectionCount": 24
+      }
+    },
+    {
+      "path": "stdlib/TOML/docs/Project.toml",
+      "language": "toml",
+      "fileCategory": "config",
+      "totalLines": 3,
+      "nonEmptyLines": 3,
+      "sections": [
+        {
+          "heading": "deps",
+          "level": 1,
+          "line": 1
+        }
+      ],
+      "metrics": {
+        "importCount": 0,
+        "exportCount": 0,
+        "functionCount": 0,
+        "classCount": 0,
+        "sectionCount": 1
+      }
+    },
+    {
+      "path": "stdlib/TOML/docs/src/index.md",
+      "language": "markdown",
+      "fileCategory": "docs",
+      "totalLines": 195,
+      "nonEmptyLines": 151,
+      "sections": [
+        {
+          "heading": "TOML",
+          "level": 1,
+          "line": 5
+        },
+        {
+          "heading": "Parsing TOML data",
+          "level": 2,
+          "line": 10
+        },
+        {
+          "heading": "Exporting data to TOML file",
+          "level": 2,
+          "line": 64
+        },
+        {
+          "heading": "Preserving comments",
+          "level": 2,
+          "line": 127
+        },
+        {
+          "heading": "References",
+          "level": 2,
+          "line": 185
+        }
+      ],
+      "metrics": {
+        "importCount": 0,
+        "exportCount": 0,
+        "functionCount": 0,
+        "classCount": 0,
+        "sectionCount": 5
+      }
+    },
+    {
+      "path": "stdlib/Test/Project.toml",
+      "language": "toml",
+      "fileCategory": "config",
+      "totalLines": 15,
+      "nonEmptyLines": 12,
+      "sections": [
+        {
+          "heading": "deps",
+          "level": 1,
+          "line": 5
+        },
+        {
+          "heading": "extras",
+          "level": 1,
+          "line": 11
+        },
+        {
+          "heading": "targets",
+          "level": 1,
+          "line": 14
+        }
+      ],
+      "metrics": {
+        "importCount": 0,
+        "exportCount": 0,
+        "functionCount": 0,
+        "classCount": 0,
+        "sectionCount": 3
+      }
+    },
+    {
+      "path": "stdlib/Test/docs/src/index.md",
+      "language": "markdown",
+      "fileCategory": "docs",
+      "totalLines": 586,
+      "nonEmptyLines": 465,
+      "sections": [
+        {
+          "heading": "Test",
+          "level": 1,
+          "line": 5
+        },
+        {
+          "heading": "Testing Base Julia",
+          "level": 2,
+          "line": 11
+        },
+        {
+          "heading": "Basic Unit Tests",
+          "level": 2,
+          "line": 21
+        },
+        {
+          "heading": "Working with Test Sets",
+          "level": 2,
+          "line": 96
+        },
+        {
+          "heading": "Environment Variable Support",
+          "level": 3,
+          "line": 180
+        },
+        {
+          "heading": "Testing Log Statements",
+          "level": 2,
+          "line": 242
+        },
+        {
+          "heading": "Other Test Macros",
+          "level": 2,
+          "line": 252
+        },
+        {
+          "heading": "Broken Tests",
+          "level": 2,
+          "line": 282
+        },
+        {
+          "heading": "Test result types",
+          "level": 2,
+          "line": 299
+        },
+        {
+          "heading": "Creating Custom `AbstractTestSet` Types",
+          "level": 2,
+          "line": 309
+        },
+        {
+          "heading": "Test utilities",
+          "level": 2,
+          "line": 414
+        },
+        {
+          "heading": "Workflow for Testing Packages",
+          "level": 2,
+          "line": 428
+        },
+        {
+          "heading": "Generating an Example Package",
+          "level": 3,
+          "line": 432
+        },
+        {
+          "heading": "Creating Sample Functions",
+          "level": 3,
+          "line": 443
+        },
+        {
+          "heading": "Creating a Test Environment",
+          "level": 3,
+          "line": 469
+        },
+        {
+          "heading": "Testing Our Package",
+          "level": 3,
+          "line": 479
+        },
+        {
+          "heading": "Writing Tests for `math_tests.jl`",
+          "level": 4,
+          "line": 506
+        },
+        {
+          "heading": "Writing Tests for `greeting_tests.jl`",
+          "level": 4,
+          "line": 525
+        },
+        {
+          "heading": "Testing Our Package",
+          "level": 3,
+          "line": 536
+        },
+        {
+          "heading": "Code Coverage",
+          "level": 3,
+          "line": 576
+        }
+      ],
+      "metrics": {
+        "importCount": 0,
+        "exportCount": 0,
+        "functionCount": 0,
+        "classCount": 0,
+        "sectionCount": 20
+      }
+    }
+  ]
+}

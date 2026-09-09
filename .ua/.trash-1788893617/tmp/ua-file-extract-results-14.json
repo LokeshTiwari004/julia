@@ -1,0 +1,331 @@
+{
+  "scriptCompleted": true,
+  "filesAnalyzed": 3,
+  "filesSkipped": [],
+  "analysisOutcomes": {
+    "structure": {
+      "succeeded": 3,
+      "failed": 0
+    },
+    "callGraph": {
+      "succeeded": 3,
+      "failed": 0,
+      "skipped": 0
+    }
+  },
+  "results": [
+    {
+      "path": "src/support/libsupport.h",
+      "language": "c",
+      "fileCategory": "code",
+      "totalLines": 24,
+      "nonEmptyLines": 17,
+      "metrics": {
+        "importCount": 0,
+        "exportCount": 0,
+        "functionCount": 0,
+        "classCount": 0
+      }
+    },
+    {
+      "path": "src/support/libsupportinit.c",
+      "language": "c",
+      "fileCategory": "code",
+      "totalLines": 83,
+      "nonEmptyLines": 77,
+      "callGraph": [
+        {
+          "caller": "libsupport_init",
+          "callee": "ios_init_stdstreams",
+          "lineNumber": 26
+        },
+        {
+          "caller": "libsupport_init",
+          "callee": "getrlimit",
+          "lineNumber": 32
+        },
+        {
+          "caller": "libsupport_init",
+          "callee": "setrlimit",
+          "lineNumber": 43
+        },
+        {
+          "caller": "libsupport_init",
+          "callee": "setlocale",
+          "lineNumber": 53
+        },
+        {
+          "caller": "libsupport_init",
+          "callee": "setlocale",
+          "lineNumber": 55
+        },
+        {
+          "caller": "libsupport_init",
+          "callee": "setlocale",
+          "lineNumber": 57
+        },
+        {
+          "caller": "libsupport_init",
+          "callee": "jl_strchrnul",
+          "lineNumber": 59
+        },
+        {
+          "caller": "libsupport_init",
+          "callee": "strncmp",
+          "lineNumber": 60
+        },
+        {
+          "caller": "libsupport_init",
+          "callee": "strlen",
+          "lineNumber": 60
+        },
+        {
+          "caller": "libsupport_init",
+          "callee": "strncmp",
+          "lineNumber": 61
+        },
+        {
+          "caller": "libsupport_init",
+          "callee": "strlen",
+          "lineNumber": 61
+        },
+        {
+          "caller": "libsupport_init",
+          "callee": "strncmp",
+          "lineNumber": 62
+        },
+        {
+          "caller": "libsupport_init",
+          "callee": "strlen",
+          "lineNumber": 62
+        },
+        {
+          "caller": "libsupport_init",
+          "callee": "memcpy",
+          "lineNumber": 64
+        },
+        {
+          "caller": "libsupport_init",
+          "callee": "malloc_s",
+          "lineNumber": 64
+        },
+        {
+          "caller": "libsupport_init",
+          "callee": "strcpy",
+          "lineNumber": 65
+        },
+        {
+          "caller": "libsupport_init",
+          "callee": "setlocale",
+          "lineNumber": 67
+        },
+        {
+          "caller": "libsupport_init",
+          "callee": "setlocale",
+          "lineNumber": 69
+        },
+        {
+          "caller": "libsupport_init",
+          "callee": "setlocale",
+          "lineNumber": 70
+        },
+        {
+          "caller": "libsupport_init",
+          "callee": "setlocale",
+          "lineNumber": 71
+        },
+        {
+          "caller": "libsupport_init",
+          "callee": "setlocale",
+          "lineNumber": 72
+        },
+        {
+          "caller": "libsupport_init",
+          "callee": "ios_puts",
+          "lineNumber": 73
+        },
+        {
+          "caller": "libsupport_init",
+          "callee": "free",
+          "lineNumber": 77
+        }
+      ],
+      "metrics": {
+        "importCount": 1,
+        "exportCount": 0,
+        "functionCount": 0,
+        "classCount": 0
+      }
+    },
+    {
+      "path": "src/support/strtod.c",
+      "language": "c",
+      "fileCategory": "code",
+      "totalLines": 287,
+      "nonEmptyLines": 239,
+      "callGraph": [
+        {
+          "caller": "get_c_locale",
+          "callee": "newlocale",
+          "lineNumber": 25
+        },
+        {
+          "caller": "jl_strtod_c",
+          "callee": "strtod_l",
+          "lineNumber": 32
+        },
+        {
+          "caller": "jl_strtod_c",
+          "callee": "get_c_locale",
+          "lineNumber": 32
+        },
+        {
+          "caller": "jl_strtof_c",
+          "callee": "strtof_l",
+          "lineNumber": 37
+        },
+        {
+          "caller": "jl_strtof_c",
+          "callee": "get_c_locale",
+          "lineNumber": 37
+        },
+        {
+          "caller": "case_insensitive_match",
+          "callee": "tolower",
+          "lineNumber": 61
+        },
+        {
+          "caller": "parse_inf_or_nan",
+          "callee": "case_insensitive_match",
+          "lineNumber": 82
+        },
+        {
+          "caller": "parse_inf_or_nan",
+          "callee": "case_insensitive_match",
+          "lineNumber": 84
+        },
+        {
+          "caller": "parse_inf_or_nan",
+          "callee": "case_insensitive_match",
+          "lineNumber": 88
+        },
+        {
+          "caller": "jl_strtod_c",
+          "callee": "localeconv",
+          "lineNumber": 115
+        },
+        {
+          "caller": "jl_strtod_c",
+          "callee": "strlen",
+          "lineNumber": 117
+        },
+        {
+          "caller": "jl_strtod_c",
+          "callee": "isspace",
+          "lineNumber": 124
+        },
+        {
+          "caller": "jl_strtod_c",
+          "callee": "parse_inf_or_nan",
+          "lineNumber": 129
+        },
+        {
+          "caller": "jl_strtod_c",
+          "callee": "isxdigit",
+          "lineNumber": 155
+        },
+        {
+          "caller": "jl_strtod_c",
+          "callee": "isxdigit",
+          "lineNumber": 164
+        },
+        {
+          "caller": "jl_strtod_c",
+          "callee": "isxdigit",
+          "lineNumber": 171
+        },
+        {
+          "caller": "jl_strtod_c",
+          "callee": "isdigit",
+          "lineNumber": 178
+        },
+        {
+          "caller": "jl_strtod_c",
+          "callee": "strncmp",
+          "lineNumber": 182
+        },
+        {
+          "caller": "jl_strtod_c",
+          "callee": "isdigit",
+          "lineNumber": 189
+        },
+        {
+          "caller": "jl_strtod_c",
+          "callee": "isdigit",
+          "lineNumber": 198
+        },
+        {
+          "caller": "jl_strtod_c",
+          "callee": "isdigit",
+          "lineNumber": 205
+        },
+        {
+          "caller": "jl_strtod_c",
+          "callee": "isdigit",
+          "lineNumber": 212
+        },
+        {
+          "caller": "jl_strtod_c",
+          "callee": "strncmp",
+          "lineNumber": 216
+        },
+        {
+          "caller": "jl_strtod_c",
+          "callee": "malloc",
+          "lineNumber": 226
+        },
+        {
+          "caller": "jl_strtod_c",
+          "callee": "memcpy",
+          "lineNumber": 234
+        },
+        {
+          "caller": "jl_strtod_c",
+          "callee": "memcpy",
+          "lineNumber": 236
+        },
+        {
+          "caller": "jl_strtod_c",
+          "callee": "memcpy",
+          "lineNumber": 238
+        },
+        {
+          "caller": "jl_strtod_c",
+          "callee": "strtod",
+          "lineNumber": 243
+        },
+        {
+          "caller": "jl_strtod_c",
+          "callee": "free",
+          "lineNumber": 256
+        },
+        {
+          "caller": "jl_strtod_c",
+          "callee": "strtod",
+          "lineNumber": 259
+        },
+        {
+          "caller": "jl_strtof_c",
+          "callee": "jl_strtod_c",
+          "lineNumber": 280
+        }
+      ],
+      "metrics": {
+        "importCount": 1,
+        "exportCount": 0,
+        "functionCount": 0,
+        "classCount": 0
+      }
+    }
+  ]
+}

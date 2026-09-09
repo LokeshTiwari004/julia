@@ -1,0 +1,182 @@
+{
+  "projectRoot": "/home/maruti/julia",
+  "batchFiles": [
+    {
+      "path": "stdlib/Test/test/nothrow_testset.jl",
+      "language": "jl",
+      "sizeLines": 8,
+      "fileCategory": "code"
+    },
+    {
+      "path": "stdlib/Test/test/runtests.jl",
+      "language": "jl",
+      "sizeLines": 2571,
+      "fileCategory": "code"
+    },
+    {
+      "path": "stdlib/Test/test/test_pop_testset_exec.jl",
+      "language": "jl",
+      "sizeLines": 8,
+      "fileCategory": "code"
+    },
+    {
+      "path": "stdlib/UUIDs/Project.toml",
+      "language": "toml",
+      "sizeLines": 13,
+      "fileCategory": "config"
+    },
+    {
+      "path": "stdlib/UUIDs/docs/src/index.md",
+      "language": "markdown",
+      "sizeLines": 13,
+      "fileCategory": "docs"
+    },
+    {
+      "path": "stdlib/UUIDs/src/UUIDs.jl",
+      "language": "jl",
+      "sizeLines": 207,
+      "fileCategory": "code"
+    },
+    {
+      "path": "stdlib/UUIDs/test/runtests.jl",
+      "language": "jl",
+      "sizeLines": 137,
+      "fileCategory": "code"
+    },
+    {
+      "path": "stdlib/Unicode/Project.toml",
+      "language": "toml",
+      "sizeLines": 10,
+      "fileCategory": "config"
+    },
+    {
+      "path": "stdlib/Unicode/docs/src/index.md",
+      "language": "markdown",
+      "sizeLines": 17,
+      "fileCategory": "docs"
+    },
+    {
+      "path": "stdlib/Unicode/src/Unicode.jl",
+      "language": "jl",
+      "sizeLines": 348,
+      "fileCategory": "code"
+    },
+    {
+      "path": "stdlib/Unicode/test/runtests.jl",
+      "language": "jl",
+      "sizeLines": 549,
+      "fileCategory": "code"
+    },
+    {
+      "path": "stdlib/Zlib_jll/Project.toml",
+      "language": "toml",
+      "sizeLines": 15,
+      "fileCategory": "config"
+    },
+    {
+      "path": "stdlib/Zlib_jll/src/Zlib_jll.jl",
+      "language": "jl",
+      "sizeLines": 49,
+      "fileCategory": "code"
+    },
+    {
+      "path": "stdlib/Zlib_jll/test/runtests.jl",
+      "language": "jl",
+      "sizeLines": 10,
+      "fileCategory": "code"
+    },
+    {
+      "path": "stdlib/Zstd_jll/Project.toml",
+      "language": "toml",
+      "sizeLines": 17,
+      "fileCategory": "config"
+    },
+    {
+      "path": "stdlib/Zstd_jll/src/Zstd_jll.jl",
+      "language": "jl",
+      "sizeLines": 109,
+      "fileCategory": "code"
+    },
+    {
+      "path": "stdlib/Zstd_jll/test/runtests.jl",
+      "language": "jl",
+      "sizeLines": 10,
+      "fileCategory": "code"
+    },
+    {
+      "path": "stdlib/dSFMT_jll/Project.toml",
+      "language": "toml",
+      "sizeLines": 16,
+      "fileCategory": "config"
+    },
+    {
+      "path": "stdlib/dSFMT_jll/src/dSFMT_jll.jl",
+      "language": "jl",
+      "sizeLines": 48,
+      "fileCategory": "code"
+    },
+    {
+      "path": "stdlib/dSFMT_jll/test/runtests.jl",
+      "language": "jl",
+      "sizeLines": 11,
+      "fileCategory": "code"
+    },
+    {
+      "path": "stdlib/libLLVM_jll/Project.toml",
+      "language": "toml",
+      "sizeLines": 22,
+      "fileCategory": "config"
+    },
+    {
+      "path": "stdlib/libLLVM_jll/src/libLLVM_jll.jl",
+      "language": "jl",
+      "sizeLines": 64,
+      "fileCategory": "code"
+    },
+    {
+      "path": "stdlib/libLLVM_jll/test/runtests.jl",
+      "language": "jl",
+      "sizeLines": 11,
+      "fileCategory": "code"
+    },
+    {
+      "path": "stdlib/libblastrampoline_jll/Project.toml",
+      "language": "toml",
+      "sizeLines": 16,
+      "fileCategory": "config"
+    },
+    {
+      "path": "stdlib/libblastrampoline_jll/src/libblastrampoline_jll.jl",
+      "language": "jl",
+      "sizeLines": 71,
+      "fileCategory": "code"
+    }
+  ],
+  "batchImportData": {
+    "stdlib/Test/test/nothrow_testset.jl": [],
+    "stdlib/Test/test/runtests.jl": [],
+    "stdlib/Test/test/test_pop_testset_exec.jl": [],
+    "stdlib/UUIDs/Project.toml": [],
+    "stdlib/UUIDs/docs/src/index.md": [],
+    "stdlib/UUIDs/src/UUIDs.jl": [],
+    "stdlib/UUIDs/test/runtests.jl": [],
+    "stdlib/Unicode/Project.toml": [],
+    "stdlib/Unicode/docs/src/index.md": [],
+    "stdlib/Unicode/src/Unicode.jl": [],
+    "stdlib/Unicode/test/runtests.jl": [],
+    "stdlib/Zlib_jll/Project.toml": [],
+    "stdlib/Zlib_jll/src/Zlib_jll.jl": [],
+    "stdlib/Zlib_jll/test/runtests.jl": [],
+    "stdlib/Zstd_jll/Project.toml": [],
+    "stdlib/Zstd_jll/src/Zstd_jll.jl": [],
+    "stdlib/Zstd_jll/test/runtests.jl": [],
+    "stdlib/dSFMT_jll/Project.toml": [],
+    "stdlib/dSFMT_jll/src/dSFMT_jll.jl": [],
+    "stdlib/dSFMT_jll/test/runtests.jl": [],
+    "stdlib/libLLVM_jll/Project.toml": [],
+    "stdlib/libLLVM_jll/src/libLLVM_jll.jl": [],
+    "stdlib/libLLVM_jll/test/runtests.jl": [],
+    "stdlib/libblastrampoline_jll/Project.toml": [],
+    "stdlib/libblastrampoline_jll/src/libblastrampoline_jll.jl": []
+  }
+}

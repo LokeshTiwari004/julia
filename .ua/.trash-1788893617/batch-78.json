@@ -1,0 +1,160 @@
+{
+  "batchIndex": 78,
+  "nodes": [
+    {
+      "id": "config:stdlib/Random/Project.toml",
+      "type": "config",
+      "name": "Project.toml",
+      "filePath": "stdlib/Random/Project.toml",
+      "summary": "Configuration file: Project.toml.",
+      "tags": [
+        "configuration"
+      ],
+      "complexity": "simple",
+      "language": "toml"
+    },
+    {
+      "id": "document:stdlib/Random/docs/src/index.md",
+      "type": "document",
+      "name": "index.md",
+      "filePath": "stdlib/Random/docs/src/index.md",
+      "summary": "Documentation covering [Random](@id Random-Numbers), Random numbers module, Random generation functions and more.",
+      "tags": [
+        "documentation",
+        "runtime"
+      ],
+      "complexity": "complex",
+      "language": "markdown"
+    }
+  ],
+  "edges": [],
+  "batchFiles": [
+    {
+      "path": "stdlib/Random/Project.toml",
+      "language": "toml",
+      "fileCategory": "config",
+      "totalLines": 15,
+      "nonEmptyLines": 12,
+      "sections": [
+        {
+          "heading": "deps",
+          "level": 1,
+          "line": 5
+        },
+        {
+          "heading": "extras",
+          "level": 1,
+          "line": 8
+        },
+        {
+          "heading": "targets",
+          "level": 1,
+          "line": 14
+        }
+      ],
+      "metrics": {
+        "importCount": 0,
+        "exportCount": 0,
+        "functionCount": 0,
+        "classCount": 0,
+        "sectionCount": 3
+      }
+    },
+    {
+      "path": "stdlib/Random/docs/src/index.md",
+      "language": "markdown",
+      "fileCategory": "docs",
+      "totalLines": 372,
+      "nonEmptyLines": 276,
+      "sections": [
+        {
+          "heading": "[Random](@id Random-Numbers)",
+          "level": 1,
+          "line": 5
+        },
+        {
+          "heading": "Random numbers module",
+          "level": 2,
+          "line": 45
+        },
+        {
+          "heading": "Random generation functions",
+          "level": 2,
+          "line": 50
+        },
+        {
+          "heading": "Subsequences, permutations and shuffling",
+          "level": 2,
+          "line": 63
+        },
+        {
+          "heading": "Generators (creation and seeding)",
+          "level": 2,
+          "line": 76
+        },
+        {
+          "heading": "[Hooking into the `Random` API](@id rand-api-hook)",
+          "level": 2,
+          "line": 88
+        },
+        {
+          "heading": "Generating random values of custom types",
+          "level": 3,
+          "line": 100
+        },
+        {
+          "heading": "Generating values from a type",
+          "level": 4,
+          "line": 143
+        },
+        {
+          "heading": "A simple sampler without pre-computed data",
+          "level": 4,
+          "line": 182
+        },
+        {
+          "heading": "Generating values for an `AbstractFloat` type",
+          "level": 4,
+          "line": 203
+        },
+        {
+          "heading": "An optimized sampler with pre-computed data",
+          "level": 4,
+          "line": 207
+        },
+        {
+          "heading": "Custom sampler types",
+          "level": 4,
+          "line": 233
+        },
+        {
+          "heading": "Using distinct algorithms for scalar or array generation",
+          "level": 4,
+          "line": 281
+        },
+        {
+          "heading": "Creating new generators",
+          "level": 3,
+          "line": 300
+        },
+        {
+          "heading": "Specializing array generation",
+          "level": 4,
+          "line": 329
+        },
+        {
+          "heading": "Reproducibility",
+          "level": 1,
+          "line": 349
+        }
+      ],
+      "metrics": {
+        "importCount": 0,
+        "exportCount": 0,
+        "functionCount": 0,
+        "classCount": 0,
+        "sectionCount": 16
+      }
+    }
+  ]
+}

@@ -1,0 +1,182 @@
+{
+  "projectRoot": "/home/maruti/julia",
+  "batchFiles": [
+    {
+      "path": ".buildkite-external-version",
+      "language": "unknown",
+      "sizeLines": 1,
+      "fileCategory": "code"
+    },
+    {
+      "path": ".clang-format",
+      "language": "unknown",
+      "sizeLines": 117,
+      "fileCategory": "code"
+    },
+    {
+      "path": ".clangd",
+      "language": "unknown",
+      "sizeLines": 2,
+      "fileCategory": "code"
+    },
+    {
+      "path": ".devcontainer/devcontainer.json",
+      "language": "json",
+      "sizeLines": 12,
+      "fileCategory": "config"
+    },
+    {
+      "path": ".git-blame-ignore-revs",
+      "language": "unknown",
+      "sizeLines": 13,
+      "fileCategory": "code"
+    },
+    {
+      "path": ".gitattributes",
+      "language": "unknown",
+      "sizeLines": 2,
+      "fileCategory": "code"
+    },
+    {
+      "path": ".github/CODEOWNERS",
+      "language": "unknown",
+      "sizeLines": 18,
+      "fileCategory": "code"
+    },
+    {
+      "path": ".github/_typos.toml",
+      "language": "toml",
+      "sizeLines": 4,
+      "fileCategory": "config"
+    },
+    {
+      "path": ".github/dependabot.yml",
+      "language": "yaml",
+      "sizeLines": 65,
+      "fileCategory": "config"
+    },
+    {
+      "path": ".mailmap",
+      "language": "unknown",
+      "sizeLines": 310,
+      "fileCategory": "code"
+    },
+    {
+      "path": ".ua/.trash-1788882187/tmp/semantic-analysis.mjs",
+      "language": "javascript",
+      "sizeLines": 348,
+      "fileCategory": "code"
+    },
+    {
+      "path": ".ua/.trash-1788882187/tmp/ua-arch-analyze.js",
+      "language": "javascript",
+      "sizeLines": 260,
+      "fileCategory": "code"
+    },
+    {
+      "path": ".ua/.trash-1788882187/tmp/ua-inline-validate.cjs",
+      "language": "javascript",
+      "sizeLines": 63,
+      "fileCategory": "code"
+    },
+    {
+      "path": ".ua/.trash-1788882187/tmp/ua-tour-analyze.js",
+      "language": "javascript",
+      "sizeLines": 180,
+      "fileCategory": "code"
+    },
+    {
+      "path": ".ua/.understandignore",
+      "language": "unknown",
+      "sizeLines": 112,
+      "fileCategory": "code"
+    },
+    {
+      "path": ".ua/fingerprints.json",
+      "language": "json",
+      "sizeLines": 37327,
+      "fileCategory": "config"
+    },
+    {
+      "path": "CITATION.bib",
+      "language": "bib",
+      "sizeLines": 15,
+      "fileCategory": "code"
+    },
+    {
+      "path": "CITATION.cff",
+      "language": "cff",
+      "sizeLines": 41,
+      "fileCategory": "code"
+    },
+    {
+      "path": "Compiler/extras/CompilerDevTools/Project.toml",
+      "language": "toml",
+      "sizeLines": 5,
+      "fileCategory": "config"
+    },
+    {
+      "path": "Compiler/extras/CompilerDevTools/src/CompilerDevTools.jl",
+      "language": "jl",
+      "sizeLines": 81,
+      "fileCategory": "code"
+    },
+    {
+      "path": "Compiler/extras/CompilerDevTools/test/runtests.jl",
+      "language": "jl",
+      "sizeLines": 24,
+      "fileCategory": "code"
+    },
+    {
+      "path": "Compiler/extras/CompilerDevTools/test/testpkg.jl",
+      "language": "jl",
+      "sizeLines": 19,
+      "fileCategory": "code"
+    },
+    {
+      "path": "Compiler/src/Compiler.jl",
+      "language": "jl",
+      "sizeLines": 254,
+      "fileCategory": "code"
+    },
+    {
+      "path": "Compiler/src/abstractinterpretation.jl",
+      "language": "jl",
+      "sizeLines": 5152,
+      "fileCategory": "code"
+    },
+    {
+      "path": "Compiler/src/abstractlattice.jl",
+      "language": "jl",
+      "sizeLines": 325,
+      "fileCategory": "code"
+    }
+  ],
+  "batchImportData": {
+    ".buildkite-external-version": [],
+    ".clang-format": [],
+    ".clangd": [],
+    ".devcontainer/devcontainer.json": [],
+    ".git-blame-ignore-revs": [],
+    ".gitattributes": [],
+    ".github/CODEOWNERS": [],
+    ".github/_typos.toml": [],
+    ".github/dependabot.yml": [],
+    ".mailmap": [],
+    ".ua/.trash-1788882187/tmp/semantic-analysis.mjs": [],
+    ".ua/.trash-1788882187/tmp/ua-arch-analyze.js": [],
+    ".ua/.trash-1788882187/tmp/ua-inline-validate.cjs": [],
+    ".ua/.trash-1788882187/tmp/ua-tour-analyze.js": [],
+    ".ua/.understandignore": [],
+    ".ua/fingerprints.json": [],
+    "CITATION.bib": [],
+    "CITATION.cff": [],
+    "Compiler/extras/CompilerDevTools/Project.toml": [],
+    "Compiler/extras/CompilerDevTools/src/CompilerDevTools.jl": [],
+    "Compiler/extras/CompilerDevTools/test/runtests.jl": [],
+    "Compiler/extras/CompilerDevTools/test/testpkg.jl": [],
+    "Compiler/src/Compiler.jl": [],
+    "Compiler/src/abstractinterpretation.jl": [],
+    "Compiler/src/abstractlattice.jl": []
+  }
+}

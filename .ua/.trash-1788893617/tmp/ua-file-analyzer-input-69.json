@@ -1,0 +1,182 @@
+{
+  "projectRoot": "/home/maruti/julia",
+  "batchFiles": [
+    {
+      "path": "stdlib/Dates/src/arithmetic.jl",
+      "language": "jl",
+      "sizeLines": 101,
+      "fileCategory": "code"
+    },
+    {
+      "path": "stdlib/Dates/src/conversions.jl",
+      "language": "jl",
+      "sizeLines": 137,
+      "fileCategory": "code"
+    },
+    {
+      "path": "stdlib/Dates/src/deprecated.jl",
+      "language": "jl",
+      "sizeLines": 70,
+      "fileCategory": "code"
+    },
+    {
+      "path": "stdlib/Dates/src/io.jl",
+      "language": "jl",
+      "sizeLines": 757,
+      "fileCategory": "code"
+    },
+    {
+      "path": "stdlib/Dates/src/parse.jl",
+      "language": "jl",
+      "sizeLines": 348,
+      "fileCategory": "code"
+    },
+    {
+      "path": "stdlib/Dates/src/periods.jl",
+      "language": "jl",
+      "sizeLines": 478,
+      "fileCategory": "code"
+    },
+    {
+      "path": "stdlib/Dates/src/query.jl",
+      "language": "jl",
+      "sizeLines": 665,
+      "fileCategory": "code"
+    },
+    {
+      "path": "stdlib/Dates/src/ranges.jl",
+      "language": "jl",
+      "sizeLines": 73,
+      "fileCategory": "code"
+    },
+    {
+      "path": "stdlib/Dates/src/rounding.jl",
+      "language": "jl",
+      "sizeLines": 302,
+      "fileCategory": "code"
+    },
+    {
+      "path": "stdlib/Dates/src/types.jl",
+      "language": "jl",
+      "sizeLines": 499,
+      "fileCategory": "code"
+    },
+    {
+      "path": "stdlib/Dates/test/accessors.jl",
+      "language": "jl",
+      "sizeLines": 285,
+      "fileCategory": "code"
+    },
+    {
+      "path": "stdlib/Dates/test/adjusters.jl",
+      "language": "jl",
+      "sizeLines": 504,
+      "fileCategory": "code"
+    },
+    {
+      "path": "stdlib/Dates/test/arithmetic.jl",
+      "language": "jl",
+      "sizeLines": 553,
+      "fileCategory": "code"
+    },
+    {
+      "path": "stdlib/Dates/test/conversions.jl",
+      "language": "jl",
+      "sizeLines": 137,
+      "fileCategory": "code"
+    },
+    {
+      "path": "stdlib/Dates/test/io.jl",
+      "language": "jl",
+      "sizeLines": 657,
+      "fileCategory": "code"
+    },
+    {
+      "path": "stdlib/Dates/test/periods.jl",
+      "language": "jl",
+      "sizeLines": 560,
+      "fileCategory": "code"
+    },
+    {
+      "path": "stdlib/Dates/test/query.jl",
+      "language": "jl",
+      "sizeLines": 218,
+      "fileCategory": "code"
+    },
+    {
+      "path": "stdlib/Dates/test/ranges.jl",
+      "language": "jl",
+      "sizeLines": 614,
+      "fileCategory": "code"
+    },
+    {
+      "path": "stdlib/Dates/test/rounding.jl",
+      "language": "jl",
+      "sizeLines": 263,
+      "fileCategory": "code"
+    },
+    {
+      "path": "stdlib/Dates/test/runtests.jl",
+      "language": "jl",
+      "sizeLines": 17,
+      "fileCategory": "code"
+    },
+    {
+      "path": "stdlib/Dates/test/testgroups",
+      "language": "unknown",
+      "sizeLines": 10,
+      "fileCategory": "code"
+    },
+    {
+      "path": "stdlib/Dates/test/types.jl",
+      "language": "jl",
+      "sizeLines": 296,
+      "fileCategory": "code"
+    },
+    {
+      "path": "stdlib/DelimitedFiles.version",
+      "language": "version",
+      "sizeLines": 4,
+      "fileCategory": "code"
+    },
+    {
+      "path": "stdlib/Distributed.version",
+      "language": "version",
+      "sizeLines": 4,
+      "fileCategory": "code"
+    },
+    {
+      "path": "stdlib/Downloads.version",
+      "language": "version",
+      "sizeLines": 4,
+      "fileCategory": "code"
+    }
+  ],
+  "batchImportData": {
+    "stdlib/Dates/src/arithmetic.jl": [],
+    "stdlib/Dates/src/conversions.jl": [],
+    "stdlib/Dates/src/deprecated.jl": [],
+    "stdlib/Dates/src/io.jl": [],
+    "stdlib/Dates/src/parse.jl": [],
+    "stdlib/Dates/src/periods.jl": [],
+    "stdlib/Dates/src/query.jl": [],
+    "stdlib/Dates/src/ranges.jl": [],
+    "stdlib/Dates/src/rounding.jl": [],
+    "stdlib/Dates/src/types.jl": [],
+    "stdlib/Dates/test/accessors.jl": [],
+    "stdlib/Dates/test/adjusters.jl": [],
+    "stdlib/Dates/test/arithmetic.jl": [],
+    "stdlib/Dates/test/conversions.jl": [],
+    "stdlib/Dates/test/io.jl": [],
+    "stdlib/Dates/test/periods.jl": [],
+    "stdlib/Dates/test/query.jl": [],
+    "stdlib/Dates/test/ranges.jl": [],
+    "stdlib/Dates/test/rounding.jl": [],
+    "stdlib/Dates/test/runtests.jl": [],
+    "stdlib/Dates/test/testgroups": [],
+    "stdlib/Dates/test/types.jl": [],
+    "stdlib/DelimitedFiles.version": [],
+    "stdlib/Distributed.version": [],
+    "stdlib/Downloads.version": []
+  }
+}

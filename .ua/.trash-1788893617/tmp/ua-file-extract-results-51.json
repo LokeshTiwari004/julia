@@ -1,0 +1,69 @@
+{
+  "scriptCompleted": true,
+  "filesAnalyzed": 1,
+  "filesSkipped": [
+    "JuliaSyntax/src/porcelain/green_node.jl",
+    "JuliaSyntax/src/porcelain/syntax.jl",
+    "JuliaSyntax/src/porcelain/syntax_node.jl",
+    "JuliaSyntax/src/precompile.jl",
+    "JuliaSyntax/src/utils.jl",
+    "JuliaSyntax/sysimage/JuliaSyntaxCore/src/JuliaSyntaxCore.jl",
+    "JuliaSyntax/sysimage/compile.jl",
+    "JuliaSyntax/sysimage/precompile.jl",
+    "JuliaSyntax/sysimage/precompile_exec.jl",
+    "JuliaSyntax/test/benchmark.jl",
+    "JuliaSyntax/test/diagnostics.jl",
+    "JuliaSyntax/test/expr.jl",
+    "JuliaSyntax/test/fuzz_test.jl",
+    "JuliaSyntax/test/green_node.jl",
+    "JuliaSyntax/test/hooks.jl",
+    "JuliaSyntax/test/kinds.jl",
+    "JuliaSyntax/test/literal_parsing.jl",
+    "JuliaSyntax/test/parse_packages.jl",
+    "JuliaSyntax/test/parse_stream.jl",
+    "JuliaSyntax/test/parser.jl",
+    "JuliaSyntax/test/parser_api.jl",
+    "JuliaSyntax/test/runtests.jl",
+    "JuliaSyntax/test/runtests_vendored.jl",
+    "JuliaSyntax/test/serialization.jl"
+  ],
+  "analysisOutcomes": {
+    "structure": {
+      "succeeded": 1,
+      "failed": 0
+    },
+    "callGraph": {
+      "succeeded": 0,
+      "failed": 0,
+      "skipped": 1
+    }
+  },
+  "results": [
+    {
+      "path": "JuliaSyntax/sysimage/JuliaSyntaxCore/Project.toml",
+      "language": "toml",
+      "fileCategory": "config",
+      "totalLines": 10,
+      "nonEmptyLines": 8,
+      "sections": [
+        {
+          "heading": "compat",
+          "level": 1,
+          "line": 6
+        },
+        {
+          "heading": "deps",
+          "level": 1,
+          "line": 9
+        }
+      ],
+      "metrics": {
+        "importCount": 0,
+        "exportCount": 0,
+        "functionCount": 0,
+        "classCount": 0,
+        "sectionCount": 2
+      }
+    }
+  ]
+}

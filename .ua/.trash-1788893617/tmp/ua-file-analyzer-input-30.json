@@ -1,0 +1,28 @@
+{
+  "projectRoot": "/home/maruti/julia",
+  "batchFiles": [
+    {
+      "path": "JuliaSyntax/LICENSE.md",
+      "language": "markdown",
+      "sizeLines": 45,
+      "fileCategory": "docs"
+    },
+    {
+      "path": "JuliaSyntax/Project.toml",
+      "language": "toml",
+      "sizeLines": 16,
+      "fileCategory": "config"
+    },
+    {
+      "path": "JuliaSyntax/README.md",
+      "language": "markdown",
+      "sizeLines": 46,
+      "fileCategory": "docs"
+    }
+  ],
+  "batchImportData": {
+    "JuliaSyntax/LICENSE.md": [],
+    "JuliaSyntax/Project.toml": [],
+    "JuliaSyntax/README.md": []
+  }
+}

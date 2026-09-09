@@ -1,0 +1,169 @@
+{
+  "scriptCompleted": true,
+  "filesAnalyzed": 4,
+  "filesSkipped": [
+    "stdlib/LLD_jll/test/runtests.jl",
+    "stdlib/LLVMLibUnwind_jll/src/LLVMLibUnwind_jll.jl",
+    "stdlib/LLVMLibUnwind_jll/test/runtests.jl",
+    "stdlib/LazyArtifacts.version",
+    "stdlib/LibCURL.version",
+    "stdlib/LibCURL_jll/src/LibCURL_jll.jl",
+    "stdlib/LibCURL_jll/test/runtests.jl",
+    "stdlib/LibGit2/src/LibGit2.jl",
+    "stdlib/LibGit2/src/blame.jl",
+    "stdlib/LibGit2/src/blob.jl",
+    "stdlib/LibGit2/src/callbacks.jl",
+    "stdlib/LibGit2/src/commit.jl",
+    "stdlib/LibGit2/src/config.jl",
+    "stdlib/LibGit2/src/consts.jl",
+    "stdlib/LibGit2/src/diff.jl",
+    "stdlib/LibGit2/src/error.jl",
+    "stdlib/LibGit2/src/gitcredential.jl",
+    "stdlib/LibGit2/src/index.jl",
+    "stdlib/LibGit2/src/merge.jl",
+    "stdlib/LibGit2/src/oid.jl",
+    "stdlib/LibGit2/src/rebase.jl"
+  ],
+  "analysisOutcomes": {
+    "structure": {
+      "succeeded": 4,
+      "failed": 0
+    },
+    "callGraph": {
+      "succeeded": 0,
+      "failed": 0,
+      "skipped": 4
+    }
+  },
+  "results": [
+    {
+      "path": "stdlib/LLVMLibUnwind_jll/Project.toml",
+      "language": "toml",
+      "fileCategory": "config",
+      "totalLines": 16,
+      "nonEmptyLines": 12,
+      "sections": [
+        {
+          "heading": "deps",
+          "level": 1,
+          "line": 5
+        },
+        {
+          "heading": "compat",
+          "level": 1,
+          "line": 9
+        },
+        {
+          "heading": "extras",
+          "level": 1,
+          "line": 12
+        },
+        {
+          "heading": "targets",
+          "level": 1,
+          "line": 15
+        }
+      ],
+      "metrics": {
+        "importCount": 0,
+        "exportCount": 0,
+        "functionCount": 0,
+        "classCount": 0,
+        "sectionCount": 4
+      }
+    },
+    {
+      "path": "stdlib/LibCURL_jll/Project.toml",
+      "language": "toml",
+      "fileCategory": "config",
+      "totalLines": 23,
+      "nonEmptyLines": 19,
+      "sections": [
+        {
+          "heading": "deps",
+          "level": 1,
+          "line": 5
+        },
+        {
+          "heading": "extras",
+          "level": 1,
+          "line": 15
+        },
+        {
+          "heading": "targets",
+          "level": 1,
+          "line": 18
+        },
+        {
+          "heading": "compat",
+          "level": 1,
+          "line": 21
+        }
+      ],
+      "metrics": {
+        "importCount": 0,
+        "exportCount": 0,
+        "functionCount": 0,
+        "classCount": 0,
+        "sectionCount": 4
+      }
+    },
+    {
+      "path": "stdlib/LibGit2/Project.toml",
+      "language": "toml",
+      "fileCategory": "config",
+      "totalLines": 18,
+      "nonEmptyLines": 15,
+      "sections": [
+        {
+          "heading": "deps",
+          "level": 1,
+          "line": 5
+        },
+        {
+          "heading": "extras",
+          "level": 1,
+          "line": 11
+        },
+        {
+          "heading": "targets",
+          "level": 1,
+          "line": 17
+        }
+      ],
+      "metrics": {
+        "importCount": 0,
+        "exportCount": 0,
+        "functionCount": 0,
+        "classCount": 0,
+        "sectionCount": 3
+      }
+    },
+    {
+      "path": "stdlib/LibGit2/docs/src/index.md",
+      "language": "markdown",
+      "fileCategory": "docs",
+      "totalLines": 168,
+      "nonEmptyLines": 163,
+      "sections": [
+        {
+          "heading": "LibGit2",
+          "level": 1,
+          "line": 5
+        },
+        {
+          "heading": "Functionality",
+          "level": 3,
+          "line": 12
+        }
+      ],
+      "metrics": {
+        "importCount": 0,
+        "exportCount": 0,
+        "functionCount": 0,
+        "classCount": 0,
+        "sectionCount": 2
+      }
+    }
+  ]
+}

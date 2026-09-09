@@ -1,0 +1,43 @@
+{
+  "scriptCompleted": true,
+  "filesAnalyzed": 0,
+  "filesSkipped": [
+    "JuliaLowering/test/destructuring_ir.jl",
+    "JuliaLowering/test/exceptions.jl",
+    "JuliaLowering/test/exceptions_ir.jl",
+    "JuliaLowering/test/function_calls_ir.jl",
+    "JuliaLowering/test/functions.jl",
+    "JuliaLowering/test/functions_ir.jl",
+    "JuliaLowering/test/generators.jl",
+    "JuliaLowering/test/generators_ir.jl",
+    "JuliaLowering/test/hooks.jl",
+    "JuliaLowering/test/import.jl",
+    "JuliaLowering/test/import_ir.jl",
+    "JuliaLowering/test/ir_tests.jl",
+    "JuliaLowering/test/loops.jl",
+    "JuliaLowering/test/loops_ir.jl",
+    "JuliaLowering/test/macros.jl",
+    "JuliaLowering/test/macros_ir.jl",
+    "JuliaLowering/test/misc.jl",
+    "JuliaLowering/test/misc_ir.jl",
+    "JuliaLowering/test/modules.jl",
+    "JuliaLowering/test/provenance.jl",
+    "JuliaLowering/test/quoting.jl",
+    "JuliaLowering/test/quoting_ir.jl",
+    "JuliaLowering/test/repl_mode.jl",
+    "JuliaLowering/test/runtests.jl",
+    "JuliaLowering/test/runtests_vendored.jl"
+  ],
+  "analysisOutcomes": {
+    "structure": {
+      "succeeded": 0,
+      "failed": 0
+    },
+    "callGraph": {
+      "succeeded": 0,
+      "failed": 0,
+      "skipped": 0
+    }
+  },
+  "results": []
+}

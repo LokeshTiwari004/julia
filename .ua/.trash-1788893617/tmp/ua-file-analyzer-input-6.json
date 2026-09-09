@@ -1,0 +1,213 @@
+{
+  "projectRoot": "/home/maruti/julia",
+  "batchFiles": [
+    {
+      "path": "src/aotcompile.cpp",
+      "language": "cpp",
+      "sizeLines": 2758,
+      "fileCategory": "code"
+    },
+    {
+      "path": "src/cgmemmgr.cpp",
+      "language": "cpp",
+      "sizeLines": 1051,
+      "fileCategory": "code"
+    },
+    {
+      "path": "src/codegen.cpp",
+      "language": "cpp",
+      "sizeLines": 11399,
+      "fileCategory": "code"
+    },
+    {
+      "path": "src/disasm.cpp",
+      "language": "cpp",
+      "sizeLines": 1350,
+      "fileCategory": "code"
+    },
+    {
+      "path": "src/gc-mmtk/llvm-final-gc-lowering-mmtk.cpp",
+      "language": "cpp",
+      "sizeLines": 208,
+      "fileCategory": "code"
+    },
+    {
+      "path": "src/jitlayers.cpp",
+      "language": "cpp",
+      "sizeLines": 2910,
+      "fileCategory": "code"
+    },
+    {
+      "path": "src/jitlayers.h",
+      "language": "c",
+      "sizeLines": 983,
+      "fileCategory": "code"
+    },
+    {
+      "path": "src/julia-task-dispatcher.h",
+      "language": "c",
+      "sizeLines": 481,
+      "fileCategory": "code"
+    },
+    {
+      "path": "src/julia_threads.h",
+      "language": "c",
+      "sizeLines": 689,
+      "fileCategory": "code"
+    },
+    {
+      "path": "src/llvm-alloc-helpers.cpp",
+      "language": "cpp",
+      "sizeLines": 412,
+      "fileCategory": "code"
+    },
+    {
+      "path": "src/llvm-alloc-helpers.h",
+      "language": "c",
+      "sizeLines": 170,
+      "fileCategory": "code"
+    },
+    {
+      "path": "src/llvm-alloc-opt.cpp",
+      "language": "cpp",
+      "sizeLines": 1384,
+      "fileCategory": "code"
+    },
+    {
+      "path": "src/llvm-cancellation-lowering.cpp",
+      "language": "cpp",
+      "sizeLines": 715,
+      "fileCategory": "code"
+    },
+    {
+      "path": "src/llvm-codegen-shared.h",
+      "language": "c",
+      "sizeLines": 563,
+      "fileCategory": "code"
+    },
+    {
+      "path": "src/llvm-cpufeatures.cpp",
+      "language": "cpp",
+      "sizeLines": 126,
+      "fileCategory": "code"
+    },
+    {
+      "path": "src/llvm-demote-float16.cpp",
+      "language": "cpp",
+      "sizeLines": 214,
+      "fileCategory": "code"
+    },
+    {
+      "path": "src/llvm-expand-atomic-modify.cpp",
+      "language": "cpp",
+      "sizeLines": 495,
+      "fileCategory": "code"
+    },
+    {
+      "path": "src/llvm-final-gc-lowering-stock.cpp",
+      "language": "cpp",
+      "sizeLines": 110,
+      "fileCategory": "code"
+    }
+  ],
+  "batchImportData": {
+    "src/aotcompile.cpp": [
+      "src/jitlayers.h",
+      "src/julia_assert.h",
+      "src/llvm-version.h",
+      "src/processor.h",
+      "src/serialize.h"
+    ],
+    "src/cgmemmgr.cpp": [
+      "src/julia.h",
+      "src/julia_assert.h",
+      "src/julia_internal.h",
+      "src/llvm-codegen-shared.h",
+      "src/llvm-version.h"
+    ],
+    "src/codegen.cpp": [
+      "src/jitlayers.h",
+      "src/julia_assert.h",
+      "src/llvm-version.h",
+      "src/processor.h"
+    ],
+    "src/disasm.cpp": [
+      "src/debuginfo.h",
+      "src/jitlayers.h",
+      "src/julia_assert.h",
+      "src/llvm-version.h",
+      "src/processor.h"
+    ],
+    "src/gc-mmtk/llvm-final-gc-lowering-mmtk.cpp": [
+      "src/llvm-gc-interface-passes.h"
+    ],
+    "src/jitlayers.cpp": [
+      "src/jitlayers.h",
+      "src/julia-task-dispatcher.h",
+      "src/julia_assert.h",
+      "src/llvm-version.h",
+      "src/processor.h"
+    ],
+    "src/jitlayers.h": [
+      "src/julia.h",
+      "src/julia_assert.h",
+      "src/julia_internal.h",
+      "src/llvm-codegen-shared.h",
+      "src/llvm-version.h",
+      "src/objcache.h",
+      "src/passes.h"
+    ],
+    "src/julia-task-dispatcher.h": [],
+    "src/julia_threads.h": [],
+    "src/llvm-alloc-helpers.cpp": [
+      "src/julia_assert.h",
+      "src/llvm-alloc-helpers.h",
+      "src/llvm-codegen-shared.h",
+      "src/llvm-version.h"
+    ],
+    "src/llvm-alloc-helpers.h": [],
+    "src/llvm-alloc-opt.cpp": [
+      "src/julia.h",
+      "src/julia_assert.h",
+      "src/julia_internal.h",
+      "src/llvm-alloc-helpers.h",
+      "src/llvm-codegen-shared.h",
+      "src/llvm-pass-helpers.h",
+      "src/llvm-version.h",
+      "src/passes.h"
+    ],
+    "src/llvm-cancellation-lowering.cpp": [
+      "src/julia.h",
+      "src/julia_internal.h",
+      "src/julia_threads.h",
+      "src/llvm-codegen-shared.h",
+      "src/llvm-pass-helpers.h",
+      "src/llvm-version.h",
+      "src/passes.h"
+    ],
+    "src/llvm-codegen-shared.h": [
+      "src/julia.h"
+    ],
+    "src/llvm-cpufeatures.cpp": [
+      "src/jitlayers.h",
+      "src/llvm-version.h",
+      "src/passes.h"
+    ],
+    "src/llvm-demote-float16.cpp": [
+      "src/jitlayers.h",
+      "src/julia.h",
+      "src/llvm-version.h",
+      "src/passes.h",
+      "src/support/dtypes.h"
+    ],
+    "src/llvm-expand-atomic-modify.cpp": [
+      "src/julia.h",
+      "src/julia_assert.h",
+      "src/llvm-version.h",
+      "src/passes.h"
+    ],
+    "src/llvm-final-gc-lowering-stock.cpp": [
+      "src/llvm-gc-interface-passes.h"
+    ]
+  }
+}

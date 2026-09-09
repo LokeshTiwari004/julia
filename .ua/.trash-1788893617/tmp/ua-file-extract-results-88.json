@@ -1,0 +1,56 @@
+{
+  "scriptCompleted": true,
+  "filesAnalyzed": 1,
+  "filesSkipped": [
+    "test/llvmpasses/late-lower-gc-addrspaces.ll",
+    "test/llvmpasses/late-lower-gc-alloc-zeroing.ll",
+    "test/llvmpasses/late-lower-gc-select-store.ll",
+    "test/llvmpasses/late-lower-gc-sret.ll",
+    "test/llvmpasses/late-lower-gc.ll",
+    "test/llvmpasses/llvmcall.jl",
+    "test/llvmpasses/loopinfo.jl",
+    "test/llvmpasses/memoryref-addrspace.jl",
+    "test/llvmpasses/multiversioning-annotate-only.ll",
+    "test/llvmpasses/multiversioning-clone-only.ll",
+    "test/llvmpasses/multiversioning-x86.ll",
+    "test/llvmpasses/names.jl",
+    "test/llvmpasses/noinline.jl",
+    "test/llvmpasses/parsing.ll",
+    "test/llvmpasses/pipeline-o0.jl",
+    "test/llvmpasses/pipeline-o2-allocs.jl",
+    "test/llvmpasses/pipeline-o2-broadcast.jl",
+    "test/llvmpasses/pipeline-o2.jl",
+    "test/llvmpasses/pipeline-prints.ll",
+    "test/llvmpasses/propagate-addrspace-non-zero.ll",
+    "test/llvmpasses/propagate-addrspace.ll",
+    "test/llvmpasses/refinements.ll",
+    "test/llvmpasses/remove-addrspaces.ll",
+    "test/llvmpasses/returnstwicegc.ll"
+  ],
+  "analysisOutcomes": {
+    "structure": {
+      "succeeded": 1,
+      "failed": 0
+    },
+    "callGraph": {
+      "succeeded": 1,
+      "failed": 0,
+      "skipped": 0
+    }
+  },
+  "results": [
+    {
+      "path": "test/llvmpasses/lit.cfg.py",
+      "language": "python",
+      "fileCategory": "code",
+      "totalLines": 19,
+      "nonEmptyLines": 15,
+      "metrics": {
+        "importCount": 0,
+        "exportCount": 0,
+        "functionCount": 0,
+        "classCount": 0
+      }
+    }
+  ]
+}

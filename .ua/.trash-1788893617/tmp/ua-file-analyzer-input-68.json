@@ -1,0 +1,182 @@
+{
+  "projectRoot": "/home/maruti/julia",
+  "batchFiles": [
+    {
+      "path": "stdlib/Artifacts/Project.toml",
+      "language": "toml",
+      "sizeLines": 11,
+      "fileCategory": "config"
+    },
+    {
+      "path": "stdlib/Artifacts/docs/src/index.md",
+      "language": "markdown",
+      "sizeLines": 28,
+      "fileCategory": "docs"
+    },
+    {
+      "path": "stdlib/Artifacts/src/Artifacts.jl",
+      "language": "jl",
+      "sizeLines": 778,
+      "fileCategory": "code"
+    },
+    {
+      "path": "stdlib/Artifacts/test/Artifacts.toml",
+      "language": "toml",
+      "sizeLines": 172,
+      "fileCategory": "config"
+    },
+    {
+      "path": "stdlib/Artifacts/test/refresh_artifacts.jl",
+      "language": "jl",
+      "sizeLines": 23,
+      "fileCategory": "code"
+    },
+    {
+      "path": "stdlib/Artifacts/test/runtests.jl",
+      "language": "jl",
+      "sizeLines": 285,
+      "fileCategory": "code"
+    },
+    {
+      "path": "stdlib/Base64/Project.toml",
+      "language": "toml",
+      "sizeLines": 10,
+      "fileCategory": "config"
+    },
+    {
+      "path": "stdlib/Base64/docs/src/index.md",
+      "language": "markdown",
+      "sizeLines": 45,
+      "fileCategory": "docs"
+    },
+    {
+      "path": "stdlib/Base64/src/Base64.jl",
+      "language": "jl",
+      "sizeLines": 50,
+      "fileCategory": "code"
+    },
+    {
+      "path": "stdlib/Base64/src/buffer.jl",
+      "language": "jl",
+      "sizeLines": 39,
+      "fileCategory": "code"
+    },
+    {
+      "path": "stdlib/Base64/src/decode.jl",
+      "language": "jl",
+      "sizeLines": 224,
+      "fileCategory": "code"
+    },
+    {
+      "path": "stdlib/Base64/src/encode.jl",
+      "language": "jl",
+      "sizeLines": 218,
+      "fileCategory": "code"
+    },
+    {
+      "path": "stdlib/Base64/test/runtests.jl",
+      "language": "jl",
+      "sizeLines": 151,
+      "fileCategory": "code"
+    },
+    {
+      "path": "stdlib/CRC32c/Project.toml",
+      "language": "toml",
+      "sizeLines": 10,
+      "fileCategory": "config"
+    },
+    {
+      "path": "stdlib/CRC32c/docs/src/index.md",
+      "language": "markdown",
+      "sizeLines": 12,
+      "fileCategory": "docs"
+    },
+    {
+      "path": "stdlib/CRC32c/src/CRC32c.jl",
+      "language": "jl",
+      "sizeLines": 70,
+      "fileCategory": "code"
+    },
+    {
+      "path": "stdlib/CRC32c/test/runtests.jl",
+      "language": "jl",
+      "sizeLines": 113,
+      "fileCategory": "code"
+    },
+    {
+      "path": "stdlib/CompilerSupportLibraries_jll/Project.toml",
+      "language": "toml",
+      "sizeLines": 20,
+      "fileCategory": "config"
+    },
+    {
+      "path": "stdlib/CompilerSupportLibraries_jll/src/CompilerSupportLibraries_jll.jl",
+      "language": "jl",
+      "sizeLines": 178,
+      "fileCategory": "code"
+    },
+    {
+      "path": "stdlib/CompilerSupportLibraries_jll/test/runtests.jl",
+      "language": "jl",
+      "sizeLines": 17,
+      "fileCategory": "code"
+    },
+    {
+      "path": "stdlib/Dates/Project.toml",
+      "language": "toml",
+      "sizeLines": 13,
+      "fileCategory": "config"
+    },
+    {
+      "path": "stdlib/Dates/docs/src/index.md",
+      "language": "markdown",
+      "sizeLines": 894,
+      "fileCategory": "docs"
+    },
+    {
+      "path": "stdlib/Dates/src/Dates.jl",
+      "language": "jl",
+      "sizeLines": 87,
+      "fileCategory": "code"
+    },
+    {
+      "path": "stdlib/Dates/src/accessors.jl",
+      "language": "jl",
+      "sizeLines": 239,
+      "fileCategory": "code"
+    },
+    {
+      "path": "stdlib/Dates/src/adjusters.jl",
+      "language": "jl",
+      "sizeLines": 429,
+      "fileCategory": "code"
+    }
+  ],
+  "batchImportData": {
+    "stdlib/Artifacts/Project.toml": [],
+    "stdlib/Artifacts/docs/src/index.md": [],
+    "stdlib/Artifacts/src/Artifacts.jl": [],
+    "stdlib/Artifacts/test/Artifacts.toml": [],
+    "stdlib/Artifacts/test/refresh_artifacts.jl": [],
+    "stdlib/Artifacts/test/runtests.jl": [],
+    "stdlib/Base64/Project.toml": [],
+    "stdlib/Base64/docs/src/index.md": [],
+    "stdlib/Base64/src/Base64.jl": [],
+    "stdlib/Base64/src/buffer.jl": [],
+    "stdlib/Base64/src/decode.jl": [],
+    "stdlib/Base64/src/encode.jl": [],
+    "stdlib/Base64/test/runtests.jl": [],
+    "stdlib/CRC32c/Project.toml": [],
+    "stdlib/CRC32c/docs/src/index.md": [],
+    "stdlib/CRC32c/src/CRC32c.jl": [],
+    "stdlib/CRC32c/test/runtests.jl": [],
+    "stdlib/CompilerSupportLibraries_jll/Project.toml": [],
+    "stdlib/CompilerSupportLibraries_jll/src/CompilerSupportLibraries_jll.jl": [],
+    "stdlib/CompilerSupportLibraries_jll/test/runtests.jl": [],
+    "stdlib/Dates/Project.toml": [],
+    "stdlib/Dates/docs/src/index.md": [],
+    "stdlib/Dates/src/Dates.jl": [],
+    "stdlib/Dates/src/accessors.jl": [],
+    "stdlib/Dates/src/adjusters.jl": []
+  }
+}

@@ -1,0 +1,237 @@
+{
+  "scriptCompleted": true,
+  "filesAnalyzed": 7,
+  "filesSkipped": [
+    "stdlib/Markdown/test/regenerate_test_spec.jl",
+    "stdlib/Markdown/test/runtests.jl",
+    "stdlib/Markdown/test/test_spec_html_common.jl",
+    "stdlib/Markdown/test/test_spec_html_github.jl",
+    "stdlib/Markdown/test/test_spec_html_julia.jl",
+    "stdlib/Markdown/test/test_spec_roundtrip_common.jl",
+    "stdlib/Markdown/test/test_spec_roundtrip_github.jl",
+    "stdlib/Markdown/test/test_spec_roundtrip_julia.jl",
+    "stdlib/Mmap/src/Mmap.jl",
+    "stdlib/Mmap/test/runtests.jl",
+    "stdlib/MozillaCACerts_jll/src/MozillaCACerts_jll.jl",
+    "stdlib/MozillaCACerts_jll/test/runtests.jl",
+    "stdlib/NetworkOptions.version",
+    "stdlib/OpenBLAS_jll/src/OpenBLAS_jll.jl",
+    "stdlib/OpenBLAS_jll/test/runtests.jl",
+    "stdlib/OpenLibm_jll/src/OpenLibm_jll.jl",
+    "stdlib/OpenLibm_jll/test/runtests.jl",
+    "stdlib/OpenSSL_jll/src/OpenSSL_jll.jl"
+  ],
+  "analysisOutcomes": {
+    "structure": {
+      "succeeded": 7,
+      "failed": 0
+    },
+    "callGraph": {
+      "succeeded": 0,
+      "failed": 0,
+      "skipped": 7
+    }
+  },
+  "results": [
+    {
+      "path": "stdlib/Markdown/test/spec.json",
+      "language": "json",
+      "fileCategory": "config",
+      "totalLines": 5218,
+      "nonEmptyLines": 5218,
+      "metrics": {
+        "importCount": 0,
+        "exportCount": 0,
+        "functionCount": 0,
+        "classCount": 0,
+        "sectionCount": 0
+      }
+    },
+    {
+      "path": "stdlib/Mmap/Project.toml",
+      "language": "toml",
+      "fileCategory": "config",
+      "totalLines": 13,
+      "nonEmptyLines": 10,
+      "sections": [
+        {
+          "heading": "deps",
+          "level": 1,
+          "line": 5
+        },
+        {
+          "heading": "extras",
+          "level": 1,
+          "line": 8
+        },
+        {
+          "heading": "targets",
+          "level": 1,
+          "line": 12
+        }
+      ],
+      "metrics": {
+        "importCount": 0,
+        "exportCount": 0,
+        "functionCount": 0,
+        "classCount": 0,
+        "sectionCount": 3
+      }
+    },
+    {
+      "path": "stdlib/Mmap/docs/src/index.md",
+      "language": "markdown",
+      "fileCategory": "docs",
+      "totalLines": 13,
+      "nonEmptyLines": 10,
+      "sections": [
+        {
+          "heading": "Mmap (Memory-mapped I/O)",
+          "level": 1,
+          "line": 5
+        }
+      ],
+      "metrics": {
+        "importCount": 0,
+        "exportCount": 0,
+        "functionCount": 0,
+        "classCount": 0,
+        "sectionCount": 1
+      }
+    },
+    {
+      "path": "stdlib/MozillaCACerts_jll/Project.toml",
+      "language": "toml",
+      "fileCategory": "config",
+      "totalLines": 10,
+      "nonEmptyLines": 8,
+      "sections": [
+        {
+          "heading": "extras",
+          "level": 1,
+          "line": 6
+        },
+        {
+          "heading": "targets",
+          "level": 1,
+          "line": 9
+        }
+      ],
+      "metrics": {
+        "importCount": 0,
+        "exportCount": 0,
+        "functionCount": 0,
+        "classCount": 0,
+        "sectionCount": 2
+      }
+    },
+    {
+      "path": "stdlib/OpenBLAS_jll/Project.toml",
+      "language": "toml",
+      "fileCategory": "config",
+      "totalLines": 17,
+      "nonEmptyLines": 13,
+      "sections": [
+        {
+          "heading": "deps",
+          "level": 1,
+          "line": 5
+        },
+        {
+          "heading": "compat",
+          "level": 1,
+          "line": 10
+        },
+        {
+          "heading": "extras",
+          "level": 1,
+          "line": 13
+        },
+        {
+          "heading": "targets",
+          "level": 1,
+          "line": 16
+        }
+      ],
+      "metrics": {
+        "importCount": 0,
+        "exportCount": 0,
+        "functionCount": 0,
+        "classCount": 0,
+        "sectionCount": 4
+      }
+    },
+    {
+      "path": "stdlib/OpenLibm_jll/Project.toml",
+      "language": "toml",
+      "fileCategory": "config",
+      "totalLines": 18,
+      "nonEmptyLines": 14,
+      "sections": [
+        {
+          "heading": "deps",
+          "level": 1,
+          "line": 5
+        },
+        {
+          "heading": "compat",
+          "level": 1,
+          "line": 10
+        },
+        {
+          "heading": "extras",
+          "level": 1,
+          "line": 14
+        },
+        {
+          "heading": "targets",
+          "level": 1,
+          "line": 17
+        }
+      ],
+      "metrics": {
+        "importCount": 0,
+        "exportCount": 0,
+        "functionCount": 0,
+        "classCount": 0,
+        "sectionCount": 4
+      }
+    },
+    {
+      "path": "stdlib/OpenSSL_jll/Project.toml",
+      "language": "toml",
+      "fileCategory": "config",
+      "totalLines": 16,
+      "nonEmptyLines": 12,
+      "sections": [
+        {
+          "heading": "deps",
+          "level": 1,
+          "line": 5
+        },
+        {
+          "heading": "compat",
+          "level": 1,
+          "line": 9
+        },
+        {
+          "heading": "extras",
+          "level": 1,
+          "line": 12
+        },
+        {
+          "heading": "targets",
+          "level": 1,
+          "line": 15
+        }
+      ],
+      "metrics": {
+        "importCount": 0,
+        "exportCount": 0,
+        "functionCount": 0,
+        "classCount": 0,
+        "sectionCount": 4
+      }
+    }
+  ]
+}

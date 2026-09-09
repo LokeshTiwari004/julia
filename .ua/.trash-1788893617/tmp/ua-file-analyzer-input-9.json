@@ -1,0 +1,124 @@
+{
+  "projectRoot": "/home/maruti/julia",
+  "batchFiles": [
+    {
+      "path": "src/APInt-C.h",
+      "language": "c",
+      "sizeLines": 81,
+      "fileCategory": "code"
+    },
+    {
+      "path": "src/APInt.c",
+      "language": "c",
+      "sizeLines": 869,
+      "fileCategory": "code"
+    },
+    {
+      "path": "src/crc32c.c",
+      "language": "c",
+      "sizeLines": 609,
+      "fileCategory": "code"
+    },
+    {
+      "path": "src/debug-registry.h",
+      "language": "c",
+      "sizeLines": 151,
+      "fileCategory": "code"
+    },
+    {
+      "path": "src/debuginfo.cpp",
+      "language": "cpp",
+      "sizeLines": 1733,
+      "fileCategory": "code"
+    },
+    {
+      "path": "src/debuginfo.h",
+      "language": "c",
+      "sizeLines": 14,
+      "fileCategory": "code"
+    },
+    {
+      "path": "src/llvm-Compression.cpp",
+      "language": "cpp",
+      "sizeLines": 245,
+      "fileCategory": "code"
+    },
+    {
+      "path": "src/llvm-Compression.h",
+      "language": "c",
+      "sizeLines": 136,
+      "fileCategory": "code"
+    },
+    {
+      "path": "src/null_sysimage.c",
+      "language": "c",
+      "sizeLines": 13,
+      "fileCategory": "code"
+    },
+    {
+      "path": "src/processor.cpp",
+      "language": "cpp",
+      "sizeLines": 966,
+      "fileCategory": "code"
+    },
+    {
+      "path": "src/processor.h",
+      "language": "c",
+      "sizeLines": 295,
+      "fileCategory": "code"
+    },
+    {
+      "path": "src/runtime_intrinsics.c",
+      "language": "c",
+      "sizeLines": 1798,
+      "fileCategory": "code"
+    }
+  ],
+  "batchImportData": {
+    "src/APInt-C.h": [],
+    "src/APInt.c": [
+      "src/APInt-C.h",
+      "src/julia_assert.h",
+      "src/julia_internal.h"
+    ],
+    "src/crc32c.c": [
+      "src/julia.h",
+      "src/julia_internal.h",
+      "src/processor.h"
+    ],
+    "src/debug-registry.h": [
+      "src/julia.h"
+    ],
+    "src/debuginfo.cpp": [
+      "src/debug-registry.h",
+      "src/debuginfo.h",
+      "src/jitlayers.h",
+      "src/julia_assert.h",
+      "src/llvm-Compression.h",
+      "src/llvm-version.h",
+      "src/processor.h"
+    ],
+    "src/debuginfo.h": [],
+    "src/llvm-Compression.cpp": [
+      "src/llvm-Compression.h"
+    ],
+    "src/llvm-Compression.h": [],
+    "src/null_sysimage.c": [
+      "src/processor.h"
+    ],
+    "src/processor.cpp": [
+      "src/julia.h",
+      "src/julia_assert.h",
+      "src/julia_internal.h",
+      "src/processor.h"
+    ],
+    "src/processor.h": [],
+    "src/runtime_intrinsics.c": [
+      "src/APInt-C.h",
+      "src/julia.h",
+      "src/julia_internal.h",
+      "src/llvm-version.h",
+      "src/processor.h"
+    ]
+  }
+}

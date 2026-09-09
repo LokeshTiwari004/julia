@@ -1,0 +1,182 @@
+{
+  "projectRoot": "/home/maruti/julia",
+  "batchFiles": [
+    {
+      "path": "JuliaLowering/test/destructuring_ir.jl",
+      "language": "jl",
+      "sizeLines": 385,
+      "fileCategory": "code"
+    },
+    {
+      "path": "JuliaLowering/test/exceptions.jl",
+      "language": "jl",
+      "sizeLines": 612,
+      "fileCategory": "code"
+    },
+    {
+      "path": "JuliaLowering/test/exceptions_ir.jl",
+      "language": "jl",
+      "sizeLines": 367,
+      "fileCategory": "code"
+    },
+    {
+      "path": "JuliaLowering/test/function_calls_ir.jl",
+      "language": "jl",
+      "sizeLines": 643,
+      "fileCategory": "code"
+    },
+    {
+      "path": "JuliaLowering/test/functions.jl",
+      "language": "jl",
+      "sizeLines": 2359,
+      "fileCategory": "code"
+    },
+    {
+      "path": "JuliaLowering/test/functions_ir.jl",
+      "language": "jl",
+      "sizeLines": 2236,
+      "fileCategory": "code"
+    },
+    {
+      "path": "JuliaLowering/test/generators.jl",
+      "language": "jl",
+      "sizeLines": 293,
+      "fileCategory": "code"
+    },
+    {
+      "path": "JuliaLowering/test/generators_ir.jl",
+      "language": "jl",
+      "sizeLines": 358,
+      "fileCategory": "code"
+    },
+    {
+      "path": "JuliaLowering/test/hooks.jl",
+      "language": "jl",
+      "sizeLines": 154,
+      "fileCategory": "code"
+    },
+    {
+      "path": "JuliaLowering/test/import.jl",
+      "language": "jl",
+      "sizeLines": 340,
+      "fileCategory": "code"
+    },
+    {
+      "path": "JuliaLowering/test/import_ir.jl",
+      "language": "jl",
+      "sizeLines": 77,
+      "fileCategory": "code"
+    },
+    {
+      "path": "JuliaLowering/test/ir_tests.jl",
+      "language": "jl",
+      "sizeLines": 10,
+      "fileCategory": "code"
+    },
+    {
+      "path": "JuliaLowering/test/loops.jl",
+      "language": "jl",
+      "sizeLines": 342,
+      "fileCategory": "code"
+    },
+    {
+      "path": "JuliaLowering/test/loops_ir.jl",
+      "language": "jl",
+      "sizeLines": 184,
+      "fileCategory": "code"
+    },
+    {
+      "path": "JuliaLowering/test/macros.jl",
+      "language": "jl",
+      "sizeLines": 1953,
+      "fileCategory": "code"
+    },
+    {
+      "path": "JuliaLowering/test/macros_ir.jl",
+      "language": "jl",
+      "sizeLines": 305,
+      "fileCategory": "code"
+    },
+    {
+      "path": "JuliaLowering/test/misc.jl",
+      "language": "jl",
+      "sizeLines": 981,
+      "fileCategory": "code"
+    },
+    {
+      "path": "JuliaLowering/test/misc_ir.jl",
+      "language": "jl",
+      "sizeLines": 590,
+      "fileCategory": "code"
+    },
+    {
+      "path": "JuliaLowering/test/modules.jl",
+      "language": "jl",
+      "sizeLines": 50,
+      "fileCategory": "code"
+    },
+    {
+      "path": "JuliaLowering/test/provenance.jl",
+      "language": "jl",
+      "sizeLines": 70,
+      "fileCategory": "code"
+    },
+    {
+      "path": "JuliaLowering/test/quoting.jl",
+      "language": "jl",
+      "sizeLines": 516,
+      "fileCategory": "code"
+    },
+    {
+      "path": "JuliaLowering/test/quoting_ir.jl",
+      "language": "jl",
+      "sizeLines": 88,
+      "fileCategory": "code"
+    },
+    {
+      "path": "JuliaLowering/test/repl_mode.jl",
+      "language": "jl",
+      "sizeLines": 84,
+      "fileCategory": "code"
+    },
+    {
+      "path": "JuliaLowering/test/runtests.jl",
+      "language": "jl",
+      "sizeLines": 35,
+      "fileCategory": "code"
+    },
+    {
+      "path": "JuliaLowering/test/runtests_vendored.jl",
+      "language": "jl",
+      "sizeLines": 42,
+      "fileCategory": "code"
+    }
+  ],
+  "batchImportData": {
+    "JuliaLowering/test/destructuring_ir.jl": [],
+    "JuliaLowering/test/exceptions.jl": [],
+    "JuliaLowering/test/exceptions_ir.jl": [],
+    "JuliaLowering/test/function_calls_ir.jl": [],
+    "JuliaLowering/test/functions.jl": [],
+    "JuliaLowering/test/functions_ir.jl": [],
+    "JuliaLowering/test/generators.jl": [],
+    "JuliaLowering/test/generators_ir.jl": [],
+    "JuliaLowering/test/hooks.jl": [],
+    "JuliaLowering/test/import.jl": [],
+    "JuliaLowering/test/import_ir.jl": [],
+    "JuliaLowering/test/ir_tests.jl": [],
+    "JuliaLowering/test/loops.jl": [],
+    "JuliaLowering/test/loops_ir.jl": [],
+    "JuliaLowering/test/macros.jl": [],
+    "JuliaLowering/test/macros_ir.jl": [],
+    "JuliaLowering/test/misc.jl": [],
+    "JuliaLowering/test/misc_ir.jl": [],
+    "JuliaLowering/test/modules.jl": [],
+    "JuliaLowering/test/provenance.jl": [],
+    "JuliaLowering/test/quoting.jl": [],
+    "JuliaLowering/test/quoting_ir.jl": [],
+    "JuliaLowering/test/repl_mode.jl": [],
+    "JuliaLowering/test/runtests.jl": [],
+    "JuliaLowering/test/runtests_vendored.jl": []
+  }
+}

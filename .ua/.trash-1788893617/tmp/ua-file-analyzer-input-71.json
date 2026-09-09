@@ -1,0 +1,182 @@
+{
+  "projectRoot": "/home/maruti/julia",
+  "batchFiles": [
+    {
+      "path": "stdlib/LLD_jll/test/runtests.jl",
+      "language": "jl",
+      "sizeLines": 9,
+      "fileCategory": "code"
+    },
+    {
+      "path": "stdlib/LLVMLibUnwind_jll/Project.toml",
+      "language": "toml",
+      "sizeLines": 16,
+      "fileCategory": "config"
+    },
+    {
+      "path": "stdlib/LLVMLibUnwind_jll/src/LLVMLibUnwind_jll.jl",
+      "language": "jl",
+      "sizeLines": 40,
+      "fileCategory": "code"
+    },
+    {
+      "path": "stdlib/LLVMLibUnwind_jll/test/runtests.jl",
+      "language": "jl",
+      "sizeLines": 17,
+      "fileCategory": "code"
+    },
+    {
+      "path": "stdlib/LazyArtifacts.version",
+      "language": "version",
+      "sizeLines": 4,
+      "fileCategory": "code"
+    },
+    {
+      "path": "stdlib/LibCURL.version",
+      "language": "version",
+      "sizeLines": 4,
+      "fileCategory": "code"
+    },
+    {
+      "path": "stdlib/LibCURL_jll/Project.toml",
+      "language": "toml",
+      "sizeLines": 23,
+      "fileCategory": "config"
+    },
+    {
+      "path": "stdlib/LibCURL_jll/src/LibCURL_jll.jl",
+      "language": "jl",
+      "sizeLines": 75,
+      "fileCategory": "code"
+    },
+    {
+      "path": "stdlib/LibCURL_jll/test/runtests.jl",
+      "language": "jl",
+      "sizeLines": 12,
+      "fileCategory": "code"
+    },
+    {
+      "path": "stdlib/LibGit2/Project.toml",
+      "language": "toml",
+      "sizeLines": 18,
+      "fileCategory": "config"
+    },
+    {
+      "path": "stdlib/LibGit2/docs/src/index.md",
+      "language": "markdown",
+      "sizeLines": 168,
+      "fileCategory": "docs"
+    },
+    {
+      "path": "stdlib/LibGit2/src/LibGit2.jl",
+      "language": "jl",
+      "sizeLines": 1102,
+      "fileCategory": "code"
+    },
+    {
+      "path": "stdlib/LibGit2/src/blame.jl",
+      "language": "jl",
+      "sizeLines": 58,
+      "fileCategory": "code"
+    },
+    {
+      "path": "stdlib/LibGit2/src/blob.jl",
+      "language": "jl",
+      "sizeLines": 87,
+      "fileCategory": "code"
+    },
+    {
+      "path": "stdlib/LibGit2/src/callbacks.jl",
+      "language": "jl",
+      "sizeLines": 520,
+      "fileCategory": "code"
+    },
+    {
+      "path": "stdlib/LibGit2/src/commit.jl",
+      "language": "jl",
+      "sizeLines": 193,
+      "fileCategory": "code"
+    },
+    {
+      "path": "stdlib/LibGit2/src/config.jl",
+      "language": "jl",
+      "sizeLines": 239,
+      "fileCategory": "code"
+    },
+    {
+      "path": "stdlib/LibGit2/src/consts.jl",
+      "language": "jl",
+      "sizeLines": 572,
+      "fileCategory": "code"
+    },
+    {
+      "path": "stdlib/LibGit2/src/diff.jl",
+      "language": "jl",
+      "sizeLines": 175,
+      "fileCategory": "code"
+    },
+    {
+      "path": "stdlib/LibGit2/src/error.jl",
+      "language": "jl",
+      "sizeLines": 128,
+      "fileCategory": "code"
+    },
+    {
+      "path": "stdlib/LibGit2/src/gitcredential.jl",
+      "language": "jl",
+      "sizeLines": 307,
+      "fileCategory": "code"
+    },
+    {
+      "path": "stdlib/LibGit2/src/index.jl",
+      "language": "jl",
+      "sizeLines": 244,
+      "fileCategory": "code"
+    },
+    {
+      "path": "stdlib/LibGit2/src/merge.jl",
+      "language": "jl",
+      "sizeLines": 278,
+      "fileCategory": "code"
+    },
+    {
+      "path": "stdlib/LibGit2/src/oid.jl",
+      "language": "jl",
+      "sizeLines": 221,
+      "fileCategory": "code"
+    },
+    {
+      "path": "stdlib/LibGit2/src/rebase.jl",
+      "language": "jl",
+      "sizeLines": 119,
+      "fileCategory": "code"
+    }
+  ],
+  "batchImportData": {
+    "stdlib/LLD_jll/test/runtests.jl": [],
+    "stdlib/LLVMLibUnwind_jll/Project.toml": [],
+    "stdlib/LLVMLibUnwind_jll/src/LLVMLibUnwind_jll.jl": [],
+    "stdlib/LLVMLibUnwind_jll/test/runtests.jl": [],
+    "stdlib/LazyArtifacts.version": [],
+    "stdlib/LibCURL.version": [],
+    "stdlib/LibCURL_jll/Project.toml": [],
+    "stdlib/LibCURL_jll/src/LibCURL_jll.jl": [],
+    "stdlib/LibCURL_jll/test/runtests.jl": [],
+    "stdlib/LibGit2/Project.toml": [],
+    "stdlib/LibGit2/docs/src/index.md": [],
+    "stdlib/LibGit2/src/LibGit2.jl": [],
+    "stdlib/LibGit2/src/blame.jl": [],
+    "stdlib/LibGit2/src/blob.jl": [],
+    "stdlib/LibGit2/src/callbacks.jl": [],
+    "stdlib/LibGit2/src/commit.jl": [],
+    "stdlib/LibGit2/src/config.jl": [],
+    "stdlib/LibGit2/src/consts.jl": [],
+    "stdlib/LibGit2/src/diff.jl": [],
+    "stdlib/LibGit2/src/error.jl": [],
+    "stdlib/LibGit2/src/gitcredential.jl": [],
+    "stdlib/LibGit2/src/index.jl": [],
+    "stdlib/LibGit2/src/merge.jl": [],
+    "stdlib/LibGit2/src/oid.jl": [],
+    "stdlib/LibGit2/src/rebase.jl": []
+  }
+}

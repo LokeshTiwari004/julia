@@ -1,0 +1,94 @@
+{
+  "batchIndex": 89,
+  "nodes": [
+    {
+      "id": "config:test/manifest/v1.0/Manifest.toml",
+      "type": "config",
+      "name": "Manifest.toml",
+      "filePath": "test/manifest/v1.0/Manifest.toml",
+      "summary": "Configuration file: Manifest.toml.",
+      "tags": [
+        "configuration"
+      ],
+      "complexity": "simple",
+      "language": "toml"
+    },
+    {
+      "id": "config:test/manifest/v2.0/Manifest.toml",
+      "type": "config",
+      "name": "Manifest.toml",
+      "filePath": "test/manifest/v2.0/Manifest.toml",
+      "summary": "Configuration file: Manifest.toml.",
+      "tags": [
+        "configuration"
+      ],
+      "complexity": "simple",
+      "language": "toml"
+    }
+  ],
+  "edges": [],
+  "batchFiles": [
+    {
+      "path": "test/manifest/v1.0/Manifest.toml",
+      "language": "toml",
+      "fileCategory": "config",
+      "totalLines": 11,
+      "nonEmptyLines": 8,
+      "sections": [
+        {
+          "heading": "[[Logging]]",
+          "level": 1,
+          "line": 3
+        },
+        {
+          "heading": "[[Random]]",
+          "level": 1,
+          "line": 6
+        },
+        {
+          "heading": "[[Serialization]]",
+          "level": 1,
+          "line": 10
+        }
+      ],
+      "metrics": {
+        "importCount": 0,
+        "exportCount": 0,
+        "functionCount": 0,
+        "classCount": 0,
+        "sectionCount": 3
+      }
+    },
+    {
+      "path": "test/manifest/v2.0/Manifest.toml",
+      "language": "toml",
+      "fileCategory": "config",
+      "totalLines": 14,
+      "nonEmptyLines": 10,
+      "sections": [
+        {
+          "heading": "[[deps.Logging]]",
+          "level": 2,
+          "line": 6
+        },
+        {
+          "heading": "[[deps.Random]]",
+          "level": 2,
+          "line": 9
+        },
+        {
+          "heading": "[[deps.Serialization]]",
+          "level": 2,
+          "line": 13
+        }
+      ],
+      "metrics": {
+        "importCount": 0,
+        "exportCount": 0,
+        "functionCount": 0,
+        "classCount": 0,
+        "sectionCount": 3
+      }
+    }
+  ]
+}

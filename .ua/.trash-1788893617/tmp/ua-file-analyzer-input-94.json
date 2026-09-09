@@ -1,0 +1,182 @@
+{
+  "projectRoot": "/home/maruti/julia",
+  "batchFiles": [
+    {
+      "path": "test/project/SyntaxVersioning/implicit/Versioned3/src/Versioned3.jl",
+      "language": "jl",
+      "sizeLines": 3,
+      "fileCategory": "code"
+    },
+    {
+      "path": "test/project/SyntaxVersioning/implicit/Versioned4/Project.toml",
+      "language": "toml",
+      "sizeLines": 2,
+      "fileCategory": "config"
+    },
+    {
+      "path": "test/project/SyntaxVersioning/implicit/Versioned4/src/Versioned4.jl",
+      "language": "jl",
+      "sizeLines": 3,
+      "fileCategory": "code"
+    },
+    {
+      "path": "test/project/SyntaxVersioning/implicit/Versioned5/Project.toml",
+      "language": "toml",
+      "sizeLines": 5,
+      "fileCategory": "config"
+    },
+    {
+      "path": "test/project/SyntaxVersioning/implicit/Versioned5/src/Versioned5.jl",
+      "language": "jl",
+      "sizeLines": 3,
+      "fileCategory": "code"
+    },
+    {
+      "path": "test/project/Workspaces/PrecompileExt/Bar/Project.toml",
+      "language": "toml",
+      "sizeLines": 3,
+      "fileCategory": "config"
+    },
+    {
+      "path": "test/project/Workspaces/PrecompileExt/Bar/src/Bar.jl",
+      "language": "jl",
+      "sizeLines": 3,
+      "fileCategory": "code"
+    },
+    {
+      "path": "test/project/Workspaces/PrecompileExt/BarEnv/Project.toml",
+      "language": "toml",
+      "sizeLines": 3,
+      "fileCategory": "config"
+    },
+    {
+      "path": "test/project/Workspaces/PrecompileExt/Foo/Project.toml",
+      "language": "toml",
+      "sizeLines": 9,
+      "fileCategory": "config"
+    },
+    {
+      "path": "test/project/Workspaces/PrecompileExt/Foo/ext/FooBarExt.jl",
+      "language": "jl",
+      "sizeLines": 3,
+      "fileCategory": "code"
+    },
+    {
+      "path": "test/project/Workspaces/PrecompileExt/Foo/src/Foo.jl",
+      "language": "jl",
+      "sizeLines": 3,
+      "fileCategory": "code"
+    },
+    {
+      "path": "test/project/Workspaces/PrecompileExt/FooEnv/Project.toml",
+      "language": "toml",
+      "sizeLines": 2,
+      "fileCategory": "config"
+    },
+    {
+      "path": "test/project/Workspaces/PrecompileExt/Manifest.toml",
+      "language": "toml",
+      "sizeLines": 25,
+      "fileCategory": "config"
+    },
+    {
+      "path": "test/project/Workspaces/PrecompileExt/Project.toml",
+      "language": "toml",
+      "sizeLines": 2,
+      "fileCategory": "config"
+    },
+    {
+      "path": "test/ranges.jl",
+      "language": "jl",
+      "sizeLines": 2890,
+      "fileCategory": "code"
+    },
+    {
+      "path": "test/rational.jl",
+      "language": "jl",
+      "sizeLines": 928,
+      "fileCategory": "code"
+    },
+    {
+      "path": "test/read.jl",
+      "language": "jl",
+      "sizeLines": 759,
+      "fileCategory": "code"
+    },
+    {
+      "path": "test/rebinding.jl",
+      "language": "jl",
+      "sizeLines": 585,
+      "fileCategory": "code"
+    },
+    {
+      "path": "test/reduce.jl",
+      "language": "jl",
+      "sizeLines": 820,
+      "fileCategory": "code"
+    },
+    {
+      "path": "test/reducedim.jl",
+      "language": "jl",
+      "sizeLines": 722,
+      "fileCategory": "code"
+    },
+    {
+      "path": "test/reflection.jl",
+      "language": "jl",
+      "sizeLines": 1549,
+      "fileCategory": "code"
+    },
+    {
+      "path": "test/regex.jl",
+      "language": "jl",
+      "sizeLines": 266,
+      "fileCategory": "code"
+    },
+    {
+      "path": "test/reinterpretarray.jl",
+      "language": "jl",
+      "sizeLines": 882,
+      "fileCategory": "code"
+    },
+    {
+      "path": "test/relocatedepot.jl",
+      "language": "jl",
+      "sizeLines": 362,
+      "fileCategory": "code"
+    },
+    {
+      "path": "test/rounding.jl",
+      "language": "jl",
+      "sizeLines": 510,
+      "fileCategory": "code"
+    }
+  ],
+  "batchImportData": {
+    "test/project/SyntaxVersioning/implicit/Versioned3/src/Versioned3.jl": [],
+    "test/project/SyntaxVersioning/implicit/Versioned4/Project.toml": [],
+    "test/project/SyntaxVersioning/implicit/Versioned4/src/Versioned4.jl": [],
+    "test/project/SyntaxVersioning/implicit/Versioned5/Project.toml": [],
+    "test/project/SyntaxVersioning/implicit/Versioned5/src/Versioned5.jl": [],
+    "test/project/Workspaces/PrecompileExt/Bar/Project.toml": [],
+    "test/project/Workspaces/PrecompileExt/Bar/src/Bar.jl": [],
+    "test/project/Workspaces/PrecompileExt/BarEnv/Project.toml": [],
+    "test/project/Workspaces/PrecompileExt/Foo/Project.toml": [],
+    "test/project/Workspaces/PrecompileExt/Foo/ext/FooBarExt.jl": [],
+    "test/project/Workspaces/PrecompileExt/Foo/src/Foo.jl": [],
+    "test/project/Workspaces/PrecompileExt/FooEnv/Project.toml": [],
+    "test/project/Workspaces/PrecompileExt/Manifest.toml": [],
+    "test/project/Workspaces/PrecompileExt/Project.toml": [],
+    "test/ranges.jl": [],
+    "test/rational.jl": [],
+    "test/read.jl": [],
+    "test/rebinding.jl": [],
+    "test/reduce.jl": [],
+    "test/reducedim.jl": [],
+    "test/reflection.jl": [],
+    "test/regex.jl": [],
+    "test/reinterpretarray.jl": [],
+    "test/relocatedepot.jl": [],
+    "test/rounding.jl": []
+  }
+}

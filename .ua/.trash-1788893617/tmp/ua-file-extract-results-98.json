@@ -1,0 +1,338 @@
+{
+  "scriptCompleted": true,
+  "filesAnalyzed": 8,
+  "filesSkipped": [
+    "test/trim/BasicJLL/Zstd_jll/src/Zstd_jll.jl",
+    "test/trim/BasicJLL/Zstd_jll/test/runtests.jl",
+    "test/trim/BasicJLL/runtests.jl",
+    "test/trim/BasicJLL/src/BasicJLL.jl",
+    "test/trim/CompileMinInit/MinInitDep/src/MinInitDep.jl",
+    "test/trim/CompileMinInit/runtests.jl",
+    "test/trim/CompileMinInit/src/CompileMinInit.jl",
+    "test/trim/Hello/runtests.jl",
+    "test/trim/Hello/src/Hello.jl",
+    "test/trim/LibSimple/build.jl",
+    "test/trim/LibSimple/runtests.jl",
+    "test/trim/LibSimple/src/LibSimple.jl",
+    "test/trim/Trimmability/runtests.jl",
+    "test/trim/Trimmability/src/Trimmability.jl",
+    "test/triplequote.jl",
+    "test/tuple.jl",
+    "test/typegroup.jl"
+  ],
+  "analysisOutcomes": {
+    "structure": {
+      "succeeded": 8,
+      "failed": 0
+    },
+    "callGraph": {
+      "succeeded": 1,
+      "failed": 0,
+      "skipped": 7
+    }
+  },
+  "results": [
+    {
+      "path": "test/trim/BasicJLL/Zstd_jll/Project.toml",
+      "language": "toml",
+      "fileCategory": "config",
+      "totalLines": 15,
+      "nonEmptyLines": 11,
+      "sections": [
+        {
+          "heading": "deps",
+          "level": 1,
+          "line": 5
+        },
+        {
+          "heading": "compat",
+          "level": 1,
+          "line": 8
+        },
+        {
+          "heading": "extras",
+          "level": 1,
+          "line": 11
+        },
+        {
+          "heading": "targets",
+          "level": 1,
+          "line": 14
+        }
+      ],
+      "metrics": {
+        "importCount": 0,
+        "exportCount": 0,
+        "functionCount": 0,
+        "classCount": 0,
+        "sectionCount": 4
+      }
+    },
+    {
+      "path": "test/trim/CompileMinInit/MinInitDep/Project.toml",
+      "language": "toml",
+      "fileCategory": "config",
+      "totalLines": 3,
+      "nonEmptyLines": 3,
+      "metrics": {
+        "importCount": 0,
+        "exportCount": 0,
+        "functionCount": 0,
+        "classCount": 0,
+        "sectionCount": 0
+      }
+    },
+    {
+      "path": "test/trim/CompileMinInit/Project.toml",
+      "language": "toml",
+      "fileCategory": "config",
+      "totalLines": 9,
+      "nonEmptyLines": 7,
+      "sections": [
+        {
+          "heading": "deps",
+          "level": 1,
+          "line": 5
+        },
+        {
+          "heading": "sources",
+          "level": 1,
+          "line": 8
+        }
+      ],
+      "metrics": {
+        "importCount": 0,
+        "exportCount": 0,
+        "functionCount": 0,
+        "classCount": 0,
+        "sectionCount": 2
+      }
+    },
+    {
+      "path": "test/trim/Hello/Project.toml",
+      "language": "toml",
+      "fileCategory": "config",
+      "totalLines": 3,
+      "nonEmptyLines": 3,
+      "metrics": {
+        "importCount": 0,
+        "exportCount": 0,
+        "functionCount": 0,
+        "classCount": 0,
+        "sectionCount": 0
+      }
+    },
+    {
+      "path": "test/trim/LibSimple/Project.toml",
+      "language": "toml",
+      "fileCategory": "config",
+      "totalLines": 11,
+      "nonEmptyLines": 9,
+      "sections": [
+        {
+          "heading": "deps",
+          "level": 1,
+          "line": 7
+        },
+        {
+          "heading": "compat",
+          "level": 1,
+          "line": 10
+        }
+      ],
+      "metrics": {
+        "importCount": 0,
+        "exportCount": 0,
+        "functionCount": 0,
+        "classCount": 0,
+        "sectionCount": 2
+      }
+    },
+    {
+      "path": "test/trim/LibSimple/capplication.c",
+      "language": "c",
+      "fileCategory": "code",
+      "totalLines": 104,
+      "nonEmptyLines": 90,
+      "functions": [
+        {
+          "name": "load_library",
+          "startLine": 13,
+          "endLine": 19,
+          "params": [
+            "path"
+          ]
+        },
+        {
+          "name": "print_load_error",
+          "startLine": 29,
+          "endLine": 35,
+          "params": [
+            "context"
+          ]
+        },
+        {
+          "name": "main",
+          "startLine": 54,
+          "endLine": 104,
+          "params": [
+            "argc",
+            "argv"
+          ]
+        }
+      ],
+      "exports": [
+        {
+          "name": "main",
+          "line": 54,
+          "isDefault": false
+        }
+      ],
+      "callGraph": [
+        {
+          "caller": "load_library",
+          "callee": "LoadLibraryA",
+          "lineNumber": 15
+        },
+        {
+          "caller": "load_library",
+          "callee": "dlopen",
+          "lineNumber": 17
+        },
+        {
+          "caller": "print_load_error",
+          "callee": "fprintf",
+          "lineNumber": 31
+        },
+        {
+          "caller": "print_load_error",
+          "callee": "GetLastError",
+          "lineNumber": 31
+        },
+        {
+          "caller": "print_load_error",
+          "callee": "fprintf",
+          "lineNumber": 33
+        },
+        {
+          "caller": "print_load_error",
+          "callee": "dlerror",
+          "lineNumber": 33
+        },
+        {
+          "caller": "main",
+          "callee": "fprintf",
+          "lineNumber": 56
+        },
+        {
+          "caller": "main",
+          "callee": "load_library",
+          "lineNumber": 60
+        },
+        {
+          "caller": "main",
+          "callee": "print_load_error",
+          "lineNumber": 62
+        },
+        {
+          "caller": "main",
+          "callee": "get_symbol",
+          "lineNumber": 67
+        },
+        {
+          "caller": "main",
+          "callee": "print_load_error",
+          "lineNumber": 69
+        },
+        {
+          "caller": "main",
+          "callee": "copyto_and_sum",
+          "lineNumber": 81
+        },
+        {
+          "caller": "main",
+          "callee": "printf",
+          "lineNumber": 82
+        },
+        {
+          "caller": "main",
+          "callee": "fprintf",
+          "lineNumber": 84
+        },
+        {
+          "caller": "main",
+          "callee": "get_symbol",
+          "lineNumber": 89
+        },
+        {
+          "caller": "main",
+          "callee": "print_load_error",
+          "lineNumber": 91
+        },
+        {
+          "caller": "main",
+          "callee": "countsame",
+          "lineNumber": 96
+        },
+        {
+          "caller": "main",
+          "callee": "printf",
+          "lineNumber": 97
+        },
+        {
+          "caller": "main",
+          "callee": "fprintf",
+          "lineNumber": 99
+        }
+      ],
+      "metrics": {
+        "importCount": 0,
+        "exportCount": 1,
+        "functionCount": 3,
+        "classCount": 0
+      }
+    },
+    {
+      "path": "test/trim/Trimmability/Project.toml",
+      "language": "toml",
+      "fileCategory": "config",
+      "totalLines": 8,
+      "nonEmptyLines": 7,
+      "sections": [
+        {
+          "heading": "deps",
+          "level": 1,
+          "line": 5
+        }
+      ],
+      "metrics": {
+        "importCount": 0,
+        "exportCount": 0,
+        "functionCount": 0,
+        "classCount": 0,
+        "sectionCount": 1
+      }
+    },
+    {
+      "path": "test/trimming/Makefile",
+      "language": "makefile",
+      "fileCategory": "infra",
+      "totalLines": 11,
+      "nonEmptyLines": 9,
+      "steps": [
+        {
+          "name": "release",
+          "startLine": 10,
+          "endLine": 12
+        }
+      ],
+      "metrics": {
+        "importCount": 0,
+        "exportCount": 0,
+        "functionCount": 0,
+        "classCount": 0,
+        "stepCount": 1
+      }
+    }
+  ]
+}

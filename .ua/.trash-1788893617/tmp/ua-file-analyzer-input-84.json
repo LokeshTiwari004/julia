@@ -1,0 +1,184 @@
+{
+  "projectRoot": "/home/maruti/julia",
+  "batchFiles": [
+    {
+      "path": "test/clangsa/Makefile",
+      "language": "makefile",
+      "sizeLines": 22,
+      "fileCategory": "infra"
+    },
+    {
+      "path": "test/clangsa/SafepointCapability.c",
+      "language": "c",
+      "sizeLines": 93,
+      "fileCategory": "code"
+    },
+    {
+      "path": "test/clangsa/StaticOrDeclaredTest.c",
+      "language": "c",
+      "sizeLines": 99,
+      "fileCategory": "code"
+    },
+    {
+      "path": "test/clangsa/StaticOrDeclaredTest.h",
+      "language": "c",
+      "sizeLines": 18,
+      "fileCategory": "code"
+    },
+    {
+      "path": "test/clangsa/lit.cfg.py",
+      "language": "python",
+      "sizeLines": 25,
+      "fileCategory": "code"
+    },
+    {
+      "path": "test/client.jl",
+      "language": "jl",
+      "sizeLines": 113,
+      "fileCategory": "code"
+    },
+    {
+      "path": "test/cmdlineargs.jl",
+      "language": "jl",
+      "sizeLines": 1787,
+      "fileCategory": "code"
+    },
+    {
+      "path": "test/combinatorics.jl",
+      "language": "jl",
+      "sizeLines": 147,
+      "fileCategory": "code"
+    },
+    {
+      "path": "test/compileall.jl",
+      "language": "jl",
+      "sizeLines": 79,
+      "fileCategory": "code"
+    },
+    {
+      "path": "test/complex.jl",
+      "language": "jl",
+      "sizeLines": 1274,
+      "fileCategory": "code"
+    },
+    {
+      "path": "test/copy.jl",
+      "language": "jl",
+      "sizeLines": 310,
+      "fileCategory": "code"
+    },
+    {
+      "path": "test/core.jl",
+      "language": "jl",
+      "sizeLines": 9409,
+      "fileCategory": "code"
+    },
+    {
+      "path": "test/corelogging.jl",
+      "language": "jl",
+      "sizeLines": 482,
+      "fileCategory": "code"
+    },
+    {
+      "path": "test/depot/packages/Baz/81oLe/src/Baz.jl",
+      "language": "jl",
+      "sizeLines": 6,
+      "fileCategory": "code"
+    },
+    {
+      "path": "test/depot/packages/Foo/I05Qq/src/Foo.jl",
+      "language": "jl",
+      "sizeLines": 7,
+      "fileCategory": "code"
+    },
+    {
+      "path": "test/deprecation_exec.jl",
+      "language": "jl",
+      "sizeLines": 435,
+      "fileCategory": "code"
+    },
+    {
+      "path": "test/dict.jl",
+      "language": "jl",
+      "sizeLines": 1691,
+      "fileCategory": "code"
+    },
+    {
+      "path": "test/docs.jl",
+      "language": "jl",
+      "sizeLines": 1710,
+      "fileCategory": "code"
+    },
+    {
+      "path": "test/download.jl",
+      "language": "jl",
+      "sizeLines": 6,
+      "fileCategory": "code"
+    },
+    {
+      "path": "test/download_exec.jl",
+      "language": "jl",
+      "sizeLines": 41,
+      "fileCategory": "code"
+    },
+    {
+      "path": "test/embedding/LocalModule.jl",
+      "language": "jl",
+      "sizeLines": 15,
+      "fileCategory": "code"
+    },
+    {
+      "path": "test/embedding/Makefile",
+      "language": "makefile",
+      "sizeLines": 114,
+      "fileCategory": "infra"
+    },
+    {
+      "path": "test/embedding/embedding-test.jl",
+      "language": "jl",
+      "sizeLines": 36,
+      "fileCategory": "code"
+    },
+    {
+      "path": "test/embedding/include_and_eval.jl",
+      "language": "jl",
+      "sizeLines": 5,
+      "fileCategory": "code"
+    },
+    {
+      "path": "test/embedding/libdl_embedding.c",
+      "language": "c",
+      "sizeLines": 12,
+      "fileCategory": "code"
+    }
+  ],
+  "batchImportData": {
+    "test/clangsa/Makefile": [],
+    "test/clangsa/SafepointCapability.c": [],
+    "test/clangsa/StaticOrDeclaredTest.c": [
+      "test/clangsa/StaticOrDeclaredTest.h"
+    ],
+    "test/clangsa/StaticOrDeclaredTest.h": [],
+    "test/clangsa/lit.cfg.py": [],
+    "test/client.jl": [],
+    "test/cmdlineargs.jl": [],
+    "test/combinatorics.jl": [],
+    "test/compileall.jl": [],
+    "test/complex.jl": [],
+    "test/copy.jl": [],
+    "test/core.jl": [],
+    "test/corelogging.jl": [],
+    "test/depot/packages/Baz/81oLe/src/Baz.jl": [],
+    "test/depot/packages/Foo/I05Qq/src/Foo.jl": [],
+    "test/deprecation_exec.jl": [],
+    "test/dict.jl": [],
+    "test/docs.jl": [],
+    "test/download.jl": [],
+    "test/download_exec.jl": [],
+    "test/embedding/LocalModule.jl": [],
+    "test/embedding/Makefile": [],
+    "test/embedding/embedding-test.jl": [],
+    "test/embedding/include_and_eval.jl": [],
+    "test/embedding/libdl_embedding.c": []
+  }
+}

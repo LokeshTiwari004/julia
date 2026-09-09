@@ -1,0 +1,182 @@
+{
+  "projectRoot": "/home/maruti/julia",
+  "batchFiles": [
+    {
+      "path": "base/coreir.jl",
+      "language": "jl",
+      "sizeLines": 120,
+      "fileCategory": "code"
+    },
+    {
+      "path": "base/cpuid.jl",
+      "language": "jl",
+      "sizeLines": 209,
+      "fileCategory": "code"
+    },
+    {
+      "path": "base/ctypes.jl",
+      "language": "jl",
+      "sizeLines": 119,
+      "fileCategory": "code"
+    },
+    {
+      "path": "base/deepcopy.jl",
+      "language": "jl",
+      "sizeLines": 201,
+      "fileCategory": "code"
+    },
+    {
+      "path": "base/deprecated.jl",
+      "language": "jl",
+      "sizeLines": 746,
+      "fileCategory": "code"
+    },
+    {
+      "path": "base/dict.jl",
+      "language": "jl",
+      "sizeLines": 1068,
+      "fileCategory": "code"
+    },
+    {
+      "path": "base/div.jl",
+      "language": "jl",
+      "sizeLines": 480,
+      "fileCategory": "code"
+    },
+    {
+      "path": "base/docs/Docs.jl",
+      "language": "jl",
+      "sizeLines": 895,
+      "fileCategory": "code"
+    },
+    {
+      "path": "base/docs/basedocs.jl",
+      "language": "jl",
+      "sizeLines": 4300,
+      "fileCategory": "code"
+    },
+    {
+      "path": "base/docs/bindings.jl",
+      "language": "jl",
+      "sizeLines": 59,
+      "fileCategory": "code"
+    },
+    {
+      "path": "base/docs/core.jl",
+      "language": "jl",
+      "sizeLines": 39,
+      "fileCategory": "code"
+    },
+    {
+      "path": "base/docs/intrinsicsdocs.jl",
+      "language": "jl",
+      "sizeLines": 218,
+      "fileCategory": "code"
+    },
+    {
+      "path": "base/docs/utils.jl",
+      "language": "jl",
+      "sizeLines": 119,
+      "fileCategory": "code"
+    },
+    {
+      "path": "base/download.jl",
+      "language": "jl",
+      "sizeLines": 25,
+      "fileCategory": "code"
+    },
+    {
+      "path": "base/env.jl",
+      "language": "jl",
+      "sizeLines": 290,
+      "fileCategory": "code"
+    },
+    {
+      "path": "base/error.jl",
+      "language": "jl",
+      "sizeLines": 325,
+      "fileCategory": "code"
+    },
+    {
+      "path": "base/errorshow.jl",
+      "language": "jl",
+      "sizeLines": 1690,
+      "fileCategory": "code"
+    },
+    {
+      "path": "base/essentials.jl",
+      "language": "jl",
+      "sizeLines": 1674,
+      "fileCategory": "code"
+    },
+    {
+      "path": "base/experimental.jl",
+      "language": "jl",
+      "sizeLines": 839,
+      "fileCategory": "code"
+    },
+    {
+      "path": "base/exports.jl",
+      "language": "jl",
+      "sizeLines": 1145,
+      "fileCategory": "code"
+    },
+    {
+      "path": "base/expr.jl",
+      "language": "jl",
+      "sizeLines": 1902,
+      "fileCategory": "code"
+    },
+    {
+      "path": "base/fastmath.jl",
+      "language": "jl",
+      "sizeLines": 420,
+      "fileCategory": "code"
+    },
+    {
+      "path": "base/file.jl",
+      "language": "jl",
+      "sizeLines": 1534,
+      "fileCategory": "code"
+    },
+    {
+      "path": "base/filesystem.jl",
+      "language": "jl",
+      "sizeLines": 449,
+      "fileCategory": "code"
+    },
+    {
+      "path": "base/flfrontend.jl",
+      "language": "jl",
+      "sizeLines": 25,
+      "fileCategory": "code"
+    }
+  ],
+  "batchImportData": {
+    "base/coreir.jl": [],
+    "base/cpuid.jl": [],
+    "base/ctypes.jl": [],
+    "base/deepcopy.jl": [],
+    "base/deprecated.jl": [],
+    "base/dict.jl": [],
+    "base/div.jl": [],
+    "base/docs/Docs.jl": [],
+    "base/docs/basedocs.jl": [],
+    "base/docs/bindings.jl": [],
+    "base/docs/core.jl": [],
+    "base/docs/intrinsicsdocs.jl": [],
+    "base/docs/utils.jl": [],
+    "base/download.jl": [],
+    "base/env.jl": [],
+    "base/error.jl": [],
+    "base/errorshow.jl": [],
+    "base/essentials.jl": [],
+    "base/experimental.jl": [],
+    "base/exports.jl": [],
+    "base/expr.jl": [],
+    "base/fastmath.jl": [],
+    "base/file.jl": [],
+    "base/filesystem.jl": [],
+    "base/flfrontend.jl": []
+  }
+}

@@ -1,0 +1,1314 @@
+{
+  "batchIndex": 36,
+  "nodes": [
+    {
+      "id": "document:doc/src/base/arrays.md",
+      "type": "document",
+      "name": "arrays.md",
+      "filePath": "doc/src/base/arrays.md",
+      "summary": "Documentation covering [Arrays](@id lib-arrays), Constructors and Types, Basic functions and more.",
+      "tags": [
+        "documentation",
+        "runtime",
+        "base-library"
+      ],
+      "complexity": "moderate",
+      "language": "markdown"
+    },
+    {
+      "id": "document:doc/src/base/base.md",
+      "type": "document",
+      "name": "base.md",
+      "filePath": "doc/src/base/base.md",
+      "summary": "Documentation covering Essentials, Introduction, Getting Around and more.",
+      "tags": [
+        "documentation",
+        "runtime",
+        "base-library"
+      ],
+      "complexity": "complex",
+      "language": "markdown"
+    },
+    {
+      "id": "document:doc/src/base/c.md",
+      "type": "document",
+      "name": "c.md",
+      "filePath": "doc/src/base/c.md",
+      "summary": "Documentation covering C Interface, LLVM Interface.",
+      "tags": [
+        "documentation",
+        "runtime",
+        "base-library"
+      ],
+      "complexity": "moderate",
+      "language": "markdown"
+    },
+    {
+      "id": "document:doc/src/base/collections.md",
+      "type": "document",
+      "name": "collections.md",
+      "filePath": "doc/src/base/collections.md",
+      "summary": "Documentation covering Collections and Data Structures, [Iteration](@id lib-collections-iteration), Ranges and more.",
+      "tags": [
+        "documentation",
+        "runtime",
+        "base-library"
+      ],
+      "complexity": "complex",
+      "language": "markdown"
+    },
+    {
+      "id": "document:doc/src/base/constants.md",
+      "type": "document",
+      "name": "constants.md",
+      "filePath": "doc/src/base/constants.md",
+      "summary": "Documentation covering [Constants](@id lib-constants).",
+      "tags": [
+        "documentation",
+        "runtime",
+        "base-library"
+      ],
+      "complexity": "simple",
+      "language": "markdown"
+    },
+    {
+      "id": "document:doc/src/base/file.md",
+      "type": "document",
+      "name": "file.md",
+      "filePath": "doc/src/base/file.md",
+      "summary": "Documentation covering Filesystem.",
+      "tags": [
+        "documentation",
+        "runtime",
+        "base-library"
+      ],
+      "complexity": "moderate",
+      "language": "markdown"
+    },
+    {
+      "id": "document:doc/src/base/io-network.md",
+      "type": "document",
+      "name": "io-network.md",
+      "filePath": "doc/src/base/io-network.md",
+      "summary": "Documentation covering I/O and Network, General I/O, Text I/O and more.",
+      "tags": [
+        "documentation",
+        "runtime",
+        "base-library"
+      ],
+      "complexity": "moderate",
+      "language": "markdown"
+    },
+    {
+      "id": "document:doc/src/base/iterators.md",
+      "type": "document",
+      "name": "iterators.md",
+      "filePath": "doc/src/base/iterators.md",
+      "summary": "Documentation covering Iteration utilities.",
+      "tags": [
+        "documentation",
+        "runtime",
+        "base-library"
+      ],
+      "complexity": "simple",
+      "language": "markdown"
+    },
+    {
+      "id": "document:doc/src/base/libc.md",
+      "type": "document",
+      "name": "libc.md",
+      "filePath": "doc/src/base/libc.md",
+      "summary": "Documentation covering C Standard Library.",
+      "tags": [
+        "documentation",
+        "runtime",
+        "base-library"
+      ],
+      "complexity": "simple",
+      "language": "markdown"
+    },
+    {
+      "id": "document:doc/src/base/math.md",
+      "type": "document",
+      "name": "math.md",
+      "filePath": "doc/src/base/math.md",
+      "summary": "Documentation covering Mathematics, [Mathematical Operators](@id math-ops), Comparisons and more.",
+      "tags": [
+        "documentation",
+        "runtime",
+        "base-library"
+      ],
+      "complexity": "complex",
+      "language": "markdown"
+    },
+    {
+      "id": "document:doc/src/base/multi-threading.md",
+      "type": "document",
+      "name": "multi-threading.md",
+      "filePath": "doc/src/base/multi-threading.md",
+      "summary": "Documentation covering [Multi-Threading](@id lib-multithreading), Atomic operations, Atomic memory fences and more.",
+      "tags": [
+        "documentation",
+        "runtime",
+        "base-library"
+      ],
+      "complexity": "moderate",
+      "language": "markdown"
+    },
+    {
+      "id": "document:doc/src/base/numbers.md",
+      "type": "document",
+      "name": "numbers.md",
+      "filePath": "doc/src/base/numbers.md",
+      "summary": "Documentation covering [Numbers](@id lib-numbers), Standard Numeric Types, Abstract Number Types and more.",
+      "tags": [
+        "documentation",
+        "runtime",
+        "base-library"
+      ],
+      "complexity": "moderate",
+      "language": "markdown"
+    },
+    {
+      "id": "document:doc/src/base/parallel.md",
+      "type": "document",
+      "name": "parallel.md",
+      "filePath": "doc/src/base/parallel.md",
+      "summary": "Documentation covering Tasks, Scheduling, [Synchronization](@id lib-task-sync) and more.",
+      "tags": [
+        "documentation",
+        "runtime",
+        "base-library"
+      ],
+      "complexity": "moderate",
+      "language": "markdown"
+    },
+    {
+      "id": "document:doc/src/base/punctuation.md",
+      "type": "document",
+      "name": "punctuation.md",
+      "filePath": "doc/src/base/punctuation.md",
+      "summary": "Documentation covering [Punctuation](@id man-punctuation).",
+      "tags": [
+        "documentation",
+        "runtime",
+        "base-library"
+      ],
+      "complexity": "moderate",
+      "language": "markdown"
+    },
+    {
+      "id": "document:doc/src/base/reflection.md",
+      "type": "document",
+      "name": "reflection.md",
+      "filePath": "doc/src/base/reflection.md",
+      "summary": "Documentation covering Reflection and introspection, Module bindings, DataType fields and more.",
+      "tags": [
+        "documentation",
+        "runtime",
+        "base-library"
+      ],
+      "complexity": "moderate",
+      "language": "markdown"
+    },
+    {
+      "id": "document:doc/src/base/scopedvalues.md",
+      "type": "document",
+      "name": "scopedvalues.md",
+      "filePath": "doc/src/base/scopedvalues.md",
+      "summary": "Documentation covering [Scoped Values](@id scoped-values), Example, Idioms and more.",
+      "tags": [
+        "documentation",
+        "runtime",
+        "base-library"
+      ],
+      "complexity": "complex",
+      "language": "markdown"
+    },
+    {
+      "id": "document:doc/src/base/simd-types.md",
+      "type": "document",
+      "name": "simd-types.md",
+      "filePath": "doc/src/base/simd-types.md",
+      "summary": "Documentation covering SIMD Support.",
+      "tags": [
+        "documentation",
+        "runtime",
+        "base-library",
+        "type-inference"
+      ],
+      "complexity": "simple",
+      "language": "markdown"
+    },
+    {
+      "id": "document:doc/src/base/sort.md",
+      "type": "document",
+      "name": "sort.md",
+      "filePath": "doc/src/base/sort.md",
+      "summary": "Documentation covering Sorting and Related Functions, Sorting Functions, Order-Related Functions and more.",
+      "tags": [
+        "documentation",
+        "runtime",
+        "base-library"
+      ],
+      "complexity": "moderate",
+      "language": "markdown"
+    },
+    {
+      "id": "document:doc/src/base/stacktraces.md",
+      "type": "document",
+      "name": "stacktraces.md",
+      "filePath": "doc/src/base/stacktraces.md",
+      "summary": "Documentation covering StackTraces.",
+      "tags": [
+        "documentation",
+        "runtime",
+        "base-library"
+      ],
+      "complexity": "simple",
+      "language": "markdown"
+    },
+    {
+      "id": "document:doc/src/base/strings.md",
+      "type": "document",
+      "name": "strings.md",
+      "filePath": "doc/src/base/strings.md",
+      "summary": "Documentation covering [Strings](@id lib-strings), Characters, String Basics and more.",
+      "tags": [
+        "documentation",
+        "runtime",
+        "base-library"
+      ],
+      "complexity": "moderate",
+      "language": "markdown"
+    }
+  ],
+  "edges": [],
+  "batchFiles": [
+    {
+      "path": "doc/src/base/arrays.md",
+      "language": "markdown",
+      "fileCategory": "docs",
+      "totalLines": 215,
+      "nonEmptyLines": 193,
+      "sections": [
+        {
+          "heading": "[Arrays](@id lib-arrays)",
+          "level": 1,
+          "line": 1
+        },
+        {
+          "heading": "Constructors and Types",
+          "level": 2,
+          "line": 3
+        },
+        {
+          "heading": "Basic functions",
+          "level": 2,
+          "line": 55
+        },
+        {
+          "heading": "Broadcast and vectorization",
+          "level": 2,
+          "line": 73
+        },
+        {
+          "heading": "Indexing and assignment",
+          "level": 2,
+          "line": 99
+        },
+        {
+          "heading": "Views (SubArrays and other view types)",
+          "level": 2,
+          "line": 127
+        },
+        {
+          "heading": "Concatenation and permutation",
+          "level": 2,
+          "line": 156
+        },
+        {
+          "heading": "Array functions",
+          "level": 2,
+          "line": 185
+        },
+        {
+          "heading": "Combinatorics",
+          "level": 2,
+          "line": 205
+        }
+      ],
+      "metrics": {
+        "importCount": 0,
+        "exportCount": 0,
+        "functionCount": 0,
+        "classCount": 0,
+        "sectionCount": 9
+      }
+    },
+    {
+      "path": "doc/src/base/base.md",
+      "language": "markdown",
+      "fileCategory": "docs",
+      "totalLines": 566,
+      "nonEmptyLines": 515,
+      "sections": [
+        {
+          "heading": "Essentials",
+          "level": 1,
+          "line": 1
+        },
+        {
+          "heading": "Introduction",
+          "level": 2,
+          "line": 3
+        },
+        {
+          "heading": "Getting Around",
+          "level": 2,
+          "line": 24
+        },
+        {
+          "heading": "[Keywords](@id Keywords)",
+          "level": 2,
+          "line": 50
+        },
+        {
+          "heading": "[Standard Modules](@id standard-modules)",
+          "level": 2,
+          "line": 120
+        },
+        {
+          "heading": "[Base Submodules](@id base-submodules)",
+          "level": 2,
+          "line": 127
+        },
+        {
+          "heading": "All Objects",
+          "level": 2,
+          "line": 140
+        },
+        {
+          "heading": "Properties of Types",
+          "level": 2,
+          "line": 184
+        },
+        {
+          "heading": "Type relations",
+          "level": 3,
+          "line": 186
+        },
+        {
+          "heading": "Declared structure",
+          "level": 3,
+          "line": 203
+        },
+        {
+          "heading": "Memory layout",
+          "level": 3,
+          "line": 226
+        },
+        {
+          "heading": "Special values",
+          "level": 3,
+          "line": 239
+        },
+        {
+          "heading": "Special Types",
+          "level": 2,
+          "line": 252
+        },
+        {
+          "heading": "Generic Functions",
+          "level": 2,
+          "line": 281
+        },
+        {
+          "heading": "Syntax",
+          "level": 2,
+          "line": 304
+        },
+        {
+          "heading": "Managing deprecations",
+          "level": 2,
+          "line": 332
+        },
+        {
+          "heading": "Missing Values",
+          "level": 2,
+          "line": 338
+        },
+        {
+          "heading": "System",
+          "level": 2,
+          "line": 349
+        },
+        {
+          "heading": "Versioning",
+          "level": 2,
+          "line": 417
+        },
+        {
+          "heading": "Errors",
+          "level": 2,
+          "line": 424
+        },
+        {
+          "heading": "Events",
+          "level": 2,
+          "line": 469
+        },
+        {
+          "heading": "Reflection",
+          "level": 2,
+          "line": 478
+        },
+        {
+          "heading": "Documentation",
+          "level": 2,
+          "line": 511
+        },
+        {
+          "heading": "Code loading",
+          "level": 2,
+          "line": 521
+        },
+        {
+          "heading": "Internals",
+          "level": 2,
+          "line": 531
+        },
+        {
+          "heading": "Meta",
+          "level": 2,
+          "line": 557
+        }
+      ],
+      "metrics": {
+        "importCount": 0,
+        "exportCount": 0,
+        "functionCount": 0,
+        "classCount": 0,
+        "sectionCount": 26
+      }
+    },
+    {
+      "path": "doc/src/base/c.md",
+      "language": "markdown",
+      "fileCategory": "docs",
+      "totalLines": 58,
+      "nonEmptyLines": 55,
+      "sections": [
+        {
+          "heading": "C Interface",
+          "level": 1,
+          "line": 1
+        },
+        {
+          "heading": "LLVM Interface",
+          "level": 1,
+          "line": 54
+        }
+      ],
+      "metrics": {
+        "importCount": 0,
+        "exportCount": 0,
+        "functionCount": 0,
+        "classCount": 0,
+        "sectionCount": 2
+      }
+    },
+    {
+      "path": "doc/src/base/collections.md",
+      "language": "markdown",
+      "fileCategory": "docs",
+      "totalLines": 320,
+      "nonEmptyLines": 269,
+      "sections": [
+        {
+          "heading": "Collections and Data Structures",
+          "level": 1,
+          "line": 1
+        },
+        {
+          "heading": "[Iteration](@id lib-collections-iteration)",
+          "level": 2,
+          "line": 3
+        },
+        {
+          "heading": "Ranges",
+          "level": 2,
+          "line": 52
+        },
+        {
+          "heading": "Constructing Ranges",
+          "level": 3,
+          "line": 54
+        },
+        {
+          "heading": "Range Types",
+          "level": 3,
+          "line": 63
+        },
+        {
+          "heading": "General Collections",
+          "level": 2,
+          "line": 78
+        },
+        {
+          "heading": "Iterable Collections",
+          "level": 2,
+          "line": 103
+        },
+        {
+          "heading": "Indexable Collections",
+          "level": 2,
+          "line": 164
+        },
+        {
+          "heading": "Dictionaries",
+          "level": 2,
+          "line": 191
+        },
+        {
+          "heading": "Set-Like Collections",
+          "level": 2,
+          "line": 259
+        },
+        {
+          "heading": "Deques",
+          "level": 2,
+          "line": 293
+        },
+        {
+          "heading": "Utility Collections",
+          "level": 2,
+          "line": 315
+        }
+      ],
+      "metrics": {
+        "importCount": 0,
+        "exportCount": 0,
+        "functionCount": 0,
+        "classCount": 0,
+        "sectionCount": 12
+      }
+    },
+    {
+      "path": "doc/src/base/constants.md",
+      "language": "markdown",
+      "fileCategory": "docs",
+      "totalLines": 26,
+      "nonEmptyLines": 23,
+      "sections": [
+        {
+          "heading": "[Constants](@id lib-constants)",
+          "level": 1,
+          "line": 1
+        }
+      ],
+      "metrics": {
+        "importCount": 0,
+        "exportCount": 0,
+        "functionCount": 0,
+        "classCount": 0,
+        "sectionCount": 1
+      }
+    },
+    {
+      "path": "doc/src/base/file.md",
+      "language": "markdown",
+      "fileCategory": "docs",
+      "totalLines": 71,
+      "nonEmptyLines": 70,
+      "sections": [
+        {
+          "heading": "Filesystem",
+          "level": 1,
+          "line": 1
+        }
+      ],
+      "metrics": {
+        "importCount": 0,
+        "exportCount": 0,
+        "functionCount": 0,
+        "classCount": 0,
+        "sectionCount": 1
+      }
+    },
+    {
+      "path": "doc/src/base/io-network.md",
+      "language": "markdown",
+      "fileCategory": "docs",
+      "totalLines": 151,
+      "nonEmptyLines": 137,
+      "sections": [
+        {
+          "heading": "I/O and Network",
+          "level": 1,
+          "line": 1
+        },
+        {
+          "heading": "General I/O",
+          "level": 2,
+          "line": 3
+        },
+        {
+          "heading": "Text I/O",
+          "level": 2,
+          "line": 66
+        },
+        {
+          "heading": "[Multimedia I/O](@id Multimedia-I/O)",
+          "level": 2,
+          "line": 87
+        },
+        {
+          "heading": "Network I/O",
+          "level": 2,
+          "line": 142
+        }
+      ],
+      "metrics": {
+        "importCount": 0,
+        "exportCount": 0,
+        "functionCount": 0,
+        "classCount": 0,
+        "sectionCount": 5
+      }
+    },
+    {
+      "path": "doc/src/base/iterators.md",
+      "language": "markdown",
+      "fileCategory": "docs",
+      "totalLines": 29,
+      "nonEmptyLines": 27,
+      "sections": [
+        {
+          "heading": "Iteration utilities",
+          "level": 1,
+          "line": 1
+        }
+      ],
+      "metrics": {
+        "importCount": 0,
+        "exportCount": 0,
+        "functionCount": 0,
+        "classCount": 0,
+        "sectionCount": 1
+      }
+    },
+    {
+      "path": "doc/src/base/libc.md",
+      "language": "markdown",
+      "fileCategory": "docs",
+      "totalLines": 25,
+      "nonEmptyLines": 24,
+      "sections": [
+        {
+          "heading": "C Standard Library",
+          "level": 1,
+          "line": 1
+        }
+      ],
+      "metrics": {
+        "importCount": 0,
+        "exportCount": 0,
+        "functionCount": 0,
+        "classCount": 0,
+        "sectionCount": 1
+      }
+    },
+    {
+      "path": "doc/src/base/math.md",
+      "language": "markdown",
+      "fileCategory": "docs",
+      "totalLines": 323,
+      "nonEmptyLines": 268,
+      "sections": [
+        {
+          "heading": "Mathematics",
+          "level": 1,
+          "line": 1
+        },
+        {
+          "heading": "[Mathematical Operators](@id math-ops)",
+          "level": 2,
+          "line": 3
+        },
+        {
+          "heading": "Comparisons",
+          "level": 2,
+          "line": 35
+        },
+        {
+          "heading": "Logical Operators",
+          "level": 2,
+          "line": 49
+        },
+        {
+          "heading": "Trigonometry",
+          "level": 2,
+          "line": 57
+        },
+        {
+          "heading": "... in Radians",
+          "level": 3,
+          "line": 59
+        },
+        {
+          "heading": "... in Degrees",
+          "level": 3,
+          "line": 86
+        },
+        {
+          "heading": "... in Multiples of π",
+          "level": 3,
+          "line": 113
+        },
+        {
+          "heading": "Hyperbolic",
+          "level": 3,
+          "line": 122
+        },
+        {
+          "heading": "Other Trigonometric Functions",
+          "level": 3,
+          "line": 148
+        },
+        {
+          "heading": "Logarithms",
+          "level": 2,
+          "line": 158
+        },
+        {
+          "heading": "Exponentiation",
+          "level": 2,
+          "line": 168
+        },
+        {
+          "heading": "Rounding",
+          "level": 2,
+          "line": 177
+        },
+        {
+          "heading": "Extrema",
+          "level": 2,
+          "line": 197
+        },
+        {
+          "heading": "Clamping",
+          "level": 2,
+          "line": 205
+        },
+        {
+          "heading": "Checked Operations",
+          "level": 2,
+          "line": 212
+        },
+        {
+          "heading": "Signs",
+          "level": 2,
+          "line": 232
+        },
+        {
+          "heading": "Roots",
+          "level": 2,
+          "line": 252
+        },
+        {
+          "heading": "Complex Functions",
+          "level": 2,
+          "line": 261
+        },
+        {
+          "heading": "Combinatorics and Number Theory",
+          "level": 2,
+          "line": 273
+        },
+        {
+          "heading": "Other Mathematical Functions",
+          "level": 2,
+          "line": 289
+        },
+        {
+          "heading": "Customizable binary operators",
+          "level": 2,
+          "line": 299
+        }
+      ],
+      "metrics": {
+        "importCount": 0,
+        "exportCount": 0,
+        "functionCount": 0,
+        "classCount": 0,
+        "sectionCount": 22
+      }
+    },
+    {
+      "path": "doc/src/base/multi-threading.md",
+      "language": "markdown",
+      "fileCategory": "docs",
+      "totalLines": 94,
+      "nonEmptyLines": 75,
+      "sections": [
+        {
+          "heading": "[Multi-Threading](@id lib-multithreading)",
+          "level": 1,
+          "line": 1
+        },
+        {
+          "heading": "Atomic operations",
+          "level": 2,
+          "line": 18
+        },
+        {
+          "heading": "Atomic memory fences",
+          "level": 3,
+          "line": 36
+        },
+        {
+          "heading": "Atomic values (`Threads.Atomic`)",
+          "level": 3,
+          "line": 44
+        },
+        {
+          "heading": "ccall using a libuv threadpool (Experimental)",
+          "level": 2,
+          "line": 72
+        },
+        {
+          "heading": "Low-level synchronization primitives",
+          "level": 2,
+          "line": 78
+        },
+        {
+          "heading": "Task metrics (Experimental)",
+          "level": 2,
+          "line": 88
+        }
+      ],
+      "metrics": {
+        "importCount": 0,
+        "exportCount": 0,
+        "functionCount": 0,
+        "classCount": 0,
+        "sectionCount": 7
+      }
+    },
+    {
+      "path": "doc/src/base/numbers.md",
+      "language": "markdown",
+      "fileCategory": "docs",
+      "totalLines": 184,
+      "nonEmptyLines": 166,
+      "sections": [
+        {
+          "heading": "[Numbers](@id lib-numbers)",
+          "level": 1,
+          "line": 1
+        },
+        {
+          "heading": "Standard Numeric Types",
+          "level": 2,
+          "line": 3
+        },
+        {
+          "heading": "Abstract Number Types",
+          "level": 3,
+          "line": 36
+        },
+        {
+          "heading": "Concrete Number Types",
+          "level": 3,
+          "line": 48
+        },
+        {
+          "heading": "Data Formats",
+          "level": 2,
+          "line": 74
+        },
+        {
+          "heading": "General Number Functions and Constants",
+          "level": 2,
+          "line": 98
+        },
+        {
+          "heading": "Bit Operations",
+          "level": 2,
+          "line": 137
+        },
+        {
+          "heading": "Integers",
+          "level": 3,
+          "line": 161
+        },
+        {
+          "heading": "[BigFloats and BigInts](@id BigFloats-and-BigInts)",
+          "level": 2,
+          "line": 170
+        }
+      ],
+      "metrics": {
+        "importCount": 0,
+        "exportCount": 0,
+        "functionCount": 0,
+        "classCount": 0,
+        "sectionCount": 9
+      }
+    },
+    {
+      "path": "doc/src/base/parallel.md",
+      "language": "markdown",
+      "fileCategory": "docs",
+      "totalLines": 186,
+      "nonEmptyLines": 163,
+      "sections": [
+        {
+          "heading": "Tasks",
+          "level": 1,
+          "line": 1
+        },
+        {
+          "heading": "Scheduling",
+          "level": 2,
+          "line": 19
+        },
+        {
+          "heading": "[Synchronization](@id lib-task-sync)",
+          "level": 2,
+          "line": 28
+        },
+        {
+          "heading": "Cancellation",
+          "level": 2,
+          "line": 61
+        },
+        {
+          "heading": "Channels",
+          "level": 2,
+          "line": 83
+        },
+        {
+          "heading": "[Low-level synchronization using `schedule` and `wait`](@id low-level-schedule-wait)",
+          "level": 2,
+          "line": 99
+        }
+      ],
+      "metrics": {
+        "importCount": 0,
+        "exportCount": 0,
+        "functionCount": 0,
+        "classCount": 0,
+        "sectionCount": 6
+      }
+    },
+    {
+      "path": "doc/src/base/punctuation.md",
+      "language": "markdown",
+      "fileCategory": "docs",
+      "totalLines": 62,
+      "nonEmptyLines": 60,
+      "sections": [
+        {
+          "heading": "[Punctuation](@id man-punctuation)",
+          "level": 1,
+          "line": 1
+        }
+      ],
+      "metrics": {
+        "importCount": 0,
+        "exportCount": 0,
+        "functionCount": 0,
+        "classCount": 0,
+        "sectionCount": 1
+      }
+    },
+    {
+      "path": "doc/src/base/reflection.md",
+      "language": "markdown",
+      "fileCategory": "docs",
+      "totalLines": 157,
+      "nonEmptyLines": 119,
+      "sections": [
+        {
+          "heading": "Reflection and introspection",
+          "level": 1,
+          "line": 1
+        },
+        {
+          "heading": "Module bindings",
+          "level": 2,
+          "line": 5
+        },
+        {
+          "heading": "DataType fields",
+          "level": 2,
+          "line": 11
+        },
+        {
+          "heading": "Subtypes",
+          "level": 2,
+          "line": 48
+        },
+        {
+          "heading": "DataType layout",
+          "level": 2,
+          "line": 69
+        },
+        {
+          "heading": "Function methods",
+          "level": 2,
+          "line": 76
+        },
+        {
+          "heading": "Expansion and lowering",
+          "level": 2,
+          "line": 81
+        },
+        {
+          "heading": "Intermediate and compiled representations",
+          "level": 2,
+          "line": 112
+        },
+        {
+          "heading": "Printing of debug information",
+          "level": 3,
+          "line": 141
+        }
+      ],
+      "metrics": {
+        "importCount": 0,
+        "exportCount": 0,
+        "functionCount": 0,
+        "classCount": 0,
+        "sectionCount": 9
+      }
+    },
+    {
+      "path": "doc/src/base/scopedvalues.md",
+      "language": "markdown",
+      "fileCategory": "docs",
+      "totalLines": 338,
+      "nonEmptyLines": 258,
+      "sections": [
+        {
+          "heading": "[Scoped Values](@id scoped-values)",
+          "level": 1,
+          "line": 1
+        },
+        {
+          "heading": "Example",
+          "level": 2,
+          "line": 199
+        },
+        {
+          "heading": "Idioms",
+          "level": 2,
+          "line": 236
+        },
+        {
+          "heading": "[Unshare mutable state](@id unshare_mutable_state)",
+          "level": 3,
+          "line": 237
+        },
+        {
+          "heading": "Scoped values as globals",
+          "level": 3,
+          "line": 256
+        },
+        {
+          "heading": "Very many ScopedValues",
+          "level": 3,
+          "line": 291
+        },
+        {
+          "heading": "API docs",
+          "level": 2,
+          "line": 312
+        },
+        {
+          "heading": "Implementation notes and performance",
+          "level": 2,
+          "line": 324
+        },
+        {
+          "heading": "Design inspiration",
+          "level": 2,
+          "line": 333
+        }
+      ],
+      "metrics": {
+        "importCount": 0,
+        "exportCount": 0,
+        "functionCount": 0,
+        "classCount": 0,
+        "sectionCount": 9
+      }
+    },
+    {
+      "path": "doc/src/base/simd-types.md",
+      "language": "markdown",
+      "fileCategory": "docs",
+      "totalLines": 35,
+      "nonEmptyLines": 26,
+      "sections": [
+        {
+          "heading": "SIMD Support",
+          "level": 1,
+          "line": 1
+        }
+      ],
+      "metrics": {
+        "importCount": 0,
+        "exportCount": 0,
+        "functionCount": 0,
+        "classCount": 0,
+        "sectionCount": 1
+      }
+    },
+    {
+      "path": "doc/src/base/sort.md",
+      "language": "markdown",
+      "fileCategory": "docs",
+      "totalLines": 193,
+      "nonEmptyLines": 160,
+      "sections": [
+        {
+          "heading": "Sorting and Related Functions",
+          "level": 1,
+          "line": 1
+        },
+        {
+          "heading": "Sorting Functions",
+          "level": 2,
+          "line": 111
+        },
+        {
+          "heading": "Order-Related Functions",
+          "level": 2,
+          "line": 125
+        },
+        {
+          "heading": "Sorting Algorithms",
+          "level": 2,
+          "line": 139
+        },
+        {
+          "heading": "Alternate Orderings",
+          "level": 2,
+          "line": 169
+        }
+      ],
+      "metrics": {
+        "importCount": 0,
+        "exportCount": 0,
+        "functionCount": 0,
+        "classCount": 0,
+        "sectionCount": 5
+      }
+    },
+    {
+      "path": "doc/src/base/stacktraces.md",
+      "language": "markdown",
+      "fileCategory": "docs",
+      "totalLines": 15,
+      "nonEmptyLines": 12,
+      "sections": [
+        {
+          "heading": "StackTraces",
+          "level": 1,
+          "line": 1
+        }
+      ],
+      "metrics": {
+        "importCount": 0,
+        "exportCount": 0,
+        "functionCount": 0,
+        "classCount": 0,
+        "sectionCount": 1
+      }
+    },
+    {
+      "path": "doc/src/base/strings.md",
+      "language": "markdown",
+      "fileCategory": "docs",
+      "totalLines": 242,
+      "nonEmptyLines": 194,
+      "sections": [
+        {
+          "heading": "[Strings](@id lib-strings)",
+          "level": 1,
+          "line": 1
+        },
+        {
+          "heading": "Characters",
+          "level": 2,
+          "line": 7
+        },
+        {
+          "heading": "String Basics",
+          "level": 2,
+          "line": 29
+        },
+        {
+          "heading": "Concatenation",
+          "level": 2,
+          "line": 53
+        },
+        {
+          "heading": "Comparison",
+          "level": 2,
+          "line": 62
+        },
+        {
+          "heading": "Encoding",
+          "level": 2,
+          "line": 70
+        },
+        {
+          "heading": "Non-Standard String Literals",
+          "level": 2,
+          "line": 100
+        },
+        {
+          "heading": "[Regular Expressions](@id base-regex-literals)",
+          "level": 2,
+          "line": 119
+        },
+        {
+          "heading": "Padding, Truncating, Chopping and Stripping",
+          "level": 2,
+          "line": 136
+        },
+        {
+          "heading": "Splitting and Joining",
+          "level": 2,
+          "line": 167
+        },
+        {
+          "heading": "Find and Replace",
+          "level": 2,
+          "line": 181
+        },
+        {
+          "heading": "Transforming Strings",
+          "level": 2,
+          "line": 209
+        },
+        {
+          "heading": "[Annotated Strings](@id base-annotated-strings)",
+          "level": 2,
+          "line": 229
+        }
+      ],
+      "metrics": {
+        "importCount": 0,
+        "exportCount": 0,
+        "functionCount": 0,
+        "classCount": 0,
+        "sectionCount": 13
+      }
+    }
+  ]
+}

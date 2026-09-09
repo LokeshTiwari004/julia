@@ -1,0 +1,182 @@
+{
+  "projectRoot": "/home/maruti/julia",
+  "batchFiles": [
+    {
+      "path": "JuliaLowering/src/desugaring.jl",
+      "language": "jl",
+      "sizeLines": 4547,
+      "fileCategory": "code"
+    },
+    {
+      "path": "JuliaLowering/src/eval.jl",
+      "language": "jl",
+      "sizeLines": 876,
+      "fileCategory": "code"
+    },
+    {
+      "path": "JuliaLowering/src/hooks.jl",
+      "language": "jl",
+      "sizeLines": 75,
+      "fileCategory": "code"
+    },
+    {
+      "path": "JuliaLowering/src/kinds.jl",
+      "language": "jl",
+      "sizeLines": 225,
+      "fileCategory": "code"
+    },
+    {
+      "path": "JuliaLowering/src/linear_ir.jl",
+      "language": "jl",
+      "sizeLines": 1350,
+      "fileCategory": "code"
+    },
+    {
+      "path": "JuliaLowering/src/macro_expansion.jl",
+      "language": "jl",
+      "sizeLines": 413,
+      "fileCategory": "code"
+    },
+    {
+      "path": "JuliaLowering/src/precompile.jl",
+      "language": "jl",
+      "sizeLines": 55,
+      "fileCategory": "code"
+    },
+    {
+      "path": "JuliaLowering/src/runtime.jl",
+      "language": "jl",
+      "sizeLines": 437,
+      "fileCategory": "code"
+    },
+    {
+      "path": "JuliaLowering/src/scope_analysis.jl",
+      "language": "jl",
+      "sizeLines": 968,
+      "fileCategory": "code"
+    },
+    {
+      "path": "JuliaLowering/src/syntax_macros.jl",
+      "language": "jl",
+      "sizeLines": 441,
+      "fileCategory": "code"
+    },
+    {
+      "path": "JuliaLowering/src/utils.jl",
+      "language": "jl",
+      "sizeLines": 397,
+      "fileCategory": "code"
+    },
+    {
+      "path": "JuliaLowering/src/validation.jl",
+      "language": "jl",
+      "sizeLines": 1392,
+      "fileCategory": "code"
+    },
+    {
+      "path": "JuliaLowering/test/arrays.jl",
+      "language": "jl",
+      "sizeLines": 158,
+      "fileCategory": "code"
+    },
+    {
+      "path": "JuliaLowering/test/arrays_ir.jl",
+      "language": "jl",
+      "sizeLines": 510,
+      "fileCategory": "code"
+    },
+    {
+      "path": "JuliaLowering/test/assignments.jl",
+      "language": "jl",
+      "sizeLines": 613,
+      "fileCategory": "code"
+    },
+    {
+      "path": "JuliaLowering/test/assignments_ir.jl",
+      "language": "jl",
+      "sizeLines": 378,
+      "fileCategory": "code"
+    },
+    {
+      "path": "JuliaLowering/test/ast.jl",
+      "language": "jl",
+      "sizeLines": 85,
+      "fileCategory": "code"
+    },
+    {
+      "path": "JuliaLowering/test/branching.jl",
+      "language": "jl",
+      "sizeLines": 552,
+      "fileCategory": "code"
+    },
+    {
+      "path": "JuliaLowering/test/branching_ir.jl",
+      "language": "jl",
+      "sizeLines": 258,
+      "fileCategory": "code"
+    },
+    {
+      "path": "JuliaLowering/test/closures.jl",
+      "language": "jl",
+      "sizeLines": 1481,
+      "fileCategory": "code"
+    },
+    {
+      "path": "JuliaLowering/test/closures_ir.jl",
+      "language": "jl",
+      "sizeLines": 1168,
+      "fileCategory": "code"
+    },
+    {
+      "path": "JuliaLowering/test/compat.jl",
+      "language": "jl",
+      "sizeLines": 680,
+      "fileCategory": "code"
+    },
+    {
+      "path": "JuliaLowering/test/decls.jl",
+      "language": "jl",
+      "sizeLines": 1222,
+      "fileCategory": "code"
+    },
+    {
+      "path": "JuliaLowering/test/decls_ir.jl",
+      "language": "jl",
+      "sizeLines": 558,
+      "fileCategory": "code"
+    },
+    {
+      "path": "JuliaLowering/test/destructuring.jl",
+      "language": "jl",
+      "sizeLines": 221,
+      "fileCategory": "code"
+    }
+  ],
+  "batchImportData": {
+    "JuliaLowering/src/desugaring.jl": [],
+    "JuliaLowering/src/eval.jl": [],
+    "JuliaLowering/src/hooks.jl": [],
+    "JuliaLowering/src/kinds.jl": [],
+    "JuliaLowering/src/linear_ir.jl": [],
+    "JuliaLowering/src/macro_expansion.jl": [],
+    "JuliaLowering/src/precompile.jl": [],
+    "JuliaLowering/src/runtime.jl": [],
+    "JuliaLowering/src/scope_analysis.jl": [],
+    "JuliaLowering/src/syntax_macros.jl": [],
+    "JuliaLowering/src/utils.jl": [],
+    "JuliaLowering/src/validation.jl": [],
+    "JuliaLowering/test/arrays.jl": [],
+    "JuliaLowering/test/arrays_ir.jl": [],
+    "JuliaLowering/test/assignments.jl": [],
+    "JuliaLowering/test/assignments_ir.jl": [],
+    "JuliaLowering/test/ast.jl": [],
+    "JuliaLowering/test/branching.jl": [],
+    "JuliaLowering/test/branching_ir.jl": [],
+    "JuliaLowering/test/closures.jl": [],
+    "JuliaLowering/test/closures_ir.jl": [],
+    "JuliaLowering/test/compat.jl": [],
+    "JuliaLowering/test/decls.jl": [],
+    "JuliaLowering/test/decls_ir.jl": [],
+    "JuliaLowering/test/destructuring.jl": []
+  }
+}

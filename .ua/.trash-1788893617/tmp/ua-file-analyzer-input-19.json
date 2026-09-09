@@ -1,0 +1,147 @@
+{
+  "projectRoot": "/home/maruti/julia",
+  "batchFiles": [
+    {
+      "path": ".ua/.trash-1788882187/batch-26.json",
+      "language": "json",
+      "sizeLines": 2377,
+      "fileCategory": "config"
+    },
+    {
+      "path": ".ua/.trash-1788882187/batch-27.json",
+      "language": "json",
+      "sizeLines": 2129,
+      "fileCategory": "config"
+    },
+    {
+      "path": ".ua/.trash-1788882187/batch-28.json",
+      "language": "json",
+      "sizeLines": 791,
+      "fileCategory": "config"
+    },
+    {
+      "path": ".ua/.trash-1788882187/batch-29.json",
+      "language": "json",
+      "sizeLines": 254,
+      "fileCategory": "config"
+    },
+    {
+      "path": ".ua/.trash-1788882187/batch-3.json",
+      "language": "json",
+      "sizeLines": 34595,
+      "fileCategory": "config"
+    },
+    {
+      "path": ".ua/.trash-1788882187/batch-30.json",
+      "language": "json",
+      "sizeLines": 227,
+      "fileCategory": "config"
+    },
+    {
+      "path": ".ua/.trash-1788882187/batch-31.json",
+      "language": "json",
+      "sizeLines": 5,
+      "fileCategory": "config"
+    },
+    {
+      "path": ".ua/.trash-1788882187/batch-32.json",
+      "language": "json",
+      "sizeLines": 128,
+      "fileCategory": "config"
+    },
+    {
+      "path": ".ua/.trash-1788882187/batch-33.json",
+      "language": "json",
+      "sizeLines": 338,
+      "fileCategory": "config"
+    },
+    {
+      "path": ".ua/.trash-1788882187/batch-34.json",
+      "language": "json",
+      "sizeLines": 108,
+      "fileCategory": "config"
+    },
+    {
+      "path": ".ua/.trash-1788882187/batch-35.json",
+      "language": "json",
+      "sizeLines": 5,
+      "fileCategory": "config"
+    },
+    {
+      "path": ".ua/.trash-1788882187/batch-36.json",
+      "language": "json",
+      "sizeLines": 5,
+      "fileCategory": "config"
+    },
+    {
+      "path": ".ua/.trash-1788882187/batch-37.json",
+      "language": "json",
+      "sizeLines": 5,
+      "fileCategory": "config"
+    },
+    {
+      "path": ".ua/.trash-1788882187/batch-38.json",
+      "language": "json",
+      "sizeLines": 5,
+      "fileCategory": "config"
+    },
+    {
+      "path": ".ua/.trash-1788882187/batch-39.json",
+      "language": "json",
+      "sizeLines": 33,
+      "fileCategory": "config"
+    },
+    {
+      "path": ".ua/.trash-1788882187/batch-4.json",
+      "language": "json",
+      "sizeLines": 56415,
+      "fileCategory": "config"
+    },
+    {
+      "path": ".ua/.trash-1788882187/batch-40.json",
+      "language": "json",
+      "sizeLines": 5,
+      "fileCategory": "config"
+    },
+    {
+      "path": ".ua/.trash-1788882187/batch-41.json",
+      "language": "json",
+      "sizeLines": 5,
+      "fileCategory": "config"
+    },
+    {
+      "path": ".ua/.trash-1788882187/batch-42.json",
+      "language": "json",
+      "sizeLines": 714,
+      "fileCategory": "config"
+    },
+    {
+      "path": ".ua/.trash-1788882187/batch-43.json",
+      "language": "json",
+      "sizeLines": 287,
+      "fileCategory": "config"
+    }
+  ],
+  "batchImportData": {
+    ".ua/.trash-1788882187/batch-26.json": [],
+    ".ua/.trash-1788882187/batch-27.json": [],
+    ".ua/.trash-1788882187/batch-28.json": [],
+    ".ua/.trash-1788882187/batch-29.json": [],
+    ".ua/.trash-1788882187/batch-3.json": [],
+    ".ua/.trash-1788882187/batch-30.json": [],
+    ".ua/.trash-1788882187/batch-31.json": [],
+    ".ua/.trash-1788882187/batch-32.json": [],
+    ".ua/.trash-1788882187/batch-33.json": [],
+    ".ua/.trash-1788882187/batch-34.json": [],
+    ".ua/.trash-1788882187/batch-35.json": [],
+    ".ua/.trash-1788882187/batch-36.json": [],
+    ".ua/.trash-1788882187/batch-37.json": [],
+    ".ua/.trash-1788882187/batch-38.json": [],
+    ".ua/.trash-1788882187/batch-39.json": [],
+    ".ua/.trash-1788882187/batch-4.json": [],
+    ".ua/.trash-1788882187/batch-40.json": [],
+    ".ua/.trash-1788882187/batch-41.json": [],
+    ".ua/.trash-1788882187/batch-42.json": [],
+    ".ua/.trash-1788882187/batch-43.json": []
+  }
+}

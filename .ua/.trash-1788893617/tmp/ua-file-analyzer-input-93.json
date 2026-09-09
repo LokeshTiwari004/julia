@@ -1,0 +1,182 @@
+{
+  "projectRoot": "/home/maruti/julia",
+  "batchFiles": [
+    {
+      "path": "test/project/SubProject/Devved2/Project.toml",
+      "language": "toml",
+      "sizeLines": 3,
+      "fileCategory": "config"
+    },
+    {
+      "path": "test/project/SubProject/Devved2/src/Devved2.jl",
+      "language": "jl",
+      "sizeLines": 5,
+      "fileCategory": "code"
+    },
+    {
+      "path": "test/project/SubProject/Manifest.toml",
+      "language": "toml",
+      "sizeLines": 68,
+      "fileCategory": "config"
+    },
+    {
+      "path": "test/project/SubProject/PackageThatIsSub/Project.toml",
+      "language": "toml",
+      "sizeLines": 14,
+      "fileCategory": "config"
+    },
+    {
+      "path": "test/project/SubProject/PackageThatIsSub/src/PackageThatIsSub.jl",
+      "language": "jl",
+      "sizeLines": 5,
+      "fileCategory": "code"
+    },
+    {
+      "path": "test/project/SubProject/PackageThatIsSub/test/Project.toml",
+      "language": "toml",
+      "sizeLines": 8,
+      "fileCategory": "config"
+    },
+    {
+      "path": "test/project/SubProject/Project.toml",
+      "language": "toml",
+      "sizeLines": 13,
+      "fileCategory": "config"
+    },
+    {
+      "path": "test/project/SubProject/nested/deep/Project.toml",
+      "language": "toml",
+      "sizeLines": 2,
+      "fileCategory": "config"
+    },
+    {
+      "path": "test/project/SubProject/nested/deep/src/DeepNested.jl",
+      "language": "jl",
+      "sizeLines": 2,
+      "fileCategory": "code"
+    },
+    {
+      "path": "test/project/SubProject/src/MyPkg.jl",
+      "language": "jl",
+      "sizeLines": 3,
+      "fileCategory": "code"
+    },
+    {
+      "path": "test/project/SubProject/sub/Project.toml",
+      "language": "toml",
+      "sizeLines": 3,
+      "fileCategory": "config"
+    },
+    {
+      "path": "test/project/SubProject/test/Project.toml",
+      "language": "toml",
+      "sizeLines": 4,
+      "fileCategory": "config"
+    },
+    {
+      "path": "test/project/SyntaxVersioning/explicit/Manifest.toml",
+      "language": "toml",
+      "sizeLines": 19,
+      "fileCategory": "config"
+    },
+    {
+      "path": "test/project/SyntaxVersioning/explicit/Project.toml",
+      "language": "toml",
+      "sizeLines": 4,
+      "fileCategory": "config"
+    },
+    {
+      "path": "test/project/SyntaxVersioning/explicit/VersionedDep1/Project.toml",
+      "language": "toml",
+      "sizeLines": 3,
+      "fileCategory": "config"
+    },
+    {
+      "path": "test/project/SyntaxVersioning/explicit/VersionedDep1/src/VersionedDep1.jl",
+      "language": "jl",
+      "sizeLines": 3,
+      "fileCategory": "code"
+    },
+    {
+      "path": "test/project/SyntaxVersioning/explicit/VersionedDep2/Project.toml",
+      "language": "toml",
+      "sizeLines": 3,
+      "fileCategory": "config"
+    },
+    {
+      "path": "test/project/SyntaxVersioning/explicit/VersionedDep2/src/VersionedDep2.jl",
+      "language": "jl",
+      "sizeLines": 3,
+      "fileCategory": "code"
+    },
+    {
+      "path": "test/project/SyntaxVersioning/explicit/VersionedDep3/Project.toml",
+      "language": "toml",
+      "sizeLines": 3,
+      "fileCategory": "config"
+    },
+    {
+      "path": "test/project/SyntaxVersioning/explicit/VersionedDep3/src/VersionedDep3.jl",
+      "language": "jl",
+      "sizeLines": 3,
+      "fileCategory": "code"
+    },
+    {
+      "path": "test/project/SyntaxVersioning/implicit/Versioned1/Project.toml",
+      "language": "toml",
+      "sizeLines": 3,
+      "fileCategory": "config"
+    },
+    {
+      "path": "test/project/SyntaxVersioning/implicit/Versioned1/src/Versioned1.jl",
+      "language": "jl",
+      "sizeLines": 3,
+      "fileCategory": "code"
+    },
+    {
+      "path": "test/project/SyntaxVersioning/implicit/Versioned2/Project.toml",
+      "language": "toml",
+      "sizeLines": 3,
+      "fileCategory": "config"
+    },
+    {
+      "path": "test/project/SyntaxVersioning/implicit/Versioned2/src/Versioned2.jl",
+      "language": "jl",
+      "sizeLines": 3,
+      "fileCategory": "code"
+    },
+    {
+      "path": "test/project/SyntaxVersioning/implicit/Versioned3/Project.toml",
+      "language": "toml",
+      "sizeLines": 5,
+      "fileCategory": "config"
+    }
+  ],
+  "batchImportData": {
+    "test/project/SubProject/Devved2/Project.toml": [],
+    "test/project/SubProject/Devved2/src/Devved2.jl": [],
+    "test/project/SubProject/Manifest.toml": [],
+    "test/project/SubProject/PackageThatIsSub/Project.toml": [],
+    "test/project/SubProject/PackageThatIsSub/src/PackageThatIsSub.jl": [],
+    "test/project/SubProject/PackageThatIsSub/test/Project.toml": [],
+    "test/project/SubProject/Project.toml": [],
+    "test/project/SubProject/nested/deep/Project.toml": [],
+    "test/project/SubProject/nested/deep/src/DeepNested.jl": [],
+    "test/project/SubProject/src/MyPkg.jl": [],
+    "test/project/SubProject/sub/Project.toml": [],
+    "test/project/SubProject/test/Project.toml": [],
+    "test/project/SyntaxVersioning/explicit/Manifest.toml": [],
+    "test/project/SyntaxVersioning/explicit/Project.toml": [],
+    "test/project/SyntaxVersioning/explicit/VersionedDep1/Project.toml": [],
+    "test/project/SyntaxVersioning/explicit/VersionedDep1/src/VersionedDep1.jl": [],
+    "test/project/SyntaxVersioning/explicit/VersionedDep2/Project.toml": [],
+    "test/project/SyntaxVersioning/explicit/VersionedDep2/src/VersionedDep2.jl": [],
+    "test/project/SyntaxVersioning/explicit/VersionedDep3/Project.toml": [],
+    "test/project/SyntaxVersioning/explicit/VersionedDep3/src/VersionedDep3.jl": [],
+    "test/project/SyntaxVersioning/implicit/Versioned1/Project.toml": [],
+    "test/project/SyntaxVersioning/implicit/Versioned1/src/Versioned1.jl": [],
+    "test/project/SyntaxVersioning/implicit/Versioned2/Project.toml": [],
+    "test/project/SyntaxVersioning/implicit/Versioned2/src/Versioned2.jl": [],
+    "test/project/SyntaxVersioning/implicit/Versioned3/Project.toml": []
+  }
+}

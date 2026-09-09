@@ -1,0 +1,154 @@
+{
+  "scriptCompleted": true,
+  "filesAnalyzed": 4,
+  "filesSkipped": [
+    "test/gcext/Foreign/src/Foreign.jl",
+    "test/gcext/ForeignObjSerialization/src/ForeignObjSerialization.jl",
+    "test/gcext/LocalTest.jl",
+    "test/gcext/gcext-test.jl",
+    "test/generic_map_tests.jl",
+    "test/gmp.jl",
+    "test/goto.jl",
+    "test/hashing.jl",
+    "test/int.jl",
+    "test/interpreter.jl",
+    "test/intfuncs.jl",
+    "test/intrinsics.jl",
+    "test/iobuffer.jl",
+    "test/iostream.jl",
+    "test/iterators.jl",
+    "test/jit.jl",
+    "test/keywordargs.jl",
+    "test/llvmcall.jl",
+    "test/llvmcall2.jl",
+    "test/llvmpasses/aliasscopes.jl",
+    "test/llvmpasses/alloc-opt-bits.ll"
+  ],
+  "analysisOutcomes": {
+    "structure": {
+      "succeeded": 4,
+      "failed": 0
+    },
+    "callGraph": {
+      "succeeded": 0,
+      "failed": 0,
+      "skipped": 4
+    }
+  },
+  "results": [
+    {
+      "path": "test/gcext/ForeignObjSerialization/Manifest.toml",
+      "language": "toml",
+      "fileCategory": "config",
+      "totalLines": 14,
+      "nonEmptyLines": 11,
+      "sections": [
+        {
+          "heading": "[[deps.Foreign]]",
+          "level": 2,
+          "line": 7
+        },
+        {
+          "heading": "[[deps.Libdl]]",
+          "level": 2,
+          "line": 13
+        }
+      ],
+      "metrics": {
+        "importCount": 0,
+        "exportCount": 0,
+        "functionCount": 0,
+        "classCount": 0,
+        "sectionCount": 2
+      }
+    },
+    {
+      "path": "test/gcext/ForeignObjSerialization/Project.toml",
+      "language": "toml",
+      "fileCategory": "config",
+      "totalLines": 6,
+      "nonEmptyLines": 5,
+      "sections": [
+        {
+          "heading": "deps",
+          "level": 1,
+          "line": 5
+        }
+      ],
+      "metrics": {
+        "importCount": 0,
+        "exportCount": 0,
+        "functionCount": 0,
+        "classCount": 0,
+        "sectionCount": 1
+      }
+    },
+    {
+      "path": "test/gcext/Makefile",
+      "language": "makefile",
+      "fileCategory": "infra",
+      "totalLines": 76,
+      "nonEmptyLines": 58,
+      "steps": [
+        {
+          "name": "release",
+          "startLine": 40,
+          "endLine": 40
+        },
+        {
+          "name": "debug",
+          "startLine": 41,
+          "endLine": 42
+        },
+        {
+          "name": "check",
+          "startLine": 62,
+          "endLine": 65
+        },
+        {
+          "name": "clean",
+          "startLine": 66,
+          "endLine": 70
+        }
+      ],
+      "metrics": {
+        "importCount": 0,
+        "exportCount": 0,
+        "functionCount": 0,
+        "classCount": 0,
+        "stepCount": 4
+      }
+    },
+    {
+      "path": "test/llvmpasses/Makefile",
+      "language": "makefile",
+      "fileCategory": "infra",
+      "totalLines": 36,
+      "nonEmptyLines": 29,
+      "steps": [
+        {
+          "name": "check",
+          "startLine": 5,
+          "endLine": 6
+        },
+        {
+          "name": "update-help",
+          "startLine": 27,
+          "endLine": 32
+        },
+        {
+          "name": "clean",
+          "startLine": 33,
+          "endLine": 35
+        }
+      ],
+      "metrics": {
+        "importCount": 0,
+        "exportCount": 0,
+        "functionCount": 0,
+        "classCount": 0,
+        "stepCount": 3
+      }
+    }
+  ]
+}

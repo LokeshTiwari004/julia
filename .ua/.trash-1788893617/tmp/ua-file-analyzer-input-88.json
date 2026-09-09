@@ -1,0 +1,182 @@
+{
+  "projectRoot": "/home/maruti/julia",
+  "batchFiles": [
+    {
+      "path": "test/llvmpasses/late-lower-gc-addrspaces.ll",
+      "language": "ll",
+      "sizeLines": 155,
+      "fileCategory": "code"
+    },
+    {
+      "path": "test/llvmpasses/late-lower-gc-alloc-zeroing.ll",
+      "language": "ll",
+      "sizeLines": 128,
+      "fileCategory": "code"
+    },
+    {
+      "path": "test/llvmpasses/late-lower-gc-select-store.ll",
+      "language": "ll",
+      "sizeLines": 72,
+      "fileCategory": "code"
+    },
+    {
+      "path": "test/llvmpasses/late-lower-gc-sret.ll",
+      "language": "ll",
+      "sizeLines": 151,
+      "fileCategory": "code"
+    },
+    {
+      "path": "test/llvmpasses/late-lower-gc.ll",
+      "language": "ll",
+      "sizeLines": 310,
+      "fileCategory": "code"
+    },
+    {
+      "path": "test/llvmpasses/lit.cfg.py",
+      "language": "python",
+      "sizeLines": 19,
+      "fileCategory": "code"
+    },
+    {
+      "path": "test/llvmpasses/llvmcall.jl",
+      "language": "jl",
+      "sizeLines": 133,
+      "fileCategory": "code"
+    },
+    {
+      "path": "test/llvmpasses/loopinfo.jl",
+      "language": "jl",
+      "sizeLines": 135,
+      "fileCategory": "code"
+    },
+    {
+      "path": "test/llvmpasses/memoryref-addrspace.jl",
+      "language": "jl",
+      "sizeLines": 28,
+      "fileCategory": "code"
+    },
+    {
+      "path": "test/llvmpasses/multiversioning-annotate-only.ll",
+      "language": "ll",
+      "sizeLines": 203,
+      "fileCategory": "code"
+    },
+    {
+      "path": "test/llvmpasses/multiversioning-clone-only.ll",
+      "language": "ll",
+      "sizeLines": 219,
+      "fileCategory": "code"
+    },
+    {
+      "path": "test/llvmpasses/multiversioning-x86.ll",
+      "language": "ll",
+      "sizeLines": 123,
+      "fileCategory": "code"
+    },
+    {
+      "path": "test/llvmpasses/names.jl",
+      "language": "jl",
+      "sizeLines": 182,
+      "fileCategory": "code"
+    },
+    {
+      "path": "test/llvmpasses/noinline.jl",
+      "language": "jl",
+      "sizeLines": 21,
+      "fileCategory": "code"
+    },
+    {
+      "path": "test/llvmpasses/parsing.ll",
+      "language": "ll",
+      "sizeLines": 10,
+      "fileCategory": "code"
+    },
+    {
+      "path": "test/llvmpasses/pipeline-o0.jl",
+      "language": "jl",
+      "sizeLines": 31,
+      "fileCategory": "code"
+    },
+    {
+      "path": "test/llvmpasses/pipeline-o2-allocs.jl",
+      "language": "jl",
+      "sizeLines": 66,
+      "fileCategory": "code"
+    },
+    {
+      "path": "test/llvmpasses/pipeline-o2-broadcast.jl",
+      "language": "jl",
+      "sizeLines": 123,
+      "fileCategory": "code"
+    },
+    {
+      "path": "test/llvmpasses/pipeline-o2.jl",
+      "language": "jl",
+      "sizeLines": 206,
+      "fileCategory": "code"
+    },
+    {
+      "path": "test/llvmpasses/pipeline-prints.ll",
+      "language": "ll",
+      "sizeLines": 307,
+      "fileCategory": "code"
+    },
+    {
+      "path": "test/llvmpasses/propagate-addrspace-non-zero.ll",
+      "language": "ll",
+      "sizeLines": 104,
+      "fileCategory": "code"
+    },
+    {
+      "path": "test/llvmpasses/propagate-addrspace.ll",
+      "language": "ll",
+      "sizeLines": 62,
+      "fileCategory": "code"
+    },
+    {
+      "path": "test/llvmpasses/refinements.ll",
+      "language": "ll",
+      "sizeLines": 233,
+      "fileCategory": "code"
+    },
+    {
+      "path": "test/llvmpasses/remove-addrspaces.ll",
+      "language": "ll",
+      "sizeLines": 127,
+      "fileCategory": "code"
+    },
+    {
+      "path": "test/llvmpasses/returnstwicegc.ll",
+      "language": "ll",
+      "sizeLines": 38,
+      "fileCategory": "code"
+    }
+  ],
+  "batchImportData": {
+    "test/llvmpasses/late-lower-gc-addrspaces.ll": [],
+    "test/llvmpasses/late-lower-gc-alloc-zeroing.ll": [],
+    "test/llvmpasses/late-lower-gc-select-store.ll": [],
+    "test/llvmpasses/late-lower-gc-sret.ll": [],
+    "test/llvmpasses/late-lower-gc.ll": [],
+    "test/llvmpasses/lit.cfg.py": [],
+    "test/llvmpasses/llvmcall.jl": [],
+    "test/llvmpasses/loopinfo.jl": [],
+    "test/llvmpasses/memoryref-addrspace.jl": [],
+    "test/llvmpasses/multiversioning-annotate-only.ll": [],
+    "test/llvmpasses/multiversioning-clone-only.ll": [],
+    "test/llvmpasses/multiversioning-x86.ll": [],
+    "test/llvmpasses/names.jl": [],
+    "test/llvmpasses/noinline.jl": [],
+    "test/llvmpasses/parsing.ll": [],
+    "test/llvmpasses/pipeline-o0.jl": [],
+    "test/llvmpasses/pipeline-o2-allocs.jl": [],
+    "test/llvmpasses/pipeline-o2-broadcast.jl": [],
+    "test/llvmpasses/pipeline-o2.jl": [],
+    "test/llvmpasses/pipeline-prints.ll": [],
+    "test/llvmpasses/propagate-addrspace-non-zero.ll": [],
+    "test/llvmpasses/propagate-addrspace.ll": [],
+    "test/llvmpasses/refinements.ll": [],
+    "test/llvmpasses/remove-addrspaces.ll": [],
+    "test/llvmpasses/returnstwicegc.ll": []
+  }
+}

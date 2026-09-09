@@ -1,0 +1,182 @@
+{
+  "projectRoot": "/home/maruti/julia",
+  "batchFiles": [
+    {
+      "path": "stdlib/libblastrampoline_jll/test/runtests.jl",
+      "language": "jl",
+      "sizeLines": 10,
+      "fileCategory": "code"
+    },
+    {
+      "path": "stdlib/nghttp2_jll/Project.toml",
+      "language": "toml",
+      "sizeLines": 18,
+      "fileCategory": "config"
+    },
+    {
+      "path": "stdlib/nghttp2_jll/src/nghttp2_jll.jl",
+      "language": "jl",
+      "sizeLines": 53,
+      "fileCategory": "code"
+    },
+    {
+      "path": "stdlib/nghttp2_jll/test/runtests.jl",
+      "language": "jl",
+      "sizeLines": 18,
+      "fileCategory": "code"
+    },
+    {
+      "path": "stdlib/p7zip_jll/Project.toml",
+      "language": "toml",
+      "sizeLines": 17,
+      "fileCategory": "config"
+    },
+    {
+      "path": "stdlib/p7zip_jll/src/p7zip_jll.jl",
+      "language": "jl",
+      "sizeLines": 68,
+      "fileCategory": "code"
+    },
+    {
+      "path": "stdlib/p7zip_jll/test/runtests.jl",
+      "language": "jl",
+      "sizeLines": 7,
+      "fileCategory": "code"
+    },
+    {
+      "path": "stdlib/stdlib.mk",
+      "language": "mk",
+      "sizeLines": 30,
+      "fileCategory": "code"
+    },
+    {
+      "path": "sysimage.mk",
+      "language": "mk",
+      "sizeLines": 184,
+      "fileCategory": "code"
+    },
+    {
+      "path": "test/JuliaLowering_stdlibs.jl",
+      "language": "jl",
+      "sizeLines": 89,
+      "fileCategory": "code"
+    },
+    {
+      "path": "test/Makefile",
+      "language": "makefile",
+      "sizeLines": 96,
+      "fileCategory": "infra"
+    },
+    {
+      "path": "test/RelocationTestPkg1/Project.toml",
+      "language": "toml",
+      "sizeLines": 3,
+      "fileCategory": "config"
+    },
+    {
+      "path": "test/RelocationTestPkg1/src/RelocationTestPkg1.jl",
+      "language": "jl",
+      "sizeLines": 5,
+      "fileCategory": "code"
+    },
+    {
+      "path": "test/RelocationTestPkg1/src/foo.txt",
+      "language": "txt",
+      "sizeLines": 0,
+      "fileCategory": "docs"
+    },
+    {
+      "path": "test/RelocationTestPkg2/Project.toml",
+      "language": "toml",
+      "sizeLines": 3,
+      "fileCategory": "config"
+    },
+    {
+      "path": "test/RelocationTestPkg2/src/RelocationTestPkg2.jl",
+      "language": "jl",
+      "sizeLines": 7,
+      "fileCategory": "code"
+    },
+    {
+      "path": "test/RelocationTestPkg2/src/foo.txt",
+      "language": "txt",
+      "sizeLines": 0,
+      "fileCategory": "docs"
+    },
+    {
+      "path": "test/RelocationTestPkg3/Project.toml",
+      "language": "toml",
+      "sizeLines": 3,
+      "fileCategory": "config"
+    },
+    {
+      "path": "test/RelocationTestPkg3/src/RelocationTestPkg3.jl",
+      "language": "jl",
+      "sizeLines": 7,
+      "fileCategory": "code"
+    },
+    {
+      "path": "test/RelocationTestPkg3/src/bar.txt",
+      "language": "txt",
+      "sizeLines": 0,
+      "fileCategory": "docs"
+    },
+    {
+      "path": "test/RelocationTestPkg4/Project.toml",
+      "language": "toml",
+      "sizeLines": 6,
+      "fileCategory": "config"
+    },
+    {
+      "path": "test/RelocationTestPkg4/src/RelocationTestPkg4.jl",
+      "language": "jl",
+      "sizeLines": 5,
+      "fileCategory": "code"
+    },
+    {
+      "path": "test/TestPkg/Manifest.toml",
+      "language": "toml",
+      "sizeLines": 2,
+      "fileCategory": "config"
+    },
+    {
+      "path": "test/TestPkg/Project.toml",
+      "language": "toml",
+      "sizeLines": 6,
+      "fileCategory": "config"
+    },
+    {
+      "path": "test/TestPkg/src/TestPkg.jl",
+      "language": "jl",
+      "sizeLines": 7,
+      "fileCategory": "code"
+    }
+  ],
+  "batchImportData": {
+    "stdlib/libblastrampoline_jll/test/runtests.jl": [],
+    "stdlib/nghttp2_jll/Project.toml": [],
+    "stdlib/nghttp2_jll/src/nghttp2_jll.jl": [],
+    "stdlib/nghttp2_jll/test/runtests.jl": [],
+    "stdlib/p7zip_jll/Project.toml": [],
+    "stdlib/p7zip_jll/src/p7zip_jll.jl": [],
+    "stdlib/p7zip_jll/test/runtests.jl": [],
+    "stdlib/stdlib.mk": [],
+    "sysimage.mk": [],
+    "test/JuliaLowering_stdlibs.jl": [],
+    "test/Makefile": [],
+    "test/RelocationTestPkg1/Project.toml": [],
+    "test/RelocationTestPkg1/src/RelocationTestPkg1.jl": [],
+    "test/RelocationTestPkg1/src/foo.txt": [],
+    "test/RelocationTestPkg2/Project.toml": [],
+    "test/RelocationTestPkg2/src/RelocationTestPkg2.jl": [],
+    "test/RelocationTestPkg2/src/foo.txt": [],
+    "test/RelocationTestPkg3/Project.toml": [],
+    "test/RelocationTestPkg3/src/RelocationTestPkg3.jl": [],
+    "test/RelocationTestPkg3/src/bar.txt": [],
+    "test/RelocationTestPkg4/Project.toml": [],
+    "test/RelocationTestPkg4/src/RelocationTestPkg4.jl": [],
+    "test/TestPkg/Manifest.toml": [],
+    "test/TestPkg/Project.toml": [],
+    "test/TestPkg/src/TestPkg.jl": []
+  }
+}

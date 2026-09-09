@@ -1,0 +1,149 @@
+{
+  "batchIndex": 85,
+  "nodes": [
+    {
+      "id": "config:test/gcext/DependsOnForeign/Manifest.toml",
+      "type": "config",
+      "name": "Manifest.toml",
+      "filePath": "test/gcext/DependsOnForeign/Manifest.toml",
+      "summary": "Configuration file: Manifest.toml.",
+      "tags": [
+        "configuration",
+        "gc"
+      ],
+      "complexity": "simple",
+      "language": "toml"
+    },
+    {
+      "id": "config:test/gcext/DependsOnForeign/Project.toml",
+      "type": "config",
+      "name": "Project.toml",
+      "filePath": "test/gcext/DependsOnForeign/Project.toml",
+      "summary": "Configuration file: Project.toml.",
+      "tags": [
+        "configuration",
+        "gc"
+      ],
+      "complexity": "simple",
+      "language": "toml"
+    },
+    {
+      "id": "config:test/gcext/Foreign/Manifest.toml",
+      "type": "config",
+      "name": "Manifest.toml",
+      "filePath": "test/gcext/Foreign/Manifest.toml",
+      "summary": "Configuration file: Manifest.toml.",
+      "tags": [
+        "configuration",
+        "gc"
+      ],
+      "complexity": "simple",
+      "language": "toml"
+    },
+    {
+      "id": "config:test/gcext/Foreign/Project.toml",
+      "type": "config",
+      "name": "Project.toml",
+      "filePath": "test/gcext/Foreign/Project.toml",
+      "summary": "Configuration file: Project.toml.",
+      "tags": [
+        "configuration",
+        "gc"
+      ],
+      "complexity": "simple",
+      "language": "toml"
+    }
+  ],
+  "edges": [],
+  "batchFiles": [
+    {
+      "path": "test/gcext/DependsOnForeign/Manifest.toml",
+      "language": "toml",
+      "fileCategory": "config",
+      "totalLines": 14,
+      "nonEmptyLines": 11,
+      "sections": [
+        {
+          "heading": "[[deps.Foreign]]",
+          "level": 2,
+          "line": 7
+        },
+        {
+          "heading": "[[deps.Libdl]]",
+          "level": 2,
+          "line": 13
+        }
+      ],
+      "metrics": {
+        "importCount": 0,
+        "exportCount": 0,
+        "functionCount": 0,
+        "classCount": 0,
+        "sectionCount": 2
+      }
+    },
+    {
+      "path": "test/gcext/DependsOnForeign/Project.toml",
+      "language": "toml",
+      "fileCategory": "config",
+      "totalLines": 6,
+      "nonEmptyLines": 5,
+      "sections": [
+        {
+          "heading": "deps",
+          "level": 1,
+          "line": 5
+        }
+      ],
+      "metrics": {
+        "importCount": 0,
+        "exportCount": 0,
+        "functionCount": 0,
+        "classCount": 0,
+        "sectionCount": 1
+      }
+    },
+    {
+      "path": "test/gcext/Foreign/Manifest.toml",
+      "language": "toml",
+      "fileCategory": "config",
+      "totalLines": 8,
+      "nonEmptyLines": 6,
+      "sections": [
+        {
+          "heading": "[[deps.Libdl]]",
+          "level": 2,
+          "line": 7
+        }
+      ],
+      "metrics": {
+        "importCount": 0,
+        "exportCount": 0,
+        "functionCount": 0,
+        "classCount": 0,
+        "sectionCount": 1
+      }
+    },
+    {
+      "path": "test/gcext/Foreign/Project.toml",
+      "language": "toml",
+      "fileCategory": "config",
+      "totalLines": 6,
+      "nonEmptyLines": 5,
+      "sections": [
+        {
+          "heading": "deps",
+          "level": 1,
+          "line": 5
+        }
+      ],
+      "metrics": {
+        "importCount": 0,
+        "exportCount": 0,
+        "functionCount": 0,
+        "classCount": 0,
+        "sectionCount": 1
+      }
+    }
+  ]
+}

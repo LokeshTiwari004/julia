@@ -1,0 +1,182 @@
+{
+  "projectRoot": "/home/maruti/julia",
+  "batchFiles": [
+    {
+      "path": "stdlib/FileWatching/Project.toml",
+      "language": "toml",
+      "sizeLines": 9,
+      "fileCategory": "config"
+    },
+    {
+      "path": "stdlib/FileWatching/docs/src/index.md",
+      "language": "markdown",
+      "sizeLines": 48,
+      "fileCategory": "docs"
+    },
+    {
+      "path": "stdlib/FileWatching/src/FileWatching.jl",
+      "language": "jl",
+      "sizeLines": 1061,
+      "fileCategory": "code"
+    },
+    {
+      "path": "stdlib/FileWatching/src/pidfile.jl",
+      "language": "jl",
+      "sizeLines": 378,
+      "fileCategory": "code"
+    },
+    {
+      "path": "stdlib/FileWatching/test/pidfile.jl",
+      "language": "jl",
+      "sizeLines": 387,
+      "fileCategory": "code"
+    },
+    {
+      "path": "stdlib/FileWatching/test/runtests.jl",
+      "language": "jl",
+      "sizeLines": 459,
+      "fileCategory": "code"
+    },
+    {
+      "path": "stdlib/Future/Project.toml",
+      "language": "toml",
+      "sizeLines": 13,
+      "fileCategory": "config"
+    },
+    {
+      "path": "stdlib/Future/docs/src/index.md",
+      "language": "markdown",
+      "sizeLines": 13,
+      "fileCategory": "docs"
+    },
+    {
+      "path": "stdlib/Future/src/Future.jl",
+      "language": "jl",
+      "sizeLines": 45,
+      "fileCategory": "code"
+    },
+    {
+      "path": "stdlib/Future/test/runtests.jl",
+      "language": "jl",
+      "sizeLines": 10,
+      "fileCategory": "code"
+    },
+    {
+      "path": "stdlib/GMP_jll/Project.toml",
+      "language": "toml",
+      "sizeLines": 17,
+      "fileCategory": "config"
+    },
+    {
+      "path": "stdlib/GMP_jll/src/GMP_jll.jl",
+      "language": "jl",
+      "sizeLines": 74,
+      "fileCategory": "code"
+    },
+    {
+      "path": "stdlib/GMP_jll/test/runtests.jl",
+      "language": "jl",
+      "sizeLines": 12,
+      "fileCategory": "code"
+    },
+    {
+      "path": "stdlib/InteractiveUtils/Project.toml",
+      "language": "toml",
+      "sizeLines": 13,
+      "fileCategory": "config"
+    },
+    {
+      "path": "stdlib/InteractiveUtils/docs/src/index.md",
+      "language": "markdown",
+      "sizeLines": 40,
+      "fileCategory": "docs"
+    },
+    {
+      "path": "stdlib/InteractiveUtils/src/InteractiveUtils.jl",
+      "language": "jl",
+      "sizeLines": 390,
+      "fileCategory": "code"
+    },
+    {
+      "path": "stdlib/InteractiveUtils/src/clipboard.jl",
+      "language": "jl",
+      "sizeLines": 187,
+      "fileCategory": "code"
+    },
+    {
+      "path": "stdlib/InteractiveUtils/src/codeview.jl",
+      "language": "jl",
+      "sizeLines": 592,
+      "fileCategory": "code"
+    },
+    {
+      "path": "stdlib/InteractiveUtils/src/editless.jl",
+      "language": "jl",
+      "sizeLines": 372,
+      "fileCategory": "code"
+    },
+    {
+      "path": "stdlib/InteractiveUtils/src/macros.jl",
+      "language": "jl",
+      "sizeLines": 865,
+      "fileCategory": "code"
+    },
+    {
+      "path": "stdlib/InteractiveUtils/test/highlighting.jl",
+      "language": "jl",
+      "sizeLines": 502,
+      "fileCategory": "code"
+    },
+    {
+      "path": "stdlib/InteractiveUtils/test/runtests.jl",
+      "language": "jl",
+      "sizeLines": 1123,
+      "fileCategory": "code"
+    },
+    {
+      "path": "stdlib/JuliaSyntaxHighlighting.version",
+      "language": "version",
+      "sizeLines": 4,
+      "fileCategory": "code"
+    },
+    {
+      "path": "stdlib/LLD_jll/Project.toml",
+      "language": "toml",
+      "sizeLines": 19,
+      "fileCategory": "config"
+    },
+    {
+      "path": "stdlib/LLD_jll/src/LLD_jll.jl",
+      "language": "jl",
+      "sizeLines": 106,
+      "fileCategory": "code"
+    }
+  ],
+  "batchImportData": {
+    "stdlib/FileWatching/Project.toml": [],
+    "stdlib/FileWatching/docs/src/index.md": [],
+    "stdlib/FileWatching/src/FileWatching.jl": [],
+    "stdlib/FileWatching/src/pidfile.jl": [],
+    "stdlib/FileWatching/test/pidfile.jl": [],
+    "stdlib/FileWatching/test/runtests.jl": [],
+    "stdlib/Future/Project.toml": [],
+    "stdlib/Future/docs/src/index.md": [],
+    "stdlib/Future/src/Future.jl": [],
+    "stdlib/Future/test/runtests.jl": [],
+    "stdlib/GMP_jll/Project.toml": [],
+    "stdlib/GMP_jll/src/GMP_jll.jl": [],
+    "stdlib/GMP_jll/test/runtests.jl": [],
+    "stdlib/InteractiveUtils/Project.toml": [],
+    "stdlib/InteractiveUtils/docs/src/index.md": [],
+    "stdlib/InteractiveUtils/src/InteractiveUtils.jl": [],
+    "stdlib/InteractiveUtils/src/clipboard.jl": [],
+    "stdlib/InteractiveUtils/src/codeview.jl": [],
+    "stdlib/InteractiveUtils/src/editless.jl": [],
+    "stdlib/InteractiveUtils/src/macros.jl": [],
+    "stdlib/InteractiveUtils/test/highlighting.jl": [],
+    "stdlib/InteractiveUtils/test/runtests.jl": [],
+    "stdlib/JuliaSyntaxHighlighting.version": [],
+    "stdlib/LLD_jll/Project.toml": [],
+    "stdlib/LLD_jll/src/LLD_jll.jl": []
+  }
+}

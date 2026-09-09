@@ -1,0 +1,182 @@
+{
+  "projectRoot": "/home/maruti/julia",
+  "batchFiles": [
+    {
+      "path": "test/gcext/Foreign/src/Foreign.jl",
+      "language": "jl",
+      "sizeLines": 29,
+      "fileCategory": "code"
+    },
+    {
+      "path": "test/gcext/ForeignObjSerialization/Manifest.toml",
+      "language": "toml",
+      "sizeLines": 14,
+      "fileCategory": "config"
+    },
+    {
+      "path": "test/gcext/ForeignObjSerialization/Project.toml",
+      "language": "toml",
+      "sizeLines": 6,
+      "fileCategory": "config"
+    },
+    {
+      "path": "test/gcext/ForeignObjSerialization/src/ForeignObjSerialization.jl",
+      "language": "jl",
+      "sizeLines": 6,
+      "fileCategory": "code"
+    },
+    {
+      "path": "test/gcext/LocalTest.jl",
+      "language": "jl",
+      "sizeLines": 102,
+      "fileCategory": "code"
+    },
+    {
+      "path": "test/gcext/Makefile",
+      "language": "makefile",
+      "sizeLines": 76,
+      "fileCategory": "infra"
+    },
+    {
+      "path": "test/gcext/gcext-test.jl",
+      "language": "jl",
+      "sizeLines": 80,
+      "fileCategory": "code"
+    },
+    {
+      "path": "test/generic_map_tests.jl",
+      "language": "jl",
+      "sizeLines": 112,
+      "fileCategory": "code"
+    },
+    {
+      "path": "test/gmp.jl",
+      "language": "jl",
+      "sizeLines": 839,
+      "fileCategory": "code"
+    },
+    {
+      "path": "test/goto.jl",
+      "language": "jl",
+      "sizeLines": 695,
+      "fileCategory": "code"
+    },
+    {
+      "path": "test/hashing.jl",
+      "language": "jl",
+      "sizeLines": 352,
+      "fileCategory": "code"
+    },
+    {
+      "path": "test/int.jl",
+      "language": "jl",
+      "sizeLines": 474,
+      "fileCategory": "code"
+    },
+    {
+      "path": "test/interpreter.jl",
+      "language": "jl",
+      "sizeLines": 54,
+      "fileCategory": "code"
+    },
+    {
+      "path": "test/intfuncs.jl",
+      "language": "jl",
+      "sizeLines": 806,
+      "fileCategory": "code"
+    },
+    {
+      "path": "test/intrinsics.jl",
+      "language": "jl",
+      "sizeLines": 898,
+      "fileCategory": "code"
+    },
+    {
+      "path": "test/iobuffer.jl",
+      "language": "jl",
+      "sizeLines": 755,
+      "fileCategory": "code"
+    },
+    {
+      "path": "test/iostream.jl",
+      "language": "jl",
+      "sizeLines": 196,
+      "fileCategory": "code"
+    },
+    {
+      "path": "test/iterators.jl",
+      "language": "jl",
+      "sizeLines": 1258,
+      "fileCategory": "code"
+    },
+    {
+      "path": "test/jit.jl",
+      "language": "jl",
+      "sizeLines": 205,
+      "fileCategory": "code"
+    },
+    {
+      "path": "test/keywordargs.jl",
+      "language": "jl",
+      "sizeLines": 412,
+      "fileCategory": "code"
+    },
+    {
+      "path": "test/llvmcall.jl",
+      "language": "jl",
+      "sizeLines": 318,
+      "fileCategory": "code"
+    },
+    {
+      "path": "test/llvmcall2.jl",
+      "language": "jl",
+      "sizeLines": 137,
+      "fileCategory": "code"
+    },
+    {
+      "path": "test/llvmpasses/Makefile",
+      "language": "makefile",
+      "sizeLines": 36,
+      "fileCategory": "infra"
+    },
+    {
+      "path": "test/llvmpasses/aliasscopes.jl",
+      "language": "jl",
+      "sizeLines": 65,
+      "fileCategory": "code"
+    },
+    {
+      "path": "test/llvmpasses/alloc-opt-bits.ll",
+      "language": "ll",
+      "sizeLines": 37,
+      "fileCategory": "code"
+    }
+  ],
+  "batchImportData": {
+    "test/gcext/Foreign/src/Foreign.jl": [],
+    "test/gcext/ForeignObjSerialization/Manifest.toml": [],
+    "test/gcext/ForeignObjSerialization/Project.toml": [],
+    "test/gcext/ForeignObjSerialization/src/ForeignObjSerialization.jl": [],
+    "test/gcext/LocalTest.jl": [],
+    "test/gcext/Makefile": [],
+    "test/gcext/gcext-test.jl": [],
+    "test/generic_map_tests.jl": [],
+    "test/gmp.jl": [],
+    "test/goto.jl": [],
+    "test/hashing.jl": [],
+    "test/int.jl": [],
+    "test/interpreter.jl": [],
+    "test/intfuncs.jl": [],
+    "test/intrinsics.jl": [],
+    "test/iobuffer.jl": [],
+    "test/iostream.jl": [],
+    "test/iterators.jl": [],
+    "test/jit.jl": [],
+    "test/keywordargs.jl": [],
+    "test/llvmcall.jl": [],
+    "test/llvmcall2.jl": [],
+    "test/llvmpasses/Makefile": [],
+    "test/llvmpasses/aliasscopes.jl": [],
+    "test/llvmpasses/alloc-opt-bits.ll": []
+  }
+}

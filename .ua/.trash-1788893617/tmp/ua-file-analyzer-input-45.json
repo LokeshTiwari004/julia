@@ -1,0 +1,182 @@
+{
+  "projectRoot": "/home/maruti/julia",
+  "batchFiles": [
+    {
+      "path": "Compiler/src/bindinginvalidations.jl",
+      "language": "jl",
+      "sizeLines": 203,
+      "fileCategory": "code"
+    },
+    {
+      "path": "Compiler/src/bootstrap.jl",
+      "language": "jl",
+      "sizeLines": 90,
+      "fileCategory": "code"
+    },
+    {
+      "path": "Compiler/src/cicache.jl",
+      "language": "jl",
+      "sizeLines": 70,
+      "fileCategory": "code"
+    },
+    {
+      "path": "Compiler/src/effects.jl",
+      "language": "jl",
+      "sizeLines": 400,
+      "fileCategory": "code"
+    },
+    {
+      "path": "Compiler/src/inferenceresult.jl",
+      "language": "jl",
+      "sizeLines": 260,
+      "fileCategory": "code"
+    },
+    {
+      "path": "Compiler/src/inferencestate.jl",
+      "language": "jl",
+      "sizeLines": 1583,
+      "fileCategory": "code"
+    },
+    {
+      "path": "Compiler/src/methodtable.jl",
+      "language": "jl",
+      "sizeLines": 173,
+      "fileCategory": "code"
+    },
+    {
+      "path": "Compiler/src/opaque_closure.jl",
+      "language": "jl",
+      "sizeLines": 58,
+      "fileCategory": "code"
+    },
+    {
+      "path": "Compiler/src/optimize.jl",
+      "language": "jl",
+      "sizeLines": 1655,
+      "fileCategory": "code"
+    },
+    {
+      "path": "Compiler/src/precompile.jl",
+      "language": "jl",
+      "sizeLines": 492,
+      "fileCategory": "code"
+    },
+    {
+      "path": "Compiler/src/reflection_interface.jl",
+      "language": "jl",
+      "sizeLines": 58,
+      "fileCategory": "code"
+    },
+    {
+      "path": "Compiler/src/reinfer.jl",
+      "language": "jl",
+      "sizeLines": 677,
+      "fileCategory": "code"
+    },
+    {
+      "path": "Compiler/src/sort.jl",
+      "language": "jl",
+      "sizeLines": 100,
+      "fileCategory": "code"
+    },
+    {
+      "path": "Compiler/src/ssair/EscapeAnalysis.jl",
+      "language": "jl",
+      "sizeLines": 1401,
+      "fileCategory": "code"
+    },
+    {
+      "path": "Compiler/src/ssair/basicblock.jl",
+      "language": "jl",
+      "sizeLines": 32,
+      "fileCategory": "code"
+    },
+    {
+      "path": "Compiler/src/ssair/disjoint_set.jl",
+      "language": "jl",
+      "sizeLines": 139,
+      "fileCategory": "code"
+    },
+    {
+      "path": "Compiler/src/ssair/domtree.jl",
+      "language": "jl",
+      "sizeLines": 768,
+      "fileCategory": "code"
+    },
+    {
+      "path": "Compiler/src/ssair/heap.jl",
+      "language": "jl",
+      "sizeLines": 71,
+      "fileCategory": "code"
+    },
+    {
+      "path": "Compiler/src/ssair/inlining.jl",
+      "language": "jl",
+      "sizeLines": 1925,
+      "fileCategory": "code"
+    },
+    {
+      "path": "Compiler/src/ssair/ir.jl",
+      "language": "jl",
+      "sizeLines": 2287,
+      "fileCategory": "code"
+    },
+    {
+      "path": "Compiler/src/ssair/irinterp.jl",
+      "language": "jl",
+      "sizeLines": 488,
+      "fileCategory": "code"
+    },
+    {
+      "path": "Compiler/src/ssair/legacy.jl",
+      "language": "jl",
+      "sizeLines": 106,
+      "fileCategory": "code"
+    },
+    {
+      "path": "Compiler/src/ssair/passes.jl",
+      "language": "jl",
+      "sizeLines": 2772,
+      "fileCategory": "code"
+    },
+    {
+      "path": "Compiler/src/ssair/show.jl",
+      "language": "jl",
+      "sizeLines": 1280,
+      "fileCategory": "code"
+    },
+    {
+      "path": "Compiler/src/ssair/slot2ssa.jl",
+      "language": "jl",
+      "sizeLines": 896,
+      "fileCategory": "code"
+    }
+  ],
+  "batchImportData": {
+    "Compiler/src/bindinginvalidations.jl": [],
+    "Compiler/src/bootstrap.jl": [],
+    "Compiler/src/cicache.jl": [],
+    "Compiler/src/effects.jl": [],
+    "Compiler/src/inferenceresult.jl": [],
+    "Compiler/src/inferencestate.jl": [],
+    "Compiler/src/methodtable.jl": [],
+    "Compiler/src/opaque_closure.jl": [],
+    "Compiler/src/optimize.jl": [],
+    "Compiler/src/precompile.jl": [],
+    "Compiler/src/reflection_interface.jl": [],
+    "Compiler/src/reinfer.jl": [],
+    "Compiler/src/sort.jl": [],
+    "Compiler/src/ssair/EscapeAnalysis.jl": [],
+    "Compiler/src/ssair/basicblock.jl": [],
+    "Compiler/src/ssair/disjoint_set.jl": [],
+    "Compiler/src/ssair/domtree.jl": [],
+    "Compiler/src/ssair/heap.jl": [],
+    "Compiler/src/ssair/inlining.jl": [],
+    "Compiler/src/ssair/ir.jl": [],
+    "Compiler/src/ssair/irinterp.jl": [],
+    "Compiler/src/ssair/legacy.jl": [],
+    "Compiler/src/ssair/passes.jl": [],
+    "Compiler/src/ssair/show.jl": [],
+    "Compiler/src/ssair/slot2ssa.jl": []
+  }
+}

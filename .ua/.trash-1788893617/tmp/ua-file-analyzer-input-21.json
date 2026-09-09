@@ -1,0 +1,49 @@
+{
+  "projectRoot": "/home/maruti/julia",
+  "batchFiles": [
+    {
+      "path": ".ua/.trash-1788882187/batch-9.json",
+      "language": "json",
+      "sizeLines": 6463,
+      "fileCategory": "config"
+    },
+    {
+      "path": ".ua/.trash-1788882187/batches.json",
+      "language": "json",
+      "sizeLines": 15503,
+      "fileCategory": "config"
+    },
+    {
+      "path": ".ua/.trash-1788882187/fingerprint-input.json",
+      "language": "json",
+      "sizeLines": 827,
+      "fileCategory": "config"
+    },
+    {
+      "path": ".ua/.trash-1788882187/layers.json",
+      "language": "json",
+      "sizeLines": 210,
+      "fileCategory": "config"
+    },
+    {
+      "path": ".ua/.trash-1788882187/review.json",
+      "language": "json",
+      "sizeLines": 332,
+      "fileCategory": "config"
+    },
+    {
+      "path": ".ua/.trash-1788882187/tour.json",
+      "language": "json",
+      "sizeLines": 310,
+      "fileCategory": "config"
+    }
+  ],
+  "batchImportData": {
+    ".ua/.trash-1788882187/batch-9.json": [],
+    ".ua/.trash-1788882187/batches.json": [],
+    ".ua/.trash-1788882187/fingerprint-input.json": [],
+    ".ua/.trash-1788882187/layers.json": [],
+    ".ua/.trash-1788882187/review.json": [],
+    ".ua/.trash-1788882187/tour.json": []
+  }
+}

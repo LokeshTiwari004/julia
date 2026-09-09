@@ -1,0 +1,259 @@
+{
+  "scriptCompleted": true,
+  "filesAnalyzed": 6,
+  "filesSkipped": [],
+  "analysisOutcomes": {
+    "structure": {
+      "succeeded": 6,
+      "failed": 0
+    },
+    "callGraph": {
+      "succeeded": 0,
+      "failed": 0,
+      "skipped": 6
+    }
+  },
+  "results": [
+    {
+      "path": ".ua/.trash-1788882187/batch-9.json",
+      "language": "json",
+      "fileCategory": "config",
+      "totalLines": 6464,
+      "nonEmptyLines": 6464,
+      "sections": [
+        {
+          "heading": "batchIndex",
+          "level": 1,
+          "line": 2
+        },
+        {
+          "heading": "nodes",
+          "level": 1,
+          "line": 3
+        },
+        {
+          "heading": "edges",
+          "level": 1,
+          "line": 160
+        },
+        {
+          "heading": "batchFiles",
+          "level": 1,
+          "line": 246
+        }
+      ],
+      "metrics": {
+        "importCount": 0,
+        "exportCount": 0,
+        "functionCount": 0,
+        "classCount": 0,
+        "sectionCount": 4
+      }
+    },
+    {
+      "path": ".ua/.trash-1788882187/batches.json",
+      "language": "json",
+      "fileCategory": "config",
+      "totalLines": 15504,
+      "nonEmptyLines": 15504,
+      "sections": [
+        {
+          "heading": "schemaVersion",
+          "level": 1,
+          "line": 2
+        },
+        {
+          "heading": "algorithm",
+          "level": 1,
+          "line": 3
+        },
+        {
+          "heading": "totalFiles",
+          "level": 1,
+          "line": 4
+        },
+        {
+          "heading": "totalBatches",
+          "level": 1,
+          "line": 5
+        },
+        {
+          "heading": "exportsByPath",
+          "level": 1,
+          "line": 6
+        },
+        {
+          "heading": "batches",
+          "level": 1,
+          "line": 2080
+        }
+      ],
+      "metrics": {
+        "importCount": 0,
+        "exportCount": 0,
+        "functionCount": 0,
+        "classCount": 0,
+        "sectionCount": 6
+      }
+    },
+    {
+      "path": ".ua/.trash-1788882187/fingerprint-input.json",
+      "language": "json",
+      "fileCategory": "config",
+      "totalLines": 828,
+      "nonEmptyLines": 828,
+      "sections": [
+        {
+          "heading": "projectRoot",
+          "level": 1,
+          "line": 2
+        },
+        {
+          "heading": "sourceFilePaths",
+          "level": 1,
+          "line": 3
+        },
+        {
+          "heading": "gitCommitHash",
+          "level": 1,
+          "line": 827
+        }
+      ],
+      "metrics": {
+        "importCount": 0,
+        "exportCount": 0,
+        "functionCount": 0,
+        "classCount": 0,
+        "sectionCount": 3
+      }
+    },
+    {
+      "path": ".ua/.trash-1788882187/layers.json",
+      "language": "json",
+      "fileCategory": "config",
+      "totalLines": 210,
+      "nonEmptyLines": 210,
+      "sections": [
+        {
+          "heading": "project",
+          "level": 1,
+          "line": 2
+        },
+        {
+          "heading": "rootPath",
+          "level": 1,
+          "line": 3
+        },
+        {
+          "heading": "layers",
+          "level": 1,
+          "line": 4
+        },
+        {
+          "heading": "summary",
+          "level": 1,
+          "line": 204
+        }
+      ],
+      "metrics": {
+        "importCount": 0,
+        "exportCount": 0,
+        "functionCount": 0,
+        "classCount": 0,
+        "sectionCount": 4
+      }
+    },
+    {
+      "path": ".ua/.trash-1788882187/review.json",
+      "language": "json",
+      "fileCategory": "config",
+      "totalLines": 333,
+      "nonEmptyLines": 333,
+      "sections": [
+        {
+          "heading": "issues",
+          "level": 1,
+          "line": 2
+        },
+        {
+          "heading": "warnings",
+          "level": 1,
+          "line": 3
+        },
+        {
+          "heading": "stats",
+          "level": 1,
+          "line": 313
+        }
+      ],
+      "metrics": {
+        "importCount": 0,
+        "exportCount": 0,
+        "functionCount": 0,
+        "classCount": 0,
+        "sectionCount": 3
+      }
+    },
+    {
+      "path": ".ua/.trash-1788882187/tour.json",
+      "language": "json",
+      "fileCategory": "config",
+      "totalLines": 310,
+      "nonEmptyLines": 310,
+      "sections": [
+        {
+          "heading": "project",
+          "level": 1,
+          "line": 2
+        },
+        {
+          "heading": "description",
+          "level": 1,
+          "line": 3
+        },
+        {
+          "heading": "entryPoint",
+          "level": 1,
+          "line": 4
+        },
+        {
+          "heading": "totalStops",
+          "level": 1,
+          "line": 5
+        },
+        {
+          "heading": "estimatedTimeMinutes",
+          "level": 1,
+          "line": 6
+        },
+        {
+          "heading": "stops",
+          "level": 1,
+          "line": 7
+        },
+        {
+          "heading": "crossCuttingConcerns",
+          "level": 1,
+          "line": 253
+        },
+        {
+          "heading": "recommendedPath",
+          "level": 1,
+          "line": 275
+        },
+        {
+          "heading": "alternativePaths",
+          "level": 1,
+          "line": 289
+        }
+      ],
+      "metrics": {
+        "importCount": 0,
+        "exportCount": 0,
+        "functionCount": 0,
+        "classCount": 0,
+        "sectionCount": 9
+      }
+    }
+  ]
+}

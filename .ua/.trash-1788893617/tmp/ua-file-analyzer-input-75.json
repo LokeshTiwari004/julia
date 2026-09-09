@@ -1,0 +1,182 @@
+{
+  "projectRoot": "/home/maruti/julia",
+  "batchFiles": [
+    {
+      "path": "stdlib/Markdown/test/regenerate_test_spec.jl",
+      "language": "jl",
+      "sizeLines": 199,
+      "fileCategory": "code"
+    },
+    {
+      "path": "stdlib/Markdown/test/runtests.jl",
+      "language": "jl",
+      "sizeLines": 1789,
+      "fileCategory": "code"
+    },
+    {
+      "path": "stdlib/Markdown/test/spec.json",
+      "language": "json",
+      "sizeLines": 5217,
+      "fileCategory": "config"
+    },
+    {
+      "path": "stdlib/Markdown/test/test_spec_html_common.jl",
+      "language": "jl",
+      "sizeLines": 4766,
+      "fileCategory": "code"
+    },
+    {
+      "path": "stdlib/Markdown/test/test_spec_html_github.jl",
+      "language": "jl",
+      "sizeLines": 4766,
+      "fileCategory": "code"
+    },
+    {
+      "path": "stdlib/Markdown/test/test_spec_html_julia.jl",
+      "language": "jl",
+      "sizeLines": 4766,
+      "fileCategory": "code"
+    },
+    {
+      "path": "stdlib/Markdown/test/test_spec_roundtrip_common.jl",
+      "language": "jl",
+      "sizeLines": 4766,
+      "fileCategory": "code"
+    },
+    {
+      "path": "stdlib/Markdown/test/test_spec_roundtrip_github.jl",
+      "language": "jl",
+      "sizeLines": 4766,
+      "fileCategory": "code"
+    },
+    {
+      "path": "stdlib/Markdown/test/test_spec_roundtrip_julia.jl",
+      "language": "jl",
+      "sizeLines": 4766,
+      "fileCategory": "code"
+    },
+    {
+      "path": "stdlib/Mmap/Project.toml",
+      "language": "toml",
+      "sizeLines": 13,
+      "fileCategory": "config"
+    },
+    {
+      "path": "stdlib/Mmap/docs/src/index.md",
+      "language": "markdown",
+      "sizeLines": 13,
+      "fileCategory": "docs"
+    },
+    {
+      "path": "stdlib/Mmap/src/Mmap.jl",
+      "language": "jl",
+      "sizeLines": 722,
+      "fileCategory": "code"
+    },
+    {
+      "path": "stdlib/Mmap/test/runtests.jl",
+      "language": "jl",
+      "sizeLines": 693,
+      "fileCategory": "code"
+    },
+    {
+      "path": "stdlib/MozillaCACerts_jll/Project.toml",
+      "language": "toml",
+      "sizeLines": 10,
+      "fileCategory": "config"
+    },
+    {
+      "path": "stdlib/MozillaCACerts_jll/src/MozillaCACerts_jll.jl",
+      "language": "jl",
+      "sizeLines": 30,
+      "fileCategory": "code"
+    },
+    {
+      "path": "stdlib/MozillaCACerts_jll/test/runtests.jl",
+      "language": "jl",
+      "sizeLines": 8,
+      "fileCategory": "code"
+    },
+    {
+      "path": "stdlib/NetworkOptions.version",
+      "language": "version",
+      "sizeLines": 4,
+      "fileCategory": "code"
+    },
+    {
+      "path": "stdlib/OpenBLAS_jll/Project.toml",
+      "language": "toml",
+      "sizeLines": 17,
+      "fileCategory": "config"
+    },
+    {
+      "path": "stdlib/OpenBLAS_jll/src/OpenBLAS_jll.jl",
+      "language": "jl",
+      "sizeLines": 83,
+      "fileCategory": "code"
+    },
+    {
+      "path": "stdlib/OpenBLAS_jll/test/runtests.jl",
+      "language": "jl",
+      "sizeLines": 20,
+      "fileCategory": "code"
+    },
+    {
+      "path": "stdlib/OpenLibm_jll/Project.toml",
+      "language": "toml",
+      "sizeLines": 18,
+      "fileCategory": "config"
+    },
+    {
+      "path": "stdlib/OpenLibm_jll/src/OpenLibm_jll.jl",
+      "language": "jl",
+      "sizeLines": 53,
+      "fileCategory": "code"
+    },
+    {
+      "path": "stdlib/OpenLibm_jll/test/runtests.jl",
+      "language": "jl",
+      "sizeLines": 10,
+      "fileCategory": "code"
+    },
+    {
+      "path": "stdlib/OpenSSL_jll/Project.toml",
+      "language": "toml",
+      "sizeLines": 16,
+      "fileCategory": "config"
+    },
+    {
+      "path": "stdlib/OpenSSL_jll/src/OpenSSL_jll.jl",
+      "language": "jl",
+      "sizeLines": 75,
+      "fileCategory": "code"
+    }
+  ],
+  "batchImportData": {
+    "stdlib/Markdown/test/regenerate_test_spec.jl": [],
+    "stdlib/Markdown/test/runtests.jl": [],
+    "stdlib/Markdown/test/spec.json": [],
+    "stdlib/Markdown/test/test_spec_html_common.jl": [],
+    "stdlib/Markdown/test/test_spec_html_github.jl": [],
+    "stdlib/Markdown/test/test_spec_html_julia.jl": [],
+    "stdlib/Markdown/test/test_spec_roundtrip_common.jl": [],
+    "stdlib/Markdown/test/test_spec_roundtrip_github.jl": [],
+    "stdlib/Markdown/test/test_spec_roundtrip_julia.jl": [],
+    "stdlib/Mmap/Project.toml": [],
+    "stdlib/Mmap/docs/src/index.md": [],
+    "stdlib/Mmap/src/Mmap.jl": [],
+    "stdlib/Mmap/test/runtests.jl": [],
+    "stdlib/MozillaCACerts_jll/Project.toml": [],
+    "stdlib/MozillaCACerts_jll/src/MozillaCACerts_jll.jl": [],
+    "stdlib/MozillaCACerts_jll/test/runtests.jl": [],
+    "stdlib/NetworkOptions.version": [],
+    "stdlib/OpenBLAS_jll/Project.toml": [],
+    "stdlib/OpenBLAS_jll/src/OpenBLAS_jll.jl": [],
+    "stdlib/OpenBLAS_jll/test/runtests.jl": [],
+    "stdlib/OpenLibm_jll/Project.toml": [],
+    "stdlib/OpenLibm_jll/src/OpenLibm_jll.jl": [],
+    "stdlib/OpenLibm_jll/test/runtests.jl": [],
+    "stdlib/OpenSSL_jll/Project.toml": [],
+    "stdlib/OpenSSL_jll/src/OpenSSL_jll.jl": []
+  }
+}

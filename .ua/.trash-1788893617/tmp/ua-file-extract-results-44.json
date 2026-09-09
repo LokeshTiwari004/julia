@@ -1,0 +1,937 @@
+{
+  "scriptCompleted": true,
+  "filesAnalyzed": 9,
+  "filesSkipped": [
+    ".buildkite-external-version",
+    ".clang-format",
+    ".clangd",
+    ".git-blame-ignore-revs",
+    ".gitattributes",
+    ".github/CODEOWNERS",
+    ".mailmap",
+    ".ua/.understandignore",
+    "CITATION.bib",
+    "CITATION.cff",
+    "Compiler/extras/CompilerDevTools/src/CompilerDevTools.jl",
+    "Compiler/extras/CompilerDevTools/test/runtests.jl",
+    "Compiler/extras/CompilerDevTools/test/testpkg.jl",
+    "Compiler/src/Compiler.jl",
+    "Compiler/src/abstractinterpretation.jl",
+    "Compiler/src/abstractlattice.jl"
+  ],
+  "analysisOutcomes": {
+    "structure": {
+      "succeeded": 9,
+      "failed": 0
+    },
+    "callGraph": {
+      "succeeded": 4,
+      "failed": 0,
+      "skipped": 5
+    }
+  },
+  "results": [
+    {
+      "path": ".devcontainer/devcontainer.json",
+      "language": "json",
+      "fileCategory": "config",
+      "totalLines": 12,
+      "nonEmptyLines": 12,
+      "sections": [
+        {
+          "heading": "image",
+          "level": 1,
+          "line": 2
+        },
+        {
+          "heading": "customizations",
+          "level": 1,
+          "line": 3
+        },
+        {
+          "heading": "onCreateCommand",
+          "level": 1,
+          "line": 11
+        }
+      ],
+      "metrics": {
+        "importCount": 0,
+        "exportCount": 0,
+        "functionCount": 0,
+        "classCount": 0,
+        "sectionCount": 3
+      }
+    },
+    {
+      "path": ".github/_typos.toml",
+      "language": "toml",
+      "fileCategory": "config",
+      "totalLines": 4,
+      "nonEmptyLines": 4,
+      "sections": [
+        {
+          "heading": "default.extend-words",
+          "level": 2,
+          "line": 2
+        }
+      ],
+      "metrics": {
+        "importCount": 0,
+        "exportCount": 0,
+        "functionCount": 0,
+        "classCount": 0,
+        "sectionCount": 1
+      }
+    },
+    {
+      "path": ".github/dependabot.yml",
+      "language": "yaml",
+      "fileCategory": "config",
+      "totalLines": 65,
+      "nonEmptyLines": 65,
+      "sections": [
+        {
+          "heading": "version",
+          "level": 1,
+          "line": 1
+        },
+        {
+          "heading": "updates",
+          "level": 1,
+          "line": 2
+        }
+      ],
+      "metrics": {
+        "importCount": 0,
+        "exportCount": 0,
+        "functionCount": 0,
+        "classCount": 0,
+        "sectionCount": 2
+      }
+    },
+    {
+      "path": ".ua/.trash-1788882187/tmp/semantic-analysis.mjs",
+      "language": "javascript",
+      "fileCategory": "code",
+      "totalLines": 349,
+      "nonEmptyLines": 293,
+      "functions": [
+        {
+          "name": "categorizeComplexity",
+          "startLine": 16,
+          "endLine": 20,
+          "params": [
+            "nonEmptyLines",
+            "functionCount",
+            "classCount"
+          ]
+        },
+        {
+          "name": "generateSummary",
+          "startLine": 22,
+          "endLine": 119,
+          "params": [
+            "file",
+            "extraction"
+          ]
+        },
+        {
+          "name": "generateTags",
+          "startLine": 121,
+          "endLine": 155,
+          "params": [
+            "file",
+            "extraction"
+          ]
+        },
+        {
+          "name": "determineNodeType",
+          "startLine": 157,
+          "endLine": 174,
+          "params": [
+            "file"
+          ]
+        },
+        {
+          "name": "generateNodesAndEdges",
+          "startLine": 176,
+          "endLine": 287,
+          "params": [
+            "extraction",
+            "batchImportData",
+            "neighborMap"
+          ]
+        },
+        {
+          "name": "processBatch",
+          "startLine": 289,
+          "endLine": 333,
+          "params": [
+            "batchIndex"
+          ]
+        },
+        {
+          "name": "main",
+          "startLine": 336,
+          "endLine": 344,
+          "params": []
+        }
+      ],
+      "callGraph": [
+        {
+          "caller": "generateSummary",
+          "callee": "basename",
+          "lineNumber": 24
+        },
+        {
+          "caller": "generateSummary",
+          "callee": "sections.slice(0, 3).map(s => s.heading).join",
+          "lineNumber": 29
+        },
+        {
+          "caller": "generateSummary",
+          "callee": "sections.slice(0, 3).map",
+          "lineNumber": 29
+        },
+        {
+          "caller": "generateSummary",
+          "callee": "sections.slice",
+          "lineNumber": 29
+        },
+        {
+          "caller": "generateSummary",
+          "callee": "path.includes",
+          "lineNumber": 40
+        },
+        {
+          "caller": "generateSummary",
+          "callee": "path.includes",
+          "lineNumber": 40
+        },
+        {
+          "caller": "generateSummary",
+          "callee": "path.includes",
+          "lineNumber": 40
+        },
+        {
+          "caller": "generateSummary",
+          "callee": "path.endsWith",
+          "lineNumber": 43
+        },
+        {
+          "caller": "generateSummary",
+          "callee": "path.includes",
+          "lineNumber": 43
+        },
+        {
+          "caller": "generateSummary",
+          "callee": "path.endsWith",
+          "lineNumber": 46
+        },
+        {
+          "caller": "generateSummary",
+          "callee": "path.endsWith",
+          "lineNumber": 46
+        },
+        {
+          "caller": "generateSummary",
+          "callee": "path.includes",
+          "lineNumber": 60
+        },
+        {
+          "caller": "generateSummary",
+          "callee": "path.endsWith",
+          "lineNumber": 60
+        },
+        {
+          "caller": "generateSummary",
+          "callee": "path.includes",
+          "lineNumber": 66
+        },
+        {
+          "caller": "generateSummary",
+          "callee": "path.endsWith",
+          "lineNumber": 66
+        },
+        {
+          "caller": "generateSummary",
+          "callee": "path.endsWith",
+          "lineNumber": 66
+        },
+        {
+          "caller": "generateSummary",
+          "callee": "path.includes",
+          "lineNumber": 72
+        },
+        {
+          "caller": "generateSummary",
+          "callee": "path.endsWith",
+          "lineNumber": 72
+        },
+        {
+          "caller": "generateSummary",
+          "callee": "path.includes",
+          "lineNumber": 76
+        },
+        {
+          "caller": "generateSummary",
+          "callee": "path.endsWith",
+          "lineNumber": 76
+        },
+        {
+          "caller": "generateSummary",
+          "callee": "path.includes",
+          "lineNumber": 82
+        },
+        {
+          "caller": "generateSummary",
+          "callee": "path.endsWith",
+          "lineNumber": 82
+        },
+        {
+          "caller": "generateSummary",
+          "callee": "path.includes",
+          "lineNumber": 88
+        },
+        {
+          "caller": "generateSummary",
+          "callee": "path.endsWith",
+          "lineNumber": 88
+        },
+        {
+          "caller": "generateSummary",
+          "callee": "path.includes",
+          "lineNumber": 94
+        },
+        {
+          "caller": "generateSummary",
+          "callee": "path.endsWith",
+          "lineNumber": 94
+        },
+        {
+          "caller": "generateSummary",
+          "callee": "path.includes",
+          "lineNumber": 98
+        },
+        {
+          "caller": "generateSummary",
+          "callee": "path.endsWith",
+          "lineNumber": 98
+        },
+        {
+          "caller": "generateSummary",
+          "callee": "path.includes",
+          "lineNumber": 102
+        },
+        {
+          "caller": "generateSummary",
+          "callee": "path.endsWith",
+          "lineNumber": 102
+        },
+        {
+          "caller": "generateSummary",
+          "callee": "path.endsWith",
+          "lineNumber": 102
+        },
+        {
+          "caller": "generateSummary",
+          "callee": "path.includes",
+          "lineNumber": 106
+        },
+        {
+          "caller": "generateSummary",
+          "callee": "path.includes",
+          "lineNumber": 110
+        },
+        {
+          "caller": "generateSummary",
+          "callee": "path.endsWith",
+          "lineNumber": 110
+        },
+        {
+          "caller": "generateTags",
+          "callee": "basename",
+          "lineNumber": 124
+        },
+        {
+          "caller": "generateTags",
+          "callee": "tags.push",
+          "lineNumber": 126
+        },
+        {
+          "caller": "generateTags",
+          "callee": "tags.push",
+          "lineNumber": 127
+        },
+        {
+          "caller": "generateTags",
+          "callee": "tags.push",
+          "lineNumber": 128
+        },
+        {
+          "caller": "generateTags",
+          "callee": "tags.push",
+          "lineNumber": 129
+        },
+        {
+          "caller": "generateTags",
+          "callee": "path.includes",
+          "lineNumber": 131
+        },
+        {
+          "caller": "generateTags",
+          "callee": "tags.push",
+          "lineNumber": 131
+        },
+        {
+          "caller": "generateTags",
+          "callee": "path.includes",
+          "lineNumber": 132
+        },
+        {
+          "caller": "generateTags",
+          "callee": "tags.push",
+          "lineNumber": 132
+        },
+        {
+          "caller": "generateTags",
+          "callee": "path.includes",
+          "lineNumber": 133
+        },
+        {
+          "caller": "generateTags",
+          "callee": "tags.push",
+          "lineNumber": 133
+        },
+        {
+          "caller": "generateTags",
+          "callee": "path.includes",
+          "lineNumber": 134
+        },
+        {
+          "caller": "generateTags",
+          "callee": "tags.push",
+          "lineNumber": 134
+        },
+        {
+          "caller": "generateTags",
+          "callee": "path.includes",
+          "lineNumber": 135
+        },
+        {
+          "caller": "generateTags",
+          "callee": "tags.push",
+          "lineNumber": 135
+        },
+        {
+          "caller": "generateTags",
+          "callee": "path.includes",
+          "lineNumber": 136
+        },
+        {
+          "caller": "generateTags",
+          "callee": "tags.push",
+          "lineNumber": 136
+        },
+        {
+          "caller": "generateTags",
+          "callee": "path.includes",
+          "lineNumber": 137
+        },
+        {
+          "caller": "generateTags",
+          "callee": "tags.push",
+          "lineNumber": 137
+        },
+        {
+          "caller": "generateTags",
+          "callee": "path.includes",
+          "lineNumber": 138
+        },
+        {
+          "caller": "generateTags",
+          "callee": "tags.push",
+          "lineNumber": 138
+        },
+        {
+          "caller": "generateTags",
+          "callee": "path.includes",
+          "lineNumber": 139
+        },
+        {
+          "caller": "generateTags",
+          "callee": "tags.push",
+          "lineNumber": 139
+        },
+        {
+          "caller": "generateTags",
+          "callee": "tags.push",
+          "lineNumber": 144
+        },
+        {
+          "caller": "generateTags",
+          "callee": "tags.push",
+          "lineNumber": 145
+        },
+        {
+          "caller": "generateTags",
+          "callee": "path.includes",
+          "lineNumber": 146
+        },
+        {
+          "caller": "generateTags",
+          "callee": "path.includes",
+          "lineNumber": 146
+        },
+        {
+          "caller": "generateTags",
+          "callee": "tags.push",
+          "lineNumber": 146
+        },
+        {
+          "caller": "generateTags",
+          "callee": "path.includes",
+          "lineNumber": 147
+        },
+        {
+          "caller": "generateTags",
+          "callee": "path.includes",
+          "lineNumber": 147
+        },
+        {
+          "caller": "generateTags",
+          "callee": "path.includes",
+          "lineNumber": 147
+        },
+        {
+          "caller": "generateTags",
+          "callee": "tags.push",
+          "lineNumber": 147
+        },
+        {
+          "caller": "generateTags",
+          "callee": "path.includes",
+          "lineNumber": 148
+        },
+        {
+          "caller": "generateTags",
+          "callee": "path.includes",
+          "lineNumber": 148
+        },
+        {
+          "caller": "generateTags",
+          "callee": "tags.push",
+          "lineNumber": 148
+        },
+        {
+          "caller": "generateTags",
+          "callee": "path.includes",
+          "lineNumber": 149
+        },
+        {
+          "caller": "generateTags",
+          "callee": "path.includes",
+          "lineNumber": 149
+        },
+        {
+          "caller": "generateTags",
+          "callee": "tags.push",
+          "lineNumber": 149
+        },
+        {
+          "caller": "generateTags",
+          "callee": "path.includes",
+          "lineNumber": 150
+        },
+        {
+          "caller": "generateTags",
+          "callee": "path.includes",
+          "lineNumber": 150
+        },
+        {
+          "caller": "generateTags",
+          "callee": "tags.push",
+          "lineNumber": 150
+        },
+        {
+          "caller": "generateTags",
+          "callee": "tags.push",
+          "lineNumber": 152
+        },
+        {
+          "caller": "determineNodeType",
+          "callee": "path.includes",
+          "lineNumber": 163
+        },
+        {
+          "caller": "determineNodeType",
+          "callee": "path.includes",
+          "lineNumber": 163
+        },
+        {
+          "caller": "determineNodeType",
+          "callee": "path.includes",
+          "lineNumber": 163
+        },
+        {
+          "caller": "determineNodeType",
+          "callee": "path.endsWith",
+          "lineNumber": 164
+        },
+        {
+          "caller": "determineNodeType",
+          "callee": "path.includes",
+          "lineNumber": 164
+        },
+        {
+          "caller": "determineNodeType",
+          "callee": "path.endsWith",
+          "lineNumber": 165
+        },
+        {
+          "caller": "determineNodeType",
+          "callee": "path.endsWith",
+          "lineNumber": 165
+        },
+        {
+          "caller": "determineNodeType",
+          "callee": "path.endsWith",
+          "lineNumber": 169
+        },
+        {
+          "caller": "determineNodeType",
+          "callee": "path.endsWith",
+          "lineNumber": 170
+        },
+        {
+          "caller": "determineNodeType",
+          "callee": "path.endsWith",
+          "lineNumber": 170
+        },
+        {
+          "caller": "determineNodeType",
+          "callee": "path.endsWith",
+          "lineNumber": 170
+        },
+        {
+          "caller": "generateNodesAndEdges",
+          "callee": "determineNodeType",
+          "lineNumber": 179
+        },
+        {
+          "caller": "generateNodesAndEdges",
+          "callee": "generateSummary",
+          "lineNumber": 180
+        },
+        {
+          "caller": "generateNodesAndEdges",
+          "callee": "generateTags",
+          "lineNumber": 181
+        },
+        {
+          "caller": "generateNodesAndEdges",
+          "callee": "categorizeComplexity",
+          "lineNumber": 182
+        },
+        {
+          "caller": "generateNodesAndEdges",
+          "callee": "determineNodeType",
+          "lineNumber": 186
+        },
+        {
+          "caller": "generateNodesAndEdges",
+          "callee": "basename",
+          "lineNumber": 187
+        },
+        {
+          "caller": "generateNodesAndEdges",
+          "callee": "fn.name.startsWith",
+          "lineNumber": 201
+        },
+        {
+          "caller": "generateNodesAndEdges",
+          "callee": "nodes.push",
+          "lineNumber": 203
+        },
+        {
+          "caller": "generateNodesAndEdges",
+          "callee": "edges.push",
+          "lineNumber": 212
+        },
+        {
+          "caller": "generateNodesAndEdges",
+          "callee": "nodes.push",
+          "lineNumber": 226
+        },
+        {
+          "caller": "generateNodesAndEdges",
+          "callee": "edges.push",
+          "lineNumber": 235
+        },
+        {
+          "caller": "generateNodesAndEdges",
+          "callee": "edges.push",
+          "lineNumber": 248
+        },
+        {
+          "caller": "generateNodesAndEdges",
+          "callee": "nodes.some",
+          "lineNumber": 262
+        },
+        {
+          "caller": "generateNodesAndEdges",
+          "callee": "nodes.some",
+          "lineNumber": 262
+        },
+        {
+          "caller": "generateNodesAndEdges",
+          "callee": "edges.push",
+          "lineNumber": 263
+        },
+        {
+          "caller": "generateNodesAndEdges",
+          "callee": "edges.push",
+          "lineNumber": 277
+        },
+        {
+          "caller": "processBatch",
+          "callee": "existsSync",
+          "lineNumber": 293
+        },
+        {
+          "caller": "processBatch",
+          "callee": "console.log",
+          "lineNumber": 294
+        },
+        {
+          "caller": "processBatch",
+          "callee": "JSON.parse",
+          "lineNumber": 298
+        },
+        {
+          "caller": "processBatch",
+          "callee": "readFileSync",
+          "lineNumber": 298
+        },
+        {
+          "caller": "processBatch",
+          "callee": "JSON.parse",
+          "lineNumber": 299
+        },
+        {
+          "caller": "processBatch",
+          "callee": "readFileSync",
+          "lineNumber": 299
+        },
+        {
+          "caller": "processBatch",
+          "callee": "batches.batches.find",
+          "lineNumber": 300
+        },
+        {
+          "caller": "processBatch",
+          "callee": "console.log",
+          "lineNumber": 303
+        },
+        {
+          "caller": "processBatch",
+          "callee": "generateNodesAndEdges",
+          "lineNumber": 315
+        },
+        {
+          "caller": "processBatch",
+          "callee": "allNodes.push",
+          "lineNumber": 316
+        },
+        {
+          "caller": "processBatch",
+          "callee": "allEdges.push",
+          "lineNumber": 317
+        },
+        {
+          "caller": "processBatch",
+          "callee": "batchFiles.push",
+          "lineNumber": 318
+        },
+        {
+          "caller": "processBatch",
+          "callee": "writeFileSync",
+          "lineNumber": 329
+        },
+        {
+          "caller": "processBatch",
+          "callee": "JSON.stringify",
+          "lineNumber": 329
+        },
+        {
+          "caller": "processBatch",
+          "callee": "console.log",
+          "lineNumber": 330
+        },
+        {
+          "caller": "main",
+          "callee": "console.log",
+          "lineNumber": 337
+        },
+        {
+          "caller": "main",
+          "callee": "processBatch",
+          "lineNumber": 340
+        },
+        {
+          "caller": "main",
+          "callee": "console.log",
+          "lineNumber": 343
+        }
+      ],
+      "metrics": {
+        "importCount": 0,
+        "exportCount": 0,
+        "functionCount": 7,
+        "classCount": 0
+      }
+    },
+    {
+      "path": ".ua/.trash-1788882187/tmp/ua-arch-analyze.js",
+      "language": "javascript",
+      "fileCategory": "code",
+      "totalLines": 261,
+      "nonEmptyLines": 237,
+      "functions": [
+        {
+          "name": "findCommonPrefix",
+          "startLine": 245,
+          "endLine": 254,
+          "params": [
+            "paths"
+          ]
+        },
+        {
+          "name": "getGroupForNode",
+          "startLine": 256,
+          "endLine": 261,
+          "params": [
+            "nodeId",
+            "directoryGroups"
+          ]
+        }
+      ],
+      "callGraph": [
+        {
+          "caller": "findCommonPrefix",
+          "callee": "[...paths].sort",
+          "lineNumber": 247
+        },
+        {
+          "caller": "findCommonPrefix",
+          "callee": "first.lastIndexOf",
+          "lineNumber": 252
+        },
+        {
+          "caller": "findCommonPrefix",
+          "callee": "first.substring",
+          "lineNumber": 253
+        },
+        {
+          "caller": "getGroupForNode",
+          "callee": "Object.entries",
+          "lineNumber": 257
+        },
+        {
+          "caller": "getGroupForNode",
+          "callee": "ids.includes",
+          "lineNumber": 258
+        }
+      ],
+      "metrics": {
+        "importCount": 0,
+        "exportCount": 0,
+        "functionCount": 2,
+        "classCount": 0
+      }
+    },
+    {
+      "path": ".ua/.trash-1788882187/tmp/ua-inline-validate.cjs",
+      "language": "javascript",
+      "fileCategory": "code",
+      "totalLines": 63,
+      "nonEmptyLines": 63,
+      "metrics": {
+        "importCount": 0,
+        "exportCount": 0,
+        "functionCount": 0,
+        "classCount": 0
+      }
+    },
+    {
+      "path": ".ua/.trash-1788882187/tmp/ua-tour-analyze.js",
+      "language": "javascript",
+      "fileCategory": "code",
+      "totalLines": 181,
+      "nonEmptyLines": 156,
+      "metrics": {
+        "importCount": 0,
+        "exportCount": 0,
+        "functionCount": 0,
+        "classCount": 0
+      }
+    },
+    {
+      "path": ".ua/fingerprints.json",
+      "language": "json",
+      "fileCategory": "config",
+      "totalLines": 37328,
+      "nonEmptyLines": 37328,
+      "sections": [
+        {
+          "heading": "version",
+          "level": 1,
+          "line": 2
+        },
+        {
+          "heading": "gitCommitHash",
+          "level": 1,
+          "line": 3
+        },
+        {
+          "heading": "generatedAt",
+          "level": 1,
+          "line": 4
+        },
+        {
+          "heading": "files",
+          "level": 1,
+          "line": 5
+        }
+      ],
+      "metrics": {
+        "importCount": 0,
+        "exportCount": 0,
+        "functionCount": 0,
+        "classCount": 0,
+        "sectionCount": 4
+      }
+    },
+    {
+      "path": "Compiler/extras/CompilerDevTools/Project.toml",
+      "language": "toml",
+      "fileCategory": "config",
+      "totalLines": 5,
+      "nonEmptyLines": 4,
+      "sections": [
+        {
+          "heading": "deps",
+          "level": 1,
+          "line": 4
+        }
+      ],
+      "metrics": {
+        "importCount": 0,
+        "exportCount": 0,
+        "functionCount": 0,
+        "classCount": 0,
+        "sectionCount": 1
+      }
+    }
+  ]
+}

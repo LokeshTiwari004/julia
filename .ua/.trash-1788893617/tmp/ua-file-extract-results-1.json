@@ -1,0 +1,5437 @@
+{
+  "scriptCompleted": true,
+  "filesAnalyzed": 31,
+  "filesSkipped": [
+    "src/support/htable.inc"
+  ],
+  "analysisOutcomes": {
+    "structure": {
+      "succeeded": 31,
+      "failed": 0
+    },
+    "callGraph": {
+      "succeeded": 31,
+      "failed": 0,
+      "skipped": 0
+    }
+  },
+  "results": [
+    {
+      "path": "src/coverage.c",
+      "language": "c",
+      "fileCategory": "code",
+      "totalLines": 336,
+      "nonEmptyLines": 302,
+      "functions": [
+        {
+          "name": "codegen_imaging_mode",
+          "startLine": 12,
+          "endLine": 15,
+          "params": []
+        },
+        {
+          "name": "logdata_vec_resize",
+          "startLine": 33,
+          "endLine": 43,
+          "params": [
+            "v",
+            "newlen"
+          ]
+        },
+        {
+          "name": "is_skip_filename",
+          "startLine": 77,
+          "endLine": 84,
+          "params": [
+            "filename"
+          ]
+        },
+        {
+          "name": "jl_coverage_alloc_line",
+          "startLine": 121,
+          "endLine": 129,
+          "params": [
+            "filename",
+            "line"
+          ]
+        },
+        {
+          "name": "clear_log_data",
+          "startLine": 165,
+          "endLine": 184,
+          "params": [
+            "logData"
+          ]
+        },
+        {
+          "name": "write_log_data",
+          "startLine": 202,
+          "endLine": 259,
+          "params": [
+            "logData",
+            "extension"
+          ]
+        },
+        {
+          "name": "write_lcov_data",
+          "startLine": 261,
+          "endLine": 301,
+          "params": [
+            "logData",
+            "outfile"
+          ]
+        },
+        {
+          "name": "jl_write_coverage_data",
+          "startLine": 303,
+          "endLine": 320,
+          "params": [
+            "output"
+          ]
+        },
+        {
+          "name": "jl_write_malloc_log",
+          "startLine": 322,
+          "endLine": 329,
+          "params": []
+        },
+        {
+          "name": "jl_init_coverage",
+          "startLine": 331,
+          "endLine": 336,
+          "params": []
+        }
+      ],
+      "exports": [
+        {
+          "name": "jl_coverage_alloc_line",
+          "line": 121,
+          "isDefault": false
+        },
+        {
+          "name": "jl_write_coverage_data",
+          "line": 303,
+          "isDefault": false
+        },
+        {
+          "name": "jl_write_malloc_log",
+          "line": 322,
+          "isDefault": false
+        },
+        {
+          "name": "jl_init_coverage",
+          "line": 331,
+          "isDefault": false
+        }
+      ],
+      "callGraph": [
+        {
+          "caller": "codegen_imaging_mode",
+          "callee": "jl_generating_output",
+          "lineNumber": 14
+        },
+        {
+          "caller": "logdata_vec_resize",
+          "callee": "realloc_s",
+          "lineNumber": 38
+        },
+        {
+          "caller": "logdata_vec_resize",
+          "callee": "memset",
+          "lineNumber": 39
+        },
+        {
+          "caller": "is_skip_filename",
+          "callee": "strcmp",
+          "lineNumber": 80
+        },
+        {
+          "caller": "is_skip_filename",
+          "callee": "strcmp",
+          "lineNumber": 81
+        },
+        {
+          "caller": "is_skip_filename",
+          "callee": "strcmp",
+          "lineNumber": 82
+        },
+        {
+          "caller": "jl_coverage_alloc_line",
+          "callee": "assert",
+          "lineNumber": 123
+        },
+        {
+          "caller": "jl_coverage_alloc_line",
+          "callee": "codegen_imaging_mode",
+          "lineNumber": 123
+        },
+        {
+          "caller": "jl_coverage_alloc_line",
+          "callee": "is_skip_filename",
+          "lineNumber": 124
+        },
+        {
+          "caller": "jl_coverage_alloc_line",
+          "callee": "uv_mutex_lock",
+          "lineNumber": 126
+        },
+        {
+          "caller": "jl_coverage_alloc_line",
+          "callee": "allocLine",
+          "lineNumber": 127
+        },
+        {
+          "caller": "jl_coverage_alloc_line",
+          "callee": "logdata_get_or_create",
+          "lineNumber": 127
+        },
+        {
+          "caller": "jl_coverage_alloc_line",
+          "callee": "uv_mutex_unlock",
+          "lineNumber": 128
+        },
+        {
+          "caller": "clear_log_data",
+          "callee": "jl_gc_sync_total_bytes",
+          "lineNumber": 183
+        },
+        {
+          "caller": "write_log_data",
+          "callee": "snprintf",
+          "lineNumber": 205
+        },
+        {
+          "caller": "write_log_data",
+          "callee": "jl_isabspath",
+          "lineNumber": 216
+        },
+        {
+          "caller": "write_log_data",
+          "callee": "snprintf",
+          "lineNumber": 217
+        },
+        {
+          "caller": "write_log_data",
+          "callee": "snprintf",
+          "lineNumber": 219
+        },
+        {
+          "caller": "write_log_data",
+          "callee": "fopen",
+          "lineNumber": 221
+        },
+        {
+          "caller": "write_log_data",
+          "callee": "snprintf",
+          "lineNumber": 226
+        },
+        {
+          "caller": "write_log_data",
+          "callee": "fopen",
+          "lineNumber": 227
+        },
+        {
+          "caller": "write_log_data",
+          "callee": "getc",
+          "lineNumber": 231
+        },
+        {
+          "caller": "write_log_data",
+          "callee": "fprintf",
+          "lineNumber": 243
+        },
+        {
+          "caller": "write_log_data",
+          "callee": "fprintf",
+          "lineNumber": 245
+        },
+        {
+          "caller": "write_log_data",
+          "callee": "putc",
+          "lineNumber": 246
+        },
+        {
+          "caller": "write_log_data",
+          "callee": "putc",
+          "lineNumber": 248
+        },
+        {
+          "caller": "write_log_data",
+          "callee": "getc",
+          "lineNumber": 249
+        },
+        {
+          "caller": "write_log_data",
+          "callee": "putc",
+          "lineNumber": 251
+        },
+        {
+          "caller": "write_log_data",
+          "callee": "getc",
+          "lineNumber": 253
+        },
+        {
+          "caller": "write_log_data",
+          "callee": "fclose",
+          "lineNumber": 255
+        },
+        {
+          "caller": "write_log_data",
+          "callee": "fclose",
+          "lineNumber": 257
+        },
+        {
+          "caller": "write_lcov_data",
+          "callee": "fopen",
+          "lineNumber": 263
+        },
+        {
+          "caller": "write_lcov_data",
+          "callee": "fprintf",
+          "lineNumber": 274
+        },
+        {
+          "caller": "write_lcov_data",
+          "callee": "fprintf",
+          "lineNumber": 287
+        },
+        {
+          "caller": "write_lcov_data",
+          "callee": "fprintf",
+          "lineNumber": 296
+        },
+        {
+          "caller": "write_lcov_data",
+          "callee": "fprintf",
+          "lineNumber": 297
+        },
+        {
+          "caller": "write_lcov_data",
+          "callee": "fprintf",
+          "lineNumber": 298
+        },
+        {
+          "caller": "write_lcov_data",
+          "callee": "fclose",
+          "lineNumber": 300
+        },
+        {
+          "caller": "jl_write_coverage_data",
+          "callee": "uv_mutex_lock",
+          "lineNumber": 305
+        },
+        {
+          "caller": "jl_write_coverage_data",
+          "callee": "strlen",
+          "lineNumber": 307
+        },
+        {
+          "caller": "jl_write_coverage_data",
+          "callee": "strcmp",
+          "lineNumber": 308
+        },
+        {
+          "caller": "jl_write_coverage_data",
+          "callee": "jl_format_filename",
+          "lineNumber": 309
+        },
+        {
+          "caller": "jl_write_coverage_data",
+          "callee": "write_lcov_data",
+          "lineNumber": 310
+        },
+        {
+          "caller": "jl_write_coverage_data",
+          "callee": "free",
+          "lineNumber": 311
+        },
+        {
+          "caller": "jl_write_coverage_data",
+          "callee": "snprintf",
+          "lineNumber": 316
+        },
+        {
+          "caller": "jl_write_coverage_data",
+          "callee": "uv_os_getpid",
+          "lineNumber": 316
+        },
+        {
+          "caller": "jl_write_coverage_data",
+          "callee": "write_log_data",
+          "lineNumber": 317
+        },
+        {
+          "caller": "jl_write_coverage_data",
+          "callee": "uv_mutex_unlock",
+          "lineNumber": 319
+        },
+        {
+          "caller": "jl_write_malloc_log",
+          "callee": "uv_mutex_lock",
+          "lineNumber": 324
+        },
+        {
+          "caller": "jl_write_malloc_log",
+          "callee": "snprintf",
+          "lineNumber": 326
+        },
+        {
+          "caller": "jl_write_malloc_log",
+          "callee": "uv_os_getpid",
+          "lineNumber": 326
+        },
+        {
+          "caller": "jl_write_malloc_log",
+          "callee": "write_log_data",
+          "lineNumber": 327
+        },
+        {
+          "caller": "jl_write_malloc_log",
+          "callee": "uv_mutex_unlock",
+          "lineNumber": 328
+        },
+        {
+          "caller": "jl_init_coverage",
+          "callee": "uv_mutex_init",
+          "lineNumber": 333
+        },
+        {
+          "caller": "jl_init_coverage",
+          "callee": "strhash_new",
+          "lineNumber": 334
+        },
+        {
+          "caller": "jl_init_coverage",
+          "callee": "strhash_new",
+          "lineNumber": 335
+        }
+      ],
+      "metrics": {
+        "importCount": 3,
+        "exportCount": 4,
+        "functionCount": 10,
+        "classCount": 0
+      }
+    },
+    {
+      "path": "src/gc-heap-snapshot.c",
+      "language": "c",
+      "fileCategory": "code",
+      "totalLines": 726,
+      "nonEmptyLines": 631,
+      "functions": [
+        {
+          "name": "print_str_escape_json",
+          "startLine": 16,
+          "endLine": 39,
+          "params": [
+            "stream",
+            "s",
+            "len"
+          ]
+        },
+        {
+          "name": "st_init",
+          "startLine": 82,
+          "endLine": 86,
+          "params": [
+            "t"
+          ]
+        },
+        {
+          "name": "st_destroy",
+          "startLine": 88,
+          "endLine": 93,
+          "params": [
+            "t"
+          ]
+        },
+        {
+          "name": "st_find_or_create",
+          "startLine": 95,
+          "endLine": 121,
+          "params": [
+            "t",
+            "key"
+          ]
+        },
+        {
+          "name": "st_print_json_array",
+          "startLine": 123,
+          "endLine": 132,
+          "params": [
+            "t",
+            "stream",
+            "newlines"
+          ]
+        },
+        {
+          "name": "st_find_or_serialize",
+          "startLine": 135,
+          "endLine": 146,
+          "params": [
+            "t",
+            "stream",
+            "key"
+          ]
+        },
+        {
+          "name": "st_serialize",
+          "startLine": 149,
+          "endLine": 155,
+          "params": [
+            "t",
+            "stream",
+            "key"
+          ]
+        },
+        {
+          "name": "jl_gc_take_heap_snapshot",
+          "startLine": 202,
+          "endLine": 246,
+          "params": [
+            "nodes",
+            "edges",
+            "strings",
+            "json",
+            "all_one",
+            "redact_data"
+          ]
+        },
+        {
+          "name": "serialize_node",
+          "startLine": 248,
+          "endLine": 261,
+          "params": [
+            "snapshot",
+            "node"
+          ]
+        },
+        {
+          "name": "serialize_edge",
+          "startLine": 263,
+          "endLine": 273,
+          "params": [
+            "snapshot",
+            "edge"
+          ]
+        },
+        {
+          "name": "snapshot_insert_node",
+          "startLine": 277,
+          "endLine": 288,
+          "params": [
+            "snapshot",
+            "ptr",
+            "out_index"
+          ]
+        },
+        {
+          "name": "_add_synthetic_root_entries",
+          "startLine": 292,
+          "endLine": 365,
+          "params": [
+            "snapshot"
+          ]
+        },
+        {
+          "name": "record_node_to_gc_snapshot",
+          "startLine": 369,
+          "endLine": 495,
+          "params": [
+            "a"
+          ]
+        },
+        {
+          "name": "record_pointer_to_gc_snapshot",
+          "startLine": 497,
+          "endLine": 514,
+          "params": [
+            "a",
+            "bytes",
+            "name"
+          ]
+        },
+        {
+          "name": "_fieldpath_for_slot",
+          "startLine": 516,
+          "endLine": 542,
+          "params": [
+            "obj",
+            "slot",
+            "result"
+          ]
+        },
+        {
+          "name": "_gc_heap_snapshot_record_root",
+          "startLine": 544,
+          "endLine": 550,
+          "params": [
+            "root",
+            "name"
+          ]
+        },
+        {
+          "name": "_gc_heap_snapshot_record_gc_roots",
+          "startLine": 552,
+          "endLine": 558,
+          "params": [
+            "root",
+            "name"
+          ]
+        },
+        {
+          "name": "_gc_heap_snapshot_record_finlist",
+          "startLine": 560,
+          "endLine": 567,
+          "params": [
+            "obj",
+            "index"
+          ]
+        },
+        {
+          "name": "_record_stack_frame_node",
+          "startLine": 573,
+          "endLine": 590,
+          "params": [
+            "snapshot",
+            "frame"
+          ]
+        },
+        {
+          "name": "_gc_heap_snapshot_record_frame_to_object_edge",
+          "startLine": 592,
+          "endLine": 599,
+          "params": [
+            "from",
+            "to"
+          ]
+        },
+        {
+          "name": "_gc_heap_snapshot_record_task_to_frame_edge",
+          "startLine": 601,
+          "endLine": 608,
+          "params": [
+            "from",
+            "to"
+          ]
+        },
+        {
+          "name": "_gc_heap_snapshot_record_frame_to_frame_edge",
+          "startLine": 610,
+          "endLine": 617,
+          "params": [
+            "from",
+            "to"
+          ]
+        },
+        {
+          "name": "_gc_heap_snapshot_record_array_edge",
+          "startLine": 619,
+          "endLine": 622,
+          "params": [
+            "from",
+            "to",
+            "index"
+          ]
+        },
+        {
+          "name": "_gc_heap_snapshot_record_object_edge",
+          "startLine": 624,
+          "endLine": 633,
+          "params": [
+            "from",
+            "to",
+            "slot"
+          ]
+        },
+        {
+          "name": "_gc_heap_snapshot_record_module_to_binding",
+          "startLine": 635,
+          "endLine": 647,
+          "params": [
+            "module",
+            "bindings",
+            "bindingkeyset"
+          ]
+        },
+        {
+          "name": "_gc_heap_snapshot_record_internal_array_edge",
+          "startLine": 649,
+          "endLine": 653,
+          "params": [
+            "from",
+            "to"
+          ]
+        },
+        {
+          "name": "_gc_heap_snapshot_record_binding_partition_edge",
+          "startLine": 655,
+          "endLine": 659,
+          "params": [
+            "from",
+            "to"
+          ]
+        },
+        {
+          "name": "_gc_heap_snapshot_record_foreign_memory_edge",
+          "startLine": 662,
+          "endLine": 671,
+          "params": [
+            "from",
+            "to",
+            "bytes"
+          ]
+        },
+        {
+          "name": "_record_gc_edge",
+          "startLine": 673,
+          "endLine": 680,
+          "params": [
+            "edge_type",
+            "a",
+            "b",
+            "name_or_idx"
+          ]
+        },
+        {
+          "name": "_record_gc_just_edge",
+          "startLine": 682,
+          "endLine": 692,
+          "params": [
+            "edge_type",
+            "from_idx",
+            "to_idx",
+            "name_or_idx"
+          ]
+        },
+        {
+          "name": "final_serialize_heap_snapshot",
+          "startLine": 694,
+          "endLine": 726,
+          "params": [
+            "json",
+            "strings",
+            "snapshot",
+            "all_one"
+          ]
+        }
+      ],
+      "exports": [
+        {
+          "name": "jl_gc_take_heap_snapshot",
+          "line": 202,
+          "isDefault": false
+        },
+        {
+          "name": "_gc_heap_snapshot_record_root",
+          "line": 544,
+          "isDefault": false
+        },
+        {
+          "name": "_gc_heap_snapshot_record_gc_roots",
+          "line": 552,
+          "isDefault": false
+        },
+        {
+          "name": "_gc_heap_snapshot_record_finlist",
+          "line": 560,
+          "isDefault": false
+        },
+        {
+          "name": "_gc_heap_snapshot_record_frame_to_object_edge",
+          "line": 592,
+          "isDefault": false
+        },
+        {
+          "name": "_gc_heap_snapshot_record_task_to_frame_edge",
+          "line": 601,
+          "isDefault": false
+        },
+        {
+          "name": "_gc_heap_snapshot_record_frame_to_frame_edge",
+          "line": 610,
+          "isDefault": false
+        },
+        {
+          "name": "_gc_heap_snapshot_record_array_edge",
+          "line": 619,
+          "isDefault": false
+        },
+        {
+          "name": "_gc_heap_snapshot_record_object_edge",
+          "line": 624,
+          "isDefault": false
+        },
+        {
+          "name": "_gc_heap_snapshot_record_module_to_binding",
+          "line": 635,
+          "isDefault": false
+        },
+        {
+          "name": "_gc_heap_snapshot_record_internal_array_edge",
+          "line": 649,
+          "isDefault": false
+        },
+        {
+          "name": "_gc_heap_snapshot_record_binding_partition_edge",
+          "line": 655,
+          "isDefault": false
+        },
+        {
+          "name": "_gc_heap_snapshot_record_foreign_memory_edge",
+          "line": 662,
+          "isDefault": false
+        }
+      ],
+      "callGraph": [
+        {
+          "caller": "print_str_escape_json",
+          "callee": "ios_putc",
+          "lineNumber": 18
+        },
+        {
+          "caller": "print_str_escape_json",
+          "callee": "ios_write",
+          "lineNumber": 22
+        },
+        {
+          "caller": "print_str_escape_json",
+          "callee": "ios_write",
+          "lineNumber": 23
+        },
+        {
+          "caller": "print_str_escape_json",
+          "callee": "ios_write",
+          "lineNumber": 24
+        },
+        {
+          "caller": "print_str_escape_json",
+          "callee": "ios_write",
+          "lineNumber": 25
+        },
+        {
+          "caller": "print_str_escape_json",
+          "callee": "ios_write",
+          "lineNumber": 26
+        },
+        {
+          "caller": "print_str_escape_json",
+          "callee": "ios_write",
+          "lineNumber": 27
+        },
+        {
+          "caller": "print_str_escape_json",
+          "callee": "ios_write",
+          "lineNumber": 28
+        },
+        {
+          "caller": "print_str_escape_json",
+          "callee": "ios_printf",
+          "lineNumber": 31
+        },
+        {
+          "caller": "print_str_escape_json",
+          "callee": "ios_putc",
+          "lineNumber": 34
+        },
+        {
+          "caller": "print_str_escape_json",
+          "callee": "ios_putc",
+          "lineNumber": 38
+        },
+        {
+          "caller": "st_init",
+          "callee": "memset",
+          "lineNumber": 84
+        },
+        {
+          "caller": "st_init",
+          "callee": "strhash_new",
+          "lineNumber": 85
+        },
+        {
+          "caller": "st_destroy",
+          "callee": "strhash_free",
+          "lineNumber": 90
+        },
+        {
+          "caller": "st_destroy",
+          "callee": "free",
+          "lineNumber": 91
+        },
+        {
+          "caller": "st_destroy",
+          "callee": "free",
+          "lineNumber": 92
+        },
+        {
+          "caller": "st_find_or_create",
+          "callee": "strhash_bp",
+          "lineNumber": 98
+        },
+        {
+          "caller": "st_find_or_create",
+          "callee": "strlen",
+          "lineNumber": 106
+        },
+        {
+          "caller": "st_find_or_create",
+          "callee": "realloc_s",
+          "lineNumber": 111
+        },
+        {
+          "caller": "st_find_or_create",
+          "callee": "realloc_s",
+          "lineNumber": 112
+        },
+        {
+          "caller": "st_print_json_array",
+          "callee": "ios_printf",
+          "lineNumber": 125
+        },
+        {
+          "caller": "st_print_json_array",
+          "callee": "ios_printf",
+          "lineNumber": 128
+        },
+        {
+          "caller": "st_print_json_array",
+          "callee": "print_str_escape_json",
+          "lineNumber": 129
+        },
+        {
+          "caller": "st_print_json_array",
+          "callee": "ios_printf",
+          "lineNumber": 131
+        },
+        {
+          "caller": "st_find_or_serialize",
+          "callee": "strlen",
+          "lineNumber": 137
+        },
+        {
+          "caller": "st_find_or_serialize",
+          "callee": "st_find_or_create",
+          "lineNumber": 139
+        },
+        {
+          "caller": "st_find_or_serialize",
+          "callee": "ios_write",
+          "lineNumber": 142
+        },
+        {
+          "caller": "st_find_or_serialize",
+          "callee": "ios_write",
+          "lineNumber": 143
+        },
+        {
+          "caller": "st_serialize",
+          "callee": "strlen",
+          "lineNumber": 151
+        },
+        {
+          "caller": "st_serialize",
+          "callee": "ios_write",
+          "lineNumber": 152
+        },
+        {
+          "caller": "st_serialize",
+          "callee": "ios_write",
+          "lineNumber": 153
+        },
+        {
+          "caller": "jl_gc_take_heap_snapshot",
+          "callee": "memset",
+          "lineNumber": 206
+        },
+        {
+          "caller": "jl_gc_take_heap_snapshot",
+          "callee": "st_init",
+          "lineNumber": 207
+        },
+        {
+          "caller": "jl_gc_take_heap_snapshot",
+          "callee": "st_init",
+          "lineNumber": 208
+        },
+        {
+          "caller": "jl_gc_take_heap_snapshot",
+          "callee": "st_init",
+          "lineNumber": 209
+        },
+        {
+          "caller": "jl_gc_take_heap_snapshot",
+          "callee": "htable_new",
+          "lineNumber": 210
+        },
+        {
+          "caller": "jl_gc_take_heap_snapshot",
+          "callee": "jl_mutex_lock",
+          "lineNumber": 218
+        },
+        {
+          "caller": "jl_gc_take_heap_snapshot",
+          "callee": "_add_synthetic_root_entries",
+          "lineNumber": 225
+        },
+        {
+          "caller": "jl_gc_take_heap_snapshot",
+          "callee": "jl_gc_collect",
+          "lineNumber": 228
+        },
+        {
+          "caller": "jl_gc_take_heap_snapshot",
+          "callee": "jl_mutex_unlock",
+          "lineNumber": 235
+        },
+        {
+          "caller": "jl_gc_take_heap_snapshot",
+          "callee": "final_serialize_heap_snapshot",
+          "lineNumber": 239
+        },
+        {
+          "caller": "jl_gc_take_heap_snapshot",
+          "callee": "htable_free",
+          "lineNumber": 242
+        },
+        {
+          "caller": "jl_gc_take_heap_snapshot",
+          "callee": "st_destroy",
+          "lineNumber": 243
+        },
+        {
+          "caller": "jl_gc_take_heap_snapshot",
+          "callee": "st_destroy",
+          "lineNumber": 244
+        },
+        {
+          "caller": "jl_gc_take_heap_snapshot",
+          "callee": "st_destroy",
+          "lineNumber": 245
+        },
+        {
+          "caller": "serialize_node",
+          "callee": "ios_write",
+          "lineNumber": 251
+        },
+        {
+          "caller": "serialize_node",
+          "callee": "ios_write",
+          "lineNumber": 252
+        },
+        {
+          "caller": "serialize_node",
+          "callee": "ios_write",
+          "lineNumber": 253
+        },
+        {
+          "caller": "serialize_node",
+          "callee": "ios_write",
+          "lineNumber": 254
+        },
+        {
+          "caller": "serialize_node",
+          "callee": "ios_write",
+          "lineNumber": 257
+        },
+        {
+          "caller": "serialize_node",
+          "callee": "ios_write",
+          "lineNumber": 258
+        },
+        {
+          "caller": "serialize_edge",
+          "callee": "ios_write",
+          "lineNumber": 266
+        },
+        {
+          "caller": "serialize_edge",
+          "callee": "ios_write",
+          "lineNumber": 267
+        },
+        {
+          "caller": "serialize_edge",
+          "callee": "ios_write",
+          "lineNumber": 269
+        },
+        {
+          "caller": "serialize_edge",
+          "callee": "ios_write",
+          "lineNumber": 270
+        },
+        {
+          "caller": "snapshot_insert_node",
+          "callee": "ptrhash_bp",
+          "lineNumber": 279
+        },
+        {
+          "caller": "_add_synthetic_root_entries",
+          "callee": "st_find_or_create",
+          "lineNumber": 297
+        },
+        {
+          "caller": "_add_synthetic_root_entries",
+          "callee": "st_find_or_serialize",
+          "lineNumber": 298
+        },
+        {
+          "caller": "_add_synthetic_root_entries",
+          "callee": "serialize_node",
+          "lineNumber": 304
+        },
+        {
+          "caller": "_add_synthetic_root_entries",
+          "callee": "st_find_or_create",
+          "lineNumber": 309
+        },
+        {
+          "caller": "_add_synthetic_root_entries",
+          "callee": "st_find_or_serialize",
+          "lineNumber": 310
+        },
+        {
+          "caller": "_add_synthetic_root_entries",
+          "callee": "serialize_node",
+          "lineNumber": 316
+        },
+        {
+          "caller": "_add_synthetic_root_entries",
+          "callee": "st_find_or_create",
+          "lineNumber": 318
+        },
+        {
+          "caller": "_add_synthetic_root_entries",
+          "callee": "st_find_or_serialize",
+          "lineNumber": 319
+        },
+        {
+          "caller": "_add_synthetic_root_entries",
+          "callee": "serialize_edge",
+          "lineNumber": 323
+        },
+        {
+          "caller": "_add_synthetic_root_entries",
+          "callee": "st_find_or_create",
+          "lineNumber": 328
+        },
+        {
+          "caller": "_add_synthetic_root_entries",
+          "callee": "st_find_or_serialize",
+          "lineNumber": 329
+        },
+        {
+          "caller": "_add_synthetic_root_entries",
+          "callee": "serialize_node",
+          "lineNumber": 335
+        },
+        {
+          "caller": "_add_synthetic_root_entries",
+          "callee": "st_find_or_create",
+          "lineNumber": 337
+        },
+        {
+          "caller": "_add_synthetic_root_entries",
+          "callee": "st_find_or_serialize",
+          "lineNumber": 338
+        },
+        {
+          "caller": "_add_synthetic_root_entries",
+          "callee": "serialize_edge",
+          "lineNumber": 342
+        },
+        {
+          "caller": "_add_synthetic_root_entries",
+          "callee": "st_find_or_create",
+          "lineNumber": 350
+        },
+        {
+          "caller": "_add_synthetic_root_entries",
+          "callee": "st_find_or_serialize",
+          "lineNumber": 351
+        },
+        {
+          "caller": "_add_synthetic_root_entries",
+          "callee": "serialize_node",
+          "lineNumber": 357
+        },
+        {
+          "caller": "_add_synthetic_root_entries",
+          "callee": "st_find_or_create",
+          "lineNumber": 359
+        },
+        {
+          "caller": "_add_synthetic_root_entries",
+          "callee": "st_find_or_serialize",
+          "lineNumber": 360
+        },
+        {
+          "caller": "_add_synthetic_root_entries",
+          "callee": "serialize_edge",
+          "lineNumber": 364
+        },
+        {
+          "caller": "record_node_to_gc_snapshot",
+          "callee": "snapshot_insert_node",
+          "lineNumber": 372
+        },
+        {
+          "caller": "record_node_to_gc_snapshot",
+          "callee": "jl_typeof",
+          "lineNumber": 383
+        },
+        {
+          "caller": "record_node_to_gc_snapshot",
+          "callee": "jl_is_string",
+          "lineNumber": 385
+        },
+        {
+          "caller": "record_node_to_gc_snapshot",
+          "callee": "jl_string_data",
+          "lineNumber": 387
+        },
+        {
+          "caller": "record_node_to_gc_snapshot",
+          "callee": "jl_string_len",
+          "lineNumber": 388
+        },
+        {
+          "caller": "record_node_to_gc_snapshot",
+          "callee": "jl_is_symbol",
+          "lineNumber": 390
+        },
+        {
+          "caller": "record_node_to_gc_snapshot",
+          "callee": "jl_symbol_name",
+          "lineNumber": 392
+        },
+        {
+          "caller": "record_node_to_gc_snapshot",
+          "callee": "strlen",
+          "lineNumber": 393
+        },
+        {
+          "caller": "record_node_to_gc_snapshot",
+          "callee": "jl_is_simplevector",
+          "lineNumber": 395
+        },
+        {
+          "caller": "record_node_to_gc_snapshot",
+          "callee": "jl_svec_len",
+          "lineNumber": 398
+        },
+        {
+          "caller": "record_node_to_gc_snapshot",
+          "callee": "jl_is_module",
+          "lineNumber": 400
+        },
+        {
+          "caller": "record_node_to_gc_snapshot",
+          "callee": "jl_symbol_name_",
+          "lineNumber": 402
+        },
+        {
+          "caller": "record_node_to_gc_snapshot",
+          "callee": "jl_is_task",
+          "lineNumber": 405
+        },
+        {
+          "caller": "record_node_to_gc_snapshot",
+          "callee": "jl_is_cancel_source",
+          "lineNumber": 410
+        },
+        {
+          "caller": "record_node_to_gc_snapshot",
+          "callee": "jl_is_wait_entry",
+          "lineNumber": 417
+        },
+        {
+          "caller": "record_node_to_gc_snapshot",
+          "callee": "jl_is_datatype",
+          "lineNumber": 424
+        },
+        {
+          "caller": "record_node_to_gc_snapshot",
+          "callee": "ios_mem",
+          "lineNumber": 426
+        },
+        {
+          "caller": "record_node_to_gc_snapshot",
+          "callee": "jl_static_show",
+          "lineNumber": 428
+        },
+        {
+          "caller": "record_node_to_gc_snapshot",
+          "callee": "ios_putc",
+          "lineNumber": 429
+        },
+        {
+          "caller": "record_node_to_gc_snapshot",
+          "callee": "jl_is_array",
+          "lineNumber": 434
+        },
+        {
+          "caller": "record_node_to_gc_snapshot",
+          "callee": "ios_mem",
+          "lineNumber": 436
+        },
+        {
+          "caller": "record_node_to_gc_snapshot",
+          "callee": "jl_static_show",
+          "lineNumber": 438
+        },
+        {
+          "caller": "record_node_to_gc_snapshot",
+          "callee": "ios_putc",
+          "lineNumber": 439
+        },
+        {
+          "caller": "record_node_to_gc_snapshot",
+          "callee": "jl_datatype_size",
+          "lineNumber": 445
+        },
+        {
+          "caller": "record_node_to_gc_snapshot",
+          "callee": "jl_genericmemory_how",
+          "lineNumber": 448
+        },
+        {
+          "caller": "record_node_to_gc_snapshot",
+          "callee": "jl_genericmemory_nbytes",
+          "lineNumber": 453
+        },
+        {
+          "caller": "record_node_to_gc_snapshot",
+          "callee": "ios_mem",
+          "lineNumber": 459
+        },
+        {
+          "caller": "record_node_to_gc_snapshot",
+          "callee": "jl_static_show",
+          "lineNumber": 461
+        },
+        {
+          "caller": "record_node_to_gc_snapshot",
+          "callee": "ios_putc",
+          "lineNumber": 462
+        },
+        {
+          "caller": "record_node_to_gc_snapshot",
+          "callee": "st_find_or_create",
+          "lineNumber": 468
+        },
+        {
+          "caller": "record_node_to_gc_snapshot",
+          "callee": "st_serialize",
+          "lineNumber": 469
+        },
+        {
+          "caller": "record_node_to_gc_snapshot",
+          "callee": "serialize_node",
+          "lineNumber": 477
+        },
+        {
+          "caller": "record_node_to_gc_snapshot",
+          "callee": "ios_close",
+          "lineNumber": 480
+        },
+        {
+          "caller": "record_node_to_gc_snapshot",
+          "callee": "jl_astaggedvalue",
+          "lineNumber": 485
+        },
+        {
+          "caller": "record_node_to_gc_snapshot",
+          "callee": "jl_object_top_module",
+          "lineNumber": 486
+        },
+        {
+          "caller": "record_node_to_gc_snapshot",
+          "callee": "jl_is_module",
+          "lineNumber": 488
+        },
+        {
+          "caller": "record_node_to_gc_snapshot",
+          "callee": "jl_symbol_name_",
+          "lineNumber": 489
+        },
+        {
+          "caller": "record_node_to_gc_snapshot",
+          "callee": "_record_gc_just_edge",
+          "lineNumber": 490
+        },
+        {
+          "caller": "record_node_to_gc_snapshot",
+          "callee": "st_find_or_serialize",
+          "lineNumber": 491
+        },
+        {
+          "caller": "record_pointer_to_gc_snapshot",
+          "callee": "snapshot_insert_node",
+          "lineNumber": 500
+        },
+        {
+          "caller": "record_pointer_to_gc_snapshot",
+          "callee": "st_find_or_create",
+          "lineNumber": 504
+        },
+        {
+          "caller": "record_pointer_to_gc_snapshot",
+          "callee": "st_serialize",
+          "lineNumber": 505
+        },
+        {
+          "caller": "record_pointer_to_gc_snapshot",
+          "callee": "serialize_node",
+          "lineNumber": 511
+        },
+        {
+          "caller": "_fieldpath_for_slot",
+          "callee": "jl_typeof",
+          "lineNumber": 518
+        },
+        {
+          "caller": "_fieldpath_for_slot",
+          "callee": "gc_slot_to_fieldidx",
+          "lineNumber": 521
+        },
+        {
+          "caller": "_fieldpath_for_slot",
+          "callee": "jl_is_tuple_type",
+          "lineNumber": 523
+        },
+        {
+          "caller": "_fieldpath_for_slot",
+          "callee": "jl_is_namedtuple_type",
+          "lineNumber": 523
+        },
+        {
+          "caller": "_fieldpath_for_slot",
+          "callee": "ios_printf",
+          "lineNumber": 524
+        },
+        {
+          "caller": "_fieldpath_for_slot",
+          "callee": "jl_field_names",
+          "lineNumber": 527
+        },
+        {
+          "caller": "_fieldpath_for_slot",
+          "callee": "jl_svecref",
+          "lineNumber": 528
+        },
+        {
+          "caller": "_fieldpath_for_slot",
+          "callee": "ios_puts",
+          "lineNumber": 529
+        },
+        {
+          "caller": "_fieldpath_for_slot",
+          "callee": "jl_symbol_name",
+          "lineNumber": 529
+        },
+        {
+          "caller": "_fieldpath_for_slot",
+          "callee": "jl_field_isptr",
+          "lineNumber": 532
+        },
+        {
+          "caller": "_fieldpath_for_slot",
+          "callee": "ios_putc",
+          "lineNumber": 534
+        },
+        {
+          "caller": "_fieldpath_for_slot",
+          "callee": "jl_field_offset",
+          "lineNumber": 535
+        },
+        {
+          "caller": "_fieldpath_for_slot",
+          "callee": "jl_field_type_concrete",
+          "lineNumber": 536
+        },
+        {
+          "caller": "_gc_heap_snapshot_record_root",
+          "callee": "record_node_to_gc_snapshot",
+          "lineNumber": 546
+        },
+        {
+          "caller": "_gc_heap_snapshot_record_root",
+          "callee": "st_serialize",
+          "lineNumber": 547
+        },
+        {
+          "caller": "_gc_heap_snapshot_record_root",
+          "callee": "_record_gc_just_edge",
+          "lineNumber": 549
+        },
+        {
+          "caller": "_gc_heap_snapshot_record_gc_roots",
+          "callee": "record_node_to_gc_snapshot",
+          "lineNumber": 554
+        },
+        {
+          "caller": "_gc_heap_snapshot_record_gc_roots",
+          "callee": "st_serialize",
+          "lineNumber": 555
+        },
+        {
+          "caller": "_gc_heap_snapshot_record_gc_roots",
+          "callee": "_record_gc_just_edge",
+          "lineNumber": 557
+        },
+        {
+          "caller": "_gc_heap_snapshot_record_finlist",
+          "callee": "record_node_to_gc_snapshot",
+          "lineNumber": 562
+        },
+        {
+          "caller": "_gc_heap_snapshot_record_finlist",
+          "callee": "snprintf",
+          "lineNumber": 564
+        },
+        {
+          "caller": "_gc_heap_snapshot_record_finlist",
+          "callee": "st_find_or_serialize",
+          "lineNumber": 565
+        },
+        {
+          "caller": "_gc_heap_snapshot_record_finlist",
+          "callee": "_record_gc_just_edge",
+          "lineNumber": 566
+        },
+        {
+          "caller": "_record_stack_frame_node",
+          "callee": "snapshot_insert_node",
+          "lineNumber": 576
+        },
+        {
+          "caller": "_record_stack_frame_node",
+          "callee": "st_find_or_create",
+          "lineNumber": 580
+        },
+        {
+          "caller": "_record_stack_frame_node",
+          "callee": "st_find_or_serialize",
+          "lineNumber": 581
+        },
+        {
+          "caller": "_record_stack_frame_node",
+          "callee": "serialize_node",
+          "lineNumber": 587
+        },
+        {
+          "caller": "_gc_heap_snapshot_record_frame_to_object_edge",
+          "callee": "_record_stack_frame_node",
+          "lineNumber": 594
+        },
+        {
+          "caller": "_gc_heap_snapshot_record_frame_to_object_edge",
+          "callee": "record_node_to_gc_snapshot",
+          "lineNumber": 595
+        },
+        {
+          "caller": "_gc_heap_snapshot_record_frame_to_object_edge",
+          "callee": "st_find_or_serialize",
+          "lineNumber": 597
+        },
+        {
+          "caller": "_gc_heap_snapshot_record_frame_to_object_edge",
+          "callee": "_record_gc_just_edge",
+          "lineNumber": 598
+        },
+        {
+          "caller": "_gc_heap_snapshot_record_task_to_frame_edge",
+          "callee": "record_node_to_gc_snapshot",
+          "lineNumber": 603
+        },
+        {
+          "caller": "_gc_heap_snapshot_record_task_to_frame_edge",
+          "callee": "_record_stack_frame_node",
+          "lineNumber": 604
+        },
+        {
+          "caller": "_gc_heap_snapshot_record_task_to_frame_edge",
+          "callee": "st_find_or_serialize",
+          "lineNumber": 606
+        },
+        {
+          "caller": "_gc_heap_snapshot_record_task_to_frame_edge",
+          "callee": "_record_gc_just_edge",
+          "lineNumber": 607
+        },
+        {
+          "caller": "_gc_heap_snapshot_record_frame_to_frame_edge",
+          "callee": "_record_stack_frame_node",
+          "lineNumber": 612
+        },
+        {
+          "caller": "_gc_heap_snapshot_record_frame_to_frame_edge",
+          "callee": "_record_stack_frame_node",
+          "lineNumber": 613
+        },
+        {
+          "caller": "_gc_heap_snapshot_record_frame_to_frame_edge",
+          "callee": "st_find_or_serialize",
+          "lineNumber": 615
+        },
+        {
+          "caller": "_gc_heap_snapshot_record_frame_to_frame_edge",
+          "callee": "_record_gc_just_edge",
+          "lineNumber": 616
+        },
+        {
+          "caller": "_gc_heap_snapshot_record_array_edge",
+          "callee": "_record_gc_edge",
+          "lineNumber": 621
+        },
+        {
+          "caller": "_gc_heap_snapshot_record_object_edge",
+          "callee": "ios_mem",
+          "lineNumber": 627
+        },
+        {
+          "caller": "_gc_heap_snapshot_record_object_edge",
+          "callee": "_fieldpath_for_slot",
+          "lineNumber": 628
+        },
+        {
+          "caller": "_gc_heap_snapshot_record_object_edge",
+          "callee": "ios_putc",
+          "lineNumber": 629
+        },
+        {
+          "caller": "_gc_heap_snapshot_record_object_edge",
+          "callee": "st_find_or_serialize",
+          "lineNumber": 630
+        },
+        {
+          "caller": "_gc_heap_snapshot_record_object_edge",
+          "callee": "ios_close",
+          "lineNumber": 631
+        },
+        {
+          "caller": "_gc_heap_snapshot_record_object_edge",
+          "callee": "_record_gc_edge",
+          "lineNumber": 632
+        },
+        {
+          "caller": "_gc_heap_snapshot_record_module_to_binding",
+          "callee": "record_node_to_gc_snapshot",
+          "lineNumber": 637
+        },
+        {
+          "caller": "_gc_heap_snapshot_record_module_to_binding",
+          "callee": "record_node_to_gc_snapshot",
+          "lineNumber": 638
+        },
+        {
+          "caller": "_gc_heap_snapshot_record_module_to_binding",
+          "callee": "record_node_to_gc_snapshot",
+          "lineNumber": 639
+        },
+        {
+          "caller": "_gc_heap_snapshot_record_module_to_binding",
+          "callee": "_record_gc_just_edge",
+          "lineNumber": 642
+        },
+        {
+          "caller": "_gc_heap_snapshot_record_module_to_binding",
+          "callee": "st_find_or_serialize",
+          "lineNumber": 642
+        },
+        {
+          "caller": "_gc_heap_snapshot_record_module_to_binding",
+          "callee": "_record_gc_just_edge",
+          "lineNumber": 645
+        },
+        {
+          "caller": "_gc_heap_snapshot_record_module_to_binding",
+          "callee": "st_find_or_serialize",
+          "lineNumber": 645
+        },
+        {
+          "caller": "_gc_heap_snapshot_record_internal_array_edge",
+          "callee": "_record_gc_edge",
+          "lineNumber": 651
+        },
+        {
+          "caller": "_gc_heap_snapshot_record_internal_array_edge",
+          "callee": "st_find_or_serialize",
+          "lineNumber": 652
+        },
+        {
+          "caller": "_gc_heap_snapshot_record_binding_partition_edge",
+          "callee": "_record_gc_edge",
+          "lineNumber": 657
+        },
+        {
+          "caller": "_gc_heap_snapshot_record_binding_partition_edge",
+          "callee": "st_find_or_serialize",
+          "lineNumber": 658
+        },
+        {
+          "caller": "_gc_heap_snapshot_record_foreign_memory_edge",
+          "callee": "st_find_or_serialize",
+          "lineNumber": 664
+        },
+        {
+          "caller": "_gc_heap_snapshot_record_foreign_memory_edge",
+          "callee": "record_node_to_gc_snapshot",
+          "lineNumber": 666
+        },
+        {
+          "caller": "_gc_heap_snapshot_record_foreign_memory_edge",
+          "callee": "record_pointer_to_gc_snapshot",
+          "lineNumber": 668
+        },
+        {
+          "caller": "_gc_heap_snapshot_record_foreign_memory_edge",
+          "callee": "_record_gc_just_edge",
+          "lineNumber": 670
+        },
+        {
+          "caller": "_record_gc_edge",
+          "callee": "record_node_to_gc_snapshot",
+          "lineNumber": 676
+        },
+        {
+          "caller": "_record_gc_edge",
+          "callee": "record_node_to_gc_snapshot",
+          "lineNumber": 677
+        },
+        {
+          "caller": "_record_gc_edge",
+          "callee": "_record_gc_just_edge",
+          "lineNumber": 679
+        },
+        {
+          "caller": "_record_gc_just_edge",
+          "callee": "st_find_or_create",
+          "lineNumber": 685
+        },
+        {
+          "caller": "_record_gc_just_edge",
+          "callee": "serialize_edge",
+          "lineNumber": 691
+        },
+        {
+          "caller": "final_serialize_heap_snapshot",
+          "callee": "ios_printf",
+          "lineNumber": 698
+        },
+        {
+          "caller": "final_serialize_heap_snapshot",
+          "callee": "ios_printf",
+          "lineNumber": 700
+        },
+        {
+          "caller": "final_serialize_heap_snapshot",
+          "callee": "ios_printf",
+          "lineNumber": 701
+        },
+        {
+          "caller": "final_serialize_heap_snapshot",
+          "callee": "ios_printf",
+          "lineNumber": 702
+        },
+        {
+          "caller": "final_serialize_heap_snapshot",
+          "callee": "st_print_json_array",
+          "lineNumber": 703
+        },
+        {
+          "caller": "final_serialize_heap_snapshot",
+          "callee": "ios_printf",
+          "lineNumber": 704
+        },
+        {
+          "caller": "final_serialize_heap_snapshot",
+          "callee": "ios_printf",
+          "lineNumber": 705
+        },
+        {
+          "caller": "final_serialize_heap_snapshot",
+          "callee": "ios_printf",
+          "lineNumber": 706
+        },
+        {
+          "caller": "final_serialize_heap_snapshot",
+          "callee": "ios_printf",
+          "lineNumber": 707
+        },
+        {
+          "caller": "final_serialize_heap_snapshot",
+          "callee": "st_print_json_array",
+          "lineNumber": 708
+        },
+        {
+          "caller": "final_serialize_heap_snapshot",
+          "callee": "ios_printf",
+          "lineNumber": 709
+        },
+        {
+          "caller": "final_serialize_heap_snapshot",
+          "callee": "ios_printf",
+          "lineNumber": 710
+        },
+        {
+          "caller": "final_serialize_heap_snapshot",
+          "callee": "ios_printf",
+          "lineNumber": 712
+        },
+        {
+          "caller": "final_serialize_heap_snapshot",
+          "callee": "ios_printf",
+          "lineNumber": 713
+        },
+        {
+          "caller": "final_serialize_heap_snapshot",
+          "callee": "ios_printf",
+          "lineNumber": 714
+        },
+        {
+          "caller": "final_serialize_heap_snapshot",
+          "callee": "ios_printf",
+          "lineNumber": 715
+        },
+        {
+          "caller": "final_serialize_heap_snapshot",
+          "callee": "ios_printf",
+          "lineNumber": 717
+        },
+        {
+          "caller": "final_serialize_heap_snapshot",
+          "callee": "ios_printf",
+          "lineNumber": 719
+        },
+        {
+          "caller": "final_serialize_heap_snapshot",
+          "callee": "ios_printf",
+          "lineNumber": 720
+        },
+        {
+          "caller": "final_serialize_heap_snapshot",
+          "callee": "ios_printf",
+          "lineNumber": 721
+        },
+        {
+          "caller": "final_serialize_heap_snapshot",
+          "callee": "ios_printf",
+          "lineNumber": 722
+        },
+        {
+          "caller": "final_serialize_heap_snapshot",
+          "callee": "ios_printf",
+          "lineNumber": 725
+        }
+      ],
+      "metrics": {
+        "importCount": 6,
+        "exportCount": 13,
+        "functionCount": 31,
+        "classCount": 0
+      }
+    },
+    {
+      "path": "src/gc-heap-snapshot.h",
+      "language": "c",
+      "fileCategory": "code",
+      "totalLines": 140,
+      "nonEmptyLines": 122,
+      "callGraph": [
+        {
+          "caller": "gc_heap_snapshot_record_frame_to_object_edge",
+          "callee": "__unlikely",
+          "lineNumber": 45
+        },
+        {
+          "caller": "gc_heap_snapshot_record_frame_to_object_edge",
+          "callee": "_gc_heap_snapshot_record_frame_to_object_edge",
+          "lineNumber": 46
+        },
+        {
+          "caller": "gc_heap_snapshot_record_task_to_frame_edge",
+          "callee": "__unlikely",
+          "lineNumber": 51
+        },
+        {
+          "caller": "gc_heap_snapshot_record_task_to_frame_edge",
+          "callee": "_gc_heap_snapshot_record_task_to_frame_edge",
+          "lineNumber": 52
+        },
+        {
+          "caller": "gc_heap_snapshot_record_frame_to_frame_edge",
+          "callee": "__unlikely",
+          "lineNumber": 57
+        },
+        {
+          "caller": "gc_heap_snapshot_record_frame_to_frame_edge",
+          "callee": "_gc_heap_snapshot_record_frame_to_frame_edge",
+          "lineNumber": 58
+        },
+        {
+          "caller": "gc_heap_snapshot_record_root",
+          "callee": "__unlikely",
+          "lineNumber": 63
+        },
+        {
+          "caller": "gc_heap_snapshot_record_root",
+          "callee": "_gc_heap_snapshot_record_root",
+          "lineNumber": 64
+        },
+        {
+          "caller": "gc_heap_snapshot_record_array_edge_index",
+          "callee": "__unlikely",
+          "lineNumber": 69
+        },
+        {
+          "caller": "gc_heap_snapshot_record_array_edge_index",
+          "callee": "_gc_heap_snapshot_record_array_edge",
+          "lineNumber": 70
+        },
+        {
+          "caller": "gc_heap_snapshot_record_array_edge",
+          "callee": "__unlikely",
+          "lineNumber": 75
+        },
+        {
+          "caller": "gc_heap_snapshot_record_array_edge",
+          "callee": "_gc_heap_snapshot_record_array_edge",
+          "lineNumber": 76
+        },
+        {
+          "caller": "gc_heap_snapshot_record_array_edge",
+          "callee": "gc_slot_to_arrayidx",
+          "lineNumber": 76
+        },
+        {
+          "caller": "gc_heap_snapshot_record_object_edge",
+          "callee": "__unlikely",
+          "lineNumber": 81
+        },
+        {
+          "caller": "gc_heap_snapshot_record_object_edge",
+          "callee": "_gc_heap_snapshot_record_object_edge",
+          "lineNumber": 82
+        },
+        {
+          "caller": "gc_heap_snapshot_record_module_to_binding",
+          "callee": "__unlikely",
+          "lineNumber": 88
+        },
+        {
+          "caller": "gc_heap_snapshot_record_module_to_binding",
+          "callee": "_gc_heap_snapshot_record_module_to_binding",
+          "lineNumber": 89
+        },
+        {
+          "caller": "gc_heap_snapshot_record_internal_array_edge",
+          "callee": "__unlikely",
+          "lineNumber": 95
+        },
+        {
+          "caller": "gc_heap_snapshot_record_internal_array_edge",
+          "callee": "_gc_heap_snapshot_record_internal_array_edge",
+          "lineNumber": 96
+        },
+        {
+          "caller": "gc_heap_snapshot_record_binding_partition_edge",
+          "callee": "__unlikely",
+          "lineNumber": 102
+        },
+        {
+          "caller": "gc_heap_snapshot_record_binding_partition_edge",
+          "callee": "_gc_heap_snapshot_record_binding_partition_edge",
+          "lineNumber": 103
+        },
+        {
+          "caller": "gc_heap_snapshot_record_foreign_memory_edge",
+          "callee": "__unlikely",
+          "lineNumber": 109
+        },
+        {
+          "caller": "gc_heap_snapshot_record_foreign_memory_edge",
+          "callee": "_gc_heap_snapshot_record_foreign_memory_edge",
+          "lineNumber": 110
+        },
+        {
+          "caller": "gc_heap_snapshot_record_gc_roots",
+          "callee": "__unlikely",
+          "lineNumber": 116
+        },
+        {
+          "caller": "gc_heap_snapshot_record_gc_roots",
+          "callee": "_gc_heap_snapshot_record_gc_roots",
+          "lineNumber": 117
+        },
+        {
+          "caller": "gc_heap_snapshot_record_finlist",
+          "callee": "__unlikely",
+          "lineNumber": 123
+        },
+        {
+          "caller": "gc_heap_snapshot_record_finlist",
+          "callee": "_gc_heap_snapshot_record_finlist",
+          "lineNumber": 124
+        }
+      ],
+      "metrics": {
+        "importCount": 0,
+        "exportCount": 0,
+        "functionCount": 0,
+        "classCount": 0
+      }
+    },
+    {
+      "path": "src/jl_uv.c",
+      "language": "c",
+      "fileCategory": "code",
+      "totalLines": 1279,
+      "nonEmptyLines": 1153,
+      "callGraph": [
+        {
+          "caller": "walk_print_cb",
+          "callee": "uv_is_active",
+          "lineNumber": 40
+        },
+        {
+          "caller": "walk_print_cb",
+          "callee": "uv_has_ref",
+          "lineNumber": 40
+        },
+        {
+          "caller": "walk_print_cb",
+          "callee": "uv_handle_type_name",
+          "lineNumber": 42
+        },
+        {
+          "caller": "walk_print_cb",
+          "callee": "uv_process_get_pid",
+          "lineNumber": 48
+        },
+        {
+          "caller": "walk_print_cb",
+          "callee": "uv_fileno",
+          "lineNumber": 49
+        },
+        {
+          "caller": "walk_print_cb",
+          "callee": "snprintf",
+          "lineNumber": 54
+        },
+        {
+          "caller": "walk_print_cb",
+          "callee": "strlen",
+          "lineNumber": 57
+        },
+        {
+          "caller": "walk_print_cb",
+          "callee": "strlen",
+          "lineNumber": 58
+        },
+        {
+          "caller": "walk_print_cb",
+          "callee": "strlen",
+          "lineNumber": 58
+        },
+        {
+          "caller": "walk_print_cb",
+          "callee": "jl_safe_printf",
+          "lineNumber": 60
+        },
+        {
+          "caller": "walk_print_cb",
+          "callee": "jl_safe_printf",
+          "lineNumber": 62
+        },
+        {
+          "caller": "wait_empty_func",
+          "callee": "uv_unref",
+          "lineNumber": 68
+        },
+        {
+          "caller": "wait_empty_func",
+          "callee": "uv_loop_alive",
+          "lineNumber": 69
+        },
+        {
+          "caller": "wait_empty_func",
+          "callee": "jl_safe_printf",
+          "lineNumber": 71
+        },
+        {
+          "caller": "wait_empty_func",
+          "callee": "uv_os_getpid",
+          "lineNumber": 73
+        },
+        {
+          "caller": "wait_empty_func",
+          "callee": "uv_walk",
+          "lineNumber": 74
+        },
+        {
+          "caller": "wait_empty_func",
+          "callee": "jl_generating_output",
+          "lineNumber": 75
+        },
+        {
+          "caller": "wait_empty_func",
+          "callee": "jl_safe_printf",
+          "lineNumber": 76
+        },
+        {
+          "caller": "wait_empty_func",
+          "callee": "jl_gc_collect",
+          "lineNumber": 78
+        },
+        {
+          "caller": "jl_wait_empty_begin",
+          "callee": "JL_UV_LOCK",
+          "lineNumber": 83
+        },
+        {
+          "caller": "jl_wait_empty_begin",
+          "callee": "uv_run",
+          "lineNumber": 88
+        },
+        {
+          "caller": "jl_wait_empty_begin",
+          "callee": "uv_timer_init",
+          "lineNumber": 89
+        },
+        {
+          "caller": "jl_wait_empty_begin",
+          "callee": "uv_unref",
+          "lineNumber": 90
+        },
+        {
+          "caller": "jl_wait_empty_begin",
+          "callee": "uv_update_time",
+          "lineNumber": 93
+        },
+        {
+          "caller": "jl_wait_empty_begin",
+          "callee": "uv_timer_start",
+          "lineNumber": 94
+        },
+        {
+          "caller": "jl_wait_empty_begin",
+          "callee": "JL_UV_UNLOCK",
+          "lineNumber": 96
+        },
+        {
+          "caller": "jl_wait_empty_end",
+          "callee": "uv_timer_stop",
+          "lineNumber": 103
+        },
+        {
+          "caller": "jl_signal_async_cb",
+          "callee": "uv_stop",
+          "lineNumber": 113
+        },
+        {
+          "caller": "jl_wake_libuv",
+          "callee": "uv_async_send",
+          "lineNumber": 118
+        },
+        {
+          "caller": "jl_init_uv",
+          "callee": "uv_async_init",
+          "lineNumber": 125
+        },
+        {
+          "caller": "jl_init_uv",
+          "callee": "uv_unref",
+          "lineNumber": 126
+        },
+        {
+          "caller": "jl_init_uv",
+          "callee": "JL_MUTEX_INIT",
+          "lineNumber": 127
+        },
+        {
+          "caller": "JL_UV_LOCK",
+          "callee": "jl_mutex_trylock",
+          "lineNumber": 134
+        },
+        {
+          "caller": "JL_UV_LOCK",
+          "callee": "jl_atomic_fetch_add_relaxed",
+          "lineNumber": 137
+        },
+        {
+          "caller": "JL_UV_LOCK",
+          "callee": "jl_fence",
+          "lineNumber": 138
+        },
+        {
+          "caller": "JL_UV_LOCK",
+          "callee": "jl_wake_libuv",
+          "lineNumber": 139
+        },
+        {
+          "caller": "JL_UV_LOCK",
+          "callee": "JL_LOCK",
+          "lineNumber": 140
+        },
+        {
+          "caller": "JL_UV_LOCK",
+          "callee": "jl_atomic_fetch_add_relaxed",
+          "lineNumber": 141
+        },
+        {
+          "caller": "jl_uv_call_close_callback",
+          "callee": "JL_GC_PUSHARGS",
+          "lineNumber": 165
+        },
+        {
+          "caller": "jl_uv_call_close_callback",
+          "callee": "jl_eval_global_var",
+          "lineNumber": 166
+        },
+        {
+          "caller": "jl_uv_call_close_callback",
+          "callee": "jl_base_relative_to",
+          "lineNumber": 167
+        },
+        {
+          "caller": "jl_uv_call_close_callback",
+          "callee": "jl_typeof",
+          "lineNumber": 167
+        },
+        {
+          "caller": "jl_uv_call_close_callback",
+          "callee": "jl_symbol",
+          "lineNumber": 168
+        },
+        {
+          "caller": "jl_uv_call_close_callback",
+          "callee": "jl_apply",
+          "lineNumber": 171
+        },
+        {
+          "caller": "jl_uv_call_close_callback",
+          "callee": "JL_GC_POP",
+          "lineNumber": 172
+        },
+        {
+          "caller": "jl_uv_closeHandle",
+          "callee": "jl_atomic_load_acquire",
+          "lineNumber": 190
+        },
+        {
+          "caller": "jl_uv_closeHandle",
+          "callee": "jl_uv_call_close_callback",
+          "lineNumber": 191
+        },
+        {
+          "caller": "jl_uv_closeHandle",
+          "callee": "free",
+          "lineNumber": 200
+        },
+        {
+          "caller": "jl_uv_flush_close_callback",
+          "callee": "free",
+          "lineNumber": 214
+        },
+        {
+          "caller": "jl_uv_flush_close_callback",
+          "callee": "uv_is_closing",
+          "lineNumber": 217
+        },
+        {
+          "caller": "jl_uv_flush_close_callback",
+          "callee": "free",
+          "lineNumber": 218
+        },
+        {
+          "caller": "jl_uv_flush_close_callback",
+          "callee": "uv_is_writable",
+          "lineNumber": 221
+        },
+        {
+          "caller": "jl_uv_flush_close_callback",
+          "callee": "uv_write",
+          "lineNumber": 227
+        },
+        {
+          "caller": "jl_uv_flush_close_callback",
+          "callee": "free",
+          "lineNumber": 230
+        },
+        {
+          "caller": "jl_uv_flush_close_callback",
+          "callee": "uv_tty_set_mode",
+          "lineNumber": 232
+        },
+        {
+          "caller": "jl_uv_flush_close_callback",
+          "callee": "uv_close",
+          "lineNumber": 233
+        },
+        {
+          "caller": "uv_flush_callback",
+          "callee": "uv_stop",
+          "lineNumber": 239
+        },
+        {
+          "caller": "uv_flush_callback",
+          "callee": "free",
+          "lineNumber": 240
+        },
+        {
+          "caller": "jl_uv_flush",
+          "callee": "JL_UV_LOCK",
+          "lineNumber": 263
+        },
+        {
+          "caller": "jl_uv_flush",
+          "callee": "uv_is_writable",
+          "lineNumber": 264
+        },
+        {
+          "caller": "jl_uv_flush",
+          "callee": "malloc_s",
+          "lineNumber": 269
+        },
+        {
+          "caller": "jl_uv_flush",
+          "callee": "uv_write",
+          "lineNumber": 271
+        },
+        {
+          "caller": "jl_uv_flush",
+          "callee": "JL_UV_UNLOCK",
+          "lineNumber": 272
+        },
+        {
+          "caller": "jl_uv_flush",
+          "callee": "uv_run",
+          "lineNumber": 276
+        },
+        {
+          "caller": "jl_uv_flush",
+          "callee": "uv_default_loop",
+          "lineNumber": 276
+        },
+        {
+          "caller": "jl_uv_flush",
+          "callee": "JL_UV_UNLOCK",
+          "lineNumber": 279
+        },
+        {
+          "caller": "jl_process_events",
+          "callee": "jl_gc_safepoint_",
+          "lineNumber": 391
+        },
+        {
+          "caller": "jl_process_events",
+          "callee": "jl_atomic_load_relaxed",
+          "lineNumber": 392
+        },
+        {
+          "caller": "jl_process_events",
+          "callee": "jl_atomic_load_relaxed",
+          "lineNumber": 392
+        },
+        {
+          "caller": "jl_process_events",
+          "callee": "jl_atomic_load_relaxed",
+          "lineNumber": 392
+        },
+        {
+          "caller": "jl_process_events",
+          "callee": "jl_atomic_load_relaxed",
+          "lineNumber": 393
+        },
+        {
+          "caller": "jl_process_events",
+          "callee": "jl_mutex_trylock",
+          "lineNumber": 393
+        },
+        {
+          "caller": "jl_process_events",
+          "callee": "JL_PROBE_RT_START_PROCESS_EVENTS",
+          "lineNumber": 394
+        },
+        {
+          "caller": "jl_process_events",
+          "callee": "uv_ref",
+          "lineNumber": 396
+        },
+        {
+          "caller": "jl_process_events",
+          "callee": "uv_run",
+          "lineNumber": 397
+        },
+        {
+          "caller": "jl_process_events",
+          "callee": "uv_unref",
+          "lineNumber": 398
+        },
+        {
+          "caller": "jl_process_events",
+          "callee": "JL_PROBE_RT_FINISH_PROCESS_EVENTS",
+          "lineNumber": 399
+        },
+        {
+          "caller": "jl_process_events",
+          "callee": "JL_UV_UNLOCK",
+          "lineNumber": 400
+        },
+        {
+          "caller": "jl_process_events",
+          "callee": "jl_gc_safepoint_",
+          "lineNumber": 403
+        },
+        {
+          "caller": "jl_proc_exit_cleanup_cb",
+          "callee": "uv_close",
+          "lineNumber": 410
+        },
+        {
+          "caller": "jl_close_uv",
+          "callee": "JL_UV_LOCK",
+          "lineNumber": 420
+        },
+        {
+          "caller": "jl_close_uv",
+          "callee": "assert",
+          "lineNumber": 424
+        },
+        {
+          "caller": "jl_close_uv",
+          "callee": "uv_unref",
+          "lineNumber": 426
+        },
+        {
+          "caller": "jl_close_uv",
+          "callee": "uv_fs_close",
+          "lineNumber": 432
+        },
+        {
+          "caller": "jl_close_uv",
+          "callee": "jl_uv_closeHandle",
+          "lineNumber": 435
+        },
+        {
+          "caller": "jl_close_uv",
+          "callee": "uv_is_closing",
+          "lineNumber": 437
+        },
+        {
+          "caller": "jl_close_uv",
+          "callee": "malloc_s",
+          "lineNumber": 440
+        },
+        {
+          "caller": "jl_close_uv",
+          "callee": "jl_uv_flush_close_callback",
+          "lineNumber": 442
+        },
+        {
+          "caller": "jl_close_uv",
+          "callee": "uv_close",
+          "lineNumber": 445
+        },
+        {
+          "caller": "jl_close_uv",
+          "callee": "JL_UV_UNLOCK",
+          "lineNumber": 448
+        },
+        {
+          "caller": "jl_spawn",
+          "callee": "JL_UV_LOCK",
+          "lineNumber": 544
+        },
+        {
+          "caller": "jl_spawn",
+          "callee": "uv_spawn",
+          "lineNumber": 545
+        },
+        {
+          "caller": "jl_spawn",
+          "callee": "JL_UV_UNLOCK",
+          "lineNumber": 546
+        },
+        {
+          "caller": "jl_fs_unlink",
+          "callee": "JL_SIGATOMIC_BEGIN",
+          "lineNumber": 569
+        },
+        {
+          "caller": "jl_fs_unlink",
+          "callee": "uv_fs_unlink",
+          "lineNumber": 570
+        },
+        {
+          "caller": "jl_fs_unlink",
+          "callee": "uv_fs_req_cleanup",
+          "lineNumber": 571
+        },
+        {
+          "caller": "jl_fs_unlink",
+          "callee": "JL_SIGATOMIC_END",
+          "lineNumber": 572
+        },
+        {
+          "caller": "jl_fs_rename",
+          "callee": "JL_SIGATOMIC_BEGIN",
+          "lineNumber": 579
+        },
+        {
+          "caller": "jl_fs_rename",
+          "callee": "uv_fs_rename",
+          "lineNumber": 580
+        },
+        {
+          "caller": "jl_fs_rename",
+          "callee": "uv_fs_req_cleanup",
+          "lineNumber": 581
+        },
+        {
+          "caller": "jl_fs_rename",
+          "callee": "JL_SIGATOMIC_END",
+          "lineNumber": 582
+        },
+        {
+          "caller": "jl_fs_sendfile",
+          "callee": "JL_SIGATOMIC_BEGIN",
+          "lineNumber": 590
+        },
+        {
+          "caller": "jl_fs_sendfile",
+          "callee": "uv_fs_sendfile",
+          "lineNumber": 591
+        },
+        {
+          "caller": "jl_fs_sendfile",
+          "callee": "uv_fs_req_cleanup",
+          "lineNumber": 593
+        },
+        {
+          "caller": "jl_fs_sendfile",
+          "callee": "JL_SIGATOMIC_END",
+          "lineNumber": 594
+        },
+        {
+          "caller": "jl_fs_copyfile",
+          "callee": "JL_SIGATOMIC_BEGIN",
+          "lineNumber": 601
+        },
+        {
+          "caller": "jl_fs_copyfile",
+          "callee": "uv_fs_copyfile",
+          "lineNumber": 602
+        },
+        {
+          "caller": "jl_fs_copyfile",
+          "callee": "uv_fs_req_cleanup",
+          "lineNumber": 603
+        },
+        {
+          "caller": "jl_fs_copyfile",
+          "callee": "JL_SIGATOMIC_END",
+          "lineNumber": 604
+        },
+        {
+          "caller": "jl_fs_hardlink",
+          "callee": "uv_fs_link",
+          "lineNumber": 611
+        },
+        {
+          "caller": "jl_fs_hardlink",
+          "callee": "uv_fs_req_cleanup",
+          "lineNumber": 612
+        },
+        {
+          "caller": "jl_fs_symlink",
+          "callee": "uv_fs_symlink",
+          "lineNumber": 619
+        },
+        {
+          "caller": "jl_fs_symlink",
+          "callee": "uv_fs_req_cleanup",
+          "lineNumber": 620
+        },
+        {
+          "caller": "jl_fs_chmod",
+          "callee": "uv_fs_chmod",
+          "lineNumber": 627
+        },
+        {
+          "caller": "jl_fs_chmod",
+          "callee": "uv_fs_req_cleanup",
+          "lineNumber": 628
+        },
+        {
+          "caller": "jl_fs_chown",
+          "callee": "uv_fs_chown",
+          "lineNumber": 635
+        },
+        {
+          "caller": "jl_fs_chown",
+          "callee": "uv_fs_req_cleanup",
+          "lineNumber": 636
+        },
+        {
+          "caller": "jl_fs_access",
+          "callee": "uv_fs_access",
+          "lineNumber": 643
+        },
+        {
+          "caller": "jl_fs_access",
+          "callee": "uv_fs_req_cleanup",
+          "lineNumber": 644
+        },
+        {
+          "caller": "jl_fs_read",
+          "callee": "uv_fs_read",
+          "lineNumber": 676
+        },
+        {
+          "caller": "jl_fs_read",
+          "callee": "uv_fs_req_cleanup",
+          "lineNumber": 677
+        },
+        {
+          "caller": "jl_fs_close",
+          "callee": "uv_fs_close",
+          "lineNumber": 684
+        },
+        {
+          "caller": "jl_fs_close",
+          "callee": "uv_fs_req_cleanup",
+          "lineNumber": 685
+        },
+        {
+          "caller": "jl_uv_write",
+          "callee": "JL_UV_LOCK",
+          "lineNumber": 695
+        },
+        {
+          "caller": "jl_uv_write",
+          "callee": "JL_SIGATOMIC_BEGIN",
+          "lineNumber": 696
+        },
+        {
+          "caller": "jl_uv_write",
+          "callee": "uv_write",
+          "lineNumber": 697
+        },
+        {
+          "caller": "jl_uv_write",
+          "callee": "JL_UV_UNLOCK",
+          "lineNumber": 698
+        },
+        {
+          "caller": "jl_uv_write",
+          "callee": "JL_SIGATOMIC_END",
+          "lineNumber": 699
+        },
+        {
+          "caller": "jl_uv_writecb",
+          "callee": "free",
+          "lineNumber": 705
+        },
+        {
+          "caller": "jl_uv_writecb",
+          "callee": "jl_safe_printf",
+          "lineNumber": 707
+        },
+        {
+          "caller": "jl_uv_writecb",
+          "callee": "uv_strerror",
+          "lineNumber": 708
+        },
+        {
+          "caller": "jl_uv_writecb",
+          "callee": "uv_err_name",
+          "lineNumber": 708
+        },
+        {
+          "caller": "jl_uv_puts",
+          "callee": "assert",
+          "lineNumber": 714
+        },
+        {
+          "caller": "jl_uv_puts",
+          "callee": "jl_get_current_task",
+          "lineNumber": 733
+        },
+        {
+          "caller": "jl_uv_puts",
+          "callee": "jl_atomic_load_relaxed",
+          "lineNumber": 734
+        },
+        {
+          "caller": "jl_uv_puts",
+          "callee": "jl_atomic_load_relaxed",
+          "lineNumber": 734
+        },
+        {
+          "caller": "jl_uv_puts",
+          "callee": "jl_fs_write",
+          "lineNumber": 745
+        },
+        {
+          "caller": "jl_uv_puts",
+          "callee": "ios_write",
+          "lineNumber": 752
+        },
+        {
+          "caller": "jl_uv_puts",
+          "callee": "malloc_s",
+          "lineNumber": 756
+        },
+        {
+          "caller": "jl_uv_puts",
+          "callee": "memcpy",
+          "lineNumber": 758
+        },
+        {
+          "caller": "jl_uv_puts",
+          "callee": "JL_UV_LOCK",
+          "lineNumber": 763
+        },
+        {
+          "caller": "jl_uv_puts",
+          "callee": "JL_SIGATOMIC_BEGIN",
+          "lineNumber": 764
+        },
+        {
+          "caller": "jl_uv_puts",
+          "callee": "uv_write",
+          "lineNumber": 765
+        },
+        {
+          "caller": "jl_uv_puts",
+          "callee": "JL_UV_UNLOCK",
+          "lineNumber": 766
+        },
+        {
+          "caller": "jl_uv_puts",
+          "callee": "JL_SIGATOMIC_END",
+          "lineNumber": 767
+        },
+        {
+          "caller": "jl_uv_puts",
+          "callee": "jl_uv_writecb",
+          "lineNumber": 769
+        },
+        {
+          "caller": "jl_vprintf",
+          "callee": "va_copy",
+          "lineNumber": 806
+        },
+        {
+          "caller": "jl_vprintf",
+          "callee": "vasprintf",
+          "lineNumber": 809
+        },
+        {
+          "caller": "jl_vprintf",
+          "callee": "jl_uv_puts",
+          "lineNumber": 812
+        },
+        {
+          "caller": "jl_vprintf",
+          "callee": "free",
+          "lineNumber": 813
+        },
+        {
+          "caller": "jl_vprintf",
+          "callee": "va_end",
+          "lineNumber": 815
+        },
+        {
+          "caller": "jl_printf",
+          "callee": "va_start",
+          "lineNumber": 824
+        },
+        {
+          "caller": "jl_printf",
+          "callee": "jl_vprintf",
+          "lineNumber": 825
+        },
+        {
+          "caller": "jl_printf",
+          "callee": "va_end",
+          "lineNumber": 826
+        },
+        {
+          "caller": "jl_safe_vfprintf",
+          "callee": "GetLastError",
+          "lineNumber": 836
+        },
+        {
+          "caller": "jl_safe_vfprintf",
+          "callee": "vsnprintf",
+          "lineNumber": 839
+        },
+        {
+          "caller": "jl_safe_vfprintf",
+          "callee": "ios_write",
+          "lineNumber": 842
+        },
+        {
+          "caller": "jl_safe_vfprintf",
+          "callee": "strlen",
+          "lineNumber": 842
+        },
+        {
+          "caller": "jl_safe_vfprintf",
+          "callee": "SetLastError",
+          "lineNumber": 846
+        },
+        {
+          "caller": "jl_safe_printf",
+          "callee": "va_start",
+          "lineNumber": 854
+        },
+        {
+          "caller": "jl_safe_printf",
+          "callee": "jl_safe_vfprintf",
+          "lineNumber": 855
+        },
+        {
+          "caller": "jl_safe_printf",
+          "callee": "va_end",
+          "lineNumber": 856
+        },
+        {
+          "caller": "jl_safe_fprintf",
+          "callee": "va_start",
+          "lineNumber": 862
+        },
+        {
+          "caller": "jl_safe_fprintf",
+          "callee": "jl_safe_vfprintf",
+          "lineNumber": 863
+        },
+        {
+          "caller": "jl_safe_fprintf",
+          "callee": "va_end",
+          "lineNumber": 864
+        },
+        {
+          "caller": "jl_sockaddr_fill",
+          "callee": "memset",
+          "lineNumber": 875
+        },
+        {
+          "caller": "jl_sockaddr_fill",
+          "callee": "memcpy",
+          "lineNumber": 878
+        },
+        {
+          "caller": "jl_tcp_bind",
+          "callee": "jl_sockaddr_fill",
+          "lineNumber": 893
+        },
+        {
+          "caller": "jl_tcp_bind",
+          "callee": "uv_tcp_bind",
+          "lineNumber": 894
+        },
+        {
+          "caller": "jl_tcp_getsockname",
+          "callee": "memset",
+          "lineNumber": 902
+        },
+        {
+          "caller": "jl_tcp_getsockname",
+          "callee": "uv_tcp_getsockname",
+          "lineNumber": 904
+        },
+        {
+          "caller": "jl_tcp_getsockname",
+          "callee": "memcpy",
+          "lineNumber": 911
+        },
+        {
+          "caller": "jl_tcp_getsockname",
+          "callee": "memcpy",
+          "lineNumber": 916
+        },
+        {
+          "caller": "jl_tcp_getpeername",
+          "callee": "memset",
+          "lineNumber": 926
+        },
+        {
+          "caller": "jl_tcp_getpeername",
+          "callee": "uv_tcp_getpeername",
+          "lineNumber": 928
+        },
+        {
+          "caller": "jl_tcp_getpeername",
+          "callee": "memcpy",
+          "lineNumber": 935
+        },
+        {
+          "caller": "jl_tcp_getpeername",
+          "callee": "memcpy",
+          "lineNumber": 940
+        },
+        {
+          "caller": "jl_udp_bind",
+          "callee": "jl_sockaddr_fill",
+          "lineNumber": 949
+        },
+        {
+          "caller": "jl_udp_bind",
+          "callee": "uv_udp_bind",
+          "lineNumber": 950
+        },
+        {
+          "caller": "jl_udp_send",
+          "callee": "jl_sockaddr_fill",
+          "lineNumber": 957
+        },
+        {
+          "caller": "jl_udp_send",
+          "callee": "uv_udp_send",
+          "lineNumber": 961
+        },
+        {
+          "caller": "jl_uv_interface_addresses",
+          "callee": "uv_interface_addresses",
+          "lineNumber": 973
+        },
+        {
+          "caller": "jl_getaddrinfo",
+          "callee": "memset",
+          "lineNumber": 990
+        },
+        {
+          "caller": "jl_getaddrinfo",
+          "callee": "uv_getaddrinfo",
+          "lineNumber": 996
+        },
+        {
+          "caller": "jl_getnameinfo",
+          "callee": "jl_sockaddr_fill",
+          "lineNumber": 1003
+        },
+        {
+          "caller": "jl_getnameinfo",
+          "callee": "uv_getnameinfo",
+          "lineNumber": 1004
+        },
+        {
+          "caller": "jl_sockaddr_host6",
+          "callee": "memcpy",
+          "lineNumber": 1034
+        },
+        {
+          "caller": "jl_tcp_connect",
+          "callee": "jl_sockaddr_fill",
+          "lineNumber": 1061
+        },
+        {
+          "caller": "jl_tcp_connect",
+          "callee": "malloc_s",
+          "lineNumber": 1062
+        },
+        {
+          "caller": "jl_tcp_connect",
+          "callee": "uv_tcp_connect",
+          "lineNumber": 1064
+        },
+        {
+          "caller": "jl_tcp_connect",
+          "callee": "free",
+          "lineNumber": 1066
+        },
+        {
+          "caller": "jl_tcp_quickack",
+          "callee": "setsockopt",
+          "lineNumber": 1075
+        },
+        {
+          "caller": "jl_tcp_reuseport",
+          "callee": "setsockopt",
+          "lineNumber": 1098
+        },
+        {
+          "caller": "jl_ispty",
+          "callee": "uv_pipe_getpeername",
+          "lineNumber": 1145
+        },
+        {
+          "caller": "jl_ispty",
+          "callee": "alloca",
+          "lineNumber": 1147
+        },
+        {
+          "caller": "jl_ispty",
+          "callee": "uv_pipe_getpeername",
+          "lineNumber": 1148
+        },
+        {
+          "caller": "jl_ispty",
+          "callee": "strncmp",
+          "lineNumber": 1155
+        },
+        {
+          "caller": "jl_ispty",
+          "callee": "strncmp",
+          "lineNumber": 1157
+        },
+        {
+          "caller": "jl_ispty",
+          "callee": "ishexchar",
+          "lineNumber": 1164
+        },
+        {
+          "caller": "jl_uv_handle_type",
+          "callee": "jl_ispty",
+          "lineNumber": 1182
+        },
+        {
+          "caller": "jl_tty_set_mode",
+          "callee": "uv_tty_set_mode",
+          "lineNumber": 1197
+        },
+        {
+          "caller": "jl_work_wrapper",
+          "callee": "work_func",
+          "lineNumber": 1222
+        },
+        {
+          "caller": "jl_work_notifier",
+          "callee": "notify_func",
+          "lineNumber": 1228
+        },
+        {
+          "caller": "jl_work_notifier",
+          "callee": "free",
+          "lineNumber": 1229
+        },
+        {
+          "caller": "jl_queue_work",
+          "callee": "malloc_s",
+          "lineNumber": 1237
+        },
+        {
+          "caller": "jl_queue_work",
+          "callee": "JL_UV_LOCK",
+          "lineNumber": 1245
+        },
+        {
+          "caller": "jl_queue_work",
+          "callee": "uv_queue_work",
+          "lineNumber": 1246
+        },
+        {
+          "caller": "jl_queue_work",
+          "callee": "JL_UV_UNLOCK",
+          "lineNumber": 1247
+        },
+        {
+          "caller": "jl_uv_handle",
+          "callee": "uv__stream_fd",
+          "lineNumber": 1261
+        }
+      ],
+      "metrics": {
+        "importCount": 5,
+        "exportCount": 0,
+        "functionCount": 0,
+        "classCount": 0
+      }
+    },
+    {
+      "path": "src/runtime_ccall.c",
+      "language": "c",
+      "fileCategory": "code",
+      "totalLines": 460,
+      "nonEmptyLines": 428,
+      "functions": [
+        {
+          "name": "trampoline_deleter",
+          "startLine": 230,
+          "endLine": 247,
+          "params": [
+            "f"
+          ]
+        }
+      ],
+      "callGraph": [
+        {
+          "caller": "trampoline_deleter",
+          "callee": "uv_mutex_lock",
+          "lineNumber": 239
+        },
+        {
+          "caller": "trampoline_deleter",
+          "callee": "trampoline_free",
+          "lineNumber": 241
+        },
+        {
+          "caller": "trampoline_deleter",
+          "callee": "ptrhash_remove",
+          "lineNumber": 243
+        },
+        {
+          "caller": "trampoline_deleter",
+          "callee": "free",
+          "lineNumber": 245
+        },
+        {
+          "caller": "trampoline_deleter",
+          "callee": "uv_mutex_unlock",
+          "lineNumber": 246
+        }
+      ],
+      "metrics": {
+        "importCount": 6,
+        "exportCount": 0,
+        "functionCount": 1,
+        "classCount": 0
+      }
+    },
+    {
+      "path": "src/support/MurmurHash3.c",
+      "language": "c",
+      "fileCategory": "code",
+      "totalLines": 298,
+      "nonEmptyLines": 220,
+      "functions": [
+        {
+          "name": "rotl32",
+          "startLine": 16,
+          "endLine": 19,
+          "params": [
+            "x",
+            "r"
+          ]
+        },
+        {
+          "name": "rotl64",
+          "startLine": 21,
+          "endLine": 24,
+          "params": [
+            "x",
+            "r"
+          ]
+        },
+        {
+          "name": "fmix32",
+          "startLine": 34,
+          "endLine": 43,
+          "params": [
+            "h"
+          ]
+        },
+        {
+          "name": "fmix64",
+          "startLine": 47,
+          "endLine": 56,
+          "params": [
+            "k"
+          ]
+        },
+        {
+          "name": "MurmurHash3_x86_32",
+          "startLine": 60,
+          "endLine": 110,
+          "params": [
+            "key",
+            "len",
+            "seed",
+            "out"
+          ]
+        },
+        {
+          "name": "MurmurHash3_x86_128",
+          "startLine": 114,
+          "endLine": 216,
+          "params": [
+            "key",
+            "len",
+            "seed",
+            "out"
+          ]
+        },
+        {
+          "name": "MurmurHash3_x64_128",
+          "startLine": 220,
+          "endLine": 296,
+          "params": [
+            "key",
+            "len",
+            "seed",
+            "out"
+          ]
+        }
+      ],
+      "exports": [
+        {
+          "name": "fmix32",
+          "line": 34,
+          "isDefault": false
+        },
+        {
+          "name": "fmix64",
+          "line": 47,
+          "isDefault": false
+        },
+        {
+          "name": "MurmurHash3_x86_32",
+          "line": 60,
+          "isDefault": false
+        },
+        {
+          "name": "MurmurHash3_x86_128",
+          "line": 114,
+          "isDefault": false
+        },
+        {
+          "name": "MurmurHash3_x64_128",
+          "line": 220,
+          "isDefault": false
+        }
+      ],
+      "callGraph": [
+        {
+          "caller": "fmix64",
+          "callee": "BIG_CONSTANT",
+          "lineNumber": 50
+        },
+        {
+          "caller": "fmix64",
+          "callee": "BIG_CONSTANT",
+          "lineNumber": 52
+        },
+        {
+          "caller": "MurmurHash3_x86_32",
+          "callee": "jl_load_unaligned_i32",
+          "lineNumber": 78
+        },
+        {
+          "caller": "MurmurHash3_x86_32",
+          "callee": "ROTL32",
+          "lineNumber": 81
+        },
+        {
+          "caller": "MurmurHash3_x86_32",
+          "callee": "ROTL32",
+          "lineNumber": 85
+        },
+        {
+          "caller": "MurmurHash3_x86_32",
+          "callee": "ROTL32",
+          "lineNumber": 99
+        },
+        {
+          "caller": "MurmurHash3_x86_32",
+          "callee": "fmix32",
+          "lineNumber": 107
+        },
+        {
+          "caller": "MurmurHash3_x86_128",
+          "callee": "jl_load_unaligned_i32",
+          "lineNumber": 137
+        },
+        {
+          "caller": "MurmurHash3_x86_128",
+          "callee": "jl_load_unaligned_i32",
+          "lineNumber": 138
+        },
+        {
+          "caller": "MurmurHash3_x86_128",
+          "callee": "jl_load_unaligned_i32",
+          "lineNumber": 139
+        },
+        {
+          "caller": "MurmurHash3_x86_128",
+          "callee": "jl_load_unaligned_i32",
+          "lineNumber": 140
+        },
+        {
+          "caller": "MurmurHash3_x86_128",
+          "callee": "ROTL32",
+          "lineNumber": 142
+        },
+        {
+          "caller": "MurmurHash3_x86_128",
+          "callee": "ROTL32",
+          "lineNumber": 144
+        },
+        {
+          "caller": "MurmurHash3_x86_128",
+          "callee": "ROTL32",
+          "lineNumber": 146
+        },
+        {
+          "caller": "MurmurHash3_x86_128",
+          "callee": "ROTL32",
+          "lineNumber": 148
+        },
+        {
+          "caller": "MurmurHash3_x86_128",
+          "callee": "ROTL32",
+          "lineNumber": 150
+        },
+        {
+          "caller": "MurmurHash3_x86_128",
+          "callee": "ROTL32",
+          "lineNumber": 152
+        },
+        {
+          "caller": "MurmurHash3_x86_128",
+          "callee": "ROTL32",
+          "lineNumber": 154
+        },
+        {
+          "caller": "MurmurHash3_x86_128",
+          "callee": "ROTL32",
+          "lineNumber": 156
+        },
+        {
+          "caller": "MurmurHash3_x86_128",
+          "callee": "ROTL32",
+          "lineNumber": 172
+        },
+        {
+          "caller": "MurmurHash3_x86_128",
+          "callee": "ROTL32",
+          "lineNumber": 179
+        },
+        {
+          "caller": "MurmurHash3_x86_128",
+          "callee": "ROTL32",
+          "lineNumber": 186
+        },
+        {
+          "caller": "MurmurHash3_x86_128",
+          "callee": "ROTL32",
+          "lineNumber": 193
+        },
+        {
+          "caller": "MurmurHash3_x86_128",
+          "callee": "fmix32",
+          "lineNumber": 204
+        },
+        {
+          "caller": "MurmurHash3_x86_128",
+          "callee": "fmix32",
+          "lineNumber": 205
+        },
+        {
+          "caller": "MurmurHash3_x86_128",
+          "callee": "fmix32",
+          "lineNumber": 206
+        },
+        {
+          "caller": "MurmurHash3_x86_128",
+          "callee": "fmix32",
+          "lineNumber": 207
+        },
+        {
+          "caller": "MurmurHash3_x64_128",
+          "callee": "BIG_CONSTANT",
+          "lineNumber": 229
+        },
+        {
+          "caller": "MurmurHash3_x64_128",
+          "callee": "BIG_CONSTANT",
+          "lineNumber": 230
+        },
+        {
+          "caller": "MurmurHash3_x64_128",
+          "callee": "jl_load_unaligned_i64",
+          "lineNumber": 237
+        },
+        {
+          "caller": "MurmurHash3_x64_128",
+          "callee": "jl_load_unaligned_i64",
+          "lineNumber": 238
+        },
+        {
+          "caller": "MurmurHash3_x64_128",
+          "callee": "ROTL64",
+          "lineNumber": 240
+        },
+        {
+          "caller": "MurmurHash3_x64_128",
+          "callee": "ROTL64",
+          "lineNumber": 242
+        },
+        {
+          "caller": "MurmurHash3_x64_128",
+          "callee": "ROTL64",
+          "lineNumber": 244
+        },
+        {
+          "caller": "MurmurHash3_x64_128",
+          "callee": "ROTL64",
+          "lineNumber": 246
+        },
+        {
+          "caller": "MurmurHash3_x64_128",
+          "callee": "ROTL64",
+          "lineNumber": 266
+        },
+        {
+          "caller": "MurmurHash3_x64_128",
+          "callee": "ROTL64",
+          "lineNumber": 277
+        },
+        {
+          "caller": "MurmurHash3_x64_128",
+          "callee": "fmix64",
+          "lineNumber": 288
+        },
+        {
+          "caller": "MurmurHash3_x64_128",
+          "callee": "fmix64",
+          "lineNumber": 289
+        }
+      ],
+      "metrics": {
+        "importCount": 2,
+        "exportCount": 5,
+        "functionCount": 7,
+        "classCount": 0
+      }
+    },
+    {
+      "path": "src/support/MurmurHash3.h",
+      "language": "c",
+      "fileCategory": "code",
+      "totalLines": 22,
+      "nonEmptyLines": 15,
+      "metrics": {
+        "importCount": 0,
+        "exportCount": 0,
+        "functionCount": 0,
+        "classCount": 0
+      }
+    },
+    {
+      "path": "src/support/arraylist.c",
+      "language": "c",
+      "fileCategory": "code",
+      "totalLines": 150,
+      "nonEmptyLines": 135,
+      "callGraph": [
+        {
+          "caller": "arraylist_free",
+          "callee": "LLT_FREE",
+          "lineNumber": 34
+        },
+        {
+          "caller": "arraylist_grow",
+          "callee": "LLT_ALLOC",
+          "lineNumber": 46
+        },
+        {
+          "caller": "arraylist_grow",
+          "callee": "memcpy",
+          "lineNumber": 48
+        },
+        {
+          "caller": "arraylist_grow",
+          "callee": "LLT_REALLOC",
+          "lineNumber": 58
+        },
+        {
+          "caller": "arraylist_push",
+          "callee": "arraylist_grow",
+          "lineNumber": 69
+        },
+        {
+          "caller": "small_arraylist_free",
+          "callee": "LLT_FREE",
+          "lineNumber": 101
+        },
+        {
+          "caller": "small_arraylist_grow",
+          "callee": "LLT_ALLOC",
+          "lineNumber": 113
+        },
+        {
+          "caller": "small_arraylist_grow",
+          "callee": "memcpy",
+          "lineNumber": 115
+        },
+        {
+          "caller": "small_arraylist_grow",
+          "callee": "LLT_REALLOC",
+          "lineNumber": 125
+        },
+        {
+          "caller": "small_arraylist_push",
+          "callee": "small_arraylist_grow",
+          "lineNumber": 136
+        }
+      ],
+      "metrics": {
+        "importCount": 2,
+        "exportCount": 0,
+        "functionCount": 0,
+        "classCount": 0
+      }
+    },
+    {
+      "path": "src/support/arraylist.h",
+      "language": "c",
+      "fileCategory": "code",
+      "totalLines": 49,
+      "nonEmptyLines": 35,
+      "metrics": {
+        "importCount": 0,
+        "exportCount": 0,
+        "functionCount": 0,
+        "classCount": 0
+      }
+    },
+    {
+      "path": "src/support/bitvector.c",
+      "language": "c",
+      "fileCategory": "code",
+      "totalLines": 61,
+      "nonEmptyLines": 50,
+      "metrics": {
+        "importCount": 2,
+        "exportCount": 0,
+        "functionCount": 0,
+        "classCount": 0
+      }
+    },
+    {
+      "path": "src/support/bitvector.h",
+      "language": "c",
+      "fileCategory": "code",
+      "totalLines": 22,
+      "nonEmptyLines": 17,
+      "metrics": {
+        "importCount": 0,
+        "exportCount": 0,
+        "functionCount": 0,
+        "classCount": 0
+      }
+    },
+    {
+      "path": "src/support/dtypes.h",
+      "language": "c",
+      "fileCategory": "code",
+      "totalLines": 422,
+      "nonEmptyLines": 374,
+      "callGraph": [
+        {
+          "caller": "jl_assume_",
+          "callee": "__builtin_unreachable",
+          "lineNumber": 161
+        },
+        {
+          "caller": "jl_assume_aligned",
+          "callee": "jl_assume",
+          "lineNumber": 187
+        },
+        {
+          "caller": "jl_load_unaligned_f64",
+          "callee": "memcpy",
+          "lineNumber": 319
+        },
+        {
+          "caller": "jl_load_unaligned_i64",
+          "callee": "memcpy",
+          "lineNumber": 326
+        },
+        {
+          "caller": "jl_load_ptraligned_f64",
+          "callee": "memcpy",
+          "lineNumber": 333
+        },
+        {
+          "caller": "jl_load_ptraligned_f64",
+          "callee": "jl_assume_aligned",
+          "lineNumber": 333
+        },
+        {
+          "caller": "jl_load_ptraligned_i64",
+          "callee": "memcpy",
+          "lineNumber": 340
+        },
+        {
+          "caller": "jl_load_ptraligned_i64",
+          "callee": "jl_assume_aligned",
+          "lineNumber": 340
+        },
+        {
+          "caller": "jl_load_unaligned_i32",
+          "callee": "memcpy",
+          "lineNumber": 348
+        },
+        {
+          "caller": "jl_load_unaligned_i16",
+          "callee": "memcpy",
+          "lineNumber": 354
+        }
+      ],
+      "metrics": {
+        "importCount": 0,
+        "exportCount": 0,
+        "functionCount": 0,
+        "classCount": 0
+      }
+    },
+    {
+      "path": "src/support/hashing.c",
+      "language": "c",
+      "fileCategory": "code",
+      "totalLines": 99,
+      "nonEmptyLines": 83,
+      "callGraph": [
+        {
+          "caller": "memhash",
+          "callee": "MurmurHash3_x64_128",
+          "lineNumber": 61
+        },
+        {
+          "caller": "memhash",
+          "callee": "MurmurHash3_x86_128",
+          "lineNumber": 63
+        },
+        {
+          "caller": "memhash_seed",
+          "callee": "MurmurHash3_x64_128",
+          "lineNumber": 74
+        },
+        {
+          "caller": "memhash_seed",
+          "callee": "MurmurHash3_x86_128",
+          "lineNumber": 76
+        },
+        {
+          "caller": "memhash32",
+          "callee": "MurmurHash3_x86_32",
+          "lineNumber": 85
+        },
+        {
+          "caller": "memhash32_seed",
+          "callee": "MurmurHash3_x86_32",
+          "lineNumber": 93
+        }
+      ],
+      "metrics": {
+        "importCount": 5,
+        "exportCount": 0,
+        "functionCount": 0,
+        "classCount": 0
+      }
+    },
+    {
+      "path": "src/support/hashing.h",
+      "language": "c",
+      "fileCategory": "code",
+      "totalLines": 45,
+      "nonEmptyLines": 38,
+      "callGraph": [
+        {
+          "caller": "bitmix",
+          "callee": "int64hash",
+          "lineNumber": 31
+        },
+        {
+          "caller": "bitmix",
+          "callee": "bswap_64",
+          "lineNumber": 31
+        },
+        {
+          "caller": "bitmix",
+          "callee": "int64to32hash",
+          "lineNumber": 36
+        }
+      ],
+      "metrics": {
+        "importCount": 0,
+        "exportCount": 0,
+        "functionCount": 0,
+        "classCount": 0
+      }
+    },
+    {
+      "path": "src/support/htable.c",
+      "language": "c",
+      "fileCategory": "code",
+      "totalLines": 71,
+      "nonEmptyLines": 63,
+      "callGraph": [
+        {
+          "caller": "htable_free",
+          "callee": "LLT_FREE",
+          "lineNumber": 47
+        },
+        {
+          "caller": "htable_reset",
+          "callee": "next_power_of_two",
+          "lineNumber": 53
+        },
+        {
+          "caller": "htable_reset",
+          "callee": "LLT_FREE",
+          "lineNumber": 55
+        },
+        {
+          "caller": "htable_reset",
+          "callee": "htable_new",
+          "lineNumber": 57
+        },
+        {
+          "caller": "htable_reset",
+          "callee": "htable_new",
+          "lineNumber": 58
+        }
+      ],
+      "metrics": {
+        "importCount": 3,
+        "exportCount": 0,
+        "functionCount": 0,
+        "classCount": 0
+      }
+    },
+    {
+      "path": "src/support/htable.h",
+      "language": "c",
+      "fileCategory": "code",
+      "totalLines": 64,
+      "nonEmptyLines": 52,
+      "metrics": {
+        "importCount": 0,
+        "exportCount": 0,
+        "functionCount": 0,
+        "classCount": 0
+      }
+    },
+    {
+      "path": "src/support/int2str.c",
+      "language": "c",
+      "fileCategory": "code",
+      "totalLines": 69,
+      "nonEmptyLines": 62,
+      "metrics": {
+        "importCount": 2,
+        "exportCount": 0,
+        "functionCount": 0,
+        "classCount": 0
+      }
+    },
+    {
+      "path": "src/support/ios.c",
+      "language": "c",
+      "fileCategory": "code",
+      "totalLines": 1300,
+      "nonEmptyLines": 1165,
+      "callGraph": [
+        {
+          "caller": "set_io_wait_begin",
+          "callee": "__likely",
+          "lineNumber": 44
+        },
+        {
+          "caller": "set_io_wait_begin",
+          "callee": "ios_set_io_wait_func",
+          "lineNumber": 45
+        },
+        {
+          "caller": "_os_read",
+          "callee": "LIMIT_IO_SIZE",
+          "lineNumber": 104
+        },
+        {
+          "caller": "_os_read",
+          "callee": "set_io_wait_begin",
+          "lineNumber": 106
+        },
+        {
+          "caller": "_os_read",
+          "callee": "read",
+          "lineNumber": 107
+        },
+        {
+          "caller": "_os_read",
+          "callee": "set_io_wait_begin",
+          "lineNumber": 108
+        },
+        {
+          "caller": "_os_read",
+          "callee": "_enonfatal",
+          "lineNumber": 118
+        },
+        {
+          "caller": "_os_read",
+          "callee": "sleep_ms",
+          "lineNumber": 122
+        },
+        {
+          "caller": "_os_read_all",
+          "callee": "set_io_wait_begin",
+          "lineNumber": 134
+        },
+        {
+          "caller": "_os_read_all",
+          "callee": "_os_read",
+          "lineNumber": 135
+        },
+        {
+          "caller": "_os_read_all",
+          "callee": "set_io_wait_begin",
+          "lineNumber": 136
+        },
+        {
+          "caller": "_os_write",
+          "callee": "write",
+          "lineNumber": 151
+        },
+        {
+          "caller": "_os_write",
+          "callee": "LIMIT_IO_SIZE",
+          "lineNumber": 151
+        },
+        {
+          "caller": "_os_write",
+          "callee": "_enonfatal",
+          "lineNumber": 156
+        },
+        {
+          "caller": "_os_write",
+          "callee": "sleep_ms",
+          "lineNumber": 160
+        },
+        {
+          "caller": "_os_write_all",
+          "callee": "_os_write",
+          "lineNumber": 172
+        },
+        {
+          "caller": "_write_grow",
+          "callee": "_buf_realloc",
+          "lineNumber": 242
+        },
+        {
+          "caller": "_write_grow",
+          "callee": "memcpy",
+          "lineNumber": 246
+        },
+        {
+          "caller": "_write_grow",
+          "callee": "memcpy",
+          "lineNumber": 255
+        },
+        {
+          "caller": "_ios_read",
+          "callee": "ios_seek",
+          "lineNumber": 271
+        },
+        {
+          "caller": "_ios_read",
+          "callee": "ios_pos",
+          "lineNumber": 271
+        },
+        {
+          "caller": "_ios_read",
+          "callee": "memcpy",
+          "lineNumber": 280
+        },
+        {
+          "caller": "_ios_read",
+          "callee": "ios_flush",
+          "lineNumber": 298
+        },
+        {
+          "caller": "_ios_read",
+          "callee": "MOST_OF",
+          "lineNumber": 301
+        },
+        {
+          "caller": "_ios_read",
+          "callee": "_os_read_all",
+          "lineNumber": 305
+        },
+        {
+          "caller": "_ios_read",
+          "callee": "_os_read",
+          "lineNumber": 309
+        },
+        {
+          "caller": "_ios_read",
+          "callee": "_os_read",
+          "lineNumber": 318
+        },
+        {
+          "caller": "ios_read",
+          "callee": "_ios_read",
+          "lineNumber": 336
+        },
+        {
+          "caller": "ios_readall",
+          "callee": "_ios_read",
+          "lineNumber": 341
+        },
+        {
+          "caller": "ios_readprep",
+          "callee": "ios_flush",
+          "lineNumber": 347
+        },
+        {
+          "caller": "ios_readprep",
+          "callee": "memmove",
+          "lineNumber": 358
+        },
+        {
+          "caller": "ios_readprep",
+          "callee": "_buf_realloc",
+          "lineNumber": 363
+        },
+        {
+          "caller": "ios_readprep",
+          "callee": "_os_read",
+          "lineNumber": 369
+        },
+        {
+          "caller": "ios_fillbuf",
+          "callee": "ios_readprep",
+          "lineNumber": 381
+        },
+        {
+          "caller": "ios_write_direct",
+          "callee": "_os_write_all",
+          "lineNumber": 400
+        },
+        {
+          "caller": "ios_write",
+          "callee": "ios_seek",
+          "lineNumber": 412
+        },
+        {
+          "caller": "ios_write",
+          "callee": "ios_pos",
+          "lineNumber": 412
+        },
+        {
+          "caller": "ios_write",
+          "callee": "_write_grow",
+          "lineNumber": 418
+        },
+        {
+          "caller": "ios_write",
+          "callee": "_os_write_all",
+          "lineNumber": 422
+        },
+        {
+          "caller": "ios_write",
+          "callee": "memrchr",
+          "lineNumber": 428
+        },
+        {
+          "caller": "ios_write",
+          "callee": "ios_write",
+          "lineNumber": 431
+        },
+        {
+          "caller": "ios_write",
+          "callee": "ios_flush",
+          "lineNumber": 432
+        },
+        {
+          "caller": "ios_write",
+          "callee": "memcpy",
+          "lineNumber": 438
+        },
+        {
+          "caller": "ios_write",
+          "callee": "ios_flush",
+          "lineNumber": 443
+        },
+        {
+          "caller": "ios_write",
+          "callee": "MOST_OF",
+          "lineNumber": 444
+        },
+        {
+          "caller": "ios_write",
+          "callee": "_os_write_all",
+          "lineNumber": 446
+        },
+        {
+          "caller": "ios_write",
+          "callee": "ios_write",
+          "lineNumber": 449
+        },
+        {
+          "caller": "ios_write",
+          "callee": "_write_update_pos",
+          "lineNumber": 451
+        },
+        {
+          "caller": "ios_seek",
+          "callee": "ios_flush",
+          "lineNumber": 467
+        },
+        {
+          "caller": "ios_seek",
+          "callee": "lseek",
+          "lineNumber": 468
+        },
+        {
+          "caller": "ios_seek_end",
+          "callee": "ios_flush",
+          "lineNumber": 484
+        },
+        {
+          "caller": "ios_seek_end",
+          "callee": "lseek",
+          "lineNumber": 485
+        },
+        {
+          "caller": "ios_skip",
+          "callee": "ios_flush",
+          "lineNumber": 520
+        },
+        {
+          "caller": "ios_skip",
+          "callee": "lseek",
+          "lineNumber": 525
+        },
+        {
+          "caller": "ios_pos",
+          "callee": "lseek",
+          "lineNumber": 542
+        },
+        {
+          "caller": "ios_filesize",
+          "callee": "lseek",
+          "lineNumber": 559
+        },
+        {
+          "caller": "ios_filesize",
+          "callee": "lseek",
+          "lineNumber": 564
+        },
+        {
+          "caller": "ios_filesize",
+          "callee": "lseek",
+          "lineNumber": 565
+        },
+        {
+          "caller": "ios_trunc",
+          "callee": "_buf_realloc",
+          "lineNumber": 579
+        },
+        {
+          "caller": "ios_trunc",
+          "callee": "ios_flush",
+          "lineNumber": 586
+        },
+        {
+          "caller": "ios_trunc",
+          "callee": "ios_pos",
+          "lineNumber": 588
+        },
+        {
+          "caller": "ios_trunc",
+          "callee": "ftruncate",
+          "lineNumber": 593
+        },
+        {
+          "caller": "ios_trunc",
+          "callee": "_chsize_s",
+          "lineNumber": 595
+        },
+        {
+          "caller": "ios_eof_blocking",
+          "callee": "ios_readprep",
+          "lineNumber": 636
+        },
+        {
+          "caller": "ios_flush",
+          "callee": "lseek",
+          "lineNumber": 649
+        },
+        {
+          "caller": "ios_flush",
+          "callee": "_os_write_all",
+          "lineNumber": 655
+        },
+        {
+          "caller": "ios_flush",
+          "callee": "lseek",
+          "lineNumber": 659
+        },
+        {
+          "caller": "ios_flush",
+          "callee": "(off_t)",
+          "lineNumber": 659
+        },
+        {
+          "caller": "ios_flush",
+          "callee": "lseek",
+          "lineNumber": 664
+        },
+        {
+          "caller": "ios_flush",
+          "callee": "(off_t)",
+          "lineNumber": 664
+        },
+        {
+          "caller": "ios_flush",
+          "callee": "memmove",
+          "lineNumber": 671
+        },
+        {
+          "caller": "ios_close",
+          "callee": "ios_flush",
+          "lineNumber": 688
+        },
+        {
+          "caller": "ios_close",
+          "callee": "close",
+          "lineNumber": 690
+        },
+        {
+          "caller": "ios_close",
+          "callee": "LLT_FREE",
+          "lineNumber": 696
+        },
+        {
+          "caller": "_buf_init",
+          "callee": "_buf_realloc",
+          "lineNumber": 718
+        },
+        {
+          "caller": "ios_setbuf",
+          "callee": "ios_flush",
+          "lineNumber": 758
+        },
+        {
+          "caller": "ios_setbuf",
+          "callee": "memcpy",
+          "lineNumber": 763
+        },
+        {
+          "caller": "ios_setbuf",
+          "callee": "LLT_FREE",
+          "lineNumber": 771
+        },
+        {
+          "caller": "ios_set_readonly",
+          "callee": "ios_flush",
+          "lineNumber": 801
+        },
+        {
+          "caller": "ios_copy_",
+          "callee": "ios_eof",
+          "lineNumber": 809
+        },
+        {
+          "caller": "ios_copy_",
+          "callee": "ios_readprep",
+          "lineNumber": 811
+        },
+        {
+          "caller": "ios_copy_",
+          "callee": "ios_write",
+          "lineNumber": 818
+        },
+        {
+          "caller": "ios_copy_",
+          "callee": "ios_eof",
+          "lineNumber": 829
+        },
+        {
+          "caller": "ios_copy",
+          "callee": "ios_copy_",
+          "lineNumber": 836
+        },
+        {
+          "caller": "ios_copyall",
+          "callee": "ios_copy_",
+          "lineNumber": 841
+        },
+        {
+          "caller": "ios_copyuntil",
+          "callee": "ios_eof",
+          "lineNumber": 849
+        },
+        {
+          "caller": "ios_copyuntil",
+          "callee": "ios_readprep",
+          "lineNumber": 851
+        },
+        {
+          "caller": "ios_copyuntil",
+          "callee": "memchr",
+          "lineNumber": 856
+        },
+        {
+          "caller": "ios_copyuntil",
+          "callee": "ios_write",
+          "lineNumber": 858
+        },
+        {
+          "caller": "ios_copyuntil",
+          "callee": "ios_write",
+          "lineNumber": 865
+        },
+        {
+          "caller": "ios_nchomp",
+          "callee": "assert",
+          "lineNumber": 877
+        },
+        {
+          "caller": "open_cloexec",
+          "callee": "set_io_wait_begin",
+          "lineNumber": 929
+        },
+        {
+          "caller": "open_cloexec",
+          "callee": "open",
+          "lineNumber": 930
+        },
+        {
+          "caller": "open_cloexec",
+          "callee": "set_io_wait_begin",
+          "lineNumber": 931
+        },
+        {
+          "caller": "open_cloexec",
+          "callee": "set_io_wait_begin",
+          "lineNumber": 942
+        },
+        {
+          "caller": "open_cloexec",
+          "callee": "open",
+          "lineNumber": 943
+        },
+        {
+          "caller": "open_cloexec",
+          "callee": "set_io_wait_begin",
+          "lineNumber": 944
+        },
+        {
+          "caller": "ios_init_stdstreams",
+          "callee": "fflush",
+          "lineNumber": 1057
+        },
+        {
+          "caller": "ios_init_stdstreams",
+          "callee": "_setmode",
+          "lineNumber": 1058
+        },
+        {
+          "caller": "ios_init_stdstreams",
+          "callee": "fflush",
+          "lineNumber": 1059
+        },
+        {
+          "caller": "ios_init_stdstreams",
+          "callee": "_setmode",
+          "lineNumber": 1060
+        },
+        {
+          "caller": "ios_init_stdstreams",
+          "callee": "fflush",
+          "lineNumber": 1061
+        },
+        {
+          "caller": "ios_init_stdstreams",
+          "callee": "_setmode",
+          "lineNumber": 1062
+        },
+        {
+          "caller": "ios_init_stdstreams",
+          "callee": "malloc_s",
+          "lineNumber": 1065
+        },
+        {
+          "caller": "ios_init_stdstreams",
+          "callee": "ios_fd",
+          "lineNumber": 1066
+        },
+        {
+          "caller": "ios_init_stdstreams",
+          "callee": "malloc_s",
+          "lineNumber": 1068
+        },
+        {
+          "caller": "ios_init_stdstreams",
+          "callee": "ios_fd",
+          "lineNumber": 1069
+        },
+        {
+          "caller": "ios_init_stdstreams",
+          "callee": "malloc_s",
+          "lineNumber": 1072
+        },
+        {
+          "caller": "ios_init_stdstreams",
+          "callee": "ios_fd",
+          "lineNumber": 1073
+        },
+        {
+          "caller": "ios_init_stdstreams",
+          "callee": "malloc_s",
+          "lineNumber": 1078
+        },
+        {
+          "caller": "ios_init_stdstreams",
+          "callee": "ios_fd",
+          "lineNumber": 1079
+        },
+        {
+          "caller": "ios_putc",
+          "callee": "_write_update_pos",
+          "lineNumber": 1091
+        },
+        {
+          "caller": "ios_putc",
+          "callee": "ios_flush",
+          "lineNumber": 1093
+        },
+        {
+          "caller": "ios_putc",
+          "callee": "ios_write",
+          "lineNumber": 1096
+        },
+        {
+          "caller": "ios_getc",
+          "callee": "ios_read",
+          "lineNumber": 1107
+        },
+        {
+          "caller": "ios_peekc",
+          "callee": "ios_readprep",
+          "lineNumber": 1119
+        },
+        {
+          "caller": "ios_ungetc",
+          "callee": "_buf_realloc",
+          "lineNumber": 1138
+        },
+        {
+          "caller": "ios_ungetc",
+          "callee": "memmove",
+          "lineNumber": 1141
+        },
+        {
+          "caller": "ios_getutf8",
+          "callee": "ios_peekc",
+          "lineNumber": 1155
+        },
+        {
+          "caller": "ios_getutf8",
+          "callee": "ios_getc",
+          "lineNumber": 1162
+        },
+        {
+          "caller": "ios_getutf8",
+          "callee": "utf8proc_charwidth",
+          "lineNumber": 1167
+        },
+        {
+          "caller": "ios_getutf8",
+          "callee": "u8_seqlen",
+          "lineNumber": 1170
+        },
+        {
+          "caller": "ios_getutf8",
+          "callee": "isutf",
+          "lineNumber": 1171
+        },
+        {
+          "caller": "ios_getutf8",
+          "callee": "ios_readprep",
+          "lineNumber": 1173
+        },
+        {
+          "caller": "ios_getutf8",
+          "callee": "u8_isvalid",
+          "lineNumber": 1177
+        },
+        {
+          "caller": "ios_getutf8",
+          "callee": "u8_nextchar",
+          "lineNumber": 1180
+        },
+        {
+          "caller": "ios_getutf8",
+          "callee": "utf8proc_charwidth",
+          "lineNumber": 1181
+        },
+        {
+          "caller": "ios_getutf8",
+          "callee": "ios_read",
+          "lineNumber": 1182
+        },
+        {
+          "caller": "ios_peekutf8",
+          "callee": "ios_peekc",
+          "lineNumber": 1193
+        },
+        {
+          "caller": "ios_peekutf8",
+          "callee": "u8_seqlen",
+          "lineNumber": 1201
+        },
+        {
+          "caller": "ios_peekutf8",
+          "callee": "isutf",
+          "lineNumber": 1202
+        },
+        {
+          "caller": "ios_peekutf8",
+          "callee": "ios_readprep",
+          "lineNumber": 1204
+        },
+        {
+          "caller": "ios_peekutf8",
+          "callee": "u8_isvalid",
+          "lineNumber": 1206
+        },
+        {
+          "caller": "ios_peekutf8",
+          "callee": "u8_nextchar",
+          "lineNumber": 1209
+        },
+        {
+          "caller": "ios_pututf8",
+          "callee": "ios_putc",
+          "lineNumber": 1218
+        },
+        {
+          "caller": "ios_pututf8",
+          "callee": "u8_toutf8",
+          "lineNumber": 1219
+        },
+        {
+          "caller": "ios_pututf8",
+          "callee": "ios_write",
+          "lineNumber": 1220
+        },
+        {
+          "caller": "ios_vprintf",
+          "callee": "va_copy",
+          "lineNumber": 1251
+        },
+        {
+          "caller": "ios_vprintf",
+          "callee": "vsnprintf",
+          "lineNumber": 1257
+        },
+        {
+          "caller": "ios_vprintf",
+          "callee": "va_end",
+          "lineNumber": 1262
+        },
+        {
+          "caller": "ios_vprintf",
+          "callee": "_write_update_pos",
+          "lineNumber": 1268
+        },
+        {
+          "caller": "ios_vprintf",
+          "callee": "memrchr",
+          "lineNumber": 1270
+        },
+        {
+          "caller": "ios_vprintf",
+          "callee": "ios_flush",
+          "lineNumber": 1271
+        },
+        {
+          "caller": "ios_vprintf",
+          "callee": "va_end",
+          "lineNumber": 1272
+        },
+        {
+          "caller": "ios_vprintf",
+          "callee": "vasprintf",
+          "lineNumber": 1276
+        },
+        {
+          "caller": "ios_vprintf",
+          "callee": "ios_write",
+          "lineNumber": 1279
+        },
+        {
+          "caller": "ios_vprintf",
+          "callee": "LLT_FREE",
+          "lineNumber": 1281
+        },
+        {
+          "caller": "ios_vprintf",
+          "callee": "va_end",
+          "lineNumber": 1283
+        },
+        {
+          "caller": "ios_printf",
+          "callee": "va_start",
+          "lineNumber": 1292
+        },
+        {
+          "caller": "ios_printf",
+          "callee": "ios_vprintf",
+          "lineNumber": 1293
+        },
+        {
+          "caller": "ios_printf",
+          "callee": "va_end",
+          "lineNumber": 1294
+        }
+      ],
+      "metrics": {
+        "importCount": 5,
+        "exportCount": 0,
+        "functionCount": 0,
+        "classCount": 0
+      }
+    },
+    {
+      "path": "src/support/ios.h",
+      "language": "c",
+      "fileCategory": "code",
+      "totalLines": 233,
+      "nonEmptyLines": 191,
+      "metrics": {
+        "importCount": 0,
+        "exportCount": 0,
+        "functionCount": 0,
+        "classCount": 0
+      }
+    },
+    {
+      "path": "src/support/operators.c",
+      "language": "c",
+      "fileCategory": "code",
+      "totalLines": 238,
+      "nonEmptyLines": 220,
+      "callGraph": [
+        {
+          "caller": "conv_to_double",
+          "callee": "jl_load_ptraligned_i64",
+          "lineNumber": 25
+        },
+        {
+          "caller": "conv_to_double",
+          "callee": "jl_load_ptraligned_i64",
+          "lineNumber": 31
+        },
+        {
+          "caller": "conv_to_double",
+          "callee": "jl_load_ptraligned_f64",
+          "lineNumber": 33
+        },
+        {
+          "caller": "conv_to_uint64",
+          "callee": "jl_load_ptraligned_i64",
+          "lineNumber": 74
+        },
+        {
+          "caller": "conv_to_uint64",
+          "callee": "jl_load_ptraligned_i64",
+          "lineNumber": 75
+        },
+        {
+          "caller": "conv_to_uint64",
+          "callee": "jl_load_ptraligned_f64",
+          "lineNumber": 83
+        },
+        {
+          "caller": "conv_to_uint64",
+          "callee": "jl_load_ptraligned_f64",
+          "lineNumber": 84
+        },
+        {
+          "caller": "conv_to_uint64",
+          "callee": "jl_load_ptraligned_f64",
+          "lineNumber": 86
+        },
+        {
+          "caller": "cmp_same_lt",
+          "callee": "jl_load_ptraligned_i64",
+          "lineNumber": 101
+        },
+        {
+          "caller": "cmp_same_lt",
+          "callee": "jl_load_ptraligned_i64",
+          "lineNumber": 101
+        },
+        {
+          "caller": "cmp_same_lt",
+          "callee": "jl_load_ptraligned_i64",
+          "lineNumber": 102
+        },
+        {
+          "caller": "cmp_same_lt",
+          "callee": "jl_load_ptraligned_i64",
+          "lineNumber": 102
+        },
+        {
+          "caller": "cmp_same_lt",
+          "callee": "jl_load_ptraligned_f64",
+          "lineNumber": 104
+        },
+        {
+          "caller": "cmp_same_lt",
+          "callee": "jl_load_ptraligned_f64",
+          "lineNumber": 104
+        },
+        {
+          "caller": "cmp_same_eq",
+          "callee": "jl_load_ptraligned_i64",
+          "lineNumber": 118
+        },
+        {
+          "caller": "cmp_same_eq",
+          "callee": "jl_load_ptraligned_i64",
+          "lineNumber": 118
+        },
+        {
+          "caller": "cmp_same_eq",
+          "callee": "jl_load_ptraligned_i64",
+          "lineNumber": 119
+        },
+        {
+          "caller": "cmp_same_eq",
+          "callee": "jl_load_ptraligned_i64",
+          "lineNumber": 119
+        },
+        {
+          "caller": "cmp_same_eq",
+          "callee": "jl_load_ptraligned_f64",
+          "lineNumber": 121
+        },
+        {
+          "caller": "cmp_same_eq",
+          "callee": "jl_load_ptraligned_f64",
+          "lineNumber": 121
+        },
+        {
+          "caller": "cmp_lt",
+          "callee": "cmp_same_lt",
+          "lineNumber": 129
+        },
+        {
+          "caller": "cmp_lt",
+          "callee": "conv_to_double",
+          "lineNumber": 131
+        },
+        {
+          "caller": "cmp_lt",
+          "callee": "conv_to_double",
+          "lineNumber": 132
+        },
+        {
+          "caller": "cmp_lt",
+          "callee": "jl_load_ptraligned_i64",
+          "lineNumber": 143
+        },
+        {
+          "caller": "cmp_lt",
+          "callee": "jl_load_ptraligned_i64",
+          "lineNumber": 144
+        },
+        {
+          "caller": "cmp_lt",
+          "callee": "jl_load_ptraligned_i64",
+          "lineNumber": 144
+        },
+        {
+          "caller": "cmp_lt",
+          "callee": "jl_load_ptraligned_i64",
+          "lineNumber": 146
+        },
+        {
+          "caller": "cmp_lt",
+          "callee": "jl_load_ptraligned_i64",
+          "lineNumber": 147
+        },
+        {
+          "caller": "cmp_lt",
+          "callee": "jl_load_ptraligned_i64",
+          "lineNumber": 151
+        },
+        {
+          "caller": "cmp_lt",
+          "callee": "jl_load_ptraligned_f64",
+          "lineNumber": 151
+        },
+        {
+          "caller": "cmp_lt",
+          "callee": "jl_load_ptraligned_i64",
+          "lineNumber": 156
+        },
+        {
+          "caller": "cmp_lt",
+          "callee": "jl_load_ptraligned_i64",
+          "lineNumber": 157
+        },
+        {
+          "caller": "cmp_lt",
+          "callee": "jl_load_ptraligned_i64",
+          "lineNumber": 157
+        },
+        {
+          "caller": "cmp_lt",
+          "callee": "jl_load_ptraligned_i64",
+          "lineNumber": 159
+        },
+        {
+          "caller": "cmp_lt",
+          "callee": "jl_load_ptraligned_i64",
+          "lineNumber": 160
+        },
+        {
+          "caller": "cmp_lt",
+          "callee": "jl_load_ptraligned_i64",
+          "lineNumber": 164
+        },
+        {
+          "caller": "cmp_lt",
+          "callee": "jl_load_ptraligned_f64",
+          "lineNumber": 164
+        },
+        {
+          "caller": "cmp_lt",
+          "callee": "jl_load_ptraligned_i64",
+          "lineNumber": 170
+        },
+        {
+          "caller": "cmp_lt",
+          "callee": "jl_load_ptraligned_f64",
+          "lineNumber": 170
+        },
+        {
+          "caller": "cmp_lt",
+          "callee": "jl_load_ptraligned_i64",
+          "lineNumber": 176
+        },
+        {
+          "caller": "cmp_lt",
+          "callee": "jl_load_ptraligned_f64",
+          "lineNumber": 176
+        },
+        {
+          "caller": "cmp_eq",
+          "callee": "cmp_same_eq",
+          "lineNumber": 187
+        },
+        {
+          "caller": "cmp_eq",
+          "callee": "conv_to_double",
+          "lineNumber": 189
+        },
+        {
+          "caller": "cmp_eq",
+          "callee": "conv_to_double",
+          "lineNumber": 190
+        },
+        {
+          "caller": "cmp_eq",
+          "callee": "jl_load_ptraligned_i64",
+          "lineNumber": 207
+        },
+        {
+          "caller": "cmp_eq",
+          "callee": "jl_load_ptraligned_i64",
+          "lineNumber": 207
+        },
+        {
+          "caller": "cmp_eq",
+          "callee": "jl_load_ptraligned_i64",
+          "lineNumber": 210
+        },
+        {
+          "caller": "cmp_eq",
+          "callee": "jl_load_ptraligned_f64",
+          "lineNumber": 210
+        },
+        {
+          "caller": "cmp_eq",
+          "callee": "jl_load_ptraligned_i64",
+          "lineNumber": 215
+        },
+        {
+          "caller": "cmp_eq",
+          "callee": "jl_load_ptraligned_i64",
+          "lineNumber": 215
+        },
+        {
+          "caller": "cmp_eq",
+          "callee": "jl_load_ptraligned_i64",
+          "lineNumber": 218
+        },
+        {
+          "caller": "cmp_eq",
+          "callee": "jl_load_ptraligned_f64",
+          "lineNumber": 218
+        },
+        {
+          "caller": "cmp_eq",
+          "callee": "assert",
+          "lineNumber": 222
+        },
+        {
+          "caller": "cmp_eq",
+          "callee": "jl_load_ptraligned_i64",
+          "lineNumber": 224
+        },
+        {
+          "caller": "cmp_eq",
+          "callee": "jl_load_ptraligned_f64",
+          "lineNumber": 224
+        },
+        {
+          "caller": "cmp_eq",
+          "callee": "assert",
+          "lineNumber": 228
+        },
+        {
+          "caller": "cmp_eq",
+          "callee": "jl_load_ptraligned_i64",
+          "lineNumber": 230
+        },
+        {
+          "caller": "cmp_eq",
+          "callee": "jl_load_ptraligned_f64",
+          "lineNumber": 230
+        }
+      ],
+      "metrics": {
+        "importCount": 2,
+        "exportCount": 0,
+        "functionCount": 0,
+        "classCount": 0
+      }
+    },
+    {
+      "path": "src/support/ptrhash.c",
+      "language": "c",
+      "fileCategory": "code",
+      "totalLines": 33,
+      "nonEmptyLines": 25,
+      "callGraph": [
+        {
+          "caller": "ptrhash_hash",
+          "callee": "(uint_t)",
+          "lineNumber": 27
+        }
+      ],
+      "metrics": {
+        "importCount": 4,
+        "exportCount": 0,
+        "functionCount": 0,
+        "classCount": 0
+      }
+    },
+    {
+      "path": "src/support/ptrhash.h",
+      "language": "c",
+      "fileCategory": "code",
+      "totalLines": 18,
+      "nonEmptyLines": 12,
+      "metrics": {
+        "importCount": 0,
+        "exportCount": 0,
+        "functionCount": 0,
+        "classCount": 0
+      }
+    },
+    {
+      "path": "src/support/strhash.c",
+      "language": "c",
+      "fileCategory": "code",
+      "totalLines": 60,
+      "nonEmptyLines": 50,
+      "functions": [
+        {
+          "name": "strhash_hash",
+          "startLine": 19,
+          "endLine": 24,
+          "params": [
+            "key",
+            "ctx"
+          ]
+        },
+        {
+          "name": "strhash_eq",
+          "startLine": 26,
+          "endLine": 30,
+          "params": [
+            "key1",
+            "key2",
+            "ctx"
+          ]
+        },
+        {
+          "name": "strhash_keyfree",
+          "startLine": 35,
+          "endLine": 35,
+          "params": [
+            "key",
+            "ctx"
+          ]
+        },
+        {
+          "name": "strhash_has",
+          "startLine": 41,
+          "endLine": 41,
+          "params": [
+            "h",
+            "key"
+          ]
+        },
+        {
+          "name": "strhash_remove",
+          "startLine": 42,
+          "endLine": 42,
+          "params": [
+            "h",
+            "key"
+          ]
+        },
+        {
+          "name": "strhash_adjoin",
+          "startLine": 43,
+          "endLine": 43,
+          "params": [
+            "h",
+            "key",
+            "val"
+          ]
+        },
+        {
+          "name": "strhash_free",
+          "startLine": 50,
+          "endLine": 60,
+          "params": [
+            "h"
+          ]
+        }
+      ],
+      "exports": [
+        {
+          "name": "strhash_has",
+          "line": 41,
+          "isDefault": false
+        },
+        {
+          "name": "strhash_remove",
+          "line": 42,
+          "isDefault": false
+        },
+        {
+          "name": "strhash_adjoin",
+          "line": 43,
+          "isDefault": false
+        },
+        {
+          "name": "strhash_free",
+          "line": 50,
+          "isDefault": false
+        }
+      ],
+      "callGraph": [
+        {
+          "caller": "strhash_hash",
+          "callee": "memhash32",
+          "lineNumber": 23
+        },
+        {
+          "caller": "strhash_hash",
+          "callee": "strlen",
+          "lineNumber": 23
+        },
+        {
+          "caller": "strhash_eq",
+          "callee": "strcmp",
+          "lineNumber": 29
+        },
+        {
+          "caller": "strhash_keyfree",
+          "callee": "free",
+          "lineNumber": 35
+        },
+        {
+          "caller": "strhash_has",
+          "callee": "strhash_has_r",
+          "lineNumber": 41
+        },
+        {
+          "caller": "strhash_remove",
+          "callee": "strhash_remove_r",
+          "lineNumber": 42
+        },
+        {
+          "caller": "strhash_adjoin",
+          "callee": "strhash_adjoin_r",
+          "lineNumber": 43
+        },
+        {
+          "caller": "strhash_free",
+          "callee": "free",
+          "lineNumber": 57
+        },
+        {
+          "caller": "strhash_free",
+          "callee": "htable_free",
+          "lineNumber": 59
+        }
+      ],
+      "metrics": {
+        "importCount": 4,
+        "exportCount": 4,
+        "functionCount": 7,
+        "classCount": 0
+      }
+    },
+    {
+      "path": "src/support/strhash.h",
+      "language": "c",
+      "fileCategory": "code",
+      "totalLines": 28,
+      "nonEmptyLines": 20,
+      "metrics": {
+        "importCount": 0,
+        "exportCount": 0,
+        "functionCount": 0,
+        "classCount": 0
+      }
+    },
+    {
+      "path": "src/support/strptime.c",
+      "language": "c",
+      "fileCategory": "code",
+      "totalLines": 834,
+      "nonEmptyLines": 746,
+      "functions": [
+        {
+          "name": "first_wday_of",
+          "startLine": 165,
+          "endLine": 170,
+          "params": [
+            "yr"
+          ]
+        },
+        {
+          "name": "fromzone",
+          "startLine": 174,
+          "endLine": 202,
+          "params": [
+            "bp",
+            "tm",
+            "mandatory"
+          ]
+        }
+      ],
+      "callGraph": [
+        {
+          "caller": "first_wday_of",
+          "callee": "isleap",
+          "lineNumber": 169
+        },
+        {
+          "caller": "fromzone",
+          "callee": "delim",
+          "lineNumber": 181
+        },
+        {
+          "caller": "fromzone",
+          "callee": "tzalloc",
+          "lineNumber": 187
+        },
+        {
+          "caller": "fromzone",
+          "callee": "tzgetgmtoff",
+          "lineNumber": 194
+        },
+        {
+          "caller": "fromzone",
+          "callee": "tzfree",
+          "lineNumber": 200
+        }
+      ],
+      "metrics": {
+        "importCount": 2,
+        "exportCount": 0,
+        "functionCount": 2,
+        "classCount": 0
+      }
+    },
+    {
+      "path": "src/support/timefuncs.c",
+      "language": "c",
+      "fileCategory": "code",
+      "totalLines": 62,
+      "nonEmptyLines": 50,
+      "callGraph": [
+        {
+          "caller": "jl_gettimeofday",
+          "callee": "_ftime64_s",
+          "lineNumber": 24
+        },
+        {
+          "caller": "jl_gettimeofday",
+          "callee": "gettimeofday",
+          "lineNumber": 29
+        },
+        {
+          "caller": "jl_clock_now",
+          "callee": "jl_gettimeofday",
+          "lineNumber": 39
+        },
+        {
+          "caller": "sleep_ms",
+          "callee": "Sleep",
+          "lineNumber": 49
+        },
+        {
+          "caller": "sleep_ms",
+          "callee": "select",
+          "lineNumber": 56
+        }
+      ],
+      "metrics": {
+        "importCount": 2,
+        "exportCount": 0,
+        "functionCount": 0,
+        "classCount": 0
+      }
+    },
+    {
+      "path": "src/support/timefuncs.h",
+      "language": "c",
+      "fileCategory": "code",
+      "totalLines": 23,
+      "nonEmptyLines": 17,
+      "metrics": {
+        "importCount": 0,
+        "exportCount": 0,
+        "functionCount": 0,
+        "classCount": 0
+      }
+    },
+    {
+      "path": "src/support/tzfile.h",
+      "language": "c",
+      "fileCategory": "code",
+      "totalLines": 170,
+      "nonEmptyLines": 144,
+      "metrics": {
+        "importCount": 0,
+        "exportCount": 0,
+        "functionCount": 0,
+        "classCount": 0
+      }
+    },
+    {
+      "path": "src/support/utf8.c",
+      "language": "c",
+      "fileCategory": "code",
+      "totalLines": 596,
+      "nonEmptyLines": 539,
+      "callGraph": [
+        {
+          "caller": "u8_toucs",
+          "callee": "isutf",
+          "lineNumber": 99
+        },
+        {
+          "caller": "u8_offset",
+          "callee": "isutf",
+          "lineNumber": 215
+        },
+        {
+          "caller": "u8_offset",
+          "callee": "isutf",
+          "lineNumber": 215
+        },
+        {
+          "caller": "u8_strwidth",
+          "callee": "isutf",
+          "lineNumber": 249
+        },
+        {
+          "caller": "u8_strwidth",
+          "callee": "utf8proc_charwidth",
+          "lineNumber": 262
+        },
+        {
+          "caller": "u8_nextchar",
+          "callee": "u8_seqlen",
+          "lineNumber": 274
+        },
+        {
+          "caller": "u8_nextmemchar",
+          "callee": "u8_nextchar",
+          "lineNumber": 287
+        },
+        {
+          "caller": "u8_inc",
+          "callee": "isutf",
+          "lineNumber": 292
+        },
+        {
+          "caller": "u8_inc",
+          "callee": "isutf",
+          "lineNumber": 292
+        },
+        {
+          "caller": "u8_inc",
+          "callee": "isutf",
+          "lineNumber": 292
+        },
+        {
+          "caller": "u8_dec",
+          "callee": "isutf",
+          "lineNumber": 297
+        },
+        {
+          "caller": "u8_dec",
+          "callee": "isutf",
+          "lineNumber": 297
+        },
+        {
+          "caller": "u8_dec",
+          "callee": "isutf",
+          "lineNumber": 297
+        },
+        {
+          "caller": "u8_read_escape_sequence",
+          "callee": "assert",
+          "lineNumber": 337
+        },
+        {
+          "caller": "u8_read_escape_sequence",
+          "callee": "octal_digit",
+          "lineNumber": 344
+        },
+        {
+          "caller": "u8_read_escape_sequence",
+          "callee": "octal_digit",
+          "lineNumber": 348
+        },
+        {
+          "caller": "u8_read_escape_sequence",
+          "callee": "strtol",
+          "lineNumber": 350
+        },
+        {
+          "caller": "u8_read_escape_sequence",
+          "callee": "hex_digit",
+          "lineNumber": 355
+        },
+        {
+          "caller": "u8_read_escape_sequence",
+          "callee": "strtol",
+          "lineNumber": 360
+        },
+        {
+          "caller": "u8_read_escape_sequence",
+          "callee": "read_escape_control_char",
+          "lineNumber": 363
+        },
+        {
+          "caller": "u8_escape_wchar",
+          "callee": "assert",
+          "lineNumber": 380
+        },
+        {
+          "caller": "u8_escape_wchar",
+          "callee": "buf_put2c",
+          "lineNumber": 382
+        },
+        {
+          "caller": "u8_escape_wchar",
+          "callee": "buf_put2c",
+          "lineNumber": 384
+        },
+        {
+          "caller": "u8_escape_wchar",
+          "callee": "buf_put2c",
+          "lineNumber": 386
+        },
+        {
+          "caller": "u8_escape_wchar",
+          "callee": "buf_put2c",
+          "lineNumber": 388
+        },
+        {
+          "caller": "u8_escape_wchar",
+          "callee": "buf_put2c",
+          "lineNumber": 390
+        },
+        {
+          "caller": "u8_escape_wchar",
+          "callee": "buf_put2c",
+          "lineNumber": 392
+        },
+        {
+          "caller": "u8_escape_wchar",
+          "callee": "buf_put2c",
+          "lineNumber": 394
+        },
+        {
+          "caller": "u8_escape_wchar",
+          "callee": "buf_put2c",
+          "lineNumber": 396
+        },
+        {
+          "caller": "u8_escape_wchar",
+          "callee": "buf_put2c",
+          "lineNumber": 398
+        },
+        {
+          "caller": "u8_escape_wchar",
+          "callee": "snprintf",
+          "lineNumber": 400
+        },
+        {
+          "caller": "u8_escape_wchar",
+          "callee": "snprintf",
+          "lineNumber": 402
+        },
+        {
+          "caller": "u8_escape_wchar",
+          "callee": "snprintf",
+          "lineNumber": 404
+        },
+        {
+          "caller": "u8_escape",
+          "callee": "assert",
+          "lineNumber": 418
+        },
+        {
+          "caller": "u8_escape",
+          "callee": "strchr",
+          "lineNumber": 422
+        },
+        {
+          "caller": "u8_escape",
+          "callee": "u8_nextmemchar",
+          "lineNumber": 429
+        },
+        {
+          "caller": "u8_escape",
+          "callee": "iswprint",
+          "lineNumber": 430
+        },
+        {
+          "caller": "u8_escape",
+          "callee": "u8_escape_wchar",
+          "lineNumber": 431
+        },
+        {
+          "caller": "u8_escape",
+          "callee": "isutf",
+          "lineNumber": 437
+        },
+        {
+          "caller": "u8_vprintf",
+          "callee": "alloca",
+          "lineNumber": 503
+        },
+        {
+          "caller": "u8_vprintf",
+          "callee": "vsnprintf",
+          "lineNumber": 504
+        },
+        {
+          "caller": "u8_vprintf",
+          "callee": "malloc_s",
+          "lineNumber": 508
+        },
+        {
+          "caller": "u8_vprintf",
+          "callee": "vsnprintf",
+          "lineNumber": 510
+        },
+        {
+          "caller": "u8_vprintf",
+          "callee": "alloca",
+          "lineNumber": 512
+        },
+        {
+          "caller": "u8_vprintf",
+          "callee": "u8_toucs",
+          "lineNumber": 513
+        },
+        {
+          "caller": "u8_vprintf",
+          "callee": "printf",
+          "lineNumber": 515
+        },
+        {
+          "caller": "u8_vprintf",
+          "callee": "free",
+          "lineNumber": 517
+        },
+        {
+          "caller": "u8_printf",
+          "callee": "va_start",
+          "lineNumber": 526
+        },
+        {
+          "caller": "u8_printf",
+          "callee": "u8_vprintf",
+          "lineNumber": 528
+        },
+        {
+          "caller": "u8_printf",
+          "callee": "va_end",
+          "lineNumber": 530
+        }
+      ],
+      "metrics": {
+        "importCount": 2,
+        "exportCount": 0,
+        "functionCount": 0,
+        "classCount": 0
+      }
+    },
+    {
+      "path": "src/support/utf8.h",
+      "language": "c",
+      "fileCategory": "code",
+      "totalLines": 106,
+      "nonEmptyLines": 72,
+      "metrics": {
+        "importCount": 0,
+        "exportCount": 0,
+        "functionCount": 0,
+        "classCount": 0
+      }
+    },
+    {
+      "path": "src/support/utils.h",
+      "language": "c",
+      "fileCategory": "code",
+      "totalLines": 55,
+      "nonEmptyLines": 48,
+      "callGraph": [
+        {
+          "caller": "ByteSwap64",
+          "callee": "bswap_32",
+          "lineNumber": 45
+        },
+        {
+          "caller": "ByteSwap64",
+          "callee": "bswap_32",
+          "lineNumber": 46
+        }
+      ],
+      "metrics": {
+        "importCount": 0,
+        "exportCount": 0,
+        "functionCount": 0,
+        "classCount": 0
+      }
+    }
+  ]
+}

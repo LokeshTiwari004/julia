@@ -1,0 +1,426 @@
+{
+  "batchIndex": 62,
+  "nodes": [
+    {
+      "id": "file:contrib/mac/frameworkapp/ExecSandbox/ExecSandbox.h",
+      "type": "file",
+      "name": "ExecSandbox.h",
+      "filePath": "contrib/mac/frameworkapp/ExecSandbox/ExecSandbox.h",
+      "summary": "Source file: ExecSandbox.h.",
+      "tags": [
+        "source"
+      ],
+      "complexity": "simple",
+      "language": "c"
+    },
+    {
+      "id": "file:contrib/mac/frameworkapp/ExecSandbox/ExecSandboxProtocol.h",
+      "type": "file",
+      "name": "ExecSandboxProtocol.h",
+      "filePath": "contrib/mac/frameworkapp/ExecSandbox/ExecSandboxProtocol.h",
+      "summary": "Source file: ExecSandboxProtocol.h.",
+      "tags": [
+        "source"
+      ],
+      "complexity": "simple",
+      "language": "c"
+    },
+    {
+      "id": "file:contrib/mac/frameworkapp/JuliaLauncher/AppDelegate.h",
+      "type": "file",
+      "name": "AppDelegate.h",
+      "filePath": "contrib/mac/frameworkapp/JuliaLauncher/AppDelegate.h",
+      "summary": "Source file: AppDelegate.h.",
+      "tags": [
+        "source"
+      ],
+      "complexity": "simple",
+      "language": "c"
+    },
+    {
+      "id": "config:contrib/mac/frameworkapp/JuliaLauncher/Assets.xcassets/AppIcon.appiconset/Contents.json",
+      "type": "config",
+      "name": "Contents.json",
+      "filePath": "contrib/mac/frameworkapp/JuliaLauncher/Assets.xcassets/AppIcon.appiconset/Contents.json",
+      "summary": "Configuration file: Contents.json.",
+      "tags": [
+        "configuration"
+      ],
+      "complexity": "moderate",
+      "language": "json"
+    },
+    {
+      "id": "config:contrib/mac/frameworkapp/JuliaLauncher/Assets.xcassets/Contents.json",
+      "type": "config",
+      "name": "Contents.json",
+      "filePath": "contrib/mac/frameworkapp/JuliaLauncher/Assets.xcassets/Contents.json",
+      "summary": "Configuration file: Contents.json.",
+      "tags": [
+        "configuration"
+      ],
+      "complexity": "simple",
+      "language": "json"
+    },
+    {
+      "id": "file:contrib/normalize_triplet.py",
+      "type": "file",
+      "name": "normalize_triplet.py",
+      "filePath": "contrib/normalize_triplet.py",
+      "summary": "Source file: normalize_triplet.py.",
+      "tags": [
+        "source"
+      ],
+      "complexity": "moderate",
+      "language": "python"
+    },
+    {
+      "id": "function:contrib/normalize_triplet.py:get_field",
+      "type": "function",
+      "name": "get_field",
+      "filePath": "contrib/normalize_triplet.py",
+      "summary": "Function get_field with 2 parameters.",
+      "tags": [
+        "function"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:contrib/normalize_triplet.py:r",
+      "type": "function",
+      "name": "r",
+      "filePath": "contrib/normalize_triplet.py",
+      "summary": "Function r with 1 parameters.",
+      "tags": [
+        "function"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:contrib/normalize_triplet.py:p",
+      "type": "function",
+      "name": "p",
+      "filePath": "contrib/normalize_triplet.py",
+      "summary": "Function p with 1 parameters.",
+      "tags": [
+        "function"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "service:contrib/pgo-lto-bolt/Makefile",
+      "type": "service",
+      "name": "Makefile",
+      "filePath": "contrib/pgo-lto-bolt/Makefile",
+      "summary": "Infrastructure file: Makefile.",
+      "tags": [
+        "infrastructure"
+      ],
+      "complexity": "moderate",
+      "language": "makefile"
+    }
+  ],
+  "edges": [
+    {
+      "source": "file:contrib/normalize_triplet.py",
+      "target": "function:contrib/normalize_triplet.py:get_field",
+      "type": "contains",
+      "weight": 1
+    },
+    {
+      "source": "file:contrib/normalize_triplet.py",
+      "target": "function:contrib/normalize_triplet.py:r",
+      "type": "contains",
+      "weight": 1
+    },
+    {
+      "source": "file:contrib/normalize_triplet.py",
+      "target": "function:contrib/normalize_triplet.py:p",
+      "type": "contains",
+      "weight": 1
+    },
+    {
+      "source": "function:contrib/normalize_triplet.py:p",
+      "target": "function:contrib/normalize_triplet.py:r",
+      "type": "calls",
+      "weight": 0.8
+    }
+  ],
+  "batchFiles": [
+    {
+      "path": "contrib/mac/frameworkapp/ExecSandbox/ExecSandbox.h",
+      "language": "c",
+      "fileCategory": "code",
+      "totalLines": 7,
+      "nonEmptyLines": 5,
+      "metrics": {
+        "importCount": 0,
+        "exportCount": 0,
+        "functionCount": 0,
+        "classCount": 0
+      }
+    },
+    {
+      "path": "contrib/mac/frameworkapp/ExecSandbox/ExecSandboxProtocol.h",
+      "language": "c",
+      "fileCategory": "code",
+      "totalLines": 31,
+      "nonEmptyLines": 26,
+      "metrics": {
+        "importCount": 0,
+        "exportCount": 0,
+        "functionCount": 0,
+        "classCount": 0
+      }
+    },
+    {
+      "path": "contrib/mac/frameworkapp/JuliaLauncher/AppDelegate.h",
+      "language": "c",
+      "fileCategory": "code",
+      "totalLines": 6,
+      "nonEmptyLines": 4,
+      "metrics": {
+        "importCount": 0,
+        "exportCount": 0,
+        "functionCount": 0,
+        "classCount": 0
+      }
+    },
+    {
+      "path": "contrib/mac/frameworkapp/JuliaLauncher/Assets.xcassets/AppIcon.appiconset/Contents.json",
+      "language": "json",
+      "fileCategory": "config",
+      "totalLines": 68,
+      "nonEmptyLines": 68,
+      "sections": [
+        {
+          "heading": "images",
+          "level": 1,
+          "line": 2
+        },
+        {
+          "heading": "info",
+          "level": 1,
+          "line": 64
+        }
+      ],
+      "metrics": {
+        "importCount": 0,
+        "exportCount": 0,
+        "functionCount": 0,
+        "classCount": 0,
+        "sectionCount": 2
+      }
+    },
+    {
+      "path": "contrib/mac/frameworkapp/JuliaLauncher/Assets.xcassets/Contents.json",
+      "language": "json",
+      "fileCategory": "config",
+      "totalLines": 6,
+      "nonEmptyLines": 6,
+      "sections": [
+        {
+          "heading": "info",
+          "level": 1,
+          "line": 2
+        }
+      ],
+      "metrics": {
+        "importCount": 0,
+        "exportCount": 0,
+        "functionCount": 0,
+        "classCount": 0,
+        "sectionCount": 1
+      }
+    },
+    {
+      "path": "contrib/normalize_triplet.py",
+      "language": "python",
+      "fileCategory": "code",
+      "totalLines": 159,
+      "nonEmptyLines": 143,
+      "functions": [
+        {
+          "name": "get_field",
+          "startLine": 72,
+          "endLine": 76,
+          "params": [
+            "m",
+            "mapping"
+          ]
+        },
+        {
+          "name": "r",
+          "startLine": 89,
+          "endLine": 97,
+          "params": [
+            "x"
+          ]
+        },
+        {
+          "name": "p",
+          "startLine": 99,
+          "endLine": 115,
+          "params": [
+            "x"
+          ]
+        }
+      ],
+      "exports": [
+        {
+          "name": "get_field",
+          "line": 72,
+          "isDefault": false
+        },
+        {
+          "name": "r",
+          "line": 89,
+          "isDefault": false
+        },
+        {
+          "name": "p",
+          "line": 99,
+          "isDefault": false
+        }
+      ],
+      "callGraph": [
+        {
+          "caller": "get_field",
+          "callee": "m.groupdict",
+          "lineNumber": 73
+        },
+        {
+          "caller": "r",
+          "callee": "x.replace",
+          "lineNumber": 90
+        },
+        {
+          "caller": "r",
+          "callee": "x.replace",
+          "lineNumber": 91
+        },
+        {
+          "caller": "r",
+          "callee": "x.replace",
+          "lineNumber": 92
+        },
+        {
+          "caller": "r",
+          "callee": "x.replace",
+          "lineNumber": 96
+        },
+        {
+          "caller": "p",
+          "callee": "r",
+          "lineNumber": 110
+        },
+        {
+          "caller": "p",
+          "callee": "x.replace",
+          "lineNumber": 113
+        }
+      ],
+      "metrics": {
+        "importCount": 0,
+        "exportCount": 3,
+        "functionCount": 3,
+        "classCount": 0
+      }
+    },
+    {
+      "path": "contrib/pgo-lto-bolt/Makefile",
+      "language": "makefile",
+      "fileCategory": "infra",
+      "totalLines": 201,
+      "nonEmptyLines": 173,
+      "steps": [
+        {
+          "name": "stage0",
+          "startLine": 95,
+          "endLine": 95
+        },
+        {
+          "name": "stage0",
+          "startLine": 96,
+          "endLine": 102
+        },
+        {
+          "name": "stage1",
+          "startLine": 107,
+          "endLine": 107
+        },
+        {
+          "name": "stage1",
+          "startLine": 108,
+          "endLine": 114
+        },
+        {
+          "name": "stage2",
+          "startLine": 122,
+          "endLine": 122
+        },
+        {
+          "name": "stage2",
+          "startLine": 123,
+          "endLine": 127
+        },
+        {
+          "name": "copy_originals",
+          "startLine": 128,
+          "endLine": 134
+        },
+        {
+          "name": "bolt_instrument",
+          "startLine": 138,
+          "endLine": 148
+        },
+        {
+          "name": "finish_stage2",
+          "startLine": 152,
+          "endLine": 156
+        },
+        {
+          "name": "merge_data",
+          "startLine": 157,
+          "endLine": 163
+        },
+        {
+          "name": "bolt",
+          "startLine": 170,
+          "endLine": 177
+        },
+        {
+          "name": "clean_profiles",
+          "startLine": 178,
+          "endLine": 180
+        },
+        {
+          "name": "clean",
+          "startLine": 181,
+          "endLine": 183
+        },
+        {
+          "name": "restore_originals",
+          "startLine": 184,
+          "endLine": 189
+        },
+        {
+          "name": "delete_originals",
+          "startLine": 190,
+          "endLine": 195
+        },
+        {
+          "name": "top",
+          "startLine": 200,
+          "endLine": 202
+        }
+      ],
+      "metrics": {
+        "importCount": 0,
+        "exportCount": 0,
+        "functionCount": 0,
+        "classCount": 0,
+        "stepCount": 16
+      }
+    }
+  ]
+}

@@ -1,0 +1,267 @@
+{
+  "projectRoot": "/home/maruti/julia",
+  "batchFiles": [
+    {
+      "path": "src/opaque_closure.c",
+      "language": "c",
+      "sizeLines": 234,
+      "fileCategory": "code"
+    },
+    {
+      "path": "src/options.h",
+      "language": "c",
+      "sizeLines": 169,
+      "fileCategory": "code"
+    },
+    {
+      "path": "src/precompile.c",
+      "language": "c",
+      "sizeLines": 197,
+      "fileCategory": "code"
+    },
+    {
+      "path": "src/precompile_utils.c",
+      "language": "c",
+      "sizeLines": 45,
+      "fileCategory": "code"
+    },
+    {
+      "path": "src/rtutils.c",
+      "language": "c",
+      "sizeLines": 1837,
+      "fileCategory": "code"
+    },
+    {
+      "path": "src/serialize.h",
+      "language": "c",
+      "sizeLines": 81,
+      "fileCategory": "code"
+    },
+    {
+      "path": "src/signal-handling.c",
+      "language": "c",
+      "sizeLines": 1070,
+      "fileCategory": "code"
+    },
+    {
+      "path": "src/signals-unix.c",
+      "language": "c",
+      "sizeLines": 1759,
+      "fileCategory": "code"
+    },
+    {
+      "path": "src/simplevector.c",
+      "language": "c",
+      "sizeLines": 121,
+      "fileCategory": "code"
+    },
+    {
+      "path": "src/smallintset.c",
+      "language": "c",
+      "sizeLines": 273,
+      "fileCategory": "code"
+    },
+    {
+      "path": "src/staticdata.c",
+      "language": "c",
+      "sizeLines": 4802,
+      "fileCategory": "code"
+    },
+    {
+      "path": "src/staticdata_utils.c",
+      "language": "c",
+      "sizeLines": 1101,
+      "fileCategory": "code"
+    },
+    {
+      "path": "src/subtype.c",
+      "language": "c",
+      "sizeLines": 7414,
+      "fileCategory": "code"
+    },
+    {
+      "path": "src/symbol.c",
+      "language": "c",
+      "sizeLines": 169,
+      "fileCategory": "code"
+    },
+    {
+      "path": "src/sys.c",
+      "language": "c",
+      "sizeLines": 1040,
+      "fileCategory": "code"
+    },
+    {
+      "path": "src/task.c",
+      "language": "c",
+      "sizeLines": 2231,
+      "fileCategory": "code"
+    },
+    {
+      "path": "src/threading.c",
+      "language": "c",
+      "sizeLines": 1208,
+      "fileCategory": "code"
+    },
+    {
+      "path": "src/timing.c",
+      "language": "c",
+      "sizeLines": 792,
+      "fileCategory": "code"
+    },
+    {
+      "path": "src/timing.h",
+      "language": "c",
+      "sizeLines": 487,
+      "fileCategory": "code"
+    },
+    {
+      "path": "src/toplevel.c",
+      "language": "c",
+      "sizeLines": 1006,
+      "fileCategory": "code"
+    },
+    {
+      "path": "src/typemap.c",
+      "language": "c",
+      "sizeLines": 1619,
+      "fileCategory": "code"
+    },
+    {
+      "path": "test/clangsa/GCPushPop.cpp",
+      "language": "cpp",
+      "sizeLines": 69,
+      "fileCategory": "code"
+    },
+    {
+      "path": "test/clangsa/MissingRoots.c",
+      "language": "c",
+      "sizeLines": 1089,
+      "fileCategory": "code"
+    },
+    {
+      "path": "test/embedding/asan-embedding.c",
+      "language": "c",
+      "sizeLines": 84,
+      "fileCategory": "code"
+    },
+    {
+      "path": "test/embedding/embedding.c",
+      "language": "c",
+      "sizeLines": 211,
+      "fileCategory": "code"
+    }
+  ],
+  "batchImportData": {
+    "src/opaque_closure.c": [
+      "src/julia.h",
+      "src/julia_internal.h"
+    ],
+    "src/options.h": [],
+    "src/precompile.c": [
+      "src/julia.h",
+      "src/julia_assert.h",
+      "src/julia_internal.h",
+      "src/serialize.h"
+    ],
+    "src/precompile_utils.c": [],
+    "src/rtutils.c": [
+      "src/julia.h",
+      "src/julia_assert.h",
+      "src/julia_internal.h"
+    ],
+    "src/serialize.h": [],
+    "src/signal-handling.c": [
+      "src/julia.h",
+      "src/julia_internal.h"
+    ],
+    "src/signals-unix.c": [
+      "src/julia.h",
+      "src/julia_assert.h",
+      "src/julia_internal.h"
+    ],
+    "src/simplevector.c": [
+      "src/julia.h",
+      "src/julia_assert.h",
+      "src/julia_internal.h"
+    ],
+    "src/smallintset.c": [
+      "src/julia.h",
+      "src/julia_assert.h",
+      "src/julia_internal.h"
+    ],
+    "src/staticdata.c": [
+      "src/builtin_proto.h",
+      "src/julia.h",
+      "src/julia_assert.h",
+      "src/julia_gcext.h",
+      "src/julia_internal.h",
+      "src/precompile_utils.c",
+      "src/processor.h",
+      "src/serialize.h",
+      "src/staticdata_utils.c"
+    ],
+    "src/staticdata_utils.c": [],
+    "src/subtype.c": [
+      "src/julia.h",
+      "src/julia_assert.h",
+      "src/julia_internal.h"
+    ],
+    "src/symbol.c": [
+      "src/julia.h",
+      "src/julia_assert.h",
+      "src/julia_internal.h"
+    ],
+    "src/sys.c": [
+      "src/julia.h",
+      "src/julia_assert.h",
+      "src/julia_internal.h"
+    ],
+    "src/task.c": [
+      "src/builtin_proto.h",
+      "src/julia.h",
+      "src/julia_assert.h",
+      "src/julia_internal.h",
+      "src/threading.h"
+    ],
+    "src/threading.c": [
+      "src/julia.h",
+      "src/julia_assert.h",
+      "src/julia_internal.h"
+    ],
+    "src/timing.c": [
+      "src/julia.h",
+      "src/julia_internal.h",
+      "src/options.h"
+    ],
+    "src/timing.h": [
+      "src/julia.h",
+      "src/julia_assert.h"
+    ],
+    "src/toplevel.c": [
+      "src/builtin_proto.h",
+      "src/intrinsics.h",
+      "src/julia.h",
+      "src/julia_assert.h",
+      "src/julia_internal.h"
+    ],
+    "src/typemap.c": [
+      "src/julia.h",
+      "src/julia_assert.h",
+      "src/julia_internal.h"
+    ],
+    "test/clangsa/GCPushPop.cpp": [
+      "src/julia.h"
+    ],
+    "test/clangsa/MissingRoots.c": [
+      "src/julia.h",
+      "src/julia_internal.h"
+    ],
+    "test/embedding/asan-embedding.c": [
+      "src/julia.h"
+    ],
+    "test/embedding/embedding.c": [
+      "src/julia.h"
+    ]
+  }
+}

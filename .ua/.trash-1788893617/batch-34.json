@@ -1,0 +1,87 @@
+{
+  "batchIndex": 34,
+  "nodes": [
+    {
+      "id": "service:contrib/mac/frameworkapp/Makefile",
+      "type": "service",
+      "name": "Makefile",
+      "filePath": "contrib/mac/frameworkapp/Makefile",
+      "summary": "Infrastructure file: Makefile.",
+      "tags": [
+        "infrastructure"
+      ],
+      "complexity": "moderate",
+      "language": "makefile"
+    },
+    {
+      "id": "document:contrib/mac/frameworkapp/README.md",
+      "type": "document",
+      "name": "README.md",
+      "filePath": "contrib/mac/frameworkapp/README.md",
+      "summary": "Documentation file: README.md.",
+      "tags": [
+        "documentation"
+      ],
+      "complexity": "simple",
+      "language": "markdown"
+    }
+  ],
+  "edges": [],
+  "batchFiles": [
+    {
+      "path": "contrib/mac/frameworkapp/Makefile",
+      "language": "makefile",
+      "fileCategory": "infra",
+      "totalLines": 124,
+      "nonEmptyLines": 103,
+      "steps": [
+        {
+          "name": "default",
+          "startLine": 4,
+          "endLine": 5
+        },
+        {
+          "name": "appexport",
+          "startLine": 70,
+          "endLine": 71
+        },
+        {
+          "name": "productarchive",
+          "startLine": 112,
+          "endLine": 113
+        },
+        {
+          "name": "signedproductarchive",
+          "startLine": 114,
+          "endLine": 117
+        },
+        {
+          "name": "clean",
+          "startLine": 118,
+          "endLine": 122
+        }
+      ],
+      "metrics": {
+        "importCount": 0,
+        "exportCount": 0,
+        "functionCount": 0,
+        "classCount": 0,
+        "stepCount": 5
+      }
+    },
+    {
+      "path": "contrib/mac/frameworkapp/README.md",
+      "language": "markdown",
+      "fileCategory": "docs",
+      "totalLines": 26,
+      "nonEmptyLines": 21,
+      "metrics": {
+        "importCount": 0,
+        "exportCount": 0,
+        "functionCount": 0,
+        "classCount": 0,
+        "sectionCount": 0
+      }
+    }
+  ]
+}

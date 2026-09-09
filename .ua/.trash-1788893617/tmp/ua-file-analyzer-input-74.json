@@ -1,0 +1,182 @@
+{
+  "projectRoot": "/home/maruti/julia",
+  "batchFiles": [
+    {
+      "path": "stdlib/MPFR_jll/src/MPFR_jll.jl",
+      "language": "jl",
+      "sizeLines": 56,
+      "fileCategory": "code"
+    },
+    {
+      "path": "stdlib/MPFR_jll/test/runtests.jl",
+      "language": "jl",
+      "sizeLines": 11,
+      "fileCategory": "code"
+    },
+    {
+      "path": "stdlib/Markdown/Project.toml",
+      "language": "toml",
+      "sizeLines": 14,
+      "fileCategory": "config"
+    },
+    {
+      "path": "stdlib/Markdown/docs/src/index.md",
+      "language": "markdown",
+      "sizeLines": 452,
+      "fileCategory": "docs"
+    },
+    {
+      "path": "stdlib/Markdown/etc/regenerate_entities.jl",
+      "language": "jl",
+      "sizeLines": 43,
+      "fileCategory": "code"
+    },
+    {
+      "path": "stdlib/Markdown/src/Common/Common.jl",
+      "language": "jl",
+      "sizeLines": 17,
+      "fileCategory": "code"
+    },
+    {
+      "path": "stdlib/Markdown/src/Common/block.jl",
+      "language": "jl",
+      "sizeLines": 545,
+      "fileCategory": "code"
+    },
+    {
+      "path": "stdlib/Markdown/src/Common/entities.jl",
+      "language": "jl",
+      "sizeLines": 2235,
+      "fileCategory": "code"
+    },
+    {
+      "path": "stdlib/Markdown/src/Common/inline.jl",
+      "language": "jl",
+      "sizeLines": 472,
+      "fileCategory": "code"
+    },
+    {
+      "path": "stdlib/Markdown/src/GitHub/GitHub.jl",
+      "language": "jl",
+      "sizeLines": 41,
+      "fileCategory": "code"
+    },
+    {
+      "path": "stdlib/Markdown/src/GitHub/table.jl",
+      "language": "jl",
+      "sizeLines": 172,
+      "fileCategory": "code"
+    },
+    {
+      "path": "stdlib/Markdown/src/IPython/IPython.jl",
+      "language": "jl",
+      "sizeLines": 32,
+      "fileCategory": "code"
+    },
+    {
+      "path": "stdlib/Markdown/src/Julia/Julia.jl",
+      "language": "jl",
+      "sizeLines": 22,
+      "fileCategory": "code"
+    },
+    {
+      "path": "stdlib/Markdown/src/Julia/interp.jl",
+      "language": "jl",
+      "sizeLines": 61,
+      "fileCategory": "code"
+    },
+    {
+      "path": "stdlib/Markdown/src/Markdown.jl",
+      "language": "jl",
+      "sizeLines": 173,
+      "fileCategory": "code"
+    },
+    {
+      "path": "stdlib/Markdown/src/parse/config.jl",
+      "language": "jl",
+      "sizeLines": 80,
+      "fileCategory": "code"
+    },
+    {
+      "path": "stdlib/Markdown/src/parse/parse.jl",
+      "language": "jl",
+      "sizeLines": 110,
+      "fileCategory": "code"
+    },
+    {
+      "path": "stdlib/Markdown/src/parse/util.jl",
+      "language": "jl",
+      "sizeLines": 202,
+      "fileCategory": "code"
+    },
+    {
+      "path": "stdlib/Markdown/src/render/html.jl",
+      "language": "jl",
+      "sizeLines": 259,
+      "fileCategory": "code"
+    },
+    {
+      "path": "stdlib/Markdown/src/render/latex.jl",
+      "language": "jl",
+      "sizeLines": 203,
+      "fileCategory": "code"
+    },
+    {
+      "path": "stdlib/Markdown/src/render/plain.jl",
+      "language": "jl",
+      "sizeLines": 170,
+      "fileCategory": "code"
+    },
+    {
+      "path": "stdlib/Markdown/src/render/rich.jl",
+      "language": "jl",
+      "sizeLines": 26,
+      "fileCategory": "code"
+    },
+    {
+      "path": "stdlib/Markdown/src/render/rst.jl",
+      "language": "jl",
+      "sizeLines": 151,
+      "fileCategory": "code"
+    },
+    {
+      "path": "stdlib/Markdown/src/render/terminal/formatting.jl",
+      "language": "jl",
+      "sizeLines": 83,
+      "fileCategory": "code"
+    },
+    {
+      "path": "stdlib/Markdown/src/render/terminal/render.jl",
+      "language": "jl",
+      "sizeLines": 283,
+      "fileCategory": "code"
+    }
+  ],
+  "batchImportData": {
+    "stdlib/MPFR_jll/src/MPFR_jll.jl": [],
+    "stdlib/MPFR_jll/test/runtests.jl": [],
+    "stdlib/Markdown/Project.toml": [],
+    "stdlib/Markdown/docs/src/index.md": [],
+    "stdlib/Markdown/etc/regenerate_entities.jl": [],
+    "stdlib/Markdown/src/Common/Common.jl": [],
+    "stdlib/Markdown/src/Common/block.jl": [],
+    "stdlib/Markdown/src/Common/entities.jl": [],
+    "stdlib/Markdown/src/Common/inline.jl": [],
+    "stdlib/Markdown/src/GitHub/GitHub.jl": [],
+    "stdlib/Markdown/src/GitHub/table.jl": [],
+    "stdlib/Markdown/src/IPython/IPython.jl": [],
+    "stdlib/Markdown/src/Julia/Julia.jl": [],
+    "stdlib/Markdown/src/Julia/interp.jl": [],
+    "stdlib/Markdown/src/Markdown.jl": [],
+    "stdlib/Markdown/src/parse/config.jl": [],
+    "stdlib/Markdown/src/parse/parse.jl": [],
+    "stdlib/Markdown/src/parse/util.jl": [],
+    "stdlib/Markdown/src/render/html.jl": [],
+    "stdlib/Markdown/src/render/latex.jl": [],
+    "stdlib/Markdown/src/render/plain.jl": [],
+    "stdlib/Markdown/src/render/rich.jl": [],
+    "stdlib/Markdown/src/render/rst.jl": [],
+    "stdlib/Markdown/src/render/terminal/formatting.jl": [],
+    "stdlib/Markdown/src/render/terminal/render.jl": []
+  }
+}

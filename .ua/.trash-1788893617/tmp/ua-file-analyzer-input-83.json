@@ -1,0 +1,184 @@
+{
+  "projectRoot": "/home/maruti/julia",
+  "batchFiles": [
+    {
+      "path": "test/abstractarray.jl",
+      "language": "jl",
+      "sizeLines": 2379,
+      "fileCategory": "code"
+    },
+    {
+      "path": "test/ambiguous.jl",
+      "language": "jl",
+      "sizeLines": 665,
+      "fileCategory": "code"
+    },
+    {
+      "path": "test/apint.jl",
+      "language": "jl",
+      "sizeLines": 708,
+      "fileCategory": "code"
+    },
+    {
+      "path": "test/arrayops.jl",
+      "language": "jl",
+      "sizeLines": 3449,
+      "fileCategory": "code"
+    },
+    {
+      "path": "test/asyncmap.jl",
+      "language": "jl",
+      "sizeLines": 113,
+      "fileCategory": "code"
+    },
+    {
+      "path": "test/atexit.jl",
+      "language": "jl",
+      "sizeLines": 265,
+      "fileCategory": "code"
+    },
+    {
+      "path": "test/atomics.jl",
+      "language": "jl",
+      "sizeLines": 1455,
+      "fileCategory": "code"
+    },
+    {
+      "path": "test/backtrace.jl",
+      "language": "jl",
+      "sizeLines": 388,
+      "fileCategory": "code"
+    },
+    {
+      "path": "test/binaryplatforms.jl",
+      "language": "jl",
+      "sizeLines": 527,
+      "fileCategory": "code"
+    },
+    {
+      "path": "test/bitarray.jl",
+      "language": "jl",
+      "sizeLines": 1891,
+      "fileCategory": "code"
+    },
+    {
+      "path": "test/bitset.jl",
+      "language": "jl",
+      "sizeLines": 370,
+      "fileCategory": "code"
+    },
+    {
+      "path": "test/boundscheck.jl",
+      "language": "jl",
+      "sizeLines": 27,
+      "fileCategory": "code"
+    },
+    {
+      "path": "test/boundscheck_exec.jl",
+      "language": "jl",
+      "sizeLines": 372,
+      "fileCategory": "code"
+    },
+    {
+      "path": "test/broadcast.jl",
+      "language": "jl",
+      "sizeLines": 1360,
+      "fileCategory": "code"
+    },
+    {
+      "path": "test/buildkitetestjson.jl",
+      "language": "jl",
+      "sizeLines": 298,
+      "fileCategory": "code"
+    },
+    {
+      "path": "test/cancellation.jl",
+      "language": "jl",
+      "sizeLines": 2682,
+      "fileCategory": "code"
+    },
+    {
+      "path": "test/cartesian.jl",
+      "language": "jl",
+      "sizeLines": 629,
+      "fileCategory": "code"
+    },
+    {
+      "path": "test/ccall.jl",
+      "language": "jl",
+      "sizeLines": 2174,
+      "fileCategory": "code"
+    },
+    {
+      "path": "test/channel_threadpool.jl",
+      "language": "jl",
+      "sizeLines": 12,
+      "fileCategory": "code"
+    },
+    {
+      "path": "test/channels.jl",
+      "language": "jl",
+      "sizeLines": 789,
+      "fileCategory": "code"
+    },
+    {
+      "path": "test/char.jl",
+      "language": "jl",
+      "sizeLines": 440,
+      "fileCategory": "code"
+    },
+    {
+      "path": "test/checked.jl",
+      "language": "jl",
+      "sizeLines": 391,
+      "fileCategory": "code"
+    },
+    {
+      "path": "test/choosetests.jl",
+      "language": "jl",
+      "sizeLines": 285,
+      "fileCategory": "code"
+    },
+    {
+      "path": "test/clangsa/FirstDeclAnnotationsTest.c",
+      "language": "c",
+      "sizeLines": 141,
+      "fileCategory": "code"
+    },
+    {
+      "path": "test/clangsa/FirstDeclAnnotationsTest.h",
+      "language": "c",
+      "sizeLines": 35,
+      "fileCategory": "code"
+    }
+  ],
+  "batchImportData": {
+    "test/abstractarray.jl": [],
+    "test/ambiguous.jl": [],
+    "test/apint.jl": [],
+    "test/arrayops.jl": [],
+    "test/asyncmap.jl": [],
+    "test/atexit.jl": [],
+    "test/atomics.jl": [],
+    "test/backtrace.jl": [],
+    "test/binaryplatforms.jl": [],
+    "test/bitarray.jl": [],
+    "test/bitset.jl": [],
+    "test/boundscheck.jl": [],
+    "test/boundscheck_exec.jl": [],
+    "test/broadcast.jl": [],
+    "test/buildkitetestjson.jl": [],
+    "test/cancellation.jl": [],
+    "test/cartesian.jl": [],
+    "test/ccall.jl": [],
+    "test/channel_threadpool.jl": [],
+    "test/channels.jl": [],
+    "test/char.jl": [],
+    "test/checked.jl": [],
+    "test/choosetests.jl": [],
+    "test/clangsa/FirstDeclAnnotationsTest.c": [
+      "test/clangsa/FirstDeclAnnotationsTest.h"
+    ],
+    "test/clangsa/FirstDeclAnnotationsTest.h": []
+  }
+}

@@ -1,0 +1,33 @@
+{
+  "batchIndex": 88,
+  "nodes": [
+    {
+      "id": "file:test/llvmpasses/lit.cfg.py",
+      "type": "file",
+      "name": "lit.cfg.py",
+      "filePath": "test/llvmpasses/lit.cfg.py",
+      "summary": "Source file: lit.cfg.py.",
+      "tags": [
+        "codegen"
+      ],
+      "complexity": "simple",
+      "language": "python"
+    }
+  ],
+  "edges": [],
+  "batchFiles": [
+    {
+      "path": "test/llvmpasses/lit.cfg.py",
+      "language": "python",
+      "fileCategory": "code",
+      "totalLines": 19,
+      "nonEmptyLines": 15,
+      "metrics": {
+        "importCount": 0,
+        "exportCount": 0,
+        "functionCount": 0,
+        "classCount": 0
+      }
+    }
+  ]
+}

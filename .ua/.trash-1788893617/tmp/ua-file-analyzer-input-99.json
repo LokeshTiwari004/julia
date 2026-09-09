@@ -1,0 +1,35 @@
+{
+  "projectRoot": "/home/maruti/julia",
+  "batchFiles": [
+    {
+      "path": "test/unicode/utf8.jl",
+      "language": "jl",
+      "sizeLines": 38,
+      "fileCategory": "code"
+    },
+    {
+      "path": "test/vecelement.jl",
+      "language": "jl",
+      "sizeLines": 128,
+      "fileCategory": "code"
+    },
+    {
+      "path": "test/version.jl",
+      "language": "jl",
+      "sizeLines": 244,
+      "fileCategory": "code"
+    },
+    {
+      "path": "test/worlds.jl",
+      "language": "jl",
+      "sizeLines": 682,
+      "fileCategory": "code"
+    }
+  ],
+  "batchImportData": {
+    "test/unicode/utf8.jl": [],
+    "test/vecelement.jl": [],
+    "test/version.jl": [],
+    "test/worlds.jl": []
+  }
+}

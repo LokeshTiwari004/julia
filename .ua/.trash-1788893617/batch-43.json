@@ -1,0 +1,255 @@
+{
+  "batchIndex": 43,
+  "nodes": [
+    {
+      "id": "config:stdlib/TOML/benchmark/Manifest.toml",
+      "type": "config",
+      "name": "Manifest.toml",
+      "filePath": "stdlib/TOML/benchmark/Manifest.toml",
+      "summary": "Configuration file: Manifest.toml.",
+      "tags": [
+        "configuration"
+      ],
+      "complexity": "moderate",
+      "language": "toml"
+    },
+    {
+      "id": "config:stdlib/TOML/benchmark/Project.toml",
+      "type": "config",
+      "name": "Project.toml",
+      "filePath": "stdlib/TOML/benchmark/Project.toml",
+      "summary": "Configuration file: Project.toml.",
+      "tags": [
+        "configuration"
+      ],
+      "complexity": "simple",
+      "language": "toml"
+    },
+    {
+      "id": "config:stdlib/TOML/benchmark/tune.json",
+      "type": "config",
+      "name": "tune.json",
+      "filePath": "stdlib/TOML/benchmark/tune.json",
+      "summary": "Configuration file: tune.json.",
+      "tags": [
+        "configuration"
+      ],
+      "complexity": "simple",
+      "language": "json"
+    }
+  ],
+  "edges": [],
+  "batchFiles": [
+    {
+      "path": "stdlib/TOML/benchmark/Manifest.toml",
+      "language": "toml",
+      "fileCategory": "config",
+      "totalLines": 141,
+      "nonEmptyLines": 109,
+      "sections": [
+        {
+          "heading": "[[AbstractTrees]]",
+          "level": 1,
+          "line": 3
+        },
+        {
+          "heading": "[[Base64]]",
+          "level": 1,
+          "line": 9
+        },
+        {
+          "heading": "[[BenchmarkTools]]",
+          "level": 1,
+          "line": 12
+        },
+        {
+          "heading": "[[Dates]]",
+          "level": 1,
+          "line": 18
+        },
+        {
+          "heading": "[[Distributed]]",
+          "level": 1,
+          "line": 22
+        },
+        {
+          "heading": "[[InteractiveUtils]]",
+          "level": 1,
+          "line": 26
+        },
+        {
+          "heading": "[[JSON]]",
+          "level": 1,
+          "line": 30
+        },
+        {
+          "heading": "[[LeftChildRightSiblingTrees]]",
+          "level": 1,
+          "line": 36
+        },
+        {
+          "heading": "[[LibGit2]]",
+          "level": 1,
+          "line": 42
+        },
+        {
+          "heading": "[[Libdl]]",
+          "level": 1,
+          "line": 46
+        },
+        {
+          "heading": "[[LinearAlgebra]]",
+          "level": 1,
+          "line": 49
+        },
+        {
+          "heading": "[[Logging]]",
+          "level": 1,
+          "line": 53
+        },
+        {
+          "heading": "[[Markdown]]",
+          "level": 1,
+          "line": 56
+        },
+        {
+          "heading": "[[Mmap]]",
+          "level": 1,
+          "line": 60
+        },
+        {
+          "heading": "[[Parsers]]",
+          "level": 1,
+          "line": 63
+        },
+        {
+          "heading": "[[Pkg]]",
+          "level": 1,
+          "line": 69
+        },
+        {
+          "heading": "[[PkgBenchmark]]",
+          "level": 1,
+          "line": 73
+        },
+        {
+          "heading": "[[Printf]]",
+          "level": 1,
+          "line": 79
+        },
+        {
+          "heading": "[[ProgressLogging]]",
+          "level": 1,
+          "line": 83
+        },
+        {
+          "heading": "[[REPL]]",
+          "level": 1,
+          "line": 89
+        },
+        {
+          "heading": "[[Random]]",
+          "level": 1,
+          "line": 93
+        },
+        {
+          "heading": "[[SHA]]",
+          "level": 1,
+          "line": 97
+        },
+        {
+          "heading": "[[Serialization]]",
+          "level": 1,
+          "line": 100
+        },
+        {
+          "heading": "[[Sockets]]",
+          "level": 1,
+          "line": 103
+        },
+        {
+          "heading": "[[SparseArrays]]",
+          "level": 1,
+          "line": 106
+        },
+        {
+          "heading": "[[StableRNGs]]",
+          "level": 1,
+          "line": 110
+        },
+        {
+          "heading": "[[Statistics]]",
+          "level": 1,
+          "line": 116
+        },
+        {
+          "heading": "[[TOML]]",
+          "level": 1,
+          "line": 120
+        },
+        {
+          "heading": "[[TerminalLoggers]]",
+          "level": 1,
+          "line": 126
+        },
+        {
+          "heading": "[[Test]]",
+          "level": 1,
+          "line": 132
+        },
+        {
+          "heading": "[[UUIDs]]",
+          "level": 1,
+          "line": 136
+        },
+        {
+          "heading": "[[Unicode]]",
+          "level": 1,
+          "line": 140
+        }
+      ],
+      "metrics": {
+        "importCount": 0,
+        "exportCount": 0,
+        "functionCount": 0,
+        "classCount": 0,
+        "sectionCount": 32
+      }
+    },
+    {
+      "path": "stdlib/TOML/benchmark/Project.toml",
+      "language": "toml",
+      "fileCategory": "config",
+      "totalLines": 6,
+      "nonEmptyLines": 6,
+      "sections": [
+        {
+          "heading": "deps",
+          "level": 1,
+          "line": 1
+        }
+      ],
+      "metrics": {
+        "importCount": 0,
+        "exportCount": 0,
+        "functionCount": 0,
+        "classCount": 0,
+        "sectionCount": 1
+      }
+    },
+    {
+      "path": "stdlib/TOML/benchmark/tune.json",
+      "language": "json",
+      "fileCategory": "config",
+      "totalLines": 1,
+      "nonEmptyLines": 1,
+      "metrics": {
+        "importCount": 0,
+        "exportCount": 0,
+        "functionCount": 0,
+        "classCount": 0,
+        "sectionCount": 0
+      }
+    }
+  ]
+}

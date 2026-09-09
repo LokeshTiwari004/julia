@@ -1,0 +1,182 @@
+{
+  "projectRoot": "/home/maruti/julia",
+  "batchFiles": [
+    {
+      "path": "stdlib/SHA.version",
+      "language": "version",
+      "sizeLines": 4,
+      "fileCategory": "code"
+    },
+    {
+      "path": "stdlib/Serialization/Project.toml",
+      "language": "toml",
+      "sizeLines": 11,
+      "fileCategory": "config"
+    },
+    {
+      "path": "stdlib/Serialization/docs/src/index.md",
+      "language": "markdown",
+      "sizeLines": 25,
+      "fileCategory": "docs"
+    },
+    {
+      "path": "stdlib/Serialization/src/Serialization.jl",
+      "language": "jl",
+      "sizeLines": 1957,
+      "fileCategory": "code"
+    },
+    {
+      "path": "stdlib/Serialization/test/runtests.jl",
+      "language": "jl",
+      "sizeLines": 853,
+      "fileCategory": "code"
+    },
+    {
+      "path": "stdlib/SharedArrays/Project.toml",
+      "language": "toml",
+      "sizeLines": 15,
+      "fileCategory": "config"
+    },
+    {
+      "path": "stdlib/SharedArrays/docs/src/index.md",
+      "language": "markdown",
+      "sizeLines": 19,
+      "fileCategory": "docs"
+    },
+    {
+      "path": "stdlib/SharedArrays/src/SharedArrays.jl",
+      "language": "jl",
+      "sizeLines": 740,
+      "fileCategory": "code"
+    },
+    {
+      "path": "stdlib/SharedArrays/test/runtests.jl",
+      "language": "jl",
+      "sizeLines": 650,
+      "fileCategory": "code"
+    },
+    {
+      "path": "stdlib/Sockets/Project.toml",
+      "language": "toml",
+      "sizeLines": 10,
+      "fileCategory": "config"
+    },
+    {
+      "path": "stdlib/Sockets/docs/src/index.md",
+      "language": "markdown",
+      "sizeLines": 37,
+      "fileCategory": "docs"
+    },
+    {
+      "path": "stdlib/Sockets/src/IPAddr.jl",
+      "language": "jl",
+      "sizeLines": 329,
+      "fileCategory": "code"
+    },
+    {
+      "path": "stdlib/Sockets/src/PipeServer.jl",
+      "language": "jl",
+      "sizeLines": 120,
+      "fileCategory": "code"
+    },
+    {
+      "path": "stdlib/Sockets/src/Sockets.jl",
+      "language": "jl",
+      "sizeLines": 917,
+      "fileCategory": "code"
+    },
+    {
+      "path": "stdlib/Sockets/src/addrinfo.jl",
+      "language": "jl",
+      "sizeLines": 338,
+      "fileCategory": "code"
+    },
+    {
+      "path": "stdlib/Sockets/test/nettest.jl",
+      "language": "jl",
+      "sizeLines": 183,
+      "fileCategory": "code"
+    },
+    {
+      "path": "stdlib/Sockets/test/runtests.jl",
+      "language": "jl",
+      "sizeLines": 952,
+      "fileCategory": "code"
+    },
+    {
+      "path": "stdlib/SparseArrays.version",
+      "language": "version",
+      "sizeLines": 4,
+      "fileCategory": "code"
+    },
+    {
+      "path": "stdlib/Statistics.version",
+      "language": "version",
+      "sizeLines": 4,
+      "fileCategory": "code"
+    },
+    {
+      "path": "stdlib/StyledStrings.version",
+      "language": "version",
+      "sizeLines": 4,
+      "fileCategory": "code"
+    },
+    {
+      "path": "stdlib/SuiteSparse.version",
+      "language": "version",
+      "sizeLines": 4,
+      "fileCategory": "code"
+    },
+    {
+      "path": "stdlib/SuiteSparse_jll/Project.toml",
+      "language": "toml",
+      "sizeLines": 19,
+      "fileCategory": "config"
+    },
+    {
+      "path": "stdlib/SuiteSparse_jll/src/SuiteSparse_jll.jl",
+      "language": "jl",
+      "sizeLines": 291,
+      "fileCategory": "code"
+    },
+    {
+      "path": "stdlib/SuiteSparse_jll/test/runtests.jl",
+      "language": "jl",
+      "sizeLines": 31,
+      "fileCategory": "code"
+    },
+    {
+      "path": "stdlib/TOML/Project.toml",
+      "language": "toml",
+      "sizeLines": 19,
+      "fileCategory": "config"
+    }
+  ],
+  "batchImportData": {
+    "stdlib/SHA.version": [],
+    "stdlib/Serialization/Project.toml": [],
+    "stdlib/Serialization/docs/src/index.md": [],
+    "stdlib/Serialization/src/Serialization.jl": [],
+    "stdlib/Serialization/test/runtests.jl": [],
+    "stdlib/SharedArrays/Project.toml": [],
+    "stdlib/SharedArrays/docs/src/index.md": [],
+    "stdlib/SharedArrays/src/SharedArrays.jl": [],
+    "stdlib/SharedArrays/test/runtests.jl": [],
+    "stdlib/Sockets/Project.toml": [],
+    "stdlib/Sockets/docs/src/index.md": [],
+    "stdlib/Sockets/src/IPAddr.jl": [],
+    "stdlib/Sockets/src/PipeServer.jl": [],
+    "stdlib/Sockets/src/Sockets.jl": [],
+    "stdlib/Sockets/src/addrinfo.jl": [],
+    "stdlib/Sockets/test/nettest.jl": [],
+    "stdlib/Sockets/test/runtests.jl": [],
+    "stdlib/SparseArrays.version": [],
+    "stdlib/Statistics.version": [],
+    "stdlib/StyledStrings.version": [],
+    "stdlib/SuiteSparse.version": [],
+    "stdlib/SuiteSparse_jll/Project.toml": [],
+    "stdlib/SuiteSparse_jll/src/SuiteSparse_jll.jl": [],
+    "stdlib/SuiteSparse_jll/test/runtests.jl": [],
+    "stdlib/TOML/Project.toml": []
+  }
+}

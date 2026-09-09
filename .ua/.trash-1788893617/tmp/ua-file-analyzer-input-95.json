@@ -1,0 +1,182 @@
+{
+  "projectRoot": "/home/maruti/julia",
+  "batchFiles": [
+    {
+      "path": "test/runtests.jl",
+      "language": "jl",
+      "sizeLines": 649,
+      "fileCategory": "code"
+    },
+    {
+      "path": "test/ryu.jl",
+      "language": "jl",
+      "sizeLines": 935,
+      "fileCategory": "code"
+    },
+    {
+      "path": "test/scopedvalues.jl",
+      "language": "jl",
+      "sizeLines": 287,
+      "fileCategory": "code"
+    },
+    {
+      "path": "test/secretbuffer.jl",
+      "language": "jl",
+      "sizeLines": 202,
+      "fileCategory": "code"
+    },
+    {
+      "path": "test/sets.jl",
+      "language": "jl",
+      "sizeLines": 1080,
+      "fileCategory": "code"
+    },
+    {
+      "path": "test/show.jl",
+      "language": "jl",
+      "sizeLines": 3042,
+      "fileCategory": "code"
+    },
+    {
+      "path": "test/simdloop.jl",
+      "language": "jl",
+      "sizeLines": 163,
+      "fileCategory": "code"
+    },
+    {
+      "path": "test/smallarrayshrink.jl",
+      "language": "jl",
+      "sizeLines": 20,
+      "fileCategory": "code"
+    },
+    {
+      "path": "test/some.jl",
+      "language": "jl",
+      "sizeLines": 144,
+      "fileCategory": "code"
+    },
+    {
+      "path": "test/sorting.jl",
+      "language": "jl",
+      "sizeLines": 1321,
+      "fileCategory": "code"
+    },
+    {
+      "path": "test/spawn.jl",
+      "language": "jl",
+      "sizeLines": 1329,
+      "fileCategory": "code"
+    },
+    {
+      "path": "test/specificity.jl",
+      "language": "jl",
+      "sizeLines": 337,
+      "fileCategory": "code"
+    },
+    {
+      "path": "test/stack_overflow.jl",
+      "language": "jl",
+      "sizeLines": 36,
+      "fileCategory": "code"
+    },
+    {
+      "path": "test/stacktraces.jl",
+      "language": "jl",
+      "sizeLines": 394,
+      "fileCategory": "code"
+    },
+    {
+      "path": "test/staged.jl",
+      "language": "jl",
+      "sizeLines": 532,
+      "fileCategory": "code"
+    },
+    {
+      "path": "test/stdlib_dependencies.jl",
+      "language": "jl",
+      "sizeLines": 341,
+      "fileCategory": "code"
+    },
+    {
+      "path": "test/stress.jl",
+      "language": "jl",
+      "sizeLines": 99,
+      "fileCategory": "code"
+    },
+    {
+      "path": "test/stress_fd_exec.jl",
+      "language": "jl",
+      "sizeLines": 24,
+      "fileCategory": "code"
+    },
+    {
+      "path": "test/strings/annotated.jl",
+      "language": "jl",
+      "sizeLines": 828,
+      "fileCategory": "code"
+    },
+    {
+      "path": "test/strings/basic.jl",
+      "language": "jl",
+      "sizeLines": 1611,
+      "fileCategory": "code"
+    },
+    {
+      "path": "test/strings/io.jl",
+      "language": "jl",
+      "sizeLines": 376,
+      "fileCategory": "code"
+    },
+    {
+      "path": "test/strings/search.jl",
+      "language": "jl",
+      "sizeLines": 565,
+      "fileCategory": "code"
+    },
+    {
+      "path": "test/strings/stringview.jl",
+      "language": "jl",
+      "sizeLines": 657,
+      "fileCategory": "code"
+    },
+    {
+      "path": "test/strings/types.jl",
+      "language": "jl",
+      "sizeLines": 352,
+      "fileCategory": "code"
+    },
+    {
+      "path": "test/strings/util.jl",
+      "language": "jl",
+      "sizeLines": 812,
+      "fileCategory": "code"
+    }
+  ],
+  "batchImportData": {
+    "test/runtests.jl": [],
+    "test/ryu.jl": [],
+    "test/scopedvalues.jl": [],
+    "test/secretbuffer.jl": [],
+    "test/sets.jl": [],
+    "test/show.jl": [],
+    "test/simdloop.jl": [],
+    "test/smallarrayshrink.jl": [],
+    "test/some.jl": [],
+    "test/sorting.jl": [],
+    "test/spawn.jl": [],
+    "test/specificity.jl": [],
+    "test/stack_overflow.jl": [],
+    "test/stacktraces.jl": [],
+    "test/staged.jl": [],
+    "test/stdlib_dependencies.jl": [],
+    "test/stress.jl": [],
+    "test/stress_fd_exec.jl": [],
+    "test/strings/annotated.jl": [],
+    "test/strings/basic.jl": [],
+    "test/strings/io.jl": [],
+    "test/strings/search.jl": [],
+    "test/strings/stringview.jl": [],
+    "test/strings/types.jl": [],
+    "test/strings/util.jl": []
+  }
+}

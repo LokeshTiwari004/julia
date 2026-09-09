@@ -1,0 +1,259 @@
+{
+  "scriptCompleted": true,
+  "filesAnalyzed": 8,
+  "filesSkipped": [
+    "stdlib/SHA.version",
+    "stdlib/Serialization/src/Serialization.jl",
+    "stdlib/Serialization/test/runtests.jl",
+    "stdlib/SharedArrays/src/SharedArrays.jl",
+    "stdlib/SharedArrays/test/runtests.jl",
+    "stdlib/Sockets/src/IPAddr.jl",
+    "stdlib/Sockets/src/PipeServer.jl",
+    "stdlib/Sockets/src/Sockets.jl",
+    "stdlib/Sockets/src/addrinfo.jl",
+    "stdlib/Sockets/test/nettest.jl",
+    "stdlib/Sockets/test/runtests.jl",
+    "stdlib/SparseArrays.version",
+    "stdlib/Statistics.version",
+    "stdlib/StyledStrings.version",
+    "stdlib/SuiteSparse.version",
+    "stdlib/SuiteSparse_jll/src/SuiteSparse_jll.jl",
+    "stdlib/SuiteSparse_jll/test/runtests.jl"
+  ],
+  "analysisOutcomes": {
+    "structure": {
+      "succeeded": 8,
+      "failed": 0
+    },
+    "callGraph": {
+      "succeeded": 0,
+      "failed": 0,
+      "skipped": 8
+    }
+  },
+  "results": [
+    {
+      "path": "stdlib/Serialization/Project.toml",
+      "language": "toml",
+      "fileCategory": "config",
+      "totalLines": 11,
+      "nonEmptyLines": 9,
+      "sections": [
+        {
+          "heading": "extras",
+          "level": 1,
+          "line": 5
+        },
+        {
+          "heading": "targets",
+          "level": 1,
+          "line": 10
+        }
+      ],
+      "metrics": {
+        "importCount": 0,
+        "exportCount": 0,
+        "functionCount": 0,
+        "classCount": 0,
+        "sectionCount": 2
+      }
+    },
+    {
+      "path": "stdlib/Serialization/docs/src/index.md",
+      "language": "markdown",
+      "fileCategory": "docs",
+      "totalLines": 25,
+      "nonEmptyLines": 18,
+      "sections": [
+        {
+          "heading": "Serialization",
+          "level": 1,
+          "line": 5
+        },
+        {
+          "heading": "Recommended File Extension",
+          "level": 3,
+          "line": 15
+        }
+      ],
+      "metrics": {
+        "importCount": 0,
+        "exportCount": 0,
+        "functionCount": 0,
+        "classCount": 0,
+        "sectionCount": 2
+      }
+    },
+    {
+      "path": "stdlib/SharedArrays/Project.toml",
+      "language": "toml",
+      "fileCategory": "config",
+      "totalLines": 15,
+      "nonEmptyLines": 12,
+      "sections": [
+        {
+          "heading": "deps",
+          "level": 1,
+          "line": 5
+        },
+        {
+          "heading": "extras",
+          "level": 1,
+          "line": 11
+        },
+        {
+          "heading": "targets",
+          "level": 1,
+          "line": 14
+        }
+      ],
+      "metrics": {
+        "importCount": 0,
+        "exportCount": 0,
+        "functionCount": 0,
+        "classCount": 0,
+        "sectionCount": 3
+      }
+    },
+    {
+      "path": "stdlib/SharedArrays/docs/src/index.md",
+      "language": "markdown",
+      "fileCategory": "docs",
+      "totalLines": 19,
+      "nonEmptyLines": 16,
+      "sections": [
+        {
+          "heading": "SharedArrays",
+          "level": 1,
+          "line": 5
+        }
+      ],
+      "metrics": {
+        "importCount": 0,
+        "exportCount": 0,
+        "functionCount": 0,
+        "classCount": 0,
+        "sectionCount": 1
+      }
+    },
+    {
+      "path": "stdlib/Sockets/Project.toml",
+      "language": "toml",
+      "fileCategory": "config",
+      "totalLines": 10,
+      "nonEmptyLines": 8,
+      "sections": [
+        {
+          "heading": "extras",
+          "level": 1,
+          "line": 5
+        },
+        {
+          "heading": "targets",
+          "level": 1,
+          "line": 9
+        }
+      ],
+      "metrics": {
+        "importCount": 0,
+        "exportCount": 0,
+        "functionCount": 0,
+        "classCount": 0,
+        "sectionCount": 2
+      }
+    },
+    {
+      "path": "stdlib/Sockets/docs/src/index.md",
+      "language": "markdown",
+      "fileCategory": "docs",
+      "totalLines": 37,
+      "nonEmptyLines": 35,
+      "sections": [
+        {
+          "heading": "Sockets",
+          "level": 1,
+          "line": 5
+        }
+      ],
+      "metrics": {
+        "importCount": 0,
+        "exportCount": 0,
+        "functionCount": 0,
+        "classCount": 0,
+        "sectionCount": 1
+      }
+    },
+    {
+      "path": "stdlib/SuiteSparse_jll/Project.toml",
+      "language": "toml",
+      "fileCategory": "config",
+      "totalLines": 19,
+      "nonEmptyLines": 15,
+      "sections": [
+        {
+          "heading": "deps",
+          "level": 1,
+          "line": 5
+        },
+        {
+          "heading": "compat",
+          "level": 1,
+          "line": 11
+        },
+        {
+          "heading": "extras",
+          "level": 1,
+          "line": 15
+        },
+        {
+          "heading": "targets",
+          "level": 1,
+          "line": 18
+        }
+      ],
+      "metrics": {
+        "importCount": 0,
+        "exportCount": 0,
+        "functionCount": 0,
+        "classCount": 0,
+        "sectionCount": 4
+      }
+    },
+    {
+      "path": "stdlib/TOML/Project.toml",
+      "language": "toml",
+      "fileCategory": "config",
+      "totalLines": 19,
+      "nonEmptyLines": 15,
+      "sections": [
+        {
+          "heading": "deps",
+          "level": 1,
+          "line": 5
+        },
+        {
+          "heading": "compat",
+          "level": 1,
+          "line": 8
+        },
+        {
+          "heading": "extras",
+          "level": 1,
+          "line": 12
+        },
+        {
+          "heading": "targets",
+          "level": 1,
+          "line": 18
+        }
+      ],
+      "metrics": {
+        "importCount": 0,
+        "exportCount": 0,
+        "functionCount": 0,
+        "classCount": 0,
+        "sectionCount": 4
+      }
+    }
+  ]
+}

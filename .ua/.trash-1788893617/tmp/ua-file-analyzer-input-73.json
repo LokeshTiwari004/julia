@@ -1,0 +1,182 @@
+{
+  "projectRoot": "/home/maruti/julia",
+  "batchFiles": [
+    {
+      "path": "stdlib/LibGit2/test/runtests.jl",
+      "language": "jl",
+      "sizeLines": 13,
+      "fileCategory": "code"
+    },
+    {
+      "path": "stdlib/LibGit2/test/testgroups",
+      "language": "unknown",
+      "sizeLines": 2,
+      "fileCategory": "code"
+    },
+    {
+      "path": "stdlib/LibGit2_jll/Project.toml",
+      "language": "toml",
+      "sizeLines": 22,
+      "fileCategory": "config"
+    },
+    {
+      "path": "stdlib/LibGit2_jll/src/LibGit2_jll.jl",
+      "language": "jl",
+      "sizeLines": 74,
+      "fileCategory": "code"
+    },
+    {
+      "path": "stdlib/LibGit2_jll/test/runtests.jl",
+      "language": "jl",
+      "sizeLines": 14,
+      "fileCategory": "code"
+    },
+    {
+      "path": "stdlib/LibSSH2_jll/Project.toml",
+      "language": "toml",
+      "sizeLines": 20,
+      "fileCategory": "config"
+    },
+    {
+      "path": "stdlib/LibSSH2_jll/src/LibSSH2_jll.jl",
+      "language": "jl",
+      "sizeLines": 79,
+      "fileCategory": "code"
+    },
+    {
+      "path": "stdlib/LibSSH2_jll/test/runtests.jl",
+      "language": "jl",
+      "sizeLines": 14,
+      "fileCategory": "code"
+    },
+    {
+      "path": "stdlib/LibUV_jll/Project.toml",
+      "language": "toml",
+      "sizeLines": 16,
+      "fileCategory": "config"
+    },
+    {
+      "path": "stdlib/LibUV_jll/src/LibUV_jll.jl",
+      "language": "jl",
+      "sizeLines": 11,
+      "fileCategory": "code"
+    },
+    {
+      "path": "stdlib/LibUV_jll/test/runtests.jl",
+      "language": "jl",
+      "sizeLines": 3,
+      "fileCategory": "code"
+    },
+    {
+      "path": "stdlib/LibUnwind_jll/Project.toml",
+      "language": "toml",
+      "sizeLines": 18,
+      "fileCategory": "config"
+    },
+    {
+      "path": "stdlib/LibUnwind_jll/src/LibUnwind_jll.jl",
+      "language": "jl",
+      "sizeLines": 51,
+      "fileCategory": "code"
+    },
+    {
+      "path": "stdlib/LibUnwind_jll/test/runtests.jl",
+      "language": "jl",
+      "sizeLines": 12,
+      "fileCategory": "code"
+    },
+    {
+      "path": "stdlib/Libdl/Project.toml",
+      "language": "toml",
+      "sizeLines": 9,
+      "fileCategory": "config"
+    },
+    {
+      "path": "stdlib/Libdl/docs/src/index.md",
+      "language": "markdown",
+      "sizeLines": 32,
+      "fileCategory": "docs"
+    },
+    {
+      "path": "stdlib/Libdl/src/Libdl.jl",
+      "language": "jl",
+      "sizeLines": 21,
+      "fileCategory": "code"
+    },
+    {
+      "path": "stdlib/Libdl/test/runtests.jl",
+      "language": "jl",
+      "sizeLines": 362,
+      "fileCategory": "code"
+    },
+    {
+      "path": "stdlib/LinearAlgebra.version",
+      "language": "version",
+      "sizeLines": 4,
+      "fileCategory": "code"
+    },
+    {
+      "path": "stdlib/Logging/Project.toml",
+      "language": "toml",
+      "sizeLines": 9,
+      "fileCategory": "config"
+    },
+    {
+      "path": "stdlib/Logging/docs/src/index.md",
+      "language": "markdown",
+      "sizeLines": 348,
+      "fileCategory": "docs"
+    },
+    {
+      "path": "stdlib/Logging/src/Logging.jl",
+      "language": "jl",
+      "sizeLines": 63,
+      "fileCategory": "code"
+    },
+    {
+      "path": "stdlib/Logging/test/runtests.jl",
+      "language": "jl",
+      "sizeLines": 361,
+      "fileCategory": "code"
+    },
+    {
+      "path": "stdlib/Logging/test/threads_exec.jl",
+      "language": "jl",
+      "sizeLines": 13,
+      "fileCategory": "code"
+    },
+    {
+      "path": "stdlib/MPFR_jll/Project.toml",
+      "language": "toml",
+      "sizeLines": 19,
+      "fileCategory": "config"
+    }
+  ],
+  "batchImportData": {
+    "stdlib/LibGit2/test/runtests.jl": [],
+    "stdlib/LibGit2/test/testgroups": [],
+    "stdlib/LibGit2_jll/Project.toml": [],
+    "stdlib/LibGit2_jll/src/LibGit2_jll.jl": [],
+    "stdlib/LibGit2_jll/test/runtests.jl": [],
+    "stdlib/LibSSH2_jll/Project.toml": [],
+    "stdlib/LibSSH2_jll/src/LibSSH2_jll.jl": [],
+    "stdlib/LibSSH2_jll/test/runtests.jl": [],
+    "stdlib/LibUV_jll/Project.toml": [],
+    "stdlib/LibUV_jll/src/LibUV_jll.jl": [],
+    "stdlib/LibUV_jll/test/runtests.jl": [],
+    "stdlib/LibUnwind_jll/Project.toml": [],
+    "stdlib/LibUnwind_jll/src/LibUnwind_jll.jl": [],
+    "stdlib/LibUnwind_jll/test/runtests.jl": [],
+    "stdlib/Libdl/Project.toml": [],
+    "stdlib/Libdl/docs/src/index.md": [],
+    "stdlib/Libdl/src/Libdl.jl": [],
+    "stdlib/Libdl/test/runtests.jl": [],
+    "stdlib/LinearAlgebra.version": [],
+    "stdlib/Logging/Project.toml": [],
+    "stdlib/Logging/docs/src/index.md": [],
+    "stdlib/Logging/src/Logging.jl": [],
+    "stdlib/Logging/test/runtests.jl": [],
+    "stdlib/Logging/test/threads_exec.jl": [],
+    "stdlib/MPFR_jll/Project.toml": []
+  }
+}

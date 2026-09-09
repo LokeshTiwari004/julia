@@ -1,0 +1,182 @@
+{
+  "projectRoot": "/home/maruti/julia",
+  "batchFiles": [
+    {
+      "path": "test/subarray.jl",
+      "language": "jl",
+      "sizeLines": 1233,
+      "fileCategory": "code"
+    },
+    {
+      "path": "test/subtype.jl",
+      "language": "jl",
+      "sizeLines": 3546,
+      "fileCategory": "code"
+    },
+    {
+      "path": "test/syntax.jl",
+      "language": "jl",
+      "sizeLines": 4783,
+      "fileCategory": "code"
+    },
+    {
+      "path": "test/sysinfo.jl",
+      "language": "jl",
+      "sizeLines": 98,
+      "fileCategory": "code"
+    },
+    {
+      "path": "test/tempdepot.jl",
+      "language": "jl",
+      "sizeLines": 43,
+      "fileCategory": "code"
+    },
+    {
+      "path": "test/terminfo.jl",
+      "language": "jl",
+      "sizeLines": 931,
+      "fileCategory": "code"
+    },
+    {
+      "path": "test/test_exec.jl",
+      "language": "jl",
+      "sizeLines": 5,
+      "fileCategory": "code"
+    },
+    {
+      "path": "test/test_sourcepath.jl",
+      "language": "jl",
+      "sizeLines": 23,
+      "fileCategory": "code"
+    },
+    {
+      "path": "test/testdefs.jl",
+      "language": "jl",
+      "sizeLines": 132,
+      "fileCategory": "code"
+    },
+    {
+      "path": "test/testenv.jl",
+      "language": "jl",
+      "sizeLines": 114,
+      "fileCategory": "code"
+    },
+    {
+      "path": "test/testhelpers/ChallengePrompts.jl",
+      "language": "jl",
+      "sizeLines": 123,
+      "fileCategory": "code"
+    },
+    {
+      "path": "test/testhelpers/DualNumbers.jl",
+      "language": "jl",
+      "sizeLines": 46,
+      "fileCategory": "code"
+    },
+    {
+      "path": "test/testhelpers/EvenIntegers.jl",
+      "language": "jl",
+      "sizeLines": 87,
+      "fileCategory": "code"
+    },
+    {
+      "path": "test/testhelpers/FakePTYs.jl",
+      "language": "jl",
+      "sizeLines": 61,
+      "fileCategory": "code"
+    },
+    {
+      "path": "test/testhelpers/FillArrays.jl",
+      "language": "jl",
+      "sizeLines": 66,
+      "fileCategory": "code"
+    },
+    {
+      "path": "test/testhelpers/Furlongs.jl",
+      "language": "jl",
+      "sizeLines": 110,
+      "fileCategory": "code"
+    },
+    {
+      "path": "test/testhelpers/ImmutableArrays.jl",
+      "language": "jl",
+      "sizeLines": 31,
+      "fileCategory": "code"
+    },
+    {
+      "path": "test/testhelpers/InfiniteArrays.jl",
+      "language": "jl",
+      "sizeLines": 53,
+      "fileCategory": "code"
+    },
+    {
+      "path": "test/testhelpers/MacroCalls.jl",
+      "language": "jl",
+      "sizeLines": 17,
+      "fileCategory": "code"
+    },
+    {
+      "path": "test/testhelpers/OffsetArrays.jl",
+      "language": "jl",
+      "sizeLines": 852,
+      "fileCategory": "code"
+    },
+    {
+      "path": "test/testhelpers/OffsetDenseArrays.jl",
+      "language": "jl",
+      "sizeLines": 31,
+      "fileCategory": "code"
+    },
+    {
+      "path": "test/testhelpers/PhysQuantities.jl",
+      "language": "jl",
+      "sizeLines": 26,
+      "fileCategory": "code"
+    },
+    {
+      "path": "test/testhelpers/Quaternions.jl",
+      "language": "jl",
+      "sizeLines": 66,
+      "fileCategory": "code"
+    },
+    {
+      "path": "test/testhelpers/SizedArrays.jl",
+      "language": "jl",
+      "sizeLines": 106,
+      "fileCategory": "code"
+    },
+    {
+      "path": "test/testhelpers/StridedArrays.jl",
+      "language": "jl",
+      "sizeLines": 165,
+      "fileCategory": "code"
+    }
+  ],
+  "batchImportData": {
+    "test/subarray.jl": [],
+    "test/subtype.jl": [],
+    "test/syntax.jl": [],
+    "test/sysinfo.jl": [],
+    "test/tempdepot.jl": [],
+    "test/terminfo.jl": [],
+    "test/test_exec.jl": [],
+    "test/test_sourcepath.jl": [],
+    "test/testdefs.jl": [],
+    "test/testenv.jl": [],
+    "test/testhelpers/ChallengePrompts.jl": [],
+    "test/testhelpers/DualNumbers.jl": [],
+    "test/testhelpers/EvenIntegers.jl": [],
+    "test/testhelpers/FakePTYs.jl": [],
+    "test/testhelpers/FillArrays.jl": [],
+    "test/testhelpers/Furlongs.jl": [],
+    "test/testhelpers/ImmutableArrays.jl": [],
+    "test/testhelpers/InfiniteArrays.jl": [],
+    "test/testhelpers/MacroCalls.jl": [],
+    "test/testhelpers/OffsetArrays.jl": [],
+    "test/testhelpers/OffsetDenseArrays.jl": [],
+    "test/testhelpers/PhysQuantities.jl": [],
+    "test/testhelpers/Quaternions.jl": [],
+    "test/testhelpers/SizedArrays.jl": [],
+    "test/testhelpers/StridedArrays.jl": []
+  }
+}

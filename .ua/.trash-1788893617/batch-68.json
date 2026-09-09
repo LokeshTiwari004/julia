@@ -1,0 +1,683 @@
+{
+  "batchIndex": 68,
+  "nodes": [
+    {
+      "id": "config:stdlib/Artifacts/Project.toml",
+      "type": "config",
+      "name": "Project.toml",
+      "filePath": "stdlib/Artifacts/Project.toml",
+      "summary": "Configuration file: Project.toml.",
+      "tags": [
+        "configuration"
+      ],
+      "complexity": "simple",
+      "language": "toml"
+    },
+    {
+      "id": "document:stdlib/Artifacts/docs/src/index.md",
+      "type": "document",
+      "name": "index.md",
+      "filePath": "stdlib/Artifacts/docs/src/index.md",
+      "summary": "Documentation covering Artifacts.",
+      "tags": [
+        "documentation",
+        "runtime"
+      ],
+      "complexity": "simple",
+      "language": "markdown"
+    },
+    {
+      "id": "config:stdlib/Artifacts/test/Artifacts.toml",
+      "type": "config",
+      "name": "Artifacts.toml",
+      "filePath": "stdlib/Artifacts/test/Artifacts.toml",
+      "summary": "Configuration file: Artifacts.toml.",
+      "tags": [
+        "configuration",
+        "test"
+      ],
+      "complexity": "moderate",
+      "language": "toml"
+    },
+    {
+      "id": "config:stdlib/Base64/Project.toml",
+      "type": "config",
+      "name": "Project.toml",
+      "filePath": "stdlib/Base64/Project.toml",
+      "summary": "Configuration file: Project.toml.",
+      "tags": [
+        "configuration"
+      ],
+      "complexity": "simple",
+      "language": "toml"
+    },
+    {
+      "id": "document:stdlib/Base64/docs/src/index.md",
+      "type": "document",
+      "name": "index.md",
+      "filePath": "stdlib/Base64/docs/src/index.md",
+      "summary": "Documentation covering Base64, Encoding, Decoding.",
+      "tags": [
+        "documentation",
+        "runtime"
+      ],
+      "complexity": "simple",
+      "language": "markdown"
+    },
+    {
+      "id": "config:stdlib/CRC32c/Project.toml",
+      "type": "config",
+      "name": "Project.toml",
+      "filePath": "stdlib/CRC32c/Project.toml",
+      "summary": "Configuration file: Project.toml.",
+      "tags": [
+        "configuration"
+      ],
+      "complexity": "simple",
+      "language": "toml"
+    },
+    {
+      "id": "document:stdlib/CRC32c/docs/src/index.md",
+      "type": "document",
+      "name": "index.md",
+      "filePath": "stdlib/CRC32c/docs/src/index.md",
+      "summary": "Documentation covering CRC32c.",
+      "tags": [
+        "documentation",
+        "runtime"
+      ],
+      "complexity": "simple",
+      "language": "markdown"
+    },
+    {
+      "id": "config:stdlib/CompilerSupportLibraries_jll/Project.toml",
+      "type": "config",
+      "name": "Project.toml",
+      "filePath": "stdlib/CompilerSupportLibraries_jll/Project.toml",
+      "summary": "Configuration file: Project.toml.",
+      "tags": [
+        "configuration"
+      ],
+      "complexity": "simple",
+      "language": "toml"
+    },
+    {
+      "id": "config:stdlib/Dates/Project.toml",
+      "type": "config",
+      "name": "Project.toml",
+      "filePath": "stdlib/Dates/Project.toml",
+      "summary": "Configuration file: Project.toml.",
+      "tags": [
+        "configuration"
+      ],
+      "complexity": "simple",
+      "language": "toml"
+    },
+    {
+      "id": "document:stdlib/Dates/docs/src/index.md",
+      "type": "document",
+      "name": "index.md",
+      "filePath": "stdlib/Dates/docs/src/index.md",
+      "summary": "Documentation covering Dates, Constructors, Durations/Comparisons and more.",
+      "tags": [
+        "documentation",
+        "runtime"
+      ],
+      "complexity": "complex",
+      "language": "markdown"
+    }
+  ],
+  "edges": [],
+  "batchFiles": [
+    {
+      "path": "stdlib/Artifacts/Project.toml",
+      "language": "toml",
+      "fileCategory": "config",
+      "totalLines": 11,
+      "nonEmptyLines": 9,
+      "sections": [
+        {
+          "heading": "extras",
+          "level": 1,
+          "line": 5
+        },
+        {
+          "heading": "targets",
+          "level": 1,
+          "line": 10
+        }
+      ],
+      "metrics": {
+        "importCount": 0,
+        "exportCount": 0,
+        "functionCount": 0,
+        "classCount": 0,
+        "sectionCount": 2
+      }
+    },
+    {
+      "path": "stdlib/Artifacts/docs/src/index.md",
+      "language": "markdown",
+      "fileCategory": "docs",
+      "totalLines": 28,
+      "nonEmptyLines": 22,
+      "sections": [
+        {
+          "heading": "Artifacts",
+          "level": 1,
+          "line": 5
+        }
+      ],
+      "metrics": {
+        "importCount": 0,
+        "exportCount": 0,
+        "functionCount": 0,
+        "classCount": 0,
+        "sectionCount": 1
+      }
+    },
+    {
+      "path": "stdlib/Artifacts/test/Artifacts.toml",
+      "language": "toml",
+      "fileCategory": "config",
+      "totalLines": 172,
+      "nonEmptyLines": 151,
+      "sections": [
+        {
+          "heading": "[[HelloWorldC]]",
+          "level": 1,
+          "line": 1
+        },
+        {
+          "heading": "[[HelloWorldC.download]]",
+          "level": 2,
+          "line": 6
+        },
+        {
+          "heading": "[[HelloWorldC]]",
+          "level": 1,
+          "line": 9
+        },
+        {
+          "heading": "[[HelloWorldC.download]]",
+          "level": 2,
+          "line": 15
+        },
+        {
+          "heading": "[[HelloWorldC]]",
+          "level": 1,
+          "line": 18
+        },
+        {
+          "heading": "[[HelloWorldC.download]]",
+          "level": 2,
+          "line": 24
+        },
+        {
+          "heading": "[[HelloWorldC]]",
+          "level": 1,
+          "line": 27
+        },
+        {
+          "heading": "[[HelloWorldC.download]]",
+          "level": 2,
+          "line": 32
+        },
+        {
+          "heading": "[[HelloWorldC]]",
+          "level": 1,
+          "line": 35
+        },
+        {
+          "heading": "[[HelloWorldC.download]]",
+          "level": 2,
+          "line": 42
+        },
+        {
+          "heading": "[[HelloWorldC]]",
+          "level": 1,
+          "line": 45
+        },
+        {
+          "heading": "[[HelloWorldC.download]]",
+          "level": 2,
+          "line": 52
+        },
+        {
+          "heading": "[[HelloWorldC]]",
+          "level": 1,
+          "line": 55
+        },
+        {
+          "heading": "[[HelloWorldC.download]]",
+          "level": 2,
+          "line": 62
+        },
+        {
+          "heading": "[[HelloWorldC]]",
+          "level": 1,
+          "line": 65
+        },
+        {
+          "heading": "[[HelloWorldC.download]]",
+          "level": 2,
+          "line": 72
+        },
+        {
+          "heading": "[[HelloWorldC]]",
+          "level": 1,
+          "line": 75
+        },
+        {
+          "heading": "[[HelloWorldC.download]]",
+          "level": 2,
+          "line": 81
+        },
+        {
+          "heading": "[[HelloWorldC]]",
+          "level": 1,
+          "line": 84
+        },
+        {
+          "heading": "[[HelloWorldC.download]]",
+          "level": 2,
+          "line": 90
+        },
+        {
+          "heading": "[[HelloWorldC]]",
+          "level": 1,
+          "line": 93
+        },
+        {
+          "heading": "[[HelloWorldC.download]]",
+          "level": 2,
+          "line": 98
+        },
+        {
+          "heading": "[[HelloWorldC]]",
+          "level": 1,
+          "line": 101
+        },
+        {
+          "heading": "[[HelloWorldC.download]]",
+          "level": 2,
+          "line": 107
+        },
+        {
+          "heading": "[[HelloWorldC]]",
+          "level": 1,
+          "line": 110
+        },
+        {
+          "heading": "[[HelloWorldC.download]]",
+          "level": 2,
+          "line": 116
+        },
+        {
+          "heading": "[[HelloWorldC]]",
+          "level": 1,
+          "line": 119
+        },
+        {
+          "heading": "[[HelloWorldC.download]]",
+          "level": 2,
+          "line": 124
+        },
+        {
+          "heading": "[[HelloWorldC]]",
+          "level": 1,
+          "line": 127
+        },
+        {
+          "heading": "[[HelloWorldC.download]]",
+          "level": 2,
+          "line": 133
+        },
+        {
+          "heading": "[[HelloWorldC]]",
+          "level": 1,
+          "line": 136
+        },
+        {
+          "heading": "[[HelloWorldC.download]]",
+          "level": 2,
+          "line": 142
+        },
+        {
+          "heading": "[[HelloWorldC]]",
+          "level": 1,
+          "line": 145
+        },
+        {
+          "heading": "[[HelloWorldC.download]]",
+          "level": 2,
+          "line": 150
+        },
+        {
+          "heading": "[[HelloWorldC]]",
+          "level": 1,
+          "line": 153
+        },
+        {
+          "heading": "[[HelloWorldC.download]]",
+          "level": 2,
+          "line": 158
+        },
+        {
+          "heading": "socrates",
+          "level": 1,
+          "line": 162
+        },
+        {
+          "heading": "[[socrates.download]]",
+          "level": 2,
+          "line": 166
+        },
+        {
+          "heading": "[[socrates.download]]",
+          "level": 2,
+          "line": 170
+        }
+      ],
+      "metrics": {
+        "importCount": 0,
+        "exportCount": 0,
+        "functionCount": 0,
+        "classCount": 0,
+        "sectionCount": 39
+      }
+    },
+    {
+      "path": "stdlib/Base64/Project.toml",
+      "language": "toml",
+      "fileCategory": "config",
+      "totalLines": 10,
+      "nonEmptyLines": 8,
+      "sections": [
+        {
+          "heading": "extras",
+          "level": 1,
+          "line": 5
+        },
+        {
+          "heading": "targets",
+          "level": 1,
+          "line": 9
+        }
+      ],
+      "metrics": {
+        "importCount": 0,
+        "exportCount": 0,
+        "functionCount": 0,
+        "classCount": 0,
+        "sectionCount": 2
+      }
+    },
+    {
+      "path": "stdlib/Base64/docs/src/index.md",
+      "language": "markdown",
+      "fileCategory": "docs",
+      "totalLines": 45,
+      "nonEmptyLines": 39,
+      "sections": [
+        {
+          "heading": "Base64",
+          "level": 1,
+          "line": 5
+        },
+        {
+          "heading": "Encoding",
+          "level": 2,
+          "line": 33
+        },
+        {
+          "heading": "Decoding",
+          "level": 2,
+          "line": 41
+        }
+      ],
+      "metrics": {
+        "importCount": 0,
+        "exportCount": 0,
+        "functionCount": 0,
+        "classCount": 0,
+        "sectionCount": 3
+      }
+    },
+    {
+      "path": "stdlib/CRC32c/Project.toml",
+      "language": "toml",
+      "fileCategory": "config",
+      "totalLines": 10,
+      "nonEmptyLines": 8,
+      "sections": [
+        {
+          "heading": "extras",
+          "level": 1,
+          "line": 5
+        },
+        {
+          "heading": "targets",
+          "level": 1,
+          "line": 9
+        }
+      ],
+      "metrics": {
+        "importCount": 0,
+        "exportCount": 0,
+        "functionCount": 0,
+        "classCount": 0,
+        "sectionCount": 2
+      }
+    },
+    {
+      "path": "stdlib/CRC32c/docs/src/index.md",
+      "language": "markdown",
+      "fileCategory": "docs",
+      "totalLines": 12,
+      "nonEmptyLines": 9,
+      "sections": [
+        {
+          "heading": "CRC32c",
+          "level": 1,
+          "line": 5
+        }
+      ],
+      "metrics": {
+        "importCount": 0,
+        "exportCount": 0,
+        "functionCount": 0,
+        "classCount": 0,
+        "sectionCount": 1
+      }
+    },
+    {
+      "path": "stdlib/CompilerSupportLibraries_jll/Project.toml",
+      "language": "toml",
+      "fileCategory": "config",
+      "totalLines": 20,
+      "nonEmptyLines": 15,
+      "sections": [
+        {
+          "heading": "deps",
+          "level": 1,
+          "line": 9
+        },
+        {
+          "heading": "compat",
+          "level": 1,
+          "line": 13
+        },
+        {
+          "heading": "extras",
+          "level": 1,
+          "line": 16
+        },
+        {
+          "heading": "targets",
+          "level": 1,
+          "line": 19
+        }
+      ],
+      "metrics": {
+        "importCount": 0,
+        "exportCount": 0,
+        "functionCount": 0,
+        "classCount": 0,
+        "sectionCount": 4
+      }
+    },
+    {
+      "path": "stdlib/Dates/Project.toml",
+      "language": "toml",
+      "fileCategory": "config",
+      "totalLines": 13,
+      "nonEmptyLines": 10,
+      "sections": [
+        {
+          "heading": "deps",
+          "level": 1,
+          "line": 5
+        },
+        {
+          "heading": "extras",
+          "level": 1,
+          "line": 8
+        },
+        {
+          "heading": "targets",
+          "level": 1,
+          "line": 12
+        }
+      ],
+      "metrics": {
+        "importCount": 0,
+        "exportCount": 0,
+        "functionCount": 0,
+        "classCount": 0,
+        "sectionCount": 3
+      }
+    },
+    {
+      "path": "stdlib/Dates/docs/src/index.md",
+      "language": "markdown",
+      "fileCategory": "docs",
+      "totalLines": 894,
+      "nonEmptyLines": 700,
+      "sections": [
+        {
+          "heading": "Dates",
+          "level": 1,
+          "line": 1
+        },
+        {
+          "heading": "Constructors",
+          "level": 2,
+          "line": 40
+        },
+        {
+          "heading": "Durations/Comparisons",
+          "level": 2,
+          "line": 165
+        },
+        {
+          "heading": "Accessor Functions",
+          "level": 2,
+          "line": 225
+        },
+        {
+          "heading": "Query Functions",
+          "level": 2,
+          "line": 287
+        },
+        {
+          "heading": "TimeType-Period Arithmetic",
+          "level": 2,
+          "line": 374
+        },
+        {
+          "heading": "Adjuster Functions",
+          "level": 2,
+          "line": 462
+        },
+        {
+          "heading": "Period Types",
+          "level": 2,
+          "line": 541
+        },
+        {
+          "heading": "Rounding",
+          "level": 2,
+          "line": 600
+        },
+        {
+          "heading": "Rounding Epoch",
+          "level": 3,
+          "line": 624
+        },
+        {
+          "heading": "[API reference](@id stdlib-dates-api)",
+          "level": 2,
+          "line": 687
+        },
+        {
+          "heading": "Dates and Time Types",
+          "level": 3,
+          "line": 689
+        },
+        {
+          "heading": "Dates Functions",
+          "level": 3,
+          "line": 704
+        },
+        {
+          "heading": "Accessor Functions",
+          "level": 4,
+          "line": 733
+        },
+        {
+          "heading": "Query Functions",
+          "level": 4,
+          "line": 761
+        },
+        {
+          "heading": "Adjuster Functions",
+          "level": 4,
+          "line": 780
+        },
+        {
+          "heading": "Periods",
+          "level": 4,
+          "line": 800
+        },
+        {
+          "heading": "Rounding Functions",
+          "level": 4,
+          "line": 811
+        },
+        {
+          "heading": "Conversion Functions",
+          "level": 4,
+          "line": 840
+        },
+        {
+          "heading": "Constants",
+          "level": 3,
+          "line": 852
+        },
+        {
+          "heading": "Common Date Formatters",
+          "level": 4,
+          "line": 883
+        }
+      ],
+      "metrics": {
+        "importCount": 0,
+        "exportCount": 0,
+        "functionCount": 0,
+        "classCount": 0,
+        "sectionCount": 21
+      }
+    }
+  ]
+}

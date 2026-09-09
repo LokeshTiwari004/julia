@@ -1,0 +1,57 @@
+{
+  "scriptCompleted": true,
+  "filesAnalyzed": 1,
+  "filesSkipped": [
+    "stdlib/REPL/src/History/search.jl",
+    "stdlib/REPL/src/LineEdit.jl",
+    "stdlib/REPL/src/Pkg_beforeload.jl",
+    "stdlib/REPL/src/REPL.jl",
+    "stdlib/REPL/src/REPLCompletions.jl",
+    "stdlib/REPL/src/StylingPasses.jl",
+    "stdlib/REPL/src/SyntaxUtil.jl",
+    "stdlib/REPL/src/TerminalMenus/AbstractMenu.jl",
+    "stdlib/REPL/src/TerminalMenus/MultiSelectMenu.jl",
+    "stdlib/REPL/src/TerminalMenus/Pager.jl",
+    "stdlib/REPL/src/TerminalMenus/RadioMenu.jl",
+    "stdlib/REPL/src/TerminalMenus/TerminalMenus.jl",
+    "stdlib/REPL/src/TerminalMenus/config.jl",
+    "stdlib/REPL/src/TerminalMenus/util.jl",
+    "stdlib/REPL/src/docview.jl",
+    "stdlib/REPL/src/emoji_symbols.jl",
+    "stdlib/REPL/src/latex_symbols.jl",
+    "stdlib/REPL/src/options.jl",
+    "stdlib/REPL/src/precompile.jl",
+    "stdlib/REPL/test/FakeTerminals.jl",
+    "stdlib/REPL/test/TerminalMenus/dynamic_menu.jl",
+    "stdlib/REPL/test/TerminalMenus/legacytests/config.jl",
+    "stdlib/REPL/test/TerminalMenus/legacytests/old_multiselect_menu.jl",
+    "stdlib/REPL/test/TerminalMenus/legacytests/old_radio_menu.jl"
+  ],
+  "analysisOutcomes": {
+    "structure": {
+      "succeeded": 1,
+      "failed": 0
+    },
+    "callGraph": {
+      "succeeded": 0,
+      "failed": 0,
+      "skipped": 1
+    }
+  },
+  "results": [
+    {
+      "path": "stdlib/REPL/src/TerminalMenus/LICENSE.md",
+      "language": "markdown",
+      "fileCategory": "docs",
+      "totalLines": 22,
+      "nonEmptyLines": 21,
+      "metrics": {
+        "importCount": 0,
+        "exportCount": 0,
+        "functionCount": 0,
+        "classCount": 0,
+        "sectionCount": 0
+      }
+    }
+  ]
+}

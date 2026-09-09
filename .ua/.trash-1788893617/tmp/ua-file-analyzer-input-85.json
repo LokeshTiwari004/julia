@@ -1,0 +1,182 @@
+{
+  "projectRoot": "/home/maruti/julia",
+  "batchFiles": [
+    {
+      "path": "test/enums.jl",
+      "language": "jl",
+      "sizeLines": 262,
+      "fileCategory": "code"
+    },
+    {
+      "path": "test/env.jl",
+      "language": "jl",
+      "sizeLines": 193,
+      "fileCategory": "code"
+    },
+    {
+      "path": "test/error.jl",
+      "language": "jl",
+      "sizeLines": 162,
+      "fileCategory": "code"
+    },
+    {
+      "path": "test/errorshow.jl",
+      "language": "jl",
+      "sizeLines": 1795,
+      "fileCategory": "code"
+    },
+    {
+      "path": "test/euler.jl",
+      "language": "jl",
+      "sizeLines": 655,
+      "fileCategory": "code"
+    },
+    {
+      "path": "test/exceptions.jl",
+      "language": "jl",
+      "sizeLines": 404,
+      "fileCategory": "code"
+    },
+    {
+      "path": "test/fastmath.jl",
+      "language": "jl",
+      "sizeLines": 388,
+      "fileCategory": "code"
+    },
+    {
+      "path": "test/faulty_constructor_method_should_not_cause_stack_overflows.jl",
+      "language": "jl",
+      "sizeLines": 71,
+      "fileCategory": "code"
+    },
+    {
+      "path": "test/file.jl",
+      "language": "jl",
+      "sizeLines": 2228,
+      "fileCategory": "code"
+    },
+    {
+      "path": "test/filesystem.jl",
+      "language": "jl",
+      "sizeLines": 52,
+      "fileCategory": "code"
+    },
+    {
+      "path": "test/float16.jl",
+      "language": "jl",
+      "sizeLines": 232,
+      "fileCategory": "code"
+    },
+    {
+      "path": "test/floatapprox.jl",
+      "language": "jl",
+      "sizeLines": 72,
+      "fileCategory": "code"
+    },
+    {
+      "path": "test/floatfuncs.jl",
+      "language": "jl",
+      "sizeLines": 318,
+      "fileCategory": "code"
+    },
+    {
+      "path": "test/functional.jl",
+      "language": "jl",
+      "sizeLines": 389,
+      "fileCategory": "code"
+    },
+    {
+      "path": "test/gc.jl",
+      "language": "jl",
+      "sizeLines": 113,
+      "fileCategory": "code"
+    },
+    {
+      "path": "test/gc/binarytree.jl",
+      "language": "jl",
+      "sizeLines": 54,
+      "fileCategory": "code"
+    },
+    {
+      "path": "test/gc/chunks.jl",
+      "language": "jl",
+      "sizeLines": 17,
+      "fileCategory": "code"
+    },
+    {
+      "path": "test/gc/copyto.jl",
+      "language": "jl",
+      "sizeLines": 12,
+      "fileCategory": "code"
+    },
+    {
+      "path": "test/gc/linkedlist.jl",
+      "language": "jl",
+      "sizeLines": 23,
+      "fileCategory": "code"
+    },
+    {
+      "path": "test/gc/objarray.jl",
+      "language": "jl",
+      "sizeLines": 36,
+      "fileCategory": "code"
+    },
+    {
+      "path": "test/gcext/DependsOnForeign/Manifest.toml",
+      "language": "toml",
+      "sizeLines": 14,
+      "fileCategory": "config"
+    },
+    {
+      "path": "test/gcext/DependsOnForeign/Project.toml",
+      "language": "toml",
+      "sizeLines": 6,
+      "fileCategory": "config"
+    },
+    {
+      "path": "test/gcext/DependsOnForeign/src/DependsOnForeign.jl",
+      "language": "jl",
+      "sizeLines": 14,
+      "fileCategory": "code"
+    },
+    {
+      "path": "test/gcext/Foreign/Manifest.toml",
+      "language": "toml",
+      "sizeLines": 8,
+      "fileCategory": "config"
+    },
+    {
+      "path": "test/gcext/Foreign/Project.toml",
+      "language": "toml",
+      "sizeLines": 6,
+      "fileCategory": "config"
+    }
+  ],
+  "batchImportData": {
+    "test/enums.jl": [],
+    "test/env.jl": [],
+    "test/error.jl": [],
+    "test/errorshow.jl": [],
+    "test/euler.jl": [],
+    "test/exceptions.jl": [],
+    "test/fastmath.jl": [],
+    "test/faulty_constructor_method_should_not_cause_stack_overflows.jl": [],
+    "test/file.jl": [],
+    "test/filesystem.jl": [],
+    "test/float16.jl": [],
+    "test/floatapprox.jl": [],
+    "test/floatfuncs.jl": [],
+    "test/functional.jl": [],
+    "test/gc.jl": [],
+    "test/gc/binarytree.jl": [],
+    "test/gc/chunks.jl": [],
+    "test/gc/copyto.jl": [],
+    "test/gc/linkedlist.jl": [],
+    "test/gc/objarray.jl": [],
+    "test/gcext/DependsOnForeign/Manifest.toml": [],
+    "test/gcext/DependsOnForeign/Project.toml": [],
+    "test/gcext/DependsOnForeign/src/DependsOnForeign.jl": [],
+    "test/gcext/Foreign/Manifest.toml": [],
+    "test/gcext/Foreign/Project.toml": []
+  }
+}

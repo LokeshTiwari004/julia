@@ -1,0 +1,182 @@
+{
+  "projectRoot": "/home/maruti/julia",
+  "batchFiles": [
+    {
+      "path": "stdlib/OpenSSL_jll/test/runtests.jl",
+      "language": "jl",
+      "sizeLines": 14,
+      "fileCategory": "code"
+    },
+    {
+      "path": "stdlib/PCRE2_jll/Project.toml",
+      "language": "toml",
+      "sizeLines": 16,
+      "fileCategory": "config"
+    },
+    {
+      "path": "stdlib/PCRE2_jll/src/PCRE2_jll.jl",
+      "language": "jl",
+      "sizeLines": 49,
+      "fileCategory": "code"
+    },
+    {
+      "path": "stdlib/PCRE2_jll/test/runtests.jl",
+      "language": "jl",
+      "sizeLines": 13,
+      "fileCategory": "code"
+    },
+    {
+      "path": "stdlib/Pkg.version",
+      "language": "version",
+      "sizeLines": 4,
+      "fileCategory": "code"
+    },
+    {
+      "path": "stdlib/Printf/Project.toml",
+      "language": "toml",
+      "sizeLines": 12,
+      "fileCategory": "config"
+    },
+    {
+      "path": "stdlib/Printf/docs/src/index.md",
+      "language": "markdown",
+      "sizeLines": 14,
+      "fileCategory": "docs"
+    },
+    {
+      "path": "stdlib/Printf/src/Printf.jl",
+      "language": "jl",
+      "sizeLines": 1040,
+      "fileCategory": "code"
+    },
+    {
+      "path": "stdlib/Printf/test/runtests.jl",
+      "language": "jl",
+      "sizeLines": 1175,
+      "fileCategory": "code"
+    },
+    {
+      "path": "stdlib/Profile/Project.toml",
+      "language": "toml",
+      "sizeLines": 19,
+      "fileCategory": "config"
+    },
+    {
+      "path": "stdlib/Profile/docs/src/index.md",
+      "language": "markdown",
+      "sizeLines": 162,
+      "fileCategory": "docs"
+    },
+    {
+      "path": "stdlib/Profile/src/Allocs.jl",
+      "language": "jl",
+      "sizeLines": 483,
+      "fileCategory": "code"
+    },
+    {
+      "path": "stdlib/Profile/src/Profile.jl",
+      "language": "jl",
+      "sizeLines": 1576,
+      "fileCategory": "code"
+    },
+    {
+      "path": "stdlib/Profile/src/heapsnapshot_reassemble.jl",
+      "language": "jl",
+      "sizeLines": 327,
+      "fileCategory": "code"
+    },
+    {
+      "path": "stdlib/Profile/src/precompile.jl",
+      "language": "jl",
+      "sizeLines": 11,
+      "fileCategory": "code"
+    },
+    {
+      "path": "stdlib/Profile/test/allocs.jl",
+      "language": "jl",
+      "sizeLines": 188,
+      "fileCategory": "code"
+    },
+    {
+      "path": "stdlib/Profile/test/heapsnapshot_reassemble.jl",
+      "language": "jl",
+      "sizeLines": 116,
+      "fileCategory": "code"
+    },
+    {
+      "path": "stdlib/Profile/test/runtests.jl",
+      "language": "jl",
+      "sizeLines": 611,
+      "fileCategory": "code"
+    },
+    {
+      "path": "stdlib/REPL/Project.toml",
+      "language": "toml",
+      "sizeLines": 22,
+      "fileCategory": "config"
+    },
+    {
+      "path": "stdlib/REPL/docs/src/index.md",
+      "language": "markdown",
+      "sizeLines": 1128,
+      "fileCategory": "docs"
+    },
+    {
+      "path": "stdlib/REPL/src/History/History.jl",
+      "language": "jl",
+      "sizeLines": 35,
+      "fileCategory": "code"
+    },
+    {
+      "path": "stdlib/REPL/src/History/display.jl",
+      "language": "jl",
+      "sizeLines": 812,
+      "fileCategory": "code"
+    },
+    {
+      "path": "stdlib/REPL/src/History/histfile.jl",
+      "language": "jl",
+      "sizeLines": 288,
+      "fileCategory": "code"
+    },
+    {
+      "path": "stdlib/REPL/src/History/prompt.jl",
+      "language": "jl",
+      "sizeLines": 237,
+      "fileCategory": "code"
+    },
+    {
+      "path": "stdlib/REPL/src/History/resumablefiltering.jl",
+      "language": "jl",
+      "sizeLines": 353,
+      "fileCategory": "code"
+    }
+  ],
+  "batchImportData": {
+    "stdlib/OpenSSL_jll/test/runtests.jl": [],
+    "stdlib/PCRE2_jll/Project.toml": [],
+    "stdlib/PCRE2_jll/src/PCRE2_jll.jl": [],
+    "stdlib/PCRE2_jll/test/runtests.jl": [],
+    "stdlib/Pkg.version": [],
+    "stdlib/Printf/Project.toml": [],
+    "stdlib/Printf/docs/src/index.md": [],
+    "stdlib/Printf/src/Printf.jl": [],
+    "stdlib/Printf/test/runtests.jl": [],
+    "stdlib/Profile/Project.toml": [],
+    "stdlib/Profile/docs/src/index.md": [],
+    "stdlib/Profile/src/Allocs.jl": [],
+    "stdlib/Profile/src/Profile.jl": [],
+    "stdlib/Profile/src/heapsnapshot_reassemble.jl": [],
+    "stdlib/Profile/src/precompile.jl": [],
+    "stdlib/Profile/test/allocs.jl": [],
+    "stdlib/Profile/test/heapsnapshot_reassemble.jl": [],
+    "stdlib/Profile/test/runtests.jl": [],
+    "stdlib/REPL/Project.toml": [],
+    "stdlib/REPL/docs/src/index.md": [],
+    "stdlib/REPL/src/History/History.jl": [],
+    "stdlib/REPL/src/History/display.jl": [],
+    "stdlib/REPL/src/History/histfile.jl": [],
+    "stdlib/REPL/src/History/prompt.jl": [],
+    "stdlib/REPL/src/History/resumablefiltering.jl": []
+  }
+}

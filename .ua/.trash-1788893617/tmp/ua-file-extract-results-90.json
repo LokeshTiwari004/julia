@@ -1,0 +1,430 @@
+{
+  "scriptCompleted": true,
+  "filesAnalyzed": 14,
+  "filesSkipped": [
+    "test/print_process_affinity.jl",
+    "test/profile_spawnmany_exec.jl",
+    "test/project/Extensions/CrossPackageExtToExtDependency/ext/ExtAB.jl",
+    "test/project/Extensions/CrossPackageExtToExtDependency/src/CrossPackageExtToExtDependency.jl",
+    "test/project/Extensions/CyclicExtensions/ext/ExtA.jl",
+    "test/project/Extensions/CyclicExtensions/ext/ExtB.jl",
+    "test/project/Extensions/CyclicExtensions/src/CyclicExtensions.jl",
+    "test/project/Extensions/DepWithParentExt.jl/ext/ParentExt.jl",
+    "test/project/Extensions/DepWithParentExt.jl/src/DepWithParentExt.jl",
+    "test/project/Extensions/ExtDep.jl/src/ExtDep.jl",
+    "test/project/Extensions/ExtDep2/src/ExtDep2.jl"
+  ],
+  "analysisOutcomes": {
+    "structure": {
+      "succeeded": 14,
+      "failed": 0
+    },
+    "callGraph": {
+      "succeeded": 0,
+      "failed": 0,
+      "skipped": 14
+    }
+  },
+  "results": [
+    {
+      "path": "test/project/Extensions/CrossPackageExtToExtDependency/Manifest.toml",
+      "language": "toml",
+      "fileCategory": "config",
+      "totalLines": 32,
+      "nonEmptyLines": 26,
+      "sections": [
+        {
+          "heading": "[[deps.CyclicExtensions]]",
+          "level": 2,
+          "line": 7
+        },
+        {
+          "heading": "deps.CyclicExtensions.extensions",
+          "level": 3,
+          "line": 14
+        },
+        {
+          "heading": "[[deps.ExtDep]]",
+          "level": 2,
+          "line": 18
+        },
+        {
+          "heading": "[[deps.SomeOtherPackage]]",
+          "level": 2,
+          "line": 24
+        },
+        {
+          "heading": "[[deps.SomePackage]]",
+          "level": 2,
+          "line": 29
+        }
+      ],
+      "metrics": {
+        "importCount": 0,
+        "exportCount": 0,
+        "functionCount": 0,
+        "classCount": 0,
+        "sectionCount": 5
+      }
+    },
+    {
+      "path": "test/project/Extensions/CrossPackageExtToExtDependency/Project.toml",
+      "language": "toml",
+      "fileCategory": "config",
+      "totalLines": 12,
+      "nonEmptyLines": 9,
+      "sections": [
+        {
+          "heading": "deps",
+          "level": 1,
+          "line": 5
+        },
+        {
+          "heading": "weakdeps",
+          "level": 1,
+          "line": 8
+        },
+        {
+          "heading": "extensions",
+          "level": 1,
+          "line": 11
+        }
+      ],
+      "metrics": {
+        "importCount": 0,
+        "exportCount": 0,
+        "functionCount": 0,
+        "classCount": 0,
+        "sectionCount": 3
+      }
+    },
+    {
+      "path": "test/project/Extensions/CyclicExtensions/Manifest.toml",
+      "language": "toml",
+      "fileCategory": "config",
+      "totalLines": 26,
+      "nonEmptyLines": 21,
+      "sections": [
+        {
+          "heading": "[[deps.ExtDep]]",
+          "level": 2,
+          "line": 7
+        },
+        {
+          "heading": "[[deps.ExtDep2]]",
+          "level": 2,
+          "line": 13
+        },
+        {
+          "heading": "[[deps.SomeOtherPackage]]",
+          "level": 2,
+          "line": 18
+        },
+        {
+          "heading": "[[deps.SomePackage]]",
+          "level": 2,
+          "line": 23
+        }
+      ],
+      "metrics": {
+        "importCount": 0,
+        "exportCount": 0,
+        "functionCount": 0,
+        "classCount": 0,
+        "sectionCount": 4
+      }
+    },
+    {
+      "path": "test/project/Extensions/CyclicExtensions/Project.toml",
+      "language": "toml",
+      "fileCategory": "config",
+      "totalLines": 13,
+      "nonEmptyLines": 10,
+      "sections": [
+        {
+          "heading": "deps",
+          "level": 1,
+          "line": 5
+        },
+        {
+          "heading": "weakdeps",
+          "level": 1,
+          "line": 8
+        },
+        {
+          "heading": "extensions",
+          "level": 1,
+          "line": 11
+        }
+      ],
+      "metrics": {
+        "importCount": 0,
+        "exportCount": 0,
+        "functionCount": 0,
+        "classCount": 0,
+        "sectionCount": 3
+      }
+    },
+    {
+      "path": "test/project/Extensions/DepWithParentExt.jl/Project.toml",
+      "language": "toml",
+      "fileCategory": "config",
+      "totalLines": 9,
+      "nonEmptyLines": 7,
+      "sections": [
+        {
+          "heading": "weakdeps",
+          "level": 1,
+          "line": 5
+        },
+        {
+          "heading": "extensions",
+          "level": 1,
+          "line": 8
+        }
+      ],
+      "metrics": {
+        "importCount": 0,
+        "exportCount": 0,
+        "functionCount": 0,
+        "classCount": 0,
+        "sectionCount": 2
+      }
+    },
+    {
+      "path": "test/project/Extensions/EnvWithDeps/Manifest.toml",
+      "language": "toml",
+      "fileCategory": "config",
+      "totalLines": 26,
+      "nonEmptyLines": 21,
+      "sections": [
+        {
+          "heading": "[[deps.ExtDep]]",
+          "level": 2,
+          "line": 7
+        },
+        {
+          "heading": "[[deps.ExtDep2]]",
+          "level": 2,
+          "line": 13
+        },
+        {
+          "heading": "[[deps.SomeOtherPackage]]",
+          "level": 2,
+          "line": 18
+        },
+        {
+          "heading": "[[deps.SomePackage]]",
+          "level": 2,
+          "line": 23
+        }
+      ],
+      "metrics": {
+        "importCount": 0,
+        "exportCount": 0,
+        "functionCount": 0,
+        "classCount": 0,
+        "sectionCount": 4
+      }
+    },
+    {
+      "path": "test/project/Extensions/EnvWithDeps/Project.toml",
+      "language": "toml",
+      "fileCategory": "config",
+      "totalLines": 4,
+      "nonEmptyLines": 4,
+      "sections": [
+        {
+          "heading": "deps",
+          "level": 1,
+          "line": 1
+        }
+      ],
+      "metrics": {
+        "importCount": 0,
+        "exportCount": 0,
+        "functionCount": 0,
+        "classCount": 0,
+        "sectionCount": 1
+      }
+    },
+    {
+      "path": "test/project/Extensions/EnvWithHasExtensions/Manifest.toml",
+      "language": "toml",
+      "fileCategory": "config",
+      "totalLines": 36,
+      "nonEmptyLines": 29,
+      "sections": [
+        {
+          "heading": "[[deps.ExtDep]]",
+          "level": 2,
+          "line": 7
+        },
+        {
+          "heading": "[[deps.HasExtensions]]",
+          "level": 2,
+          "line": 13
+        },
+        {
+          "heading": "deps.HasExtensions.extensions",
+          "level": 3,
+          "line": 18
+        },
+        {
+          "heading": "deps.HasExtensions.weakdeps",
+          "level": 3,
+          "line": 23
+        },
+        {
+          "heading": "[[deps.SomeOtherPackage]]",
+          "level": 2,
+          "line": 28
+        },
+        {
+          "heading": "[[deps.SomePackage]]",
+          "level": 2,
+          "line": 33
+        }
+      ],
+      "metrics": {
+        "importCount": 0,
+        "exportCount": 0,
+        "functionCount": 0,
+        "classCount": 0,
+        "sectionCount": 6
+      }
+    },
+    {
+      "path": "test/project/Extensions/EnvWithHasExtensions/Project.toml",
+      "language": "toml",
+      "fileCategory": "config",
+      "totalLines": 4,
+      "nonEmptyLines": 4,
+      "sections": [
+        {
+          "heading": "deps",
+          "level": 1,
+          "line": 1
+        }
+      ],
+      "metrics": {
+        "importCount": 0,
+        "exportCount": 0,
+        "functionCount": 0,
+        "classCount": 0,
+        "sectionCount": 1
+      }
+    },
+    {
+      "path": "test/project/Extensions/EnvWithHasExtensionsv2/Manifest.toml",
+      "language": "toml",
+      "fileCategory": "config",
+      "totalLines": 30,
+      "nonEmptyLines": 24,
+      "sections": [
+        {
+          "heading": "[[deps.ExtDep]]",
+          "level": 2,
+          "line": 7
+        },
+        {
+          "heading": "[[deps.HasExtensions]]",
+          "level": 2,
+          "line": 13
+        },
+        {
+          "heading": "deps.HasExtensions.extensions",
+          "level": 3,
+          "line": 19
+        },
+        {
+          "heading": "[[deps.SomeOtherPackage]]",
+          "level": 2,
+          "line": 22
+        },
+        {
+          "heading": "[[deps.SomePackage]]",
+          "level": 2,
+          "line": 27
+        }
+      ],
+      "metrics": {
+        "importCount": 0,
+        "exportCount": 0,
+        "functionCount": 0,
+        "classCount": 0,
+        "sectionCount": 5
+      }
+    },
+    {
+      "path": "test/project/Extensions/EnvWithHasExtensionsv2/Project.toml",
+      "language": "toml",
+      "fileCategory": "config",
+      "totalLines": 4,
+      "nonEmptyLines": 4,
+      "sections": [
+        {
+          "heading": "deps",
+          "level": 1,
+          "line": 1
+        }
+      ],
+      "metrics": {
+        "importCount": 0,
+        "exportCount": 0,
+        "functionCount": 0,
+        "classCount": 0,
+        "sectionCount": 1
+      }
+    },
+    {
+      "path": "test/project/Extensions/ExtDep.jl/Project.toml",
+      "language": "toml",
+      "fileCategory": "config",
+      "totalLines": 7,
+      "nonEmptyLines": 6,
+      "sections": [
+        {
+          "heading": "deps",
+          "level": 1,
+          "line": 5
+        }
+      ],
+      "metrics": {
+        "importCount": 0,
+        "exportCount": 0,
+        "functionCount": 0,
+        "classCount": 0,
+        "sectionCount": 1
+      }
+    },
+    {
+      "path": "test/project/Extensions/ExtDep2/Project.toml",
+      "language": "toml",
+      "fileCategory": "config",
+      "totalLines": 3,
+      "nonEmptyLines": 3,
+      "metrics": {
+        "importCount": 0,
+        "exportCount": 0,
+        "functionCount": 0,
+        "classCount": 0,
+        "sectionCount": 0
+      }
+    },
+    {
+      "path": "test/project/Extensions/ExtDep3.jl/Project.toml",
+      "language": "toml",
+      "fileCategory": "config",
+      "totalLines": 4,
+      "nonEmptyLines": 4,
+      "metrics": {
+        "importCount": 0,
+        "exportCount": 0,
+        "functionCount": 0,
+        "classCount": 0,
+        "sectionCount": 0
+      }
+    }
+  ]
+}

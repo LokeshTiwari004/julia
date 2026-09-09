@@ -1,0 +1,43 @@
+{
+  "scriptCompleted": true,
+  "filesAnalyzed": 0,
+  "filesSkipped": [
+    "Compiler/src/bindinginvalidations.jl",
+    "Compiler/src/bootstrap.jl",
+    "Compiler/src/cicache.jl",
+    "Compiler/src/effects.jl",
+    "Compiler/src/inferenceresult.jl",
+    "Compiler/src/inferencestate.jl",
+    "Compiler/src/methodtable.jl",
+    "Compiler/src/opaque_closure.jl",
+    "Compiler/src/optimize.jl",
+    "Compiler/src/precompile.jl",
+    "Compiler/src/reflection_interface.jl",
+    "Compiler/src/reinfer.jl",
+    "Compiler/src/sort.jl",
+    "Compiler/src/ssair/EscapeAnalysis.jl",
+    "Compiler/src/ssair/basicblock.jl",
+    "Compiler/src/ssair/disjoint_set.jl",
+    "Compiler/src/ssair/domtree.jl",
+    "Compiler/src/ssair/heap.jl",
+    "Compiler/src/ssair/inlining.jl",
+    "Compiler/src/ssair/ir.jl",
+    "Compiler/src/ssair/irinterp.jl",
+    "Compiler/src/ssair/legacy.jl",
+    "Compiler/src/ssair/passes.jl",
+    "Compiler/src/ssair/show.jl",
+    "Compiler/src/ssair/slot2ssa.jl"
+  ],
+  "analysisOutcomes": {
+    "structure": {
+      "succeeded": 0,
+      "failed": 0
+    },
+    "callGraph": {
+      "succeeded": 0,
+      "failed": 0,
+      "skipped": 0
+    }
+  },
+  "results": []
+}

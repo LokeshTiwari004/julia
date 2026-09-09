@@ -1,0 +1,129 @@
+{
+  "scriptCompleted": true,
+  "filesAnalyzed": 4,
+  "filesSkipped": [
+    "test/enums.jl",
+    "test/env.jl",
+    "test/error.jl",
+    "test/errorshow.jl",
+    "test/euler.jl",
+    "test/exceptions.jl",
+    "test/fastmath.jl",
+    "test/faulty_constructor_method_should_not_cause_stack_overflows.jl",
+    "test/file.jl",
+    "test/filesystem.jl",
+    "test/float16.jl",
+    "test/floatapprox.jl",
+    "test/floatfuncs.jl",
+    "test/functional.jl",
+    "test/gc.jl",
+    "test/gc/binarytree.jl",
+    "test/gc/chunks.jl",
+    "test/gc/copyto.jl",
+    "test/gc/linkedlist.jl",
+    "test/gc/objarray.jl",
+    "test/gcext/DependsOnForeign/src/DependsOnForeign.jl"
+  ],
+  "analysisOutcomes": {
+    "structure": {
+      "succeeded": 4,
+      "failed": 0
+    },
+    "callGraph": {
+      "succeeded": 0,
+      "failed": 0,
+      "skipped": 4
+    }
+  },
+  "results": [
+    {
+      "path": "test/gcext/DependsOnForeign/Manifest.toml",
+      "language": "toml",
+      "fileCategory": "config",
+      "totalLines": 14,
+      "nonEmptyLines": 11,
+      "sections": [
+        {
+          "heading": "[[deps.Foreign]]",
+          "level": 2,
+          "line": 7
+        },
+        {
+          "heading": "[[deps.Libdl]]",
+          "level": 2,
+          "line": 13
+        }
+      ],
+      "metrics": {
+        "importCount": 0,
+        "exportCount": 0,
+        "functionCount": 0,
+        "classCount": 0,
+        "sectionCount": 2
+      }
+    },
+    {
+      "path": "test/gcext/DependsOnForeign/Project.toml",
+      "language": "toml",
+      "fileCategory": "config",
+      "totalLines": 6,
+      "nonEmptyLines": 5,
+      "sections": [
+        {
+          "heading": "deps",
+          "level": 1,
+          "line": 5
+        }
+      ],
+      "metrics": {
+        "importCount": 0,
+        "exportCount": 0,
+        "functionCount": 0,
+        "classCount": 0,
+        "sectionCount": 1
+      }
+    },
+    {
+      "path": "test/gcext/Foreign/Manifest.toml",
+      "language": "toml",
+      "fileCategory": "config",
+      "totalLines": 8,
+      "nonEmptyLines": 6,
+      "sections": [
+        {
+          "heading": "[[deps.Libdl]]",
+          "level": 2,
+          "line": 7
+        }
+      ],
+      "metrics": {
+        "importCount": 0,
+        "exportCount": 0,
+        "functionCount": 0,
+        "classCount": 0,
+        "sectionCount": 1
+      }
+    },
+    {
+      "path": "test/gcext/Foreign/Project.toml",
+      "language": "toml",
+      "fileCategory": "config",
+      "totalLines": 6,
+      "nonEmptyLines": 5,
+      "sections": [
+        {
+          "heading": "deps",
+          "level": 1,
+          "line": 5
+        }
+      ],
+      "metrics": {
+        "importCount": 0,
+        "exportCount": 0,
+        "functionCount": 0,
+        "classCount": 0,
+        "sectionCount": 1
+      }
+    }
+  ]
+}

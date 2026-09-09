@@ -1,0 +1,838 @@
+{
+  "scriptCompleted": true,
+  "filesAnalyzed": 20,
+  "filesSkipped": [],
+  "analysisOutcomes": {
+    "structure": {
+      "succeeded": 20,
+      "failed": 0
+    },
+    "callGraph": {
+      "succeeded": 0,
+      "failed": 0,
+      "skipped": 20
+    }
+  },
+  "results": [
+    {
+      "path": ".ua/.trash-1788882187/tmp/ua-file-extract-results-45.json",
+      "language": "json",
+      "fileCategory": "config",
+      "totalLines": 451,
+      "nonEmptyLines": 451,
+      "sections": [
+        {
+          "heading": "scriptCompleted",
+          "level": 1,
+          "line": 2
+        },
+        {
+          "heading": "filesAnalyzed",
+          "level": 1,
+          "line": 3
+        },
+        {
+          "heading": "filesSkipped",
+          "level": 1,
+          "line": 4
+        },
+        {
+          "heading": "analysisOutcomes",
+          "level": 1,
+          "line": 24
+        },
+        {
+          "heading": "results",
+          "level": 1,
+          "line": 35
+        }
+      ],
+      "metrics": {
+        "importCount": 0,
+        "exportCount": 0,
+        "functionCount": 0,
+        "classCount": 0,
+        "sectionCount": 5
+      }
+    },
+    {
+      "path": ".ua/.trash-1788882187/tmp/ua-file-extract-results-46.json",
+      "language": "json",
+      "fileCategory": "config",
+      "totalLines": 11317,
+      "nonEmptyLines": 11317,
+      "sections": [
+        {
+          "heading": "scriptCompleted",
+          "level": 1,
+          "line": 2
+        },
+        {
+          "heading": "filesAnalyzed",
+          "level": 1,
+          "line": 3
+        },
+        {
+          "heading": "filesSkipped",
+          "level": 1,
+          "line": 4
+        },
+        {
+          "heading": "analysisOutcomes",
+          "level": 1,
+          "line": 14
+        },
+        {
+          "heading": "results",
+          "level": 1,
+          "line": 25
+        }
+      ],
+      "metrics": {
+        "importCount": 0,
+        "exportCount": 0,
+        "functionCount": 0,
+        "classCount": 0,
+        "sectionCount": 5
+      }
+    },
+    {
+      "path": ".ua/.trash-1788882187/tmp/ua-file-extract-results-47.json",
+      "language": "json",
+      "fileCategory": "config",
+      "totalLines": 11201,
+      "nonEmptyLines": 11201,
+      "sections": [
+        {
+          "heading": "scriptCompleted",
+          "level": 1,
+          "line": 2
+        },
+        {
+          "heading": "filesAnalyzed",
+          "level": 1,
+          "line": 3
+        },
+        {
+          "heading": "filesSkipped",
+          "level": 1,
+          "line": 4
+        },
+        {
+          "heading": "analysisOutcomes",
+          "level": 1,
+          "line": 17
+        },
+        {
+          "heading": "results",
+          "level": 1,
+          "line": 28
+        }
+      ],
+      "metrics": {
+        "importCount": 0,
+        "exportCount": 0,
+        "functionCount": 0,
+        "classCount": 0,
+        "sectionCount": 5
+      }
+    },
+    {
+      "path": ".ua/.trash-1788882187/tmp/ua-file-extract-results-48.json",
+      "language": "json",
+      "fileCategory": "config",
+      "totalLines": 1514,
+      "nonEmptyLines": 1514,
+      "sections": [
+        {
+          "heading": "scriptCompleted",
+          "level": 1,
+          "line": 2
+        },
+        {
+          "heading": "filesAnalyzed",
+          "level": 1,
+          "line": 3
+        },
+        {
+          "heading": "filesSkipped",
+          "level": 1,
+          "line": 4
+        },
+        {
+          "heading": "analysisOutcomes",
+          "level": 1,
+          "line": 16
+        },
+        {
+          "heading": "results",
+          "level": 1,
+          "line": 27
+        }
+      ],
+      "metrics": {
+        "importCount": 0,
+        "exportCount": 0,
+        "functionCount": 0,
+        "classCount": 0,
+        "sectionCount": 5
+      }
+    },
+    {
+      "path": ".ua/.trash-1788882187/tmp/ua-file-extract-results-49.json",
+      "language": "json",
+      "fileCategory": "config",
+      "totalLines": 4302,
+      "nonEmptyLines": 4302,
+      "sections": [
+        {
+          "heading": "scriptCompleted",
+          "level": 1,
+          "line": 2
+        },
+        {
+          "heading": "filesAnalyzed",
+          "level": 1,
+          "line": 3
+        },
+        {
+          "heading": "filesSkipped",
+          "level": 1,
+          "line": 4
+        },
+        {
+          "heading": "analysisOutcomes",
+          "level": 1,
+          "line": 12
+        },
+        {
+          "heading": "results",
+          "level": 1,
+          "line": 23
+        }
+      ],
+      "metrics": {
+        "importCount": 0,
+        "exportCount": 0,
+        "functionCount": 0,
+        "classCount": 0,
+        "sectionCount": 5
+      }
+    },
+    {
+      "path": ".ua/.trash-1788882187/tmp/ua-file-extract-results-5.json",
+      "language": "json",
+      "fileCategory": "config",
+      "totalLines": 20268,
+      "nonEmptyLines": 20268,
+      "sections": [
+        {
+          "heading": "scriptCompleted",
+          "level": 1,
+          "line": 2
+        },
+        {
+          "heading": "filesAnalyzed",
+          "level": 1,
+          "line": 3
+        },
+        {
+          "heading": "filesSkipped",
+          "level": 1,
+          "line": 4
+        },
+        {
+          "heading": "analysisOutcomes",
+          "level": 1,
+          "line": 5
+        },
+        {
+          "heading": "results",
+          "level": 1,
+          "line": 16
+        }
+      ],
+      "metrics": {
+        "importCount": 0,
+        "exportCount": 0,
+        "functionCount": 0,
+        "classCount": 0,
+        "sectionCount": 5
+      }
+    },
+    {
+      "path": ".ua/.trash-1788882187/tmp/ua-file-extract-results-50.json",
+      "language": "json",
+      "fileCategory": "config",
+      "totalLines": 410,
+      "nonEmptyLines": 410,
+      "sections": [
+        {
+          "heading": "scriptCompleted",
+          "level": 1,
+          "line": 2
+        },
+        {
+          "heading": "filesAnalyzed",
+          "level": 1,
+          "line": 3
+        },
+        {
+          "heading": "filesSkipped",
+          "level": 1,
+          "line": 4
+        },
+        {
+          "heading": "analysisOutcomes",
+          "level": 1,
+          "line": 20
+        },
+        {
+          "heading": "results",
+          "level": 1,
+          "line": 31
+        }
+      ],
+      "metrics": {
+        "importCount": 0,
+        "exportCount": 0,
+        "functionCount": 0,
+        "classCount": 0,
+        "sectionCount": 5
+      }
+    },
+    {
+      "path": ".ua/.trash-1788882187/tmp/ua-file-extract-results-51.json",
+      "language": "json",
+      "fileCategory": "config",
+      "totalLines": 239,
+      "nonEmptyLines": 239,
+      "sections": [
+        {
+          "heading": "scriptCompleted",
+          "level": 1,
+          "line": 2
+        },
+        {
+          "heading": "filesAnalyzed",
+          "level": 1,
+          "line": 3
+        },
+        {
+          "heading": "filesSkipped",
+          "level": 1,
+          "line": 4
+        },
+        {
+          "heading": "analysisOutcomes",
+          "level": 1,
+          "line": 24
+        },
+        {
+          "heading": "results",
+          "level": 1,
+          "line": 35
+        }
+      ],
+      "metrics": {
+        "importCount": 0,
+        "exportCount": 0,
+        "functionCount": 0,
+        "classCount": 0,
+        "sectionCount": 5
+      }
+    },
+    {
+      "path": ".ua/.trash-1788882187/tmp/ua-file-extract-results-52.json",
+      "language": "json",
+      "fileCategory": "config",
+      "totalLines": 204,
+      "nonEmptyLines": 204,
+      "sections": [
+        {
+          "heading": "scriptCompleted",
+          "level": 1,
+          "line": 2
+        },
+        {
+          "heading": "filesAnalyzed",
+          "level": 1,
+          "line": 3
+        },
+        {
+          "heading": "filesSkipped",
+          "level": 1,
+          "line": 4
+        },
+        {
+          "heading": "analysisOutcomes",
+          "level": 1,
+          "line": 26
+        },
+        {
+          "heading": "results",
+          "level": 1,
+          "line": 37
+        }
+      ],
+      "metrics": {
+        "importCount": 0,
+        "exportCount": 0,
+        "functionCount": 0,
+        "classCount": 0,
+        "sectionCount": 5
+      }
+    },
+    {
+      "path": ".ua/.trash-1788882187/tmp/ua-file-extract-results-53.json",
+      "language": "json",
+      "fileCategory": "config",
+      "totalLines": 259,
+      "nonEmptyLines": 259,
+      "sections": [
+        {
+          "heading": "scriptCompleted",
+          "level": 1,
+          "line": 2
+        },
+        {
+          "heading": "filesAnalyzed",
+          "level": 1,
+          "line": 3
+        },
+        {
+          "heading": "filesSkipped",
+          "level": 1,
+          "line": 4
+        },
+        {
+          "heading": "analysisOutcomes",
+          "level": 1,
+          "line": 24
+        },
+        {
+          "heading": "results",
+          "level": 1,
+          "line": 35
+        }
+      ],
+      "metrics": {
+        "importCount": 0,
+        "exportCount": 0,
+        "functionCount": 0,
+        "classCount": 0,
+        "sectionCount": 5
+      }
+    },
+    {
+      "path": ".ua/.trash-1788882187/tmp/ua-file-extract-results-54.json",
+      "language": "json",
+      "fileCategory": "config",
+      "totalLines": 279,
+      "nonEmptyLines": 279,
+      "sections": [
+        {
+          "heading": "scriptCompleted",
+          "level": 1,
+          "line": 2
+        },
+        {
+          "heading": "filesAnalyzed",
+          "level": 1,
+          "line": 3
+        },
+        {
+          "heading": "filesSkipped",
+          "level": 1,
+          "line": 4
+        },
+        {
+          "heading": "analysisOutcomes",
+          "level": 1,
+          "line": 27
+        },
+        {
+          "heading": "results",
+          "level": 1,
+          "line": 38
+        }
+      ],
+      "metrics": {
+        "importCount": 0,
+        "exportCount": 0,
+        "functionCount": 0,
+        "classCount": 0,
+        "sectionCount": 5
+      }
+    },
+    {
+      "path": ".ua/.trash-1788882187/tmp/ua-file-extract-results-55.json",
+      "language": "json",
+      "fileCategory": "config",
+      "totalLines": 399,
+      "nonEmptyLines": 399,
+      "sections": [
+        {
+          "heading": "scriptCompleted",
+          "level": 1,
+          "line": 2
+        },
+        {
+          "heading": "filesAnalyzed",
+          "level": 1,
+          "line": 3
+        },
+        {
+          "heading": "filesSkipped",
+          "level": 1,
+          "line": 4
+        },
+        {
+          "heading": "analysisOutcomes",
+          "level": 1,
+          "line": 20
+        },
+        {
+          "heading": "results",
+          "level": 1,
+          "line": 31
+        }
+      ],
+      "metrics": {
+        "importCount": 0,
+        "exportCount": 0,
+        "functionCount": 0,
+        "classCount": 0,
+        "sectionCount": 5
+      }
+    },
+    {
+      "path": ".ua/.trash-1788882187/tmp/ua-file-extract-results-56.json",
+      "language": "json",
+      "fileCategory": "config",
+      "totalLines": 257,
+      "nonEmptyLines": 257,
+      "sections": [
+        {
+          "heading": "scriptCompleted",
+          "level": 1,
+          "line": 2
+        },
+        {
+          "heading": "filesAnalyzed",
+          "level": 1,
+          "line": 3
+        },
+        {
+          "heading": "filesSkipped",
+          "level": 1,
+          "line": 4
+        },
+        {
+          "heading": "analysisOutcomes",
+          "level": 1,
+          "line": 28
+        },
+        {
+          "heading": "results",
+          "level": 1,
+          "line": 39
+        }
+      ],
+      "metrics": {
+        "importCount": 0,
+        "exportCount": 0,
+        "functionCount": 0,
+        "classCount": 0,
+        "sectionCount": 5
+      }
+    },
+    {
+      "path": ".ua/.trash-1788882187/tmp/ua-file-extract-results-57.json",
+      "language": "json",
+      "fileCategory": "config",
+      "totalLines": 314,
+      "nonEmptyLines": 314,
+      "sections": [
+        {
+          "heading": "scriptCompleted",
+          "level": 1,
+          "line": 2
+        },
+        {
+          "heading": "filesAnalyzed",
+          "level": 1,
+          "line": 3
+        },
+        {
+          "heading": "filesSkipped",
+          "level": 1,
+          "line": 4
+        },
+        {
+          "heading": "analysisOutcomes",
+          "level": 1,
+          "line": 23
+        },
+        {
+          "heading": "results",
+          "level": 1,
+          "line": 34
+        }
+      ],
+      "metrics": {
+        "importCount": 0,
+        "exportCount": 0,
+        "functionCount": 0,
+        "classCount": 0,
+        "sectionCount": 5
+      }
+    },
+    {
+      "path": ".ua/.trash-1788882187/tmp/ua-file-extract-results-58.json",
+      "language": "json",
+      "fileCategory": "config",
+      "totalLines": 584,
+      "nonEmptyLines": 584,
+      "sections": [
+        {
+          "heading": "scriptCompleted",
+          "level": 1,
+          "line": 2
+        },
+        {
+          "heading": "filesAnalyzed",
+          "level": 1,
+          "line": 3
+        },
+        {
+          "heading": "filesSkipped",
+          "level": 1,
+          "line": 4
+        },
+        {
+          "heading": "analysisOutcomes",
+          "level": 1,
+          "line": 20
+        },
+        {
+          "heading": "results",
+          "level": 1,
+          "line": 31
+        }
+      ],
+      "metrics": {
+        "importCount": 0,
+        "exportCount": 0,
+        "functionCount": 0,
+        "classCount": 0,
+        "sectionCount": 5
+      }
+    },
+    {
+      "path": ".ua/.trash-1788882187/tmp/ua-file-extract-results-59.json",
+      "language": "json",
+      "fileCategory": "config",
+      "totalLines": 363,
+      "nonEmptyLines": 363,
+      "sections": [
+        {
+          "heading": "scriptCompleted",
+          "level": 1,
+          "line": 2
+        },
+        {
+          "heading": "filesAnalyzed",
+          "level": 1,
+          "line": 3
+        },
+        {
+          "heading": "filesSkipped",
+          "level": 1,
+          "line": 4
+        },
+        {
+          "heading": "analysisOutcomes",
+          "level": 1,
+          "line": 13
+        },
+        {
+          "heading": "results",
+          "level": 1,
+          "line": 24
+        }
+      ],
+      "metrics": {
+        "importCount": 0,
+        "exportCount": 0,
+        "functionCount": 0,
+        "classCount": 0,
+        "sectionCount": 5
+      }
+    },
+    {
+      "path": ".ua/.trash-1788882187/tmp/ua-file-extract-results-6.json",
+      "language": "json",
+      "fileCategory": "config",
+      "totalLines": 1872,
+      "nonEmptyLines": 1872,
+      "sections": [
+        {
+          "heading": "scriptCompleted",
+          "level": 1,
+          "line": 2
+        },
+        {
+          "heading": "filesAnalyzed",
+          "level": 1,
+          "line": 3
+        },
+        {
+          "heading": "filesSkipped",
+          "level": 1,
+          "line": 4
+        },
+        {
+          "heading": "analysisOutcomes",
+          "level": 1,
+          "line": 8
+        },
+        {
+          "heading": "results",
+          "level": 1,
+          "line": 19
+        }
+      ],
+      "metrics": {
+        "importCount": 0,
+        "exportCount": 0,
+        "functionCount": 0,
+        "classCount": 0,
+        "sectionCount": 5
+      }
+    },
+    {
+      "path": ".ua/.trash-1788882187/tmp/ua-file-extract-results-7.json",
+      "language": "json",
+      "fileCategory": "config",
+      "totalLines": 7775,
+      "nonEmptyLines": 7775,
+      "sections": [
+        {
+          "heading": "scriptCompleted",
+          "level": 1,
+          "line": 2
+        },
+        {
+          "heading": "filesAnalyzed",
+          "level": 1,
+          "line": 3
+        },
+        {
+          "heading": "filesSkipped",
+          "level": 1,
+          "line": 4
+        },
+        {
+          "heading": "analysisOutcomes",
+          "level": 1,
+          "line": 5
+        },
+        {
+          "heading": "results",
+          "level": 1,
+          "line": 16
+        }
+      ],
+      "metrics": {
+        "importCount": 0,
+        "exportCount": 0,
+        "functionCount": 0,
+        "classCount": 0,
+        "sectionCount": 5
+      }
+    },
+    {
+      "path": ".ua/.trash-1788882187/tmp/ua-file-extract-results-8.json",
+      "language": "json",
+      "fileCategory": "config",
+      "totalLines": 7325,
+      "nonEmptyLines": 7325,
+      "sections": [
+        {
+          "heading": "scriptCompleted",
+          "level": 1,
+          "line": 2
+        },
+        {
+          "heading": "filesAnalyzed",
+          "level": 1,
+          "line": 3
+        },
+        {
+          "heading": "filesSkipped",
+          "level": 1,
+          "line": 4
+        },
+        {
+          "heading": "analysisOutcomes",
+          "level": 1,
+          "line": 5
+        },
+        {
+          "heading": "results",
+          "level": 1,
+          "line": 16
+        }
+      ],
+      "metrics": {
+        "importCount": 0,
+        "exportCount": 0,
+        "functionCount": 0,
+        "classCount": 0,
+        "sectionCount": 5
+      }
+    },
+    {
+      "path": ".ua/.trash-1788882187/tmp/ua-file-extract-results-9.json",
+      "language": "json",
+      "fileCategory": "config",
+      "totalLines": 6234,
+      "nonEmptyLines": 6234,
+      "sections": [
+        {
+          "heading": "scriptCompleted",
+          "level": 1,
+          "line": 2
+        },
+        {
+          "heading": "filesAnalyzed",
+          "level": 1,
+          "line": 3
+        },
+        {
+          "heading": "filesSkipped",
+          "level": 1,
+          "line": 4
+        },
+        {
+          "heading": "analysisOutcomes",
+          "level": 1,
+          "line": 5
+        },
+        {
+          "heading": "results",
+          "level": 1,
+          "line": 16
+        }
+      ],
+      "metrics": {
+        "importCount": 0,
+        "exportCount": 0,
+        "functionCount": 0,
+        "classCount": 0,
+        "sectionCount": 5
+      }
+    }
+  ]
+}

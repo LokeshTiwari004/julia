@@ -1,0 +1,112 @@
+{
+  "projectRoot": "/home/maruti/julia",
+  "batchFiles": [
+    {
+      "path": "contrib/README.md",
+      "language": "markdown",
+      "sizeLines": 38,
+      "fileCategory": "docs"
+    },
+    {
+      "path": "contrib/bump_stdlib.sh",
+      "language": "shell",
+      "sizeLines": 219,
+      "fileCategory": "script"
+    },
+    {
+      "path": "contrib/commit-name.sh",
+      "language": "shell",
+      "sizeLines": 43,
+      "fileCategory": "script"
+    },
+    {
+      "path": "contrib/delete-all-rpaths.sh",
+      "language": "shell",
+      "sizeLines": 33,
+      "fileCategory": "script"
+    },
+    {
+      "path": "contrib/download_cmake.sh",
+      "language": "shell",
+      "sizeLines": 47,
+      "fileCategory": "script"
+    },
+    {
+      "path": "contrib/escape_json.sh",
+      "language": "shell",
+      "sizeLines": 9,
+      "fileCategory": "script"
+    },
+    {
+      "path": "contrib/excise_stdlib.sh",
+      "language": "shell",
+      "sizeLines": 41,
+      "fileCategory": "script"
+    },
+    {
+      "path": "contrib/fixup-libgfortran.sh",
+      "language": "shell",
+      "sizeLines": 162,
+      "fileCategory": "script"
+    },
+    {
+      "path": "contrib/fixup-libstdc++.sh",
+      "language": "shell",
+      "sizeLines": 39,
+      "fileCategory": "script"
+    },
+    {
+      "path": "contrib/fixup-rpath.sh",
+      "language": "shell",
+      "sizeLines": 34,
+      "fileCategory": "script"
+    },
+    {
+      "path": "contrib/github_source_release.sh",
+      "language": "shell",
+      "sizeLines": 97,
+      "fileCategory": "script"
+    },
+    {
+      "path": "contrib/httpbin-prod-swagger-apigateway.yaml",
+      "language": "yaml",
+      "sizeLines": 101,
+      "fileCategory": "config"
+    },
+    {
+      "path": "contrib/install.sh",
+      "language": "shell",
+      "sizeLines": 35,
+      "fileCategory": "script"
+    },
+    {
+      "path": "contrib/julia.appdata.xml",
+      "language": "xml",
+      "sizeLines": 35,
+      "fileCategory": "config"
+    },
+    {
+      "path": "contrib/new-stdlib.sh",
+      "language": "shell",
+      "sizeLines": 74,
+      "fileCategory": "script"
+    }
+  ],
+  "batchImportData": {
+    "contrib/README.md": [],
+    "contrib/bump_stdlib.sh": [],
+    "contrib/commit-name.sh": [],
+    "contrib/delete-all-rpaths.sh": [],
+    "contrib/download_cmake.sh": [],
+    "contrib/escape_json.sh": [],
+    "contrib/excise_stdlib.sh": [],
+    "contrib/fixup-libgfortran.sh": [],
+    "contrib/fixup-libstdc++.sh": [],
+    "contrib/fixup-rpath.sh": [],
+    "contrib/github_source_release.sh": [],
+    "contrib/httpbin-prod-swagger-apigateway.yaml": [],
+    "contrib/install.sh": [],
+    "contrib/julia.appdata.xml": [],
+    "contrib/new-stdlib.sh": []
+  }
+}

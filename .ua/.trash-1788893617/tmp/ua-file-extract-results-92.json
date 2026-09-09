@@ -1,0 +1,313 @@
+{
+  "scriptCompleted": true,
+  "filesAnalyzed": 14,
+  "filesSkipped": [
+    "test/project/Extensions/ImplicitEnv/A/ext/BExt.jl",
+    "test/project/Extensions/ImplicitEnv/A/src/A.jl",
+    "test/project/Extensions/ImplicitEnv/B/src/B.jl",
+    "test/project/Extensions/Parent.jl/src/Parent.jl",
+    "test/project/Extensions/SomeOtherPackage/src/SomeOtherPackage.jl",
+    "test/project/Extensions/SomePackage/src/SomePackage.jl",
+    "test/project/ProjectPath/CustomPath.jl",
+    "test/project/ProjectPath/ProjectPathDep/CustomPath.jl",
+    "test/project/Rot13/src/Rot13.jl",
+    "test/project/ScriptProject/bin/script.jl",
+    "test/project/SubProject/Devved/src/Devved.jl"
+  ],
+  "analysisOutcomes": {
+    "structure": {
+      "succeeded": 14,
+      "failed": 0
+    },
+    "callGraph": {
+      "succeeded": 0,
+      "failed": 0,
+      "skipped": 14
+    }
+  },
+  "results": [
+    {
+      "path": "test/project/Extensions/ImplicitEnv/B/Project.toml",
+      "language": "toml",
+      "fileCategory": "config",
+      "totalLines": 3,
+      "nonEmptyLines": 3,
+      "metrics": {
+        "importCount": 0,
+        "exportCount": 0,
+        "functionCount": 0,
+        "classCount": 0,
+        "sectionCount": 0
+      }
+    },
+    {
+      "path": "test/project/Extensions/Parent.jl/Manifest.toml",
+      "language": "toml",
+      "fileCategory": "config",
+      "totalLines": 20,
+      "nonEmptyLines": 16,
+      "sections": [
+        {
+          "heading": "[[deps.DepWithParentExt]]",
+          "level": 2,
+          "line": 7
+        },
+        {
+          "heading": "deps.DepWithParentExt.extensions",
+          "level": 3,
+          "line": 13
+        },
+        {
+          "heading": "[[deps.Parent]]",
+          "level": 2,
+          "line": 16
+        }
+      ],
+      "metrics": {
+        "importCount": 0,
+        "exportCount": 0,
+        "functionCount": 0,
+        "classCount": 0,
+        "sectionCount": 3
+      }
+    },
+    {
+      "path": "test/project/Extensions/Parent.jl/Project.toml",
+      "language": "toml",
+      "fileCategory": "config",
+      "totalLines": 7,
+      "nonEmptyLines": 6,
+      "sections": [
+        {
+          "heading": "deps",
+          "level": 1,
+          "line": 6
+        }
+      ],
+      "metrics": {
+        "importCount": 0,
+        "exportCount": 0,
+        "functionCount": 0,
+        "classCount": 0,
+        "sectionCount": 1
+      }
+    },
+    {
+      "path": "test/project/Extensions/SomeOtherPackage/Project.toml",
+      "language": "toml",
+      "fileCategory": "config",
+      "totalLines": 4,
+      "nonEmptyLines": 4,
+      "metrics": {
+        "importCount": 0,
+        "exportCount": 0,
+        "functionCount": 0,
+        "classCount": 0,
+        "sectionCount": 0
+      }
+    },
+    {
+      "path": "test/project/Extensions/SomePackage/Project.toml",
+      "language": "toml",
+      "fileCategory": "config",
+      "totalLines": 4,
+      "nonEmptyLines": 4,
+      "metrics": {
+        "importCount": 0,
+        "exportCount": 0,
+        "functionCount": 0,
+        "classCount": 0,
+        "sectionCount": 0
+      }
+    },
+    {
+      "path": "test/project/Manifest.toml",
+      "language": "toml",
+      "fileCategory": "config",
+      "totalLines": 28,
+      "nonEmptyLines": 24,
+      "sections": [
+        {
+          "heading": "[[Foo]]",
+          "level": 1,
+          "line": 1
+        },
+        {
+          "heading": "[[Foo]]",
+          "level": 1,
+          "line": 7
+        },
+        {
+          "heading": "[[Bar]]",
+          "level": 1,
+          "line": 12
+        },
+        {
+          "heading": "Bar.deps",
+          "level": 2,
+          "line": 15
+        },
+        {
+          "heading": "[[Baz]]",
+          "level": 1,
+          "line": 19
+        },
+        {
+          "heading": "Baz.deps",
+          "level": 2,
+          "line": 22
+        },
+        {
+          "heading": "[[Qux]]",
+          "level": 1,
+          "line": 26
+        }
+      ],
+      "metrics": {
+        "importCount": 0,
+        "exportCount": 0,
+        "functionCount": 0,
+        "classCount": 0,
+        "sectionCount": 7
+      }
+    },
+    {
+      "path": "test/project/Project.toml",
+      "language": "toml",
+      "fileCategory": "config",
+      "totalLines": 6,
+      "nonEmptyLines": 5,
+      "sections": [
+        {
+          "heading": "deps",
+          "level": 1,
+          "line": 4
+        }
+      ],
+      "metrics": {
+        "importCount": 0,
+        "exportCount": 0,
+        "functionCount": 0,
+        "classCount": 0,
+        "sectionCount": 1
+      }
+    },
+    {
+      "path": "test/project/ProjectPath/Manifest.toml",
+      "language": "toml",
+      "fileCategory": "config",
+      "totalLines": 18,
+      "nonEmptyLines": 15,
+      "sections": [
+        {
+          "heading": "[[deps.ProjectPath]]",
+          "level": 2,
+          "line": 7
+        },
+        {
+          "heading": "[[deps.ProjectPathDep]]",
+          "level": 2,
+          "line": 14
+        }
+      ],
+      "metrics": {
+        "importCount": 0,
+        "exportCount": 0,
+        "functionCount": 0,
+        "classCount": 0,
+        "sectionCount": 2
+      }
+    },
+    {
+      "path": "test/project/ProjectPath/Project.toml",
+      "language": "toml",
+      "fileCategory": "config",
+      "totalLines": 7,
+      "nonEmptyLines": 6,
+      "sections": [
+        {
+          "heading": "deps",
+          "level": 1,
+          "line": 6
+        }
+      ],
+      "metrics": {
+        "importCount": 0,
+        "exportCount": 0,
+        "functionCount": 0,
+        "classCount": 0,
+        "sectionCount": 1
+      }
+    },
+    {
+      "path": "test/project/ProjectPath/ProjectPathDep/Project.toml",
+      "language": "toml",
+      "fileCategory": "config",
+      "totalLines": 4,
+      "nonEmptyLines": 4,
+      "metrics": {
+        "importCount": 0,
+        "exportCount": 0,
+        "functionCount": 0,
+        "classCount": 0,
+        "sectionCount": 0
+      }
+    },
+    {
+      "path": "test/project/Rot13/Project.toml",
+      "language": "toml",
+      "fileCategory": "config",
+      "totalLines": 3,
+      "nonEmptyLines": 3,
+      "metrics": {
+        "importCount": 0,
+        "exportCount": 0,
+        "functionCount": 0,
+        "classCount": 0,
+        "sectionCount": 0
+      }
+    },
+    {
+      "path": "test/project/ScriptProject/Project.toml",
+      "language": "toml",
+      "fileCategory": "config",
+      "totalLines": 2,
+      "nonEmptyLines": 2,
+      "metrics": {
+        "importCount": 0,
+        "exportCount": 0,
+        "functionCount": 0,
+        "classCount": 0,
+        "sectionCount": 0
+      }
+    },
+    {
+      "path": "test/project/ScriptProject/SubProject/Project.toml",
+      "language": "toml",
+      "fileCategory": "config",
+      "totalLines": 2,
+      "nonEmptyLines": 2,
+      "metrics": {
+        "importCount": 0,
+        "exportCount": 0,
+        "functionCount": 0,
+        "classCount": 0,
+        "sectionCount": 0
+      }
+    },
+    {
+      "path": "test/project/SubProject/Devved/Project.toml",
+      "language": "toml",
+      "fileCategory": "config",
+      "totalLines": 3,
+      "nonEmptyLines": 3,
+      "metrics": {
+        "importCount": 0,
+        "exportCount": 0,
+        "functionCount": 0,
+        "classCount": 0,
+        "sectionCount": 0
+      }
+    }
+  ]
+}

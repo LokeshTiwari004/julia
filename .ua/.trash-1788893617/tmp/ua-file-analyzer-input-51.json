@@ -1,0 +1,182 @@
+{
+  "projectRoot": "/home/maruti/julia",
+  "batchFiles": [
+    {
+      "path": "JuliaSyntax/src/porcelain/green_node.jl",
+      "language": "jl",
+      "sizeLines": 175,
+      "fileCategory": "code"
+    },
+    {
+      "path": "JuliaSyntax/src/porcelain/syntax.jl",
+      "language": "jl",
+      "sizeLines": 1437,
+      "fileCategory": "code"
+    },
+    {
+      "path": "JuliaSyntax/src/porcelain/syntax_node.jl",
+      "language": "jl",
+      "sizeLines": 347,
+      "fileCategory": "code"
+    },
+    {
+      "path": "JuliaSyntax/src/precompile.jl",
+      "language": "jl",
+      "sizeLines": 12,
+      "fileCategory": "code"
+    },
+    {
+      "path": "JuliaSyntax/src/utils.jl",
+      "language": "jl",
+      "sizeLines": 144,
+      "fileCategory": "code"
+    },
+    {
+      "path": "JuliaSyntax/sysimage/JuliaSyntaxCore/Project.toml",
+      "language": "toml",
+      "sizeLines": 10,
+      "fileCategory": "config"
+    },
+    {
+      "path": "JuliaSyntax/sysimage/JuliaSyntaxCore/src/JuliaSyntaxCore.jl",
+      "language": "jl",
+      "sizeLines": 12,
+      "fileCategory": "code"
+    },
+    {
+      "path": "JuliaSyntax/sysimage/compile.jl",
+      "language": "jl",
+      "sizeLines": 47,
+      "fileCategory": "code"
+    },
+    {
+      "path": "JuliaSyntax/sysimage/precompile.jl",
+      "language": "jl",
+      "sizeLines": 6,
+      "fileCategory": "code"
+    },
+    {
+      "path": "JuliaSyntax/sysimage/precompile_exec.jl",
+      "language": "jl",
+      "sizeLines": 3,
+      "fileCategory": "code"
+    },
+    {
+      "path": "JuliaSyntax/test/benchmark.jl",
+      "language": "jl",
+      "sizeLines": 35,
+      "fileCategory": "code"
+    },
+    {
+      "path": "JuliaSyntax/test/diagnostics.jl",
+      "language": "jl",
+      "sizeLines": 286,
+      "fileCategory": "code"
+    },
+    {
+      "path": "JuliaSyntax/test/expr.jl",
+      "language": "jl",
+      "sizeLines": 871,
+      "fileCategory": "code"
+    },
+    {
+      "path": "JuliaSyntax/test/fuzz_test.jl",
+      "language": "jl",
+      "sizeLines": 1023,
+      "fileCategory": "code"
+    },
+    {
+      "path": "JuliaSyntax/test/green_node.jl",
+      "language": "jl",
+      "sizeLines": 68,
+      "fileCategory": "code"
+    },
+    {
+      "path": "JuliaSyntax/test/hooks.jl",
+      "language": "jl",
+      "sizeLines": 516,
+      "fileCategory": "code"
+    },
+    {
+      "path": "JuliaSyntax/test/kinds.jl",
+      "language": "jl",
+      "sizeLines": 59,
+      "fileCategory": "code"
+    },
+    {
+      "path": "JuliaSyntax/test/literal_parsing.jl",
+      "language": "jl",
+      "sizeLines": 256,
+      "fileCategory": "code"
+    },
+    {
+      "path": "JuliaSyntax/test/parse_packages.jl",
+      "language": "jl",
+      "sizeLines": 79,
+      "fileCategory": "code"
+    },
+    {
+      "path": "JuliaSyntax/test/parse_stream.jl",
+      "language": "jl",
+      "sizeLines": 168,
+      "fileCategory": "code"
+    },
+    {
+      "path": "JuliaSyntax/test/parser.jl",
+      "language": "jl",
+      "sizeLines": 1363,
+      "fileCategory": "code"
+    },
+    {
+      "path": "JuliaSyntax/test/parser_api.jl",
+      "language": "jl",
+      "sizeLines": 237,
+      "fileCategory": "code"
+    },
+    {
+      "path": "JuliaSyntax/test/runtests.jl",
+      "language": "jl",
+      "sizeLines": 54,
+      "fileCategory": "code"
+    },
+    {
+      "path": "JuliaSyntax/test/runtests_vendored.jl",
+      "language": "jl",
+      "sizeLines": 4,
+      "fileCategory": "code"
+    },
+    {
+      "path": "JuliaSyntax/test/serialization.jl",
+      "language": "jl",
+      "sizeLines": 29,
+      "fileCategory": "code"
+    }
+  ],
+  "batchImportData": {
+    "JuliaSyntax/src/porcelain/green_node.jl": [],
+    "JuliaSyntax/src/porcelain/syntax.jl": [],
+    "JuliaSyntax/src/porcelain/syntax_node.jl": [],
+    "JuliaSyntax/src/precompile.jl": [],
+    "JuliaSyntax/src/utils.jl": [],
+    "JuliaSyntax/sysimage/JuliaSyntaxCore/Project.toml": [],
+    "JuliaSyntax/sysimage/JuliaSyntaxCore/src/JuliaSyntaxCore.jl": [],
+    "JuliaSyntax/sysimage/compile.jl": [],
+    "JuliaSyntax/sysimage/precompile.jl": [],
+    "JuliaSyntax/sysimage/precompile_exec.jl": [],
+    "JuliaSyntax/test/benchmark.jl": [],
+    "JuliaSyntax/test/diagnostics.jl": [],
+    "JuliaSyntax/test/expr.jl": [],
+    "JuliaSyntax/test/fuzz_test.jl": [],
+    "JuliaSyntax/test/green_node.jl": [],
+    "JuliaSyntax/test/hooks.jl": [],
+    "JuliaSyntax/test/kinds.jl": [],
+    "JuliaSyntax/test/literal_parsing.jl": [],
+    "JuliaSyntax/test/parse_packages.jl": [],
+    "JuliaSyntax/test/parse_stream.jl": [],
+    "JuliaSyntax/test/parser.jl": [],
+    "JuliaSyntax/test/parser_api.jl": [],
+    "JuliaSyntax/test/runtests.jl": [],
+    "JuliaSyntax/test/runtests_vendored.jl": [],
+    "JuliaSyntax/test/serialization.jl": []
+  }
+}

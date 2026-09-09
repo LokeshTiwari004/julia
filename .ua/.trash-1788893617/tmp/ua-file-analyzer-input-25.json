@@ -1,0 +1,147 @@
+{
+  "projectRoot": "/home/maruti/julia",
+  "batchFiles": [
+    {
+      "path": ".ua/.trash-1788882187/tmp/ua-file-analyzer-input-9.json",
+      "language": "json",
+      "sizeLines": 112,
+      "fileCategory": "config"
+    },
+    {
+      "path": ".ua/.trash-1788882187/tmp/ua-file-extract-results-1.json",
+      "language": "json",
+      "sizeLines": 5039,
+      "fileCategory": "config"
+    },
+    {
+      "path": ".ua/.trash-1788882187/tmp/ua-file-extract-results-10.json",
+      "language": "json",
+      "sizeLines": 10717,
+      "fileCategory": "config"
+    },
+    {
+      "path": ".ua/.trash-1788882187/tmp/ua-file-extract-results-11.json",
+      "language": "json",
+      "sizeLines": 10306,
+      "fileCategory": "config"
+    },
+    {
+      "path": ".ua/.trash-1788882187/tmp/ua-file-extract-results-12.json",
+      "language": "json",
+      "sizeLines": 330,
+      "fileCategory": "config"
+    },
+    {
+      "path": ".ua/.trash-1788882187/tmp/ua-file-extract-results-13.json",
+      "language": "json",
+      "sizeLines": 197,
+      "fileCategory": "config"
+    },
+    {
+      "path": ".ua/.trash-1788882187/tmp/ua-file-extract-results-14.json",
+      "language": "json",
+      "sizeLines": 1343,
+      "fileCategory": "config"
+    },
+    {
+      "path": ".ua/.trash-1788882187/tmp/ua-file-extract-results-15.json",
+      "language": "json",
+      "sizeLines": 93,
+      "fileCategory": "config"
+    },
+    {
+      "path": ".ua/.trash-1788882187/tmp/ua-file-extract-results-16.json",
+      "language": "json",
+      "sizeLines": 93,
+      "fileCategory": "config"
+    },
+    {
+      "path": ".ua/.trash-1788882187/tmp/ua-file-extract-results-17.json",
+      "language": "json",
+      "sizeLines": 472,
+      "fileCategory": "config"
+    },
+    {
+      "path": ".ua/.trash-1788882187/tmp/ua-file-extract-results-18.json",
+      "language": "json",
+      "sizeLines": 306,
+      "fileCategory": "config"
+    },
+    {
+      "path": ".ua/.trash-1788882187/tmp/ua-file-extract-results-19.json",
+      "language": "json",
+      "sizeLines": 109,
+      "fileCategory": "config"
+    },
+    {
+      "path": ".ua/.trash-1788882187/tmp/ua-file-extract-results-2.json",
+      "language": "json",
+      "sizeLines": 34072,
+      "fileCategory": "config"
+    },
+    {
+      "path": ".ua/.trash-1788882187/tmp/ua-file-extract-results-20.json",
+      "language": "json",
+      "sizeLines": 74,
+      "fileCategory": "config"
+    },
+    {
+      "path": ".ua/.trash-1788882187/tmp/ua-file-extract-results-21.json",
+      "language": "json",
+      "sizeLines": 33,
+      "fileCategory": "config"
+    },
+    {
+      "path": ".ua/.trash-1788882187/tmp/ua-file-extract-results-22.json",
+      "language": "json",
+      "sizeLines": 1042,
+      "fileCategory": "config"
+    },
+    {
+      "path": ".ua/.trash-1788882187/tmp/ua-file-extract-results-23.json",
+      "language": "json",
+      "sizeLines": 1292,
+      "fileCategory": "config"
+    },
+    {
+      "path": ".ua/.trash-1788882187/tmp/ua-file-extract-results-24.json",
+      "language": "json",
+      "sizeLines": 1162,
+      "fileCategory": "config"
+    },
+    {
+      "path": ".ua/.trash-1788882187/tmp/ua-file-extract-results-25.json",
+      "language": "json",
+      "sizeLines": 300,
+      "fileCategory": "config"
+    },
+    {
+      "path": ".ua/.trash-1788882187/tmp/ua-file-extract-results-26.json",
+      "language": "json",
+      "sizeLines": 2127,
+      "fileCategory": "config"
+    }
+  ],
+  "batchImportData": {
+    ".ua/.trash-1788882187/tmp/ua-file-analyzer-input-9.json": [],
+    ".ua/.trash-1788882187/tmp/ua-file-extract-results-1.json": [],
+    ".ua/.trash-1788882187/tmp/ua-file-extract-results-10.json": [],
+    ".ua/.trash-1788882187/tmp/ua-file-extract-results-11.json": [],
+    ".ua/.trash-1788882187/tmp/ua-file-extract-results-12.json": [],
+    ".ua/.trash-1788882187/tmp/ua-file-extract-results-13.json": [],
+    ".ua/.trash-1788882187/tmp/ua-file-extract-results-14.json": [],
+    ".ua/.trash-1788882187/tmp/ua-file-extract-results-15.json": [],
+    ".ua/.trash-1788882187/tmp/ua-file-extract-results-16.json": [],
+    ".ua/.trash-1788882187/tmp/ua-file-extract-results-17.json": [],
+    ".ua/.trash-1788882187/tmp/ua-file-extract-results-18.json": [],
+    ".ua/.trash-1788882187/tmp/ua-file-extract-results-19.json": [],
+    ".ua/.trash-1788882187/tmp/ua-file-extract-results-2.json": [],
+    ".ua/.trash-1788882187/tmp/ua-file-extract-results-20.json": [],
+    ".ua/.trash-1788882187/tmp/ua-file-extract-results-21.json": [],
+    ".ua/.trash-1788882187/tmp/ua-file-extract-results-22.json": [],
+    ".ua/.trash-1788882187/tmp/ua-file-extract-results-23.json": [],
+    ".ua/.trash-1788882187/tmp/ua-file-extract-results-24.json": [],
+    ".ua/.trash-1788882187/tmp/ua-file-extract-results-25.json": [],
+    ".ua/.trash-1788882187/tmp/ua-file-extract-results-26.json": []
+  }
+}

@@ -1,0 +1,339 @@
+{
+  "batchIndex": 50,
+  "nodes": [
+    {
+      "id": "config:JuliaSyntax/docs/Manifest.toml",
+      "type": "config",
+      "name": "Manifest.toml",
+      "filePath": "JuliaSyntax/docs/Manifest.toml",
+      "summary": "Configuration file: Manifest.toml.",
+      "tags": [
+        "configuration"
+      ],
+      "complexity": "moderate",
+      "language": "toml"
+    },
+    {
+      "id": "config:JuliaSyntax/docs/Project.toml",
+      "type": "config",
+      "name": "Project.toml",
+      "filePath": "JuliaSyntax/docs/Project.toml",
+      "summary": "Configuration file: Project.toml.",
+      "tags": [
+        "configuration"
+      ],
+      "complexity": "simple",
+      "language": "toml"
+    }
+  ],
+  "edges": [],
+  "batchFiles": [
+    {
+      "path": "JuliaSyntax/docs/Manifest.toml",
+      "language": "toml",
+      "fileCategory": "config",
+      "totalLines": 254,
+      "nonEmptyLines": 200,
+      "sections": [
+        {
+          "heading": "[[deps.ANSIColoredPrinters]]",
+          "level": 2,
+          "line": 7
+        },
+        {
+          "heading": "[[deps.AbstractTrees]]",
+          "level": 2,
+          "line": 12
+        },
+        {
+          "heading": "[[deps.ArgTools]]",
+          "level": 2,
+          "line": 17
+        },
+        {
+          "heading": "[[deps.Artifacts]]",
+          "level": 2,
+          "line": 21
+        },
+        {
+          "heading": "[[deps.Base64]]",
+          "level": 2,
+          "line": 24
+        },
+        {
+          "heading": "[[deps.Dates]]",
+          "level": 2,
+          "line": 27
+        },
+        {
+          "heading": "[[deps.DocStringExtensions]]",
+          "level": 2,
+          "line": 31
+        },
+        {
+          "heading": "[[deps.Documenter]]",
+          "level": 2,
+          "line": 37
+        },
+        {
+          "heading": "[[deps.Downloads]]",
+          "level": 2,
+          "line": 43
+        },
+        {
+          "heading": "[[deps.Expat_jll]]",
+          "level": 2,
+          "line": 48
+        },
+        {
+          "heading": "[[deps.FileWatching]]",
+          "level": 2,
+          "line": 54
+        },
+        {
+          "heading": "[[deps.Git]]",
+          "level": 2,
+          "line": 57
+        },
+        {
+          "heading": "[[deps.Git_jll]]",
+          "level": 2,
+          "line": 63
+        },
+        {
+          "heading": "[[deps.IOCapture]]",
+          "level": 2,
+          "line": 69
+        },
+        {
+          "heading": "[[deps.InteractiveUtils]]",
+          "level": 2,
+          "line": 75
+        },
+        {
+          "heading": "[[deps.JLLWrappers]]",
+          "level": 2,
+          "line": 79
+        },
+        {
+          "heading": "[[deps.JSON]]",
+          "level": 2,
+          "line": 85
+        },
+        {
+          "heading": "[[deps.LazilyInitializedFields]]",
+          "level": 2,
+          "line": 91
+        },
+        {
+          "heading": "[[deps.LibCURL]]",
+          "level": 2,
+          "line": 96
+        },
+        {
+          "heading": "[[deps.LibCURL_jll]]",
+          "level": 2,
+          "line": 101
+        },
+        {
+          "heading": "[[deps.LibGit2]]",
+          "level": 2,
+          "line": 106
+        },
+        {
+          "heading": "[[deps.LibGit2_jll]]",
+          "level": 2,
+          "line": 110
+        },
+        {
+          "heading": "[[deps.LibSSH2_jll]]",
+          "level": 2,
+          "line": 115
+        },
+        {
+          "heading": "[[deps.Libdl]]",
+          "level": 2,
+          "line": 120
+        },
+        {
+          "heading": "[[deps.Libiconv_jll]]",
+          "level": 2,
+          "line": 123
+        },
+        {
+          "heading": "[[deps.Logging]]",
+          "level": 2,
+          "line": 129
+        },
+        {
+          "heading": "[[deps.Markdown]]",
+          "level": 2,
+          "line": 132
+        },
+        {
+          "heading": "[[deps.MarkdownAST]]",
+          "level": 2,
+          "line": 136
+        },
+        {
+          "heading": "[[deps.MbedTLS_jll]]",
+          "level": 2,
+          "line": 142
+        },
+        {
+          "heading": "[[deps.Mmap]]",
+          "level": 2,
+          "line": 147
+        },
+        {
+          "heading": "[[deps.MozillaCACerts_jll]]",
+          "level": 2,
+          "line": 150
+        },
+        {
+          "heading": "[[deps.NetworkOptions]]",
+          "level": 2,
+          "line": 154
+        },
+        {
+          "heading": "[[deps.OpenSSL_jll]]",
+          "level": 2,
+          "line": 158
+        },
+        {
+          "heading": "[[deps.PCRE2_jll]]",
+          "level": 2,
+          "line": 164
+        },
+        {
+          "heading": "[[deps.Parsers]]",
+          "level": 2,
+          "line": 169
+        },
+        {
+          "heading": "[[deps.Pkg]]",
+          "level": 2,
+          "line": 175
+        },
+        {
+          "heading": "[[deps.PrecompileTools]]",
+          "level": 2,
+          "line": 180
+        },
+        {
+          "heading": "[[deps.Preferences]]",
+          "level": 2,
+          "line": 186
+        },
+        {
+          "heading": "[[deps.Printf]]",
+          "level": 2,
+          "line": 192
+        },
+        {
+          "heading": "[[deps.REPL]]",
+          "level": 2,
+          "line": 196
+        },
+        {
+          "heading": "[[deps.Random]]",
+          "level": 2,
+          "line": 200
+        },
+        {
+          "heading": "[[deps.RegistryInstances]]",
+          "level": 2,
+          "line": 204
+        },
+        {
+          "heading": "[[deps.SHA]]",
+          "level": 2,
+          "line": 210
+        },
+        {
+          "heading": "[[deps.Serialization]]",
+          "level": 2,
+          "line": 214
+        },
+        {
+          "heading": "[[deps.Sockets]]",
+          "level": 2,
+          "line": 217
+        },
+        {
+          "heading": "[[deps.TOML]]",
+          "level": 2,
+          "line": 220
+        },
+        {
+          "heading": "[[deps.Tar]]",
+          "level": 2,
+          "line": 225
+        },
+        {
+          "heading": "[[deps.Test]]",
+          "level": 2,
+          "line": 230
+        },
+        {
+          "heading": "[[deps.UUIDs]]",
+          "level": 2,
+          "line": 234
+        },
+        {
+          "heading": "[[deps.Unicode]]",
+          "level": 2,
+          "line": 238
+        },
+        {
+          "heading": "[[deps.Zlib_jll]]",
+          "level": 2,
+          "line": 241
+        },
+        {
+          "heading": "[[deps.nghttp2_jll]]",
+          "level": 2,
+          "line": 246
+        },
+        {
+          "heading": "[[deps.p7zip_jll]]",
+          "level": 2,
+          "line": 251
+        }
+      ],
+      "metrics": {
+        "importCount": 0,
+        "exportCount": 0,
+        "functionCount": 0,
+        "classCount": 0,
+        "sectionCount": 53
+      }
+    },
+    {
+      "path": "JuliaSyntax/docs/Project.toml",
+      "language": "toml",
+      "fileCategory": "config",
+      "totalLines": 5,
+      "nonEmptyLines": 4,
+      "sections": [
+        {
+          "heading": "deps",
+          "level": 1,
+          "line": 1
+        },
+        {
+          "heading": "compat",
+          "level": 1,
+          "line": 4
+        }
+      ],
+      "metrics": {
+        "importCount": 0,
+        "exportCount": 0,
+        "functionCount": 0,
+        "classCount": 0,
+        "sectionCount": 2
+      }
+    }
+  ]
+}

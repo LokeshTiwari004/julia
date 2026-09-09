@@ -1,0 +1,182 @@
+{
+  "projectRoot": "/home/maruti/julia",
+  "batchFiles": [
+    {
+      "path": "test/testhelpers/StructArrays.jl",
+      "language": "jl",
+      "sizeLines": 39,
+      "fileCategory": "code"
+    },
+    {
+      "path": "test/testhelpers/ULPError.jl",
+      "language": "jl",
+      "sizeLines": 47,
+      "fileCategory": "code"
+    },
+    {
+      "path": "test/testhelpers/allocation_file.jl",
+      "language": "jl",
+      "sizeLines": 8,
+      "fileCategory": "code"
+    },
+    {
+      "path": "test/testhelpers/arrayindexingtypes.jl",
+      "language": "jl",
+      "sizeLines": 93,
+      "fileCategory": "code"
+    },
+    {
+      "path": "test/testhelpers/coverage_constructs.jl",
+      "language": "jl",
+      "sizeLines": 70,
+      "fileCategory": "code"
+    },
+    {
+      "path": "test/testhelpers/coverage_file.info",
+      "language": "info",
+      "sizeLines": 21,
+      "fileCategory": "code"
+    },
+    {
+      "path": "test/testhelpers/coverage_file.jl",
+      "language": "jl",
+      "sizeLines": 29,
+      "fileCategory": "code"
+    },
+    {
+      "path": "test/testhelpers/coverage_macros.jl",
+      "language": "jl",
+      "sizeLines": 16,
+      "fileCategory": "code"
+    },
+    {
+      "path": "test/testhelpers/coverage_macrouse.jl",
+      "language": "jl",
+      "sizeLines": 10,
+      "fileCategory": "code"
+    },
+    {
+      "path": "test/testhelpers/coverage_threads.jl",
+      "language": "jl",
+      "sizeLines": 18,
+      "fileCategory": "code"
+    },
+    {
+      "path": "test/testhelpers/coverage_toplevel.jl",
+      "language": "jl",
+      "sizeLines": 12,
+      "fileCategory": "code"
+    },
+    {
+      "path": "test/testhelpers/include_error.jl",
+      "language": "jl",
+      "sizeLines": 3,
+      "fileCategory": "code"
+    },
+    {
+      "path": "test/testhelpers/just_module.jl",
+      "language": "jl",
+      "sizeLines": 1,
+      "fileCategory": "code"
+    },
+    {
+      "path": "test/testhelpers/llvmpasses.jl",
+      "language": "jl",
+      "sizeLines": 31,
+      "fileCategory": "code"
+    },
+    {
+      "path": "test/testhelpers/print_syntax_version.jl",
+      "language": "jl",
+      "sizeLines": 1,
+      "fileCategory": "code"
+    },
+    {
+      "path": "test/testhelpers/return_syntax_version.jl",
+      "language": "jl",
+      "sizeLines": 1,
+      "fileCategory": "code"
+    },
+    {
+      "path": "test/testhelpers/samepath.jl",
+      "language": "jl",
+      "sizeLines": 33,
+      "fileCategory": "code"
+    },
+    {
+      "path": "test/testhelpers/withlocales.jl",
+      "language": "jl",
+      "sizeLines": 27,
+      "fileCategory": "code"
+    },
+    {
+      "path": "test/threadpool_latency.jl",
+      "language": "jl",
+      "sizeLines": 50,
+      "fileCategory": "code"
+    },
+    {
+      "path": "test/threadpool_use.jl",
+      "language": "jl",
+      "sizeLines": 28,
+      "fileCategory": "code"
+    },
+    {
+      "path": "test/threads.jl",
+      "language": "jl",
+      "sizeLines": 948,
+      "fileCategory": "code"
+    },
+    {
+      "path": "test/threads_comprehensions.jl",
+      "language": "jl",
+      "sizeLines": 345,
+      "fileCategory": "code"
+    },
+    {
+      "path": "test/threads_exec.jl",
+      "language": "jl",
+      "sizeLines": 1932,
+      "fileCategory": "code"
+    },
+    {
+      "path": "test/trim.jl",
+      "language": "jl",
+      "sizeLines": 104,
+      "fileCategory": "code"
+    },
+    {
+      "path": "test/trim/BasicJLL/Project.toml",
+      "language": "toml",
+      "sizeLines": 10,
+      "fileCategory": "config"
+    }
+  ],
+  "batchImportData": {
+    "test/testhelpers/StructArrays.jl": [],
+    "test/testhelpers/ULPError.jl": [],
+    "test/testhelpers/allocation_file.jl": [],
+    "test/testhelpers/arrayindexingtypes.jl": [],
+    "test/testhelpers/coverage_constructs.jl": [],
+    "test/testhelpers/coverage_file.info": [],
+    "test/testhelpers/coverage_file.jl": [],
+    "test/testhelpers/coverage_macros.jl": [],
+    "test/testhelpers/coverage_macrouse.jl": [],
+    "test/testhelpers/coverage_threads.jl": [],
+    "test/testhelpers/coverage_toplevel.jl": [],
+    "test/testhelpers/include_error.jl": [],
+    "test/testhelpers/just_module.jl": [],
+    "test/testhelpers/llvmpasses.jl": [],
+    "test/testhelpers/print_syntax_version.jl": [],
+    "test/testhelpers/return_syntax_version.jl": [],
+    "test/testhelpers/samepath.jl": [],
+    "test/testhelpers/withlocales.jl": [],
+    "test/threadpool_latency.jl": [],
+    "test/threadpool_use.jl": [],
+    "test/threads.jl": [],
+    "test/threads_comprehensions.jl": [],
+    "test/threads_exec.jl": [],
+    "test/trim.jl": [],
+    "test/trim/BasicJLL/Project.toml": []
+  }
+}

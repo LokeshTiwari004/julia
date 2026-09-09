@@ -1,0 +1,147 @@
+{
+  "projectRoot": "/home/maruti/julia",
+  "batchFiles": [
+    {
+      "path": "doc/src/manual/mathematical-operations.md",
+      "language": "markdown",
+      "sizeLines": 691,
+      "fileCategory": "docs"
+    },
+    {
+      "path": "doc/src/manual/memory-management.md",
+      "language": "markdown",
+      "sizeLines": 177,
+      "fileCategory": "docs"
+    },
+    {
+      "path": "doc/src/manual/metaprogramming.md",
+      "language": "markdown",
+      "sizeLines": 1503,
+      "fileCategory": "docs"
+    },
+    {
+      "path": "doc/src/manual/methods.md",
+      "language": "markdown",
+      "sizeLines": 1264,
+      "fileCategory": "docs"
+    },
+    {
+      "path": "doc/src/manual/missing.md",
+      "language": "markdown",
+      "sizeLines": 429,
+      "fileCategory": "docs"
+    },
+    {
+      "path": "doc/src/manual/modules.md",
+      "language": "markdown",
+      "sizeLines": 700,
+      "fileCategory": "docs"
+    },
+    {
+      "path": "doc/src/manual/multi-threading.md",
+      "language": "markdown",
+      "sizeLines": 675,
+      "fileCategory": "docs"
+    },
+    {
+      "path": "doc/src/manual/networking-and-streams.md",
+      "language": "markdown",
+      "sizeLines": 458,
+      "fileCategory": "docs"
+    },
+    {
+      "path": "doc/src/manual/noteworthy-differences.md",
+      "language": "markdown",
+      "sizeLines": 485,
+      "fileCategory": "docs"
+    },
+    {
+      "path": "doc/src/manual/parallel-computing.md",
+      "language": "markdown",
+      "sizeLines": 34,
+      "fileCategory": "docs"
+    },
+    {
+      "path": "doc/src/manual/performance-tips.md",
+      "language": "markdown",
+      "sizeLines": 1989,
+      "fileCategory": "docs"
+    },
+    {
+      "path": "doc/src/manual/profile.md",
+      "language": "markdown",
+      "sizeLines": 697,
+      "fileCategory": "docs"
+    },
+    {
+      "path": "doc/src/manual/running-external-programs.md",
+      "language": "markdown",
+      "sizeLines": 423,
+      "fileCategory": "docs"
+    },
+    {
+      "path": "doc/src/manual/stacktraces.md",
+      "language": "markdown",
+      "sizeLines": 312,
+      "fileCategory": "docs"
+    },
+    {
+      "path": "doc/src/manual/strings.md",
+      "language": "markdown",
+      "sizeLines": 1273,
+      "fileCategory": "docs"
+    },
+    {
+      "path": "doc/src/manual/style-guide.md",
+      "language": "markdown",
+      "sizeLines": 479,
+      "fileCategory": "docs"
+    },
+    {
+      "path": "doc/src/manual/types.md",
+      "language": "markdown",
+      "sizeLines": 1708,
+      "fileCategory": "docs"
+    },
+    {
+      "path": "doc/src/manual/unicode-input.md",
+      "language": "markdown",
+      "sizeLines": 93,
+      "fileCategory": "docs"
+    },
+    {
+      "path": "doc/src/manual/variables-and-scoping.md",
+      "language": "markdown",
+      "sizeLines": 814,
+      "fileCategory": "docs"
+    },
+    {
+      "path": "doc/src/manual/variables.md",
+      "language": "markdown",
+      "sizeLines": 253,
+      "fileCategory": "docs"
+    }
+  ],
+  "batchImportData": {
+    "doc/src/manual/mathematical-operations.md": [],
+    "doc/src/manual/memory-management.md": [],
+    "doc/src/manual/metaprogramming.md": [],
+    "doc/src/manual/methods.md": [],
+    "doc/src/manual/missing.md": [],
+    "doc/src/manual/modules.md": [],
+    "doc/src/manual/multi-threading.md": [],
+    "doc/src/manual/networking-and-streams.md": [],
+    "doc/src/manual/noteworthy-differences.md": [],
+    "doc/src/manual/parallel-computing.md": [],
+    "doc/src/manual/performance-tips.md": [],
+    "doc/src/manual/profile.md": [],
+    "doc/src/manual/running-external-programs.md": [],
+    "doc/src/manual/stacktraces.md": [],
+    "doc/src/manual/strings.md": [],
+    "doc/src/manual/style-guide.md": [],
+    "doc/src/manual/types.md": [],
+    "doc/src/manual/unicode-input.md": [],
+    "doc/src/manual/variables-and-scoping.md": [],
+    "doc/src/manual/variables.md": []
+  }
+}

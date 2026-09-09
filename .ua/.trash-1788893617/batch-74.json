@@ -1,0 +1,145 @@
+{
+  "batchIndex": 74,
+  "nodes": [
+    {
+      "id": "config:stdlib/Markdown/Project.toml",
+      "type": "config",
+      "name": "Project.toml",
+      "filePath": "stdlib/Markdown/Project.toml",
+      "summary": "Configuration file: Project.toml.",
+      "tags": [
+        "configuration"
+      ],
+      "complexity": "simple",
+      "language": "toml"
+    },
+    {
+      "id": "document:stdlib/Markdown/docs/src/index.md",
+      "type": "document",
+      "name": "index.md",
+      "filePath": "stdlib/Markdown/docs/src/index.md",
+      "summary": "Documentation covering [Markdown](@id markdown_stdlib), Inline elements, Bold and more.",
+      "tags": [
+        "documentation",
+        "runtime"
+      ],
+      "complexity": "complex",
+      "language": "markdown"
+    }
+  ],
+  "edges": [],
+  "batchFiles": [
+    {
+      "path": "stdlib/Markdown/Project.toml",
+      "language": "toml",
+      "fileCategory": "config",
+      "totalLines": 14,
+      "nonEmptyLines": 11,
+      "sections": [
+        {
+          "heading": "deps",
+          "level": 1,
+          "line": 5
+        },
+        {
+          "heading": "extras",
+          "level": 1,
+          "line": 10
+        },
+        {
+          "heading": "targets",
+          "level": 1,
+          "line": 13
+        }
+      ],
+      "metrics": {
+        "importCount": 0,
+        "exportCount": 0,
+        "functionCount": 0,
+        "classCount": 0,
+        "sectionCount": 3
+      }
+    },
+    {
+      "path": "stdlib/Markdown/docs/src/index.md",
+      "language": "markdown",
+      "fileCategory": "docs",
+      "totalLines": 452,
+      "nonEmptyLines": 318,
+      "sections": [
+        {
+          "heading": "[Markdown](@id markdown_stdlib)",
+          "level": 1,
+          "line": 5
+        },
+        {
+          "heading": "Inline elements",
+          "level": 2,
+          "line": 10
+        },
+        {
+          "heading": "Bold",
+          "level": 3,
+          "line": 15
+        },
+        {
+          "heading": "Italics",
+          "level": 3,
+          "line": 23
+        },
+        {
+          "heading": "Strikethrough",
+          "level": 3,
+          "line": 31
+        },
+        {
+          "heading": "Literals",
+          "level": 3,
+          "line": 39
+        },
+        {
+          "heading": "``\\LaTeX``",
+          "level": 3,
+          "line": 60
+        },
+        {
+          "heading": "Level One",
+          "level": 1,
+          "line": 160
+        },
+        {
+          "heading": "Level Two",
+          "level": 2,
+          "line": 161
+        },
+        {
+          "heading": "Level Three",
+          "level": 3,
+          "line": 162
+        },
+        {
+          "heading": "Level Four",
+          "level": 4,
+          "line": 163
+        },
+        {
+          "heading": "Level Five",
+          "level": 5,
+          "line": 164
+        },
+        {
+          "heading": "Level Six",
+          "level": 6,
+          "line": 165
+        }
+      ],
+      "metrics": {
+        "importCount": 0,
+        "exportCount": 0,
+        "functionCount": 0,
+        "classCount": 0,
+        "sectionCount": 13
+      }
+    }
+  ]
+}

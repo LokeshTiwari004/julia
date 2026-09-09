@@ -1,0 +1,32 @@
+{
+  "projectRoot": "/home/maruti/julia",
+  "batchFiles": [
+    {
+      "path": "src/support/rle.c",
+      "language": "c",
+      "sizeLines": 92,
+      "fileCategory": "code"
+    },
+    {
+      "path": "src/support/rle.h",
+      "language": "c",
+      "sizeLines": 49,
+      "fileCategory": "code"
+    },
+    {
+      "path": "src/support/test/rletest.c",
+      "language": "c",
+      "sizeLines": 60,
+      "fileCategory": "code"
+    }
+  ],
+  "batchImportData": {
+    "src/support/rle.c": [
+      "src/support/rle.h"
+    ],
+    "src/support/rle.h": [],
+    "src/support/test/rletest.c": [
+      "src/support/rle.h"
+    ]
+  }
+}

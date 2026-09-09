@@ -1,0 +1,2130 @@
+{
+  "batchIndex": 41,
+  "nodes": [
+    {
+      "id": "document:doc/src/manual/mathematical-operations.md",
+      "type": "document",
+      "name": "mathematical-operations.md",
+      "filePath": "doc/src/manual/mathematical-operations.md",
+      "summary": "Documentation covering Mathematical Operations and Elementary Functions, Arithmetic Operators, Boolean Operators and more.",
+      "tags": [
+        "documentation",
+        "runtime"
+      ],
+      "complexity": "complex",
+      "language": "markdown"
+    },
+    {
+      "id": "document:doc/src/manual/memory-management.md",
+      "type": "document",
+      "name": "memory-management.md",
+      "filePath": "doc/src/manual/memory-management.md",
+      "summary": "Documentation covering [Memory Management and Garbage Collection](@id man-memory-management), [Garbage Collection Overview](@id man-gc-overview), [Memory Architecture](@id man-memory-architecture) and more.",
+      "tags": [
+        "documentation",
+        "runtime",
+        "gc"
+      ],
+      "complexity": "moderate",
+      "language": "markdown"
+    },
+    {
+      "id": "document:doc/src/manual/metaprogramming.md",
+      "type": "document",
+      "name": "metaprogramming.md",
+      "filePath": "doc/src/manual/metaprogramming.md",
+      "summary": "Documentation covering Metaprogramming, Program representation, Symbols and more.",
+      "tags": [
+        "documentation",
+        "runtime"
+      ],
+      "complexity": "complex",
+      "language": "markdown"
+    },
+    {
+      "id": "document:doc/src/manual/methods.md",
+      "type": "document",
+      "name": "methods.md",
+      "filePath": "doc/src/manual/methods.md",
+      "summary": "Documentation covering Methods, Defining Methods, [Method specializations](@id man-method-specializations) and more.",
+      "tags": [
+        "documentation",
+        "runtime"
+      ],
+      "complexity": "complex",
+      "language": "markdown"
+    },
+    {
+      "id": "document:doc/src/manual/missing.md",
+      "type": "document",
+      "name": "missing.md",
+      "filePath": "doc/src/manual/missing.md",
+      "summary": "Documentation covering [Missing Values](@id missing), Propagation of Missing Values, Equality and Comparison Operators and more.",
+      "tags": [
+        "documentation",
+        "runtime"
+      ],
+      "complexity": "complex",
+      "language": "markdown"
+    },
+    {
+      "id": "document:doc/src/manual/modules.md",
+      "type": "document",
+      "name": "modules.md",
+      "filePath": "doc/src/manual/modules.md",
+      "summary": "Documentation covering [Modules](@id modules), [Namespace management](@id namespace-management), Qualified names and more.",
+      "tags": [
+        "documentation",
+        "runtime"
+      ],
+      "complexity": "complex",
+      "language": "markdown"
+    },
+    {
+      "id": "document:doc/src/manual/multi-threading.md",
+      "type": "document",
+      "name": "multi-threading.md",
+      "filePath": "doc/src/manual/multi-threading.md",
+      "summary": "Documentation covering [Multi-Threading](@id man-multithreading), Starting Julia with multiple threads, Multiple GC Threads and more.",
+      "tags": [
+        "documentation",
+        "runtime"
+      ],
+      "complexity": "complex",
+      "language": "markdown"
+    },
+    {
+      "id": "document:doc/src/manual/networking-and-streams.md",
+      "type": "document",
+      "name": "networking-and-streams.md",
+      "filePath": "doc/src/manual/networking-and-streams.md",
+      "summary": "Documentation covering Networking and Streams, Basic Stream I/O, Text I/O and more.",
+      "tags": [
+        "documentation",
+        "runtime"
+      ],
+      "complexity": "complex",
+      "language": "markdown"
+    },
+    {
+      "id": "document:doc/src/manual/noteworthy-differences.md",
+      "type": "document",
+      "name": "noteworthy-differences.md",
+      "filePath": "doc/src/manual/noteworthy-differences.md",
+      "summary": "Documentation covering Noteworthy Differences from other Languages, Noteworthy differences from MATLAB, Noteworthy differences from R and more.",
+      "tags": [
+        "documentation",
+        "runtime"
+      ],
+      "complexity": "complex",
+      "language": "markdown"
+    },
+    {
+      "id": "document:doc/src/manual/parallel-computing.md",
+      "type": "document",
+      "name": "parallel-computing.md",
+      "filePath": "doc/src/manual/parallel-computing.md",
+      "summary": "Documentation covering Parallel Computing.",
+      "tags": [
+        "documentation",
+        "runtime"
+      ],
+      "complexity": "simple",
+      "language": "markdown"
+    },
+    {
+      "id": "document:doc/src/manual/performance-tips.md",
+      "type": "document",
+      "name": "performance-tips.md",
+      "filePath": "doc/src/manual/performance-tips.md",
+      "summary": "Documentation covering [Performance Tips](@id man-performance-tips), [Table of contents](@id man-performance-tips-toc), General advice and more.",
+      "tags": [
+        "documentation",
+        "runtime"
+      ],
+      "complexity": "complex",
+      "language": "markdown"
+    },
+    {
+      "id": "document:doc/src/manual/profile.md",
+      "type": "document",
+      "name": "profile.md",
+      "filePath": "doc/src/manual/profile.md",
+      "summary": "Documentation covering Profiling, Basic usage, Accumulation and clearing and more.",
+      "tags": [
+        "documentation",
+        "runtime"
+      ],
+      "complexity": "complex",
+      "language": "markdown"
+    },
+    {
+      "id": "document:doc/src/manual/running-external-programs.md",
+      "type": "document",
+      "name": "running-external-programs.md",
+      "filePath": "doc/src/manual/running-external-programs.md",
+      "summary": "Documentation covering Running External Programs, [Interpolation](@id command-interpolation), Quoting and more.",
+      "tags": [
+        "documentation",
+        "runtime"
+      ],
+      "complexity": "complex",
+      "language": "markdown"
+    },
+    {
+      "id": "document:doc/src/manual/stacktraces.md",
+      "type": "document",
+      "name": "stacktraces.md",
+      "filePath": "doc/src/manual/stacktraces.md",
+      "summary": "Documentation covering Stack Traces, Viewing a stack trace, Extracting useful information and more.",
+      "tags": [
+        "documentation",
+        "runtime"
+      ],
+      "complexity": "complex",
+      "language": "markdown"
+    },
+    {
+      "id": "document:doc/src/manual/strings.md",
+      "type": "document",
+      "name": "strings.md",
+      "filePath": "doc/src/manual/strings.md",
+      "summary": "Documentation covering [Strings](@id man-strings), [Characters](@id man-characters), String Basics and more.",
+      "tags": [
+        "documentation",
+        "runtime"
+      ],
+      "complexity": "complex",
+      "language": "markdown"
+    },
+    {
+      "id": "document:doc/src/manual/style-guide.md",
+      "type": "document",
+      "name": "style-guide.md",
+      "filePath": "doc/src/manual/style-guide.md",
+      "summary": "Documentation covering Style Guide, Indentation, Write functions, not just scripts and more.",
+      "tags": [
+        "documentation",
+        "runtime"
+      ],
+      "complexity": "complex",
+      "language": "markdown"
+    },
+    {
+      "id": "document:doc/src/manual/types.md",
+      "type": "document",
+      "name": "types.md",
+      "filePath": "doc/src/manual/types.md",
+      "summary": "Documentation covering [Types](@id man-types), Type Declarations, [Abstract Types](@id man-abstract-types) and more.",
+      "tags": [
+        "documentation",
+        "runtime",
+        "type-inference"
+      ],
+      "complexity": "complex",
+      "language": "markdown"
+    },
+    {
+      "id": "document:doc/src/manual/unicode-input.md",
+      "type": "document",
+      "name": "unicode-input.md",
+      "filePath": "doc/src/manual/unicode-input.md",
+      "summary": "Documentation covering Unicode Input.",
+      "tags": [
+        "documentation",
+        "runtime"
+      ],
+      "complexity": "moderate",
+      "language": "markdown"
+    },
+    {
+      "id": "document:doc/src/manual/variables-and-scoping.md",
+      "type": "document",
+      "name": "variables-and-scoping.md",
+      "filePath": "doc/src/manual/variables-and-scoping.md",
+      "summary": "Documentation covering [Scope of Variables](@id scope-of-variables), [Scope Constructs](@id man-scope-table), Global Scope and more.",
+      "tags": [
+        "documentation",
+        "runtime"
+      ],
+      "complexity": "complex",
+      "language": "markdown"
+    },
+    {
+      "id": "document:doc/src/manual/variables.md",
+      "type": "document",
+      "name": "variables.md",
+      "filePath": "doc/src/manual/variables.md",
+      "summary": "Documentation covering [Variables](@id man-variables), [Allowed Variable Names](@id man-allowed-variable-names), [Assignment expressions and assignment versus mutation](@id man-assignment-expressions) and more.",
+      "tags": [
+        "documentation",
+        "runtime"
+      ],
+      "complexity": "moderate",
+      "language": "markdown"
+    }
+  ],
+  "edges": [],
+  "batchFiles": [
+    {
+      "path": "doc/src/manual/mathematical-operations.md",
+      "language": "markdown",
+      "fileCategory": "docs",
+      "totalLines": 691,
+      "nonEmptyLines": 533,
+      "sections": [
+        {
+          "heading": "Mathematical Operations and Elementary Functions",
+          "level": 1,
+          "line": 1
+        },
+        {
+          "heading": "Arithmetic Operators",
+          "level": 2,
+          "line": 7
+        },
+        {
+          "heading": "Boolean Operators",
+          "level": 2,
+          "line": 50
+        },
+        {
+          "heading": "Arithmetic operations with `Bool` values",
+          "level": 2,
+          "line": 62
+        },
+        {
+          "heading": "Bitwise Operators",
+          "level": 2,
+          "line": 86
+        },
+        {
+          "heading": "Updating operators",
+          "level": 2,
+          "line": 140
+        },
+        {
+          "heading": "[Vectorized \"dot\" operators](@id man-dot-operators)",
+          "level": 2,
+          "line": 179
+        },
+        {
+          "heading": "Numeric Comparisons",
+          "level": 2,
+          "line": 229
+        },
+        {
+          "heading": "Chaining comparisons",
+          "level": 3,
+          "line": 352
+        },
+        {
+          "heading": "Elementary Functions",
+          "level": 3,
+          "line": 391
+        },
+        {
+          "heading": "Operator Precedence and Associativity",
+          "level": 2,
+          "line": 402
+        },
+        {
+          "heading": "Numerical Conversions",
+          "level": 2,
+          "line": 541
+        },
+        {
+          "heading": "Rounding functions",
+          "level": 3,
+          "line": 598
+        },
+        {
+          "heading": "Division functions",
+          "level": 3,
+          "line": 611
+        },
+        {
+          "heading": "Sign and absolute value functions",
+          "level": 3,
+          "line": 627
+        },
+        {
+          "heading": "Powers, logs and roots",
+          "level": 3,
+          "line": 638
+        },
+        {
+          "heading": "Trigonometric and hyperbolic functions",
+          "level": 3,
+          "line": 661
+        },
+        {
+          "heading": "Special functions",
+          "level": 3,
+          "line": 688
+        }
+      ],
+      "metrics": {
+        "importCount": 0,
+        "exportCount": 0,
+        "functionCount": 0,
+        "classCount": 0,
+        "sectionCount": 18
+      }
+    },
+    {
+      "path": "doc/src/manual/memory-management.md",
+      "language": "markdown",
+      "fileCategory": "docs",
+      "totalLines": 177,
+      "nonEmptyLines": 111,
+      "sections": [
+        {
+          "heading": "[Memory Management and Garbage Collection](@id man-memory-management)",
+          "level": 1,
+          "line": 1
+        },
+        {
+          "heading": "[Garbage Collection Overview](@id man-gc-overview)",
+          "level": 2,
+          "line": 5
+        },
+        {
+          "heading": "[Memory Architecture](@id man-memory-architecture)",
+          "level": 2,
+          "line": 16
+        },
+        {
+          "heading": "[System Memory Requirements](@id man-system-memory)",
+          "level": 2,
+          "line": 25
+        },
+        {
+          "heading": "Swap Space",
+          "level": 3,
+          "line": 27
+        },
+        {
+          "heading": "Memory Hints",
+          "level": 3,
+          "line": 33
+        },
+        {
+          "heading": "[Multithreaded Garbage Collection](@id man-gc-multithreading)",
+          "level": 2,
+          "line": 55
+        },
+        {
+          "heading": "GC Thread Configuration",
+          "level": 3,
+          "line": 59
+        },
+        {
+          "heading": "Recommendations",
+          "level": 3,
+          "line": 80
+        },
+        {
+          "heading": "[Monitoring and Debugging](@id man-gc-monitoring)",
+          "level": 2,
+          "line": 92
+        },
+        {
+          "heading": "Basic Memory Monitoring",
+          "level": 3,
+          "line": 94
+        },
+        {
+          "heading": "GC Logging",
+          "level": 3,
+          "line": 103
+        },
+        {
+          "heading": "Manual GC Control",
+          "level": 3,
+          "line": 115
+        },
+        {
+          "heading": "[Performance Considerations](@id man-gc-performance)",
+          "level": 2,
+          "line": 127
+        },
+        {
+          "heading": "Reducing Allocations",
+          "level": 3,
+          "line": 129
+        },
+        {
+          "heading": "Memory-Efficient Patterns",
+          "level": 3,
+          "line": 138
+        },
+        {
+          "heading": "Profiling Memory Usage",
+          "level": 3,
+          "line": 143
+        },
+        {
+          "heading": "[Advanced Configuration](@id man-gc-advanced)",
+          "level": 2,
+          "line": 147
+        },
+        {
+          "heading": "Integration with System Memory Management",
+          "level": 3,
+          "line": 149
+        },
+        {
+          "heading": "[Troubleshooting Memory Issues](@id man-gc-troubleshooting)",
+          "level": 2,
+          "line": 158
+        },
+        {
+          "heading": "High GC Overhead",
+          "level": 3,
+          "line": 160
+        },
+        {
+          "heading": "Memory Leaks",
+          "level": 3,
+          "line": 169
+        }
+      ],
+      "metrics": {
+        "importCount": 0,
+        "exportCount": 0,
+        "functionCount": 0,
+        "classCount": 0,
+        "sectionCount": 22
+      }
+    },
+    {
+      "path": "doc/src/manual/metaprogramming.md",
+      "language": "markdown",
+      "fileCategory": "docs",
+      "totalLines": 1503,
+      "nonEmptyLines": 1162,
+      "sections": [
+        {
+          "heading": "Metaprogramming",
+          "level": 1,
+          "line": 1
+        },
+        {
+          "heading": "Program representation",
+          "level": 2,
+          "line": 29
+        },
+        {
+          "heading": "Symbols",
+          "level": 3,
+          "line": 116
+        },
+        {
+          "heading": "Expressions and evaluation",
+          "level": 2,
+          "line": 160
+        },
+        {
+          "heading": "Quoting",
+          "level": 3,
+          "line": 162
+        },
+        {
+          "heading": "[Interpolation](@id man-expression-interpolation)",
+          "level": 3,
+          "line": 217
+        },
+        {
+          "heading": "Splatting interpolation",
+          "level": 3,
+          "line": 250
+        },
+        {
+          "heading": "Nested quote",
+          "level": 3,
+          "line": 267
+        },
+        {
+          "heading": "[QuoteNode](@id man-quote-node)",
+          "level": 3,
+          "line": 329
+        },
+        {
+          "heading": "Evaluating expressions",
+          "level": 3,
+          "line": 374
+        },
+        {
+          "heading": "Functions on `Expr`essions",
+          "level": 3,
+          "line": 447
+        },
+        {
+          "heading": "[Macros](@id man-macros)",
+          "level": 2,
+          "line": 490
+        },
+        {
+          "heading": "Basics",
+          "level": 3,
+          "line": 497
+        },
+        {
+          "heading": "Hold up: why macros?",
+          "level": 3,
+          "line": 562
+        },
+        {
+          "heading": "Macro invocation",
+          "level": 3,
+          "line": 596
+        },
+        {
+          "heading": "Building an advanced macro",
+          "level": 3,
+          "line": 680
+        },
+        {
+          "heading": "Hygiene",
+          "level": 3,
+          "line": 785
+        },
+        {
+          "heading": "Macros and dispatch",
+          "level": 3,
+          "line": 904
+        },
+        {
+          "heading": "Code Generation",
+          "level": 2,
+          "line": 945
+        },
+        {
+          "heading": "[Non-Standard String Literals](@id meta-non-standard-string-literals)",
+          "level": 2,
+          "line": 1016
+        },
+        {
+          "heading": "Generated functions",
+          "level": 2,
+          "line": 1130
+        },
+        {
+          "heading": "An advanced example",
+          "level": 3,
+          "line": 1346
+        },
+        {
+          "heading": "Optionally-generated functions",
+          "level": 3,
+          "line": 1440
+        }
+      ],
+      "metrics": {
+        "importCount": 0,
+        "exportCount": 0,
+        "functionCount": 0,
+        "classCount": 0,
+        "sectionCount": 23
+      }
+    },
+    {
+      "path": "doc/src/manual/methods.md",
+      "language": "markdown",
+      "fileCategory": "docs",
+      "totalLines": 1264,
+      "nonEmptyLines": 965,
+      "sections": [
+        {
+          "heading": "Methods",
+          "level": 1,
+          "line": 1
+        },
+        {
+          "heading": "Defining Methods",
+          "level": 2,
+          "line": 49
+        },
+        {
+          "heading": "[Method specializations](@id man-method-specializations)",
+          "level": 2,
+          "line": 278
+        },
+        {
+          "heading": "[Method Ambiguities](@id man-ambiguities)",
+          "level": 2,
+          "line": 315
+        },
+        {
+          "heading": "Parametric Methods",
+          "level": 2,
+          "line": 375
+        },
+        {
+          "heading": "Design Patterns with Parametric Methods",
+          "level": 2,
+          "line": 588
+        },
+        {
+          "heading": "Extracting the type parameter from a super-type",
+          "level": 3,
+          "line": 595
+        },
+        {
+          "heading": "Building a similar type with a different type parameter",
+          "level": 3,
+          "line": 651
+        },
+        {
+          "heading": "Iterated dispatch",
+          "level": 3,
+          "line": 684
+        },
+        {
+          "heading": "Trait-based dispatch",
+          "level": 3,
+          "line": 708
+        },
+        {
+          "heading": "Output-type computation",
+          "level": 3,
+          "line": 753
+        },
+        {
+          "heading": "Separate convert and kernel logic",
+          "level": 3,
+          "line": 816
+        },
+        {
+          "heading": "Parametrically-constrained Varargs methods",
+          "level": 2,
+          "line": 834
+        },
+        {
+          "heading": "Note on Optional and keyword Arguments",
+          "level": 2,
+          "line": 881
+        },
+        {
+          "heading": "Function-like objects",
+          "level": 2,
+          "line": 956
+        },
+        {
+          "heading": "Empty generic functions",
+          "level": 2,
+          "line": 998
+        },
+        {
+          "heading": "[Method design and the avoidance of ambiguities](@id man-method-design-ambiguities)",
+          "level": 2,
+          "line": 1009
+        },
+        {
+          "heading": "Tuple and NTuple arguments",
+          "level": 3,
+          "line": 1038
+        },
+        {
+          "heading": "[Orthogonalize your design](@id man-methods-orthogonalize)",
+          "level": 3,
+          "line": 1064
+        },
+        {
+          "heading": "Dispatch on one argument at a time",
+          "level": 3,
+          "line": 1107
+        },
+        {
+          "heading": "Abstract containers and element types",
+          "level": 3,
+          "line": 1130
+        },
+        {
+          "heading": "Complex method \"cascades\" with default arguments",
+          "level": 3,
+          "line": 1164
+        },
+        {
+          "heading": "Defining methods in local scope",
+          "level": 2,
+          "line": 1212
+        }
+      ],
+      "metrics": {
+        "importCount": 0,
+        "exportCount": 0,
+        "functionCount": 0,
+        "classCount": 0,
+        "sectionCount": 23
+      }
+    },
+    {
+      "path": "doc/src/manual/missing.md",
+      "language": "markdown",
+      "fileCategory": "docs",
+      "totalLines": 429,
+      "nonEmptyLines": 328,
+      "sections": [
+        {
+          "heading": "[Missing Values](@id missing)",
+          "level": 1,
+          "line": 1
+        },
+        {
+          "heading": "Propagation of Missing Values",
+          "level": 2,
+          "line": 12
+        },
+        {
+          "heading": "Equality and Comparison Operators",
+          "level": 2,
+          "line": 47
+        },
+        {
+          "heading": "Logical operators",
+          "level": 2,
+          "line": 105
+        },
+        {
+          "heading": "Control Flow and Short-Circuiting Operators",
+          "level": 2,
+          "line": 203
+        },
+        {
+          "heading": "Arrays With Missing Values",
+          "level": 2,
+          "line": 248
+        },
+        {
+          "heading": "Skipping Missing Values",
+          "level": 2,
+          "line": 308
+        },
+        {
+          "heading": "Logical Operations on Arrays",
+          "level": 2,
+          "line": 383
+        }
+      ],
+      "metrics": {
+        "importCount": 0,
+        "exportCount": 0,
+        "functionCount": 0,
+        "classCount": 0,
+        "sectionCount": 8
+      }
+    },
+    {
+      "path": "doc/src/manual/modules.md",
+      "language": "markdown",
+      "fileCategory": "docs",
+      "totalLines": 700,
+      "nonEmptyLines": 523,
+      "sections": [
+        {
+          "heading": "[Modules](@id modules)",
+          "level": 1,
+          "line": 1
+        },
+        {
+          "heading": "[Namespace management](@id namespace-management)",
+          "level": 2,
+          "line": 48
+        },
+        {
+          "heading": "Qualified names",
+          "level": 3,
+          "line": 53
+        },
+        {
+          "heading": "Export lists",
+          "level": 3,
+          "line": 79
+        },
+        {
+          "heading": "Standalone `using` and `import`",
+          "level": 3,
+          "line": 123
+        },
+        {
+          "heading": "`using` and `import` with specific identifiers, and adding methods",
+          "level": 3,
+          "line": 176
+        },
+        {
+          "heading": "Renaming with `as`",
+          "level": 3,
+          "line": 244
+        },
+        {
+          "heading": "Mixing multiple `using` and `import` statements",
+          "level": 3,
+          "line": 275
+        },
+        {
+          "heading": "Handling name conflicts",
+          "level": 3,
+          "line": 290
+        },
+        {
+          "heading": "Precedence order of definitions",
+          "level": 3,
+          "line": 335
+        },
+        {
+          "heading": "Default top-level definitions and bare modules",
+          "level": 3,
+          "line": 397
+        },
+        {
+          "heading": "Standard modules",
+          "level": 3,
+          "line": 432
+        },
+        {
+          "heading": "Submodules and relative paths",
+          "level": 2,
+          "line": 448
+        },
+        {
+          "heading": "Module initialization and precompilation",
+          "level": 2,
+          "line": 523
+        }
+      ],
+      "metrics": {
+        "importCount": 0,
+        "exportCount": 0,
+        "functionCount": 0,
+        "classCount": 0,
+        "sectionCount": 14
+      }
+    },
+    {
+      "path": "doc/src/manual/multi-threading.md",
+      "language": "markdown",
+      "fileCategory": "docs",
+      "totalLines": 675,
+      "nonEmptyLines": 528,
+      "sections": [
+        {
+          "heading": "[Multi-Threading](@id man-multithreading)",
+          "level": 1,
+          "line": 1
+        },
+        {
+          "heading": "Starting Julia with multiple threads",
+          "level": 2,
+          "line": 6
+        },
+        {
+          "heading": "Multiple GC Threads",
+          "level": 3,
+          "line": 85
+        },
+        {
+          "heading": "[Threadpools](@id man-threadpools)",
+          "level": 2,
+          "line": 96
+        },
+        {
+          "heading": "The `@threads` Macro",
+          "level": 2,
+          "line": 164
+        },
+        {
+          "heading": "Using `@threads` without data-races",
+          "level": 3,
+          "line": 215
+        },
+        {
+          "heading": "[Communication and data-races between threads](@id man-communication-and-data-races)",
+          "level": 2,
+          "line": 277
+        },
+        {
+          "heading": "Data-race freedom",
+          "level": 3,
+          "line": 285
+        },
+        {
+          "heading": "[Using locks to avoid data-races](@id man-using-locks)",
+          "level": 3,
+          "line": 308
+        },
+        {
+          "heading": "[Using Base.Lockable to associate a lock and a value](@id man-lockable)",
+          "level": 4,
+          "line": 347
+        },
+        {
+          "heading": "[Atomic Operations](@id man-atomic-operations)",
+          "level": 3,
+          "line": 389
+        },
+        {
+          "heading": "[The `@atomic` reference interface](@id man-atomic-reference)",
+          "level": 4,
+          "line": 459
+        },
+        {
+          "heading": "[Per-field atomics](@id man-atomics)",
+          "level": 4,
+          "line": 527
+        },
+        {
+          "heading": "Side effects and mutable function arguments",
+          "level": 2,
+          "line": 550
+        },
+        {
+          "heading": "@threadcall",
+          "level": 2,
+          "line": 559
+        },
+        {
+          "heading": "Caveats",
+          "level": 2,
+          "line": 581
+        },
+        {
+          "heading": "[Task Migration](@id man-task-migration)",
+          "level": 2,
+          "line": 609
+        },
+        {
+          "heading": "[Safe use of Finalizers](@id man-finalizers)",
+          "level": 2,
+          "line": 623
+        }
+      ],
+      "metrics": {
+        "importCount": 0,
+        "exportCount": 0,
+        "functionCount": 0,
+        "classCount": 0,
+        "sectionCount": 18
+      }
+    },
+    {
+      "path": "doc/src/manual/networking-and-streams.md",
+      "language": "markdown",
+      "fileCategory": "docs",
+      "totalLines": 458,
+      "nonEmptyLines": 348,
+      "sections": [
+        {
+          "heading": "Networking and Streams",
+          "level": 1,
+          "line": 1
+        },
+        {
+          "heading": "Basic Stream I/O",
+          "level": 2,
+          "line": 10
+        },
+        {
+          "heading": "Text I/O",
+          "level": 2,
+          "line": 90
+        },
+        {
+          "heading": "IO Output Contextual Properties",
+          "level": 2,
+          "line": 114
+        },
+        {
+          "heading": "Working with Files",
+          "level": 2,
+          "line": 122
+        },
+        {
+          "heading": "Advanced: streaming files",
+          "level": 3,
+          "line": 141
+        },
+        {
+          "heading": "A simple TCP example",
+          "level": 2,
+          "line": 226
+        },
+        {
+          "heading": "Resolving IP Addresses",
+          "level": 2,
+          "line": 336
+        },
+        {
+          "heading": "Asynchronous I/O",
+          "level": 2,
+          "line": 355
+        },
+        {
+          "heading": "Multicast",
+          "level": 2,
+          "line": 393
+        },
+        {
+          "heading": "Receiving IP Multicast Packets",
+          "level": 3,
+          "line": 405
+        },
+        {
+          "heading": "Sending IP Multicast Packets",
+          "level": 3,
+          "line": 420
+        },
+        {
+          "heading": "IPv6 Example",
+          "level": 3,
+          "line": 433
+        }
+      ],
+      "metrics": {
+        "importCount": 0,
+        "exportCount": 0,
+        "functionCount": 0,
+        "classCount": 0,
+        "sectionCount": 13
+      }
+    },
+    {
+      "path": "doc/src/manual/noteworthy-differences.md",
+      "language": "markdown",
+      "fileCategory": "docs",
+      "totalLines": 485,
+      "nonEmptyLines": 454,
+      "sections": [
+        {
+          "heading": "Noteworthy Differences from other Languages",
+          "level": 1,
+          "line": 1
+        },
+        {
+          "heading": "Noteworthy differences from MATLAB",
+          "level": 2,
+          "line": 3
+        },
+        {
+          "heading": "Noteworthy differences from R",
+          "level": 2,
+          "line": 94
+        },
+        {
+          "heading": "Noteworthy differences from Python",
+          "level": 2,
+          "line": 210
+        },
+        {
+          "heading": "Noteworthy differences from C/C++",
+          "level": 2,
+          "line": 276
+        },
+        {
+          "heading": "Julia ⇔ C/C++: Namespaces",
+          "level": 3,
+          "line": 367
+        },
+        {
+          "heading": "Julia ⇔ C/C++: Module loading",
+          "level": 3,
+          "line": 379
+        },
+        {
+          "heading": "Julia ⇔ C/C++: Assembling modules",
+          "level": 3,
+          "line": 410
+        },
+        {
+          "heading": "Julia ⇔ C/C++: Module interface",
+          "level": 3,
+          "line": 427
+        },
+        {
+          "heading": "Julia ⇔ C/C++: Quick reference",
+          "level": 3,
+          "line": 441
+        },
+        {
+          "heading": "Noteworthy differences from Common Lisp",
+          "level": 2,
+          "line": 459
+        }
+      ],
+      "metrics": {
+        "importCount": 0,
+        "exportCount": 0,
+        "functionCount": 0,
+        "classCount": 0,
+        "sectionCount": 11
+      }
+    },
+    {
+      "path": "doc/src/manual/parallel-computing.md",
+      "language": "markdown",
+      "fileCategory": "docs",
+      "totalLines": 34,
+      "nonEmptyLines": 25,
+      "sections": [
+        {
+          "heading": "Parallel Computing",
+          "level": 1,
+          "line": 1
+        }
+      ],
+      "metrics": {
+        "importCount": 0,
+        "exportCount": 0,
+        "functionCount": 0,
+        "classCount": 0,
+        "sectionCount": 1
+      }
+    },
+    {
+      "path": "doc/src/manual/performance-tips.md",
+      "language": "markdown",
+      "fileCategory": "docs",
+      "totalLines": 1989,
+      "nonEmptyLines": 1526,
+      "sections": [
+        {
+          "heading": "[Performance Tips](@id man-performance-tips)",
+          "level": 1,
+          "line": 1
+        },
+        {
+          "heading": "[Table of contents](@id man-performance-tips-toc)",
+          "level": 2,
+          "line": 6
+        },
+        {
+          "heading": "General advice",
+          "level": 2,
+          "line": 13
+        },
+        {
+          "heading": "Performance critical code should be inside a function",
+          "level": 3,
+          "line": 15
+        },
+        {
+          "heading": "Avoid untyped global variables",
+          "level": 3,
+          "line": 23
+        },
+        {
+          "heading": "Measure performance with [`@time`](@ref) and pay attention to memory allocation",
+          "level": 3,
+          "line": 75
+        },
+        {
+          "heading": "Break functions into multiple definitions",
+          "level": 3,
+          "line": 165
+        },
+        {
+          "heading": "[Tools](@id tools)",
+          "level": 3,
+          "line": 196
+        },
+        {
+          "heading": "Type inference",
+          "level": 2,
+          "line": 213
+        },
+        {
+          "heading": "[Avoid containers with abstract type parameters](@id man-performance-abstract-container)",
+          "level": 3,
+          "line": 220
+        },
+        {
+          "heading": "Avoid fields with abstract type",
+          "level": 3,
+          "line": 264
+        },
+        {
+          "heading": "Avoid fields with abstract containers",
+          "level": 3,
+          "line": 426
+        },
+        {
+          "heading": "Annotate values taken from untyped locations",
+          "level": 3,
+          "line": 537
+        },
+        {
+          "heading": "Be aware of when Julia avoids specializing",
+          "level": 3,
+          "line": 591
+        },
+        {
+          "heading": "Write \"type-stable\" functions",
+          "level": 3,
+          "line": 678
+        },
+        {
+          "heading": "Avoid changing the type of a variable",
+          "level": 3,
+          "line": 699
+        },
+        {
+          "heading": "[Separate kernel functions (aka, function barriers)](@id kernel-functions)",
+          "level": 3,
+          "line": 722
+        },
+        {
+          "heading": "[[`@code_warntype`](@ref)](@id man-code-warntype)",
+          "level": 3,
+          "line": 781
+        },
+        {
+          "heading": "[Performance of captured variable](@id man-performance-captured)",
+          "level": 3,
+          "line": 863
+        },
+        {
+          "heading": "Use `@__FUNCTION__` for recursive closures",
+          "level": 4,
+          "line": 945
+        },
+        {
+          "heading": "[Types with values-as-parameters](@id man-performance-value-type)",
+          "level": 3,
+          "line": 980
+        },
+        {
+          "heading": "The dangers of abusing multiple dispatch (aka, more on types with values-as-parameters)",
+          "level": 3,
+          "line": 1070
+        },
+        {
+          "heading": "Memory management and arrays",
+          "level": 2,
+          "line": 1117
+        },
+        {
+          "heading": "Pre-allocate outputs",
+          "level": 3,
+          "line": 1119
+        },
+        {
+          "heading": "[Consider using views for slices](@id man-performance-views)",
+          "level": 3,
+          "line": 1184
+        },
+        {
+          "heading": "Consider StaticArrays.jl for small fixed-size vector/matrix operations",
+          "level": 3,
+          "line": 1221
+        },
+        {
+          "heading": "More dots: Fuse vectorized operations",
+          "level": 3,
+          "line": 1232
+        },
+        {
+          "heading": "[Fewer dots: Unfuse certain intermediate broadcasts](@id man-performance-unfuse)",
+          "level": 3,
+          "line": 1278
+        },
+        {
+          "heading": "[Access arrays in memory order, along columns](@id man-performance-column-major)",
+          "level": 3,
+          "line": 1305
+        },
+        {
+          "heading": "Copying data is not always bad",
+          "level": 3,
+          "line": 1396
+        },
+        {
+          "heading": "[Multithreading and linear algebra](@id man-multithreading-linear-algebra)",
+          "level": 3,
+          "line": 1436
+        },
+        {
+          "heading": "[Alternative linear algebra backends](@id man-backends-linear-algebra)",
+          "level": 3,
+          "line": 1457
+        },
+        {
+          "heading": "Execution latency, package loading and package precompiling time",
+          "level": 2,
+          "line": 1465
+        },
+        {
+          "heading": "Reducing time to first plot etc.",
+          "level": 3,
+          "line": 1467
+        },
+        {
+          "heading": "Reducing package loading time",
+          "level": 3,
+          "line": 1497
+        },
+        {
+          "heading": "Tracing expression evaluation",
+          "level": 3,
+          "line": 1570
+        },
+        {
+          "heading": "Reducing precompilation time",
+          "level": 3,
+          "line": 1600
+        },
+        {
+          "heading": "Keyboard controls during precompilation",
+          "level": 3,
+          "line": 1614
+        },
+        {
+          "heading": "Miscellaneous",
+          "level": 2,
+          "line": 1627
+        },
+        {
+          "heading": "Tweaks",
+          "level": 3,
+          "line": 1629
+        },
+        {
+          "heading": "Fix deprecation warnings",
+          "level": 3,
+          "line": 1639
+        },
+        {
+          "heading": "[Performance Annotations](@id man-performance-annotations)",
+          "level": 3,
+          "line": 1645
+        },
+        {
+          "heading": "Treat Subnormal Numbers as Zeros",
+          "level": 3,
+          "line": 1815
+        },
+        {
+          "heading": "Avoid string interpolation for I/O",
+          "level": 3,
+          "line": 1888
+        },
+        {
+          "heading": "Avoid eager string materialization",
+          "level": 3,
+          "line": 1917
+        },
+        {
+          "heading": "Optimize network I/O during parallel execution",
+          "level": 3,
+          "line": 1945
+        },
+        {
+          "heading": "[Use `MutableArithmetics` for more control over allocation for mutable arithmetic types](@id man-perftips-mutablearithmetics)",
+          "level": 3,
+          "line": 1977
+        }
+      ],
+      "metrics": {
+        "importCount": 0,
+        "exportCount": 0,
+        "functionCount": 0,
+        "classCount": 0,
+        "sectionCount": 47
+      }
+    },
+    {
+      "path": "doc/src/manual/profile.md",
+      "language": "markdown",
+      "fileCategory": "docs",
+      "totalLines": 697,
+      "nonEmptyLines": 534,
+      "sections": [
+        {
+          "heading": "Profiling",
+          "level": 1,
+          "line": 1
+        },
+        {
+          "heading": "Basic usage",
+          "level": 2,
+          "line": 34
+        },
+        {
+          "heading": "Accumulation and clearing",
+          "level": 2,
+          "line": 212
+        },
+        {
+          "heading": "Options for controlling the display of profile results",
+          "level": 2,
+          "line": 218
+        },
+        {
+          "heading": "Configuration",
+          "level": 2,
+          "line": 274
+        },
+        {
+          "heading": "Wall-time Profiler",
+          "level": 2,
+          "line": 300
+        },
+        {
+          "heading": "Introduction & Problem Motivation",
+          "level": 3,
+          "line": 302
+        },
+        {
+          "heading": "Wall-time Profiler",
+          "level": 3,
+          "line": 356
+        },
+        {
+          "heading": "A Compute-Bound Workload",
+          "level": 3,
+          "line": 409
+        },
+        {
+          "heading": "Identifying Task Sampling Failures in your Profile",
+          "level": 3,
+          "line": 461
+        },
+        {
+          "heading": "Memory allocation analysis",
+          "level": 2,
+          "line": 515
+        },
+        {
+          "heading": "`@time`",
+          "level": 3,
+          "line": 520
+        },
+        {
+          "heading": "GC Logging",
+          "level": 3,
+          "line": 527
+        },
+        {
+          "heading": "[Allocation Profiler](@id allocation-profiler)",
+          "level": 3,
+          "line": 536
+        },
+        {
+          "heading": "Allocation Profiler Example",
+          "level": 5,
+          "line": 568
+        },
+        {
+          "heading": "Allocation Profiling Tips",
+          "level": 5,
+          "line": 615
+        },
+        {
+          "heading": "Allocation Profile Visualization Tools",
+          "level": 5,
+          "line": 630
+        },
+        {
+          "heading": "Line-by-Line Allocation Tracking",
+          "level": 4,
+          "line": 641
+        },
+        {
+          "heading": "External Profiling",
+          "level": 2,
+          "line": 667
+        }
+      ],
+      "metrics": {
+        "importCount": 0,
+        "exportCount": 0,
+        "functionCount": 0,
+        "classCount": 0,
+        "sectionCount": 19
+      }
+    },
+    {
+      "path": "doc/src/manual/running-external-programs.md",
+      "language": "markdown",
+      "fileCategory": "docs",
+      "totalLines": 423,
+      "nonEmptyLines": 325,
+      "sections": [
+        {
+          "heading": "Running External Programs",
+          "level": 1,
+          "line": 1
+        },
+        {
+          "heading": "[Interpolation](@id command-interpolation)",
+          "level": 2,
+          "line": 94
+        },
+        {
+          "heading": "Quoting",
+          "level": 2,
+          "line": 195
+        },
+        {
+          "heading": "Pipelines",
+          "level": 2,
+          "line": 253
+        },
+        {
+          "heading": "Avoiding Deadlock in Pipelines",
+          "level": 3,
+          "line": 323
+        },
+        {
+          "heading": "Complex Example",
+          "level": 3,
+          "line": 343
+        },
+        {
+          "heading": "`Cmd` Objects",
+          "level": 2,
+          "line": 390
+        }
+      ],
+      "metrics": {
+        "importCount": 0,
+        "exportCount": 0,
+        "functionCount": 0,
+        "classCount": 0,
+        "sectionCount": 7
+      }
+    },
+    {
+      "path": "doc/src/manual/stacktraces.md",
+      "language": "markdown",
+      "fileCategory": "docs",
+      "totalLines": 312,
+      "nonEmptyLines": 255,
+      "sections": [
+        {
+          "heading": "Stack Traces",
+          "level": 1,
+          "line": 1
+        },
+        {
+          "heading": "Viewing a stack trace",
+          "level": 2,
+          "line": 6
+        },
+        {
+          "heading": "Extracting useful information",
+          "level": 2,
+          "line": 71
+        },
+        {
+          "heading": "Error handling",
+          "level": 2,
+          "line": 107
+        },
+        {
+          "heading": "Exception stacks and [`current_exceptions`](@ref)",
+          "level": 2,
+          "line": 188
+        },
+        {
+          "heading": "Comparison with [`backtrace`](@ref)",
+          "level": 2,
+          "line": 238
+        }
+      ],
+      "metrics": {
+        "importCount": 0,
+        "exportCount": 0,
+        "functionCount": 0,
+        "classCount": 0,
+        "sectionCount": 6
+      }
+    },
+    {
+      "path": "doc/src/manual/strings.md",
+      "language": "markdown",
+      "fileCategory": "docs",
+      "totalLines": 1273,
+      "nonEmptyLines": 972,
+      "sections": [
+        {
+          "heading": "[Strings](@id man-strings)",
+          "level": 1,
+          "line": 1
+        },
+        {
+          "heading": "[Characters](@id man-characters)",
+          "level": 2,
+          "line": 43
+        },
+        {
+          "heading": "String Basics",
+          "level": 2,
+          "line": 157
+        },
+        {
+          "heading": "Unicode and UTF-8",
+          "level": 2,
+          "line": 267
+        },
+        {
+          "heading": "[Concatenation](@id man-concatenation)",
+          "level": 2,
+          "line": 467
+        },
+        {
+          "heading": "[Interpolation](@id string-interpolation)",
+          "level": 2,
+          "line": 534
+        },
+        {
+          "heading": "Triple-Quoted String Literals",
+          "level": 2,
+          "line": 594
+        },
+        {
+          "heading": "Common Operations",
+          "level": 2,
+          "line": 676
+        },
+        {
+          "heading": "[Non-Standard String Literals](@id non-standard-string-literals)",
+          "level": 2,
+          "line": 764
+        },
+        {
+          "heading": "[Regular Expressions](@id man-regex-literals)",
+          "level": 2,
+          "line": 777
+        },
+        {
+          "heading": "[Byte Array Literals](@id man-byte-array-literals)",
+          "level": 2,
+          "line": 1065
+        },
+        {
+          "heading": "[Version Number Literals](@id man-version-number-literals)",
+          "level": 2,
+          "line": 1157
+        },
+        {
+          "heading": "[Raw String Literals](@id man-raw-string-literals)",
+          "level": 2,
+          "line": 1199
+        },
+        {
+          "heading": "[Annotated Strings](@id man-annotated-strings)",
+          "level": 2,
+          "line": 1224
+        }
+      ],
+      "metrics": {
+        "importCount": 0,
+        "exportCount": 0,
+        "functionCount": 0,
+        "classCount": 0,
+        "sectionCount": 14
+      }
+    },
+    {
+      "path": "doc/src/manual/style-guide.md",
+      "language": "markdown",
+      "fileCategory": "docs",
+      "totalLines": 479,
+      "nonEmptyLines": 344,
+      "sections": [
+        {
+          "heading": "Style Guide",
+          "level": 1,
+          "line": 1
+        },
+        {
+          "heading": "Indentation",
+          "level": 2,
+          "line": 7
+        },
+        {
+          "heading": "Write functions, not just scripts",
+          "level": 2,
+          "line": 11
+        },
+        {
+          "heading": "Write docstrings",
+          "level": 2,
+          "line": 22
+        },
+        {
+          "heading": "Avoid writing overly-specific types",
+          "level": 2,
+          "line": 27
+        },
+        {
+          "heading": "Handle excess argument diversity in the caller",
+          "level": 2,
+          "line": 70
+        },
+        {
+          "heading": "[Append `!` to names of functions that modify their arguments](@id bang-convention)",
+          "level": 2,
+          "line": 98
+        },
+        {
+          "heading": "Avoid strange type `Union`s",
+          "level": 2,
+          "line": 131
+        },
+        {
+          "heading": "Avoid elaborate container types",
+          "level": 2,
+          "line": 135
+        },
+        {
+          "heading": "Prefer exported methods over direct field access",
+          "level": 2,
+          "line": 146
+        },
+        {
+          "heading": "Use naming conventions consistent with Julia `base/`",
+          "level": 2,
+          "line": 172
+        },
+        {
+          "heading": "Write functions with argument ordering similar to Julia Base",
+          "level": 2,
+          "line": 188
+        },
+        {
+          "heading": "Don't overuse try-catch",
+          "level": 2,
+          "line": 248
+        },
+        {
+          "heading": "Don't parenthesize conditions",
+          "level": 2,
+          "line": 252
+        },
+        {
+          "heading": "Don't overuse `...`",
+          "level": 2,
+          "line": 266
+        },
+        {
+          "heading": "Ensure constructors return an instance of their own type",
+          "level": 2,
+          "line": 272
+        },
+        {
+          "heading": "Don't use unnecessary static parameters",
+          "level": 2,
+          "line": 295
+        },
+        {
+          "heading": "Avoid confusion about whether something is an instance or a type",
+          "level": 2,
+          "line": 316
+        },
+        {
+          "heading": "Don't overuse macros",
+          "level": 2,
+          "line": 336
+        },
+        {
+          "heading": "Don't expose unsafe operations at the interface level",
+          "level": 2,
+          "line": 344
+        },
+        {
+          "heading": "Don't overload methods of base container types",
+          "level": 2,
+          "line": 367
+        },
+        {
+          "heading": "[Avoid type piracy](@id avoid-type-piracy)",
+          "level": 2,
+          "line": 379
+        },
+        {
+          "heading": "Be careful with type equality",
+          "level": 2,
+          "line": 409
+        },
+        {
+          "heading": "Don't write a trivial anonymous function `x->f(x)` for a named function `f`",
+          "level": 2,
+          "line": 415
+        },
+        {
+          "heading": "Avoid using floats for numeric literals in generic code when possible",
+          "level": 2,
+          "line": 421
+        }
+      ],
+      "metrics": {
+        "importCount": 0,
+        "exportCount": 0,
+        "functionCount": 0,
+        "classCount": 0,
+        "sectionCount": 25
+      }
+    },
+    {
+      "path": "doc/src/manual/types.md",
+      "language": "markdown",
+      "fileCategory": "docs",
+      "totalLines": 1708,
+      "nonEmptyLines": 1308,
+      "sections": [
+        {
+          "heading": "[Types](@id man-types)",
+          "level": 1,
+          "line": 1
+        },
+        {
+          "heading": "Type Declarations",
+          "level": 2,
+          "line": 58
+        },
+        {
+          "heading": "[Abstract Types](@id man-abstract-types)",
+          "level": 2,
+          "line": 149
+        },
+        {
+          "heading": "Primitive Types",
+          "level": 2,
+          "line": 257
+        },
+        {
+          "heading": "Composite Types",
+          "level": 2,
+          "line": 325
+        },
+        {
+          "heading": "Mutable Composite Types",
+          "level": 2,
+          "line": 441
+        },
+        {
+          "heading": "Mutually Recursive Types",
+          "level": 2,
+          "line": 517
+        },
+        {
+          "heading": "[Declared Types](@id man-declared-types)",
+          "level": 2,
+          "line": 561
+        },
+        {
+          "heading": "Type Unions",
+          "level": 2,
+          "line": 588
+        },
+        {
+          "heading": "Parametric Types",
+          "level": 2,
+          "line": 619
+        },
+        {
+          "heading": "[Parametric Composite Types](@id man-parametric-composite-types)",
+          "level": 3,
+          "line": 640
+        },
+        {
+          "heading": "Parametric Abstract Types",
+          "level": 3,
+          "line": 819
+        },
+        {
+          "heading": "Tuple Types",
+          "level": 3,
+          "line": 958
+        },
+        {
+          "heading": "Vararg Tuple Types",
+          "level": 3,
+          "line": 1004
+        },
+        {
+          "heading": "Named Tuple Types",
+          "level": 3,
+          "line": 1033
+        },
+        {
+          "heading": "Parametric Primitive Types",
+          "level": 3,
+          "line": 1077
+        },
+        {
+          "heading": "UnionAll Types",
+          "level": 2,
+          "line": 1105
+        },
+        {
+          "heading": "[Singleton types](@id man-singleton-types)",
+          "level": 2,
+          "line": 1175
+        },
+        {
+          "heading": "Types of functions",
+          "level": 2,
+          "line": 1223
+        },
+        {
+          "heading": "[`Type{T}` type selectors](@id man-typet-type)",
+          "level": 2,
+          "line": 1270
+        },
+        {
+          "heading": "Type Aliases",
+          "level": 2,
+          "line": 1365
+        },
+        {
+          "heading": "Operations on Types",
+          "level": 2,
+          "line": 1410
+        },
+        {
+          "heading": "[Custom pretty-printing](@id man-custom-pretty-printing)",
+          "level": 2,
+          "line": 1481
+        },
+        {
+          "heading": "Output-function summary",
+          "level": 3,
+          "line": 1646
+        },
+        {
+          "heading": "\"Value types\"",
+          "level": 2,
+          "line": 1659
+        }
+      ],
+      "metrics": {
+        "importCount": 0,
+        "exportCount": 0,
+        "functionCount": 0,
+        "classCount": 0,
+        "sectionCount": 25
+      }
+    },
+    {
+      "path": "doc/src/manual/unicode-input.md",
+      "language": "markdown",
+      "fileCategory": "docs",
+      "totalLines": 93,
+      "nonEmptyLines": 84,
+      "sections": [
+        {
+          "heading": "Unicode Input",
+          "level": 1,
+          "line": 1
+        }
+      ],
+      "metrics": {
+        "importCount": 0,
+        "exportCount": 0,
+        "functionCount": 0,
+        "classCount": 0,
+        "sectionCount": 1
+      }
+    },
+    {
+      "path": "doc/src/manual/variables-and-scoping.md",
+      "language": "markdown",
+      "fileCategory": "docs",
+      "totalLines": 814,
+      "nonEmptyLines": 651,
+      "sections": [
+        {
+          "heading": "[Scope of Variables](@id scope-of-variables)",
+          "level": 1,
+          "line": 1
+        },
+        {
+          "heading": "[Scope Constructs](@id man-scope-table)",
+          "level": 3,
+          "line": 60
+        },
+        {
+          "heading": "Global Scope",
+          "level": 2,
+          "line": 105
+        },
+        {
+          "heading": "[Local Scope](@id local-scope)",
+          "level": 2,
+          "line": 131
+        },
+        {
+          "heading": "[On Soft Scope](@id on-soft-scope)",
+          "level": 4,
+          "line": 455
+        },
+        {
+          "heading": "Let Blocks",
+          "level": 3,
+          "line": 555
+        },
+        {
+          "heading": "Loops and Comprehensions",
+          "level": 3,
+          "line": 651
+        },
+        {
+          "heading": "Constants",
+          "level": 2,
+          "line": 702
+        },
+        {
+          "heading": "[Typed Globals](@id man-typed-globals)",
+          "level": 2,
+          "line": 761
+        }
+      ],
+      "metrics": {
+        "importCount": 0,
+        "exportCount": 0,
+        "functionCount": 0,
+        "classCount": 0,
+        "sectionCount": 9
+      }
+    },
+    {
+      "path": "doc/src/manual/variables.md",
+      "language": "markdown",
+      "fileCategory": "docs",
+      "totalLines": 253,
+      "nonEmptyLines": 196,
+      "sections": [
+        {
+          "heading": "[Variables](@id man-variables)",
+          "level": 1,
+          "line": 1
+        },
+        {
+          "heading": "[Allowed Variable Names](@id man-allowed-variable-names)",
+          "level": 2,
+          "line": 101
+        },
+        {
+          "heading": "[Assignment expressions and assignment versus mutation](@id man-assignment-expressions)",
+          "level": 2,
+          "line": 163
+        },
+        {
+          "heading": "Stylistic Conventions",
+          "level": 2,
+          "line": 238
+        }
+      ],
+      "metrics": {
+        "importCount": 0,
+        "exportCount": 0,
+        "functionCount": 0,
+        "classCount": 0,
+        "sectionCount": 4
+      }
+    }
+  ]
+}

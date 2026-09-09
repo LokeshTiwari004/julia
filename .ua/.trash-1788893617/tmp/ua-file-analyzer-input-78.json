@@ -1,0 +1,182 @@
+{
+  "projectRoot": "/home/maruti/julia",
+  "batchFiles": [
+    {
+      "path": "stdlib/REPL/test/TerminalMenus/multiselect_menu.jl",
+      "language": "jl",
+      "sizeLines": 57,
+      "fileCategory": "code"
+    },
+    {
+      "path": "stdlib/REPL/test/TerminalMenus/multiselect_with_skip_menu.jl",
+      "language": "jl",
+      "sizeLines": 130,
+      "fileCategory": "code"
+    },
+    {
+      "path": "stdlib/REPL/test/TerminalMenus/pager.jl",
+      "language": "jl",
+      "sizeLines": 39,
+      "fileCategory": "code"
+    },
+    {
+      "path": "stdlib/REPL/test/TerminalMenus/radio_menu.jl",
+      "language": "jl",
+      "sizeLines": 54,
+      "fileCategory": "code"
+    },
+    {
+      "path": "stdlib/REPL/test/TerminalMenus/runtests.jl",
+      "language": "jl",
+      "sizeLines": 34,
+      "fileCategory": "code"
+    },
+    {
+      "path": "stdlib/REPL/test/bad_history_startup.jl",
+      "language": "jl",
+      "sizeLines": 70,
+      "fileCategory": "code"
+    },
+    {
+      "path": "stdlib/REPL/test/docview.jl",
+      "language": "jl",
+      "sizeLines": 269,
+      "fileCategory": "code"
+    },
+    {
+      "path": "stdlib/REPL/test/history.jl",
+      "language": "jl",
+      "sizeLines": 684,
+      "fileCategory": "code"
+    },
+    {
+      "path": "stdlib/REPL/test/lineedit.jl",
+      "language": "jl",
+      "sizeLines": 1364,
+      "fileCategory": "code"
+    },
+    {
+      "path": "stdlib/REPL/test/precompilation.jl",
+      "language": "jl",
+      "sizeLines": 58,
+      "fileCategory": "code"
+    },
+    {
+      "path": "stdlib/REPL/test/repl.jl",
+      "language": "jl",
+      "sizeLines": 2194,
+      "fileCategory": "code"
+    },
+    {
+      "path": "stdlib/REPL/test/replcompletions.jl",
+      "language": "jl",
+      "sizeLines": 2935,
+      "fileCategory": "code"
+    },
+    {
+      "path": "stdlib/REPL/test/runtests.jl",
+      "language": "jl",
+      "sizeLines": 43,
+      "fileCategory": "code"
+    },
+    {
+      "path": "stdlib/Random/Project.toml",
+      "language": "toml",
+      "sizeLines": 15,
+      "fileCategory": "config"
+    },
+    {
+      "path": "stdlib/Random/docs/src/index.md",
+      "language": "markdown",
+      "sizeLines": 372,
+      "fileCategory": "docs"
+    },
+    {
+      "path": "stdlib/Random/src/DSFMT.jl",
+      "language": "jl",
+      "sizeLines": 276,
+      "fileCategory": "code"
+    },
+    {
+      "path": "stdlib/Random/src/MersenneTwister.jl",
+      "language": "jl",
+      "sizeLines": 648,
+      "fileCategory": "code"
+    },
+    {
+      "path": "stdlib/Random/src/RNGs.jl",
+      "language": "jl",
+      "sizeLines": 308,
+      "fileCategory": "code"
+    },
+    {
+      "path": "stdlib/Random/src/Random.jl",
+      "language": "jl",
+      "sizeLines": 428,
+      "fileCategory": "code"
+    },
+    {
+      "path": "stdlib/Random/src/Xoshiro.jl",
+      "language": "jl",
+      "sizeLines": 298,
+      "fileCategory": "code"
+    },
+    {
+      "path": "stdlib/Random/src/XoshiroSimd.jl",
+      "language": "jl",
+      "sizeLines": 315,
+      "fileCategory": "code"
+    },
+    {
+      "path": "stdlib/Random/src/generation.jl",
+      "language": "jl",
+      "sizeLines": 615,
+      "fileCategory": "code"
+    },
+    {
+      "path": "stdlib/Random/src/misc.jl",
+      "language": "jl",
+      "sizeLines": 444,
+      "fileCategory": "code"
+    },
+    {
+      "path": "stdlib/Random/src/normal.jl",
+      "language": "jl",
+      "sizeLines": 771,
+      "fileCategory": "code"
+    },
+    {
+      "path": "stdlib/Random/test/runtests.jl",
+      "language": "jl",
+      "sizeLines": 1305,
+      "fileCategory": "code"
+    }
+  ],
+  "batchImportData": {
+    "stdlib/REPL/test/TerminalMenus/multiselect_menu.jl": [],
+    "stdlib/REPL/test/TerminalMenus/multiselect_with_skip_menu.jl": [],
+    "stdlib/REPL/test/TerminalMenus/pager.jl": [],
+    "stdlib/REPL/test/TerminalMenus/radio_menu.jl": [],
+    "stdlib/REPL/test/TerminalMenus/runtests.jl": [],
+    "stdlib/REPL/test/bad_history_startup.jl": [],
+    "stdlib/REPL/test/docview.jl": [],
+    "stdlib/REPL/test/history.jl": [],
+    "stdlib/REPL/test/lineedit.jl": [],
+    "stdlib/REPL/test/precompilation.jl": [],
+    "stdlib/REPL/test/repl.jl": [],
+    "stdlib/REPL/test/replcompletions.jl": [],
+    "stdlib/REPL/test/runtests.jl": [],
+    "stdlib/Random/Project.toml": [],
+    "stdlib/Random/docs/src/index.md": [],
+    "stdlib/Random/src/DSFMT.jl": [],
+    "stdlib/Random/src/MersenneTwister.jl": [],
+    "stdlib/Random/src/RNGs.jl": [],
+    "stdlib/Random/src/Random.jl": [],
+    "stdlib/Random/src/Xoshiro.jl": [],
+    "stdlib/Random/src/XoshiroSimd.jl": [],
+    "stdlib/Random/src/generation.jl": [],
+    "stdlib/Random/src/misc.jl": [],
+    "stdlib/Random/src/normal.jl": [],
+    "stdlib/Random/test/runtests.jl": []
+  }
+}

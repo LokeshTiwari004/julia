@@ -1,0 +1,94 @@
+{
+  "scriptCompleted": true,
+  "filesAnalyzed": 1,
+  "filesSkipped": [
+    "JuliaSyntax/test/source_files.jl",
+    "JuliaSyntax/test/syntax.jl",
+    "JuliaSyntax/test/syntax_node.jl",
+    "JuliaSyntax/test/test_utils.jl",
+    "JuliaSyntax/test/test_utils_tests.jl",
+    "JuliaSyntax/test/tokenize.jl",
+    "JuliaSyntax/test/utils.jl",
+    "JuliaSyntax/tools/bump_in_Base.jl",
+    "JuliaSyntax/tools/check_all_packages.jl",
+    "JuliaSyntax/tools/registry_download.jl",
+    "JuliaSyntax/tools/untar_packages.jl",
+    "Make.inc",
+    "VERSION",
+    "base/Base.jl",
+    "base/Base_compiler.jl",
+    "base/Enums.jl",
+    "base/Terminals.jl",
+    "base/abstractarray.jl",
+    "base/abstractarraymath.jl",
+    "base/abstractdict.jl",
+    "base/abstractset.jl",
+    "base/accumulate.jl",
+    "base/anyall.jl",
+    "base/array.jl"
+  ],
+  "analysisOutcomes": {
+    "structure": {
+      "succeeded": 1,
+      "failed": 0
+    },
+    "callGraph": {
+      "succeeded": 0,
+      "failed": 0,
+      "skipped": 1
+    }
+  },
+  "results": [
+    {
+      "path": "base/Makefile",
+      "language": "makefile",
+      "fileCategory": "infra",
+      "totalLines": 315,
+      "nonEmptyLines": 283,
+      "steps": [
+        {
+          "name": "all",
+          "startLine": 11,
+          "endLine": 12
+        },
+        {
+          "name": "all",
+          "startLine": 129,
+          "endLine": 129
+        },
+        {
+          "name": "symlink_p7zip",
+          "startLine": 190,
+          "endLine": 191
+        },
+        {
+          "name": "symlink_llvm_utils",
+          "startLine": 202,
+          "endLine": 203
+        },
+        {
+          "name": "symlink_libLLVM",
+          "startLine": 279,
+          "endLine": 279
+        },
+        {
+          "name": "symlink_system_libraries",
+          "startLine": 300,
+          "endLine": 301
+        },
+        {
+          "name": "clean",
+          "startLine": 304,
+          "endLine": 316
+        }
+      ],
+      "metrics": {
+        "importCount": 0,
+        "exportCount": 0,
+        "functionCount": 0,
+        "classCount": 0,
+        "stepCount": 7
+      }
+    }
+  ]
+}

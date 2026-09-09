@@ -1,0 +1,43 @@
+{
+  "scriptCompleted": true,
+  "filesAnalyzed": 0,
+  "filesSkipped": [
+    "base/float.jl",
+    "base/floatfuncs.jl",
+    "base/gcutils.jl",
+    "base/generator.jl",
+    "base/genericmemory.jl",
+    "base/gmp.jl",
+    "base/hamt.jl",
+    "base/hashing.jl",
+    "base/iddict.jl",
+    "base/idset.jl",
+    "base/indices.jl",
+    "base/initdefs.jl",
+    "base/int.jl",
+    "base/intfuncs.jl",
+    "base/io.jl",
+    "base/iobuffer.jl",
+    "base/iostream.jl",
+    "base/irrationals.jl",
+    "base/iterators.jl",
+    "base/libc.jl",
+    "base/libdl.jl",
+    "base/libuv.jl",
+    "base/linked_list.jl",
+    "base/linking.jl",
+    "base/loading.jl"
+  ],
+  "analysisOutcomes": {
+    "structure": {
+      "succeeded": 0,
+      "failed": 0
+    },
+    "callGraph": {
+      "succeeded": 0,
+      "failed": 0,
+      "skipped": 0
+    }
+  },
+  "results": []
+}

@@ -1,0 +1,43 @@
+{
+  "scriptCompleted": true,
+  "filesAnalyzed": 0,
+  "filesSkipped": [
+    "test/runtests.jl",
+    "test/ryu.jl",
+    "test/scopedvalues.jl",
+    "test/secretbuffer.jl",
+    "test/sets.jl",
+    "test/show.jl",
+    "test/simdloop.jl",
+    "test/smallarrayshrink.jl",
+    "test/some.jl",
+    "test/sorting.jl",
+    "test/spawn.jl",
+    "test/specificity.jl",
+    "test/stack_overflow.jl",
+    "test/stacktraces.jl",
+    "test/staged.jl",
+    "test/stdlib_dependencies.jl",
+    "test/stress.jl",
+    "test/stress_fd_exec.jl",
+    "test/strings/annotated.jl",
+    "test/strings/basic.jl",
+    "test/strings/io.jl",
+    "test/strings/search.jl",
+    "test/strings/stringview.jl",
+    "test/strings/types.jl",
+    "test/strings/util.jl"
+  ],
+  "analysisOutcomes": {
+    "structure": {
+      "succeeded": 0,
+      "failed": 0
+    },
+    "callGraph": {
+      "succeeded": 0,
+      "failed": 0,
+      "skipped": 0
+    }
+  },
+  "results": []
+}

@@ -1,0 +1,43 @@
+{
+  "scriptCompleted": true,
+  "filesAnalyzed": 0,
+  "filesSkipped": [
+    "JuliaLowering/src/desugaring.jl",
+    "JuliaLowering/src/eval.jl",
+    "JuliaLowering/src/hooks.jl",
+    "JuliaLowering/src/kinds.jl",
+    "JuliaLowering/src/linear_ir.jl",
+    "JuliaLowering/src/macro_expansion.jl",
+    "JuliaLowering/src/precompile.jl",
+    "JuliaLowering/src/runtime.jl",
+    "JuliaLowering/src/scope_analysis.jl",
+    "JuliaLowering/src/syntax_macros.jl",
+    "JuliaLowering/src/utils.jl",
+    "JuliaLowering/src/validation.jl",
+    "JuliaLowering/test/arrays.jl",
+    "JuliaLowering/test/arrays_ir.jl",
+    "JuliaLowering/test/assignments.jl",
+    "JuliaLowering/test/assignments_ir.jl",
+    "JuliaLowering/test/ast.jl",
+    "JuliaLowering/test/branching.jl",
+    "JuliaLowering/test/branching_ir.jl",
+    "JuliaLowering/test/closures.jl",
+    "JuliaLowering/test/closures_ir.jl",
+    "JuliaLowering/test/compat.jl",
+    "JuliaLowering/test/decls.jl",
+    "JuliaLowering/test/decls_ir.jl",
+    "JuliaLowering/test/destructuring.jl"
+  ],
+  "analysisOutcomes": {
+    "structure": {
+      "succeeded": 0,
+      "failed": 0
+    },
+    "callGraph": {
+      "succeeded": 0,
+      "failed": 0,
+      "skipped": 0
+    }
+  },
+  "results": []
+}

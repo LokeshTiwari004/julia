@@ -1,0 +1,1000 @@
+{
+  "batchIndex": 13,
+  "nodes": [
+    {
+      "id": "file:src/support/eytzinger.c",
+      "type": "file",
+      "name": "eytzinger.c",
+      "filePath": "src/support/eytzinger.c",
+      "summary": "Source file: eytzinger.c.",
+      "tags": [
+        "source"
+      ],
+      "complexity": "moderate",
+      "language": "c"
+    },
+    {
+      "id": "function:src/support/eytzinger.c:ptr_cmp",
+      "type": "function",
+      "name": "ptr_cmp",
+      "filePath": "src/support/eytzinger.c",
+      "summary": "Function ptr_cmp with 2 parameters.",
+      "tags": [
+        "function"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:src/support/eytzinger.c:eytzinger",
+      "type": "function",
+      "name": "eytzinger",
+      "filePath": "src/support/eytzinger.c",
+      "summary": "Function eytzinger with 5 parameters.",
+      "tags": [
+        "function"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:src/support/eytzinger.c:rebuild_tree",
+      "type": "function",
+      "name": "rebuild_tree",
+      "filePath": "src/support/eytzinger.c",
+      "summary": "Function rebuild_tree with 1 parameters.",
+      "tags": [
+        "function"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "file:src/support/eytzinger.h",
+      "type": "file",
+      "name": "eytzinger.h",
+      "filePath": "src/support/eytzinger.h",
+      "summary": "Source file: eytzinger.h.",
+      "tags": [
+        "source"
+      ],
+      "complexity": "moderate",
+      "language": "c"
+    },
+    {
+      "id": "file:src/support/test/eytzingertest.c",
+      "type": "file",
+      "name": "eytzingertest.c",
+      "filePath": "src/support/test/eytzingertest.c",
+      "summary": "Test file: eytzingertest.c.",
+      "tags": [
+        "test"
+      ],
+      "complexity": "moderate",
+      "language": "c"
+    },
+    {
+      "id": "function:src/support/test/eytzingertest.c:in_range",
+      "type": "function",
+      "name": "in_range",
+      "filePath": "src/support/test/eytzingertest.c",
+      "summary": "Function in_range with 2 parameters.",
+      "tags": [
+        "function"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:src/support/test/eytzingertest.c:main",
+      "type": "function",
+      "name": "main",
+      "filePath": "src/support/test/eytzingertest.c",
+      "summary": "Function main with 0 parameters.",
+      "tags": [
+        "function"
+      ],
+      "complexity": "simple"
+    }
+  ],
+  "edges": [
+    {
+      "source": "file:src/support/eytzinger.c",
+      "target": "function:src/support/eytzinger.c:ptr_cmp",
+      "type": "contains",
+      "weight": 1
+    },
+    {
+      "source": "file:src/support/eytzinger.c",
+      "target": "function:src/support/eytzinger.c:eytzinger",
+      "type": "contains",
+      "weight": 1
+    },
+    {
+      "source": "file:src/support/eytzinger.c",
+      "target": "function:src/support/eytzinger.c:rebuild_tree",
+      "type": "contains",
+      "weight": 1
+    },
+    {
+      "source": "file:src/support/eytzinger.c",
+      "target": "file:src/support/eytzinger.h",
+      "type": "imports",
+      "weight": 0.7
+    },
+    {
+      "source": "function:src/support/eytzinger.c:eytzinger",
+      "target": "function:src/support/eytzinger.c:eytzinger",
+      "type": "calls",
+      "weight": 0.8
+    },
+    {
+      "source": "function:src/support/eytzinger.c:eytzinger",
+      "target": "function:src/support/eytzinger.c:eytzinger",
+      "type": "calls",
+      "weight": 0.8
+    },
+    {
+      "source": "function:src/support/eytzinger.c:rebuild_tree",
+      "target": "function:src/support/eytzinger.c:eytzinger",
+      "type": "calls",
+      "weight": 0.8
+    },
+    {
+      "source": "file:src/support/test/eytzingertest.c",
+      "target": "function:src/support/test/eytzingertest.c:in_range",
+      "type": "contains",
+      "weight": 1
+    },
+    {
+      "source": "file:src/support/test/eytzingertest.c",
+      "target": "function:src/support/test/eytzingertest.c:main",
+      "type": "contains",
+      "weight": 1
+    },
+    {
+      "source": "file:src/support/test/eytzingertest.c",
+      "target": "file:src/support/eytzinger.h",
+      "type": "imports",
+      "weight": 0.7
+    },
+    {
+      "source": "function:src/support/test/eytzingertest.c:main",
+      "target": "function:src/support/test/eytzingertest.c:in_range",
+      "type": "calls",
+      "weight": 0.8
+    },
+    {
+      "source": "function:src/support/test/eytzingertest.c:main",
+      "target": "function:src/support/test/eytzingertest.c:in_range",
+      "type": "calls",
+      "weight": 0.8
+    },
+    {
+      "source": "function:src/support/test/eytzingertest.c:main",
+      "target": "function:src/support/test/eytzingertest.c:in_range",
+      "type": "calls",
+      "weight": 0.8
+    },
+    {
+      "source": "function:src/support/test/eytzingertest.c:main",
+      "target": "function:src/support/test/eytzingertest.c:in_range",
+      "type": "calls",
+      "weight": 0.8
+    },
+    {
+      "source": "function:src/support/test/eytzingertest.c:main",
+      "target": "function:src/support/test/eytzingertest.c:in_range",
+      "type": "calls",
+      "weight": 0.8
+    },
+    {
+      "source": "function:src/support/test/eytzingertest.c:main",
+      "target": "function:src/support/test/eytzingertest.c:in_range",
+      "type": "calls",
+      "weight": 0.8
+    },
+    {
+      "source": "function:src/support/test/eytzingertest.c:main",
+      "target": "function:src/support/test/eytzingertest.c:in_range",
+      "type": "calls",
+      "weight": 0.8
+    },
+    {
+      "source": "function:src/support/test/eytzingertest.c:main",
+      "target": "function:src/support/test/eytzingertest.c:in_range",
+      "type": "calls",
+      "weight": 0.8
+    },
+    {
+      "source": "function:src/support/test/eytzingertest.c:main",
+      "target": "function:src/support/test/eytzingertest.c:in_range",
+      "type": "calls",
+      "weight": 0.8
+    },
+    {
+      "source": "function:src/support/test/eytzingertest.c:main",
+      "target": "function:src/support/test/eytzingertest.c:in_range",
+      "type": "calls",
+      "weight": 0.8
+    },
+    {
+      "source": "function:src/support/test/eytzingertest.c:main",
+      "target": "function:src/support/test/eytzingertest.c:in_range",
+      "type": "calls",
+      "weight": 0.8
+    },
+    {
+      "source": "function:src/support/test/eytzingertest.c:main",
+      "target": "function:src/support/test/eytzingertest.c:in_range",
+      "type": "calls",
+      "weight": 0.8
+    },
+    {
+      "source": "function:src/support/test/eytzingertest.c:main",
+      "target": "function:src/support/test/eytzingertest.c:in_range",
+      "type": "calls",
+      "weight": 0.8
+    },
+    {
+      "source": "function:src/support/test/eytzingertest.c:main",
+      "target": "function:src/support/test/eytzingertest.c:in_range",
+      "type": "calls",
+      "weight": 0.8
+    },
+    {
+      "source": "function:src/support/test/eytzingertest.c:main",
+      "target": "function:src/support/test/eytzingertest.c:in_range",
+      "type": "calls",
+      "weight": 0.8
+    },
+    {
+      "source": "function:src/support/test/eytzingertest.c:main",
+      "target": "function:src/support/test/eytzingertest.c:in_range",
+      "type": "calls",
+      "weight": 0.8
+    },
+    {
+      "source": "function:src/support/test/eytzingertest.c:main",
+      "target": "function:src/support/test/eytzingertest.c:in_range",
+      "type": "calls",
+      "weight": 0.8
+    },
+    {
+      "source": "function:src/support/test/eytzingertest.c:main",
+      "target": "function:src/support/test/eytzingertest.c:in_range",
+      "type": "calls",
+      "weight": 0.8
+    },
+    {
+      "source": "function:src/support/test/eytzingertest.c:main",
+      "target": "function:src/support/test/eytzingertest.c:in_range",
+      "type": "calls",
+      "weight": 0.8
+    },
+    {
+      "source": "function:src/support/test/eytzingertest.c:main",
+      "target": "function:src/support/test/eytzingertest.c:in_range",
+      "type": "calls",
+      "weight": 0.8
+    },
+    {
+      "source": "function:src/support/test/eytzingertest.c:main",
+      "target": "function:src/support/test/eytzingertest.c:in_range",
+      "type": "calls",
+      "weight": 0.8
+    },
+    {
+      "source": "function:src/support/test/eytzingertest.c:main",
+      "target": "function:src/support/test/eytzingertest.c:in_range",
+      "type": "calls",
+      "weight": 0.8
+    },
+    {
+      "source": "function:src/support/test/eytzingertest.c:main",
+      "target": "function:src/support/test/eytzingertest.c:in_range",
+      "type": "calls",
+      "weight": 0.8
+    },
+    {
+      "source": "function:src/support/test/eytzingertest.c:main",
+      "target": "function:src/support/test/eytzingertest.c:in_range",
+      "type": "calls",
+      "weight": 0.8
+    },
+    {
+      "source": "function:src/support/test/eytzingertest.c:main",
+      "target": "function:src/support/test/eytzingertest.c:in_range",
+      "type": "calls",
+      "weight": 0.8
+    }
+  ],
+  "batchFiles": [
+    {
+      "path": "src/support/eytzinger.c",
+      "language": "c",
+      "fileCategory": "code",
+      "totalLines": 123,
+      "nonEmptyLines": 106,
+      "functions": [
+        {
+          "name": "ptr_cmp",
+          "startLine": 7,
+          "endLine": 12,
+          "params": [
+            "l",
+            "r"
+          ]
+        },
+        {
+          "name": "eytzinger",
+          "startLine": 15,
+          "endLine": 25,
+          "params": [
+            "src",
+            "dest",
+            "i",
+            "k",
+            "n"
+          ]
+        },
+        {
+          "name": "rebuild_tree",
+          "startLine": 28,
+          "endLine": 92,
+          "params": [
+            "t"
+          ]
+        }
+      ],
+      "callGraph": [
+        {
+          "caller": "eytzinger",
+          "callee": "eytzinger",
+          "lineNumber": 19
+        },
+        {
+          "caller": "eytzinger",
+          "callee": "eytzinger",
+          "lineNumber": 22
+        },
+        {
+          "caller": "rebuild_tree",
+          "callee": "arraylist_grow",
+          "lineNumber": 34
+        },
+        {
+          "caller": "rebuild_tree",
+          "callee": "arraylist_grow",
+          "lineNumber": 35
+        },
+        {
+          "caller": "rebuild_tree",
+          "callee": "assert",
+          "lineNumber": 47
+        },
+        {
+          "caller": "rebuild_tree",
+          "callee": "qsort",
+          "lineNumber": 69
+        },
+        {
+          "caller": "rebuild_tree",
+          "callee": "eytzinger",
+          "lineNumber": 72
+        },
+        {
+          "caller": "rebuild_tree",
+          "callee": "_eyt_obj_idx",
+          "lineNumber": 81
+        },
+        {
+          "caller": "rebuild_tree",
+          "callee": "assert",
+          "lineNumber": 82
+        },
+        {
+          "caller": "rebuild_tree",
+          "callee": "assert",
+          "lineNumber": 83
+        }
+      ],
+      "metrics": {
+        "importCount": 1,
+        "exportCount": 0,
+        "functionCount": 3,
+        "classCount": 0
+      }
+    },
+    {
+      "path": "src/support/eytzinger.h",
+      "language": "c",
+      "fileCategory": "code",
+      "totalLines": 117,
+      "nonEmptyLines": 100,
+      "callGraph": [
+        {
+          "caller": "_eyt_obj_idx",
+          "callee": "assert",
+          "lineNumber": 39
+        },
+        {
+          "caller": "_eyt_obj_idx",
+          "callee": "__builtin_ctzll",
+          "lineNumber": 48
+        },
+        {
+          "caller": "_eyt_obj_idx",
+          "callee": "assert",
+          "lineNumber": 49
+        },
+        {
+          "caller": "_eyt_obj_idx",
+          "callee": "assert",
+          "lineNumber": 50
+        },
+        {
+          "caller": "_eyt_obj_idx",
+          "callee": "assert",
+          "lineNumber": 51
+        },
+        {
+          "caller": "eyt_tree_is_in_range",
+          "callee": "uv_rwlock_rdlock",
+          "lineNumber": 95
+        },
+        {
+          "caller": "eyt_tree_is_in_range",
+          "callee": "_eyt_obj_idx",
+          "lineNumber": 96
+        },
+        {
+          "caller": "eyt_tree_is_in_range",
+          "callee": "_eyt_addr_query",
+          "lineNumber": 96
+        },
+        {
+          "caller": "eyt_tree_is_in_range",
+          "callee": "uv_rwlock_rdunlock",
+          "lineNumber": 98
+        }
+      ],
+      "metrics": {
+        "importCount": 0,
+        "exportCount": 0,
+        "functionCount": 0,
+        "classCount": 0
+      }
+    },
+    {
+      "path": "src/support/test/eytzingertest.c",
+      "language": "c",
+      "fileCategory": "code",
+      "totalLines": 135,
+      "nonEmptyLines": 123,
+      "functions": [
+        {
+          "name": "in_range",
+          "startLine": 14,
+          "endLine": 14,
+          "params": [
+            "t",
+            "a"
+          ]
+        },
+        {
+          "name": "main",
+          "startLine": 26,
+          "endLine": 135,
+          "params": []
+        }
+      ],
+      "exports": [
+        {
+          "name": "main",
+          "line": 26,
+          "isDefault": false
+        }
+      ],
+      "callGraph": [
+        {
+          "caller": "in_range",
+          "callee": "eyt_tree_is_in_range",
+          "lineNumber": 14
+        },
+        {
+          "caller": "main",
+          "callee": "eyt_tree_init",
+          "lineNumber": 30
+        },
+        {
+          "caller": "main",
+          "callee": "assert",
+          "lineNumber": 31
+        },
+        {
+          "caller": "main",
+          "callee": "in_range",
+          "lineNumber": 31
+        },
+        {
+          "caller": "main",
+          "callee": "assert",
+          "lineNumber": 32
+        },
+        {
+          "caller": "main",
+          "callee": "in_range",
+          "lineNumber": 32
+        },
+        {
+          "caller": "main",
+          "callee": "assert",
+          "lineNumber": 33
+        },
+        {
+          "caller": "main",
+          "callee": "find",
+          "lineNumber": 33
+        },
+        {
+          "caller": "main",
+          "callee": "eyt_tree_init",
+          "lineNumber": 38
+        },
+        {
+          "caller": "main",
+          "callee": "eyt_tree_add_range",
+          "lineNumber": 39
+        },
+        {
+          "caller": "main",
+          "callee": "assert",
+          "lineNumber": 40
+        },
+        {
+          "caller": "main",
+          "callee": "in_range",
+          "lineNumber": 40
+        },
+        {
+          "caller": "main",
+          "callee": "assert",
+          "lineNumber": 41
+        },
+        {
+          "caller": "main",
+          "callee": "in_range",
+          "lineNumber": 41
+        },
+        {
+          "caller": "main",
+          "callee": "assert",
+          "lineNumber": 42
+        },
+        {
+          "caller": "main",
+          "callee": "in_range",
+          "lineNumber": 42
+        },
+        {
+          "caller": "main",
+          "callee": "assert",
+          "lineNumber": 43
+        },
+        {
+          "caller": "main",
+          "callee": "in_range",
+          "lineNumber": 43
+        },
+        {
+          "caller": "main",
+          "callee": "assert",
+          "lineNumber": 44
+        },
+        {
+          "caller": "main",
+          "callee": "in_range",
+          "lineNumber": 44
+        },
+        {
+          "caller": "main",
+          "callee": "assert",
+          "lineNumber": 45
+        },
+        {
+          "caller": "main",
+          "callee": "in_range",
+          "lineNumber": 45
+        },
+        {
+          "caller": "main",
+          "callee": "assert",
+          "lineNumber": 46
+        },
+        {
+          "caller": "main",
+          "callee": "find",
+          "lineNumber": 46
+        },
+        {
+          "caller": "main",
+          "callee": "assert",
+          "lineNumber": 47
+        },
+        {
+          "caller": "main",
+          "callee": "find",
+          "lineNumber": 47
+        },
+        {
+          "caller": "main",
+          "callee": "assert",
+          "lineNumber": 48
+        },
+        {
+          "caller": "main",
+          "callee": "find",
+          "lineNumber": 48
+        },
+        {
+          "caller": "main",
+          "callee": "eyt_tree_init",
+          "lineNumber": 53
+        },
+        {
+          "caller": "main",
+          "callee": "eyt_tree_add_range",
+          "lineNumber": 54
+        },
+        {
+          "caller": "main",
+          "callee": "eyt_tree_add_range",
+          "lineNumber": 55
+        },
+        {
+          "caller": "main",
+          "callee": "assert",
+          "lineNumber": 56
+        },
+        {
+          "caller": "main",
+          "callee": "in_range",
+          "lineNumber": 56
+        },
+        {
+          "caller": "main",
+          "callee": "assert",
+          "lineNumber": 57
+        },
+        {
+          "caller": "main",
+          "callee": "in_range",
+          "lineNumber": 57
+        },
+        {
+          "caller": "main",
+          "callee": "find",
+          "lineNumber": 57
+        },
+        {
+          "caller": "main",
+          "callee": "assert",
+          "lineNumber": 58
+        },
+        {
+          "caller": "main",
+          "callee": "in_range",
+          "lineNumber": 58
+        },
+        {
+          "caller": "main",
+          "callee": "find",
+          "lineNumber": 58
+        },
+        {
+          "caller": "main",
+          "callee": "assert",
+          "lineNumber": 59
+        },
+        {
+          "caller": "main",
+          "callee": "in_range",
+          "lineNumber": 59
+        },
+        {
+          "caller": "main",
+          "callee": "assert",
+          "lineNumber": 60
+        },
+        {
+          "caller": "main",
+          "callee": "in_range",
+          "lineNumber": 60
+        },
+        {
+          "caller": "main",
+          "callee": "assert",
+          "lineNumber": 61
+        },
+        {
+          "caller": "main",
+          "callee": "in_range",
+          "lineNumber": 61
+        },
+        {
+          "caller": "main",
+          "callee": "find",
+          "lineNumber": 61
+        },
+        {
+          "caller": "main",
+          "callee": "assert",
+          "lineNumber": 62
+        },
+        {
+          "caller": "main",
+          "callee": "in_range",
+          "lineNumber": 62
+        },
+        {
+          "caller": "main",
+          "callee": "assert",
+          "lineNumber": 63
+        },
+        {
+          "caller": "main",
+          "callee": "in_range",
+          "lineNumber": 63
+        },
+        {
+          "caller": "main",
+          "callee": "find",
+          "lineNumber": 63
+        },
+        {
+          "caller": "main",
+          "callee": "assert",
+          "lineNumber": 64
+        },
+        {
+          "caller": "main",
+          "callee": "in_range",
+          "lineNumber": 64
+        },
+        {
+          "caller": "main",
+          "callee": "eyt_tree_init",
+          "lineNumber": 71
+        },
+        {
+          "caller": "main",
+          "callee": "eyt_tree_add_range",
+          "lineNumber": 72
+        },
+        {
+          "caller": "main",
+          "callee": "eyt_tree_add_range",
+          "lineNumber": 73
+        },
+        {
+          "caller": "main",
+          "callee": "assert",
+          "lineNumber": 74
+        },
+        {
+          "caller": "main",
+          "callee": "in_range",
+          "lineNumber": 74
+        },
+        {
+          "caller": "main",
+          "callee": "assert",
+          "lineNumber": 75
+        },
+        {
+          "caller": "main",
+          "callee": "in_range",
+          "lineNumber": 75
+        },
+        {
+          "caller": "main",
+          "callee": "find",
+          "lineNumber": 75
+        },
+        {
+          "caller": "main",
+          "callee": "assert",
+          "lineNumber": 76
+        },
+        {
+          "caller": "main",
+          "callee": "in_range",
+          "lineNumber": 76
+        },
+        {
+          "caller": "main",
+          "callee": "find",
+          "lineNumber": 76
+        },
+        {
+          "caller": "main",
+          "callee": "assert",
+          "lineNumber": 78
+        },
+        {
+          "caller": "main",
+          "callee": "in_range",
+          "lineNumber": 78
+        },
+        {
+          "caller": "main",
+          "callee": "find",
+          "lineNumber": 78
+        },
+        {
+          "caller": "main",
+          "callee": "assert",
+          "lineNumber": 79
+        },
+        {
+          "caller": "main",
+          "callee": "in_range",
+          "lineNumber": 79
+        },
+        {
+          "caller": "main",
+          "callee": "eyt_tree_init",
+          "lineNumber": 84
+        },
+        {
+          "caller": "main",
+          "callee": "eyt_tree_add_range",
+          "lineNumber": 85
+        },
+        {
+          "caller": "main",
+          "callee": "eyt_tree_add_range",
+          "lineNumber": 86
+        },
+        {
+          "caller": "main",
+          "callee": "eyt_tree_add_range",
+          "lineNumber": 87
+        },
+        {
+          "caller": "main",
+          "callee": "assert",
+          "lineNumber": 88
+        },
+        {
+          "caller": "main",
+          "callee": "find",
+          "lineNumber": 88
+        },
+        {
+          "caller": "main",
+          "callee": "assert",
+          "lineNumber": 89
+        },
+        {
+          "caller": "main",
+          "callee": "find",
+          "lineNumber": 89
+        },
+        {
+          "caller": "main",
+          "callee": "assert",
+          "lineNumber": 90
+        },
+        {
+          "caller": "main",
+          "callee": "find",
+          "lineNumber": 90
+        },
+        {
+          "caller": "main",
+          "callee": "assert",
+          "lineNumber": 91
+        },
+        {
+          "caller": "main",
+          "callee": "find",
+          "lineNumber": 91
+        },
+        {
+          "caller": "main",
+          "callee": "assert",
+          "lineNumber": 92
+        },
+        {
+          "caller": "main",
+          "callee": "in_range",
+          "lineNumber": 92
+        },
+        {
+          "caller": "main",
+          "callee": "assert",
+          "lineNumber": 93
+        },
+        {
+          "caller": "main",
+          "callee": "in_range",
+          "lineNumber": 93
+        },
+        {
+          "caller": "main",
+          "callee": "srand",
+          "lineNumber": 99
+        },
+        {
+          "caller": "main",
+          "callee": "rand",
+          "lineNumber": 101
+        },
+        {
+          "caller": "main",
+          "callee": "rand",
+          "lineNumber": 103
+        },
+        {
+          "caller": "main",
+          "callee": "eyt_tree_init",
+          "lineNumber": 104
+        },
+        {
+          "caller": "main",
+          "callee": "rand",
+          "lineNumber": 106
+        },
+        {
+          "caller": "main",
+          "callee": "rand",
+          "lineNumber": 107
+        },
+        {
+          "caller": "main",
+          "callee": "rand",
+          "lineNumber": 117
+        },
+        {
+          "caller": "main",
+          "callee": "eyt_tree_add_range",
+          "lineNumber": 121
+        },
+        {
+          "caller": "main",
+          "callee": "ref_find",
+          "lineNumber": 126
+        },
+        {
+          "caller": "main",
+          "callee": "assert",
+          "lineNumber": 127
+        },
+        {
+          "caller": "main",
+          "callee": "find",
+          "lineNumber": 127
+        },
+        {
+          "caller": "main",
+          "callee": "assert",
+          "lineNumber": 128
+        },
+        {
+          "caller": "main",
+          "callee": "in_range",
+          "lineNumber": 128
+        },
+        {
+          "caller": "main",
+          "callee": "printf",
+          "lineNumber": 133
+        }
+      ],
+      "metrics": {
+        "importCount": 1,
+        "exportCount": 1,
+        "functionCount": 2,
+        "classCount": 0
+      }
+    }
+  ]
+}

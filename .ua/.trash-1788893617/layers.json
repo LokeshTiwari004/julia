@@ -1,0 +1,261 @@
+{
+  "project": "Julia",
+  "description": "High-level, high-performance dynamic programming language for technical computing",
+  "layers": [
+    {
+      "id": "layer:runtime",
+      "name": "Runtime Layer",
+      "description": "Core C/C++ runtime implementation including garbage collection, JIT compilation, type system, method dispatch, threading, and platform abstraction",
+      "paths": [
+        "src/"
+      ],
+      "submodules": [
+        "Core Runtime (julia.h, julia_internal.h, init.c, toplevel.c)",
+        "Garbage Collection (gc-*.c, gc-mmtk/, gc-interface.h)",
+        "JIT/Codegen (codegen.cpp, jitlayers.cpp, llvm-*.cpp, llvm-*.h, passes.h, objcache.cpp)",
+        "Type System (jltypes.c, datatype.c, subtype.c, typemap.c)",
+        "Method Dispatch (gf.c, method.c, builtins.c)",
+        "Task/Threading (task.c, scheduler.c, threading.c, julia_threads.h, julia_locks.h)",
+        "Interpreter (interpreter.c, ircode.c)",
+        "Intrinsics/Builtins (intrinsics.cpp, intrinsics.h, builtin_proto.h)",
+        "CCall/FFI (ccall.cpp, runtime_ccall.c, ccalllazy*.c)",
+        "Dynamic Loading (dlload.c, jl_uv.c)",
+        "Platform Support (src/support/ - dtypes.h, platform.h, ios.h, hashing, etc.)",
+        "Signal Handling (signal-handling.c, signals-*.c)",
+        "Profiling/Debugging (gc-alloc-profiler.c, coverage.c, stackwalk.c)"
+      ],
+      "language": "C/C++",
+      "tags": ["runtime", "core", "gc", "jit", "codegen", "threading", "platform"]
+    },
+    {
+      "id": "layer:compiler",
+      "name": "Compiler Layer",
+      "description": "Julia compiler implementation (Compiler.jl) written in Julia - type inference, optimization, SSA IR, effects system",
+      "paths": [
+        "Compiler/src/"
+      ],
+      "submodules": [
+        "Type Inference (typeinfer.jl, abstractinterpretation.jl, typelattice.jl, typelimits.jl, abstractlattice.jl)",
+        "Optimization (optimize.jl, cicache.jl)",
+        "SSA IR (ssair/)",
+        "Effects System (effects.jl)",
+        "Method Tables (methodtable.jl, bindinginvalidations.jl)",
+        "Inference State/Result (inferencestate.jl, inferenceresult.jl)",
+        "Reinference (reinfer.jl)",
+        "Type Utilities (types.jl, typeutils.jl, stmtinfo.jl)",
+        "Precompilation (precompile.jl)",
+        "Validation/Verification (validation.jl, verifytrim.jl)",
+        "Bootstrap (bootstrap.jl)"
+      ],
+      "language": "Julia",
+      "tags": ["compiler", "type-inference", "optimization", "ssa", "effects"]
+    },
+    {
+      "id": "layer:frontend",
+      "name": "Frontend Layer",
+      "description": "Parser (JuliaSyntax) and AST lowering (JuliaLowering) - transforms source code to Core.IR",
+      "paths": [
+        "JuliaSyntax/src/",
+        "JuliaLowering/src/"
+      ],
+      "submodules": [
+        "JuliaSyntax - Parser (core/, julia/, porcelain/, integration/)",
+        "JuliaLowering - Lowering (desugaring.jl, closure_conversion.jl, linear_ir.jl, scope_analysis.jl)",
+        "Macro Expansion (macro_expansion.jl, syntax_macros.jl)",
+        "Binding Analysis (binding_analysis.jl, bindings.jl)",
+        "AST Representation (ast.jl, kinds.jl)",
+        "Eval/Compat (eval.jl, compat.jl)",
+        "Validation (validation.jl)"
+      ],
+      "language": "Julia",
+      "tags": ["parser", "lowering", "ast", "macros", "frontend"]
+    },
+    {
+      "id": "layer:base",
+      "name": "Base Library Layer",
+      "description": "Core standard library loaded at startup - fundamental types, collections, I/O, math, runtime internals",
+      "paths": [
+        "base/"
+      ],
+      "submodules": [
+        "Bootstrap/Core (boot.jl, essentials.jl, initdefs.jl, public.jl)",
+        "Type System (number.jl, int.jl, float.jl, complex.jl, rational.jl, bool.jl, char.jl)",
+        "Collections (array.jl, abstractarray.jl, dict.jl, set.jl, bitarray.jl, iddict.jl)",
+        "Iteration/Algorithms (iterators.jl, reduce.jl, sort.jl, broadcast.jl, map.jl)",
+        "I/O (io.jl, iostream.jl, iobuffer.jl, stream.jl, file.jl, filesystem.jl, coreio.jl)",
+        "Math (math.jl, floatfuncs.jl, gmp.jl, mpfr.jl, combinatorics.jl, special/)",
+        "Strings (strings/, regex.jl, unicode.jl)",
+        "Tasks/Concurrency (task.jl, channels.jl, condition.jl, asyncmap.jl, threadingconstructs.jl)",
+        "Runtime Internals (runtime_internals.jl, reflection.jl, loading.jl, precompilation.jl)",
+        "System/OS (process.jl, cmd.jl, libdl.jl, libuv.jl, c.jl, env.jl)",
+        "Error/Stacktrace Handling (error.jl, errorshow.jl, stacktraces.jl, exception.jl)",
+        "Modules/Packages (module.jl, pkgid.jl, linking.jl)",
+        "Serialization/Precompilation (serialization/, precompilation.jl, sysimg.jl)"
+      ],
+      "language": "Julia",
+      "tags": ["base", "stdlib", "core", "bootstrap", "collections", "io", "math"]
+    },
+    {
+      "id": "layer:stdlib",
+      "name": "Standard Library Layer",
+      "description": "Independently loadable standard library packages - math, system interfaces, developer tools, JLL wrappers",
+      "paths": [
+        "stdlib/"
+      ],
+      "submodules": [
+        "Core Libraries (Base64, Dates, DelimitedFiles, InteractiveUtils, Libdl, Logging, Markdown, Mmap, Printf, Random, REPL, Serialization, SHA, Sockets, Tar, UUIDs, Unicode, Zlib)",
+        "Math Libraries (LinearAlgebra, SparseArrays, Statistics, SuiteSparse)",
+        "System/Platform (Artifacts, LazyArtifacts, Downloads, NetworkOptions, FileWatching, Distributed, Future, LibGit2, PCRE2)",
+        "Developer Tools (Profile, Test, Pkg, BenchmarkTools)",
+        "JLL Packages (*_jll - LLVM, OpenBLAS, OpenLibm, OpenSSL, LibUV, LibGit2, MPFR, GMP, PCRE2, Zstd, etc.)",
+        "Compiler Support (CompilerSupportLibraries_jll, LLD_jll, LLVMLibUnwind_jll)"
+      ],
+      "language": "Julia",
+      "tags": ["stdlib", "packages", "jll", "math", "system", "devtools"]
+    },
+    {
+      "id": "layer:cli",
+      "name": "CLI/Entry Point Layer",
+      "description": "Command-line interface, dynamic library loader, and platform-specific entry points",
+      "paths": [
+        "cli/"
+      ],
+      "submodules": [
+        "Loader (loader.h, loader_exe.c, loader_lib.c, loader_library_probe.c, loader_symbol_probe.c, loader_win_utils.c)",
+        "Exports/Trampolines (jl_exports.h, list_strip_symbols.h, trampolines/)",
+        "Platform Abstraction (dl-cache.h)"
+      ],
+      "language": "C",
+      "tags": ["cli", "loader", "entry-point", "trampolines", "exports"]
+    },
+    {
+      "id": "layer:build",
+      "name": "Build/Infrastructure Layer",
+      "description": "Build system, external dependencies, patches, and contributed scripts",
+      "paths": [
+        "deps/",
+        "contrib/",
+        "Makefile",
+        "Make.inc",
+        "*.mk",
+        "pkgimage.mk",
+        "sysimage.mk"
+      ],
+      "submodules": [
+        "Dependency Management (deps/*.mk, deps/checksums/, deps/patches/)",
+        "LLVM/Clang Build (deps/llvm.mk, deps/llvm-options.mk, deps/clang.version)",
+        "External Libraries (deps/openblas.mk, deps/gmp.mk, deps/mpfr.mk, deps/libuv.mk, etc.)",
+        "Build Scripts (contrib/*.sh, contrib/*.jl, contrib/*.py)",
+        "CI/Testing (contrib/ci-timing/, contrib/asan/, contrib/tsan/)",
+        "Packaging (contrib/mac/, contrib/windows/, contrib/install.sh)",
+        "Performance (contrib/pgo-lto/, contrib/bolt/, contrib/pgo-lto-bolt/)"
+      ],
+      "language": "Make/Shell/Python/Julia",
+      "tags": ["build", "deps", "infrastructure", "ci", "packaging"]
+    },
+    {
+      "id": "layer:docs",
+      "name": "Documentation Layer",
+      "description": "User manual, developer documentation, and docstrings",
+      "paths": [
+        "doc/"
+      ],
+      "submodules": [
+        "User Manual",
+        "Developer Documentation (doc/src/devdocs/)",
+        "Agent Skills (doc/src/devdocs/agents/skills/)"
+      ],
+      "language": "Markdown/Julia",
+      "tags": ["docs", "manual", "devdocs"]
+    },
+    {
+      "id": "layer:test",
+      "name": "Test Layer",
+      "description": "Test suites for runtime, compiler, base, stdlib, and frontend",
+      "paths": [
+        "test/",
+        "Compiler/test/",
+        "JuliaSyntax/test/",
+        "JuliaLowering/test/",
+        "src/support/test/"
+      ],
+      "submodules": [
+        "Runtime Tests (test/*.jl, test/*.c)",
+        "Compiler Tests (Compiler/test/)",
+        "Frontend Tests (JuliaSyntax/test/, JuliaLowering/test/)",
+        "Support Library Tests (src/support/test/)",
+        "Stdlib Tests (test/stdlib/)"
+      ],
+      "language": "Julia/C",
+      "tags": ["test", "testing", "ci"]
+    }
+  ],
+  "relationships": [
+    {
+      "from": "layer:cli",
+      "to": "layer:runtime",
+      "type": "loads",
+      "description": "CLI loader initializes and embeds the Julia runtime"
+    },
+    {
+      "from": "layer:runtime",
+      "to": "layer:base",
+      "type": "bootstraps",
+      "description": "Runtime loads and initializes Base library at startup"
+    },
+    {
+      "from": "layer:base",
+      "to": "layer:stdlib",
+      "type": "uses",
+      "description": "Base provides core functionality that stdlib packages extend"
+    },
+    {
+      "from": "layer:runtime",
+      "to": "layer:compiler",
+      "type": "invokes",
+      "description": "Runtime calls into Compiler.jl for JIT compilation"
+    },
+    {
+      "from": "layer:compiler",
+      "to": "layer:frontend",
+      "type": "uses",
+      "description": "Compiler uses JuliaSyntax for parsing and JuliaLowering for lowering"
+    },
+    {
+      "from": "layer:frontend",
+      "to": "layer:runtime",
+      "type": "lowers-to",
+      "description": "Frontend lowers AST to Core.IR which runtime executes"
+    },
+    {
+      "from": "layer:build",
+      "to": "layer:runtime",
+      "type": "builds",
+      "description": "Build system compiles C/C++ runtime and manages dependencies"
+    },
+    {
+      "from": "layer:build",
+      "to": "layer:compiler",
+      "type": "builds",
+      "description": "Build system handles Compiler.jl and frontend packages"
+    },
+    {
+      "from": "layer:build",
+      "to": "layer:base",
+      "type": "builds",
+      "description": "Build system creates system image with Base"
+    },
+    {
+      "from": "layer:build",
+      "to": "layer:stdlib",
+      "type": "builds",
+      "description": "Build system handles stdlib packages and JLLs"
+    }
+  ],
+  "metadata": {
+    "totalSourceFiles": 1000,
+    "primaryLanguages": ["C", "C++", "Julia"],
+    "keyFrameworks": ["LLVM", "MMTk", "libuv", "OpenBLAS", "OpenLibm", "GMP", "MPFR", "PCRE2", "LLD"],
+    "architectureStyle": "Multi-layered: Runtime (C/C++) + Compiler/Frontend/Base/Stdlib (Julia) + Build/CLI (Make/C/Shell)"
+  }
+}

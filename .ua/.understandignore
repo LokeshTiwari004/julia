@@ -57,7 +57,7 @@
 
 # --- Detected directories (uncomment to exclude) ---
 
-test/
+# test/
 deps/
 
 # --- Test file patterns (uncomment to exclude) ---

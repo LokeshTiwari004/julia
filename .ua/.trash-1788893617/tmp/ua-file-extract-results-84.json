@@ -1,0 +1,606 @@
+{
+  "scriptCompleted": true,
+  "filesAnalyzed": 7,
+  "filesSkipped": [
+    "test/client.jl",
+    "test/cmdlineargs.jl",
+    "test/combinatorics.jl",
+    "test/compileall.jl",
+    "test/complex.jl",
+    "test/copy.jl",
+    "test/core.jl",
+    "test/corelogging.jl",
+    "test/depot/packages/Baz/81oLe/src/Baz.jl",
+    "test/depot/packages/Foo/I05Qq/src/Foo.jl",
+    "test/deprecation_exec.jl",
+    "test/dict.jl",
+    "test/docs.jl",
+    "test/download.jl",
+    "test/download_exec.jl",
+    "test/embedding/LocalModule.jl",
+    "test/embedding/embedding-test.jl",
+    "test/embedding/include_and_eval.jl"
+  ],
+  "analysisOutcomes": {
+    "structure": {
+      "succeeded": 7,
+      "failed": 0
+    },
+    "callGraph": {
+      "succeeded": 5,
+      "failed": 0,
+      "skipped": 2
+    }
+  },
+  "results": [
+    {
+      "path": "test/clangsa/Makefile",
+      "language": "makefile",
+      "fileCategory": "infra",
+      "totalLines": 22,
+      "nonEmptyLines": 18,
+      "steps": [
+        {
+          "name": "check",
+          "startLine": 6,
+          "endLine": 7
+        }
+      ],
+      "metrics": {
+        "importCount": 0,
+        "exportCount": 0,
+        "functionCount": 0,
+        "classCount": 0,
+        "stepCount": 1
+      }
+    },
+    {
+      "path": "test/clangsa/SafepointCapability.c",
+      "language": "c",
+      "fileCategory": "code",
+      "totalLines": 93,
+      "nonEmptyLines": 79,
+      "functions": [
+        {
+          "name": "cansafepoint_calls_both",
+          "startLine": 23,
+          "endLine": 26,
+          "params": []
+        },
+        {
+          "name": "notsafepoint_body",
+          "startLine": 28,
+          "endLine": 31,
+          "params": []
+        },
+        {
+          "name": "nogc_region",
+          "startLine": 33,
+          "endLine": 40,
+          "params": []
+        },
+        {
+          "name": "nested_regions",
+          "startLine": 42,
+          "endLine": 49,
+          "params": []
+        },
+        {
+          "name": "conditional_region",
+          "startLine": 51,
+          "endLine": 57,
+          "params": []
+        },
+        {
+          "name": "conditional_region_zero",
+          "startLine": 59,
+          "endLine": 66,
+          "params": []
+        },
+        {
+          "name": "gc_safe_region",
+          "startLine": 68,
+          "endLine": 74,
+          "params": []
+        },
+        {
+          "name": "enter_leave_unbalanced",
+          "startLine": 82,
+          "endLine": 86,
+          "params": []
+        }
+      ],
+      "exports": [
+        {
+          "name": "cansafepoint_calls_both",
+          "line": 23,
+          "isDefault": false
+        },
+        {
+          "name": "notsafepoint_body",
+          "line": 28,
+          "isDefault": false
+        },
+        {
+          "name": "nogc_region",
+          "line": 33,
+          "isDefault": false
+        },
+        {
+          "name": "nested_regions",
+          "line": 42,
+          "isDefault": false
+        },
+        {
+          "name": "conditional_region",
+          "line": 51,
+          "isDefault": false
+        },
+        {
+          "name": "conditional_region_zero",
+          "line": 59,
+          "isDefault": false
+        },
+        {
+          "name": "gc_safe_region",
+          "line": 68,
+          "isDefault": false
+        },
+        {
+          "name": "enter_leave_unbalanced",
+          "line": 82,
+          "isDefault": false
+        }
+      ],
+      "callGraph": [
+        {
+          "caller": "cansafepoint_calls_both",
+          "callee": "may_safepoint",
+          "lineNumber": 24
+        },
+        {
+          "caller": "cansafepoint_calls_both",
+          "callee": "notsafepoint",
+          "lineNumber": 25
+        },
+        {
+          "caller": "notsafepoint_body",
+          "callee": "may_safepoint",
+          "lineNumber": 29
+        },
+        {
+          "caller": "nogc_region",
+          "callee": "may_safepoint",
+          "lineNumber": 34
+        },
+        {
+          "caller": "nogc_region",
+          "callee": "lock_nogc",
+          "lineNumber": 35
+        },
+        {
+          "caller": "nogc_region",
+          "callee": "notsafepoint",
+          "lineNumber": 36
+        },
+        {
+          "caller": "nogc_region",
+          "callee": "may_safepoint",
+          "lineNumber": 37
+        },
+        {
+          "caller": "nogc_region",
+          "callee": "unlock_nogc",
+          "lineNumber": 38
+        },
+        {
+          "caller": "nogc_region",
+          "callee": "may_safepoint",
+          "lineNumber": 39
+        },
+        {
+          "caller": "nested_regions",
+          "callee": "lock_nogc",
+          "lineNumber": 43
+        },
+        {
+          "caller": "nested_regions",
+          "callee": "lock_nogc",
+          "lineNumber": 44
+        },
+        {
+          "caller": "nested_regions",
+          "callee": "notsafepoint",
+          "lineNumber": 45
+        },
+        {
+          "caller": "nested_regions",
+          "callee": "unlock_nogc",
+          "lineNumber": 46
+        },
+        {
+          "caller": "nested_regions",
+          "callee": "unlock_nogc",
+          "lineNumber": 47
+        },
+        {
+          "caller": "nested_regions",
+          "callee": "may_safepoint",
+          "lineNumber": 48
+        },
+        {
+          "caller": "conditional_region",
+          "callee": "trylock_nogc",
+          "lineNumber": 52
+        },
+        {
+          "caller": "conditional_region",
+          "callee": "may_safepoint",
+          "lineNumber": 53
+        },
+        {
+          "caller": "conditional_region",
+          "callee": "unlock_nogc",
+          "lineNumber": 54
+        },
+        {
+          "caller": "conditional_region",
+          "callee": "may_safepoint",
+          "lineNumber": 56
+        },
+        {
+          "caller": "conditional_region_zero",
+          "callee": "trylock0_nogc",
+          "lineNumber": 60
+        },
+        {
+          "caller": "conditional_region_zero",
+          "callee": "may_safepoint",
+          "lineNumber": 61
+        },
+        {
+          "caller": "conditional_region_zero",
+          "callee": "may_safepoint",
+          "lineNumber": 63
+        },
+        {
+          "caller": "conditional_region_zero",
+          "callee": "unlock_nogc",
+          "lineNumber": 64
+        },
+        {
+          "caller": "gc_safe_region",
+          "callee": "may_safepoint",
+          "lineNumber": 69
+        },
+        {
+          "caller": "gc_safe_region",
+          "callee": "gc_unsafe_leave",
+          "lineNumber": 70
+        },
+        {
+          "caller": "gc_safe_region",
+          "callee": "may_safepoint",
+          "lineNumber": 71
+        },
+        {
+          "caller": "gc_safe_region",
+          "callee": "gc_unsafe_enter",
+          "lineNumber": 72
+        },
+        {
+          "caller": "gc_safe_region",
+          "callee": "may_safepoint",
+          "lineNumber": 73
+        },
+        {
+          "caller": "enter_leave_unbalanced",
+          "callee": "gc_unsafe_enter",
+          "lineNumber": 83
+        },
+        {
+          "caller": "enter_leave_unbalanced",
+          "callee": "may_safepoint",
+          "lineNumber": 84
+        }
+      ],
+      "metrics": {
+        "importCount": 0,
+        "exportCount": 8,
+        "functionCount": 8,
+        "classCount": 0
+      }
+    },
+    {
+      "path": "test/clangsa/StaticOrDeclaredTest.c",
+      "language": "c",
+      "fileCategory": "code",
+      "totalLines": 99,
+      "nonEmptyLines": 82,
+      "functions": [
+        {
+          "name": "sod_public",
+          "startLine": 40,
+          "endLine": 40,
+          "params": []
+        },
+        {
+          "name": "sod_public_val",
+          "startLine": 41,
+          "endLine": 41,
+          "params": [
+            "x"
+          ]
+        },
+        {
+          "name": "sod_static",
+          "startLine": 42,
+          "endLine": 42,
+          "params": [
+            "x"
+          ]
+        },
+        {
+          "name": "sod_vis_default",
+          "startLine": 43,
+          "endLine": 43,
+          "params": []
+        },
+        {
+          "name": "sod_vis_hidden",
+          "startLine": 44,
+          "endLine": 44,
+          "params": []
+        },
+        {
+          "name": "sod_extern_marked",
+          "startLine": 45,
+          "endLine": 45,
+          "params": []
+        },
+        {
+          "name": "sod_fwd_local",
+          "startLine": 52,
+          "endLine": 52,
+          "params": []
+        },
+        {
+          "name": "sod_orphan",
+          "startLine": 54,
+          "endLine": 54,
+          "params": [
+            "x"
+          ]
+        },
+        {
+          "name": "main",
+          "startLine": 97,
+          "endLine": 99,
+          "params": []
+        }
+      ],
+      "exports": [
+        {
+          "name": "sod_public",
+          "line": 40,
+          "isDefault": false
+        },
+        {
+          "name": "sod_public_val",
+          "line": 41,
+          "isDefault": false
+        },
+        {
+          "name": "sod_vis_default",
+          "line": 43,
+          "isDefault": false
+        },
+        {
+          "name": "sod_vis_hidden",
+          "line": 44,
+          "isDefault": false
+        },
+        {
+          "name": "sod_extern_marked",
+          "line": 45,
+          "isDefault": false
+        },
+        {
+          "name": "sod_fwd_local",
+          "line": 52,
+          "isDefault": false
+        },
+        {
+          "name": "sod_orphan",
+          "line": 54,
+          "isDefault": false
+        },
+        {
+          "name": "main",
+          "line": 97,
+          "isDefault": false
+        }
+      ],
+      "callGraph": [
+        {
+          "caller": "sod_vis_default",
+          "callee": "visibility",
+          "lineNumber": 43
+        },
+        {
+          "caller": "sod_vis_hidden",
+          "callee": "visibility",
+          "lineNumber": 44
+        },
+        {
+          "caller": "sod_orphan",
+          "callee": "sod_static",
+          "lineNumber": 54
+        },
+        {
+          "caller": "main",
+          "callee": "sod_orphan",
+          "lineNumber": 98
+        },
+        {
+          "caller": "main",
+          "callee": "sod_public_val",
+          "lineNumber": 98
+        }
+      ],
+      "metrics": {
+        "importCount": 1,
+        "exportCount": 8,
+        "functionCount": 9,
+        "classCount": 0
+      }
+    },
+    {
+      "path": "test/clangsa/StaticOrDeclaredTest.h",
+      "language": "c",
+      "fileCategory": "code",
+      "totalLines": 18,
+      "nonEmptyLines": 14,
+      "functions": [
+        {
+          "name": "sod_fwd_exported",
+          "startLine": 10,
+          "endLine": 10,
+          "params": []
+        }
+      ],
+      "exports": [
+        {
+          "name": "sod_fwd_exported",
+          "line": 10,
+          "isDefault": false
+        }
+      ],
+      "callGraph": [
+        {
+          "caller": "sod_fwd_exported",
+          "callee": "visibility",
+          "lineNumber": 10
+        }
+      ],
+      "metrics": {
+        "importCount": 0,
+        "exportCount": 1,
+        "functionCount": 1,
+        "classCount": 0
+      }
+    },
+    {
+      "path": "test/clangsa/lit.cfg.py",
+      "language": "python",
+      "fileCategory": "code",
+      "totalLines": 25,
+      "nonEmptyLines": 21,
+      "metrics": {
+        "importCount": 0,
+        "exportCount": 0,
+        "functionCount": 0,
+        "classCount": 0
+      }
+    },
+    {
+      "path": "test/embedding/Makefile",
+      "language": "makefile",
+      "fileCategory": "infra",
+      "totalLines": 114,
+      "nonEmptyLines": 87,
+      "steps": [
+        {
+          "name": "release",
+          "startLine": 38,
+          "endLine": 38
+        },
+        {
+          "name": "debug",
+          "startLine": 39,
+          "endLine": 40
+        },
+        {
+          "name": "check",
+          "startLine": 60,
+          "endLine": 61
+        },
+        {
+          "name": "check-embedding",
+          "startLine": 62,
+          "endLine": 66
+        },
+        {
+          "name": "check",
+          "startLine": 92,
+          "endLine": 92
+        },
+        {
+          "name": "check",
+          "startLine": 94,
+          "endLine": 94
+        },
+        {
+          "name": "check-asan",
+          "startLine": 99,
+          "endLine": 104
+        },
+        {
+          "name": "clean",
+          "startLine": 105,
+          "endLine": 108
+        }
+      ],
+      "metrics": {
+        "importCount": 0,
+        "exportCount": 0,
+        "functionCount": 0,
+        "classCount": 0,
+        "stepCount": 8
+      }
+    },
+    {
+      "path": "test/embedding/libdl_embedding.c",
+      "language": "c",
+      "fileCategory": "code",
+      "totalLines": 12,
+      "nonEmptyLines": 11,
+      "functions": [
+        {
+          "name": "main",
+          "startLine": 5,
+          "endLine": 12,
+          "params": [
+            "argc",
+            "argv"
+          ]
+        }
+      ],
+      "exports": [
+        {
+          "name": "main",
+          "line": 5,
+          "isDefault": false
+        }
+      ],
+      "callGraph": [
+        {
+          "caller": "main",
+          "callee": "signal",
+          "lineNumber": 9
+        },
+        {
+          "caller": "main",
+          "callee": "dlopen",
+          "lineNumber": 10
+        }
+      ],
+      "metrics": {
+        "importCount": 0,
+        "exportCount": 1,
+        "functionCount": 1,
+        "classCount": 0
+      }
+    }
+  ]
+}

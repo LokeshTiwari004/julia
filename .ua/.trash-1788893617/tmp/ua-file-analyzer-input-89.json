@@ -1,0 +1,182 @@
+{
+  "projectRoot": "/home/maruti/julia",
+  "batchFiles": [
+    {
+      "path": "test/llvmpasses/safepoint_stress.jl",
+      "language": "jl",
+      "sizeLines": 29,
+      "fileCategory": "code"
+    },
+    {
+      "path": "test/loading.jl",
+      "language": "jl",
+      "sizeLines": 2279,
+      "fileCategory": "code"
+    },
+    {
+      "path": "test/manifest/v1.0/Manifest.toml",
+      "language": "toml",
+      "sizeLines": 11,
+      "fileCategory": "config"
+    },
+    {
+      "path": "test/manifest/v2.0/Manifest.toml",
+      "language": "toml",
+      "sizeLines": 14,
+      "fileCategory": "config"
+    },
+    {
+      "path": "test/math.jl",
+      "language": "jl",
+      "sizeLines": 1904,
+      "fileCategory": "code"
+    },
+    {
+      "path": "test/meta.jl",
+      "language": "jl",
+      "sizeLines": 288,
+      "fileCategory": "code"
+    },
+    {
+      "path": "test/misc.jl",
+      "language": "jl",
+      "sizeLines": 1848,
+      "fileCategory": "code"
+    },
+    {
+      "path": "test/missing.jl",
+      "language": "jl",
+      "sizeLines": 687,
+      "fileCategory": "code"
+    },
+    {
+      "path": "test/mod2pi.jl",
+      "language": "jl",
+      "sizeLines": 268,
+      "fileCategory": "code"
+    },
+    {
+      "path": "test/mpfr.jl",
+      "language": "jl",
+      "sizeLines": 1124,
+      "fileCategory": "code"
+    },
+    {
+      "path": "test/namedtuple.jl",
+      "language": "jl",
+      "sizeLines": 465,
+      "fileCategory": "code"
+    },
+    {
+      "path": "test/netload/memtest.jl",
+      "language": "jl",
+      "sizeLines": 62,
+      "fileCategory": "code"
+    },
+    {
+      "path": "test/numbers.jl",
+      "language": "jl",
+      "sizeLines": 3409,
+      "fileCategory": "code"
+    },
+    {
+      "path": "test/offsetarray.jl",
+      "language": "jl",
+      "sizeLines": 929,
+      "fileCategory": "code"
+    },
+    {
+      "path": "test/opaque_closure.jl",
+      "language": "jl",
+      "sizeLines": 511,
+      "fileCategory": "code"
+    },
+    {
+      "path": "test/operators.jl",
+      "language": "jl",
+      "sizeLines": 443,
+      "fileCategory": "code"
+    },
+    {
+      "path": "test/ordering.jl",
+      "language": "jl",
+      "sizeLines": 59,
+      "fileCategory": "code"
+    },
+    {
+      "path": "test/osutils.jl",
+      "language": "jl",
+      "sizeLines": 76,
+      "fileCategory": "code"
+    },
+    {
+      "path": "test/parse.jl",
+      "language": "jl",
+      "sizeLines": 339,
+      "fileCategory": "code"
+    },
+    {
+      "path": "test/path.jl",
+      "language": "jl",
+      "sizeLines": 495,
+      "fileCategory": "code"
+    },
+    {
+      "path": "test/precompile.jl",
+      "language": "jl",
+      "sizeLines": 3871,
+      "fileCategory": "code"
+    },
+    {
+      "path": "test/precompile_absint1.jl",
+      "language": "jl",
+      "sizeLines": 72,
+      "fileCategory": "code"
+    },
+    {
+      "path": "test/precompile_absint2.jl",
+      "language": "jl",
+      "sizeLines": 90,
+      "fileCategory": "code"
+    },
+    {
+      "path": "test/precompile_extmi.jl",
+      "language": "jl",
+      "sizeLines": 104,
+      "fileCategory": "code"
+    },
+    {
+      "path": "test/precompile_utils.jl",
+      "language": "jl",
+      "sizeLines": 46,
+      "fileCategory": "code"
+    }
+  ],
+  "batchImportData": {
+    "test/llvmpasses/safepoint_stress.jl": [],
+    "test/loading.jl": [],
+    "test/manifest/v1.0/Manifest.toml": [],
+    "test/manifest/v2.0/Manifest.toml": [],
+    "test/math.jl": [],
+    "test/meta.jl": [],
+    "test/misc.jl": [],
+    "test/missing.jl": [],
+    "test/mod2pi.jl": [],
+    "test/mpfr.jl": [],
+    "test/namedtuple.jl": [],
+    "test/netload/memtest.jl": [],
+    "test/numbers.jl": [],
+    "test/offsetarray.jl": [],
+    "test/opaque_closure.jl": [],
+    "test/operators.jl": [],
+    "test/ordering.jl": [],
+    "test/osutils.jl": [],
+    "test/parse.jl": [],
+    "test/path.jl": [],
+    "test/precompile.jl": [],
+    "test/precompile_absint1.jl": [],
+    "test/precompile_absint2.jl": [],
+    "test/precompile_extmi.jl": [],
+    "test/precompile_utils.jl": []
+  }
+}

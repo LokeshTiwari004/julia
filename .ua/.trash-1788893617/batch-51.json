@@ -1,0 +1,46 @@
+{
+  "batchIndex": 51,
+  "nodes": [
+    {
+      "id": "config:JuliaSyntax/sysimage/JuliaSyntaxCore/Project.toml",
+      "type": "config",
+      "name": "Project.toml",
+      "filePath": "JuliaSyntax/sysimage/JuliaSyntaxCore/Project.toml",
+      "summary": "Configuration file: Project.toml.",
+      "tags": [
+        "configuration"
+      ],
+      "complexity": "simple",
+      "language": "toml"
+    }
+  ],
+  "edges": [],
+  "batchFiles": [
+    {
+      "path": "JuliaSyntax/sysimage/JuliaSyntaxCore/Project.toml",
+      "language": "toml",
+      "fileCategory": "config",
+      "totalLines": 10,
+      "nonEmptyLines": 8,
+      "sections": [
+        {
+          "heading": "compat",
+          "level": 1,
+          "line": 6
+        },
+        {
+          "heading": "deps",
+          "level": 1,
+          "line": 9
+        }
+      ],
+      "metrics": {
+        "importCount": 0,
+        "exportCount": 0,
+        "functionCount": 0,
+        "classCount": 0,
+        "sectionCount": 2
+      }
+    }
+  ]
+}

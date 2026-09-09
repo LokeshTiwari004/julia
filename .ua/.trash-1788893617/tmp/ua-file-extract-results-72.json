@@ -1,0 +1,43 @@
+{
+  "scriptCompleted": true,
+  "filesAnalyzed": 0,
+  "filesSkipped": [
+    "stdlib/LibGit2/src/reference.jl",
+    "stdlib/LibGit2/src/remote.jl",
+    "stdlib/LibGit2/src/repository.jl",
+    "stdlib/LibGit2/src/signature.jl",
+    "stdlib/LibGit2/src/status.jl",
+    "stdlib/LibGit2/src/strarray.jl",
+    "stdlib/LibGit2/src/tag.jl",
+    "stdlib/LibGit2/src/tree.jl",
+    "stdlib/LibGit2/src/types.jl",
+    "stdlib/LibGit2/src/utils.jl",
+    "stdlib/LibGit2/src/walker.jl",
+    "stdlib/LibGit2/test/bad_ca_roots.jl",
+    "stdlib/LibGit2/test/bad_ca_roots.pem",
+    "stdlib/LibGit2/test/keys/invalid",
+    "stdlib/LibGit2/test/keys/invalid.pub",
+    "stdlib/LibGit2/test/keys/valid",
+    "stdlib/LibGit2/test/keys/valid-passphrase",
+    "stdlib/LibGit2/test/keys/valid-passphrase.pub",
+    "stdlib/LibGit2/test/keys/valid.pub",
+    "stdlib/LibGit2/test/known_hosts",
+    "stdlib/LibGit2/test/libgit2-helpers.jl",
+    "stdlib/LibGit2/test/libgit2-tests.jl",
+    "stdlib/LibGit2/test/libgit2.jl",
+    "stdlib/LibGit2/test/online-tests.jl",
+    "stdlib/LibGit2/test/online.jl"
+  ],
+  "analysisOutcomes": {
+    "structure": {
+      "succeeded": 0,
+      "failed": 0
+    },
+    "callGraph": {
+      "succeeded": 0,
+      "failed": 0,
+      "skipped": 0
+    }
+  },
+  "results": []
+}

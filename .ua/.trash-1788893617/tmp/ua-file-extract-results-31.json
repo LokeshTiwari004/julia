@@ -1,0 +1,473 @@
+{
+  "scriptCompleted": true,
+  "filesAnalyzed": 5,
+  "filesSkipped": [],
+  "analysisOutcomes": {
+    "structure": {
+      "succeeded": 5,
+      "failed": 0
+    },
+    "callGraph": {
+      "succeeded": 0,
+      "failed": 0,
+      "skipped": 5
+    }
+  },
+  "results": [
+    {
+      "path": "JuliaSyntax/docs/src/api.md",
+      "language": "markdown",
+      "fileCategory": "docs",
+      "totalLines": 169,
+      "nonEmptyLines": 130,
+      "sections": [
+        {
+          "heading": "API Reference",
+          "level": 1,
+          "line": 1
+        },
+        {
+          "heading": "Parsing",
+          "level": 2,
+          "line": 3
+        },
+        {
+          "heading": "Low level parsing API",
+          "level": 3,
+          "line": 11
+        },
+        {
+          "heading": "Tokenization",
+          "level": 2,
+          "line": 25
+        },
+        {
+          "heading": "Source code handling",
+          "level": 2,
+          "line": 33
+        },
+        {
+          "heading": "Expression predicates, kinds and flags",
+          "level": 2,
+          "line": 67
+        },
+        {
+          "heading": "Syntax trees",
+          "level": 2,
+          "line": 125
+        },
+        {
+          "heading": "Trees referencing the source",
+          "level": 3,
+          "line": 143
+        },
+        {
+          "heading": "Relocatable syntax trees",
+          "level": 3,
+          "line": 153
+        }
+      ],
+      "metrics": {
+        "importCount": 0,
+        "exportCount": 0,
+        "functionCount": 0,
+        "classCount": 0,
+        "sectionCount": 9
+      }
+    },
+    {
+      "path": "JuliaSyntax/docs/src/design.md",
+      "language": "markdown",
+      "fileCategory": "docs",
+      "totalLines": 850,
+      "nonEmptyLines": 683,
+      "sections": [
+        {
+          "heading": "Design discussion and developer documentation",
+          "level": 1,
+          "line": 1
+        },
+        {
+          "heading": "Goals",
+          "level": 2,
+          "line": 3
+        },
+        {
+          "heading": "Design Opinions",
+          "level": 2,
+          "line": 14
+        },
+        {
+          "heading": "Parser implementation",
+          "level": 1,
+          "line": 24
+        },
+        {
+          "heading": "Lexing",
+          "level": 3,
+          "line": 41
+        },
+        {
+          "heading": "Parsing with ParseStream",
+          "level": 3,
+          "line": 54
+        },
+        {
+          "heading": "Tree construction",
+          "level": 3,
+          "line": 92
+        },
+        {
+          "heading": "Error recovery",
+          "level": 3,
+          "line": 101
+        },
+        {
+          "heading": "Syntax trees",
+          "level": 1,
+          "line": 129
+        },
+        {
+          "heading": "More about syntax kinds",
+          "level": 2,
+          "line": 148
+        },
+        {
+          "heading": "Differences from the flisp parser",
+          "level": 1,
+          "line": 178
+        },
+        {
+          "heading": "Code structure",
+          "level": 2,
+          "line": 196
+        },
+        {
+          "heading": "Flisp parser bugs",
+          "level": 2,
+          "line": 215
+        },
+        {
+          "heading": "Parsing / AST oddities and warts",
+          "level": 2,
+          "line": 283
+        },
+        {
+          "heading": "Questionable allowed forms",
+          "level": 3,
+          "line": 285
+        },
+        {
+          "heading": "`kw` and `=` inconsistencies",
+          "level": 3,
+          "line": 299
+        },
+        {
+          "heading": "Other oddities",
+          "level": 3,
+          "line": 322
+        },
+        {
+          "heading": "Comparisons to other packages",
+          "level": 1,
+          "line": 412
+        },
+        {
+          "heading": "Official Julia compiler",
+          "level": 3,
+          "line": 414
+        },
+        {
+          "heading": "JuliaParser.jl",
+          "level": 3,
+          "line": 441
+        },
+        {
+          "heading": "Tokenize.jl",
+          "level": 3,
+          "line": 450
+        },
+        {
+          "heading": "CSTParser.jl",
+          "level": 3,
+          "line": 457
+        },
+        {
+          "heading": "tree-sitter-julia",
+          "level": 3,
+          "line": 486
+        },
+        {
+          "heading": "Resources",
+          "level": 1,
+          "line": 500
+        },
+        {
+          "heading": "Julia issues",
+          "level": 2,
+          "line": 502
+        },
+        {
+          "heading": "Macro expansion",
+          "level": 4,
+          "line": 506
+        },
+        {
+          "heading": "Lowering",
+          "level": 4,
+          "line": 511
+        },
+        {
+          "heading": "C# Roslyn",
+          "level": 2,
+          "line": 519
+        },
+        {
+          "heading": "Rust-analyzer",
+          "level": 2,
+          "line": 526
+        },
+        {
+          "heading": "RSLint",
+          "level": 2,
+          "line": 573
+        },
+        {
+          "heading": "Diagnostics",
+          "level": 2,
+          "line": 591
+        },
+        {
+          "heading": "General resources about parsing",
+          "level": 2,
+          "line": 605
+        },
+        {
+          "heading": "Design notes",
+          "level": 1,
+          "line": 619
+        },
+        {
+          "heading": "Prototyping approach",
+          "level": 2,
+          "line": 624
+        },
+        {
+          "heading": "Tree design",
+          "level": 2,
+          "line": 668
+        },
+        {
+          "heading": "Raw syntax tree / Green tree",
+          "level": 3,
+          "line": 670
+        },
+        {
+          "heading": "Abstract syntax tree",
+          "level": 3,
+          "line": 694
+        },
+        {
+          "heading": "Parsing",
+          "level": 2,
+          "line": 733
+        },
+        {
+          "heading": "Error recovery",
+          "level": 3,
+          "line": 735
+        },
+        {
+          "heading": "Fun research questions",
+          "level": 1,
+          "line": 833
+        },
+        {
+          "heading": "Parser Recovery",
+          "level": 3,
+          "line": 835
+        },
+        {
+          "heading": "Formatting",
+          "level": 3,
+          "line": 844
+        }
+      ],
+      "metrics": {
+        "importCount": 0,
+        "exportCount": 0,
+        "functionCount": 0,
+        "classCount": 0,
+        "sectionCount": 42
+      }
+    },
+    {
+      "path": "JuliaSyntax/docs/src/howto.md",
+      "language": "markdown",
+      "fileCategory": "docs",
+      "totalLines": 37,
+      "nonEmptyLines": 27,
+      "sections": [
+        {
+          "heading": "How-To",
+          "level": 1,
+          "line": 1
+        },
+        {
+          "heading": "Use JuliaSyntax as the default parser",
+          "level": 2,
+          "line": 5
+        },
+        {
+          "heading": "VSCode",
+          "level": 3,
+          "line": 24
+        }
+      ],
+      "metrics": {
+        "importCount": 0,
+        "exportCount": 0,
+        "functionCount": 0,
+        "classCount": 0,
+        "sectionCount": 3
+      }
+    },
+    {
+      "path": "JuliaSyntax/docs/src/index.md",
+      "language": "markdown",
+      "fileCategory": "docs",
+      "totalLines": 79,
+      "nonEmptyLines": 66,
+      "sections": [
+        {
+          "heading": "JuliaSyntax.jl",
+          "level": 1,
+          "line": 1
+        },
+        {
+          "heading": "Examples",
+          "level": 2,
+          "line": 8
+        }
+      ],
+      "metrics": {
+        "importCount": 0,
+        "exportCount": 0,
+        "functionCount": 0,
+        "classCount": 0,
+        "sectionCount": 2
+      }
+    },
+    {
+      "path": "JuliaSyntax/docs/src/reference.md",
+      "language": "markdown",
+      "fileCategory": "docs",
+      "totalLines": 327,
+      "nonEmptyLines": 257,
+      "sections": [
+        {
+          "heading": "Syntax Trees",
+          "level": 1,
+          "line": 1
+        },
+        {
+          "heading": "JuliaSyntax trees vs `Expr`",
+          "level": 2,
+          "line": 7
+        },
+        {
+          "heading": "Source ordered children",
+          "level": 3,
+          "line": 12
+        },
+        {
+          "heading": "No `LineNumberNode`s",
+          "level": 3,
+          "line": 20
+        },
+        {
+          "heading": "More consistent / less redundant `block`s",
+          "level": 3,
+          "line": 25
+        },
+        {
+          "heading": "Faithful representation of the source text / avoid premature lowering",
+          "level": 3,
+          "line": 36
+        },
+        {
+          "heading": "Containers for string-like constructs",
+          "level": 3,
+          "line": 53
+        },
+        {
+          "heading": "Improvements for AST inconsistencies",
+          "level": 3,
+          "line": 66
+        },
+        {
+          "heading": "Improvements to awkward AST forms",
+          "level": 3,
+          "line": 75
+        },
+        {
+          "heading": "More detail on tree differences",
+          "level": 2,
+          "line": 86
+        },
+        {
+          "heading": "Generators",
+          "level": 3,
+          "line": 88
+        },
+        {
+          "heading": "Whitespace trivia inside strings",
+          "level": 3,
+          "line": 143
+        },
+        {
+          "heading": "String nodes always wrapped in `K\"string\"` or `K\"cmdstring\"`",
+          "level": 3,
+          "line": 191
+        },
+        {
+          "heading": "Do blocks",
+          "level": 3,
+          "line": 203
+        },
+        {
+          "heading": "Tree structure reference",
+          "level": 2,
+          "line": 236
+        },
+        {
+          "heading": "Concatenation syntax",
+          "level": 3,
+          "line": 241
+        },
+        {
+          "heading": "Vertical concatenation (dimension 1)",
+          "level": 4,
+          "line": 256
+        },
+        {
+          "heading": "Horizontal concatenation (dimension 2)",
+          "level": 4,
+          "line": 273
+        },
+        {
+          "heading": "Mixed concatenation",
+          "level": 4,
+          "line": 290
+        }
+      ],
+      "metrics": {
+        "importCount": 0,
+        "exportCount": 0,
+        "functionCount": 0,
+        "classCount": 0,
+        "sectionCount": 19
+      }
+    }
+  ]
+}

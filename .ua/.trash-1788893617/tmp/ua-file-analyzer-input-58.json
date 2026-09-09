@@ -1,0 +1,182 @@
+{
+  "projectRoot": "/home/maruti/julia",
+  "batchFiles": [
+    {
+      "path": "base/ryu/LICENSE.md",
+      "language": "markdown",
+      "sizeLines": 25,
+      "fileCategory": "docs"
+    },
+    {
+      "path": "base/ryu/Ryu.jl",
+      "language": "jl",
+      "sizeLines": 147,
+      "fileCategory": "code"
+    },
+    {
+      "path": "base/ryu/exp.jl",
+      "language": "jl",
+      "sizeLines": 241,
+      "fileCategory": "code"
+    },
+    {
+      "path": "base/ryu/fixed.jl",
+      "language": "jl",
+      "sizeLines": 185,
+      "fileCategory": "code"
+    },
+    {
+      "path": "base/ryu/shortest.jl",
+      "language": "jl",
+      "sizeLines": 464,
+      "fileCategory": "code"
+    },
+    {
+      "path": "base/ryu/utils.jl",
+      "language": "jl",
+      "sizeLines": 338,
+      "fileCategory": "code"
+    },
+    {
+      "path": "base/scope.jl",
+      "language": "jl",
+      "sizeLines": 47,
+      "fileCategory": "code"
+    },
+    {
+      "path": "base/scopedvalues.jl",
+      "language": "jl",
+      "sizeLines": 310,
+      "fileCategory": "code"
+    },
+    {
+      "path": "base/secretbuffer.jl",
+      "language": "jl",
+      "sizeLines": 232,
+      "fileCategory": "code"
+    },
+    {
+      "path": "base/set.jl",
+      "language": "jl",
+      "sizeLines": 1046,
+      "fileCategory": "code"
+    },
+    {
+      "path": "base/shell.jl",
+      "language": "jl",
+      "sizeLines": 699,
+      "fileCategory": "code"
+    },
+    {
+      "path": "base/show.jl",
+      "language": "jl",
+      "sizeLines": 3538,
+      "fileCategory": "code"
+    },
+    {
+      "path": "base/simdloop.jl",
+      "language": "jl",
+      "sizeLines": 139,
+      "fileCategory": "code"
+    },
+    {
+      "path": "base/slicearray.jl",
+      "language": "jl",
+      "sizeLines": 249,
+      "fileCategory": "code"
+    },
+    {
+      "path": "base/some.jl",
+      "language": "jl",
+      "sizeLines": 172,
+      "fileCategory": "code"
+    },
+    {
+      "path": "base/sort.jl",
+      "language": "jl",
+      "sizeLines": 2569,
+      "fileCategory": "code"
+    },
+    {
+      "path": "base/special/cbrt.jl",
+      "language": "jl",
+      "sizeLines": 167,
+      "fileCategory": "code"
+    },
+    {
+      "path": "base/special/exp.jl",
+      "language": "jl",
+      "sizeLines": 509,
+      "fileCategory": "code"
+    },
+    {
+      "path": "base/special/hyperbolic.jl",
+      "language": "jl",
+      "sizeLines": 268,
+      "fileCategory": "code"
+    },
+    {
+      "path": "base/special/log.jl",
+      "language": "jl",
+      "sizeLines": 583,
+      "fileCategory": "code"
+    },
+    {
+      "path": "base/special/pow.jl",
+      "language": "jl",
+      "sizeLines": 142,
+      "fileCategory": "code"
+    },
+    {
+      "path": "base/special/rem2pi.jl",
+      "language": "jl",
+      "sizeLines": 142,
+      "fileCategory": "code"
+    },
+    {
+      "path": "base/special/rem_pio2.jl",
+      "language": "jl",
+      "sizeLines": 295,
+      "fileCategory": "code"
+    },
+    {
+      "path": "base/special/trig.jl",
+      "language": "jl",
+      "sizeLines": 1601,
+      "fileCategory": "code"
+    },
+    {
+      "path": "base/stacktraces.jl",
+      "language": "jl",
+      "sizeLines": 451,
+      "fileCategory": "code"
+    }
+  ],
+  "batchImportData": {
+    "base/ryu/LICENSE.md": [],
+    "base/ryu/Ryu.jl": [],
+    "base/ryu/exp.jl": [],
+    "base/ryu/fixed.jl": [],
+    "base/ryu/shortest.jl": [],
+    "base/ryu/utils.jl": [],
+    "base/scope.jl": [],
+    "base/scopedvalues.jl": [],
+    "base/secretbuffer.jl": [],
+    "base/set.jl": [],
+    "base/shell.jl": [],
+    "base/show.jl": [],
+    "base/simdloop.jl": [],
+    "base/slicearray.jl": [],
+    "base/some.jl": [],
+    "base/sort.jl": [],
+    "base/special/cbrt.jl": [],
+    "base/special/exp.jl": [],
+    "base/special/hyperbolic.jl": [],
+    "base/special/log.jl": [],
+    "base/special/pow.jl": [],
+    "base/special/rem2pi.jl": [],
+    "base/special/rem_pio2.jl": [],
+    "base/special/trig.jl": [],
+    "base/stacktraces.jl": []
+  }
+}

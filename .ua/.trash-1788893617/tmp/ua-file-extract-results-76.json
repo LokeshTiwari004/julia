@@ -1,0 +1,419 @@
+{
+  "scriptCompleted": true,
+  "filesAnalyzed": 7,
+  "filesSkipped": [
+    "stdlib/OpenSSL_jll/test/runtests.jl",
+    "stdlib/PCRE2_jll/src/PCRE2_jll.jl",
+    "stdlib/PCRE2_jll/test/runtests.jl",
+    "stdlib/Pkg.version",
+    "stdlib/Printf/src/Printf.jl",
+    "stdlib/Printf/test/runtests.jl",
+    "stdlib/Profile/src/Allocs.jl",
+    "stdlib/Profile/src/Profile.jl",
+    "stdlib/Profile/src/heapsnapshot_reassemble.jl",
+    "stdlib/Profile/src/precompile.jl",
+    "stdlib/Profile/test/allocs.jl",
+    "stdlib/Profile/test/heapsnapshot_reassemble.jl",
+    "stdlib/Profile/test/runtests.jl",
+    "stdlib/REPL/src/History/History.jl",
+    "stdlib/REPL/src/History/display.jl",
+    "stdlib/REPL/src/History/histfile.jl",
+    "stdlib/REPL/src/History/prompt.jl",
+    "stdlib/REPL/src/History/resumablefiltering.jl"
+  ],
+  "analysisOutcomes": {
+    "structure": {
+      "succeeded": 7,
+      "failed": 0
+    },
+    "callGraph": {
+      "succeeded": 0,
+      "failed": 0,
+      "skipped": 7
+    }
+  },
+  "results": [
+    {
+      "path": "stdlib/PCRE2_jll/Project.toml",
+      "language": "toml",
+      "fileCategory": "config",
+      "totalLines": 16,
+      "nonEmptyLines": 12,
+      "sections": [
+        {
+          "heading": "deps",
+          "level": 1,
+          "line": 5
+        },
+        {
+          "heading": "compat",
+          "level": 1,
+          "line": 9
+        },
+        {
+          "heading": "extras",
+          "level": 1,
+          "line": 12
+        },
+        {
+          "heading": "targets",
+          "level": 1,
+          "line": 15
+        }
+      ],
+      "metrics": {
+        "importCount": 0,
+        "exportCount": 0,
+        "functionCount": 0,
+        "classCount": 0,
+        "sectionCount": 4
+      }
+    },
+    {
+      "path": "stdlib/Printf/Project.toml",
+      "language": "toml",
+      "fileCategory": "config",
+      "totalLines": 12,
+      "nonEmptyLines": 9,
+      "sections": [
+        {
+          "heading": "deps",
+          "level": 1,
+          "line": 5
+        },
+        {
+          "heading": "extras",
+          "level": 1,
+          "line": 8
+        },
+        {
+          "heading": "targets",
+          "level": 1,
+          "line": 11
+        }
+      ],
+      "metrics": {
+        "importCount": 0,
+        "exportCount": 0,
+        "functionCount": 0,
+        "classCount": 0,
+        "sectionCount": 3
+      }
+    },
+    {
+      "path": "stdlib/Printf/docs/src/index.md",
+      "language": "markdown",
+      "fileCategory": "docs",
+      "totalLines": 14,
+      "nonEmptyLines": 11,
+      "sections": [
+        {
+          "heading": "[Printf](@id man-printf)",
+          "level": 1,
+          "line": 5
+        }
+      ],
+      "metrics": {
+        "importCount": 0,
+        "exportCount": 0,
+        "functionCount": 0,
+        "classCount": 0,
+        "sectionCount": 1
+      }
+    },
+    {
+      "path": "stdlib/Profile/Project.toml",
+      "language": "toml",
+      "fileCategory": "config",
+      "totalLines": 19,
+      "nonEmptyLines": 15,
+      "sections": [
+        {
+          "heading": "deps",
+          "level": 1,
+          "line": 5
+        },
+        {
+          "heading": "compat",
+          "level": 1,
+          "line": 8
+        },
+        {
+          "heading": "extras",
+          "level": 1,
+          "line": 11
+        },
+        {
+          "heading": "targets",
+          "level": 1,
+          "line": 18
+        }
+      ],
+      "metrics": {
+        "importCount": 0,
+        "exportCount": 0,
+        "functionCount": 0,
+        "classCount": 0,
+        "sectionCount": 4
+      }
+    },
+    {
+      "path": "stdlib/Profile/docs/src/index.md",
+      "language": "markdown",
+      "fileCategory": "docs",
+      "totalLines": 162,
+      "nonEmptyLines": 117,
+      "sections": [
+        {
+          "heading": "[Profile](@id lib-profiling)",
+          "level": 1,
+          "line": 5
+        },
+        {
+          "heading": "CPU Profiling",
+          "level": 2,
+          "line": 7
+        },
+        {
+          "heading": "Via `@profile`",
+          "level": 2,
+          "line": 11
+        },
+        {
+          "heading": "Triggered During Execution",
+          "level": 2,
+          "line": 28
+        },
+        {
+          "heading": "Customization",
+          "level": 3,
+          "line": 75
+        },
+        {
+          "heading": "Reference",
+          "level": 2,
+          "line": 83
+        },
+        {
+          "heading": "Memory profiling",
+          "level": 2,
+          "line": 103
+        },
+        {
+          "heading": "Heap Snapshots",
+          "level": 2,
+          "line": 119
+        }
+      ],
+      "metrics": {
+        "importCount": 0,
+        "exportCount": 0,
+        "functionCount": 0,
+        "classCount": 0,
+        "sectionCount": 8
+      }
+    },
+    {
+      "path": "stdlib/REPL/Project.toml",
+      "language": "toml",
+      "fileCategory": "config",
+      "totalLines": 22,
+      "nonEmptyLines": 19,
+      "sections": [
+        {
+          "heading": "deps",
+          "level": 1,
+          "line": 5
+        },
+        {
+          "heading": "extras",
+          "level": 1,
+          "line": 16
+        },
+        {
+          "heading": "targets",
+          "level": 1,
+          "line": 21
+        }
+      ],
+      "metrics": {
+        "importCount": 0,
+        "exportCount": 0,
+        "functionCount": 0,
+        "classCount": 0,
+        "sectionCount": 3
+      }
+    },
+    {
+      "path": "stdlib/REPL/docs/src/index.md",
+      "language": "markdown",
+      "fileCategory": "docs",
+      "totalLines": 1128,
+      "nonEmptyLines": 857,
+      "sections": [
+        {
+          "heading": "[REPL](@id The-Julia-REPL)",
+          "level": 1,
+          "line": 5
+        },
+        {
+          "heading": "The different prompt modes",
+          "level": 2,
+          "line": 26
+        },
+        {
+          "heading": "The Julian mode",
+          "level": 3,
+          "line": 28
+        },
+        {
+          "heading": "Help mode",
+          "level": 3,
+          "line": 94
+        },
+        {
+          "heading": "[Shell mode](@id man-shell-mode)",
+          "level": 3,
+          "line": 149
+        },
+        {
+          "heading": "Pkg mode",
+          "level": 3,
+          "line": 200
+        },
+        {
+          "heading": "History searching",
+          "level": 3,
+          "line": 208
+        },
+        {
+          "heading": "Key bindings",
+          "level": 2,
+          "line": 223
+        },
+        {
+          "heading": "Customizing keybindings",
+          "level": 3,
+          "line": 295
+        },
+        {
+          "heading": "Automatic bracket insertion",
+          "level": 3,
+          "line": 329
+        },
+        {
+          "heading": "Tab completion",
+          "level": 2,
+          "line": 351
+        },
+        {
+          "heading": "Syntax Highlighting",
+          "level": 2,
+          "line": 567
+        },
+        {
+          "heading": "Customizing Syntax Highlighting Colors",
+          "level": 3,
+          "line": 578
+        },
+        {
+          "heading": "Customising the history searcher",
+          "level": 2,
+          "line": 741
+        },
+        {
+          "heading": "Customizing Colors",
+          "level": 2,
+          "line": 756
+        },
+        {
+          "heading": "Changing the contextual module which is active at the REPL",
+          "level": 2,
+          "line": 804
+        },
+        {
+          "heading": "Numbered prompt",
+          "level": 2,
+          "line": 867
+        },
+        {
+          "heading": "TerminalMenus",
+          "level": 2,
+          "line": 905
+        },
+        {
+          "heading": "Examples",
+          "level": 3,
+          "line": 909
+        },
+        {
+          "heading": "RadioMenu",
+          "level": 4,
+          "line": 920
+        },
+        {
+          "heading": "MultiSelectMenu",
+          "level": 4,
+          "line": 956
+        },
+        {
+          "heading": "Customization / Configuration",
+          "level": 3,
+          "line": 997
+        },
+        {
+          "heading": "ConfiguredMenu subtypes",
+          "level": 4,
+          "line": 999
+        },
+        {
+          "heading": "Legacy interface",
+          "level": 4,
+          "line": 1062
+        },
+        {
+          "heading": "References",
+          "level": 2,
+          "line": 1067
+        },
+        {
+          "heading": "REPL",
+          "level": 3,
+          "line": 1069
+        },
+        {
+          "heading": "TerminalMenus",
+          "level": 3,
+          "line": 1075
+        },
+        {
+          "heading": "Menus",
+          "level": 3,
+          "line": 1077
+        },
+        {
+          "heading": "Configuration",
+          "level": 4,
+          "line": 1084
+        },
+        {
+          "heading": "User interaction",
+          "level": 4,
+          "line": 1092
+        },
+        {
+          "heading": "AbstractMenu extension interface",
+          "level": 4,
+          "line": 1098
+        }
+      ],
+      "metrics": {
+        "importCount": 0,
+        "exportCount": 0,
+        "functionCount": 0,
+        "classCount": 0,
+        "sectionCount": 31
+      }
+    }
+  ]
+}

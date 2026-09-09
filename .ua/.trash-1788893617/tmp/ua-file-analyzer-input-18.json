@@ -1,0 +1,147 @@
+{
+  "projectRoot": "/home/maruti/julia",
+  "batchFiles": [
+    {
+      "path": ".ua/.trash-1788882187/assemble-review.json",
+      "language": "json",
+      "sizeLines": 48,
+      "fileCategory": "config"
+    },
+    {
+      "path": ".ua/.trash-1788882187/assembled-graph.json",
+      "language": "json",
+      "sizeLines": 50218,
+      "fileCategory": "config"
+    },
+    {
+      "path": ".ua/.trash-1788882187/batch-1.json",
+      "language": "json",
+      "sizeLines": 6510,
+      "fileCategory": "config"
+    },
+    {
+      "path": ".ua/.trash-1788882187/batch-10.json",
+      "language": "json",
+      "sizeLines": 13061,
+      "fileCategory": "config"
+    },
+    {
+      "path": ".ua/.trash-1788882187/batch-11.json",
+      "language": "json",
+      "sizeLines": 12156,
+      "fileCategory": "config"
+    },
+    {
+      "path": ".ua/.trash-1788882187/batch-12.json",
+      "language": "json",
+      "sizeLines": 369,
+      "fileCategory": "config"
+    },
+    {
+      "path": ".ua/.trash-1788882187/batch-13.json",
+      "language": "json",
+      "sizeLines": 247,
+      "fileCategory": "config"
+    },
+    {
+      "path": ".ua/.trash-1788882187/batch-14.json",
+      "language": "json",
+      "sizeLines": 1477,
+      "fileCategory": "config"
+    },
+    {
+      "path": ".ua/.trash-1788882187/batch-15.json",
+      "language": "json",
+      "sizeLines": 119,
+      "fileCategory": "config"
+    },
+    {
+      "path": ".ua/.trash-1788882187/batch-16.json",
+      "language": "json",
+      "sizeLines": 119,
+      "fileCategory": "config"
+    },
+    {
+      "path": ".ua/.trash-1788882187/batch-17.json",
+      "language": "json",
+      "sizeLines": 527,
+      "fileCategory": "config"
+    },
+    {
+      "path": ".ua/.trash-1788882187/batch-18.json",
+      "language": "json",
+      "sizeLines": 633,
+      "fileCategory": "config"
+    },
+    {
+      "path": ".ua/.trash-1788882187/batch-19.json",
+      "language": "json",
+      "sizeLines": 180,
+      "fileCategory": "config"
+    },
+    {
+      "path": ".ua/.trash-1788882187/batch-2.json",
+      "language": "json",
+      "sizeLines": 40115,
+      "fileCategory": "config"
+    },
+    {
+      "path": ".ua/.trash-1788882187/batch-20.json",
+      "language": "json",
+      "sizeLines": 86,
+      "fileCategory": "config"
+    },
+    {
+      "path": ".ua/.trash-1788882187/batch-21.json",
+      "language": "json",
+      "sizeLines": 32,
+      "fileCategory": "config"
+    },
+    {
+      "path": ".ua/.trash-1788882187/batch-22.json",
+      "language": "json",
+      "sizeLines": 1313,
+      "fileCategory": "config"
+    },
+    {
+      "path": ".ua/.trash-1788882187/batch-23.json",
+      "language": "json",
+      "sizeLines": 1547,
+      "fileCategory": "config"
+    },
+    {
+      "path": ".ua/.trash-1788882187/batch-24.json",
+      "language": "json",
+      "sizeLines": 1416,
+      "fileCategory": "config"
+    },
+    {
+      "path": ".ua/.trash-1788882187/batch-25.json",
+      "language": "json",
+      "sizeLines": 396,
+      "fileCategory": "config"
+    }
+  ],
+  "batchImportData": {
+    ".ua/.trash-1788882187/assemble-review.json": [],
+    ".ua/.trash-1788882187/assembled-graph.json": [],
+    ".ua/.trash-1788882187/batch-1.json": [],
+    ".ua/.trash-1788882187/batch-10.json": [],
+    ".ua/.trash-1788882187/batch-11.json": [],
+    ".ua/.trash-1788882187/batch-12.json": [],
+    ".ua/.trash-1788882187/batch-13.json": [],
+    ".ua/.trash-1788882187/batch-14.json": [],
+    ".ua/.trash-1788882187/batch-15.json": [],
+    ".ua/.trash-1788882187/batch-16.json": [],
+    ".ua/.trash-1788882187/batch-17.json": [],
+    ".ua/.trash-1788882187/batch-18.json": [],
+    ".ua/.trash-1788882187/batch-19.json": [],
+    ".ua/.trash-1788882187/batch-2.json": [],
+    ".ua/.trash-1788882187/batch-20.json": [],
+    ".ua/.trash-1788882187/batch-21.json": [],
+    ".ua/.trash-1788882187/batch-22.json": [],
+    ".ua/.trash-1788882187/batch-23.json": [],
+    ".ua/.trash-1788882187/batch-24.json": [],
+    ".ua/.trash-1788882187/batch-25.json": []
+  }
+}

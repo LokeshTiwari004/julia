@@ -1,0 +1,182 @@
+{
+  "projectRoot": "/home/maruti/julia",
+  "batchFiles": [
+    {
+      "path": "stdlib/LibGit2/src/reference.jl",
+      "language": "jl",
+      "sizeLines": 359,
+      "fileCategory": "code"
+    },
+    {
+      "path": "stdlib/LibGit2/src/remote.jl",
+      "language": "jl",
+      "sizeLines": 497,
+      "fileCategory": "code"
+    },
+    {
+      "path": "stdlib/LibGit2/src/repository.jl",
+      "language": "jl",
+      "sizeLines": 555,
+      "fileCategory": "code"
+    },
+    {
+      "path": "stdlib/LibGit2/src/signature.jl",
+      "language": "jl",
+      "sizeLines": 73,
+      "fileCategory": "code"
+    },
+    {
+      "path": "stdlib/LibGit2/src/status.jl",
+      "language": "jl",
+      "sizeLines": 57,
+      "fileCategory": "code"
+    },
+    {
+      "path": "stdlib/LibGit2/src/strarray.jl",
+      "language": "jl",
+      "sizeLines": 16,
+      "fileCategory": "code"
+    },
+    {
+      "path": "stdlib/LibGit2/src/tag.jl",
+      "language": "jl",
+      "sizeLines": 88,
+      "fileCategory": "code"
+    },
+    {
+      "path": "stdlib/LibGit2/src/tree.jl",
+      "language": "jl",
+      "sizeLines": 250,
+      "fileCategory": "code"
+    },
+    {
+      "path": "stdlib/LibGit2/src/types.jl",
+      "language": "jl",
+      "sizeLines": 1575,
+      "fileCategory": "code"
+    },
+    {
+      "path": "stdlib/LibGit2/src/utils.jl",
+      "language": "jl",
+      "sizeLines": 177,
+      "fileCategory": "code"
+    },
+    {
+      "path": "stdlib/LibGit2/src/walker.jl",
+      "language": "jl",
+      "sizeLines": 173,
+      "fileCategory": "code"
+    },
+    {
+      "path": "stdlib/LibGit2/test/bad_ca_roots.jl",
+      "language": "jl",
+      "sizeLines": 59,
+      "fileCategory": "code"
+    },
+    {
+      "path": "stdlib/LibGit2/test/bad_ca_roots.pem",
+      "language": "pem",
+      "sizeLines": 22,
+      "fileCategory": "code"
+    },
+    {
+      "path": "stdlib/LibGit2/test/keys/invalid",
+      "language": "unknown",
+      "sizeLines": 27,
+      "fileCategory": "code"
+    },
+    {
+      "path": "stdlib/LibGit2/test/keys/invalid.pub",
+      "language": "pub",
+      "sizeLines": 1,
+      "fileCategory": "code"
+    },
+    {
+      "path": "stdlib/LibGit2/test/keys/valid",
+      "language": "unknown",
+      "sizeLines": 27,
+      "fileCategory": "code"
+    },
+    {
+      "path": "stdlib/LibGit2/test/keys/valid-passphrase",
+      "language": "unknown",
+      "sizeLines": 30,
+      "fileCategory": "code"
+    },
+    {
+      "path": "stdlib/LibGit2/test/keys/valid-passphrase.pub",
+      "language": "pub",
+      "sizeLines": 1,
+      "fileCategory": "code"
+    },
+    {
+      "path": "stdlib/LibGit2/test/keys/valid.pub",
+      "language": "pub",
+      "sizeLines": 1,
+      "fileCategory": "code"
+    },
+    {
+      "path": "stdlib/LibGit2/test/known_hosts",
+      "language": "unknown",
+      "sizeLines": 4,
+      "fileCategory": "code"
+    },
+    {
+      "path": "stdlib/LibGit2/test/libgit2-helpers.jl",
+      "language": "jl",
+      "sizeLines": 78,
+      "fileCategory": "code"
+    },
+    {
+      "path": "stdlib/LibGit2/test/libgit2-tests.jl",
+      "language": "jl",
+      "sizeLines": 3304,
+      "fileCategory": "code"
+    },
+    {
+      "path": "stdlib/LibGit2/test/libgit2.jl",
+      "language": "jl",
+      "sizeLines": 11,
+      "fileCategory": "code"
+    },
+    {
+      "path": "stdlib/LibGit2/test/online-tests.jl",
+      "language": "jl",
+      "sizeLines": 134,
+      "fileCategory": "code"
+    },
+    {
+      "path": "stdlib/LibGit2/test/online.jl",
+      "language": "jl",
+      "sizeLines": 11,
+      "fileCategory": "code"
+    }
+  ],
+  "batchImportData": {
+    "stdlib/LibGit2/src/reference.jl": [],
+    "stdlib/LibGit2/src/remote.jl": [],
+    "stdlib/LibGit2/src/repository.jl": [],
+    "stdlib/LibGit2/src/signature.jl": [],
+    "stdlib/LibGit2/src/status.jl": [],
+    "stdlib/LibGit2/src/strarray.jl": [],
+    "stdlib/LibGit2/src/tag.jl": [],
+    "stdlib/LibGit2/src/tree.jl": [],
+    "stdlib/LibGit2/src/types.jl": [],
+    "stdlib/LibGit2/src/utils.jl": [],
+    "stdlib/LibGit2/src/walker.jl": [],
+    "stdlib/LibGit2/test/bad_ca_roots.jl": [],
+    "stdlib/LibGit2/test/bad_ca_roots.pem": [],
+    "stdlib/LibGit2/test/keys/invalid": [],
+    "stdlib/LibGit2/test/keys/invalid.pub": [],
+    "stdlib/LibGit2/test/keys/valid": [],
+    "stdlib/LibGit2/test/keys/valid-passphrase": [],
+    "stdlib/LibGit2/test/keys/valid-passphrase.pub": [],
+    "stdlib/LibGit2/test/keys/valid.pub": [],
+    "stdlib/LibGit2/test/known_hosts": [],
+    "stdlib/LibGit2/test/libgit2-helpers.jl": [],
+    "stdlib/LibGit2/test/libgit2-tests.jl": [],
+    "stdlib/LibGit2/test/libgit2.jl": [],
+    "stdlib/LibGit2/test/online-tests.jl": [],
+    "stdlib/LibGit2/test/online.jl": []
+  }
+}

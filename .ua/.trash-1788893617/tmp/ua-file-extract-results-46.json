@@ -1,0 +1,89 @@
+{
+  "scriptCompleted": true,
+  "filesAnalyzed": 2,
+  "filesSkipped": [
+    "Compiler/src/ssair/tarjan.jl",
+    "Compiler/src/ssair/verify.jl",
+    "Compiler/src/stmtinfo.jl",
+    "Compiler/src/tfuncs.jl",
+    "Compiler/src/timing.jl",
+    "Compiler/src/typeinfer.jl",
+    "Compiler/src/typelattice.jl",
+    "Compiler/src/typelimits.jl",
+    "Compiler/src/types.jl",
+    "Compiler/src/typeutils.jl",
+    "Compiler/src/utilities.jl",
+    "Compiler/src/validation.jl",
+    "Compiler/src/verifytrim.jl",
+    "Compiler/test/AbstractInterpreter.jl",
+    "Compiler/test/CompilerLoadingTest/compiler_loading_test.jl",
+    "Compiler/test/CompilerLoadingTest/src/CompilerLoadingTest.jl",
+    "Compiler/test/EAUtils.jl",
+    "Compiler/test/EscapeAnalysis.jl",
+    "Compiler/test/abioverride.jl",
+    "Compiler/test/codegen.jl",
+    "Compiler/test/compact.jl",
+    "Compiler/test/contextual.jl",
+    "Compiler/test/datastructures.jl"
+  ],
+  "analysisOutcomes": {
+    "structure": {
+      "succeeded": 2,
+      "failed": 0
+    },
+    "callGraph": {
+      "succeeded": 0,
+      "failed": 0,
+      "skipped": 2
+    }
+  },
+  "results": [
+    {
+      "path": "Compiler/test/CompilerLoadingTest/Manifest.toml",
+      "language": "toml",
+      "fileCategory": "config",
+      "totalLines": 16,
+      "nonEmptyLines": 13,
+      "sections": [
+        {
+          "heading": "[[deps.Compiler]]",
+          "level": 2,
+          "line": 7
+        },
+        {
+          "heading": "[[deps.CompilerLoadingTest]]",
+          "level": 2,
+          "line": 12
+        }
+      ],
+      "metrics": {
+        "importCount": 0,
+        "exportCount": 0,
+        "functionCount": 0,
+        "classCount": 0,
+        "sectionCount": 2
+      }
+    },
+    {
+      "path": "Compiler/test/CompilerLoadingTest/Project.toml",
+      "language": "toml",
+      "fileCategory": "config",
+      "totalLines": 5,
+      "nonEmptyLines": 4,
+      "sections": [
+        {
+          "heading": "deps",
+          "level": 1,
+          "line": 4
+        }
+      ],
+      "metrics": {
+        "importCount": 0,
+        "exportCount": 0,
+        "functionCount": 0,
+        "classCount": 0,
+        "sectionCount": 1
+      }
+    }
+  ]
+}

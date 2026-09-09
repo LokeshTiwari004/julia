@@ -1,0 +1,179 @@
+{
+  "reviewTimestamp": "2026-09-08T00:00:00Z",
+  "assembledGraph": "/home/maruti/julia/.ua/intermediate/assembled-graph.json",
+  "summary": {
+    "totalNodes": 2635,
+    "totalEdges": 3679,
+    "nodeTypes": {
+      "file": 302,
+      "function": 1649,
+      "class": 132,
+      "pipeline": 5,
+      "config": 352,
+      "document": 174,
+      "service": 21
+    },
+    "edgeTypes": {
+      "contains": 1781,
+      "imports": 664,
+      "calls": 1234
+    }
+  },
+  "issues": [
+    {
+      "severity": "high",
+      "category": "missing_nodes",
+      "title": "Missing .inc file nodes causing dropped import edges",
+      "description": "Five import edges were dropped because target .inc file nodes do not exist in the graph. The .inc files exist on disk but were never extracted as nodes.",
+      "affectedEdges": [
+        "file:src/support/ptrhash.c → file:src/support/htable.inc (imports)",
+        "file:src/support/strhash.c → file:src/support/htable.inc (imports)",
+        "file:cli/jl_exports.h → file:src/jl_exported_data.inc (imports)",
+        "file:cli/jl_exports.h → file:src/jl_exported_funcs.inc (imports)",
+        "file:cli/list_strip_symbols.h → file:src/jl_exported_funcs.inc (imports)"
+      ],
+      "missingNodes": [
+        "file:src/support/htable.inc",
+        "file:src/jl_exported_data.inc",
+        "file:src/jl_exported_funcs.inc"
+      ],
+      "recommendation": "Ensure .inc files are processed by the extractor. Add *.inc to the file patterns for extraction or create nodes for generated/include files that are imported by source files."
+    },
+    {
+      "severity": "high",
+      "category": "incomplete_extraction",
+      "title": "Most .c files have no extracted functions",
+      "description": "Only 47 out of 117 .c files (40%) have functions extracted. Core runtime files like jl_uv.c, array.c, builtins.c, init.c, interpreter.c, jltypes.c, method.c, module.c have zero functions in the graph despite containing many function definitions.",
+      "affectedFiles": [
+        "src/jl_uv.c",
+        "src/support/arraylist.c",
+        "src/support/bitvector.c",
+        "src/support/hashing.c",
+        "src/support/htable.c",
+        "src/support/int2str.c",
+        "src/support/ios.c",
+        "src/support/operators.c",
+        "src/support/ptrhash.c",
+        "src/support/timefuncs.c",
+        "src/support/utf8.c",
+        "src/array.c",
+        "src/ast.c",
+        "src/builtins.c",
+        "src/dlload.c",
+        "src/genericmemory.c",
+        "src/init.c",
+        "src/interpreter.c",
+        "src/ircode.c",
+        "src/jlapi.c",
+        "src/jltypes.c",
+        "src/method.c",
+        "src/module.c",
+        "src/mtarraylist.c",
+        "src/precompile.c",
+        "src/rtutils.c",
+        "src/signal-handling.c",
+        "src/smallintset.c",
+        "src/subtype.c",
+        "src/symbol.c"
+      ],
+      "recommendation": "Investigate extractor configuration. Likely causes: (1) static functions are skipped, (2) functions with JL_DLLEXPORT/JL_CANSAFEPOINT macros not recognized, (3) C parser not handling Julia's code style. Review extractor patterns for C function detection."
+    },
+    {
+      "severity": "medium",
+      "category": "noise_nodes",
+      "title": "191 .ua/.trash config files pollute graph",
+      "description": "191 config nodes from .ua/.trash directory (previous run artifacts) are included in the graph as orphan nodes with no edges. These are not part of the Julia codebase.",
+      "count": 191,
+      "recommendation": "Exclude .ua/.trash and .ua/intermediate directories from extraction. Add ignore patterns to the extraction configuration."
+    },
+    {
+      "severity": "medium",
+      "category": "orphan_nodes",
+      "title": "598 orphan nodes with no edges",
+      "description": "598 nodes have no incoming or outgoing edges. Includes 191 .ua/.trash config files, 174 document nodes, and many config files that are not connected to the code graph.",
+      "breakdown": {
+        "config": 352,
+        "document": 174,
+        "file": 45,
+        "function": 23,
+        "class": 4
+      },
+      "recommendation": "Filter out nodes with no edges during assembly, or ensure extraction creates proper relationships for all node types."
+    },
+    {
+      "severity": "medium",
+      "category": "incomplete_extraction",
+      "title": "Header files lack function declarations",
+      "description": "80 out of 89 .h files have no contained functions. While headers typically contain declarations not definitions, the graph could benefit from tracking declarations for cross-reference analysis.",
+      "recommendation": "Consider extracting function declarations from headers as separate nodes (type: 'declaration') to enable header-to-implementation tracing."
+    },
+    {
+      "severity": "low",
+      "category": "empty_batches",
+      "title": "15 empty batch files",
+      "description": "15 batch files contributed zero nodes and edges. These represent wasted extraction effort.",
+      "emptyBatches": [
+        "batch-45.json",
+        "batch-48.json",
+        "batch-49.json",
+        "batch-53.json",
+        "batch-54.json",
+        "batch-55.json",
+        "batch-56.json",
+        "batch-57.json",
+        "batch-59.json",
+        "batch-69.json",
+        "batch-72.json",
+        "batch-87.json",
+        "batch-95.json",
+        "batch-96.json",
+        "batch-99.json"
+      ],
+      "recommendation": "Investigate why these batches are empty. May indicate files that couldn't be parsed or empty directories."
+    },
+    {
+      "severity": "low",
+      "category": "duplicate_deduplication",
+      "title": "99 duplicate node IDs removed during assembly",
+      "description": "99 duplicate node IDs were found across batches (kept last). This indicates overlapping batch boundaries or re-processing of same files.",
+      "recommendation": "Review batch partitioning strategy to minimize overlap. Ensure each file is assigned to exactly one batch."
+    }
+  ],
+  "metrics": {
+    "graphDensity": 0.00053,
+    "avgDegree": 2.79,
+    "functionCallCoverage": {
+      "functionsWithCalls": 611,
+      "functionsCalled": 688,
+      "isolatedFunctions": 684,
+      "callGraphConnectivity": 0.37
+    },
+    "importGraphCoverage": {
+      "filesImporting": 172,
+      "filesImported": 159,
+      "importGraphConnectivity": 0.57
+    },
+    "languageDistribution": {
+      "c": 206,
+      "cpp": 52,
+      "shell": 18,
+      "rust": 14,
+      "javascript": 4,
+      "python": 4,
+      "makefile": 4
+    },
+    "complexityDistribution": {
+      "simple": 1952,
+      "moderate": 376,
+      "complex": 307
+    }
+  },
+  "recommendations": [
+    "Priority 1: Fix extractor to capture functions from all .c files (especially core runtime)",
+    "Priority 2: Add .inc file extraction to resolve 5 missing import edges",
+    "Priority 3: Exclude .ua/.trash and intermediate directories from extraction",
+    "Priority 4: Filter orphan nodes or ensure all extracted nodes have relationships",
+    "Priority 5: Investigate and fix empty batch files",
+    "Priority 6: Review batch partitioning to eliminate duplicate node IDs"
+  ]
+}

@@ -1,0 +1,7325 @@
+{
+  "scriptCompleted": true,
+  "filesAnalyzed": 13,
+  "filesSkipped": [],
+  "analysisOutcomes": {
+    "structure": {
+      "succeeded": 13,
+      "failed": 0
+    },
+    "callGraph": {
+      "succeeded": 13,
+      "failed": 0,
+      "skipped": 0
+    }
+  },
+  "results": [
+    {
+      "path": "src/gc-mmtk/mmtk_julia/src/active_plan.rs",
+      "language": "rust",
+      "fileCategory": "code",
+      "totalLines": 96,
+      "nonEmptyLines": 80,
+      "functions": [
+        {
+          "name": "new",
+          "startLine": 20,
+          "endLine": 27,
+          "params": [
+            "guard"
+          ]
+        },
+        {
+          "name": "next",
+          "startLine": 33,
+          "endLine": 40,
+          "params": []
+        },
+        {
+          "name": "number_of_mutators",
+          "startLine": 46,
+          "endLine": 48,
+          "params": []
+        },
+        {
+          "name": "is_mutator",
+          "startLine": 50,
+          "endLine": 53,
+          "params": [
+            "tls"
+          ]
+        },
+        {
+          "name": "mutator",
+          "startLine": 55,
+          "endLine": 57,
+          "params": [
+            "_tls"
+          ]
+        },
+        {
+          "name": "mutators",
+          "startLine": 59,
+          "endLine": 62,
+          "params": []
+        },
+        {
+          "name": "vm_trace_object",
+          "startLine": 64,
+          "endLine": 71,
+          "params": [
+            "queue",
+            "object",
+            "_worker"
+          ]
+        },
+        {
+          "name": "mmtk_new_mutator_iterator",
+          "startLine": 77,
+          "endLine": 80,
+          "params": []
+        },
+        {
+          "name": "mmtk_get_next_mutator_tls",
+          "startLine": 83,
+          "endLine": 90,
+          "params": [
+            "iter"
+          ]
+        },
+        {
+          "name": "mmtk_close_mutator_iterator",
+          "startLine": 93,
+          "endLine": 96,
+          "params": [
+            "iter"
+          ]
+        }
+      ],
+      "classes": [
+        {
+          "name": "JuliaMutatorIterator",
+          "startLine": 12,
+          "endLine": 17,
+          "methods": [],
+          "properties": [
+            "_guard",
+            "vec",
+            "cursor"
+          ]
+        },
+        {
+          "name": "VMActivePlan",
+          "startLine": 43,
+          "endLine": 43,
+          "methods": [
+            "number_of_mutators",
+            "is_mutator",
+            "mutator",
+            "mutators",
+            "vm_trace_object"
+          ],
+          "properties": []
+        }
+      ],
+      "exports": [
+        {
+          "name": "JuliaMutatorIterator",
+          "line": 12,
+          "isDefault": false
+        },
+        {
+          "name": "VMActivePlan",
+          "line": 43,
+          "isDefault": false
+        },
+        {
+          "name": "mmtk_new_mutator_iterator",
+          "line": 77,
+          "isDefault": false
+        },
+        {
+          "name": "mmtk_get_next_mutator_tls",
+          "line": 83,
+          "isDefault": false
+        },
+        {
+          "name": "mmtk_close_mutator_iterator",
+          "line": 93,
+          "isDefault": false
+        }
+      ],
+      "callGraph": [
+        {
+          "caller": "new",
+          "callee": "guard.keys().copied().collect",
+          "lineNumber": 21
+        },
+        {
+          "caller": "new",
+          "callee": "guard.keys().copied",
+          "lineNumber": 21
+        },
+        {
+          "caller": "new",
+          "callee": "guard.keys",
+          "lineNumber": 21
+        },
+        {
+          "caller": "next",
+          "callee": "self.vec\n            .get(mutator_idx).map",
+          "lineNumber": 37
+        },
+        {
+          "caller": "next",
+          "callee": "self.vec.get",
+          "lineNumber": 37
+        },
+        {
+          "caller": "next",
+          "callee": "addr.to_mut_ptr::<Mutator<JuliaVM>>",
+          "lineNumber": 39
+        },
+        {
+          "caller": "number_of_mutators",
+          "callee": "Self::mutators().count",
+          "lineNumber": 47
+        },
+        {
+          "caller": "number_of_mutators",
+          "callee": "Self::mutators",
+          "lineNumber": 47
+        },
+        {
+          "caller": "is_mutator",
+          "callee": "MUTATORS.read().unwrap().keys().any",
+          "lineNumber": 52
+        },
+        {
+          "caller": "is_mutator",
+          "callee": "MUTATORS.read().unwrap().keys",
+          "lineNumber": 52
+        },
+        {
+          "caller": "is_mutator",
+          "callee": "MUTATORS.read().unwrap",
+          "lineNumber": 52
+        },
+        {
+          "caller": "is_mutator",
+          "callee": "MUTATORS.read",
+          "lineNumber": 52
+        },
+        {
+          "caller": "is_mutator",
+          "callee": "mutator_addr.to_mut_ptr::<Mutator<JuliaVM>>",
+          "lineNumber": 52
+        },
+        {
+          "caller": "mutators",
+          "callee": "MUTATORS.read().unwrap",
+          "lineNumber": 60
+        },
+        {
+          "caller": "mutators",
+          "callee": "MUTATORS.read",
+          "lineNumber": 60
+        },
+        {
+          "caller": "mutators",
+          "callee": "Box::new",
+          "lineNumber": 61
+        },
+        {
+          "caller": "mutators",
+          "callee": "JuliaMutatorIterator::new",
+          "lineNumber": 61
+        },
+        {
+          "caller": "vm_trace_object",
+          "callee": "queue.enqueue",
+          "lineNumber": 69
+        },
+        {
+          "caller": "mmtk_new_mutator_iterator",
+          "callee": "MUTATORS.read().unwrap",
+          "lineNumber": 78
+        },
+        {
+          "caller": "mmtk_new_mutator_iterator",
+          "callee": "MUTATORS.read",
+          "lineNumber": 78
+        },
+        {
+          "caller": "mmtk_new_mutator_iterator",
+          "callee": "Box::into_raw",
+          "lineNumber": 79
+        },
+        {
+          "caller": "mmtk_new_mutator_iterator",
+          "callee": "Box::new",
+          "lineNumber": 79
+        },
+        {
+          "caller": "mmtk_new_mutator_iterator",
+          "callee": "JuliaMutatorIterator::new",
+          "lineNumber": 79
+        },
+        {
+          "caller": "mmtk_get_next_mutator_tls",
+          "callee": "{ iter.as_mut() }.unwrap().next",
+          "lineNumber": 86
+        },
+        {
+          "caller": "mmtk_get_next_mutator_tls",
+          "callee": "{ iter.as_mut() }.unwrap",
+          "lineNumber": 86
+        },
+        {
+          "caller": "mmtk_get_next_mutator_tls",
+          "callee": "iter.as_mut",
+          "lineNumber": 86
+        },
+        {
+          "caller": "mmtk_get_next_mutator_tls",
+          "callee": "OpaquePointer::from_address",
+          "lineNumber": 88
+        },
+        {
+          "caller": "mmtk_close_mutator_iterator",
+          "callee": "Box::from_raw",
+          "lineNumber": 95
+        }
+      ],
+      "metrics": {
+        "importCount": 0,
+        "exportCount": 5,
+        "functionCount": 10,
+        "classCount": 2
+      }
+    },
+    {
+      "path": "src/gc-mmtk/mmtk_julia/src/api.rs",
+      "language": "rust",
+      "fileCategory": "code",
+      "totalLines": 732,
+      "nonEmptyLines": 651,
+      "functions": [
+        {
+          "name": "mmtk_gc_init",
+          "startLine": 24,
+          "endLine": 156,
+          "params": [
+            "min_heap_size",
+            "max_heap_size",
+            "n_gcthreads",
+            "n_concurrent_gcthreads",
+            "header_size",
+            "buffer_tag"
+          ]
+        },
+        {
+          "name": "mmtk_bind_mutator",
+          "startLine": 159,
+          "endLine": 166,
+          "params": [
+            "tls",
+            "tid"
+          ]
+        },
+        {
+          "name": "mmtk_post_bind_mutator",
+          "startLine": 169,
+          "endLine": 178,
+          "params": [
+            "mutator",
+            "original_box_mutator"
+          ]
+        },
+        {
+          "name": "mmtk_destroy_mutator",
+          "startLine": 181,
+          "endLine": 194,
+          "params": [
+            "mutator"
+          ]
+        },
+        {
+          "name": "mmtk_notify_task_resume",
+          "startLine": 197,
+          "endLine": 218,
+          "params": [
+            "mutator",
+            "task"
+          ]
+        },
+        {
+          "name": "mmtk_alloc",
+          "startLine": 221,
+          "endLine": 237,
+          "params": [
+            "mutator",
+            "size",
+            "align",
+            "offset",
+            "semantics"
+          ]
+        },
+        {
+          "name": "mmtk_alloc_with_options",
+          "startLine": 244,
+          "endLine": 268,
+          "params": [
+            "mutator",
+            "size",
+            "align",
+            "offset",
+            "semantics",
+            "options"
+          ]
+        },
+        {
+          "name": "mmtk_alloc_large",
+          "startLine": 271,
+          "endLine": 284,
+          "params": [
+            "mutator",
+            "size",
+            "align",
+            "offset"
+          ]
+        },
+        {
+          "name": "mmtk_post_alloc",
+          "startLine": 287,
+          "endLine": 294,
+          "params": [
+            "mutator",
+            "refer",
+            "bytes",
+            "semantics"
+          ]
+        },
+        {
+          "name": "mmtk_will_never_move",
+          "startLine": 297,
+          "endLine": 299,
+          "params": [
+            "object"
+          ]
+        },
+        {
+          "name": "mmtk_is_moving",
+          "startLine": 302,
+          "endLine": 304,
+          "params": []
+        },
+        {
+          "name": "mmtk_get_plan_name",
+          "startLine": 307,
+          "endLine": 315,
+          "params": []
+        },
+        {
+          "name": "mmtk_start_worker",
+          "startLine": 318,
+          "endLine": 321,
+          "params": [
+            "tls",
+            "worker"
+          ]
+        },
+        {
+          "name": "mmtk_initialize_collection",
+          "startLine": 324,
+          "endLine": 326,
+          "params": [
+            "tls"
+          ]
+        },
+        {
+          "name": "mmtk_used_bytes",
+          "startLine": 329,
+          "endLine": 331,
+          "params": []
+        },
+        {
+          "name": "mmtk_free_bytes",
+          "startLine": 334,
+          "endLine": 336,
+          "params": []
+        },
+        {
+          "name": "mmtk_total_bytes",
+          "startLine": 339,
+          "endLine": 341,
+          "params": []
+        },
+        {
+          "name": "mmtk_is_live_object",
+          "startLine": 344,
+          "endLine": 346,
+          "params": [
+            "object"
+          ]
+        },
+        {
+          "name": "mmtk_is_mapped_address",
+          "startLine": 349,
+          "endLine": 351,
+          "params": [
+            "address"
+          ]
+        },
+        {
+          "name": "mmtk_handle_user_collection_request",
+          "startLine": 354,
+          "endLine": 370,
+          "params": [
+            "tls",
+            "collection"
+          ]
+        },
+        {
+          "name": "mmtk_disable_collection",
+          "startLine": 391,
+          "endLine": 408,
+          "params": []
+        },
+        {
+          "name": "mmtk_enable_collection",
+          "startLine": 411,
+          "endLine": 414,
+          "params": []
+        },
+        {
+          "name": "mmtk_is_collection_enabled",
+          "startLine": 417,
+          "endLine": 420,
+          "params": []
+        },
+        {
+          "name": "mmtk_gc_epoch",
+          "startLine": 427,
+          "endLine": 432,
+          "params": []
+        },
+        {
+          "name": "mmtk_wait_for_new_gc_epoch",
+          "startLine": 439,
+          "endLine": 445,
+          "params": [
+            "last_seen_epoch"
+          ]
+        },
+        {
+          "name": "mmtk_add_weak_candidate",
+          "startLine": 448,
+          "endLine": 450,
+          "params": [
+            "reff"
+          ]
+        },
+        {
+          "name": "mmtk_add_soft_candidate",
+          "startLine": 453,
+          "endLine": 455,
+          "params": [
+            "reff"
+          ]
+        },
+        {
+          "name": "mmtk_add_phantom_candidate",
+          "startLine": 458,
+          "endLine": 460,
+          "params": [
+            "reff"
+          ]
+        },
+        {
+          "name": "mmtk_harness_begin",
+          "startLine": 463,
+          "endLine": 465,
+          "params": [
+            "tls"
+          ]
+        },
+        {
+          "name": "mmtk_harness_end",
+          "startLine": 468,
+          "endLine": 470,
+          "params": [
+            "_tls"
+          ]
+        },
+        {
+          "name": "mmtk_process",
+          "startLine": 473,
+          "endLine": 482,
+          "params": [
+            "name",
+            "value"
+          ]
+        },
+        {
+          "name": "mmtk_starting_heap_address",
+          "startLine": 485,
+          "endLine": 487,
+          "params": []
+        },
+        {
+          "name": "mmtk_last_heap_address",
+          "startLine": 490,
+          "endLine": 492,
+          "params": []
+        },
+        {
+          "name": "mmtk_gc_poll",
+          "startLine": 499,
+          "endLine": 501,
+          "params": [
+            "tls"
+          ]
+        },
+        {
+          "name": "mmtk_runtime_panic",
+          "startLine": 504,
+          "endLine": 506,
+          "params": []
+        },
+        {
+          "name": "mmtk_unreachable",
+          "startLine": 509,
+          "endLine": 511,
+          "params": []
+        },
+        {
+          "name": "mmtk_set_vm_space",
+          "startLine": 515,
+          "endLine": 522,
+          "params": [
+            "start",
+            "size"
+          ]
+        },
+        {
+          "name": "mmtk_memory_region_copy",
+          "startLine": 525,
+          "endLine": 546,
+          "params": [
+            "mutator",
+            "src_obj",
+            "src_addr",
+            "dst_obj",
+            "dst_addr",
+            "count"
+          ]
+        },
+        {
+          "name": "mmtk_immortal_region_post_alloc",
+          "startLine": 550,
+          "endLine": 553,
+          "params": [
+            "start",
+            "size"
+          ]
+        },
+        {
+          "name": "set_side_log_bit_for_region",
+          "startLine": 556,
+          "endLine": 563,
+          "params": [
+            "start",
+            "size"
+          ]
+        },
+        {
+          "name": "mmtk_object_reference_write_pre",
+          "startLine": 566,
+          "endLine": 578,
+          "params": [
+            "mutator",
+            "src",
+            "target"
+          ]
+        },
+        {
+          "name": "mmtk_object_reference_write_post",
+          "startLine": 581,
+          "endLine": 593,
+          "params": [
+            "mutator",
+            "src",
+            "target"
+          ]
+        },
+        {
+          "name": "mmtk_gc_wb_finalizer_queue",
+          "startLine": 596,
+          "endLine": 601,
+          "params": [
+            "mutator",
+            "queue"
+          ]
+        },
+        {
+          "name": "mmtk_object_reference_write_slow",
+          "startLine": 604,
+          "endLine": 615,
+          "params": [
+            "mutator",
+            "src",
+            "target"
+          ]
+        },
+        {
+          "name": "mmtk_object_is_managed_by_mmtk",
+          "startLine": 618,
+          "endLine": 620,
+          "params": [
+            "addr"
+          ]
+        },
+        {
+          "name": "mmtk_start_spawned_worker_thread",
+          "startLine": 623,
+          "endLine": 628,
+          "params": [
+            "tls",
+            "ctx"
+          ]
+        },
+        {
+          "name": "store_obj_size",
+          "startLine": 631,
+          "endLine": 636,
+          "params": [
+            "obj",
+            "size"
+          ]
+        },
+        {
+          "name": "mmtk_store_obj_size_c",
+          "startLine": 639,
+          "endLine": 644,
+          "params": [
+            "obj",
+            "size"
+          ]
+        },
+        {
+          "name": "mmtk_get_obj_size",
+          "startLine": 647,
+          "endLine": 652,
+          "params": [
+            "obj"
+          ]
+        },
+        {
+          "name": "mmtk_pin_object",
+          "startLine": 656,
+          "endLine": 664,
+          "params": [
+            "object"
+          ]
+        },
+        {
+          "name": "mmtk_unpin_object",
+          "startLine": 668,
+          "endLine": 675,
+          "params": [
+            "object"
+          ]
+        },
+        {
+          "name": "mmtk_is_pinned",
+          "startLine": 679,
+          "endLine": 686,
+          "params": [
+            "object"
+          ]
+        },
+        {
+          "name": "mmtk_pin_object",
+          "startLine": 691,
+          "endLine": 693,
+          "params": [
+            "_object"
+          ]
+        },
+        {
+          "name": "mmtk_unpin_object",
+          "startLine": 697,
+          "endLine": 699,
+          "params": [
+            "_object"
+          ]
+        },
+        {
+          "name": "mmtk_is_pinned",
+          "startLine": 703,
+          "endLine": 705,
+          "params": [
+            "_object"
+          ]
+        },
+        {
+          "name": "mmtk_set_concurrent_marking_enabled",
+          "startLine": 708,
+          "endLine": 725,
+          "params": [
+            "enabled"
+          ]
+        },
+        {
+          "name": "get_mmtk_version",
+          "startLine": 728,
+          "endLine": 732,
+          "params": []
+        }
+      ],
+      "exports": [
+        {
+          "name": "mmtk_gc_init",
+          "line": 24,
+          "isDefault": false
+        },
+        {
+          "name": "mmtk_bind_mutator",
+          "line": 159,
+          "isDefault": false
+        },
+        {
+          "name": "mmtk_post_bind_mutator",
+          "line": 169,
+          "isDefault": false
+        },
+        {
+          "name": "mmtk_destroy_mutator",
+          "line": 181,
+          "isDefault": false
+        },
+        {
+          "name": "mmtk_notify_task_resume",
+          "line": 197,
+          "isDefault": false
+        },
+        {
+          "name": "mmtk_alloc",
+          "line": 221,
+          "isDefault": false
+        },
+        {
+          "name": "mmtk_alloc_with_options",
+          "line": 244,
+          "isDefault": false
+        },
+        {
+          "name": "mmtk_alloc_large",
+          "line": 271,
+          "isDefault": false
+        },
+        {
+          "name": "mmtk_post_alloc",
+          "line": 287,
+          "isDefault": false
+        },
+        {
+          "name": "mmtk_will_never_move",
+          "line": 297,
+          "isDefault": false
+        },
+        {
+          "name": "mmtk_is_moving",
+          "line": 302,
+          "isDefault": false
+        },
+        {
+          "name": "mmtk_get_plan_name",
+          "line": 307,
+          "isDefault": false
+        },
+        {
+          "name": "mmtk_start_worker",
+          "line": 318,
+          "isDefault": false
+        },
+        {
+          "name": "mmtk_initialize_collection",
+          "line": 324,
+          "isDefault": false
+        },
+        {
+          "name": "mmtk_used_bytes",
+          "line": 329,
+          "isDefault": false
+        },
+        {
+          "name": "mmtk_free_bytes",
+          "line": 334,
+          "isDefault": false
+        },
+        {
+          "name": "mmtk_total_bytes",
+          "line": 339,
+          "isDefault": false
+        },
+        {
+          "name": "mmtk_is_live_object",
+          "line": 344,
+          "isDefault": false
+        },
+        {
+          "name": "mmtk_is_mapped_address",
+          "line": 349,
+          "isDefault": false
+        },
+        {
+          "name": "mmtk_handle_user_collection_request",
+          "line": 354,
+          "isDefault": false
+        },
+        {
+          "name": "mmtk_disable_collection",
+          "line": 391,
+          "isDefault": false
+        },
+        {
+          "name": "mmtk_enable_collection",
+          "line": 411,
+          "isDefault": false
+        },
+        {
+          "name": "mmtk_is_collection_enabled",
+          "line": 417,
+          "isDefault": false
+        },
+        {
+          "name": "mmtk_gc_epoch",
+          "line": 427,
+          "isDefault": false
+        },
+        {
+          "name": "mmtk_wait_for_new_gc_epoch",
+          "line": 439,
+          "isDefault": false
+        },
+        {
+          "name": "mmtk_add_weak_candidate",
+          "line": 448,
+          "isDefault": false
+        },
+        {
+          "name": "mmtk_add_soft_candidate",
+          "line": 453,
+          "isDefault": false
+        },
+        {
+          "name": "mmtk_add_phantom_candidate",
+          "line": 458,
+          "isDefault": false
+        },
+        {
+          "name": "mmtk_harness_begin",
+          "line": 463,
+          "isDefault": false
+        },
+        {
+          "name": "mmtk_harness_end",
+          "line": 468,
+          "isDefault": false
+        },
+        {
+          "name": "mmtk_process",
+          "line": 473,
+          "isDefault": false
+        },
+        {
+          "name": "mmtk_starting_heap_address",
+          "line": 485,
+          "isDefault": false
+        },
+        {
+          "name": "mmtk_last_heap_address",
+          "line": 490,
+          "isDefault": false
+        },
+        {
+          "name": "mmtk_gc_poll",
+          "line": 499,
+          "isDefault": false
+        },
+        {
+          "name": "mmtk_runtime_panic",
+          "line": 504,
+          "isDefault": false
+        },
+        {
+          "name": "mmtk_unreachable",
+          "line": 509,
+          "isDefault": false
+        },
+        {
+          "name": "mmtk_set_vm_space",
+          "line": 515,
+          "isDefault": false
+        },
+        {
+          "name": "mmtk_memory_region_copy",
+          "line": 525,
+          "isDefault": false
+        },
+        {
+          "name": "mmtk_immortal_region_post_alloc",
+          "line": 550,
+          "isDefault": false
+        },
+        {
+          "name": "mmtk_object_reference_write_pre",
+          "line": 566,
+          "isDefault": false
+        },
+        {
+          "name": "mmtk_object_reference_write_post",
+          "line": 581,
+          "isDefault": false
+        },
+        {
+          "name": "mmtk_gc_wb_finalizer_queue",
+          "line": 596,
+          "isDefault": false
+        },
+        {
+          "name": "mmtk_object_reference_write_slow",
+          "line": 604,
+          "isDefault": false
+        },
+        {
+          "name": "mmtk_object_is_managed_by_mmtk",
+          "line": 618,
+          "isDefault": false
+        },
+        {
+          "name": "mmtk_start_spawned_worker_thread",
+          "line": 623,
+          "isDefault": false
+        },
+        {
+          "name": "store_obj_size",
+          "line": 631,
+          "isDefault": false
+        },
+        {
+          "name": "mmtk_store_obj_size_c",
+          "line": 639,
+          "isDefault": false
+        },
+        {
+          "name": "mmtk_get_obj_size",
+          "line": 647,
+          "isDefault": false
+        },
+        {
+          "name": "mmtk_pin_object",
+          "line": 656,
+          "isDefault": false
+        },
+        {
+          "name": "mmtk_unpin_object",
+          "line": 668,
+          "isDefault": false
+        },
+        {
+          "name": "mmtk_is_pinned",
+          "line": 679,
+          "isDefault": false
+        },
+        {
+          "name": "mmtk_pin_object",
+          "line": 691,
+          "isDefault": false
+        },
+        {
+          "name": "mmtk_unpin_object",
+          "line": 697,
+          "isDefault": false
+        },
+        {
+          "name": "mmtk_is_pinned",
+          "line": 703,
+          "isDefault": false
+        },
+        {
+          "name": "mmtk_set_concurrent_marking_enabled",
+          "line": 708,
+          "isDefault": false
+        },
+        {
+          "name": "get_mmtk_version",
+          "line": 728,
+          "isDefault": false
+        }
+      ],
+      "callGraph": [
+        {
+          "caller": "mmtk_gc_init",
+          "callee": "std::env::remove_var",
+          "lineNumber": 38
+        },
+        {
+          "caller": "mmtk_gc_init",
+          "callee": "BUILDER.lock().unwrap",
+          "lineNumber": 41
+        },
+        {
+          "caller": "mmtk_gc_init",
+          "callee": "BUILDER.lock",
+          "lineNumber": 41
+        },
+        {
+          "caller": "mmtk_gc_init",
+          "callee": "Some",
+          "lineNumber": 46
+        },
+        {
+          "caller": "mmtk_gc_init",
+          "callee": "Some",
+          "lineNumber": 48
+        },
+        {
+          "caller": "mmtk_gc_init",
+          "callee": "Some",
+          "lineNumber": 50
+        },
+        {
+          "caller": "mmtk_gc_init",
+          "callee": "Some",
+          "lineNumber": 52
+        },
+        {
+          "caller": "mmtk_gc_init",
+          "callee": "Some",
+          "lineNumber": 54
+        },
+        {
+          "caller": "mmtk_gc_init",
+          "callee": "builder.options.plan.set",
+          "lineNumber": 59
+        },
+        {
+          "caller": "mmtk_gc_init",
+          "callee": "builder\n                    .options\n                    .gc_trigger.set",
+          "lineNumber": 69
+        },
+        {
+          "caller": "mmtk_gc_init",
+          "callee": "builder.options.gc_trigger.set",
+          "lineNumber": 78
+        },
+        {
+          "caller": "mmtk_gc_init",
+          "callee": "mmtk::util::options::GCTriggerSelector::DynamicHeapSize",
+          "lineNumber": 79
+        },
+        {
+          "caller": "mmtk_gc_init",
+          "callee": "builder.options.gc_trigger.set",
+          "lineNumber": 89
+        },
+        {
+          "caller": "mmtk_gc_init",
+          "callee": "mmtk::util::options::GCTriggerSelector::FixedHeapSize",
+          "lineNumber": 90
+        },
+        {
+          "caller": "mmtk_gc_init",
+          "callee": "builder.options.no_reference_types.set",
+          "lineNumber": 100
+        },
+        {
+          "caller": "mmtk_gc_init",
+          "callee": "builder.options.threads.set",
+          "lineNumber": 105
+        },
+        {
+          "caller": "mmtk_gc_init",
+          "callee": "builder.options.concurrent_threads.set",
+          "lineNumber": 111
+        },
+        {
+          "caller": "mmtk_gc_init",
+          "callee": "lazy_static::initialize",
+          "lineNumber": 123
+        },
+        {
+          "caller": "mmtk_gc_init",
+          "callee": "mmtk::util::metadata::side_metadata::global_side_metadata_vm_base_address",
+          "lineNumber": 127
+        },
+        {
+          "caller": "mmtk_gc_init",
+          "callee": "crate::set_panic_hook",
+          "lineNumber": 131
+        },
+        {
+          "caller": "mmtk_gc_init",
+          "callee": "memory_manager::get_allocator_mapping::<JuliaVM>",
+          "lineNumber": 139
+        },
+        {
+          "caller": "mmtk_gc_init",
+          "callee": "memory_manager::get_allocator_mapping::<JuliaVM>",
+          "lineNumber": 144
+        },
+        {
+          "caller": "mmtk_bind_mutator",
+          "callee": "memory_manager::bind_mutator",
+          "lineNumber": 160
+        },
+        {
+          "caller": "mmtk_bind_mutator",
+          "callee": "Box::into_raw",
+          "lineNumber": 162
+        },
+        {
+          "caller": "mmtk_post_bind_mutator",
+          "callee": "MUTATORS.write().unwrap().insert",
+          "lineNumber": 174
+        },
+        {
+          "caller": "mmtk_post_bind_mutator",
+          "callee": "MUTATORS.write().unwrap",
+          "lineNumber": 174
+        },
+        {
+          "caller": "mmtk_post_bind_mutator",
+          "callee": "MUTATORS.write",
+          "lineNumber": 174
+        },
+        {
+          "caller": "mmtk_post_bind_mutator",
+          "callee": "Address::from_mut_ptr",
+          "lineNumber": 175
+        },
+        {
+          "caller": "mmtk_post_bind_mutator",
+          "callee": "Address::from_mut_ptr",
+          "lineNumber": 176
+        },
+        {
+          "caller": "mmtk_destroy_mutator",
+          "callee": "memory_manager::destroy_mutator",
+          "lineNumber": 183
+        },
+        {
+          "caller": "mmtk_destroy_mutator",
+          "callee": "MUTATORS.write().unwrap",
+          "lineNumber": 185
+        },
+        {
+          "caller": "mmtk_destroy_mutator",
+          "callee": "MUTATORS.write",
+          "lineNumber": 185
+        },
+        {
+          "caller": "mmtk_destroy_mutator",
+          "callee": "Address::from_mut_ptr",
+          "lineNumber": 186
+        },
+        {
+          "caller": "mmtk_destroy_mutator",
+          "callee": "mutators.get(&key).unwrap",
+          "lineNumber": 189
+        },
+        {
+          "caller": "mmtk_destroy_mutator",
+          "callee": "mutators.get",
+          "lineNumber": 189
+        },
+        {
+          "caller": "mmtk_destroy_mutator",
+          "callee": "Box::from_raw",
+          "lineNumber": 190
+        },
+        {
+          "caller": "mmtk_destroy_mutator",
+          "callee": "orig_mutator.to_mut_ptr::<Mutator<JuliaVM>>",
+          "lineNumber": 190
+        },
+        {
+          "caller": "mmtk_destroy_mutator",
+          "callee": "mutators.remove",
+          "lineNumber": 193
+        },
+        {
+          "caller": "mmtk_notify_task_resume",
+          "callee": "crate::collection::CONCURRENT_MARKING_ACTIVE.load",
+          "lineNumber": 203
+        },
+        {
+          "caller": "mmtk_notify_task_resume",
+          "callee": "task.is_null",
+          "lineNumber": 204
+        },
+        {
+          "caller": "mmtk_notify_task_resume",
+          "callee": "mutator.is_null",
+          "lineNumber": 205
+        },
+        {
+          "caller": "mmtk_notify_task_resume",
+          "callee": "crate::scanning::GC_STACK_SNAPSHOTS.resume_barrier_scan_task",
+          "lineNumber": 210
+        },
+        {
+          "caller": "mmtk_alloc",
+          "callee": "memory_manager::alloc::<JuliaVM>",
+          "lineNumber": 236
+        },
+        {
+          "caller": "mmtk_alloc_with_options",
+          "callee": "memory_manager::alloc_with_options::<JuliaVM>",
+          "lineNumber": 260
+        },
+        {
+          "caller": "mmtk_alloc_large",
+          "callee": "memory_manager::alloc::<JuliaVM>",
+          "lineNumber": 277
+        },
+        {
+          "caller": "mmtk_post_alloc",
+          "callee": "memory_manager::post_alloc::<JuliaVM>",
+          "lineNumber": 293
+        },
+        {
+          "caller": "mmtk_will_never_move",
+          "callee": "object.is_movable",
+          "lineNumber": 298
+        },
+        {
+          "caller": "mmtk_is_moving",
+          "callee": "SINGLETON.get_plan().constraints",
+          "lineNumber": 303
+        },
+        {
+          "caller": "mmtk_is_moving",
+          "callee": "SINGLETON.get_plan",
+          "lineNumber": 303
+        },
+        {
+          "caller": "mmtk_get_plan_name",
+          "callee": "std::sync::OnceLock::new",
+          "lineNumber": 308
+        },
+        {
+          "caller": "mmtk_get_plan_name",
+          "callee": "PLAN_NAME\n        .get_or_init(|| {\n            let name = format!(\"{:?}\", *SINGLETON.get_options().plan);\n            std::ffi::CString::new(name).unwrap()\n        }).as_ptr",
+          "lineNumber": 309
+        },
+        {
+          "caller": "mmtk_get_plan_name",
+          "callee": "PLAN_NAME.get_or_init",
+          "lineNumber": 309
+        },
+        {
+          "caller": "mmtk_get_plan_name",
+          "callee": "std::ffi::CString::new(name).unwrap",
+          "lineNumber": 312
+        },
+        {
+          "caller": "mmtk_get_plan_name",
+          "callee": "std::ffi::CString::new",
+          "lineNumber": 312
+        },
+        {
+          "caller": "mmtk_start_worker",
+          "callee": "Box::from_raw",
+          "lineNumber": 319
+        },
+        {
+          "caller": "mmtk_start_worker",
+          "callee": "memory_manager::start_worker::<JuliaVM>",
+          "lineNumber": 320
+        },
+        {
+          "caller": "mmtk_initialize_collection",
+          "callee": "memory_manager::initialize_collection",
+          "lineNumber": 325
+        },
+        {
+          "caller": "mmtk_used_bytes",
+          "callee": "memory_manager::used_bytes",
+          "lineNumber": 330
+        },
+        {
+          "caller": "mmtk_free_bytes",
+          "callee": "memory_manager::free_bytes",
+          "lineNumber": 335
+        },
+        {
+          "caller": "mmtk_total_bytes",
+          "callee": "memory_manager::total_bytes",
+          "lineNumber": 340
+        },
+        {
+          "caller": "mmtk_is_live_object",
+          "callee": "object.is_live",
+          "lineNumber": 345
+        },
+        {
+          "caller": "mmtk_is_mapped_address",
+          "callee": "address.is_mapped",
+          "lineNumber": 350
+        },
+        {
+          "caller": "mmtk_handle_user_collection_request",
+          "callee": "AtomicIsize::fetch_add",
+          "lineNumber": 355
+        },
+        {
+          "caller": "mmtk_handle_user_collection_request",
+          "callee": "memory_manager::is_collection_enabled",
+          "lineNumber": 356
+        },
+        {
+          "caller": "mmtk_handle_user_collection_request",
+          "callee": "AtomicIsize::fetch_add",
+          "lineNumber": 357
+        },
+        {
+          "caller": "mmtk_handle_user_collection_request",
+          "callee": "memory_manager::handle_user_collection_request::<JuliaVM>",
+          "lineNumber": 363
+        },
+        {
+          "caller": "mmtk_handle_user_collection_request",
+          "callee": "SINGLETON.handle_user_collection_request",
+          "lineNumber": 365
+        },
+        {
+          "caller": "mmtk_handle_user_collection_request",
+          "callee": "SINGLETON.handle_user_collection_request",
+          "lineNumber": 367
+        },
+        {
+          "caller": "mmtk_disable_collection",
+          "callee": "memory_manager::disable_collection",
+          "lineNumber": 393
+        },
+        {
+          "caller": "mmtk_enable_collection",
+          "callee": "memory_manager::enable_collection",
+          "lineNumber": 413
+        },
+        {
+          "caller": "mmtk_is_collection_enabled",
+          "callee": "memory_manager::is_collection_enabled",
+          "lineNumber": 419
+        },
+        {
+          "caller": "mmtk_gc_epoch",
+          "callee": "crate::GC_EPOCH_COND.clone",
+          "lineNumber": 428
+        },
+        {
+          "caller": "mmtk_gc_epoch",
+          "callee": "lock.lock().unwrap",
+          "lineNumber": 430
+        },
+        {
+          "caller": "mmtk_gc_epoch",
+          "callee": "lock.lock",
+          "lineNumber": 430
+        },
+        {
+          "caller": "mmtk_wait_for_new_gc_epoch",
+          "callee": "crate::GC_EPOCH_COND.clone",
+          "lineNumber": 440
+        },
+        {
+          "caller": "mmtk_wait_for_new_gc_epoch",
+          "callee": "lock.lock().unwrap",
+          "lineNumber": 441
+        },
+        {
+          "caller": "mmtk_wait_for_new_gc_epoch",
+          "callee": "lock.lock",
+          "lineNumber": 441
+        },
+        {
+          "caller": "mmtk_wait_for_new_gc_epoch",
+          "callee": "cvar\n        .wait_while(guard, |epoch| *epoch == last_seen_epoch).unwrap",
+          "lineNumber": 442
+        },
+        {
+          "caller": "mmtk_wait_for_new_gc_epoch",
+          "callee": "cvar.wait_while",
+          "lineNumber": 442
+        },
+        {
+          "caller": "mmtk_add_weak_candidate",
+          "callee": "memory_manager::add_weak_candidate",
+          "lineNumber": 449
+        },
+        {
+          "caller": "mmtk_add_soft_candidate",
+          "callee": "memory_manager::add_soft_candidate",
+          "lineNumber": 454
+        },
+        {
+          "caller": "mmtk_add_phantom_candidate",
+          "callee": "memory_manager::add_phantom_candidate",
+          "lineNumber": 459
+        },
+        {
+          "caller": "mmtk_harness_begin",
+          "callee": "memory_manager::harness_begin",
+          "lineNumber": 464
+        },
+        {
+          "caller": "mmtk_harness_end",
+          "callee": "memory_manager::harness_end",
+          "lineNumber": 469
+        },
+        {
+          "caller": "mmtk_process",
+          "callee": "CStr::from_ptr",
+          "lineNumber": 474
+        },
+        {
+          "caller": "mmtk_process",
+          "callee": "CStr::from_ptr",
+          "lineNumber": 475
+        },
+        {
+          "caller": "mmtk_process",
+          "callee": "BUILDER.lock().unwrap",
+          "lineNumber": 476
+        },
+        {
+          "caller": "mmtk_process",
+          "callee": "BUILDER.lock",
+          "lineNumber": 476
+        },
+        {
+          "caller": "mmtk_process",
+          "callee": "memory_manager::process",
+          "lineNumber": 477
+        },
+        {
+          "caller": "mmtk_process",
+          "callee": "name_str.to_str().unwrap",
+          "lineNumber": 479
+        },
+        {
+          "caller": "mmtk_process",
+          "callee": "name_str.to_str",
+          "lineNumber": 479
+        },
+        {
+          "caller": "mmtk_process",
+          "callee": "value_str.to_str().unwrap",
+          "lineNumber": 480
+        },
+        {
+          "caller": "mmtk_process",
+          "callee": "value_str.to_str",
+          "lineNumber": 480
+        },
+        {
+          "caller": "mmtk_starting_heap_address",
+          "callee": "memory_manager::starting_heap_address",
+          "lineNumber": 486
+        },
+        {
+          "caller": "mmtk_last_heap_address",
+          "callee": "memory_manager::last_heap_address",
+          "lineNumber": 491
+        },
+        {
+          "caller": "mmtk_gc_poll",
+          "callee": "memory_manager::gc_poll",
+          "lineNumber": 500
+        },
+        {
+          "caller": "mmtk_set_vm_space",
+          "callee": "std::mem::transmute",
+          "lineNumber": 517
+        },
+        {
+          "caller": "mmtk_set_vm_space",
+          "callee": "memory_manager::set_vm_space",
+          "lineNumber": 518
+        },
+        {
+          "caller": "mmtk_set_vm_space",
+          "callee": "set_side_log_bit_for_region",
+          "lineNumber": 521
+        },
+        {
+          "caller": "mmtk_memory_region_copy",
+          "callee": "memory_manager::memory_region_copy",
+          "lineNumber": 545
+        },
+        {
+          "caller": "mmtk_immortal_region_post_alloc",
+          "callee": "set_side_log_bit_for_region",
+          "lineNumber": 552
+        },
+        {
+          "caller": "set_side_log_bit_for_region",
+          "callee": "<JuliaVM as mmtk::vm::VMBinding>::VMObjectModel::GLOBAL_LOG_BIT_SPEC.as_spec",
+          "lineNumber": 559
+        },
+        {
+          "caller": "set_side_log_bit_for_region",
+          "callee": "side.bset_metadata",
+          "lineNumber": 560
+        },
+        {
+          "caller": "mmtk_object_reference_write_pre",
+          "callee": "memory_manager::object_reference_write_pre",
+          "lineNumber": 572
+        },
+        {
+          "caller": "mmtk_object_reference_write_pre",
+          "callee": "crate::slots::JuliaVMSlot::Simple",
+          "lineNumber": 575
+        },
+        {
+          "caller": "mmtk_object_reference_write_pre",
+          "callee": "mmtk::vm::slot::SimpleSlot::from_address",
+          "lineNumber": 575
+        },
+        {
+          "caller": "mmtk_object_reference_write_pre",
+          "callee": "target.into",
+          "lineNumber": 576
+        },
+        {
+          "caller": "mmtk_object_reference_write_post",
+          "callee": "memory_manager::object_reference_write_post",
+          "lineNumber": 587
+        },
+        {
+          "caller": "mmtk_object_reference_write_post",
+          "callee": "crate::slots::JuliaVMSlot::Simple",
+          "lineNumber": 590
+        },
+        {
+          "caller": "mmtk_object_reference_write_post",
+          "callee": "mmtk::vm::slot::SimpleSlot::from_address",
+          "lineNumber": 590
+        },
+        {
+          "caller": "mmtk_object_reference_write_post",
+          "callee": "target.into",
+          "lineNumber": 591
+        },
+        {
+          "caller": "mmtk_gc_wb_finalizer_queue",
+          "callee": "crate::julia_finalizer::wb_finalizer_queue",
+          "lineNumber": 600
+        },
+        {
+          "caller": "mmtk_object_reference_write_slow",
+          "callee": "mutator.barrier().object_reference_write_slow",
+          "lineNumber": 610
+        },
+        {
+          "caller": "mmtk_object_reference_write_slow",
+          "callee": "mutator.barrier",
+          "lineNumber": 610
+        },
+        {
+          "caller": "mmtk_object_reference_write_slow",
+          "callee": "crate::slots::JuliaVMSlot::Simple",
+          "lineNumber": 612
+        },
+        {
+          "caller": "mmtk_object_reference_write_slow",
+          "callee": "mmtk::vm::slot::SimpleSlot::from_address",
+          "lineNumber": 612
+        },
+        {
+          "caller": "mmtk_object_reference_write_slow",
+          "callee": "target.into",
+          "lineNumber": 613
+        },
+        {
+          "caller": "mmtk_object_is_managed_by_mmtk",
+          "callee": "crate::api::mmtk_is_mapped_address",
+          "lineNumber": 619
+        },
+        {
+          "caller": "mmtk_object_is_managed_by_mmtk",
+          "callee": "Address::from_usize",
+          "lineNumber": 619
+        },
+        {
+          "caller": "mmtk_start_spawned_worker_thread",
+          "callee": "mmtk_start_worker",
+          "lineNumber": 627
+        },
+        {
+          "caller": "store_obj_size",
+          "callee": "obj.to_raw_address",
+          "lineNumber": 632
+        },
+        {
+          "caller": "store_obj_size",
+          "callee": "addr_size.store::<u64>",
+          "lineNumber": 634
+        },
+        {
+          "caller": "mmtk_store_obj_size_c",
+          "callee": "obj.to_raw_address",
+          "lineNumber": 640
+        },
+        {
+          "caller": "mmtk_store_obj_size_c",
+          "callee": "addr_size.store::<u64>",
+          "lineNumber": 642
+        },
+        {
+          "caller": "mmtk_get_obj_size",
+          "callee": "obj.to_raw_address",
+          "lineNumber": 649
+        },
+        {
+          "caller": "mmtk_get_obj_size",
+          "callee": "addr_size.load::<u64>",
+          "lineNumber": 650
+        },
+        {
+          "caller": "mmtk_pin_object",
+          "callee": "mmtk_object_is_managed_by_mmtk",
+          "lineNumber": 658
+        },
+        {
+          "caller": "mmtk_pin_object",
+          "callee": "object.to_raw_address().as_usize",
+          "lineNumber": 658
+        },
+        {
+          "caller": "mmtk_pin_object",
+          "callee": "object.to_raw_address",
+          "lineNumber": 658
+        },
+        {
+          "caller": "mmtk_pin_object",
+          "callee": "memory_manager::pin_object",
+          "lineNumber": 659
+        },
+        {
+          "caller": "mmtk_unpin_object",
+          "callee": "mmtk_object_is_managed_by_mmtk",
+          "lineNumber": 669
+        },
+        {
+          "caller": "mmtk_unpin_object",
+          "callee": "object.to_raw_address().as_usize",
+          "lineNumber": 669
+        },
+        {
+          "caller": "mmtk_unpin_object",
+          "callee": "object.to_raw_address",
+          "lineNumber": 669
+        },
+        {
+          "caller": "mmtk_unpin_object",
+          "callee": "memory_manager::unpin_object",
+          "lineNumber": 670
+        },
+        {
+          "caller": "mmtk_is_pinned",
+          "callee": "mmtk_object_is_managed_by_mmtk",
+          "lineNumber": 680
+        },
+        {
+          "caller": "mmtk_is_pinned",
+          "callee": "object.to_raw_address().as_usize",
+          "lineNumber": 680
+        },
+        {
+          "caller": "mmtk_is_pinned",
+          "callee": "object.to_raw_address",
+          "lineNumber": 680
+        },
+        {
+          "caller": "mmtk_is_pinned",
+          "callee": "memory_manager::is_pinned",
+          "lineNumber": 681
+        },
+        {
+          "caller": "mmtk_set_concurrent_marking_enabled",
+          "callee": "BUILDER.lock().unwrap",
+          "lineNumber": 711
+        },
+        {
+          "caller": "mmtk_set_concurrent_marking_enabled",
+          "callee": "BUILDER.lock",
+          "lineNumber": 711
+        },
+        {
+          "caller": "mmtk_set_concurrent_marking_enabled",
+          "callee": "builder\n            .options\n            .concurrent_immix_disable_concurrent_marking.set",
+          "lineNumber": 712
+        },
+        {
+          "caller": "get_mmtk_version",
+          "callee": "crate::build_info::MMTK_JULIA_FULL_VERSION_STRING\n        .as_c_str().as_ptr",
+          "lineNumber": 729
+        },
+        {
+          "caller": "get_mmtk_version",
+          "callee": "crate::build_info::MMTK_JULIA_FULL_VERSION_STRING.as_c_str",
+          "lineNumber": 729
+        }
+      ],
+      "metrics": {
+        "importCount": 0,
+        "exportCount": 56,
+        "functionCount": 57,
+        "classCount": 0
+      }
+    },
+    {
+      "path": "src/gc-mmtk/mmtk_julia/src/build_info.rs",
+      "language": "rust",
+      "fileCategory": "code",
+      "totalLines": 22,
+      "nonEmptyLines": 20,
+      "metrics": {
+        "importCount": 0,
+        "exportCount": 0,
+        "functionCount": 0,
+        "classCount": 0
+      }
+    },
+    {
+      "path": "src/gc-mmtk/mmtk_julia/src/collection.rs",
+      "language": "rust",
+      "fileCategory": "code",
+      "totalLines": 223,
+      "nonEmptyLines": 188,
+      "functions": [
+        {
+          "name": "register_gc_thread",
+          "startLine": 32,
+          "endLine": 35,
+          "params": []
+        },
+        {
+          "name": "unregister_gc_thread",
+          "startLine": 36,
+          "endLine": 39,
+          "params": []
+        },
+        {
+          "name": "is_gc_thread",
+          "startLine": 40,
+          "endLine": 43,
+          "params": []
+        },
+        {
+          "name": "stop_all_mutators",
+          "startLine": 48,
+          "endLine": 100,
+          "params": [
+            "_tls",
+            "mutator_visitor"
+          ]
+        },
+        {
+          "name": "resume_mutators",
+          "startLine": 102,
+          "endLine": 151,
+          "params": [
+            "_tls"
+          ]
+        },
+        {
+          "name": "block_for_gc",
+          "startLine": 153,
+          "endLine": 173,
+          "params": [
+            "_tls"
+          ]
+        },
+        {
+          "name": "spawn_gc_thread",
+          "startLine": 175,
+          "endLine": 199,
+          "params": [
+            "_tls",
+            "ctx"
+          ]
+        },
+        {
+          "name": "schedule_finalization",
+          "startLine": 201,
+          "endLine": 201,
+          "params": [
+            "_tls"
+          ]
+        },
+        {
+          "name": "out_of_memory",
+          "startLine": 203,
+          "endLine": 206,
+          "params": [
+            "_tls",
+            "_err_kind"
+          ]
+        },
+        {
+          "name": "vm_live_bytes",
+          "startLine": 208,
+          "endLine": 210,
+          "params": []
+        },
+        {
+          "name": "create_gc_trigger",
+          "startLine": 212,
+          "endLine": 215,
+          "params": []
+        },
+        {
+          "name": "is_current_gc_nursery",
+          "startLine": 218,
+          "endLine": 223,
+          "params": []
+        }
+      ],
+      "classes": [
+        {
+          "name": "VMCollection",
+          "startLine": 45,
+          "endLine": 45,
+          "methods": [
+            "stop_all_mutators",
+            "resume_mutators",
+            "block_for_gc",
+            "spawn_gc_thread",
+            "schedule_finalization",
+            "out_of_memory",
+            "vm_live_bytes",
+            "create_gc_trigger"
+          ],
+          "properties": []
+        }
+      ],
+      "exports": [
+        {
+          "name": "register_gc_thread",
+          "line": 32,
+          "isDefault": false
+        },
+        {
+          "name": "unregister_gc_thread",
+          "line": 36,
+          "isDefault": false
+        },
+        {
+          "name": "is_gc_thread",
+          "line": 40,
+          "isDefault": false
+        },
+        {
+          "name": "VMCollection",
+          "line": 45,
+          "isDefault": false
+        },
+        {
+          "name": "is_current_gc_nursery",
+          "line": 218,
+          "isDefault": false
+        }
+      ],
+      "callGraph": [
+        {
+          "caller": "register_gc_thread",
+          "callee": "std::thread::current().id",
+          "lineNumber": 33
+        },
+        {
+          "caller": "register_gc_thread",
+          "callee": "std::thread::current",
+          "lineNumber": 33
+        },
+        {
+          "caller": "register_gc_thread",
+          "callee": "GC_THREADS.write().unwrap().insert",
+          "lineNumber": 34
+        },
+        {
+          "caller": "register_gc_thread",
+          "callee": "GC_THREADS.write().unwrap",
+          "lineNumber": 34
+        },
+        {
+          "caller": "register_gc_thread",
+          "callee": "GC_THREADS.write",
+          "lineNumber": 34
+        },
+        {
+          "caller": "unregister_gc_thread",
+          "callee": "std::thread::current().id",
+          "lineNumber": 37
+        },
+        {
+          "caller": "unregister_gc_thread",
+          "callee": "std::thread::current",
+          "lineNumber": 37
+        },
+        {
+          "caller": "unregister_gc_thread",
+          "callee": "GC_THREADS.write().unwrap().remove",
+          "lineNumber": 38
+        },
+        {
+          "caller": "unregister_gc_thread",
+          "callee": "GC_THREADS.write().unwrap",
+          "lineNumber": 38
+        },
+        {
+          "caller": "unregister_gc_thread",
+          "callee": "GC_THREADS.write",
+          "lineNumber": 38
+        },
+        {
+          "caller": "is_gc_thread",
+          "callee": "std::thread::current().id",
+          "lineNumber": 41
+        },
+        {
+          "caller": "is_gc_thread",
+          "callee": "std::thread::current",
+          "lineNumber": 41
+        },
+        {
+          "caller": "is_gc_thread",
+          "callee": "GC_THREADS.read().unwrap().contains",
+          "lineNumber": 42
+        },
+        {
+          "caller": "is_gc_thread",
+          "callee": "GC_THREADS.read().unwrap",
+          "lineNumber": 42
+        },
+        {
+          "caller": "is_gc_thread",
+          "callee": "GC_THREADS.read",
+          "lineNumber": 42
+        },
+        {
+          "caller": "stop_all_mutators",
+          "callee": "SINGLETON.get_plan().generational",
+          "lineNumber": 55
+        },
+        {
+          "caller": "stop_all_mutators",
+          "callee": "SINGLETON.get_plan",
+          "lineNumber": 55
+        },
+        {
+          "caller": "stop_all_mutators",
+          "callee": "gen_plan.is_current_gc_nursery",
+          "lineNumber": 57
+        },
+        {
+          "caller": "stop_all_mutators",
+          "callee": "SINGLETON.get_plan().concurrent",
+          "lineNumber": 58
+        },
+        {
+          "caller": "stop_all_mutators",
+          "callee": "SINGLETON.get_plan",
+          "lineNumber": 58
+        },
+        {
+          "caller": "stop_all_mutators",
+          "callee": "concurrent_plan.current_pause().map",
+          "lineNumber": 60
+        },
+        {
+          "caller": "stop_all_mutators",
+          "callee": "concurrent_plan.current_pause",
+          "lineNumber": 60
+        },
+        {
+          "caller": "stop_all_mutators",
+          "callee": "jl_gc_mmtk_stop_the_world",
+          "lineNumber": 74
+        },
+        {
+          "caller": "stop_all_mutators",
+          "callee": "CONCURRENT_MARKING_ACTIVE.store",
+          "lineNumber": 85
+        },
+        {
+          "caller": "stop_all_mutators",
+          "callee": "crate::active_plan::VMActivePlan::mutators",
+          "lineNumber": 90
+        },
+        {
+          "caller": "stop_all_mutators",
+          "callee": "mutator_visitor",
+          "lineNumber": 92
+        },
+        {
+          "caller": "stop_all_mutators",
+          "callee": "jl_hrtime",
+          "lineNumber": 97
+        },
+        {
+          "caller": "stop_all_mutators",
+          "callee": "GC_START.store",
+          "lineNumber": 99
+        },
+        {
+          "caller": "resume_mutators",
+          "callee": "jl_hrtime",
+          "lineNumber": 104
+        },
+        {
+          "caller": "resume_mutators",
+          "callee": "GC_START.load",
+          "lineNumber": 106
+        },
+        {
+          "caller": "resume_mutators",
+          "callee": "jl_gc_update_stats",
+          "lineNumber": 108
+        },
+        {
+          "caller": "resume_mutators",
+          "callee": "crate::api::mmtk_used_bytes",
+          "lineNumber": 110
+        },
+        {
+          "caller": "resume_mutators",
+          "callee": "is_current_gc_nursery",
+          "lineNumber": 111
+        },
+        {
+          "caller": "resume_mutators",
+          "callee": "SINGLETON.get_plan().concurrent().unwrap",
+          "lineNumber": 118
+        },
+        {
+          "caller": "resume_mutators",
+          "callee": "SINGLETON.get_plan().concurrent",
+          "lineNumber": 118
+        },
+        {
+          "caller": "resume_mutators",
+          "callee": "SINGLETON.get_plan",
+          "lineNumber": 118
+        },
+        {
+          "caller": "resume_mutators",
+          "callee": "concurrent_plan.concurrent_work_in_progress",
+          "lineNumber": 119
+        },
+        {
+          "caller": "resume_mutators",
+          "callee": "crate::scanning::GC_STACK_SNAPSHOTS.clear_snapshots",
+          "lineNumber": 122
+        },
+        {
+          "caller": "resume_mutators",
+          "callee": "CONCURRENT_MARKING_ACTIVE.store",
+          "lineNumber": 125
+        },
+        {
+          "caller": "resume_mutators",
+          "callee": "AtomicIsize::store",
+          "lineNumber": 129
+        },
+        {
+          "caller": "resume_mutators",
+          "callee": "jl_gc_mmtk_resume_the_world",
+          "lineNumber": 132
+        },
+        {
+          "caller": "resume_mutators",
+          "callee": "crate::GC_EPOCH_COND.clone",
+          "lineNumber": 138
+        },
+        {
+          "caller": "resume_mutators",
+          "callee": "lock.lock().unwrap",
+          "lineNumber": 139
+        },
+        {
+          "caller": "resume_mutators",
+          "callee": "lock.lock",
+          "lineNumber": 139
+        },
+        {
+          "caller": "resume_mutators",
+          "callee": "epoch.wrapping_add",
+          "lineNumber": 140
+        },
+        {
+          "caller": "resume_mutators",
+          "callee": "cvar.notify_all",
+          "lineNumber": 141
+        },
+        {
+          "caller": "resume_mutators",
+          "callee": "drop",
+          "lineNumber": 142
+        },
+        {
+          "caller": "block_for_gc",
+          "callee": "jl_gc_mmtk_defer_alloc_if_disabled",
+          "lineNumber": 157
+        },
+        {
+          "caller": "block_for_gc",
+          "callee": "crate::api::mmtk_gc_epoch",
+          "lineNumber": 163
+        },
+        {
+          "caller": "block_for_gc",
+          "callee": "jl_gc_mmtk_block_for_gc_enter",
+          "lineNumber": 164
+        },
+        {
+          "caller": "block_for_gc",
+          "callee": "jl_gc_safe_enter",
+          "lineNumber": 165
+        },
+        {
+          "caller": "block_for_gc",
+          "callee": "crate::api::mmtk_wait_for_new_gc_epoch",
+          "lineNumber": 166
+        },
+        {
+          "caller": "block_for_gc",
+          "callee": "jl_gc_safe_leave",
+          "lineNumber": 167
+        },
+        {
+          "caller": "block_for_gc",
+          "callee": "jl_gc_mmtk_block_for_gc_leave",
+          "lineNumber": 168
+        },
+        {
+          "caller": "block_for_gc",
+          "callee": "jl_gc_mmtk_run_pending_finalizers",
+          "lineNumber": 172
+        },
+        {
+          "caller": "spawn_gc_thread",
+          "callee": "std::thread::Builder::new()\n            .name(\"MMTk Worker\".to_string()).spawn",
+          "lineNumber": 177
+        },
+        {
+          "caller": "spawn_gc_thread",
+          "callee": "std::thread::Builder::new().name",
+          "lineNumber": 177
+        },
+        {
+          "caller": "spawn_gc_thread",
+          "callee": "std::thread::Builder::new",
+          "lineNumber": 177
+        },
+        {
+          "caller": "spawn_gc_thread",
+          "callee": "\"MMTk Worker\".to_string",
+          "lineNumber": 178
+        },
+        {
+          "caller": "spawn_gc_thread",
+          "callee": "register_gc_thread",
+          "lineNumber": 184
+        },
+        {
+          "caller": "spawn_gc_thread",
+          "callee": "VMWorkerThread",
+          "lineNumber": 187
+        },
+        {
+          "caller": "spawn_gc_thread",
+          "callee": "VMThread",
+          "lineNumber": 187
+        },
+        {
+          "caller": "spawn_gc_thread",
+          "callee": "OpaquePointer::from_address",
+          "lineNumber": 187
+        },
+        {
+          "caller": "spawn_gc_thread",
+          "callee": "Address::from_usize",
+          "lineNumber": 188
+        },
+        {
+          "caller": "spawn_gc_thread",
+          "callee": "thread_id::get",
+          "lineNumber": 188
+        },
+        {
+          "caller": "spawn_gc_thread",
+          "callee": "mmtk::memory_manager::start_worker",
+          "lineNumber": 192
+        },
+        {
+          "caller": "spawn_gc_thread",
+          "callee": "unregister_gc_thread",
+          "lineNumber": 197
+        },
+        {
+          "caller": "out_of_memory",
+          "callee": "jl_throw_out_of_memory_error",
+          "lineNumber": 205
+        },
+        {
+          "caller": "vm_live_bytes",
+          "callee": "crate::api::JULIA_MALLOC_BYTES.load",
+          "lineNumber": 209
+        },
+        {
+          "caller": "create_gc_trigger",
+          "callee": "Box::new",
+          "lineNumber": 214
+        },
+        {
+          "caller": "create_gc_trigger",
+          "callee": "JuliaGCTrigger::new",
+          "lineNumber": 214
+        },
+        {
+          "caller": "is_current_gc_nursery",
+          "callee": "crate::SINGLETON.get_plan().generational",
+          "lineNumber": 219
+        },
+        {
+          "caller": "is_current_gc_nursery",
+          "callee": "crate::SINGLETON.get_plan",
+          "lineNumber": 219
+        },
+        {
+          "caller": "is_current_gc_nursery",
+          "callee": "gen.is_current_gc_nursery",
+          "lineNumber": 220
+        }
+      ],
+      "metrics": {
+        "importCount": 0,
+        "exportCount": 5,
+        "functionCount": 12,
+        "classCount": 1
+      }
+    },
+    {
+      "path": "src/gc-mmtk/mmtk_julia/src/gc_trigger.rs",
+      "language": "rust",
+      "fileCategory": "code",
+      "totalLines": 358,
+      "nonEmptyLines": 317,
+      "functions": [
+        {
+          "name": "new",
+          "startLine": 45,
+          "endLine": 76,
+          "params": []
+        },
+        {
+          "name": "user_max",
+          "startLine": 78,
+          "endLine": 80,
+          "params": []
+        },
+        {
+          "name": "maybe_force_full_heap",
+          "startLine": 82,
+          "endLine": 88,
+          "params": [
+            "mmtk"
+          ]
+        },
+        {
+          "name": "on_gc_start",
+          "startLine": 99,
+          "endLine": 127,
+          "params": [
+            "mmtk"
+          ]
+        },
+        {
+          "name": "on_gc_end",
+          "startLine": 129,
+          "endLine": 291,
+          "params": [
+            "mmtk"
+          ]
+        },
+        {
+          "name": "on_pending_allocation",
+          "startLine": 293,
+          "endLine": 295,
+          "params": [
+            "pages"
+          ]
+        },
+        {
+          "name": "is_gc_required",
+          "startLine": 297,
+          "endLine": 308,
+          "params": [
+            "space_full",
+            "space",
+            "plan"
+          ]
+        },
+        {
+          "name": "is_heap_full",
+          "startLine": 310,
+          "endLine": 318,
+          "params": [
+            "plan"
+          ]
+        },
+        {
+          "name": "get_current_heap_size_in_pages",
+          "startLine": 320,
+          "endLine": 322,
+          "params": []
+        },
+        {
+          "name": "get_max_heap_size_in_pages",
+          "startLine": 324,
+          "endLine": 332,
+          "params": []
+        },
+        {
+          "name": "can_heap_size_grow",
+          "startLine": 334,
+          "endLine": 336,
+          "params": []
+        },
+        {
+          "name": "mmtk_jl_gc_smooth",
+          "startLine": 339,
+          "endLine": 348,
+          "params": [
+            "old_val",
+            "new_val",
+            "factor"
+          ]
+        },
+        {
+          "name": "mmtk_overallocation",
+          "startLine": 350,
+          "endLine": 358,
+          "params": [
+            "old_val",
+            "val",
+            "max_val"
+          ]
+        }
+      ],
+      "classes": [
+        {
+          "name": "JuliaGCTrigger",
+          "startLine": 23,
+          "endLine": 42,
+          "methods": [
+            "new",
+            "user_max",
+            "maybe_force_full_heap",
+            "on_gc_start",
+            "on_gc_end",
+            "on_pending_allocation",
+            "is_gc_required",
+            "is_heap_full",
+            "get_current_heap_size_in_pages",
+            "get_max_heap_size_in_pages",
+            "can_heap_size_grow"
+          ],
+          "properties": [
+            "heap_target",
+            "max_heap_size",
+            "max_total_memory",
+            "hard_heap_limit",
+            "old_pause_time",
+            "old_mut_time",
+            "old_heap_size",
+            "old_alloc_diff",
+            "old_freed_diff",
+            "gc_start_time",
+            "gc_end_time",
+            "mutator_time",
+            "thrash_counter",
+            "thrashing",
+            "before_free_heap_size",
+            "next_sweep_full",
+            "pending_pages",
+            "heap_size_after_last_full_gc"
+          ]
+        }
+      ],
+      "exports": [
+        {
+          "name": "JuliaGCTrigger",
+          "line": 23,
+          "isDefault": false
+        },
+        {
+          "name": "new",
+          "line": 45,
+          "isDefault": false
+        }
+      ],
+      "callGraph": [
+        {
+          "caller": "new",
+          "callee": "jl_gc_get_max_memory",
+          "lineNumber": 46
+        },
+        {
+          "caller": "new",
+          "callee": "OS::get_system_total_memory().unwrap",
+          "lineNumber": 47
+        },
+        {
+          "caller": "new",
+          "callee": "OS::get_system_total_memory",
+          "lineNumber": 47
+        },
+        {
+          "caller": "new",
+          "callee": "std::cmp::min",
+          "lineNumber": 48
+        },
+        {
+          "caller": "new",
+          "callee": "jl_gc_get_hard_heap_limit",
+          "lineNumber": 49
+        },
+        {
+          "caller": "new",
+          "callee": "AtomicUsize::new",
+          "lineNumber": 57
+        },
+        {
+          "caller": "new",
+          "callee": "AtomicUsize::new",
+          "lineNumber": 58
+        },
+        {
+          "caller": "new",
+          "callee": "AtomicUsize::new",
+          "lineNumber": 59
+        },
+        {
+          "caller": "new",
+          "callee": "AtomicUsize::new",
+          "lineNumber": 60
+        },
+        {
+          "caller": "new",
+          "callee": "AtomicUsize::new",
+          "lineNumber": 61
+        },
+        {
+          "caller": "new",
+          "callee": "AtomicUsize::new",
+          "lineNumber": 62
+        },
+        {
+          "caller": "new",
+          "callee": "AtomicUsize::new",
+          "lineNumber": 63
+        },
+        {
+          "caller": "new",
+          "callee": "AtomicUsize::new",
+          "lineNumber": 64
+        },
+        {
+          "caller": "new",
+          "callee": "AtomicUsize::new",
+          "lineNumber": 65
+        },
+        {
+          "caller": "new",
+          "callee": "AtomicUsize::new",
+          "lineNumber": 66
+        },
+        {
+          "caller": "new",
+          "callee": "AtomicUsize::new",
+          "lineNumber": 67
+        },
+        {
+          "caller": "new",
+          "callee": "AtomicUsize::new",
+          "lineNumber": 68
+        },
+        {
+          "caller": "new",
+          "callee": "AtomicUsize::new",
+          "lineNumber": 69
+        },
+        {
+          "caller": "new",
+          "callee": "AtomicBool::new",
+          "lineNumber": 70
+        },
+        {
+          "caller": "new",
+          "callee": "AtomicUsize::new",
+          "lineNumber": 71
+        },
+        {
+          "caller": "new",
+          "callee": "AtomicBool::new",
+          "lineNumber": 72
+        },
+        {
+          "caller": "new",
+          "callee": "AtomicUsize::new",
+          "lineNumber": 73
+        },
+        {
+          "caller": "new",
+          "callee": "AtomicUsize::new",
+          "lineNumber": 74
+        },
+        {
+          "caller": "user_max",
+          "callee": "self.max_total_memory.load",
+          "lineNumber": 79
+        },
+        {
+          "caller": "maybe_force_full_heap",
+          "callee": "mmtk.get_plan().generational",
+          "lineNumber": 83
+        },
+        {
+          "caller": "maybe_force_full_heap",
+          "callee": "mmtk.get_plan",
+          "lineNumber": 83
+        },
+        {
+          "caller": "maybe_force_full_heap",
+          "callee": "self.next_sweep_full.load",
+          "lineNumber": 84
+        },
+        {
+          "caller": "maybe_force_full_heap",
+          "callee": "gen.force_full_heap_collection",
+          "lineNumber": 85
+        },
+        {
+          "caller": "on_gc_start",
+          "callee": "self.maybe_force_full_heap",
+          "lineNumber": 100
+        },
+        {
+          "caller": "on_gc_start",
+          "callee": "mmtk.get_plan().get_reserved_pages",
+          "lineNumber": 103
+        },
+        {
+          "caller": "on_gc_start",
+          "callee": "mmtk.get_plan",
+          "lineNumber": 103
+        },
+        {
+          "caller": "on_gc_start",
+          "callee": "self.pending_pages.load",
+          "lineNumber": 103
+        },
+        {
+          "caller": "on_gc_start",
+          "callee": "jl_hrtime",
+          "lineNumber": 104
+        },
+        {
+          "caller": "on_gc_start",
+          "callee": "self.gc_start_time.store",
+          "lineNumber": 106
+        },
+        {
+          "caller": "on_gc_start",
+          "callee": "self.mutator_time.store",
+          "lineNumber": 107
+        },
+        {
+          "caller": "on_gc_start",
+          "callee": "self.gc_end_time.load",
+          "lineNumber": 108
+        },
+        {
+          "caller": "on_gc_start",
+          "callee": "self.old_mut_time.load",
+          "lineNumber": 109
+        },
+        {
+          "caller": "on_gc_start",
+          "callee": "self.gc_end_time.load",
+          "lineNumber": 111
+        },
+        {
+          "caller": "on_gc_start",
+          "callee": "self.before_free_heap_size.store",
+          "lineNumber": 115
+        },
+        {
+          "caller": "on_gc_start",
+          "callee": "conversions::pages_to_bytes",
+          "lineNumber": 116
+        },
+        {
+          "caller": "on_gc_end",
+          "callee": "jl_hrtime",
+          "lineNumber": 130
+        },
+        {
+          "caller": "on_gc_end",
+          "callee": "self.gc_start_time.load",
+          "lineNumber": 131
+        },
+        {
+          "caller": "on_gc_end",
+          "callee": "self.gc_end_time.store",
+          "lineNumber": 132
+        },
+        {
+          "caller": "on_gc_end",
+          "callee": "self.pending_pages.swap",
+          "lineNumber": 134
+        },
+        {
+          "caller": "on_gc_end",
+          "callee": "mmtk.get_plan().get_reserved_pages",
+          "lineNumber": 135
+        },
+        {
+          "caller": "on_gc_end",
+          "callee": "mmtk.get_plan",
+          "lineNumber": 135
+        },
+        {
+          "caller": "on_gc_end",
+          "callee": "conversions::pages_to_bytes",
+          "lineNumber": 136
+        },
+        {
+          "caller": "on_gc_end",
+          "callee": "self.user_max",
+          "lineNumber": 137
+        },
+        {
+          "caller": "on_gc_end",
+          "callee": "self.hard_heap_limit.load",
+          "lineNumber": 138
+        },
+        {
+          "caller": "on_gc_end",
+          "callee": "self.before_free_heap_size.load",
+          "lineNumber": 140
+        },
+        {
+          "caller": "on_gc_end",
+          "callee": "self.old_heap_size.load",
+          "lineNumber": 141
+        },
+        {
+          "caller": "on_gc_end",
+          "callee": "self\n            .before_free_heap_size.load",
+          "lineNumber": 142
+        },
+        {
+          "caller": "on_gc_end",
+          "callee": "self.old_heap_size.store",
+          "lineNumber": 145
+        },
+        {
+          "caller": "on_gc_end",
+          "callee": "mmtk.is_user_triggered_collection",
+          "lineNumber": 147
+        },
+        {
+          "caller": "on_gc_end",
+          "callee": "mmtk_jl_gc_smooth",
+          "lineNumber": 150
+        },
+        {
+          "caller": "on_gc_end",
+          "callee": "self.old_alloc_diff.load",
+          "lineNumber": 151
+        },
+        {
+          "caller": "on_gc_end",
+          "callee": "mmtk_jl_gc_smooth",
+          "lineNumber": 155
+        },
+        {
+          "caller": "on_gc_end",
+          "callee": "self.old_mut_time.load",
+          "lineNumber": 156
+        },
+        {
+          "caller": "on_gc_end",
+          "callee": "self.mutator_time.load",
+          "lineNumber": 157
+        },
+        {
+          "caller": "on_gc_end",
+          "callee": "mmtk_jl_gc_smooth",
+          "lineNumber": 160
+        },
+        {
+          "caller": "on_gc_end",
+          "callee": "self.old_freed_diff.load",
+          "lineNumber": 161
+        },
+        {
+          "caller": "on_gc_end",
+          "callee": "mmtk_jl_gc_smooth",
+          "lineNumber": 165
+        },
+        {
+          "caller": "on_gc_end",
+          "callee": "self.old_pause_time.load",
+          "lineNumber": 166
+        },
+        {
+          "caller": "on_gc_end",
+          "callee": "self.old_alloc_diff.store",
+          "lineNumber": 171
+        },
+        {
+          "caller": "on_gc_end",
+          "callee": "self.old_mut_time.store",
+          "lineNumber": 172
+        },
+        {
+          "caller": "on_gc_end",
+          "callee": "self.old_freed_diff.store",
+          "lineNumber": 173
+        },
+        {
+          "caller": "on_gc_end",
+          "callee": "self.old_pause_time.store",
+          "lineNumber": 174
+        },
+        {
+          "caller": "on_gc_end",
+          "callee": "self.thrash_counter.load",
+          "lineNumber": 176
+        },
+        {
+          "caller": "on_gc_end",
+          "callee": "self.mutator_time.load",
+          "lineNumber": 177
+        },
+        {
+          "caller": "on_gc_end",
+          "callee": "self.thrash_counter.store",
+          "lineNumber": 178
+        },
+        {
+          "caller": "on_gc_end",
+          "callee": "self.thrash_counter.store",
+          "lineNumber": 181
+        },
+        {
+          "caller": "on_gc_end",
+          "callee": "(heap_size as f64 * alloc_rate / gc_rate).sqrt",
+          "lineNumber": 188
+        },
+        {
+          "caller": "on_gc_end",
+          "callee": "self.thrashing.load",
+          "lineNumber": 191
+        },
+        {
+          "caller": "on_gc_end",
+          "callee": "self.thrash_counter.load",
+          "lineNumber": 192
+        },
+        {
+          "caller": "on_gc_end",
+          "callee": "self.thrashing.store",
+          "lineNumber": 194
+        },
+        {
+          "caller": "on_gc_end",
+          "callee": "self.thrash_counter.store",
+          "lineNumber": 195
+        },
+        {
+          "caller": "on_gc_end",
+          "callee": "self.thrashing.load",
+          "lineNumber": 196
+        },
+        {
+          "caller": "on_gc_end",
+          "callee": "self.thrash_counter.load",
+          "lineNumber": 197
+        },
+        {
+          "caller": "on_gc_end",
+          "callee": "self.thrashing.store",
+          "lineNumber": 199
+        },
+        {
+          "caller": "on_gc_end",
+          "callee": "mmtk_overallocation",
+          "lineNumber": 207
+        },
+        {
+          "caller": "on_gc_end",
+          "callee": "self.before_free_heap_size.load",
+          "lineNumber": 208
+        },
+        {
+          "caller": "on_gc_end",
+          "callee": "self.thrashing.load",
+          "lineNumber": 224
+        },
+        {
+          "caller": "on_gc_end",
+          "callee": "((min_target_allocs as f64) * (max_target_allocs as f64)).sqrt",
+          "lineNumber": 226
+        },
+        {
+          "caller": "on_gc_end",
+          "callee": "self.heap_target.store",
+          "lineNumber": 242
+        },
+        {
+          "caller": "on_gc_end",
+          "callee": "self.heap_target.store",
+          "lineNumber": 245
+        },
+        {
+          "caller": "on_gc_end",
+          "callee": "std::process::abort",
+          "lineNumber": 250
+        },
+        {
+          "caller": "on_gc_end",
+          "callee": "mmtk\n            .get_plan()\n            .generational().is_some_and",
+          "lineNumber": 253
+        },
+        {
+          "caller": "on_gc_end",
+          "callee": "mmtk\n            .get_plan().generational",
+          "lineNumber": 253
+        },
+        {
+          "caller": "on_gc_end",
+          "callee": "mmtk.get_plan",
+          "lineNumber": 253
+        },
+        {
+          "caller": "on_gc_end",
+          "callee": "gen.last_collection_full_heap",
+          "lineNumber": 256
+        },
+        {
+          "caller": "on_gc_end",
+          "callee": "mmtk.get_plan().generational().is_some",
+          "lineNumber": 257
+        },
+        {
+          "caller": "on_gc_end",
+          "callee": "mmtk.get_plan().generational",
+          "lineNumber": 257
+        },
+        {
+          "caller": "on_gc_end",
+          "callee": "mmtk.get_plan",
+          "lineNumber": 257
+        },
+        {
+          "caller": "on_gc_end",
+          "callee": "self.heap_size_after_last_full_gc.store",
+          "lineNumber": 258
+        },
+        {
+          "caller": "on_gc_end",
+          "callee": "self.heap_size_after_last_full_gc.load",
+          "lineNumber": 263
+        },
+        {
+          "caller": "on_gc_end",
+          "callee": "mmtk_overallocation",
+          "lineNumber": 268
+        },
+        {
+          "caller": "on_gc_end",
+          "callee": "self.next_sweep_full.store",
+          "lineNumber": 272
+        },
+        {
+          "caller": "on_gc_end",
+          "callee": "self.thrashing.load",
+          "lineNumber": 284
+        },
+        {
+          "caller": "on_pending_allocation",
+          "callee": "self.pending_pages.fetch_add",
+          "lineNumber": 294
+        },
+        {
+          "caller": "is_gc_required",
+          "callee": "self.is_heap_full",
+          "lineNumber": 303
+        },
+        {
+          "caller": "is_gc_required",
+          "callee": "plan.collection_required",
+          "lineNumber": 307
+        },
+        {
+          "caller": "is_heap_full",
+          "callee": "plan.get_reserved_pages",
+          "lineNumber": 312
+        },
+        {
+          "caller": "is_heap_full",
+          "callee": "self.pending_pages.load",
+          "lineNumber": 312
+        },
+        {
+          "caller": "is_heap_full",
+          "callee": "conversions::pages_to_bytes",
+          "lineNumber": 313
+        },
+        {
+          "caller": "is_heap_full",
+          "callee": "self.heap_target.load",
+          "lineNumber": 314
+        },
+        {
+          "caller": "get_current_heap_size_in_pages",
+          "callee": "self.heap_target.load",
+          "lineNumber": 321
+        },
+        {
+          "caller": "get_max_heap_size_in_pages",
+          "callee": "self.hard_heap_limit.load",
+          "lineNumber": 325
+        },
+        {
+          "caller": "get_max_heap_size_in_pages",
+          "callee": "self.max_heap_size.load",
+          "lineNumber": 329
+        },
+        {
+          "caller": "mmtk_overallocation",
+          "callee": "old_val.leading_zeros",
+          "lineNumber": 351
+        }
+      ],
+      "metrics": {
+        "importCount": 0,
+        "exportCount": 2,
+        "functionCount": 13,
+        "classCount": 1
+      }
+    },
+    {
+      "path": "src/gc-mmtk/mmtk_julia/src/julia_finalizer.rs",
+      "language": "rust",
+      "fileCategory": "code",
+      "totalLines": 259,
+      "nonEmptyLines": 238,
+      "functions": [
+        {
+          "name": "scan_finalizers_in_rust",
+          "startLine": 27,
+          "endLine": 67,
+          "params": [
+            "tracer"
+          ]
+        },
+        {
+          "name": "thread_local_finalizer_list",
+          "startLine": 88,
+          "endLine": 91,
+          "params": [
+            "mutator"
+          ]
+        },
+        {
+          "name": "to_finalize_list",
+          "startLine": 93,
+          "endLine": 96,
+          "params": []
+        },
+        {
+          "name": "marked_finalizers_list",
+          "startLine": 98,
+          "endLine": 101,
+          "params": []
+        },
+        {
+          "name": "get",
+          "startLine": 103,
+          "endLine": 106,
+          "params": [
+            "i"
+          ]
+        },
+        {
+          "name": "set",
+          "startLine": 107,
+          "endLine": 110,
+          "params": [
+            "i",
+            "val"
+          ]
+        },
+        {
+          "name": "push",
+          "startLine": 111,
+          "endLine": 114,
+          "params": [
+            "val"
+          ]
+        },
+        {
+          "name": "grow",
+          "startLine": 115,
+          "endLine": 124,
+          "params": [
+            "n"
+          ]
+        },
+        {
+          "name": "gc_ptr_clear_tag",
+          "startLine": 127,
+          "endLine": 131,
+          "params": [
+            "addr",
+            "tag"
+          ]
+        },
+        {
+          "name": "gc_ptr_tag",
+          "startLine": 133,
+          "endLine": 135,
+          "params": [
+            "addr",
+            "tag"
+          ]
+        },
+        {
+          "name": "sweep_finalizer_list",
+          "startLine": 138,
+          "endLine": 196,
+          "params": [
+            "list",
+            "to_finalize",
+            "finalizer_list_marked",
+            "jl_gc_have_pending_finalizers"
+          ]
+        },
+        {
+          "name": "next_finalizer_object",
+          "startLine": 200,
+          "endLine": 232,
+          "params": [
+            "list",
+            "i"
+          ]
+        },
+        {
+          "name": "wb_finalizer_queue",
+          "startLine": 236,
+          "endLine": 244,
+          "params": [
+            "mutator",
+            "queue"
+          ]
+        },
+        {
+          "name": "mark_finlist",
+          "startLine": 247,
+          "endLine": 259,
+          "params": [
+            "list",
+            "start",
+            "tracer"
+          ]
+        }
+      ],
+      "classes": [
+        {
+          "name": "ArrayListT",
+          "startLine": 77,
+          "endLine": 82,
+          "methods": [
+            "thread_local_finalizer_list",
+            "to_finalize_list",
+            "marked_finalizers_list",
+            "get",
+            "set",
+            "push",
+            "grow"
+          ],
+          "properties": [
+            "len",
+            "max",
+            "items"
+          ]
+        }
+      ],
+      "exports": [
+        {
+          "name": "scan_finalizers_in_rust",
+          "line": 27,
+          "isDefault": false
+        },
+        {
+          "name": "gc_ptr_tag",
+          "line": 133,
+          "isDefault": false
+        },
+        {
+          "name": "wb_finalizer_queue",
+          "line": 236,
+          "isDefault": false
+        }
+      ],
+      "callGraph": [
+        {
+          "caller": "scan_finalizers_in_rust",
+          "callee": "ArrayListT::to_finalize_list",
+          "lineNumber": 29
+        },
+        {
+          "caller": "scan_finalizers_in_rust",
+          "callee": "ArrayListT::marked_finalizers_list",
+          "lineNumber": 30
+        },
+        {
+          "caller": "scan_finalizers_in_rust",
+          "callee": "jl_gc_get_have_pending_finalizers",
+          "lineNumber": 31
+        },
+        {
+          "caller": "scan_finalizers_in_rust",
+          "callee": "<JuliaVM as VMBinding>::VMActivePlan::mutators",
+          "lineNumber": 37
+        },
+        {
+          "caller": "scan_finalizers_in_rust",
+          "callee": "ArrayListT::thread_local_finalizer_list",
+          "lineNumber": 38
+        },
+        {
+          "caller": "scan_finalizers_in_rust",
+          "callee": "sweep_finalizer_list",
+          "lineNumber": 39
+        },
+        {
+          "caller": "scan_finalizers_in_rust",
+          "callee": "Some",
+          "lineNumber": 42
+        },
+        {
+          "caller": "scan_finalizers_in_rust",
+          "callee": "crate::collection::is_current_gc_nursery",
+          "lineNumber": 48
+        },
+        {
+          "caller": "scan_finalizers_in_rust",
+          "callee": "sweep_finalizer_list",
+          "lineNumber": 49
+        },
+        {
+          "caller": "scan_finalizers_in_rust",
+          "callee": "<JuliaVM as VMBinding>::VMActivePlan::mutators",
+          "lineNumber": 59
+        },
+        {
+          "caller": "scan_finalizers_in_rust",
+          "callee": "ArrayListT::thread_local_finalizer_list",
+          "lineNumber": 60
+        },
+        {
+          "caller": "scan_finalizers_in_rust",
+          "callee": "mark_finlist",
+          "lineNumber": 61
+        },
+        {
+          "caller": "scan_finalizers_in_rust",
+          "callee": "mark_finlist",
+          "lineNumber": 64
+        },
+        {
+          "caller": "scan_finalizers_in_rust",
+          "callee": "mark_finlist",
+          "lineNumber": 66
+        },
+        {
+          "caller": "thread_local_finalizer_list",
+          "callee": "jl_gc_get_thread_finalizer_list",
+          "lineNumber": 89
+        },
+        {
+          "caller": "thread_local_finalizer_list",
+          "callee": "list.to_mut_ptr",
+          "lineNumber": 90
+        },
+        {
+          "caller": "to_finalize_list",
+          "callee": "jl_gc_get_to_finalize_list",
+          "lineNumber": 94
+        },
+        {
+          "caller": "to_finalize_list",
+          "callee": "list.to_mut_ptr",
+          "lineNumber": 95
+        },
+        {
+          "caller": "marked_finalizers_list",
+          "callee": "jl_gc_get_marked_finalizers_list",
+          "lineNumber": 99
+        },
+        {
+          "caller": "marked_finalizers_list",
+          "callee": "list.to_mut_ptr",
+          "lineNumber": 100
+        },
+        {
+          "caller": "get",
+          "callee": "self.items.add",
+          "lineNumber": 105
+        },
+        {
+          "caller": "set",
+          "callee": "self.items.add",
+          "lineNumber": 109
+        },
+        {
+          "caller": "push",
+          "callee": "self.grow",
+          "lineNumber": 112
+        },
+        {
+          "caller": "push",
+          "callee": "self.set",
+          "lineNumber": 113
+        },
+        {
+          "caller": "grow",
+          "callee": "arraylist_grow",
+          "lineNumber": 120
+        },
+        {
+          "caller": "grow",
+          "callee": "Address::from_mut_ptr",
+          "lineNumber": 120
+        },
+        {
+          "caller": "gc_ptr_clear_tag",
+          "callee": "Address::from_usize",
+          "lineNumber": 128
+        },
+        {
+          "caller": "sweep_finalizer_list",
+          "callee": "list.get",
+          "lineNumber": 153
+        },
+        {
+          "caller": "sweep_finalizer_list",
+          "callee": "ObjectReference::from_raw_address_unchecked",
+          "lineNumber": 155
+        },
+        {
+          "caller": "sweep_finalizer_list",
+          "callee": "gc_ptr_clear_tag",
+          "lineNumber": 155
+        },
+        {
+          "caller": "sweep_finalizer_list",
+          "callee": "v0.is_zero",
+          "lineNumber": 157
+        },
+        {
+          "caller": "sweep_finalizer_list",
+          "callee": "list.get",
+          "lineNumber": 163
+        },
+        {
+          "caller": "sweep_finalizer_list",
+          "callee": "gc_ptr_tag",
+          "lineNumber": 164
+        },
+        {
+          "caller": "sweep_finalizer_list",
+          "callee": "memory_manager::is_live_object",
+          "lineNumber": 167
+        },
+        {
+          "caller": "sweep_finalizer_list",
+          "callee": "finalizer_list_marked.is_some",
+          "lineNumber": 168
+        },
+        {
+          "caller": "sweep_finalizer_list",
+          "callee": "list.set",
+          "lineNumber": 175
+        },
+        {
+          "caller": "sweep_finalizer_list",
+          "callee": "list.get",
+          "lineNumber": 175
+        },
+        {
+          "caller": "sweep_finalizer_list",
+          "callee": "list.set",
+          "lineNumber": 176
+        },
+        {
+          "caller": "sweep_finalizer_list",
+          "callee": "list.get",
+          "lineNumber": 176
+        },
+        {
+          "caller": "sweep_finalizer_list",
+          "callee": "to_finalize.push",
+          "lineNumber": 181
+        },
+        {
+          "caller": "sweep_finalizer_list",
+          "callee": "to_finalize.push",
+          "lineNumber": 182
+        },
+        {
+          "caller": "sweep_finalizer_list",
+          "callee": "finalizer_list_marked.as_mut().unwrap",
+          "lineNumber": 188
+        },
+        {
+          "caller": "sweep_finalizer_list",
+          "callee": "finalizer_list_marked.as_mut",
+          "lineNumber": 188
+        },
+        {
+          "caller": "sweep_finalizer_list",
+          "callee": "finalizer_list_marked.push",
+          "lineNumber": 189
+        },
+        {
+          "caller": "sweep_finalizer_list",
+          "callee": "finalizer_list_marked.push",
+          "lineNumber": 190
+        },
+        {
+          "caller": "next_finalizer_object",
+          "callee": "list.get",
+          "lineNumber": 205
+        },
+        {
+          "caller": "next_finalizer_object",
+          "callee": "cur.is_zero",
+          "lineNumber": 207
+        },
+        {
+          "caller": "next_finalizer_object",
+          "callee": "gc_ptr_tag",
+          "lineNumber": 212
+        },
+        {
+          "caller": "next_finalizer_object",
+          "callee": "gc_ptr_clear_tag",
+          "lineNumber": 216
+        },
+        {
+          "caller": "next_finalizer_object",
+          "callee": "gc_ptr_tag",
+          "lineNumber": 220
+        },
+        {
+          "caller": "next_finalizer_object",
+          "callee": "Some",
+          "lineNumber": 225
+        },
+        {
+          "caller": "next_finalizer_object",
+          "callee": "ObjectReference::from_raw_address_unchecked",
+          "lineNumber": 227
+        },
+        {
+          "caller": "wb_finalizer_queue",
+          "callee": "next_finalizer_object",
+          "lineNumber": 241
+        },
+        {
+          "caller": "wb_finalizer_queue",
+          "callee": "mutator.barrier().load_weak_reference",
+          "lineNumber": 242
+        },
+        {
+          "caller": "wb_finalizer_queue",
+          "callee": "mutator.barrier",
+          "lineNumber": 242
+        },
+        {
+          "caller": "mark_finlist",
+          "callee": "next_finalizer_object",
+          "lineNumber": 252
+        },
+        {
+          "caller": "mark_finlist",
+          "callee": "tracer.trace_object",
+          "lineNumber": 253
+        },
+        {
+          "caller": "mark_finlist",
+          "callee": "list.set",
+          "lineNumber": 255
+        },
+        {
+          "caller": "mark_finlist",
+          "callee": "Address::from_usize",
+          "lineNumber": 256
+        },
+        {
+          "caller": "mark_finlist",
+          "callee": "traced.to_raw_address",
+          "lineNumber": 256
+        }
+      ],
+      "metrics": {
+        "importCount": 0,
+        "exportCount": 3,
+        "functionCount": 14,
+        "classCount": 1
+      }
+    },
+    {
+      "path": "src/gc-mmtk/mmtk_julia/src/julia_scanning.rs",
+      "language": "rust",
+      "fileCategory": "code",
+      "totalLines": 694,
+      "nonEmptyLines": 607,
+      "functions": [
+        {
+          "name": "mmtk_jl_typetagof",
+          "startLine": 39,
+          "endLine": 46,
+          "params": [
+            "addr"
+          ]
+        },
+        {
+          "name": "mmtk_jl_typeof",
+          "startLine": 49,
+          "endLine": 51,
+          "params": [
+            "addr"
+          ]
+        },
+        {
+          "name": "mmtk_jl_to_typeof",
+          "startLine": 54,
+          "endLine": 61,
+          "params": [
+            "t"
+          ]
+        },
+        {
+          "name": "scan_julia_object",
+          "startLine": 68,
+          "endLine": 417,
+          "params": [
+            "obj",
+            "closure"
+          ]
+        },
+        {
+          "name": "mmtk_jl_genericmemory_data_owner_field_address",
+          "startLine": 420,
+          "endLine": 422,
+          "params": [
+            "m"
+          ]
+        },
+        {
+          "name": "mmtk_scan_gcstack",
+          "startLine": 431,
+          "endLine": 524,
+          "params": [
+            "ta",
+            "closure"
+          ]
+        },
+        {
+          "name": "read_stack",
+          "startLine": 527,
+          "endLine": 531,
+          "params": [
+            "addr",
+            "offset",
+            "lb",
+            "ub"
+          ]
+        },
+        {
+          "name": "get_stack_addr",
+          "startLine": 534,
+          "endLine": 540,
+          "params": [
+            "addr",
+            "offset",
+            "lb",
+            "ub"
+          ]
+        },
+        {
+          "name": "process_slot",
+          "startLine": 543,
+          "endLine": 579,
+          "params": [
+            "closure",
+            "slot"
+          ]
+        },
+        {
+          "name": "process_offset_slot",
+          "startLine": 582,
+          "endLine": 603,
+          "params": [
+            "closure",
+            "slot",
+            "offset"
+          ]
+        },
+        {
+          "name": "mmtk_jl_array_ndimwords",
+          "startLine": 606,
+          "endLine": 612,
+          "params": [
+            "ndims"
+          ]
+        },
+        {
+          "name": "mmtk_jl_svec_len",
+          "startLine": 615,
+          "endLine": 617,
+          "params": [
+            "obj"
+          ]
+        },
+        {
+          "name": "mmtk_jl_svec_data",
+          "startLine": 620,
+          "endLine": 622,
+          "params": [
+            "obj"
+          ]
+        },
+        {
+          "name": "mmtk_jl_tparam0",
+          "startLine": 625,
+          "endLine": 627,
+          "params": [
+            "vt"
+          ]
+        },
+        {
+          "name": "mmtk_jl_svecref",
+          "startLine": 630,
+          "endLine": 641,
+          "params": [
+            "vt",
+            "i"
+          ]
+        },
+        {
+          "name": "mmtk_jl_dt_layout_ptrs",
+          "startLine": 644,
+          "endLine": 647,
+          "params": [
+            "l"
+          ]
+        },
+        {
+          "name": "mmtk_jl_dt_layout_fields",
+          "startLine": 650,
+          "endLine": 652,
+          "params": [
+            "l"
+          ]
+        },
+        {
+          "name": "mmtk_jl_fielddesc_size",
+          "startLine": 655,
+          "endLine": 658,
+          "params": [
+            "fielddesc_type"
+          ]
+        },
+        {
+          "name": "mmtk_jl_bt_is_native",
+          "startLine": 662,
+          "endLine": 665,
+          "params": [
+            "bt_entry"
+          ]
+        },
+        {
+          "name": "mmtk_jl_bt_entry_size",
+          "startLine": 667,
+          "endLine": 673,
+          "params": [
+            "bt_entry"
+          ]
+        },
+        {
+          "name": "mmtk_jl_bt_num_jlvals",
+          "startLine": 675,
+          "endLine": 679,
+          "params": [
+            "bt_entry"
+          ]
+        },
+        {
+          "name": "mmtk_jl_bt_num_uintvals",
+          "startLine": 681,
+          "endLine": 685,
+          "params": [
+            "bt_entry"
+          ]
+        },
+        {
+          "name": "mmtk_jl_bt_entry_jlvalue",
+          "startLine": 687,
+          "endLine": 694,
+          "params": [
+            "bt_entry",
+            "i"
+          ]
+        }
+      ],
+      "exports": [
+        {
+          "name": "mmtk_jl_typetagof",
+          "line": 39,
+          "isDefault": false
+        },
+        {
+          "name": "mmtk_jl_typeof",
+          "line": 49,
+          "isDefault": false
+        },
+        {
+          "name": "mmtk_jl_to_typeof",
+          "line": 54,
+          "isDefault": false
+        },
+        {
+          "name": "scan_julia_object",
+          "line": 68,
+          "isDefault": false
+        },
+        {
+          "name": "mmtk_scan_gcstack",
+          "line": 431,
+          "isDefault": false
+        },
+        {
+          "name": "process_slot",
+          "line": 543,
+          "isDefault": false
+        },
+        {
+          "name": "process_offset_slot",
+          "line": 582,
+          "isDefault": false
+        },
+        {
+          "name": "mmtk_jl_array_ndimwords",
+          "line": 606,
+          "isDefault": false
+        },
+        {
+          "name": "mmtk_jl_svec_len",
+          "line": 615,
+          "isDefault": false
+        },
+        {
+          "name": "mmtk_jl_svec_data",
+          "line": 620,
+          "isDefault": false
+        },
+        {
+          "name": "mmtk_jl_tparam0",
+          "line": 625,
+          "isDefault": false
+        },
+        {
+          "name": "mmtk_jl_svecref",
+          "line": 630,
+          "isDefault": false
+        },
+        {
+          "name": "mmtk_jl_dt_layout_ptrs",
+          "line": 644,
+          "isDefault": false
+        },
+        {
+          "name": "mmtk_jl_dt_layout_fields",
+          "line": 650,
+          "isDefault": false
+        },
+        {
+          "name": "mmtk_jl_fielddesc_size",
+          "line": 655,
+          "isDefault": false
+        },
+        {
+          "name": "mmtk_jl_bt_is_native",
+          "line": 662,
+          "isDefault": false
+        },
+        {
+          "name": "mmtk_jl_bt_entry_size",
+          "line": 667,
+          "isDefault": false
+        },
+        {
+          "name": "mmtk_jl_bt_num_jlvals",
+          "line": 675,
+          "isDefault": false
+        },
+        {
+          "name": "mmtk_jl_bt_num_uintvals",
+          "line": 681,
+          "isDefault": false
+        },
+        {
+          "name": "mmtk_jl_bt_entry_jlvalue",
+          "line": 687,
+          "isDefault": false
+        }
+      ],
+      "callGraph": [
+        {
+          "caller": "mmtk_jl_typetagof",
+          "callee": "addr.as_usize",
+          "lineNumber": 41
+        },
+        {
+          "caller": "mmtk_jl_typetagof",
+          "callee": "std::mem::size_of::<crate::julia_scanning::jl_taggedvalue_t>",
+          "lineNumber": 41
+        },
+        {
+          "caller": "mmtk_jl_typetagof",
+          "callee": "Address::from_usize(as_tagged_value).load::<Address>",
+          "lineNumber": 42
+        },
+        {
+          "caller": "mmtk_jl_typetagof",
+          "callee": "Address::from_usize",
+          "lineNumber": 42
+        },
+        {
+          "caller": "mmtk_jl_typetagof",
+          "callee": "t_header.as_usize",
+          "lineNumber": 43
+        },
+        {
+          "caller": "mmtk_jl_typetagof",
+          "callee": "Address::from_usize",
+          "lineNumber": 45
+        },
+        {
+          "caller": "mmtk_jl_typeof",
+          "callee": "mmtk_jl_to_typeof",
+          "lineNumber": 50
+        },
+        {
+          "caller": "mmtk_jl_typeof",
+          "callee": "mmtk_jl_typetagof",
+          "lineNumber": 50
+        },
+        {
+          "caller": "mmtk_jl_to_typeof",
+          "callee": "t.as_usize",
+          "lineNumber": 55
+        },
+        {
+          "caller": "mmtk_jl_to_typeof",
+          "callee": "std::mem::size_of::<Address>",
+          "lineNumber": 57
+        },
+        {
+          "caller": "mmtk_jl_to_typeof",
+          "callee": "t.to_ptr::<jl_datatype_t>",
+          "lineNumber": 60
+        },
+        {
+          "caller": "scan_julia_object",
+          "callee": "mmtk_jl_typetagof",
+          "lineNumber": 70
+        },
+        {
+          "caller": "scan_julia_object",
+          "callee": "vtag.as_usize",
+          "lineNumber": 71
+        },
+        {
+          "caller": "scan_julia_object",
+          "callee": "vtag.to_ptr::<jl_datatype_t>",
+          "lineNumber": 83
+        },
+        {
+          "caller": "scan_julia_object",
+          "callee": "crate::object_model::is_small_typeof_tag_with_no_pointer",
+          "lineNumber": 87
+        },
+        {
+          "caller": "scan_julia_object",
+          "callee": "vtag.as_usize",
+          "lineNumber": 90
+        },
+        {
+          "caller": "scan_julia_object",
+          "callee": "std::mem::size_of::<Address>",
+          "lineNumber": 90
+        },
+        {
+          "caller": "scan_julia_object",
+          "callee": "Address::from_usize",
+          "lineNumber": 91
+        },
+        {
+          "caller": "scan_julia_object",
+          "callee": "mmtk_jl_svec_len",
+          "lineNumber": 98
+        },
+        {
+          "caller": "scan_julia_object",
+          "callee": "mmtk_jl_svec_data",
+          "lineNumber": 99
+        },
+        {
+          "caller": "scan_julia_object",
+          "callee": "objary_begin.shift::<Address>",
+          "lineNumber": 100
+        },
+        {
+          "caller": "scan_julia_object",
+          "callee": "process_slot",
+          "lineNumber": 103
+        },
+        {
+          "caller": "scan_julia_object",
+          "callee": "objary_begin.shift::<Address>",
+          "lineNumber": 104
+        },
+        {
+          "caller": "scan_julia_object",
+          "callee": "obj.to_ptr::<jl_module_t>",
+          "lineNumber": 111
+        },
+        {
+          "caller": "scan_julia_object",
+          "callee": "process_slot",
+          "lineNumber": 116
+        },
+        {
+          "caller": "scan_julia_object",
+          "callee": "Address::from_ptr",
+          "lineNumber": 116
+        },
+        {
+          "caller": "scan_julia_object",
+          "callee": "process_slot",
+          "lineNumber": 122
+        },
+        {
+          "caller": "scan_julia_object",
+          "callee": "Address::from_ptr",
+          "lineNumber": 122
+        },
+        {
+          "caller": "scan_julia_object",
+          "callee": "process_slot",
+          "lineNumber": 128
+        },
+        {
+          "caller": "scan_julia_object",
+          "callee": "Address::from_ptr",
+          "lineNumber": 128
+        },
+        {
+          "caller": "scan_julia_object",
+          "callee": "process_slot",
+          "lineNumber": 134
+        },
+        {
+          "caller": "scan_julia_object",
+          "callee": "Address::from_ptr",
+          "lineNumber": 134
+        },
+        {
+          "caller": "scan_julia_object",
+          "callee": "process_slot",
+          "lineNumber": 140
+        },
+        {
+          "caller": "scan_julia_object",
+          "callee": "Address::from_ptr",
+          "lineNumber": 140
+        },
+        {
+          "caller": "scan_julia_object",
+          "callee": "mmtk_object_is_managed_by_mmtk",
+          "lineNumber": 146
+        },
+        {
+          "caller": "scan_julia_object",
+          "callee": "Address::from_ptr",
+          "lineNumber": 148
+        },
+        {
+          "caller": "scan_julia_object",
+          "callee": "process_offset_slot",
+          "lineNumber": 149
+        },
+        {
+          "caller": "scan_julia_object",
+          "callee": "Address::from_mut_ptr",
+          "lineNumber": 154
+        },
+        {
+          "caller": "scan_julia_object",
+          "callee": "objary_begin.shift::<Address>",
+          "lineNumber": 155
+        },
+        {
+          "caller": "scan_julia_object",
+          "callee": "process_slot",
+          "lineNumber": 161
+        },
+        {
+          "caller": "scan_julia_object",
+          "callee": "objary_begin.shift::<Address>",
+          "lineNumber": 162
+        },
+        {
+          "caller": "scan_julia_object",
+          "callee": "obj.to_ptr::<jl_task_t>",
+          "lineNumber": 170
+        },
+        {
+          "caller": "scan_julia_object",
+          "callee": "crate::collection::CONCURRENT_MARKING_ACTIVE.load",
+          "lineNumber": 173
+        },
+        {
+          "caller": "scan_julia_object",
+          "callee": "crate::scanning::GC_STACK_SNAPSHOTS.gc_thread_scan_stack",
+          "lineNumber": 178
+        },
+        {
+          "caller": "scan_julia_object",
+          "callee": "snapshot.iter().for_each",
+          "lineNumber": 180
+        },
+        {
+          "caller": "scan_julia_object",
+          "callee": "snapshot.iter",
+          "lineNumber": 180
+        },
+        {
+          "caller": "scan_julia_object",
+          "callee": "process_slot",
+          "lineNumber": 181
+        },
+        {
+          "caller": "scan_julia_object",
+          "callee": "Address::from_ptr",
+          "lineNumber": 181
+        },
+        {
+          "caller": "scan_julia_object",
+          "callee": "mmtk_scan_gcstack",
+          "lineNumber": 185
+        },
+        {
+          "caller": "scan_julia_object",
+          "callee": "mmtk_scan_gcstack",
+          "lineNumber": 188
+        },
+        {
+          "caller": "scan_julia_object",
+          "callee": "mmtk_jl_dt_layout_ptrs",
+          "lineNumber": 194
+        },
+        {
+          "caller": "scan_julia_object",
+          "callee": "obj8_begin.shift::<u8>",
+          "lineNumber": 195
+        },
+        {
+          "caller": "scan_julia_object",
+          "callee": "obj8_begin.load::<u8>",
+          "lineNumber": 198
+        },
+        {
+          "caller": "scan_julia_object",
+          "callee": "obj.shift::<Address>",
+          "lineNumber": 199
+        },
+        {
+          "caller": "scan_julia_object",
+          "callee": "process_slot",
+          "lineNumber": 200
+        },
+        {
+          "caller": "scan_julia_object",
+          "callee": "obj8_begin.shift::<u8>",
+          "lineNumber": 201
+        },
+        {
+          "caller": "scan_julia_object",
+          "callee": "obj.to_ptr::<jl_cancel_source_t>",
+          "lineNumber": 211
+        },
+        {
+          "caller": "scan_julia_object",
+          "callee": "process_slot",
+          "lineNumber": 212
+        },
+        {
+          "caller": "scan_julia_object",
+          "callee": "process_slot",
+          "lineNumber": 213
+        },
+        {
+          "caller": "scan_julia_object",
+          "callee": "std::mem::size_of::<jl_cancel_source_t>",
+          "lineNumber": 215
+        },
+        {
+          "caller": "scan_julia_object",
+          "callee": "process_slot",
+          "lineNumber": 217
+        },
+        {
+          "caller": "scan_julia_object",
+          "callee": "std::mem::size_of::<jl_cancel_parent_link_t>",
+          "lineNumber": 218
+        },
+        {
+          "caller": "scan_julia_object",
+          "callee": "obj.to_ptr::<jl_wait_entry_t>",
+          "lineNumber": 224
+        },
+        {
+          "caller": "scan_julia_object",
+          "callee": "process_slot",
+          "lineNumber": 225
+        },
+        {
+          "caller": "scan_julia_object",
+          "callee": "std::mem::size_of::<jl_wait_entry_t>",
+          "lineNumber": 227
+        },
+        {
+          "caller": "scan_julia_object",
+          "callee": "process_slot",
+          "lineNumber": 229
+        },
+        {
+          "caller": "scan_julia_object",
+          "callee": "process_slot",
+          "lineNumber": 230
+        },
+        {
+          "caller": "scan_julia_object",
+          "callee": "std::mem::size_of::<jl_wait_slot_t>",
+          "lineNumber": 231
+        },
+        {
+          "caller": "scan_julia_object",
+          "callee": "vtag.to_ptr::<jl_datatype_t>",
+          "lineNumber": 240
+        },
+        {
+          "caller": "scan_julia_object",
+          "callee": "mmtk_jl_typetagof",
+          "lineNumber": 241
+        },
+        {
+          "caller": "scan_julia_object",
+          "callee": "type_tag.as_usize",
+          "lineNumber": 243
+        },
+        {
+          "caller": "scan_julia_object",
+          "callee": "(*vt).smalltag",
+          "lineNumber": 244
+        },
+        {
+          "caller": "scan_julia_object",
+          "callee": "vtag.to_ptr::<jl_datatype_t>",
+          "lineNumber": 254
+        },
+        {
+          "caller": "scan_julia_object",
+          "callee": "obj.to_ptr::<jl_array_t>",
+          "lineNumber": 256
+        },
+        {
+          "caller": "scan_julia_object",
+          "callee": "mmtk_object_is_managed_by_mmtk",
+          "lineNumber": 261
+        },
+        {
+          "caller": "scan_julia_object",
+          "callee": "Address::from_ptr",
+          "lineNumber": 262
+        },
+        {
+          "caller": "scan_julia_object",
+          "callee": "process_offset_slot",
+          "lineNumber": 270
+        },
+        {
+          "caller": "scan_julia_object",
+          "callee": "obj.to_ptr::<jl_genericmemory_t>",
+          "lineNumber": 279
+        },
+        {
+          "caller": "scan_julia_object",
+          "callee": "jl_gc_genericmemory_how",
+          "lineNumber": 280
+        },
+        {
+          "caller": "scan_julia_object",
+          "callee": "mmtk_jl_genericmemory_data_owner_field_address",
+          "lineNumber": 287
+        },
+        {
+          "caller": "scan_julia_object",
+          "callee": "process_slot",
+          "lineNumber": 288
+        },
+        {
+          "caller": "scan_julia_object",
+          "callee": "(*layout).flags.arrayelem_isboxed",
+          "lineNumber": 298
+        },
+        {
+          "caller": "scan_julia_object",
+          "callee": "Address::from_ptr",
+          "lineNumber": 300
+        },
+        {
+          "caller": "scan_julia_object",
+          "callee": "objary_begin.shift::<Address>",
+          "lineNumber": 301
+        },
+        {
+          "caller": "scan_julia_object",
+          "callee": "process_slot",
+          "lineNumber": 303
+        },
+        {
+          "caller": "scan_julia_object",
+          "callee": "objary_begin.shift::<Address>",
+          "lineNumber": 304
+        },
+        {
+          "caller": "scan_julia_object",
+          "callee": "std::mem::size_of::<Address>",
+          "lineNumber": 308
+        },
+        {
+          "caller": "scan_julia_object",
+          "callee": "Address::from_ptr",
+          "lineNumber": 310
+        },
+        {
+          "caller": "scan_julia_object",
+          "callee": "objary_begin.shift::<Address>",
+          "lineNumber": 311
+        },
+        {
+          "caller": "scan_julia_object",
+          "callee": "objary_begin.shift::<Address>",
+          "lineNumber": 313
+        },
+        {
+          "caller": "scan_julia_object",
+          "callee": "process_slot",
+          "lineNumber": 315
+        },
+        {
+          "caller": "scan_julia_object",
+          "callee": "objary_begin.shift::<Address>",
+          "lineNumber": 316
+        },
+        {
+          "caller": "scan_julia_object",
+          "callee": "(*layout).fielddesc_type_custom",
+          "lineNumber": 318
+        },
+        {
+          "caller": "scan_julia_object",
+          "callee": "mmtk_jl_dt_layout_ptrs",
+          "lineNumber": 319
+        },
+        {
+          "caller": "scan_julia_object",
+          "callee": "obj8_begin.shift::<u8>",
+          "lineNumber": 320
+        },
+        {
+          "caller": "scan_julia_object",
+          "callee": "elem_begin.load::<u8>",
+          "lineNumber": 326
+        },
+        {
+          "caller": "scan_julia_object",
+          "callee": "objary_begin.shift::<Address>",
+          "lineNumber": 327
+        },
+        {
+          "caller": "scan_julia_object",
+          "callee": "process_slot",
+          "lineNumber": 328
+        },
+        {
+          "caller": "scan_julia_object",
+          "callee": "elem_begin.shift::<u8>",
+          "lineNumber": 329
+        },
+        {
+          "caller": "scan_julia_object",
+          "callee": "objary_begin.shift::<Address>",
+          "lineNumber": 332
+        },
+        {
+          "caller": "scan_julia_object",
+          "callee": "(*layout).fielddesc_type_custom",
+          "lineNumber": 334
+        },
+        {
+          "caller": "scan_julia_object",
+          "callee": "mmtk_jl_dt_layout_ptrs",
+          "lineNumber": 335
+        },
+        {
+          "caller": "scan_julia_object",
+          "callee": "obj16_begin.shift::<u16>",
+          "lineNumber": 336
+        },
+        {
+          "caller": "scan_julia_object",
+          "callee": "obj16_begin.load::<u16>",
+          "lineNumber": 340
+        },
+        {
+          "caller": "scan_julia_object",
+          "callee": "objary_begin.shift::<Address>",
+          "lineNumber": 341
+        },
+        {
+          "caller": "scan_julia_object",
+          "callee": "process_slot",
+          "lineNumber": 342
+        },
+        {
+          "caller": "scan_julia_object",
+          "callee": "obj16_begin.shift::<u16>",
+          "lineNumber": 343
+        },
+        {
+          "caller": "scan_julia_object",
+          "callee": "mmtk_jl_dt_layout_ptrs",
+          "lineNumber": 345
+        },
+        {
+          "caller": "scan_julia_object",
+          "callee": "objary_begin.shift::<Address>",
+          "lineNumber": 346
+        },
+        {
+          "caller": "scan_julia_object",
+          "callee": "crate::collection::CONCURRENT_MARKING_ACTIVE.load",
+          "lineNumber": 362
+        },
+        {
+          "caller": "scan_julia_object",
+          "callee": "obj.to_ptr::<jl_weakref_t>",
+          "lineNumber": 364
+        },
+        {
+          "caller": "scan_julia_object",
+          "callee": "Address::from_ptr",
+          "lineNumber": 365
+        },
+        {
+          "caller": "scan_julia_object",
+          "callee": "process_slot",
+          "lineNumber": 366
+        },
+        {
+          "caller": "scan_julia_object",
+          "callee": "(*layout).fielddesc_type_custom",
+          "lineNumber": 382
+        },
+        {
+          "caller": "scan_julia_object",
+          "callee": "mmtk_jl_dt_layout_ptrs",
+          "lineNumber": 383
+        },
+        {
+          "caller": "scan_julia_object",
+          "callee": "obj8_begin.shift::<u8>",
+          "lineNumber": 384
+        },
+        {
+          "caller": "scan_julia_object",
+          "callee": "obj8_begin.load::<u8>",
+          "lineNumber": 387
+        },
+        {
+          "caller": "scan_julia_object",
+          "callee": "obj.shift::<Address>",
+          "lineNumber": 388
+        },
+        {
+          "caller": "scan_julia_object",
+          "callee": "process_slot",
+          "lineNumber": 389
+        },
+        {
+          "caller": "scan_julia_object",
+          "callee": "obj8_begin.shift::<u8>",
+          "lineNumber": 390
+        },
+        {
+          "caller": "scan_julia_object",
+          "callee": "(*layout).fielddesc_type_custom",
+          "lineNumber": 392
+        },
+        {
+          "caller": "scan_julia_object",
+          "callee": "mmtk_jl_dt_layout_ptrs",
+          "lineNumber": 393
+        },
+        {
+          "caller": "scan_julia_object",
+          "callee": "obj16_begin.shift::<u16>",
+          "lineNumber": 394
+        },
+        {
+          "caller": "scan_julia_object",
+          "callee": "obj16_begin.load::<u16>",
+          "lineNumber": 397
+        },
+        {
+          "caller": "scan_julia_object",
+          "callee": "obj.shift::<Address>",
+          "lineNumber": 398
+        },
+        {
+          "caller": "scan_julia_object",
+          "callee": "process_slot",
+          "lineNumber": 399
+        },
+        {
+          "caller": "scan_julia_object",
+          "callee": "obj16_begin.shift::<u16>",
+          "lineNumber": 400
+        },
+        {
+          "caller": "scan_julia_object",
+          "callee": "(*layout).fielddesc_type_custom",
+          "lineNumber": 402
+        },
+        {
+          "caller": "scan_julia_object",
+          "callee": "mmtk_jl_dt_layout_ptrs",
+          "lineNumber": 403
+        },
+        {
+          "caller": "scan_julia_object",
+          "callee": "obj32_begin.shift::<u32>",
+          "lineNumber": 404
+        },
+        {
+          "caller": "scan_julia_object",
+          "callee": "obj32_begin.load::<u32>",
+          "lineNumber": 407
+        },
+        {
+          "caller": "scan_julia_object",
+          "callee": "obj.shift::<Address>",
+          "lineNumber": 408
+        },
+        {
+          "caller": "scan_julia_object",
+          "callee": "process_slot",
+          "lineNumber": 409
+        },
+        {
+          "caller": "scan_julia_object",
+          "callee": "obj32_begin.shift::<u32>",
+          "lineNumber": 410
+        },
+        {
+          "caller": "mmtk_jl_genericmemory_data_owner_field_address",
+          "callee": "jl_gc_get_owner_address_to_mmtk",
+          "lineNumber": 421
+        },
+        {
+          "caller": "mmtk_jl_genericmemory_data_owner_field_address",
+          "callee": "Address::from_ptr",
+          "lineNumber": 421
+        },
+        {
+          "caller": "mmtk_scan_gcstack",
+          "callee": "(*ta).ctx.copy_stack_custom",
+          "lineNumber": 439
+        },
+        {
+          "caller": "mmtk_scan_gcstack",
+          "callee": "stkbuf.is_null",
+          "lineNumber": 442
+        },
+        {
+          "caller": "mmtk_scan_gcstack",
+          "callee": "Address::from_ptr",
+          "lineNumber": 443
+        },
+        {
+          "caller": "mmtk_scan_gcstack",
+          "callee": "process_slot",
+          "lineNumber": 444
+        },
+        {
+          "caller": "mmtk_scan_gcstack",
+          "callee": "stkbuf.is_null",
+          "lineNumber": 451
+        },
+        {
+          "caller": "mmtk_scan_gcstack",
+          "callee": "(*ta).ptls.is_null",
+          "lineNumber": 451
+        },
+        {
+          "caller": "mmtk_scan_gcstack",
+          "callee": "jl_gc_get_stackbase",
+          "lineNumber": 455
+        },
+        {
+          "caller": "mmtk_scan_gcstack",
+          "callee": "(*ta).ctx.copy_stack",
+          "lineNumber": 457
+        },
+        {
+          "caller": "mmtk_scan_gcstack",
+          "callee": "s.is_null",
+          "lineNumber": 461
+        },
+        {
+          "caller": "mmtk_scan_gcstack",
+          "callee": "read_stack",
+          "lineNumber": 463
+        },
+        {
+          "caller": "mmtk_scan_gcstack",
+          "callee": "Address::from_ptr",
+          "lineNumber": 463
+        },
+        {
+          "caller": "mmtk_scan_gcstack",
+          "callee": "Address::from_mut_ptr(s).shift::<Address>",
+          "lineNumber": 468
+        },
+        {
+          "caller": "mmtk_scan_gcstack",
+          "callee": "Address::from_mut_ptr",
+          "lineNumber": 468
+        },
+        {
+          "caller": "mmtk_scan_gcstack",
+          "callee": "nroots.as_usize",
+          "lineNumber": 471
+        },
+        {
+          "caller": "mmtk_scan_gcstack",
+          "callee": "read_stack",
+          "lineNumber": 472
+        },
+        {
+          "caller": "mmtk_scan_gcstack",
+          "callee": "rts.shift::<Address>",
+          "lineNumber": 472
+        },
+        {
+          "caller": "mmtk_scan_gcstack",
+          "callee": "get_stack_addr",
+          "lineNumber": 473
+        },
+        {
+          "caller": "mmtk_scan_gcstack",
+          "callee": "process_slot",
+          "lineNumber": 474
+        },
+        {
+          "caller": "mmtk_scan_gcstack",
+          "callee": "get_stack_addr",
+          "lineNumber": 477
+        },
+        {
+          "caller": "mmtk_scan_gcstack",
+          "callee": "rts.shift::<Address>",
+          "lineNumber": 477
+        },
+        {
+          "caller": "mmtk_scan_gcstack",
+          "callee": "read_stack",
+          "lineNumber": 479
+        },
+        {
+          "caller": "mmtk_scan_gcstack",
+          "callee": "rts.shift::<Address>",
+          "lineNumber": 479
+        },
+        {
+          "caller": "mmtk_scan_gcstack",
+          "callee": "gc_ptr_tag",
+          "lineNumber": 489
+        },
+        {
+          "caller": "mmtk_scan_gcstack",
+          "callee": "process_offset_slot",
+          "lineNumber": 490
+        },
+        {
+          "caller": "mmtk_scan_gcstack",
+          "callee": "process_slot",
+          "lineNumber": 495
+        },
+        {
+          "caller": "mmtk_scan_gcstack",
+          "callee": "read_stack",
+          "lineNumber": 502
+        },
+        {
+          "caller": "mmtk_scan_gcstack",
+          "callee": "Address::from_ptr",
+          "lineNumber": 502
+        },
+        {
+          "caller": "mmtk_scan_gcstack",
+          "callee": "sprev.is_zero",
+          "lineNumber": 503
+        },
+        {
+          "caller": "mmtk_scan_gcstack",
+          "callee": "sprev.to_mut_ptr::<jl_gcframe_t>",
+          "lineNumber": 507
+        },
+        {
+          "caller": "mmtk_scan_gcstack",
+          "callee": "read_stack",
+          "lineNumber": 509
+        },
+        {
+          "caller": "mmtk_scan_gcstack",
+          "callee": "Address::from_ptr",
+          "lineNumber": 509
+        },
+        {
+          "caller": "mmtk_scan_gcstack",
+          "callee": "(*ta).excstack.is_null",
+          "lineNumber": 517
+        },
+        {
+          "caller": "mmtk_scan_gcstack",
+          "callee": "jl_gc_scan_julia_exc_obj",
+          "lineNumber": 518
+        },
+        {
+          "caller": "mmtk_scan_gcstack",
+          "callee": "Address::from_ptr",
+          "lineNumber": 519
+        },
+        {
+          "caller": "mmtk_scan_gcstack",
+          "callee": "Address::from_mut_ptr",
+          "lineNumber": 520
+        },
+        {
+          "caller": "read_stack",
+          "callee": "get_stack_addr",
+          "lineNumber": 528
+        },
+        {
+          "caller": "read_stack",
+          "callee": "real_addr.load::<Address>",
+          "lineNumber": 530
+        },
+        {
+          "caller": "get_stack_addr",
+          "callee": "addr.as_usize",
+          "lineNumber": 535
+        },
+        {
+          "caller": "get_stack_addr",
+          "callee": "addr.as_usize",
+          "lineNumber": 535
+        },
+        {
+          "caller": "process_slot",
+          "callee": "SimpleSlot::from_address",
+          "lineNumber": 544
+        },
+        {
+          "caller": "process_slot",
+          "callee": "simple_slot.load",
+          "lineNumber": 558
+        },
+        {
+          "caller": "process_slot",
+          "callee": "objref.to_raw_address().as_usize",
+          "lineNumber": 566
+        },
+        {
+          "caller": "process_slot",
+          "callee": "objref.to_raw_address",
+          "lineNumber": 566
+        },
+        {
+          "caller": "process_slot",
+          "callee": "closure.visit_slot",
+          "lineNumber": 578
+        },
+        {
+          "caller": "process_slot",
+          "callee": "JuliaVMSlot::Simple",
+          "lineNumber": 578
+        },
+        {
+          "caller": "process_offset_slot",
+          "callee": "OffsetSlot::new_with_offset",
+          "lineNumber": 587
+        },
+        {
+          "caller": "process_offset_slot",
+          "callee": "offset_slot.load",
+          "lineNumber": 592
+        },
+        {
+          "caller": "process_offset_slot",
+          "callee": "closure.visit_slot",
+          "lineNumber": 602
+        },
+        {
+          "caller": "process_offset_slot",
+          "callee": "JuliaVMSlot::Offset",
+          "lineNumber": 602
+        },
+        {
+          "caller": "mmtk_jl_svec_len",
+          "callee": "obj.to_ptr::<jl_svec_t>",
+          "lineNumber": 616
+        },
+        {
+          "caller": "mmtk_jl_svec_data",
+          "callee": "std::mem::size_of::<crate::julia_scanning::jl_svec_t>",
+          "lineNumber": 621
+        },
+        {
+          "caller": "mmtk_jl_tparam0",
+          "callee": "mmtk_jl_svecref",
+          "lineNumber": 626
+        },
+        {
+          "caller": "mmtk_jl_svecref",
+          "callee": "mmtk_jl_svec_data",
+          "lineNumber": 637
+        },
+        {
+          "caller": "mmtk_jl_svecref",
+          "callee": "Address::from_mut_ptr",
+          "lineNumber": 637
+        },
+        {
+          "caller": "mmtk_jl_svecref",
+          "callee": "result_ptr.atomic_load::<AtomicUsize>",
+          "lineNumber": 639
+        },
+        {
+          "caller": "mmtk_jl_dt_layout_ptrs",
+          "callee": "mmtk_jl_dt_layout_fields",
+          "lineNumber": 645
+        },
+        {
+          "caller": "mmtk_jl_dt_layout_ptrs",
+          "callee": "mmtk_jl_fielddesc_size",
+          "lineNumber": 646
+        },
+        {
+          "caller": "mmtk_jl_dt_layout_ptrs",
+          "callee": "(*l).fielddesc_type_custom",
+          "lineNumber": 646
+        },
+        {
+          "caller": "mmtk_jl_dt_layout_fields",
+          "callee": "Address::from_ptr",
+          "lineNumber": 651
+        },
+        {
+          "caller": "mmtk_jl_dt_layout_fields",
+          "callee": "std::mem::size_of::<jl_datatype_layout_t>",
+          "lineNumber": 651
+        },
+        {
+          "caller": "mmtk_jl_bt_entry_size",
+          "callee": "mmtk_jl_bt_is_native",
+          "lineNumber": 668
+        },
+        {
+          "caller": "mmtk_jl_bt_entry_size",
+          "callee": "mmtk_jl_bt_num_jlvals",
+          "lineNumber": 671
+        },
+        {
+          "caller": "mmtk_jl_bt_entry_size",
+          "callee": "mmtk_jl_bt_num_uintvals",
+          "lineNumber": 671
+        },
+        {
+          "caller": "mmtk_jl_bt_num_jlvals",
+          "callee": "bt_entry.add",
+          "lineNumber": 677
+        },
+        {
+          "caller": "mmtk_jl_bt_num_uintvals",
+          "callee": "bt_entry.add",
+          "lineNumber": 683
+        },
+        {
+          "caller": "mmtk_jl_bt_entry_jlvalue",
+          "callee": "bt_entry.add",
+          "lineNumber": 691
+        },
+        {
+          "caller": "mmtk_jl_bt_entry_jlvalue",
+          "callee": "ObjectReference::from_raw_address_unchecked",
+          "lineNumber": 693
+        },
+        {
+          "caller": "mmtk_jl_bt_entry_jlvalue",
+          "callee": "Address::from_mut_ptr",
+          "lineNumber": 693
+        }
+      ],
+      "metrics": {
+        "importCount": 2,
+        "exportCount": 20,
+        "functionCount": 23,
+        "classCount": 0
+      }
+    },
+    {
+      "path": "src/gc-mmtk/mmtk_julia/src/lib.rs",
+      "language": "rust",
+      "fileCategory": "code",
+      "totalLines": 176,
+      "nonEmptyLines": 154,
+      "functions": [
+        {
+          "name": "set_panic_hook",
+          "startLine": 144,
+          "endLine": 176,
+          "params": []
+        }
+      ],
+      "classes": [
+        {
+          "name": "JuliaVM",
+          "startLine": 42,
+          "endLine": 42,
+          "methods": [],
+          "properties": []
+        },
+        {
+          "name": "SavedErrno",
+          "startLine": 106,
+          "endLine": 109,
+          "methods": [],
+          "properties": [
+            "saved_errno",
+            "saved_last_error"
+          ]
+        }
+      ],
+      "exports": [
+        {
+          "name": "JuliaVM",
+          "line": 42,
+          "isDefault": false
+        },
+        {
+          "name": "SavedErrno",
+          "line": 106,
+          "isDefault": false
+        },
+        {
+          "name": "set_panic_hook",
+          "line": 144,
+          "isDefault": false
+        }
+      ],
+      "callGraph": [
+        {
+          "caller": "set_panic_hook",
+          "callee": "std::panic::take_hook",
+          "lineNumber": 145
+        },
+        {
+          "caller": "set_panic_hook",
+          "callee": "std::panic::set_hook",
+          "lineNumber": 147
+        },
+        {
+          "caller": "set_panic_hook",
+          "callee": "Box::new",
+          "lineNumber": 147
+        },
+        {
+          "caller": "set_panic_hook",
+          "callee": "crate::collection::is_gc_thread",
+          "lineNumber": 148
+        },
+        {
+          "caller": "set_panic_hook",
+          "callee": "std::backtrace::Backtrace::capture",
+          "lineNumber": 152
+        },
+        {
+          "caller": "set_panic_hook",
+          "callee": "bt.status",
+          "lineNumber": 153
+        },
+        {
+          "caller": "set_panic_hook",
+          "callee": "std::process::abort",
+          "lineNumber": 171
+        },
+        {
+          "caller": "set_panic_hook",
+          "callee": "old_hook",
+          "lineNumber": 173
+        }
+      ],
+      "metrics": {
+        "importCount": 12,
+        "exportCount": 3,
+        "functionCount": 1,
+        "classCount": 2
+      }
+    },
+    {
+      "path": "src/gc-mmtk/mmtk_julia/src/object_model.rs",
+      "language": "rust",
+      "fileCategory": "code",
+      "totalLines": 394,
+      "nonEmptyLines": 332,
+      "functions": [
+        {
+          "name": "copy",
+          "startLine": 66,
+          "endLine": 73,
+          "params": [
+            "from",
+            "semantics",
+            "copy_context"
+          ]
+        },
+        {
+          "name": "try_copy",
+          "startLine": 75,
+          "endLine": 81,
+          "params": [
+            "from",
+            "semantics",
+            "copy_context"
+          ]
+        },
+        {
+          "name": "copy_to",
+          "startLine": 83,
+          "endLine": 85,
+          "params": [
+            "_from",
+            "_to",
+            "_region"
+          ]
+        },
+        {
+          "name": "get_current_size",
+          "startLine": 87,
+          "endLine": 92,
+          "params": [
+            "object"
+          ]
+        },
+        {
+          "name": "get_size_when_copied",
+          "startLine": 94,
+          "endLine": 96,
+          "params": [
+            "_object"
+          ]
+        },
+        {
+          "name": "get_align_when_copied",
+          "startLine": 98,
+          "endLine": 100,
+          "params": [
+            "_object"
+          ]
+        },
+        {
+          "name": "get_align_offset_when_copied",
+          "startLine": 102,
+          "endLine": 104,
+          "params": [
+            "_object"
+          ]
+        },
+        {
+          "name": "get_reference_when_copied_to",
+          "startLine": 106,
+          "endLine": 108,
+          "params": [
+            "_from",
+            "_to"
+          ]
+        },
+        {
+          "name": "get_type_descriptor",
+          "startLine": 110,
+          "endLine": 112,
+          "params": [
+            "_reference"
+          ]
+        },
+        {
+          "name": "ref_to_object_start",
+          "startLine": 115,
+          "endLine": 121,
+          "params": [
+            "object"
+          ]
+        },
+        {
+          "name": "ref_to_header",
+          "startLine": 124,
+          "endLine": 126,
+          "params": [
+            "object"
+          ]
+        },
+        {
+          "name": "dump_object",
+          "startLine": 128,
+          "endLine": 130,
+          "params": [
+            "_object"
+          ]
+        },
+        {
+          "name": "julia_copy",
+          "startLine": 136,
+          "endLine": 197,
+          "params": [
+            "from",
+            "semantics",
+            "copy_context"
+          ]
+        },
+        {
+          "name": "is_object_in_los",
+          "startLine": 201,
+          "endLine": 205,
+          "params": [
+            "object"
+          ]
+        },
+        {
+          "name": "get_so_object_size",
+          "startLine": 209,
+          "endLine": 351,
+          "params": [
+            "object"
+          ]
+        },
+        {
+          "name": "get_object_start_ref",
+          "startLine": 354,
+          "endLine": 363,
+          "params": [
+            "object"
+          ]
+        },
+        {
+          "name": "llt_align",
+          "startLine": 366,
+          "endLine": 368,
+          "params": [
+            "size",
+            "align"
+          ]
+        },
+        {
+          "name": "mmtk_jl_is_uniontype",
+          "startLine": 371,
+          "endLine": 374,
+          "params": [
+            "t"
+          ]
+        },
+        {
+          "name": "is_small_typeof_tag_with_no_pointer",
+          "startLine": 377,
+          "endLine": 394,
+          "params": [
+            "vtag"
+          ]
+        }
+      ],
+      "classes": [
+        {
+          "name": "VMObjectModel",
+          "startLine": 15,
+          "endLine": 15,
+          "methods": [
+            "copy",
+            "try_copy",
+            "copy_to",
+            "get_current_size",
+            "get_size_when_copied",
+            "get_align_when_copied",
+            "get_align_offset_when_copied",
+            "get_reference_when_copied_to",
+            "get_type_descriptor",
+            "ref_to_object_start",
+            "ref_to_header",
+            "dump_object",
+            "julia_copy"
+          ],
+          "properties": []
+        }
+      ],
+      "exports": [
+        {
+          "name": "VMObjectModel",
+          "line": 15,
+          "isDefault": false
+        },
+        {
+          "name": "is_object_in_los",
+          "line": 201,
+          "isDefault": false
+        },
+        {
+          "name": "get_so_object_size",
+          "line": 209,
+          "isDefault": false
+        },
+        {
+          "name": "get_object_start_ref",
+          "line": 354,
+          "isDefault": false
+        },
+        {
+          "name": "llt_align",
+          "line": 366,
+          "isDefault": false
+        },
+        {
+          "name": "mmtk_jl_is_uniontype",
+          "line": 371,
+          "isDefault": false
+        },
+        {
+          "name": "is_small_typeof_tag_with_no_pointer",
+          "line": 377,
+          "isDefault": false
+        }
+      ],
+      "callGraph": [
+        {
+          "caller": "copy",
+          "callee": "Self::julia_copy(from, semantics, copy_context).unwrap",
+          "lineNumber": 72
+        },
+        {
+          "caller": "copy",
+          "callee": "Self::julia_copy",
+          "lineNumber": 72
+        },
+        {
+          "caller": "try_copy",
+          "callee": "Self::julia_copy",
+          "lineNumber": 80
+        },
+        {
+          "caller": "get_current_size",
+          "callee": "get_so_object_size",
+          "lineNumber": 91
+        },
+        {
+          "caller": "ref_to_object_start",
+          "callee": "is_object_in_los",
+          "lineNumber": 116
+        },
+        {
+          "caller": "ref_to_object_start",
+          "callee": "object.to_raw_address",
+          "lineNumber": 117
+        },
+        {
+          "caller": "ref_to_object_start",
+          "callee": "get_object_start_ref",
+          "lineNumber": 119
+        },
+        {
+          "caller": "ref_to_header",
+          "callee": "object.to_raw_address",
+          "lineNumber": 125
+        },
+        {
+          "caller": "julia_copy",
+          "callee": "Self::get_current_size",
+          "lineNumber": 143
+        },
+        {
+          "caller": "julia_copy",
+          "callee": "from.to_raw_address",
+          "lineNumber": 144
+        },
+        {
+          "caller": "julia_copy",
+          "callee": "Self::ref_to_object_start",
+          "lineNumber": 145
+        },
+        {
+          "caller": "julia_copy",
+          "callee": "copy_context.alloc_copy",
+          "lineNumber": 151
+        },
+        {
+          "caller": "julia_copy",
+          "callee": "dst.is_zero",
+          "lineNumber": 158
+        },
+        {
+          "caller": "julia_copy",
+          "callee": "std::ptr::copy_nonoverlapping::<u8>",
+          "lineNumber": 164
+        },
+        {
+          "caller": "julia_copy",
+          "callee": "src.to_ptr",
+          "lineNumber": 164
+        },
+        {
+          "caller": "julia_copy",
+          "callee": "dst.to_mut_ptr",
+          "lineNumber": 164
+        },
+        {
+          "caller": "julia_copy",
+          "callee": "ObjectReference::from_raw_address_unchecked",
+          "lineNumber": 166
+        },
+        {
+          "caller": "julia_copy",
+          "callee": "copy_context.post_copy",
+          "lineNumber": 168
+        },
+        {
+          "caller": "julia_copy",
+          "callee": "mmtk_jl_typeof",
+          "lineNumber": 173
+        },
+        {
+          "caller": "julia_copy",
+          "callee": "from.to_raw_address",
+          "lineNumber": 173
+        },
+        {
+          "caller": "julia_copy",
+          "callee": "jl_gc_update_inlined_array",
+          "lineNumber": 176
+        },
+        {
+          "caller": "julia_copy",
+          "callee": "from.to_raw_address",
+          "lineNumber": 176
+        },
+        {
+          "caller": "julia_copy",
+          "callee": "to_obj.to_raw_address",
+          "lineNumber": 176
+        },
+        {
+          "caller": "julia_copy",
+          "callee": "libc::memset",
+          "lineNumber": 185
+        },
+        {
+          "caller": "julia_copy",
+          "callee": "from_start.to_mut_ptr",
+          "lineNumber": 185
+        },
+        {
+          "caller": "julia_copy",
+          "callee": "Self::LOCAL_FORWARDING_BITS_SPEC.store_atomic::<JuliaVM, u8>",
+          "lineNumber": 188
+        },
+        {
+          "caller": "julia_copy",
+          "callee": "Some",
+          "lineNumber": 196
+        },
+        {
+          "caller": "is_object_in_los",
+          "callee": "(*object).to_raw_address().as_usize",
+          "lineNumber": 203
+        },
+        {
+          "caller": "is_object_in_los",
+          "callee": "(*object).to_raw_address",
+          "lineNumber": 203
+        },
+        {
+          "caller": "is_object_in_los",
+          "callee": "(*object).to_raw_address().as_usize",
+          "lineNumber": 204
+        },
+        {
+          "caller": "is_object_in_los",
+          "callee": "(*object).to_raw_address",
+          "lineNumber": 204
+        },
+        {
+          "caller": "get_so_object_size",
+          "callee": "object.to_raw_address",
+          "lineNumber": 210
+        },
+        {
+          "caller": "get_so_object_size",
+          "callee": "mmtk_jl_typetagof",
+          "lineNumber": 211
+        },
+        {
+          "caller": "get_so_object_size",
+          "callee": "vtag.as_usize",
+          "lineNumber": 212
+        },
+        {
+          "caller": "get_so_object_size",
+          "callee": "mmtk_get_obj_size",
+          "lineNumber": 215
+        },
+        {
+          "caller": "get_so_object_size",
+          "callee": "is_small_typeof_tag_with_no_pointer",
+          "lineNumber": 218
+        },
+        {
+          "caller": "get_so_object_size",
+          "callee": "vtag.as_usize",
+          "lineNumber": 221
+        },
+        {
+          "caller": "get_so_object_size",
+          "callee": "std::mem::size_of::<Address>",
+          "lineNumber": 221
+        },
+        {
+          "caller": "get_so_object_size",
+          "callee": "Address::from_usize",
+          "lineNumber": 222
+        },
+        {
+          "caller": "get_so_object_size",
+          "callee": "obj_address.to_ptr::<jl_svec_t>",
+          "lineNumber": 225
+        },
+        {
+          "caller": "get_so_object_size",
+          "callee": "std::mem::size_of::<Address>",
+          "lineNumber": 226
+        },
+        {
+          "caller": "get_so_object_size",
+          "callee": "std::mem::size_of::<jl_svec_t>",
+          "lineNumber": 226
+        },
+        {
+          "caller": "get_so_object_size",
+          "callee": "llt_align",
+          "lineNumber": 234
+        },
+        {
+          "caller": "get_so_object_size",
+          "callee": "std::mem::size_of::<jl_module_t>",
+          "lineNumber": 236
+        },
+        {
+          "caller": "get_so_object_size",
+          "callee": "llt_align",
+          "lineNumber": 243
+        },
+        {
+          "caller": "get_so_object_size",
+          "callee": "std::mem::size_of::<jl_task_t>",
+          "lineNumber": 245
+        },
+        {
+          "caller": "get_so_object_size",
+          "callee": "llt_align",
+          "lineNumber": 252
+        },
+        {
+          "caller": "get_so_object_size",
+          "callee": "obj_address.to_ptr::<jl_cancel_source_t>",
+          "lineNumber": 256
+        },
+        {
+          "caller": "get_so_object_size",
+          "callee": "std::mem::size_of::<jl_cancel_source_t>",
+          "lineNumber": 258
+        },
+        {
+          "caller": "get_so_object_size",
+          "callee": "std::mem::size_of::<jl_cancel_parent_link_t>",
+          "lineNumber": 259
+        },
+        {
+          "caller": "get_so_object_size",
+          "callee": "llt_align",
+          "lineNumber": 266
+        },
+        {
+          "caller": "get_so_object_size",
+          "callee": "obj_address.to_ptr::<jl_wait_entry_t>",
+          "lineNumber": 270
+        },
+        {
+          "caller": "get_so_object_size",
+          "callee": "std::mem::size_of::<jl_wait_entry_t>",
+          "lineNumber": 273
+        },
+        {
+          "caller": "get_so_object_size",
+          "callee": "std::mem::size_of::<jl_wait_slot_t>",
+          "lineNumber": 273
+        },
+        {
+          "caller": "get_so_object_size",
+          "callee": "llt_align",
+          "lineNumber": 275
+        },
+        {
+          "caller": "get_so_object_size",
+          "callee": "object.to_raw_address().load::<usize>",
+          "lineNumber": 277
+        },
+        {
+          "caller": "get_so_object_size",
+          "callee": "object.to_raw_address",
+          "lineNumber": 277
+        },
+        {
+          "caller": "get_so_object_size",
+          "callee": "std::mem::size_of::<usize>",
+          "lineNumber": 278
+        },
+        {
+          "caller": "get_so_object_size",
+          "callee": "llt_align",
+          "lineNumber": 287
+        },
+        {
+          "caller": "get_so_object_size",
+          "callee": "std::mem::size_of::<Address>",
+          "lineNumber": 289
+        },
+        {
+          "caller": "get_so_object_size",
+          "callee": "llt_align",
+          "lineNumber": 298
+        },
+        {
+          "caller": "get_so_object_size",
+          "callee": "vtag.to_ptr::<jl_datatype_t>",
+          "lineNumber": 301
+        },
+        {
+          "caller": "get_so_object_size",
+          "callee": "mmtk_jl_typetagof",
+          "lineNumber": 302
+        },
+        {
+          "caller": "get_so_object_size",
+          "callee": "type_tag.as_usize",
+          "lineNumber": 304
+        },
+        {
+          "caller": "get_so_object_size",
+          "callee": "(*vt).smalltag",
+          "lineNumber": 305
+        },
+        {
+          "caller": "get_so_object_size",
+          "callee": "mmtk_jl_typeof",
+          "lineNumber": 316
+        },
+        {
+          "caller": "get_so_object_size",
+          "callee": "vtag.to_ptr::<jl_datatype_t>",
+          "lineNumber": 317
+        },
+        {
+          "caller": "get_so_object_size",
+          "callee": "obj_address.to_ptr::<jl_genericmemory_t>",
+          "lineNumber": 321
+        },
+        {
+          "caller": "get_so_object_size",
+          "callee": "jl_gc_genericmemory_how",
+          "lineNumber": 322
+        },
+        {
+          "caller": "get_so_object_size",
+          "callee": "mmtk_jl_typetagof(obj_address).to_ptr::<jl_datatype_t>",
+          "lineNumber": 324
+        },
+        {
+          "caller": "get_so_object_size",
+          "callee": "mmtk_jl_typetagof",
+          "lineNumber": 324
+        },
+        {
+          "caller": "get_so_object_size",
+          "callee": "(*layout).flags.arrayelem_isunion",
+          "lineNumber": 326
+        },
+        {
+          "caller": "get_so_object_size",
+          "callee": "llt_align",
+          "lineNumber": 330
+        },
+        {
+          "caller": "get_so_object_size",
+          "callee": "std::mem::size_of::<jl_genericmemory_t>",
+          "lineNumber": 330
+        },
+        {
+          "caller": "get_so_object_size",
+          "callee": "llt_align",
+          "lineNumber": 331
+        },
+        {
+          "caller": "get_so_object_size",
+          "callee": "std::mem::size_of::<jl_genericmemory_t>",
+          "lineNumber": 333
+        },
+        {
+          "caller": "get_so_object_size",
+          "callee": "std::mem::size_of::<Address>",
+          "lineNumber": 333
+        },
+        {
+          "caller": "get_so_object_size",
+          "callee": "llt_align",
+          "lineNumber": 334
+        },
+        {
+          "caller": "get_so_object_size",
+          "callee": "llt_align",
+          "lineNumber": 350
+        },
+        {
+          "caller": "get_object_start_ref",
+          "callee": "object.to_raw_address",
+          "lineNumber": 355
+        },
+        {
+          "caller": "get_object_start_ref",
+          "callee": "mmtk_jl_typeof",
+          "lineNumber": 356
+        },
+        {
+          "caller": "mmtk_jl_is_uniontype",
+          "callee": "mmtk_jl_typetagof(Address::from_ptr(t)).as_usize",
+          "lineNumber": 372
+        },
+        {
+          "caller": "mmtk_jl_is_uniontype",
+          "callee": "mmtk_jl_typetagof",
+          "lineNumber": 372
+        },
+        {
+          "caller": "mmtk_jl_is_uniontype",
+          "callee": "Address::from_ptr",
+          "lineNumber": 372
+        }
+      ],
+      "metrics": {
+        "importCount": 2,
+        "exportCount": 7,
+        "functionCount": 19,
+        "classCount": 1
+      }
+    },
+    {
+      "path": "src/gc-mmtk/mmtk_julia/src/reference_glue.rs",
+      "language": "rust",
+      "fileCategory": "code",
+      "totalLines": 80,
+      "nonEmptyLines": 69,
+      "functions": [
+        {
+          "name": "get_reference",
+          "startLine": 18,
+          "endLine": 20,
+          "params": []
+        },
+        {
+          "name": "set_reference",
+          "startLine": 22,
+          "endLine": 24,
+          "params": [
+            "object"
+          ]
+        },
+        {
+          "name": "keep_alive",
+          "startLine": 25,
+          "endLine": 33,
+          "params": [
+            "trace"
+          ]
+        },
+        {
+          "name": "load_referent_raw",
+          "startLine": 39,
+          "endLine": 42,
+          "params": [
+            "reference"
+          ]
+        },
+        {
+          "name": "set_referent_raw",
+          "startLine": 44,
+          "endLine": 49,
+          "params": [
+            "reference",
+            "referent_raw"
+          ]
+        },
+        {
+          "name": "set_referent",
+          "startLine": 55,
+          "endLine": 57,
+          "params": [
+            "reference",
+            "referent"
+          ]
+        },
+        {
+          "name": "clear_referent",
+          "startLine": 59,
+          "endLine": 61,
+          "params": [
+            "new_reference"
+          ]
+        },
+        {
+          "name": "get_referent",
+          "startLine": 63,
+          "endLine": 77,
+          "params": [
+            "object"
+          ]
+        },
+        {
+          "name": "enqueue_references",
+          "startLine": 79,
+          "endLine": 79,
+          "params": [
+            "_references",
+            "_tls"
+          ]
+        }
+      ],
+      "classes": [
+        {
+          "name": "JuliaFinalizableObject",
+          "startLine": 14,
+          "endLine": 14,
+          "methods": [
+            "get_reference",
+            "set_reference",
+            "keep_alive"
+          ],
+          "properties": []
+        },
+        {
+          "name": "VMReferenceGlue",
+          "startLine": 36,
+          "endLine": 36,
+          "methods": [
+            "load_referent_raw",
+            "set_referent_raw",
+            "set_referent",
+            "clear_referent",
+            "get_referent",
+            "enqueue_references"
+          ],
+          "properties": []
+        }
+      ],
+      "exports": [
+        {
+          "name": "JuliaFinalizableObject",
+          "line": 14,
+          "isDefault": false
+        },
+        {
+          "name": "VMReferenceGlue",
+          "line": 36,
+          "isDefault": false
+        }
+      ],
+      "callGraph": [
+        {
+          "caller": "keep_alive",
+          "callee": "self.set_reference",
+          "lineNumber": 26
+        },
+        {
+          "caller": "keep_alive",
+          "callee": "trace.trace_object",
+          "lineNumber": 26
+        },
+        {
+          "caller": "keep_alive",
+          "callee": "self.get_reference",
+          "lineNumber": 26
+        },
+        {
+          "caller": "keep_alive",
+          "callee": "ObjectReference::from_raw_address_unchecked",
+          "lineNumber": 30
+        },
+        {
+          "caller": "keep_alive",
+          "callee": "trace.trace_object",
+          "lineNumber": 31
+        },
+        {
+          "caller": "load_referent_raw",
+          "callee": "reference.to_raw_address().to_ptr::<jl_weakref_t>",
+          "lineNumber": 40
+        },
+        {
+          "caller": "load_referent_raw",
+          "callee": "reference.to_raw_address",
+          "lineNumber": 40
+        },
+        {
+          "caller": "set_referent_raw",
+          "callee": "reference.to_raw_address().to_mut_ptr::<jl_weakref_t>",
+          "lineNumber": 45
+        },
+        {
+          "caller": "set_referent_raw",
+          "callee": "reference.to_raw_address",
+          "lineNumber": 45
+        },
+        {
+          "caller": "set_referent",
+          "callee": "Self::set_referent_raw",
+          "lineNumber": 56
+        },
+        {
+          "caller": "set_referent",
+          "callee": "referent.to_raw_address().to_mut_ptr",
+          "lineNumber": 56
+        },
+        {
+          "caller": "set_referent",
+          "callee": "referent.to_raw_address",
+          "lineNumber": 56
+        },
+        {
+          "caller": "clear_referent",
+          "callee": "Self::set_referent_raw",
+          "lineNumber": 60
+        },
+        {
+          "caller": "get_referent",
+          "callee": "Self::load_referent_raw",
+          "lineNumber": 64
+        },
+        {
+          "caller": "get_referent",
+          "callee": "ObjectReference::from_raw_address_unchecked",
+          "lineNumber": 74
+        },
+        {
+          "caller": "get_referent",
+          "callee": "Address::from_ptr",
+          "lineNumber": 74
+        },
+        {
+          "caller": "get_referent",
+          "callee": "Some",
+          "lineNumber": 75
+        }
+      ],
+      "metrics": {
+        "importCount": 0,
+        "exportCount": 2,
+        "functionCount": 9,
+        "classCount": 2
+      }
+    },
+    {
+      "path": "src/gc-mmtk/mmtk_julia/src/scanning.rs",
+      "language": "rust",
+      "fileCategory": "code",
+      "totalLines": 393,
+      "nonEmptyLines": 344,
+      "functions": [
+        {
+          "name": "visit_slot",
+          "startLine": 33,
+          "endLine": 46,
+          "params": [
+            "slot"
+          ]
+        },
+        {
+          "name": "scan_roots_in_mutator_thread",
+          "startLine": 57,
+          "endLine": 184,
+          "params": [
+            "_tls",
+            "mutator",
+            "factory"
+          ]
+        },
+        {
+          "name": "scan_vm_specific_roots",
+          "startLine": 186,
+          "endLine": 195,
+          "params": [
+            "_tls",
+            "factory"
+          ]
+        },
+        {
+          "name": "scan_object",
+          "startLine": 197,
+          "endLine": 203,
+          "params": [
+            "_tls",
+            "object",
+            "slot_visitor"
+          ]
+        },
+        {
+          "name": "notify_initial_thread_scan_complete",
+          "startLine": 205,
+          "endLine": 205,
+          "params": [
+            "_partial_scan",
+            "_tls"
+          ]
+        },
+        {
+          "name": "supports_return_barrier",
+          "startLine": 207,
+          "endLine": 209,
+          "params": []
+        },
+        {
+          "name": "prepare_for_roots_re_scanning",
+          "startLine": 211,
+          "endLine": 213,
+          "params": []
+        },
+        {
+          "name": "process_weak_refs",
+          "startLine": 215,
+          "endLine": 238,
+          "params": [
+            "_worker",
+            "tracer_context"
+          ]
+        },
+        {
+          "name": "process_object",
+          "startLine": 241,
+          "endLine": 246,
+          "params": [
+            "object",
+            "closure"
+          ]
+        },
+        {
+          "name": "new",
+          "startLine": 254,
+          "endLine": 256,
+          "params": []
+        },
+        {
+          "name": "default",
+          "startLine": 260,
+          "endLine": 262,
+          "params": []
+        },
+        {
+          "name": "do_work",
+          "startLine": 266,
+          "endLine": 272,
+          "params": [
+            "_worker",
+            "_mmtk"
+          ]
+        },
+        {
+          "name": "do_work",
+          "startLine": 280,
+          "endLine": 284,
+          "params": [
+            "worker",
+            "_mmtk"
+          ]
+        },
+        {
+          "name": "new",
+          "startLine": 295,
+          "endLine": 300,
+          "params": []
+        },
+        {
+          "name": "get_task_scan_lock",
+          "startLine": 302,
+          "endLine": 307,
+          "params": [
+            "task_key"
+          ]
+        },
+        {
+          "name": "get_snapshot",
+          "startLine": 309,
+          "endLine": 315,
+          "params": [
+            "task"
+          ]
+        },
+        {
+          "name": "mark_pause_scanned",
+          "startLine": 322,
+          "endLine": 327,
+          "params": [
+            "task"
+          ]
+        },
+        {
+          "name": "gc_thread_scan_stack",
+          "startLine": 330,
+          "endLine": 362,
+          "params": [
+            "task"
+          ]
+        },
+        {
+          "name": "resume_barrier_scan_task",
+          "startLine": 364,
+          "endLine": 374,
+          "params": [
+            "task"
+          ]
+        },
+        {
+          "name": "capture_snapshot",
+          "startLine": 376,
+          "endLine": 387,
+          "params": [
+            "task"
+          ]
+        },
+        {
+          "name": "clear_snapshots",
+          "startLine": 389,
+          "endLine": 392,
+          "params": []
+        }
+      ],
+      "classes": [
+        {
+          "name": "StackRootBuffer",
+          "startLine": 28,
+          "endLine": 30,
+          "methods": [
+            "visit_slot"
+          ],
+          "properties": [
+            "buffer"
+          ]
+        },
+        {
+          "name": "VMScanning",
+          "startLine": 54,
+          "endLine": 54,
+          "methods": [
+            "scan_roots_in_mutator_thread",
+            "scan_vm_specific_roots",
+            "scan_object",
+            "notify_initial_thread_scan_complete",
+            "supports_return_barrier",
+            "prepare_for_roots_re_scanning",
+            "process_weak_refs"
+          ],
+          "properties": []
+        },
+        {
+          "name": "SweepVMSpecific",
+          "startLine": 249,
+          "endLine": 251,
+          "methods": [
+            "new",
+            "default",
+            "do_work"
+          ],
+          "properties": [
+            "swept"
+          ]
+        },
+        {
+          "name": "ScanFinalizersSingleThreaded",
+          "startLine": 275,
+          "endLine": 277,
+          "methods": [],
+          "properties": [
+            "tracer_context"
+          ]
+        },
+        {
+          "name": "GCStackSnapshots",
+          "startLine": 288,
+          "endLine": 291,
+          "methods": [
+            "new",
+            "get_task_scan_lock",
+            "get_snapshot",
+            "mark_pause_scanned",
+            "gc_thread_scan_stack",
+            "resume_barrier_scan_task",
+            "capture_snapshot",
+            "clear_snapshots"
+          ],
+          "properties": [
+            "snapshots",
+            "task_scan_locks"
+          ]
+        }
+      ],
+      "exports": [
+        {
+          "name": "StackRootBuffer",
+          "line": 28,
+          "isDefault": false
+        },
+        {
+          "name": "VMScanning",
+          "line": 54,
+          "isDefault": false
+        },
+        {
+          "name": "process_object",
+          "line": 241,
+          "isDefault": false
+        },
+        {
+          "name": "SweepVMSpecific",
+          "line": 249,
+          "isDefault": false
+        },
+        {
+          "name": "new",
+          "line": 254,
+          "isDefault": false
+        },
+        {
+          "name": "ScanFinalizersSingleThreaded",
+          "line": 275,
+          "isDefault": false
+        },
+        {
+          "name": "GCStackSnapshots",
+          "line": 288,
+          "isDefault": false
+        },
+        {
+          "name": "mark_pause_scanned",
+          "line": 322,
+          "isDefault": false
+        },
+        {
+          "name": "gc_thread_scan_stack",
+          "line": 330,
+          "isDefault": false
+        },
+        {
+          "name": "resume_barrier_scan_task",
+          "line": 364,
+          "isDefault": false
+        },
+        {
+          "name": "clear_snapshots",
+          "line": 389,
+          "isDefault": false
+        }
+      ],
+      "callGraph": [
+        {
+          "caller": "visit_slot",
+          "callee": "se.load",
+          "lineNumber": 36
+        },
+        {
+          "caller": "visit_slot",
+          "callee": "self.buffer.push",
+          "lineNumber": 37
+        },
+        {
+          "caller": "visit_slot",
+          "callee": "oe.load",
+          "lineNumber": 41
+        },
+        {
+          "caller": "visit_slot",
+          "callee": "self.buffer.push",
+          "lineNumber": 42
+        },
+        {
+          "caller": "scan_roots_in_mutator_thread",
+          "callee": "std::mem::transmute",
+          "lineNumber": 66
+        },
+        {
+          "caller": "scan_roots_in_mutator_thread",
+          "callee": "task.is_null",
+          "lineNumber": 72
+        },
+        {
+          "caller": "scan_roots_in_mutator_thread",
+          "callee": "crate::julia_scanning::mmtk_scan_gcstack",
+          "lineNumber": 74
+        },
+        {
+          "caller": "scan_roots_in_mutator_thread",
+          "callee": "GC_STACK_SNAPSHOTS.mark_pause_scanned",
+          "lineNumber": 82
+        },
+        {
+          "caller": "scan_roots_in_mutator_thread",
+          "callee": "ObjectReference::from_raw_address_unchecked",
+          "lineNumber": 95
+        },
+        {
+          "caller": "scan_roots_in_mutator_thread",
+          "callee": "Address::from_ptr",
+          "lineNumber": 95
+        },
+        {
+          "caller": "scan_roots_in_mutator_thread",
+          "callee": "node_buffer.push",
+          "lineNumber": 97
+        },
+        {
+          "caller": "scan_roots_in_mutator_thread",
+          "callee": "root_scan_task",
+          "lineNumber": 101
+        },
+        {
+          "caller": "scan_roots_in_mutator_thread",
+          "callee": "Address::from_ptr",
+          "lineNumber": 107
+        },
+        {
+          "caller": "scan_roots_in_mutator_thread",
+          "callee": "task_address.shift::<Address>",
+          "lineNumber": 108
+        },
+        {
+          "caller": "scan_roots_in_mutator_thread",
+          "callee": "task_address.load::<*const jl_task_t>",
+          "lineNumber": 109
+        },
+        {
+          "caller": "scan_roots_in_mutator_thread",
+          "callee": "root_scan_task",
+          "lineNumber": 110
+        },
+        {
+          "caller": "scan_roots_in_mutator_thread",
+          "callee": "root_scan_task",
+          "lineNumber": 114
+        },
+        {
+          "caller": "scan_roots_in_mutator_thread",
+          "callee": "root_scan_task",
+          "lineNumber": 115
+        },
+        {
+          "caller": "scan_roots_in_mutator_thread",
+          "callee": "root_scan_task",
+          "lineNumber": 116
+        },
+        {
+          "caller": "scan_roots_in_mutator_thread",
+          "callee": "root_scan_task",
+          "lineNumber": 117
+        },
+        {
+          "caller": "scan_roots_in_mutator_thread",
+          "callee": "root_scan_task",
+          "lineNumber": 118
+        },
+        {
+          "caller": "scan_roots_in_mutator_thread",
+          "callee": "ptls.abandon_result.is_null",
+          "lineNumber": 119
+        },
+        {
+          "caller": "scan_roots_in_mutator_thread",
+          "callee": "node_buffer.push",
+          "lineNumber": 120
+        },
+        {
+          "caller": "scan_roots_in_mutator_thread",
+          "callee": "ObjectReference::from_raw_address_unchecked",
+          "lineNumber": 122
+        },
+        {
+          "caller": "scan_roots_in_mutator_thread",
+          "callee": "Address::from_mut_ptr",
+          "lineNumber": 122
+        },
+        {
+          "caller": "scan_roots_in_mutator_thread",
+          "callee": "ptls.previous_exception.is_null",
+          "lineNumber": 127
+        },
+        {
+          "caller": "scan_roots_in_mutator_thread",
+          "callee": "node_buffer.push",
+          "lineNumber": 128
+        },
+        {
+          "caller": "scan_roots_in_mutator_thread",
+          "callee": "ObjectReference::from_raw_address_unchecked",
+          "lineNumber": 130
+        },
+        {
+          "caller": "scan_roots_in_mutator_thread",
+          "callee": "Address::from_mut_ptr",
+          "lineNumber": 130
+        },
+        {
+          "caller": "scan_roots_in_mutator_thread",
+          "callee": "ptls.bt_data.add",
+          "lineNumber": 140
+        },
+        {
+          "caller": "scan_roots_in_mutator_thread",
+          "callee": "mmtk_jl_bt_entry_size",
+          "lineNumber": 141
+        },
+        {
+          "caller": "scan_roots_in_mutator_thread",
+          "callee": "mmtk_jl_bt_is_native",
+          "lineNumber": 142
+        },
+        {
+          "caller": "scan_roots_in_mutator_thread",
+          "callee": "mmtk_jl_bt_num_jlvals",
+          "lineNumber": 146
+        },
+        {
+          "caller": "scan_roots_in_mutator_thread",
+          "callee": "mmtk_jl_bt_entry_jlvalue",
+          "lineNumber": 148
+        },
+        {
+          "caller": "scan_roots_in_mutator_thread",
+          "callee": "node_buffer.push",
+          "lineNumber": 158
+        },
+        {
+          "caller": "scan_roots_in_mutator_thread",
+          "callee": "slot_buffer\n            .buffer\n            .chunks(CAPACITY_PER_PACKET).map",
+          "lineNumber": 168
+        },
+        {
+          "caller": "scan_roots_in_mutator_thread",
+          "callee": "slot_buffer\n            .buffer.chunks",
+          "lineNumber": 168
+        },
+        {
+          "caller": "scan_roots_in_mutator_thread",
+          "callee": "c.to_vec",
+          "lineNumber": 171
+        },
+        {
+          "caller": "scan_roots_in_mutator_thread",
+          "callee": "factory.create_process_tpinning_roots_work",
+          "lineNumber": 173
+        },
+        {
+          "caller": "scan_roots_in_mutator_thread",
+          "callee": "node_buffer.chunks(CAPACITY_PER_PACKET).map",
+          "lineNumber": 175
+        },
+        {
+          "caller": "scan_roots_in_mutator_thread",
+          "callee": "node_buffer.chunks",
+          "lineNumber": 175
+        },
+        {
+          "caller": "scan_roots_in_mutator_thread",
+          "callee": "c.to_vec",
+          "lineNumber": 175
+        },
+        {
+          "caller": "scan_roots_in_mutator_thread",
+          "callee": "factory.create_process_pinning_roots_work",
+          "lineNumber": 176
+        },
+        {
+          "caller": "scan_roots_in_mutator_thread",
+          "callee": "mutator.flush",
+          "lineNumber": 183
+        },
+        {
+          "caller": "scan_vm_specific_roots",
+          "callee": "RootsWorkClosure::from_roots_work_factory",
+          "lineNumber": 191
+        },
+        {
+          "caller": "scan_vm_specific_roots",
+          "callee": "jl_gc_scan_vm_specific_roots",
+          "lineNumber": 193
+        },
+        {
+          "caller": "scan_object",
+          "callee": "process_object",
+          "lineNumber": 202
+        },
+        {
+          "caller": "process_weak_refs",
+          "callee": "memory_manager::add_work_packet",
+          "lineNumber": 220
+        },
+        {
+          "caller": "process_weak_refs",
+          "callee": "SweepVMSpecific::new",
+          "lineNumber": 229
+        },
+        {
+          "caller": "process_weak_refs",
+          "callee": "memory_manager::add_work_packet",
+          "lineNumber": 230
+        },
+        {
+          "caller": "process_object",
+          "callee": "object.to_raw_address",
+          "lineNumber": 242
+        },
+        {
+          "caller": "process_object",
+          "callee": "crate::julia_scanning::scan_julia_object",
+          "lineNumber": 244
+        },
+        {
+          "caller": "default",
+          "callee": "Self::new",
+          "lineNumber": 261
+        },
+        {
+          "caller": "do_work",
+          "callee": "jl_gc_mmtk_sweep_malloced_memory",
+          "lineNumber": 268
+        },
+        {
+          "caller": "do_work",
+          "callee": "crate::jl_gc_sweep_weak_processing",
+          "lineNumber": 269
+        },
+        {
+          "caller": "do_work",
+          "callee": "jl_gc_sweep_stack_pools_and_mtarraylist_buffers",
+          "lineNumber": 270
+        },
+        {
+          "caller": "do_work",
+          "callee": "self.tracer_context.with_tracer",
+          "lineNumber": 281
+        },
+        {
+          "caller": "do_work",
+          "callee": "crate::julia_finalizer::scan_finalizers_in_rust",
+          "lineNumber": 282
+        },
+        {
+          "caller": "new",
+          "callee": "DashMap::new",
+          "lineNumber": 297
+        },
+        {
+          "caller": "new",
+          "callee": "DashMap::new",
+          "lineNumber": 298
+        },
+        {
+          "caller": "get_task_scan_lock",
+          "callee": "self.task_scan_locks\n            .entry(task_key)\n            .or_insert_with(|| Arc::new(Mutex::new(()))).clone",
+          "lineNumber": 303
+        },
+        {
+          "caller": "get_task_scan_lock",
+          "callee": "self.task_scan_locks\n            .entry(task_key).or_insert_with",
+          "lineNumber": 303
+        },
+        {
+          "caller": "get_task_scan_lock",
+          "callee": "self.task_scan_locks.entry",
+          "lineNumber": 303
+        },
+        {
+          "caller": "get_task_scan_lock",
+          "callee": "Arc::new",
+          "lineNumber": 305
+        },
+        {
+          "caller": "get_task_scan_lock",
+          "callee": "Mutex::new",
+          "lineNumber": 305
+        },
+        {
+          "caller": "get_snapshot",
+          "callee": "self.snapshots\n            .get(&(task as usize)).map",
+          "lineNumber": 312
+        },
+        {
+          "caller": "get_snapshot",
+          "callee": "self.snapshots.get",
+          "lineNumber": 312
+        },
+        {
+          "caller": "get_snapshot",
+          "callee": "snapshot.clone",
+          "lineNumber": 314
+        },
+        {
+          "caller": "mark_pause_scanned",
+          "callee": "self.snapshots.insert",
+          "lineNumber": 325
+        },
+        {
+          "caller": "mark_pause_scanned",
+          "callee": "Arc::from",
+          "lineNumber": 326
+        },
+        {
+          "caller": "mark_pause_scanned",
+          "callee": "Vec::new().into_boxed_slice",
+          "lineNumber": 326
+        },
+        {
+          "caller": "mark_pause_scanned",
+          "callee": "Vec::new",
+          "lineNumber": 326
+        },
+        {
+          "caller": "gc_thread_scan_stack",
+          "callee": "self.get_snapshot",
+          "lineNumber": 333
+        },
+        {
+          "caller": "gc_thread_scan_stack",
+          "callee": "Some",
+          "lineNumber": 334
+        },
+        {
+          "caller": "gc_thread_scan_stack",
+          "callee": "ptls.is_null",
+          "lineNumber": 345
+        },
+        {
+          "caller": "gc_thread_scan_stack",
+          "callee": "self.get_task_scan_lock",
+          "lineNumber": 352
+        },
+        {
+          "caller": "gc_thread_scan_stack",
+          "callee": "task_lock.lock().unwrap",
+          "lineNumber": 353
+        },
+        {
+          "caller": "gc_thread_scan_stack",
+          "callee": "task_lock.lock",
+          "lineNumber": 353
+        },
+        {
+          "caller": "gc_thread_scan_stack",
+          "callee": "self.snapshots.get",
+          "lineNumber": 355
+        },
+        {
+          "caller": "gc_thread_scan_stack",
+          "callee": "Some",
+          "lineNumber": 356
+        },
+        {
+          "caller": "gc_thread_scan_stack",
+          "callee": "snapshot.clone",
+          "lineNumber": 356
+        },
+        {
+          "caller": "gc_thread_scan_stack",
+          "callee": "self.capture_snapshot",
+          "lineNumber": 358
+        },
+        {
+          "caller": "gc_thread_scan_stack",
+          "callee": "self.snapshots.insert",
+          "lineNumber": 359
+        },
+        {
+          "caller": "gc_thread_scan_stack",
+          "callee": "snapshot.clone",
+          "lineNumber": 359
+        },
+        {
+          "caller": "gc_thread_scan_stack",
+          "callee": "Some",
+          "lineNumber": 360
+        },
+        {
+          "caller": "resume_barrier_scan_task",
+          "callee": "self.get_task_scan_lock",
+          "lineNumber": 368
+        },
+        {
+          "caller": "resume_barrier_scan_task",
+          "callee": "task_lock.lock().unwrap",
+          "lineNumber": 369
+        },
+        {
+          "caller": "resume_barrier_scan_task",
+          "callee": "task_lock.lock",
+          "lineNumber": 369
+        },
+        {
+          "caller": "resume_barrier_scan_task",
+          "callee": "self.snapshots.contains_key",
+          "lineNumber": 370
+        },
+        {
+          "caller": "resume_barrier_scan_task",
+          "callee": "self.snapshots.insert",
+          "lineNumber": 373
+        },
+        {
+          "caller": "resume_barrier_scan_task",
+          "callee": "self.capture_snapshot",
+          "lineNumber": 373
+        },
+        {
+          "caller": "capture_snapshot",
+          "callee": "crate::julia_scanning::mmtk_scan_gcstack",
+          "lineNumber": 379
+        },
+        {
+          "caller": "capture_snapshot",
+          "callee": "Arc::from",
+          "lineNumber": 386
+        },
+        {
+          "caller": "capture_snapshot",
+          "callee": "snapshot_roots.buffer.into_boxed_slice",
+          "lineNumber": 386
+        },
+        {
+          "caller": "clear_snapshots",
+          "callee": "self.snapshots.clear",
+          "lineNumber": 390
+        },
+        {
+          "caller": "clear_snapshots",
+          "callee": "self.task_scan_locks.clear",
+          "lineNumber": 391
+        }
+      ],
+      "metrics": {
+        "importCount": 1,
+        "exportCount": 11,
+        "functionCount": 21,
+        "classCount": 5
+      }
+    },
+    {
+      "path": "src/gc-mmtk/mmtk_julia/src/slots.rs",
+      "language": "rust",
+      "fileCategory": "code",
+      "totalLines": 302,
+      "nonEmptyLines": 265,
+      "functions": [
+        {
+          "name": "load",
+          "startLine": 20,
+          "endLine": 25,
+          "params": []
+        },
+        {
+          "name": "store",
+          "startLine": 27,
+          "endLine": 32,
+          "params": [
+            "object"
+          ]
+        },
+        {
+          "name": "fmt",
+          "startLine": 36,
+          "endLine": 41,
+          "params": [
+            "f"
+          ]
+        },
+        {
+          "name": "new_no_offset",
+          "startLine": 54,
+          "endLine": 59,
+          "params": [
+            "address"
+          ]
+        },
+        {
+          "name": "new_with_offset",
+          "startLine": 61,
+          "endLine": 66,
+          "params": [
+            "address",
+            "offset"
+          ]
+        },
+        {
+          "name": "slot_address",
+          "startLine": 68,
+          "endLine": 70,
+          "params": []
+        },
+        {
+          "name": "offset",
+          "startLine": 72,
+          "endLine": 74,
+          "params": []
+        },
+        {
+          "name": "load",
+          "startLine": 78,
+          "endLine": 83,
+          "params": []
+        },
+        {
+          "name": "store",
+          "startLine": 85,
+          "endLine": 89,
+          "params": [
+            "object"
+          ]
+        },
+        {
+          "name": "iter_slots",
+          "startLine": 103,
+          "endLine": 108,
+          "params": []
+        },
+        {
+          "name": "object",
+          "startLine": 110,
+          "endLine": 112,
+          "params": []
+        },
+        {
+          "name": "start",
+          "startLine": 114,
+          "endLine": 116,
+          "params": []
+        },
+        {
+          "name": "bytes",
+          "startLine": 118,
+          "endLine": 120,
+          "params": []
+        },
+        {
+          "name": "copy",
+          "startLine": 122,
+          "endLine": 157,
+          "params": [
+            "src",
+            "tgt"
+          ]
+        },
+        {
+          "name": "next",
+          "startLine": 168,
+          "endLine": 176,
+          "params": []
+        },
+        {
+          "name": "empty",
+          "startLine": 188,
+          "endLine": 193,
+          "params": []
+        },
+        {
+          "name": "new",
+          "startLine": 194,
+          "endLine": 201,
+          "params": []
+        },
+        {
+          "name": "report_simple_slots",
+          "startLine": 231,
+          "endLine": 252,
+          "params": [
+            "buf",
+            "size",
+            "cap",
+            "factory_ptr",
+            "renew"
+          ]
+        },
+        {
+          "name": "report_nodes",
+          "startLine": 254,
+          "endLine": 272,
+          "params": [
+            "buf",
+            "size",
+            "cap",
+            "factory_ptr",
+            "renew"
+          ]
+        },
+        {
+          "name": "report_tpinned_nodes",
+          "startLine": 274,
+          "endLine": 292,
+          "params": [
+            "buf",
+            "size",
+            "cap",
+            "factory_ptr",
+            "renew"
+          ]
+        },
+        {
+          "name": "from_roots_work_factory",
+          "startLine": 294,
+          "endLine": 301,
+          "params": [
+            "factory"
+          ]
+        }
+      ],
+      "classes": [
+        {
+          "name": "JuliaVMSlot",
+          "startLine": 12,
+          "endLine": 15,
+          "methods": [
+            "load",
+            "store",
+            "fmt"
+          ],
+          "properties": [
+            "Simple",
+            "Offset"
+          ]
+        },
+        {
+          "name": "OffsetSlot",
+          "startLine": 45,
+          "endLine": 48,
+          "methods": [
+            "new_no_offset",
+            "new_with_offset",
+            "slot_address",
+            "offset",
+            "load",
+            "store"
+          ],
+          "properties": [
+            "slot_addr",
+            "offset"
+          ]
+        },
+        {
+          "name": "JuliaMemorySlice",
+          "startLine": 93,
+          "endLine": 97,
+          "methods": [
+            "iter_slots",
+            "object",
+            "start",
+            "bytes",
+            "copy"
+          ],
+          "properties": [
+            "owner",
+            "start",
+            "count"
+          ]
+        },
+        {
+          "name": "JuliaMemorySliceSlotIterator",
+          "startLine": 160,
+          "endLine": 163,
+          "methods": [
+            "next"
+          ],
+          "properties": [
+            "cursor",
+            "limit"
+          ]
+        },
+        {
+          "name": "RootsWorkBuffer",
+          "startLine": 182,
+          "endLine": 185,
+          "methods": [],
+          "properties": [
+            "ptr",
+            "capacity"
+          ]
+        },
+        {
+          "name": "RootsWorkClosure",
+          "startLine": 205,
+          "endLine": 228,
+          "methods": [
+            "report_simple_slots",
+            "report_nodes",
+            "report_tpinned_nodes",
+            "from_roots_work_factory"
+          ],
+          "properties": [
+            "report_slots_func",
+            "report_nodes_func",
+            "report_tpinned_nodes_func",
+            "factory_ptr"
+          ]
+        }
+      ],
+      "exports": [
+        {
+          "name": "JuliaVMSlot",
+          "line": 12,
+          "isDefault": false
+        },
+        {
+          "name": "OffsetSlot",
+          "line": 45,
+          "isDefault": false
+        },
+        {
+          "name": "new_no_offset",
+          "line": 54,
+          "isDefault": false
+        },
+        {
+          "name": "new_with_offset",
+          "line": 61,
+          "isDefault": false
+        },
+        {
+          "name": "slot_address",
+          "line": 68,
+          "isDefault": false
+        },
+        {
+          "name": "offset",
+          "line": 72,
+          "isDefault": false
+        },
+        {
+          "name": "JuliaMemorySlice",
+          "line": 93,
+          "isDefault": false
+        },
+        {
+          "name": "JuliaMemorySliceSlotIterator",
+          "line": 160,
+          "isDefault": false
+        },
+        {
+          "name": "RootsWorkBuffer",
+          "line": 182,
+          "isDefault": false
+        },
+        {
+          "name": "RootsWorkClosure",
+          "line": 205,
+          "isDefault": false
+        },
+        {
+          "name": "from_roots_work_factory",
+          "line": 294,
+          "isDefault": false
+        }
+      ],
+      "callGraph": [
+        {
+          "caller": "load",
+          "callee": "e.load",
+          "lineNumber": 22
+        },
+        {
+          "caller": "load",
+          "callee": "e.load",
+          "lineNumber": 23
+        },
+        {
+          "caller": "store",
+          "callee": "e.store",
+          "lineNumber": 29
+        },
+        {
+          "caller": "store",
+          "callee": "e.store",
+          "lineNumber": 30
+        },
+        {
+          "caller": "new_no_offset",
+          "callee": "address.to_mut_ptr",
+          "lineNumber": 56
+        },
+        {
+          "caller": "new_with_offset",
+          "callee": "address.to_mut_ptr",
+          "lineNumber": 63
+        },
+        {
+          "caller": "slot_address",
+          "callee": "Address::from_mut_ptr",
+          "lineNumber": 69
+        },
+        {
+          "caller": "load",
+          "callee": "(*self.slot_addr).load",
+          "lineNumber": 79
+        },
+        {
+          "caller": "load",
+          "callee": "ObjectReference::from_raw_address",
+          "lineNumber": 82
+        },
+        {
+          "caller": "store",
+          "callee": "object.to_raw_address",
+          "lineNumber": 86
+        },
+        {
+          "caller": "store",
+          "callee": "(*self.slot_addr).store",
+          "lineNumber": 88
+        },
+        {
+          "caller": "iter_slots",
+          "callee": "self.start.shift::<Address>",
+          "lineNumber": 106
+        },
+        {
+          "caller": "object",
+          "callee": "Some",
+          "lineNumber": 111
+        },
+        {
+          "caller": "copy",
+          "callee": "tgt.bytes",
+          "lineNumber": 126
+        },
+        {
+          "caller": "copy",
+          "callee": "src.start",
+          "lineNumber": 131
+        },
+        {
+          "caller": "copy",
+          "callee": "tgt.start",
+          "lineNumber": 132
+        },
+        {
+          "caller": "copy",
+          "callee": "tgt.bytes",
+          "lineNumber": 136
+        },
+        {
+          "caller": "copy",
+          "callee": "src_addr\n                        .shift::<usize>(i)\n                        .atomic_load::<AtomicUsize>",
+          "lineNumber": 139
+        },
+        {
+          "caller": "copy",
+          "callee": "src_addr\n                        .shift::<usize>",
+          "lineNumber": 139
+        },
+        {
+          "caller": "copy",
+          "callee": "tgt_addr\n                        .shift::<usize>(i)\n                        .atomic_store::<AtomicUsize>",
+          "lineNumber": 142
+        },
+        {
+          "caller": "copy",
+          "callee": "tgt_addr\n                        .shift::<usize>",
+          "lineNumber": 142
+        },
+        {
+          "caller": "copy",
+          "callee": "src_addr\n                        .shift::<usize>(n - i - 1)\n                        .atomic_load::<AtomicUsize>",
+          "lineNumber": 148
+        },
+        {
+          "caller": "copy",
+          "callee": "src_addr\n                        .shift::<usize>",
+          "lineNumber": 148
+        },
+        {
+          "caller": "copy",
+          "callee": "tgt_addr\n                        .shift::<usize>(n - i - 1)\n                        .atomic_store::<AtomicUsize>",
+          "lineNumber": 151
+        },
+        {
+          "caller": "copy",
+          "callee": "tgt_addr\n                        .shift::<usize>",
+          "lineNumber": 151
+        },
+        {
+          "caller": "next",
+          "callee": "self.cursor.shift::<ObjectReference>",
+          "lineNumber": 173
+        },
+        {
+          "caller": "next",
+          "callee": "Some",
+          "lineNumber": 174
+        },
+        {
+          "caller": "next",
+          "callee": "JuliaVMSlot::Simple",
+          "lineNumber": 174
+        },
+        {
+          "caller": "next",
+          "callee": "SimpleSlot::from_address",
+          "lineNumber": 174
+        },
+        {
+          "caller": "empty",
+          "callee": "std::ptr::null_mut",
+          "lineNumber": 190
+        },
+        {
+          "caller": "new",
+          "callee": "Vec::with_capacity",
+          "lineNumber": 196
+        },
+        {
+          "caller": "new",
+          "callee": "std::mem::ManuallyDrop::new",
+          "lineNumber": 197
+        },
+        {
+          "caller": "new",
+          "callee": "me.as_mut_ptr",
+          "lineNumber": 198
+        },
+        {
+          "caller": "new",
+          "callee": "me.len",
+          "lineNumber": 198
+        },
+        {
+          "caller": "new",
+          "callee": "me.capacity",
+          "lineNumber": 198
+        },
+        {
+          "caller": "report_simple_slots",
+          "callee": "buf.is_null",
+          "lineNumber": 238
+        },
+        {
+          "caller": "report_simple_slots",
+          "callee": "unsafe { Vec::<Address>::from_raw_parts(buf, size, cap) }\n                .into_iter()\n                .map(|addr| JuliaVMSlot::Simple(SimpleSlot::from_address(addr))).collect",
+          "lineNumber": 239
+        },
+        {
+          "caller": "report_simple_slots",
+          "callee": "unsafe { Vec::<Address>::from_raw_parts(buf, size, cap) }\n                .into_iter().map",
+          "lineNumber": 239
+        },
+        {
+          "caller": "report_simple_slots",
+          "callee": "unsafe { Vec::<Address>::from_raw_parts(buf, size, cap) }.into_iter",
+          "lineNumber": 239
+        },
+        {
+          "caller": "report_simple_slots",
+          "callee": "Vec::<Address>::from_raw_parts",
+          "lineNumber": 239
+        },
+        {
+          "caller": "report_simple_slots",
+          "callee": "JuliaVMSlot::Simple",
+          "lineNumber": 241
+        },
+        {
+          "caller": "report_simple_slots",
+          "callee": "SimpleSlot::from_address",
+          "lineNumber": 241
+        },
+        {
+          "caller": "report_simple_slots",
+          "callee": "factory.create_process_roots_work",
+          "lineNumber": 244
+        },
+        {
+          "caller": "report_simple_slots",
+          "callee": "RootsWorkBuffer::new",
+          "lineNumber": 248
+        },
+        {
+          "caller": "report_simple_slots",
+          "callee": "RootsWorkBuffer::empty",
+          "lineNumber": 250
+        },
+        {
+          "caller": "report_nodes",
+          "callee": "buf.is_null",
+          "lineNumber": 261
+        },
+        {
+          "caller": "report_nodes",
+          "callee": "Vec::<ObjectReference>::from_raw_parts",
+          "lineNumber": 262
+        },
+        {
+          "caller": "report_nodes",
+          "callee": "factory.create_process_pinning_roots_work",
+          "lineNumber": 264
+        },
+        {
+          "caller": "report_nodes",
+          "callee": "RootsWorkBuffer::new",
+          "lineNumber": 268
+        },
+        {
+          "caller": "report_nodes",
+          "callee": "RootsWorkBuffer::empty",
+          "lineNumber": 270
+        },
+        {
+          "caller": "report_tpinned_nodes",
+          "callee": "buf.is_null",
+          "lineNumber": 281
+        },
+        {
+          "caller": "report_tpinned_nodes",
+          "callee": "Vec::<ObjectReference>::from_raw_parts",
+          "lineNumber": 282
+        },
+        {
+          "caller": "report_tpinned_nodes",
+          "callee": "factory.create_process_tpinning_roots_work",
+          "lineNumber": 284
+        },
+        {
+          "caller": "report_tpinned_nodes",
+          "callee": "RootsWorkBuffer::new",
+          "lineNumber": 288
+        },
+        {
+          "caller": "report_tpinned_nodes",
+          "callee": "RootsWorkBuffer::empty",
+          "lineNumber": 290
+        }
+      ],
+      "metrics": {
+        "importCount": 0,
+        "exportCount": 11,
+        "functionCount": 21,
+        "classCount": 6
+      }
+    },
+    {
+      "path": "src/gc-mmtk/mmtk_julia/src/util.rs",
+      "language": "rust",
+      "fileCategory": "code",
+      "totalLines": 81,
+      "nonEmptyLines": 74,
+      "functions": [
+        {
+          "name": "from_u32",
+          "startLine": 21,
+          "endLine": 36,
+          "params": [
+            "value"
+          ]
+        },
+        {
+          "name": "fielddesc_type_custom",
+          "startLine": 44,
+          "endLine": 51,
+          "params": []
+        },
+        {
+          "name": "copy_stack_custom",
+          "startLine": 56,
+          "endLine": 61,
+          "params": []
+        },
+        {
+          "name": "mmtk_julia_copy_stack_check",
+          "startLine": 65,
+          "endLine": 73,
+          "params": [
+            "c_flag_is_defined"
+          ]
+        },
+        {
+          "name": "mmtk_get_possibly_forwarded",
+          "startLine": 76,
+          "endLine": 81,
+          "params": [
+            "object"
+          ]
+        }
+      ],
+      "classes": [
+        {
+          "name": "RootLabel",
+          "startLine": 6,
+          "endLine": 18,
+          "methods": [
+            "from_u32"
+          ],
+          "properties": [
+            "MarkAndScan",
+            "ScanOnly",
+            "FinList",
+            "ObjArray",
+            "Array8",
+            "Obj8",
+            "Obj16",
+            "Obj32",
+            "Stack",
+            "ExcStack",
+            "ModuleBinding"
+          ]
+        }
+      ],
+      "exports": [
+        {
+          "name": "RootLabel",
+          "line": 6,
+          "isDefault": false
+        },
+        {
+          "name": "from_u32",
+          "line": 21,
+          "isDefault": false
+        },
+        {
+          "name": "fielddesc_type_custom",
+          "line": 44,
+          "isDefault": false
+        },
+        {
+          "name": "copy_stack_custom",
+          "line": 56,
+          "isDefault": false
+        },
+        {
+          "name": "mmtk_julia_copy_stack_check",
+          "line": 65,
+          "isDefault": false
+        },
+        {
+          "name": "mmtk_get_possibly_forwarded",
+          "line": 76,
+          "isDefault": false
+        }
+      ],
+      "callGraph": [
+        {
+          "caller": "fielddesc_type_custom",
+          "callee": "::std::mem::transmute::<__BindgenBitfieldUnit<[u8; 2usize]>, u16>",
+          "lineNumber": 46
+        },
+        {
+          "caller": "copy_stack_custom",
+          "callee": "::std::mem::transmute::<__BindgenBitfieldUnit<[u8; 4usize]>, u32>",
+          "lineNumber": 58
+        },
+        {
+          "caller": "mmtk_get_possibly_forwarded",
+          "callee": "object.get_forwarded_object",
+          "lineNumber": 77
+        }
+      ],
+      "metrics": {
+        "importCount": 0,
+        "exportCount": 6,
+        "functionCount": 5,
+        "classCount": 1
+      }
+    }
+  ]
+}

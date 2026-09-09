@@ -1,0 +1,182 @@
+{
+  "projectRoot": "/home/maruti/julia",
+  "batchFiles": [
+    {
+      "path": "base/lock.jl",
+      "language": "jl",
+      "sizeLines": 1062,
+      "fileCategory": "code"
+    },
+    {
+      "path": "base/locks-mt.jl",
+      "language": "jl",
+      "sizeLines": 115,
+      "fileCategory": "code"
+    },
+    {
+      "path": "base/logging/ConsoleLogger.jl",
+      "language": "jl",
+      "sizeLines": 198,
+      "fileCategory": "code"
+    },
+    {
+      "path": "base/logging/logging.jl",
+      "language": "jl",
+      "sizeLines": 735,
+      "fileCategory": "code"
+    },
+    {
+      "path": "base/math.jl",
+      "language": "jl",
+      "sizeLines": 1332,
+      "fileCategory": "code"
+    },
+    {
+      "path": "base/mathconstants.jl",
+      "language": "jl",
+      "sizeLines": 152,
+      "fileCategory": "code"
+    },
+    {
+      "path": "base/meta.jl",
+      "language": "jl",
+      "sizeLines": 671,
+      "fileCategory": "code"
+    },
+    {
+      "path": "base/methodshow.jl",
+      "language": "jl",
+      "sizeLines": 525,
+      "fileCategory": "code"
+    },
+    {
+      "path": "base/missing.jl",
+      "language": "jl",
+      "sizeLines": 456,
+      "fileCategory": "code"
+    },
+    {
+      "path": "base/module.jl",
+      "language": "jl",
+      "sizeLines": 142,
+      "fileCategory": "code"
+    },
+    {
+      "path": "base/mpfr.jl",
+      "language": "jl",
+      "sizeLines": 1333,
+      "fileCategory": "code"
+    },
+    {
+      "path": "base/multidimensional.jl",
+      "language": "jl",
+      "sizeLines": 2110,
+      "fileCategory": "code"
+    },
+    {
+      "path": "base/multimedia.jl",
+      "language": "jl",
+      "sizeLines": 460,
+      "fileCategory": "code"
+    },
+    {
+      "path": "base/multinverses.jl",
+      "language": "jl",
+      "sizeLines": 165,
+      "fileCategory": "code"
+    },
+    {
+      "path": "base/namedtuple.jl",
+      "language": "jl",
+      "sizeLines": 589,
+      "fileCategory": "code"
+    },
+    {
+      "path": "base/ntuple.jl",
+      "language": "jl",
+      "sizeLines": 94,
+      "fileCategory": "code"
+    },
+    {
+      "path": "base/number.jl",
+      "language": "jl",
+      "sizeLines": 453,
+      "fileCategory": "code"
+    },
+    {
+      "path": "base/opaque_closure.jl",
+      "language": "jl",
+      "sizeLines": 56,
+      "fileCategory": "code"
+    },
+    {
+      "path": "base/operators.jl",
+      "language": "jl",
+      "sizeLines": 1604,
+      "fileCategory": "code"
+    },
+    {
+      "path": "base/optimized_generics.jl",
+      "language": "jl",
+      "sizeLines": 83,
+      "fileCategory": "code"
+    },
+    {
+      "path": "base/options.jl",
+      "language": "jl",
+      "sizeLines": 136,
+      "fileCategory": "code"
+    },
+    {
+      "path": "base/ordering.jl",
+      "language": "jl",
+      "sizeLines": 177,
+      "fileCategory": "code"
+    },
+    {
+      "path": "base/osinfo.jl",
+      "language": "jl",
+      "sizeLines": 172,
+      "fileCategory": "code"
+    },
+    {
+      "path": "base/osutils.jl",
+      "language": "jl",
+      "sizeLines": 48,
+      "fileCategory": "code"
+    },
+    {
+      "path": "base/pair.jl",
+      "language": "jl",
+      "sizeLines": 74,
+      "fileCategory": "code"
+    }
+  ],
+  "batchImportData": {
+    "base/lock.jl": [],
+    "base/locks-mt.jl": [],
+    "base/logging/ConsoleLogger.jl": [],
+    "base/logging/logging.jl": [],
+    "base/math.jl": [],
+    "base/mathconstants.jl": [],
+    "base/meta.jl": [],
+    "base/methodshow.jl": [],
+    "base/missing.jl": [],
+    "base/module.jl": [],
+    "base/mpfr.jl": [],
+    "base/multidimensional.jl": [],
+    "base/multimedia.jl": [],
+    "base/multinverses.jl": [],
+    "base/namedtuple.jl": [],
+    "base/ntuple.jl": [],
+    "base/number.jl": [],
+    "base/opaque_closure.jl": [],
+    "base/operators.jl": [],
+    "base/optimized_generics.jl": [],
+    "base/options.jl": [],
+    "base/ordering.jl": [],
+    "base/osinfo.jl": [],
+    "base/osutils.jl": [],
+    "base/pair.jl": []
+  }
+}

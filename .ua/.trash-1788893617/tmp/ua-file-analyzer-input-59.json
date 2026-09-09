@@ -1,0 +1,182 @@
+{
+  "projectRoot": "/home/maruti/julia",
+  "batchFiles": [
+    {
+      "path": "base/stat.jl",
+      "language": "jl",
+      "sizeLines": 623,
+      "fileCategory": "code"
+    },
+    {
+      "path": "base/stream.jl",
+      "language": "jl",
+      "sizeLines": 2446,
+      "fileCategory": "code"
+    },
+    {
+      "path": "base/strings/annotated.jl",
+      "language": "jl",
+      "sizeLines": 609,
+      "fileCategory": "code"
+    },
+    {
+      "path": "base/strings/annotated_io.jl",
+      "language": "jl",
+      "sizeLines": 425,
+      "fileCategory": "code"
+    },
+    {
+      "path": "base/strings/basic.jl",
+      "language": "jl",
+      "sizeLines": 840,
+      "fileCategory": "code"
+    },
+    {
+      "path": "base/strings/cstring.jl",
+      "language": "jl",
+      "sizeLines": 331,
+      "fileCategory": "code"
+    },
+    {
+      "path": "base/strings/io.jl",
+      "language": "jl",
+      "sizeLines": 824,
+      "fileCategory": "code"
+    },
+    {
+      "path": "base/strings/lazy.jl",
+      "language": "jl",
+      "sizeLines": 113,
+      "fileCategory": "code"
+    },
+    {
+      "path": "base/strings/search.jl",
+      "language": "jl",
+      "sizeLines": 916,
+      "fileCategory": "code"
+    },
+    {
+      "path": "base/strings/string.jl",
+      "language": "jl",
+      "sizeLines": 715,
+      "fileCategory": "code"
+    },
+    {
+      "path": "base/strings/strings.jl",
+      "language": "jl",
+      "sizeLines": 14,
+      "fileCategory": "code"
+    },
+    {
+      "path": "base/strings/stringview.jl",
+      "language": "jl",
+      "sizeLines": 155,
+      "fileCategory": "code"
+    },
+    {
+      "path": "base/strings/substring.jl",
+      "language": "jl",
+      "sizeLines": 322,
+      "fileCategory": "code"
+    },
+    {
+      "path": "base/strings/unicode.jl",
+      "language": "jl",
+      "sizeLines": 894,
+      "fileCategory": "code"
+    },
+    {
+      "path": "base/strings/util.jl",
+      "language": "jl",
+      "sizeLines": 1368,
+      "fileCategory": "code"
+    },
+    {
+      "path": "base/subarray.jl",
+      "language": "jl",
+      "sizeLines": 553,
+      "fileCategory": "code"
+    },
+    {
+      "path": "base/summarysize.jl",
+      "language": "jl",
+      "sizeLines": 263,
+      "fileCategory": "code"
+    },
+    {
+      "path": "base/sysimg.jl",
+      "language": "jl",
+      "sizeLines": 160,
+      "fileCategory": "code"
+    },
+    {
+      "path": "base/sysinfo.jl",
+      "language": "jl",
+      "sizeLines": 556,
+      "fileCategory": "code"
+    },
+    {
+      "path": "base/task.jl",
+      "language": "jl",
+      "sizeLines": 1680,
+      "fileCategory": "code"
+    },
+    {
+      "path": "base/terminfo.jl",
+      "language": "jl",
+      "sizeLines": 391,
+      "fileCategory": "code"
+    },
+    {
+      "path": "base/terminfo_data.jl",
+      "language": "jl",
+      "sizeLines": 802,
+      "fileCategory": "code"
+    },
+    {
+      "path": "base/threadcall.jl",
+      "language": "jl",
+      "sizeLines": 109,
+      "fileCategory": "code"
+    },
+    {
+      "path": "base/threadingconstructs.jl",
+      "language": "jl",
+      "sizeLines": 949,
+      "fileCategory": "code"
+    },
+    {
+      "path": "base/threads.jl",
+      "language": "jl",
+      "sizeLines": 13,
+      "fileCategory": "code"
+    }
+  ],
+  "batchImportData": {
+    "base/stat.jl": [],
+    "base/stream.jl": [],
+    "base/strings/annotated.jl": [],
+    "base/strings/annotated_io.jl": [],
+    "base/strings/basic.jl": [],
+    "base/strings/cstring.jl": [],
+    "base/strings/io.jl": [],
+    "base/strings/lazy.jl": [],
+    "base/strings/search.jl": [],
+    "base/strings/string.jl": [],
+    "base/strings/strings.jl": [],
+    "base/strings/stringview.jl": [],
+    "base/strings/substring.jl": [],
+    "base/strings/unicode.jl": [],
+    "base/strings/util.jl": [],
+    "base/subarray.jl": [],
+    "base/summarysize.jl": [],
+    "base/sysimg.jl": [],
+    "base/sysinfo.jl": [],
+    "base/task.jl": [],
+    "base/terminfo.jl": [],
+    "base/terminfo_data.jl": [],
+    "base/threadcall.jl": [],
+    "base/threadingconstructs.jl": [],
+    "base/threads.jl": []
+  }
+}

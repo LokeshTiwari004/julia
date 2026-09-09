@@ -1,0 +1,182 @@
+{
+  "projectRoot": "/home/maruti/julia",
+  "batchFiles": [
+    {
+      "path": "base/park.jl",
+      "language": "jl",
+      "sizeLines": 429,
+      "fileCategory": "code"
+    },
+    {
+      "path": "base/parse.jl",
+      "language": "jl",
+      "sizeLines": 382,
+      "fileCategory": "code"
+    },
+    {
+      "path": "base/partr.jl",
+      "language": "jl",
+      "sizeLines": 266,
+      "fileCategory": "code"
+    },
+    {
+      "path": "base/path.jl",
+      "language": "jl",
+      "sizeLines": 1030,
+      "fileCategory": "code"
+    },
+    {
+      "path": "base/pcre.jl",
+      "language": "jl",
+      "sizeLines": 278,
+      "fileCategory": "code"
+    },
+    {
+      "path": "base/permuteddimsarray.jl",
+      "language": "jl",
+      "sizeLines": 377,
+      "fileCategory": "code"
+    },
+    {
+      "path": "base/pkgid.jl",
+      "language": "jl",
+      "sizeLines": 45,
+      "fileCategory": "code"
+    },
+    {
+      "path": "base/pointer.jl",
+      "language": "jl",
+      "sizeLines": 320,
+      "fileCategory": "code"
+    },
+    {
+      "path": "base/precompilation.jl",
+      "language": "jl",
+      "sizeLines": 2876,
+      "fileCategory": "code"
+    },
+    {
+      "path": "base/process.jl",
+      "language": "jl",
+      "sizeLines": 780,
+      "fileCategory": "code"
+    },
+    {
+      "path": "base/promotion.jl",
+      "language": "jl",
+      "sizeLines": 679,
+      "fileCategory": "code"
+    },
+    {
+      "path": "base/public.jl",
+      "language": "jl",
+      "sizeLines": 152,
+      "fileCategory": "code"
+    },
+    {
+      "path": "base/range.jl",
+      "language": "jl",
+      "sizeLines": 1736,
+      "fileCategory": "code"
+    },
+    {
+      "path": "base/rational.jl",
+      "language": "jl",
+      "sizeLines": 708,
+      "fileCategory": "code"
+    },
+    {
+      "path": "base/rawbigfloats.jl",
+      "language": "jl",
+      "sizeLines": 143,
+      "fileCategory": "code"
+    },
+    {
+      "path": "base/reduce.jl",
+      "language": "jl",
+      "sizeLines": 1120,
+      "fileCategory": "code"
+    },
+    {
+      "path": "base/reducedim.jl",
+      "language": "jl",
+      "sizeLines": 1288,
+      "fileCategory": "code"
+    },
+    {
+      "path": "base/reflection.jl",
+      "language": "jl",
+      "sizeLines": 1513,
+      "fileCategory": "code"
+    },
+    {
+      "path": "base/refpointer.jl",
+      "language": "jl",
+      "sizeLines": 208,
+      "fileCategory": "code"
+    },
+    {
+      "path": "base/refvalue.jl",
+      "language": "jl",
+      "sizeLines": 60,
+      "fileCategory": "code"
+    },
+    {
+      "path": "base/regex.jl",
+      "language": "jl",
+      "sizeLines": 929,
+      "fileCategory": "code"
+    },
+    {
+      "path": "base/reinterpretarray.jl",
+      "language": "jl",
+      "sizeLines": 987,
+      "fileCategory": "code"
+    },
+    {
+      "path": "base/reshapedarray.jl",
+      "language": "jl",
+      "sizeLines": 470,
+      "fileCategory": "code"
+    },
+    {
+      "path": "base/rounding.jl",
+      "language": "jl",
+      "sizeLines": 491,
+      "fileCategory": "code"
+    },
+    {
+      "path": "base/runtime_internals.jl",
+      "language": "jl",
+      "sizeLines": 2067,
+      "fileCategory": "code"
+    }
+  ],
+  "batchImportData": {
+    "base/park.jl": [],
+    "base/parse.jl": [],
+    "base/partr.jl": [],
+    "base/path.jl": [],
+    "base/pcre.jl": [],
+    "base/permuteddimsarray.jl": [],
+    "base/pkgid.jl": [],
+    "base/pointer.jl": [],
+    "base/precompilation.jl": [],
+    "base/process.jl": [],
+    "base/promotion.jl": [],
+    "base/public.jl": [],
+    "base/range.jl": [],
+    "base/rational.jl": [],
+    "base/rawbigfloats.jl": [],
+    "base/reduce.jl": [],
+    "base/reducedim.jl": [],
+    "base/reflection.jl": [],
+    "base/refpointer.jl": [],
+    "base/refvalue.jl": [],
+    "base/regex.jl": [],
+    "base/reinterpretarray.jl": [],
+    "base/reshapedarray.jl": [],
+    "base/rounding.jl": [],
+    "base/runtime_internals.jl": []
+  }
+}

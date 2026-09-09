@@ -1,0 +1,1191 @@
+{
+  "scriptCompleted": true,
+  "filesAnalyzed": 14,
+  "filesSkipped": [
+    "src/flisp/unittest.lsp",
+    "src/gc-mmtk/mmtk_julia/rust-toolchain",
+    "src/gen_sysimg_symtab.jl",
+    "src/jl_internal_data.inc",
+    "src/jlfrontend.scm",
+    "src/julia-parser.scm",
+    "src/julia-syntax.scm",
+    "src/julia.expmap.in",
+    "src/llvm-julia-passes.inc",
+    "src/macroexpand.scm",
+    "src/match.scm"
+  ],
+  "analysisOutcomes": {
+    "structure": {
+      "succeeded": 14,
+      "failed": 0
+    },
+    "callGraph": {
+      "succeeded": 11,
+      "failed": 0,
+      "skipped": 3
+    }
+  },
+  "results": [
+    {
+      "path": "src/gc-interface.h",
+      "language": "c",
+      "fileCategory": "code",
+      "totalLines": 367,
+      "nonEmptyLines": 347,
+      "metrics": {
+        "importCount": 0,
+        "exportCount": 0,
+        "functionCount": 0,
+        "classCount": 0
+      }
+    },
+    {
+      "path": "src/gc-mmtk/Makefile",
+      "language": "makefile",
+      "fileCategory": "infra",
+      "totalLines": 155,
+      "nonEmptyLines": 137,
+      "steps": [
+        {
+          "name": "compile-mmtk_julia",
+          "startLine": 92,
+          "endLine": 93
+        },
+        {
+          "name": "clean-mmtk_julia",
+          "startLine": 95,
+          "endLine": 98
+        },
+        {
+          "name": "mmtk_julia-deps",
+          "startLine": 115,
+          "endLine": 116
+        },
+        {
+          "name": "mmtk_julia-deps",
+          "startLine": 118,
+          "endLine": 118
+        },
+        {
+          "name": "mmtk_julia-force",
+          "startLine": 122,
+          "endLine": 123
+        }
+      ],
+      "metrics": {
+        "importCount": 0,
+        "exportCount": 0,
+        "functionCount": 0,
+        "classCount": 0,
+        "stepCount": 5
+      }
+    },
+    {
+      "path": "src/gc-mmtk/mmtk_julia/Cargo.toml",
+      "language": "toml",
+      "fileCategory": "config",
+      "totalLines": 56,
+      "nonEmptyLines": 47,
+      "sections": [
+        {
+          "heading": "package",
+          "level": 1,
+          "line": 1
+        },
+        {
+          "heading": "lib",
+          "level": 1,
+          "line": 10
+        },
+        {
+          "heading": "build-dependencies",
+          "level": 1,
+          "line": 13
+        },
+        {
+          "heading": "profile.release",
+          "level": 2,
+          "line": 18
+        },
+        {
+          "heading": "dependencies",
+          "level": 1,
+          "line": 21
+        },
+        {
+          "heading": "features",
+          "level": 1,
+          "line": 43
+        }
+      ],
+      "metrics": {
+        "importCount": 0,
+        "exportCount": 0,
+        "functionCount": 0,
+        "classCount": 0,
+        "sectionCount": 6
+      }
+    },
+    {
+      "path": "src/gc-mmtk/mmtk_julia/api/mmtk.h",
+      "language": "c",
+      "fileCategory": "code",
+      "totalLines": 144,
+      "nonEmptyLines": 124,
+      "metrics": {
+        "importCount": 0,
+        "exportCount": 0,
+        "functionCount": 0,
+        "classCount": 0
+      }
+    },
+    {
+      "path": "src/gc-mmtk/mmtk_julia/api/mmtkMutator.h",
+      "language": "c",
+      "fileCategory": "code",
+      "totalLines": 115,
+      "nonEmptyLines": 98,
+      "metrics": {
+        "importCount": 0,
+        "exportCount": 0,
+        "functionCount": 0,
+        "classCount": 0
+      }
+    },
+    {
+      "path": "src/gc-mmtk/mmtk_julia/build.rs",
+      "language": "rust",
+      "fileCategory": "code",
+      "totalLines": 159,
+      "nonEmptyLines": 148,
+      "functions": [
+        {
+          "name": "path_string",
+          "startLine": 7,
+          "endLine": 9,
+          "params": [
+            "path"
+          ]
+        },
+        {
+          "name": "main",
+          "startLine": 11,
+          "endLine": 159,
+          "params": []
+        }
+      ],
+      "callGraph": [
+        {
+          "caller": "path_string",
+          "callee": "path.display().to_string",
+          "lineNumber": 8
+        },
+        {
+          "caller": "path_string",
+          "callee": "path.display",
+          "lineNumber": 8
+        },
+        {
+          "caller": "main",
+          "callee": "PathBuf::from",
+          "lineNumber": 12
+        },
+        {
+          "caller": "main",
+          "callee": "crate_dir\n        .parent()\n        .expect(\"mmtk-julia should be in JULIAHOME/src/gc-mmtk/mmtk_julia\").to_path_buf",
+          "lineNumber": 13
+        },
+        {
+          "caller": "main",
+          "callee": "crate_dir\n        .parent().expect",
+          "lineNumber": 13
+        },
+        {
+          "caller": "main",
+          "callee": "crate_dir.parent",
+          "lineNumber": 13
+        },
+        {
+          "caller": "main",
+          "callee": "mmtk_dir\n        .parent()\n        .and_then(Path::parent)\n        .expect(\"mmtk-julia should be in JULIAHOME/src/gc-mmtk/mmtk_julia\").to_path_buf",
+          "lineNumber": 17
+        },
+        {
+          "caller": "main",
+          "callee": "mmtk_dir\n        .parent()\n        .and_then(Path::parent).expect",
+          "lineNumber": 17
+        },
+        {
+          "caller": "main",
+          "callee": "mmtk_dir\n        .parent().and_then",
+          "lineNumber": 17
+        },
+        {
+          "caller": "main",
+          "callee": "mmtk_dir.parent",
+          "lineNumber": 17
+        },
+        {
+          "caller": "main",
+          "callee": "julia_dir.clone",
+          "lineNumber": 22
+        },
+        {
+          "caller": "main",
+          "callee": "julia_dir.join",
+          "lineNumber": 47
+        },
+        {
+          "caller": "main",
+          "callee": "julia_dir.join",
+          "lineNumber": 47
+        },
+        {
+          "caller": "main",
+          "callee": "std::fs::read_dir(dir).expect",
+          "lineNumber": 48
+        },
+        {
+          "caller": "main",
+          "callee": "std::fs::read_dir",
+          "lineNumber": 48
+        },
+        {
+          "caller": "main",
+          "callee": "entry.expect(\"failed to read Julia header\").path",
+          "lineNumber": 49
+        },
+        {
+          "caller": "main",
+          "callee": "entry.expect",
+          "lineNumber": 49
+        },
+        {
+          "caller": "main",
+          "callee": "path.file_name().and_then(|n| n.to_str()).unwrap_or",
+          "lineNumber": 50
+        },
+        {
+          "caller": "main",
+          "callee": "path.file_name().and_then",
+          "lineNumber": 50
+        },
+        {
+          "caller": "main",
+          "callee": "path.file_name",
+          "lineNumber": 50
+        },
+        {
+          "caller": "main",
+          "callee": "n.to_str",
+          "lineNumber": 50
+        },
+        {
+          "caller": "main",
+          "callee": "IGNORE.contains",
+          "lineNumber": 51
+        },
+        {
+          "caller": "main",
+          "callee": "path\n                .extension().is_some_and",
+          "lineNumber": 54
+        },
+        {
+          "caller": "main",
+          "callee": "path.extension",
+          "lineNumber": 54
+        },
+        {
+          "caller": "main",
+          "callee": "std::fs::read_dir(&mmtk_dir).expect",
+          "lineNumber": 62
+        },
+        {
+          "caller": "main",
+          "callee": "std::fs::read_dir",
+          "lineNumber": 62
+        },
+        {
+          "caller": "main",
+          "callee": "entry.expect(\"failed to read MMTk integration file\").path",
+          "lineNumber": 63
+        },
+        {
+          "caller": "main",
+          "callee": "entry.expect",
+          "lineNumber": 63
+        },
+        {
+          "caller": "main",
+          "callee": "path.extension().is_some_and",
+          "lineNumber": 64
+        },
+        {
+          "caller": "main",
+          "callee": "path.extension",
+          "lineNumber": 64
+        },
+        {
+          "caller": "main",
+          "callee": "std::fs::read_dir(crate_dir.join(\"api\")).expect",
+          "lineNumber": 69
+        },
+        {
+          "caller": "main",
+          "callee": "std::fs::read_dir",
+          "lineNumber": 69
+        },
+        {
+          "caller": "main",
+          "callee": "crate_dir.join",
+          "lineNumber": 69
+        },
+        {
+          "caller": "main",
+          "callee": "entry.expect(\"failed to read MMTk API file\").path",
+          "lineNumber": 71
+        },
+        {
+          "caller": "main",
+          "callee": "entry.expect",
+          "lineNumber": 71
+        },
+        {
+          "caller": "main",
+          "callee": "path.extension().is_some_and",
+          "lineNumber": 72
+        },
+        {
+          "caller": "main",
+          "callee": "path.extension",
+          "lineNumber": 72
+        },
+        {
+          "caller": "main",
+          "callee": "buildroot_dir.join(\"src/julia_version.h\").exists",
+          "lineNumber": 78
+        },
+        {
+          "caller": "main",
+          "callee": "buildroot_dir.join",
+          "lineNumber": 78
+        },
+        {
+          "caller": "main",
+          "callee": "std::process::Command::new(\"make\")\n            .current_dir(julia_dir.join(\"src\"))\n            .env(\"BUILDDIR\", &buildroot_dir)\n            .args([\"julia_version.h\"])\n            .output().expect",
+          "lineNumber": 79
+        },
+        {
+          "caller": "main",
+          "callee": "std::process::Command::new(\"make\")\n            .current_dir(julia_dir.join(\"src\"))\n            .env(\"BUILDDIR\", &buildroot_dir)\n            .args([\"julia_version.h\"]).output",
+          "lineNumber": 79
+        },
+        {
+          "caller": "main",
+          "callee": "std::process::Command::new(\"make\")\n            .current_dir(julia_dir.join(\"src\"))\n            .env(\"BUILDDIR\", &buildroot_dir).args",
+          "lineNumber": 79
+        },
+        {
+          "caller": "main",
+          "callee": "std::process::Command::new(\"make\")\n            .current_dir(julia_dir.join(\"src\")).env",
+          "lineNumber": 79
+        },
+        {
+          "caller": "main",
+          "callee": "std::process::Command::new(\"make\").current_dir",
+          "lineNumber": 79
+        },
+        {
+          "caller": "main",
+          "callee": "std::process::Command::new",
+          "lineNumber": 79
+        },
+        {
+          "caller": "main",
+          "callee": "julia_dir.join",
+          "lineNumber": 80
+        },
+        {
+          "caller": "main",
+          "callee": "buildroot_dir.join(\"usr/include\").exists",
+          "lineNumber": 90
+        },
+        {
+          "caller": "main",
+          "callee": "buildroot_dir.join",
+          "lineNumber": 90
+        },
+        {
+          "caller": "main",
+          "callee": "std::process::Command::new(\"make\")\n            .current_dir(julia_dir.join(\"deps\"))\n            .env(\"BUILDDIR\", &buildroot_dir)\n            .env(\"MMTK_PLAN\", \"None\") // Make sure this call doesn't try to compile the binding again\n            .output().expect",
+          "lineNumber": 91
+        },
+        {
+          "caller": "main",
+          "callee": "std::process::Command::new(\"make\")\n            .current_dir(julia_dir.join(\"deps\"))\n            .env(\"BUILDDIR\", &buildroot_dir)\n            .env(\"MMTK_PLAN\", \"None\").output",
+          "lineNumber": 91
+        },
+        {
+          "caller": "main",
+          "callee": "std::process::Command::new(\"make\")\n            .current_dir(julia_dir.join(\"deps\"))\n            .env(\"BUILDDIR\", &buildroot_dir).env",
+          "lineNumber": 91
+        },
+        {
+          "caller": "main",
+          "callee": "std::process::Command::new(\"make\")\n            .current_dir(julia_dir.join(\"deps\")).env",
+          "lineNumber": 91
+        },
+        {
+          "caller": "main",
+          "callee": "std::process::Command::new(\"make\").current_dir",
+          "lineNumber": 91
+        },
+        {
+          "caller": "main",
+          "callee": "std::process::Command::new",
+          "lineNumber": 91
+        },
+        {
+          "caller": "main",
+          "callee": "julia_dir.join",
+          "lineNumber": 92
+        },
+        {
+          "caller": "main",
+          "callee": "bindgen::Builder::default()\n        .header(path_string(julia_dir.join(\"src/julia.h\")))\n        .header(path_string(julia_dir.join(\"src/julia_internal.h\")))\n        // Including the paths to depending .h files\n        .clang_arg(\"-I\")\n        .clang_arg(path_string(crate_dir.join(\"api\")))\n        .clang_arg(\"-I\")\n        .clang_arg(path_string(mmtk_dir.clone()))\n        .clang_arg(\"-I\")\n        .clang_arg(path_string(julia_dir.join(\"src\")))\n        .clang_arg(\"-I\")\n        .clang_arg(path_string(julia_dir.join(\"src/support\")))\n        .clang_arg(\"-I\").clang_arg",
+          "lineNumber": 99
+        },
+        {
+          "caller": "main",
+          "callee": "bindgen::Builder::default()\n        .header(path_string(julia_dir.join(\"src/julia.h\")))\n        .header(path_string(julia_dir.join(\"src/julia_internal.h\")))\n        // Including the paths to depending .h files\n        .clang_arg(\"-I\")\n        .clang_arg(path_string(crate_dir.join(\"api\")))\n        .clang_arg(\"-I\")\n        .clang_arg(path_string(mmtk_dir.clone()))\n        .clang_arg(\"-I\")\n        .clang_arg(path_string(julia_dir.join(\"src\")))\n        .clang_arg(\"-I\")\n        .clang_arg(path_string(julia_dir.join(\"src/support\"))).clang_arg",
+          "lineNumber": 99
+        },
+        {
+          "caller": "main",
+          "callee": "bindgen::Builder::default()\n        .header(path_string(julia_dir.join(\"src/julia.h\")))\n        .header(path_string(julia_dir.join(\"src/julia_internal.h\")))\n        // Including the paths to depending .h files\n        .clang_arg(\"-I\")\n        .clang_arg(path_string(crate_dir.join(\"api\")))\n        .clang_arg(\"-I\")\n        .clang_arg(path_string(mmtk_dir.clone()))\n        .clang_arg(\"-I\")\n        .clang_arg(path_string(julia_dir.join(\"src\")))\n        .clang_arg(\"-I\").clang_arg",
+          "lineNumber": 99
+        },
+        {
+          "caller": "main",
+          "callee": "bindgen::Builder::default()\n        .header(path_string(julia_dir.join(\"src/julia.h\")))\n        .header(path_string(julia_dir.join(\"src/julia_internal.h\")))\n        // Including the paths to depending .h files\n        .clang_arg(\"-I\")\n        .clang_arg(path_string(crate_dir.join(\"api\")))\n        .clang_arg(\"-I\")\n        .clang_arg(path_string(mmtk_dir.clone()))\n        .clang_arg(\"-I\")\n        .clang_arg(path_string(julia_dir.join(\"src\"))).clang_arg",
+          "lineNumber": 99
+        },
+        {
+          "caller": "main",
+          "callee": "bindgen::Builder::default()\n        .header(path_string(julia_dir.join(\"src/julia.h\")))\n        .header(path_string(julia_dir.join(\"src/julia_internal.h\")))\n        // Including the paths to depending .h files\n        .clang_arg(\"-I\")\n        .clang_arg(path_string(crate_dir.join(\"api\")))\n        .clang_arg(\"-I\")\n        .clang_arg(path_string(mmtk_dir.clone()))\n        .clang_arg(\"-I\").clang_arg",
+          "lineNumber": 99
+        },
+        {
+          "caller": "main",
+          "callee": "bindgen::Builder::default()\n        .header(path_string(julia_dir.join(\"src/julia.h\")))\n        .header(path_string(julia_dir.join(\"src/julia_internal.h\")))\n        // Including the paths to depending .h files\n        .clang_arg(\"-I\")\n        .clang_arg(path_string(crate_dir.join(\"api\")))\n        .clang_arg(\"-I\")\n        .clang_arg(path_string(mmtk_dir.clone())).clang_arg",
+          "lineNumber": 99
+        },
+        {
+          "caller": "main",
+          "callee": "bindgen::Builder::default()\n        .header(path_string(julia_dir.join(\"src/julia.h\")))\n        .header(path_string(julia_dir.join(\"src/julia_internal.h\")))\n        // Including the paths to depending .h files\n        .clang_arg(\"-I\")\n        .clang_arg(path_string(crate_dir.join(\"api\")))\n        .clang_arg(\"-I\").clang_arg",
+          "lineNumber": 99
+        },
+        {
+          "caller": "main",
+          "callee": "bindgen::Builder::default()\n        .header(path_string(julia_dir.join(\"src/julia.h\")))\n        .header(path_string(julia_dir.join(\"src/julia_internal.h\")))\n        // Including the paths to depending .h files\n        .clang_arg(\"-I\")\n        .clang_arg(path_string(crate_dir.join(\"api\"))).clang_arg",
+          "lineNumber": 99
+        },
+        {
+          "caller": "main",
+          "callee": "bindgen::Builder::default()\n        .header(path_string(julia_dir.join(\"src/julia.h\")))\n        .header(path_string(julia_dir.join(\"src/julia_internal.h\")))\n        // Including the paths to depending .h files\n        .clang_arg(\"-I\").clang_arg",
+          "lineNumber": 99
+        },
+        {
+          "caller": "main",
+          "callee": "bindgen::Builder::default()\n        .header(path_string(julia_dir.join(\"src/julia.h\")))\n        .header(path_string(julia_dir.join(\"src/julia_internal.h\"))).clang_arg",
+          "lineNumber": 99
+        },
+        {
+          "caller": "main",
+          "callee": "bindgen::Builder::default()\n        .header(path_string(julia_dir.join(\"src/julia.h\"))).header",
+          "lineNumber": 99
+        },
+        {
+          "caller": "main",
+          "callee": "bindgen::Builder::default().header",
+          "lineNumber": 99
+        },
+        {
+          "caller": "main",
+          "callee": "bindgen::Builder::default",
+          "lineNumber": 99
+        },
+        {
+          "caller": "main",
+          "callee": "path_string",
+          "lineNumber": 100
+        },
+        {
+          "caller": "main",
+          "callee": "julia_dir.join",
+          "lineNumber": 100
+        },
+        {
+          "caller": "main",
+          "callee": "path_string",
+          "lineNumber": 101
+        },
+        {
+          "caller": "main",
+          "callee": "julia_dir.join",
+          "lineNumber": 101
+        },
+        {
+          "caller": "main",
+          "callee": "path_string",
+          "lineNumber": 104
+        },
+        {
+          "caller": "main",
+          "callee": "crate_dir.join",
+          "lineNumber": 104
+        },
+        {
+          "caller": "main",
+          "callee": "path_string",
+          "lineNumber": 106
+        },
+        {
+          "caller": "main",
+          "callee": "mmtk_dir.clone",
+          "lineNumber": 106
+        },
+        {
+          "caller": "main",
+          "callee": "path_string",
+          "lineNumber": 108
+        },
+        {
+          "caller": "main",
+          "callee": "julia_dir.join",
+          "lineNumber": 108
+        },
+        {
+          "caller": "main",
+          "callee": "path_string",
+          "lineNumber": 110
+        },
+        {
+          "caller": "main",
+          "callee": "julia_dir.join",
+          "lineNumber": 110
+        },
+        {
+          "caller": "main",
+          "callee": "path_string",
+          "lineNumber": 112
+        },
+        {
+          "caller": "main",
+          "callee": "buildroot_dir.join",
+          "lineNumber": 112
+        },
+        {
+          "caller": "main",
+          "callee": "env::var_os",
+          "lineNumber": 114
+        },
+        {
+          "caller": "main",
+          "callee": "env::split_paths",
+          "lineNumber": 115
+        },
+        {
+          "caller": "main",
+          "callee": "builder.clang_arg(\"-I\").clang_arg",
+          "lineNumber": 116
+        },
+        {
+          "caller": "main",
+          "callee": "builder.clang_arg",
+          "lineNumber": 116
+        },
+        {
+          "caller": "main",
+          "callee": "path_string",
+          "lineNumber": 116
+        },
+        {
+          "caller": "main",
+          "callee": "builder\n        // all types that we generate bindings from\n        .allowlist_item(\"jl_datatype_layout_t\")\n        .allowlist_item(\"jl_ucontext_t\")\n        .allowlist_item(\"jl_small_typeof_tags\")\n        .allowlist_item(\"jl_*_tag\")\n        .allowlist_item(\"jl_svec_t\")\n        .allowlist_item(\"jl_module_t\")\n        .allowlist_item(\"jl_task_t\")\n        .allowlist_item(\"jl_datatype_t\")\n        .allowlist_item(\"jl_weakref_t\")\n        .allowlist_item(\"jl_cancel_source_t\")\n        .allowlist_item(\"jl_wait_entry_t\")\n        .allowlist_item(\"jl_wait_slot_t\")\n        .allowlist_item(\"jl_cancel_parent_link_t\")\n        .allowlist_item(\"jl_binding_partition_t\")\n        .allowlist_item(\"jl_bt_element_t\")\n        .allowlist_item(\"jl_taggedvalue_t\")\n        .allowlist_item(\"MMTkMutatorContext\")\n        // --opaque-type MMTkMutatorContext\n        .opaque_type(\"MMTkMutatorContext\")\n        // compile using c++\n        .clang_arg(\"-x\")\n        .clang_arg(\"c++\")\n        .clang_arg(\"-std=c++14\")\n        // using MMTK types\n        .clang_arg(\"-DWITH_THIRD_PARTY_HEAP=1\")\n        // using sticky, but it should not matter for the FFI bindings\n        .clang_arg(\"-DMMTK_PLAN_STICKYIMMIX\")\n        // Finish the builder and generate the bindings.\n        .generate().expect",
+          "lineNumber": 120
+        },
+        {
+          "caller": "main",
+          "callee": "builder\n        // all types that we generate bindings from\n        .allowlist_item(\"jl_datatype_layout_t\")\n        .allowlist_item(\"jl_ucontext_t\")\n        .allowlist_item(\"jl_small_typeof_tags\")\n        .allowlist_item(\"jl_*_tag\")\n        .allowlist_item(\"jl_svec_t\")\n        .allowlist_item(\"jl_module_t\")\n        .allowlist_item(\"jl_task_t\")\n        .allowlist_item(\"jl_datatype_t\")\n        .allowlist_item(\"jl_weakref_t\")\n        .allowlist_item(\"jl_cancel_source_t\")\n        .allowlist_item(\"jl_wait_entry_t\")\n        .allowlist_item(\"jl_wait_slot_t\")\n        .allowlist_item(\"jl_cancel_parent_link_t\")\n        .allowlist_item(\"jl_binding_partition_t\")\n        .allowlist_item(\"jl_bt_element_t\")\n        .allowlist_item(\"jl_taggedvalue_t\")\n        .allowlist_item(\"MMTkMutatorContext\")\n        // --opaque-type MMTkMutatorContext\n        .opaque_type(\"MMTkMutatorContext\")\n        // compile using c++\n        .clang_arg(\"-x\")\n        .clang_arg(\"c++\")\n        .clang_arg(\"-std=c++14\")\n        // using MMTK types\n        .clang_arg(\"-DWITH_THIRD_PARTY_HEAP=1\")\n        // using sticky, but it should not matter for the FFI bindings\n        .clang_arg(\"-DMMTK_PLAN_STICKYIMMIX\").generate",
+          "lineNumber": 120
+        },
+        {
+          "caller": "main",
+          "callee": "builder\n        // all types that we generate bindings from\n        .allowlist_item(\"jl_datatype_layout_t\")\n        .allowlist_item(\"jl_ucontext_t\")\n        .allowlist_item(\"jl_small_typeof_tags\")\n        .allowlist_item(\"jl_*_tag\")\n        .allowlist_item(\"jl_svec_t\")\n        .allowlist_item(\"jl_module_t\")\n        .allowlist_item(\"jl_task_t\")\n        .allowlist_item(\"jl_datatype_t\")\n        .allowlist_item(\"jl_weakref_t\")\n        .allowlist_item(\"jl_cancel_source_t\")\n        .allowlist_item(\"jl_wait_entry_t\")\n        .allowlist_item(\"jl_wait_slot_t\")\n        .allowlist_item(\"jl_cancel_parent_link_t\")\n        .allowlist_item(\"jl_binding_partition_t\")\n        .allowlist_item(\"jl_bt_element_t\")\n        .allowlist_item(\"jl_taggedvalue_t\")\n        .allowlist_item(\"MMTkMutatorContext\")\n        // --opaque-type MMTkMutatorContext\n        .opaque_type(\"MMTkMutatorContext\")\n        // compile using c++\n        .clang_arg(\"-x\")\n        .clang_arg(\"c++\")\n        .clang_arg(\"-std=c++14\")\n        // using MMTK types\n        .clang_arg(\"-DWITH_THIRD_PARTY_HEAP=1\").clang_arg",
+          "lineNumber": 120
+        },
+        {
+          "caller": "main",
+          "callee": "builder\n        // all types that we generate bindings from\n        .allowlist_item(\"jl_datatype_layout_t\")\n        .allowlist_item(\"jl_ucontext_t\")\n        .allowlist_item(\"jl_small_typeof_tags\")\n        .allowlist_item(\"jl_*_tag\")\n        .allowlist_item(\"jl_svec_t\")\n        .allowlist_item(\"jl_module_t\")\n        .allowlist_item(\"jl_task_t\")\n        .allowlist_item(\"jl_datatype_t\")\n        .allowlist_item(\"jl_weakref_t\")\n        .allowlist_item(\"jl_cancel_source_t\")\n        .allowlist_item(\"jl_wait_entry_t\")\n        .allowlist_item(\"jl_wait_slot_t\")\n        .allowlist_item(\"jl_cancel_parent_link_t\")\n        .allowlist_item(\"jl_binding_partition_t\")\n        .allowlist_item(\"jl_bt_element_t\")\n        .allowlist_item(\"jl_taggedvalue_t\")\n        .allowlist_item(\"MMTkMutatorContext\")\n        // --opaque-type MMTkMutatorContext\n        .opaque_type(\"MMTkMutatorContext\")\n        // compile using c++\n        .clang_arg(\"-x\")\n        .clang_arg(\"c++\")\n        .clang_arg(\"-std=c++14\").clang_arg",
+          "lineNumber": 120
+        },
+        {
+          "caller": "main",
+          "callee": "builder\n        // all types that we generate bindings from\n        .allowlist_item(\"jl_datatype_layout_t\")\n        .allowlist_item(\"jl_ucontext_t\")\n        .allowlist_item(\"jl_small_typeof_tags\")\n        .allowlist_item(\"jl_*_tag\")\n        .allowlist_item(\"jl_svec_t\")\n        .allowlist_item(\"jl_module_t\")\n        .allowlist_item(\"jl_task_t\")\n        .allowlist_item(\"jl_datatype_t\")\n        .allowlist_item(\"jl_weakref_t\")\n        .allowlist_item(\"jl_cancel_source_t\")\n        .allowlist_item(\"jl_wait_entry_t\")\n        .allowlist_item(\"jl_wait_slot_t\")\n        .allowlist_item(\"jl_cancel_parent_link_t\")\n        .allowlist_item(\"jl_binding_partition_t\")\n        .allowlist_item(\"jl_bt_element_t\")\n        .allowlist_item(\"jl_taggedvalue_t\")\n        .allowlist_item(\"MMTkMutatorContext\")\n        // --opaque-type MMTkMutatorContext\n        .opaque_type(\"MMTkMutatorContext\")\n        // compile using c++\n        .clang_arg(\"-x\")\n        .clang_arg(\"c++\").clang_arg",
+          "lineNumber": 120
+        },
+        {
+          "caller": "main",
+          "callee": "builder\n        // all types that we generate bindings from\n        .allowlist_item(\"jl_datatype_layout_t\")\n        .allowlist_item(\"jl_ucontext_t\")\n        .allowlist_item(\"jl_small_typeof_tags\")\n        .allowlist_item(\"jl_*_tag\")\n        .allowlist_item(\"jl_svec_t\")\n        .allowlist_item(\"jl_module_t\")\n        .allowlist_item(\"jl_task_t\")\n        .allowlist_item(\"jl_datatype_t\")\n        .allowlist_item(\"jl_weakref_t\")\n        .allowlist_item(\"jl_cancel_source_t\")\n        .allowlist_item(\"jl_wait_entry_t\")\n        .allowlist_item(\"jl_wait_slot_t\")\n        .allowlist_item(\"jl_cancel_parent_link_t\")\n        .allowlist_item(\"jl_binding_partition_t\")\n        .allowlist_item(\"jl_bt_element_t\")\n        .allowlist_item(\"jl_taggedvalue_t\")\n        .allowlist_item(\"MMTkMutatorContext\")\n        // --opaque-type MMTkMutatorContext\n        .opaque_type(\"MMTkMutatorContext\")\n        // compile using c++\n        .clang_arg(\"-x\").clang_arg",
+          "lineNumber": 120
+        },
+        {
+          "caller": "main",
+          "callee": "builder\n        // all types that we generate bindings from\n        .allowlist_item(\"jl_datatype_layout_t\")\n        .allowlist_item(\"jl_ucontext_t\")\n        .allowlist_item(\"jl_small_typeof_tags\")\n        .allowlist_item(\"jl_*_tag\")\n        .allowlist_item(\"jl_svec_t\")\n        .allowlist_item(\"jl_module_t\")\n        .allowlist_item(\"jl_task_t\")\n        .allowlist_item(\"jl_datatype_t\")\n        .allowlist_item(\"jl_weakref_t\")\n        .allowlist_item(\"jl_cancel_source_t\")\n        .allowlist_item(\"jl_wait_entry_t\")\n        .allowlist_item(\"jl_wait_slot_t\")\n        .allowlist_item(\"jl_cancel_parent_link_t\")\n        .allowlist_item(\"jl_binding_partition_t\")\n        .allowlist_item(\"jl_bt_element_t\")\n        .allowlist_item(\"jl_taggedvalue_t\")\n        .allowlist_item(\"MMTkMutatorContext\")\n        // --opaque-type MMTkMutatorContext\n        .opaque_type(\"MMTkMutatorContext\").clang_arg",
+          "lineNumber": 120
+        },
+        {
+          "caller": "main",
+          "callee": "builder\n        // all types that we generate bindings from\n        .allowlist_item(\"jl_datatype_layout_t\")\n        .allowlist_item(\"jl_ucontext_t\")\n        .allowlist_item(\"jl_small_typeof_tags\")\n        .allowlist_item(\"jl_*_tag\")\n        .allowlist_item(\"jl_svec_t\")\n        .allowlist_item(\"jl_module_t\")\n        .allowlist_item(\"jl_task_t\")\n        .allowlist_item(\"jl_datatype_t\")\n        .allowlist_item(\"jl_weakref_t\")\n        .allowlist_item(\"jl_cancel_source_t\")\n        .allowlist_item(\"jl_wait_entry_t\")\n        .allowlist_item(\"jl_wait_slot_t\")\n        .allowlist_item(\"jl_cancel_parent_link_t\")\n        .allowlist_item(\"jl_binding_partition_t\")\n        .allowlist_item(\"jl_bt_element_t\")\n        .allowlist_item(\"jl_taggedvalue_t\")\n        .allowlist_item(\"MMTkMutatorContext\").opaque_type",
+          "lineNumber": 120
+        },
+        {
+          "caller": "main",
+          "callee": "builder\n        // all types that we generate bindings from\n        .allowlist_item(\"jl_datatype_layout_t\")\n        .allowlist_item(\"jl_ucontext_t\")\n        .allowlist_item(\"jl_small_typeof_tags\")\n        .allowlist_item(\"jl_*_tag\")\n        .allowlist_item(\"jl_svec_t\")\n        .allowlist_item(\"jl_module_t\")\n        .allowlist_item(\"jl_task_t\")\n        .allowlist_item(\"jl_datatype_t\")\n        .allowlist_item(\"jl_weakref_t\")\n        .allowlist_item(\"jl_cancel_source_t\")\n        .allowlist_item(\"jl_wait_entry_t\")\n        .allowlist_item(\"jl_wait_slot_t\")\n        .allowlist_item(\"jl_cancel_parent_link_t\")\n        .allowlist_item(\"jl_binding_partition_t\")\n        .allowlist_item(\"jl_bt_element_t\")\n        .allowlist_item(\"jl_taggedvalue_t\").allowlist_item",
+          "lineNumber": 120
+        },
+        {
+          "caller": "main",
+          "callee": "builder\n        // all types that we generate bindings from\n        .allowlist_item(\"jl_datatype_layout_t\")\n        .allowlist_item(\"jl_ucontext_t\")\n        .allowlist_item(\"jl_small_typeof_tags\")\n        .allowlist_item(\"jl_*_tag\")\n        .allowlist_item(\"jl_svec_t\")\n        .allowlist_item(\"jl_module_t\")\n        .allowlist_item(\"jl_task_t\")\n        .allowlist_item(\"jl_datatype_t\")\n        .allowlist_item(\"jl_weakref_t\")\n        .allowlist_item(\"jl_cancel_source_t\")\n        .allowlist_item(\"jl_wait_entry_t\")\n        .allowlist_item(\"jl_wait_slot_t\")\n        .allowlist_item(\"jl_cancel_parent_link_t\")\n        .allowlist_item(\"jl_binding_partition_t\")\n        .allowlist_item(\"jl_bt_element_t\").allowlist_item",
+          "lineNumber": 120
+        },
+        {
+          "caller": "main",
+          "callee": "builder\n        // all types that we generate bindings from\n        .allowlist_item(\"jl_datatype_layout_t\")\n        .allowlist_item(\"jl_ucontext_t\")\n        .allowlist_item(\"jl_small_typeof_tags\")\n        .allowlist_item(\"jl_*_tag\")\n        .allowlist_item(\"jl_svec_t\")\n        .allowlist_item(\"jl_module_t\")\n        .allowlist_item(\"jl_task_t\")\n        .allowlist_item(\"jl_datatype_t\")\n        .allowlist_item(\"jl_weakref_t\")\n        .allowlist_item(\"jl_cancel_source_t\")\n        .allowlist_item(\"jl_wait_entry_t\")\n        .allowlist_item(\"jl_wait_slot_t\")\n        .allowlist_item(\"jl_cancel_parent_link_t\")\n        .allowlist_item(\"jl_binding_partition_t\").allowlist_item",
+          "lineNumber": 120
+        },
+        {
+          "caller": "main",
+          "callee": "builder\n        // all types that we generate bindings from\n        .allowlist_item(\"jl_datatype_layout_t\")\n        .allowlist_item(\"jl_ucontext_t\")\n        .allowlist_item(\"jl_small_typeof_tags\")\n        .allowlist_item(\"jl_*_tag\")\n        .allowlist_item(\"jl_svec_t\")\n        .allowlist_item(\"jl_module_t\")\n        .allowlist_item(\"jl_task_t\")\n        .allowlist_item(\"jl_datatype_t\")\n        .allowlist_item(\"jl_weakref_t\")\n        .allowlist_item(\"jl_cancel_source_t\")\n        .allowlist_item(\"jl_wait_entry_t\")\n        .allowlist_item(\"jl_wait_slot_t\")\n        .allowlist_item(\"jl_cancel_parent_link_t\").allowlist_item",
+          "lineNumber": 120
+        },
+        {
+          "caller": "main",
+          "callee": "builder\n        // all types that we generate bindings from\n        .allowlist_item(\"jl_datatype_layout_t\")\n        .allowlist_item(\"jl_ucontext_t\")\n        .allowlist_item(\"jl_small_typeof_tags\")\n        .allowlist_item(\"jl_*_tag\")\n        .allowlist_item(\"jl_svec_t\")\n        .allowlist_item(\"jl_module_t\")\n        .allowlist_item(\"jl_task_t\")\n        .allowlist_item(\"jl_datatype_t\")\n        .allowlist_item(\"jl_weakref_t\")\n        .allowlist_item(\"jl_cancel_source_t\")\n        .allowlist_item(\"jl_wait_entry_t\")\n        .allowlist_item(\"jl_wait_slot_t\").allowlist_item",
+          "lineNumber": 120
+        },
+        {
+          "caller": "main",
+          "callee": "builder\n        // all types that we generate bindings from\n        .allowlist_item(\"jl_datatype_layout_t\")\n        .allowlist_item(\"jl_ucontext_t\")\n        .allowlist_item(\"jl_small_typeof_tags\")\n        .allowlist_item(\"jl_*_tag\")\n        .allowlist_item(\"jl_svec_t\")\n        .allowlist_item(\"jl_module_t\")\n        .allowlist_item(\"jl_task_t\")\n        .allowlist_item(\"jl_datatype_t\")\n        .allowlist_item(\"jl_weakref_t\")\n        .allowlist_item(\"jl_cancel_source_t\")\n        .allowlist_item(\"jl_wait_entry_t\").allowlist_item",
+          "lineNumber": 120
+        },
+        {
+          "caller": "main",
+          "callee": "builder\n        // all types that we generate bindings from\n        .allowlist_item(\"jl_datatype_layout_t\")\n        .allowlist_item(\"jl_ucontext_t\")\n        .allowlist_item(\"jl_small_typeof_tags\")\n        .allowlist_item(\"jl_*_tag\")\n        .allowlist_item(\"jl_svec_t\")\n        .allowlist_item(\"jl_module_t\")\n        .allowlist_item(\"jl_task_t\")\n        .allowlist_item(\"jl_datatype_t\")\n        .allowlist_item(\"jl_weakref_t\")\n        .allowlist_item(\"jl_cancel_source_t\").allowlist_item",
+          "lineNumber": 120
+        },
+        {
+          "caller": "main",
+          "callee": "builder\n        // all types that we generate bindings from\n        .allowlist_item(\"jl_datatype_layout_t\")\n        .allowlist_item(\"jl_ucontext_t\")\n        .allowlist_item(\"jl_small_typeof_tags\")\n        .allowlist_item(\"jl_*_tag\")\n        .allowlist_item(\"jl_svec_t\")\n        .allowlist_item(\"jl_module_t\")\n        .allowlist_item(\"jl_task_t\")\n        .allowlist_item(\"jl_datatype_t\")\n        .allowlist_item(\"jl_weakref_t\").allowlist_item",
+          "lineNumber": 120
+        },
+        {
+          "caller": "main",
+          "callee": "builder\n        // all types that we generate bindings from\n        .allowlist_item(\"jl_datatype_layout_t\")\n        .allowlist_item(\"jl_ucontext_t\")\n        .allowlist_item(\"jl_small_typeof_tags\")\n        .allowlist_item(\"jl_*_tag\")\n        .allowlist_item(\"jl_svec_t\")\n        .allowlist_item(\"jl_module_t\")\n        .allowlist_item(\"jl_task_t\")\n        .allowlist_item(\"jl_datatype_t\").allowlist_item",
+          "lineNumber": 120
+        },
+        {
+          "caller": "main",
+          "callee": "builder\n        // all types that we generate bindings from\n        .allowlist_item(\"jl_datatype_layout_t\")\n        .allowlist_item(\"jl_ucontext_t\")\n        .allowlist_item(\"jl_small_typeof_tags\")\n        .allowlist_item(\"jl_*_tag\")\n        .allowlist_item(\"jl_svec_t\")\n        .allowlist_item(\"jl_module_t\")\n        .allowlist_item(\"jl_task_t\").allowlist_item",
+          "lineNumber": 120
+        },
+        {
+          "caller": "main",
+          "callee": "builder\n        // all types that we generate bindings from\n        .allowlist_item(\"jl_datatype_layout_t\")\n        .allowlist_item(\"jl_ucontext_t\")\n        .allowlist_item(\"jl_small_typeof_tags\")\n        .allowlist_item(\"jl_*_tag\")\n        .allowlist_item(\"jl_svec_t\")\n        .allowlist_item(\"jl_module_t\").allowlist_item",
+          "lineNumber": 120
+        },
+        {
+          "caller": "main",
+          "callee": "builder\n        // all types that we generate bindings from\n        .allowlist_item(\"jl_datatype_layout_t\")\n        .allowlist_item(\"jl_ucontext_t\")\n        .allowlist_item(\"jl_small_typeof_tags\")\n        .allowlist_item(\"jl_*_tag\")\n        .allowlist_item(\"jl_svec_t\").allowlist_item",
+          "lineNumber": 120
+        },
+        {
+          "caller": "main",
+          "callee": "builder\n        // all types that we generate bindings from\n        .allowlist_item(\"jl_datatype_layout_t\")\n        .allowlist_item(\"jl_ucontext_t\")\n        .allowlist_item(\"jl_small_typeof_tags\")\n        .allowlist_item(\"jl_*_tag\").allowlist_item",
+          "lineNumber": 120
+        },
+        {
+          "caller": "main",
+          "callee": "builder\n        // all types that we generate bindings from\n        .allowlist_item(\"jl_datatype_layout_t\")\n        .allowlist_item(\"jl_ucontext_t\")\n        .allowlist_item(\"jl_small_typeof_tags\").allowlist_item",
+          "lineNumber": 120
+        },
+        {
+          "caller": "main",
+          "callee": "builder\n        // all types that we generate bindings from\n        .allowlist_item(\"jl_datatype_layout_t\")\n        .allowlist_item(\"jl_ucontext_t\").allowlist_item",
+          "lineNumber": 120
+        },
+        {
+          "caller": "main",
+          "callee": "builder\n        // all types that we generate bindings from\n        .allowlist_item(\"jl_datatype_layout_t\").allowlist_item",
+          "lineNumber": 120
+        },
+        {
+          "caller": "main",
+          "callee": "builder.allowlist_item",
+          "lineNumber": 120
+        },
+        {
+          "caller": "main",
+          "callee": "bindings\n        .write_to_file(\"src/julia_types.rs\").expect",
+          "lineNumber": 154
+        },
+        {
+          "caller": "main",
+          "callee": "bindings.write_to_file",
+          "lineNumber": 154
+        },
+        {
+          "caller": "main",
+          "callee": "built::write_built_file().expect",
+          "lineNumber": 158
+        },
+        {
+          "caller": "main",
+          "callee": "built::write_built_file",
+          "lineNumber": 158
+        }
+      ],
+      "metrics": {
+        "importCount": 0,
+        "exportCount": 0,
+        "functionCount": 2,
+        "classCount": 0
+      }
+    },
+    {
+      "path": "src/gc-tls-common.h",
+      "language": "c",
+      "fileCategory": "code",
+      "totalLines": 60,
+      "nonEmptyLines": 48,
+      "metrics": {
+        "importCount": 0,
+        "exportCount": 0,
+        "functionCount": 0,
+        "classCount": 0
+      }
+    },
+    {
+      "path": "src/gc-tls-stock.h",
+      "language": "c",
+      "fileCategory": "code",
+      "totalLines": 73,
+      "nonEmptyLines": 59,
+      "metrics": {
+        "importCount": 0,
+        "exportCount": 0,
+        "functionCount": 0,
+        "classCount": 0
+      }
+    },
+    {
+      "path": "src/gc-wb-stock.h",
+      "language": "c",
+      "fileCategory": "code",
+      "totalLines": 127,
+      "nonEmptyLines": 116,
+      "callGraph": [
+        {
+          "caller": "*src_p = *src_pp",
+          "callee": "jl_atomic_load_relaxed",
+          "lineNumber": 69
+        },
+        {
+          "caller": "*src_p = *src_pp",
+          "callee": "jl_atomic_store_release",
+          "lineNumber": 70
+        },
+        {
+          "caller": "*src_p = *src_pp",
+          "callee": "jl_astaggedvalue",
+          "lineNumber": 72
+        },
+        {
+          "caller": "*src_p = *src_pp",
+          "callee": "jl_gc_queue_root",
+          "lineNumber": 73
+        }
+      ],
+      "metrics": {
+        "importCount": 0,
+        "exportCount": 0,
+        "functionCount": 0,
+        "classCount": 0
+      }
+    },
+    {
+      "path": "src/iddict.c",
+      "language": "c",
+      "fileCategory": "code",
+      "totalLines": 195,
+      "nonEmptyLines": 173,
+      "functions": [
+        {
+          "name": "jl_table_assign_bp",
+          "startLine": 32,
+          "endLine": 105,
+          "params": [
+            "pa",
+            "key",
+            "val"
+          ]
+        }
+      ],
+      "callGraph": [
+        {
+          "caller": "jl_table_assign_bp",
+          "callee": "hash_size",
+          "lineNumber": 38
+        },
+        {
+          "caller": "jl_table_assign_bp",
+          "callee": "jl_alloc_memory_any",
+          "lineNumber": 40
+        },
+        {
+          "caller": "jl_table_assign_bp",
+          "callee": "hash_size",
+          "lineNumber": 41
+        },
+        {
+          "caller": "jl_table_assign_bp",
+          "callee": "max_probe",
+          "lineNumber": 44
+        },
+        {
+          "caller": "jl_table_assign_bp",
+          "callee": "keyhash",
+          "lineNumber": 47
+        },
+        {
+          "caller": "jl_table_assign_bp",
+          "callee": "h2index",
+          "lineNumber": 50
+        },
+        {
+          "caller": "jl_table_assign_bp",
+          "callee": "jl_atomic_load_relaxed",
+          "lineNumber": 56
+        },
+        {
+          "caller": "jl_table_assign_bp",
+          "callee": "jl_egal",
+          "lineNumber": 62
+        },
+        {
+          "caller": "jl_table_assign_bp",
+          "callee": "jl_atomic_load_relaxed",
+          "lineNumber": 63
+        },
+        {
+          "caller": "jl_table_assign_bp",
+          "callee": "jl_gc_write_atomic",
+          "lineNumber": 64
+        },
+        {
+          "caller": "jl_table_assign_bp",
+          "callee": "assert",
+          "lineNumber": 68
+        },
+        {
+          "caller": "jl_table_assign_bp",
+          "callee": "jl_atomic_load_relaxed",
+          "lineNumber": 72
+        },
+        {
+          "caller": "jl_table_assign_bp",
+          "callee": "assert",
+          "lineNumber": 73
+        },
+        {
+          "caller": "jl_table_assign_bp",
+          "callee": "jl_atomic_load_relaxed",
+          "lineNumber": 73
+        },
+        {
+          "caller": "jl_table_assign_bp",
+          "callee": "jl_gc_write_atomic",
+          "lineNumber": 82
+        },
+        {
+          "caller": "jl_table_assign_bp",
+          "callee": "jl_gc_write_atomic",
+          "lineNumber": 83
+        },
+        {
+          "caller": "jl_table_assign_bp",
+          "callee": "jl_idtable_rehash",
+          "lineNumber": 98
+        },
+        {
+          "caller": "jl_table_assign_bp",
+          "callee": "hash_size",
+          "lineNumber": 102
+        },
+        {
+          "caller": "jl_table_assign_bp",
+          "callee": "max_probe",
+          "lineNumber": 103
+        }
+      ],
+      "metrics": {
+        "importCount": 0,
+        "exportCount": 0,
+        "functionCount": 1,
+        "classCount": 0
+      }
+    },
+    {
+      "path": "src/idset.c",
+      "language": "c",
+      "fileCategory": "code",
+      "totalLines": 122,
+      "nonEmptyLines": 111,
+      "functions": [
+        {
+          "name": "idset_hash",
+          "startLine": 4,
+          "endLine": 11,
+          "params": [
+            "idx",
+            "data"
+          ]
+        },
+        {
+          "name": "idset_eq",
+          "startLine": 13,
+          "endLine": 20,
+          "params": [
+            "idx",
+            "y",
+            "data",
+            "hv"
+          ]
+        },
+        {
+          "name": "jl_idset_peek_bp",
+          "startLine": 36,
+          "endLine": 40,
+          "params": [
+            "keys",
+            "idxs",
+            "key"
+          ]
+        },
+        {
+          "name": "idset_compact",
+          "startLine": 51,
+          "endLine": 68,
+          "params": [
+            "keys"
+          ]
+        },
+        {
+          "name": "jl_idset_pop",
+          "startLine": 115,
+          "endLine": 122,
+          "params": [
+            "keys",
+            "idxs",
+            "key"
+          ]
+        }
+      ],
+      "exports": [
+        {
+          "name": "jl_idset_peek_bp",
+          "line": 36,
+          "isDefault": false
+        },
+        {
+          "name": "jl_idset_pop",
+          "line": 115,
+          "isDefault": false
+        }
+      ],
+      "callGraph": [
+        {
+          "caller": "idset_hash",
+          "callee": "jl_genericmemory_ptr_ref",
+          "lineNumber": 8
+        },
+        {
+          "caller": "idset_hash",
+          "callee": "jl_object_id",
+          "lineNumber": 10
+        },
+        {
+          "caller": "idset_eq",
+          "callee": "jl_genericmemory_ptr_ref",
+          "lineNumber": 17
+        },
+        {
+          "caller": "idset_eq",
+          "callee": "jl_egal",
+          "lineNumber": 19
+        },
+        {
+          "caller": "jl_idset_peek_bp",
+          "callee": "jl_object_id",
+          "lineNumber": 38
+        },
+        {
+          "caller": "jl_idset_peek_bp",
+          "callee": "jl_smallintset_lookup",
+          "lineNumber": 39
+        },
+        {
+          "caller": "idset_compact",
+          "callee": "jl_genericmemory_ptr_ref",
+          "lineNumber": 57
+        },
+        {
+          "caller": "idset_compact",
+          "callee": "jl_genericmemory_ptr_set",
+          "lineNumber": 61
+        },
+        {
+          "caller": "idset_compact",
+          "callee": "jl_genericmemory_ptr_set",
+          "lineNumber": 62
+        },
+        {
+          "caller": "jl_idset_pop",
+          "callee": "jl_object_id",
+          "lineNumber": 117
+        },
+        {
+          "caller": "jl_idset_pop",
+          "callee": "jl_smallintset_lookup",
+          "lineNumber": 118
+        },
+        {
+          "caller": "jl_idset_pop",
+          "callee": "jl_genericmemory_ptr_set",
+          "lineNumber": 120
+        }
+      ],
+      "metrics": {
+        "importCount": 0,
+        "exportCount": 2,
+        "functionCount": 5,
+        "classCount": 0
+      }
+    },
+    {
+      "path": "src/julia_locks.h",
+      "language": "c",
+      "fileCategory": "code",
+      "totalLines": 192,
+      "nonEmptyLines": 165,
+      "callGraph": [
+        {
+          "caller": "jl_mutex_wait",
+          "callee": "_jl_mutex_wait",
+          "lineNumber": 32
+        },
+        {
+          "caller": "jl_mutex_lock",
+          "callee": "_jl_mutex_lock",
+          "lineNumber": 75
+        },
+        {
+          "caller": "jl_mutex_trylock",
+          "callee": "_jl_mutex_trylock",
+          "lineNumber": 85
+        },
+        {
+          "caller": "jl_mutex_unlock",
+          "callee": "_jl_mutex_unlock",
+          "lineNumber": 90
+        },
+        {
+          "caller": "jl_mutex_init",
+          "callee": "_jl_mutex_init",
+          "lineNumber": 100
+        },
+        {
+          "caller": "jl_unique_gcsafe_lock",
+          "callee": "jl_gc_safe_enter",
+          "lineNumber": 172
+        },
+        {
+          "caller": "jl_unique_gcsafe_lock",
+          "callee": "std::unique_lock<std::mutex>",
+          "lineNumber": 173
+        },
+        {
+          "caller": "~jl_unique_gcsafe_lock",
+          "callee": "unlock",
+          "lineNumber": 181
+        },
+        {
+          "caller": "~jl_unique_gcsafe_lock",
+          "callee": "jl_gc_safe_leave",
+          "lineNumber": 182
+        },
+        {
+          "caller": "wait",
+          "callee": "wait",
+          "lineNumber": 186
+        }
+      ],
+      "metrics": {
+        "importCount": 0,
+        "exportCount": 0,
+        "functionCount": 0,
+        "classCount": 0
+      }
+    },
+    {
+      "path": "src/mig/README.md",
+      "language": "markdown",
+      "fileCategory": "docs",
+      "totalLines": 16,
+      "nonEmptyLines": 11,
+      "sections": [
+        {
+          "heading": "MIG (Mach Interface Generator) stubs",
+          "level": 1,
+          "line": 1
+        },
+        {
+          "heading": "Re-generating",
+          "level": 2,
+          "line": 7
+        }
+      ],
+      "metrics": {
+        "importCount": 0,
+        "exportCount": 0,
+        "functionCount": 0,
+        "classCount": 0,
+        "sectionCount": 2
+      }
+    },
+    {
+      "path": "src/mig/exc.h",
+      "language": "c",
+      "fileCategory": "code",
+      "totalLines": 368,
+      "nonEmptyLines": 331,
+      "metrics": {
+        "importCount": 0,
+        "exportCount": 0,
+        "functionCount": 0,
+        "classCount": 0
+      }
+    }
+  ]
+}

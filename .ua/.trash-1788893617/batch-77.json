@@ -1,0 +1,35 @@
+{
+  "batchIndex": 77,
+  "nodes": [
+    {
+      "id": "document:stdlib/REPL/src/TerminalMenus/LICENSE.md",
+      "type": "document",
+      "name": "LICENSE.md",
+      "filePath": "stdlib/REPL/src/TerminalMenus/LICENSE.md",
+      "summary": "Documentation file: LICENSE.md.",
+      "tags": [
+        "documentation",
+        "runtime"
+      ],
+      "complexity": "simple",
+      "language": "markdown"
+    }
+  ],
+  "edges": [],
+  "batchFiles": [
+    {
+      "path": "stdlib/REPL/src/TerminalMenus/LICENSE.md",
+      "language": "markdown",
+      "fileCategory": "docs",
+      "totalLines": 22,
+      "nonEmptyLines": 21,
+      "metrics": {
+        "importCount": 0,
+        "exportCount": 0,
+        "functionCount": 0,
+        "classCount": 0,
+        "sectionCount": 0
+      }
+    }
+  ]
+}

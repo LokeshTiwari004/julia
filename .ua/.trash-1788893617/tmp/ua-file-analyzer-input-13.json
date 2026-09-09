@@ -1,0 +1,32 @@
+{
+  "projectRoot": "/home/maruti/julia",
+  "batchFiles": [
+    {
+      "path": "src/support/eytzinger.c",
+      "language": "c",
+      "sizeLines": 123,
+      "fileCategory": "code"
+    },
+    {
+      "path": "src/support/eytzinger.h",
+      "language": "c",
+      "sizeLines": 117,
+      "fileCategory": "code"
+    },
+    {
+      "path": "src/support/test/eytzingertest.c",
+      "language": "c",
+      "sizeLines": 135,
+      "fileCategory": "code"
+    }
+  ],
+  "batchImportData": {
+    "src/support/eytzinger.c": [
+      "src/support/eytzinger.h"
+    ],
+    "src/support/eytzinger.h": [],
+    "src/support/test/eytzingertest.c": [
+      "src/support/eytzinger.h"
+    ]
+  }
+}

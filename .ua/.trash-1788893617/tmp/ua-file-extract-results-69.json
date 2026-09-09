@@ -1,0 +1,43 @@
+{
+  "scriptCompleted": true,
+  "filesAnalyzed": 0,
+  "filesSkipped": [
+    "stdlib/Dates/src/arithmetic.jl",
+    "stdlib/Dates/src/conversions.jl",
+    "stdlib/Dates/src/deprecated.jl",
+    "stdlib/Dates/src/io.jl",
+    "stdlib/Dates/src/parse.jl",
+    "stdlib/Dates/src/periods.jl",
+    "stdlib/Dates/src/query.jl",
+    "stdlib/Dates/src/ranges.jl",
+    "stdlib/Dates/src/rounding.jl",
+    "stdlib/Dates/src/types.jl",
+    "stdlib/Dates/test/accessors.jl",
+    "stdlib/Dates/test/adjusters.jl",
+    "stdlib/Dates/test/arithmetic.jl",
+    "stdlib/Dates/test/conversions.jl",
+    "stdlib/Dates/test/io.jl",
+    "stdlib/Dates/test/periods.jl",
+    "stdlib/Dates/test/query.jl",
+    "stdlib/Dates/test/ranges.jl",
+    "stdlib/Dates/test/rounding.jl",
+    "stdlib/Dates/test/runtests.jl",
+    "stdlib/Dates/test/testgroups",
+    "stdlib/Dates/test/types.jl",
+    "stdlib/DelimitedFiles.version",
+    "stdlib/Distributed.version",
+    "stdlib/Downloads.version"
+  ],
+  "analysisOutcomes": {
+    "structure": {
+      "succeeded": 0,
+      "failed": 0
+    },
+    "callGraph": {
+      "succeeded": 0,
+      "failed": 0,
+      "skipped": 0
+    }
+  },
+  "results": []
+}

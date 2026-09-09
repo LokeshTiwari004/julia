@@ -1,0 +1,42 @@
+{
+  "projectRoot": "/home/maruti/julia",
+  "batchFiles": [
+    {
+      "path": ".ua/.trash-1788882187/tmp/ua-import-map-input.json",
+      "language": "json",
+      "sizeLines": 5589,
+      "fileCategory": "config"
+    },
+    {
+      "path": ".ua/.trash-1788882187/tmp/ua-import-map-output.json",
+      "language": "json",
+      "sizeLines": 1727,
+      "fileCategory": "config"
+    },
+    {
+      "path": ".ua/.trash-1788882187/tmp/ua-scan-files.json",
+      "language": "json",
+      "sizeLines": 6776,
+      "fileCategory": "config"
+    },
+    {
+      "path": ".ua/.trash-1788882187/tmp/ua-tour-input.json",
+      "language": "json",
+      "sizeLines": 49500,
+      "fileCategory": "config"
+    },
+    {
+      "path": ".ua/.trash-1788882187/tmp/ua-tour-results.json",
+      "language": "json",
+      "sizeLines": 13359,
+      "fileCategory": "config"
+    }
+  ],
+  "batchImportData": {
+    ".ua/.trash-1788882187/tmp/ua-import-map-input.json": [],
+    ".ua/.trash-1788882187/tmp/ua-import-map-output.json": [],
+    ".ua/.trash-1788882187/tmp/ua-scan-files.json": [],
+    ".ua/.trash-1788882187/tmp/ua-tour-input.json": [],
+    ".ua/.trash-1788882187/tmp/ua-tour-results.json": []
+  }
+}

@@ -1,0 +1,182 @@
+{
+  "projectRoot": "/home/maruti/julia",
+  "batchFiles": [
+    {
+      "path": "Compiler/test/effects.jl",
+      "language": "jl",
+      "sizeLines": 1633,
+      "fileCategory": "code"
+    },
+    {
+      "path": "Compiler/test/inference.jl",
+      "language": "jl",
+      "sizeLines": 7864,
+      "fileCategory": "code"
+    },
+    {
+      "path": "Compiler/test/inline.jl",
+      "language": "jl",
+      "sizeLines": 2465,
+      "fileCategory": "code"
+    },
+    {
+      "path": "Compiler/test/interpreter_exec.jl",
+      "language": "jl",
+      "sizeLines": 114,
+      "fileCategory": "code"
+    },
+    {
+      "path": "Compiler/test/invalidation.jl",
+      "language": "jl",
+      "sizeLines": 465,
+      "fileCategory": "code"
+    },
+    {
+      "path": "Compiler/test/irpasses.jl",
+      "language": "jl",
+      "sizeLines": 2258,
+      "fileCategory": "code"
+    },
+    {
+      "path": "Compiler/test/irutils.jl",
+      "language": "jl",
+      "sizeLines": 103,
+      "fileCategory": "code"
+    },
+    {
+      "path": "Compiler/test/newinterp.jl",
+      "language": "jl",
+      "sizeLines": 64,
+      "fileCategory": "code"
+    },
+    {
+      "path": "Compiler/test/precompile.jl",
+      "language": "jl",
+      "sizeLines": 34,
+      "fileCategory": "code"
+    },
+    {
+      "path": "Compiler/test/runtests.jl",
+      "language": "jl",
+      "sizeLines": 15,
+      "fileCategory": "code"
+    },
+    {
+      "path": "Compiler/test/setup_Compiler.jl",
+      "language": "jl",
+      "sizeLines": 16,
+      "fileCategory": "code"
+    },
+    {
+      "path": "Compiler/test/special_loading.jl",
+      "language": "jl",
+      "sizeLines": 13,
+      "fileCategory": "code"
+    },
+    {
+      "path": "Compiler/test/ssair.jl",
+      "language": "jl",
+      "sizeLines": 939,
+      "fileCategory": "code"
+    },
+    {
+      "path": "Compiler/test/tarjan.jl",
+      "language": "jl",
+      "sizeLines": 170,
+      "fileCategory": "code"
+    },
+    {
+      "path": "Compiler/test/testgroups",
+      "language": "unknown",
+      "sizeLines": 20,
+      "fileCategory": "code"
+    },
+    {
+      "path": "Compiler/test/validation.jl",
+      "language": "jl",
+      "sizeLines": 135,
+      "fileCategory": "code"
+    },
+    {
+      "path": "Compiler/test/verifytrim.jl",
+      "language": "jl",
+      "sizeLines": 152,
+      "fileCategory": "code"
+    },
+    {
+      "path": "JuliaLowering/Project.toml",
+      "language": "toml",
+      "sizeLines": 22,
+      "fileCategory": "config"
+    },
+    {
+      "path": "JuliaLowering/README.md",
+      "language": "markdown",
+      "sizeLines": 245,
+      "fileCategory": "docs"
+    },
+    {
+      "path": "JuliaLowering/src/JuliaLowering.jl",
+      "language": "jl",
+      "sizeLines": 60,
+      "fileCategory": "code"
+    },
+    {
+      "path": "JuliaLowering/src/ast.jl",
+      "language": "jl",
+      "sizeLines": 499,
+      "fileCategory": "code"
+    },
+    {
+      "path": "JuliaLowering/src/binding_analysis.jl",
+      "language": "jl",
+      "sizeLines": 374,
+      "fileCategory": "code"
+    },
+    {
+      "path": "JuliaLowering/src/bindings.jl",
+      "language": "jl",
+      "sizeLines": 189,
+      "fileCategory": "code"
+    },
+    {
+      "path": "JuliaLowering/src/closure_conversion.jl",
+      "language": "jl",
+      "sizeLines": 694,
+      "fileCategory": "code"
+    },
+    {
+      "path": "JuliaLowering/src/compat.jl",
+      "language": "jl",
+      "sizeLines": 814,
+      "fileCategory": "code"
+    }
+  ],
+  "batchImportData": {
+    "Compiler/test/effects.jl": [],
+    "Compiler/test/inference.jl": [],
+    "Compiler/test/inline.jl": [],
+    "Compiler/test/interpreter_exec.jl": [],
+    "Compiler/test/invalidation.jl": [],
+    "Compiler/test/irpasses.jl": [],
+    "Compiler/test/irutils.jl": [],
+    "Compiler/test/newinterp.jl": [],
+    "Compiler/test/precompile.jl": [],
+    "Compiler/test/runtests.jl": [],
+    "Compiler/test/setup_Compiler.jl": [],
+    "Compiler/test/special_loading.jl": [],
+    "Compiler/test/ssair.jl": [],
+    "Compiler/test/tarjan.jl": [],
+    "Compiler/test/testgroups": [],
+    "Compiler/test/validation.jl": [],
+    "Compiler/test/verifytrim.jl": [],
+    "JuliaLowering/Project.toml": [],
+    "JuliaLowering/README.md": [],
+    "JuliaLowering/src/JuliaLowering.jl": [],
+    "JuliaLowering/src/ast.jl": [],
+    "JuliaLowering/src/binding_analysis.jl": [],
+    "JuliaLowering/src/bindings.jl": [],
+    "JuliaLowering/src/closure_conversion.jl": [],
+    "JuliaLowering/src/compat.jl": []
+  }
+}

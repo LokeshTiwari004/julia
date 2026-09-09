@@ -1,0 +1,430 @@
+{
+  "scriptCompleted": true,
+  "filesAnalyzed": 5,
+  "filesSkipped": [
+    "base/threads_overloads.jl",
+    "base/timing.jl",
+    "base/toml/parser.jl",
+    "base/toml/printer.jl",
+    "base/toml/toml.jl",
+    "base/traits.jl",
+    "base/tuple.jl",
+    "base/twiceprecision.jl",
+    "base/util.jl",
+    "base/uuid.jl",
+    "base/version.jl",
+    "base/views.jl",
+    "base/weakdict.jl",
+    "cli/julia.expmap.in",
+    "cli/trampolines/trampolines_aarch64.S",
+    "cli/trampolines/trampolines_arm.S",
+    "cli/trampolines/trampolines_i686.S",
+    "cli/trampolines/trampolines_powerpc64le.S",
+    "cli/trampolines/trampolines_riscv64.S",
+    "cli/trampolines/trampolines_x86_64.S"
+  ],
+  "analysisOutcomes": {
+    "structure": {
+      "succeeded": 5,
+      "failed": 0
+    },
+    "callGraph": {
+      "succeeded": 2,
+      "failed": 0,
+      "skipped": 3
+    }
+  },
+  "results": [
+    {
+      "path": "base/version_git.sh",
+      "language": "shell",
+      "fileCategory": "script",
+      "totalLines": 145,
+      "nonEmptyLines": 132,
+      "metrics": {
+        "importCount": 0,
+        "exportCount": 0,
+        "functionCount": 0,
+        "classCount": 0
+      }
+    },
+    {
+      "path": "cli/Makefile",
+      "language": "makefile",
+      "fileCategory": "infra",
+      "totalLines": 213,
+      "nonEmptyLines": 185,
+      "steps": [
+        {
+          "name": "default",
+          "startLine": 75,
+          "endLine": 75
+        },
+        {
+          "name": "all",
+          "startLine": 76,
+          "endLine": 76
+        },
+        {
+          "name": "release",
+          "startLine": 77,
+          "endLine": 78
+        },
+        {
+          "name": "dump-trampolines",
+          "startLine": 101,
+          "endLine": 103
+        },
+        {
+          "name": "Info.plist.phony",
+          "startLine": 122,
+          "endLine": 133
+        },
+        {
+          "name": "julia-release",
+          "startLine": 139,
+          "endLine": 139
+        },
+        {
+          "name": "julia-debug",
+          "startLine": 140,
+          "endLine": 140
+        },
+        {
+          "name": "libjulia-release",
+          "startLine": 141,
+          "endLine": 141
+        },
+        {
+          "name": "libjulia-debug",
+          "startLine": 142,
+          "endLine": 143
+        },
+        {
+          "name": "clean",
+          "startLine": 207,
+          "endLine": 212
+        }
+      ],
+      "metrics": {
+        "importCount": 0,
+        "exportCount": 0,
+        "functionCount": 0,
+        "classCount": 0,
+        "stepCount": 10
+      }
+    },
+    {
+      "path": "cli/README.md",
+      "language": "markdown",
+      "fileCategory": "docs",
+      "totalLines": 31,
+      "nonEmptyLines": 25,
+      "sections": [
+        {
+          "heading": "cli and loader",
+          "level": 1,
+          "line": 1
+        },
+        {
+          "heading": "Public interface definition",
+          "level": 2,
+          "line": 25
+        }
+      ],
+      "metrics": {
+        "importCount": 0,
+        "exportCount": 0,
+        "functionCount": 0,
+        "classCount": 0,
+        "sectionCount": 2
+      }
+    },
+    {
+      "path": "cli/dl-cache.h",
+      "language": "c",
+      "fileCategory": "code",
+      "totalLines": 184,
+      "nonEmptyLines": 149,
+      "classes": [
+        {
+          "name": "file_entry",
+          "startLine": 141,
+          "endLine": 145,
+          "methods": [],
+          "properties": [
+            "flags",
+            "key"
+          ]
+        },
+        {
+          "name": "cache_file",
+          "startLine": 147,
+          "endLine": 152,
+          "methods": [],
+          "properties": [
+            "magic",
+            "nlibs",
+            "libs"
+          ]
+        },
+        {
+          "name": "file_entry_new",
+          "startLine": 159,
+          "endLine": 165,
+          "methods": [],
+          "properties": [
+            "flags",
+            "key",
+            "osversion",
+            "hwcap"
+          ]
+        },
+        {
+          "name": "cache_file_new",
+          "startLine": 167,
+          "endLine": 177,
+          "methods": [],
+          "properties": [
+            "magic",
+            "version",
+            "nlibs",
+            "len_strings",
+            "unused",
+            "libs"
+          ]
+        }
+      ],
+      "exports": [
+        {
+          "name": "file_entry",
+          "line": 141,
+          "isDefault": false
+        },
+        {
+          "name": "cache_file",
+          "line": 147,
+          "isDefault": false
+        },
+        {
+          "name": "file_entry_new",
+          "line": 159,
+          "isDefault": false
+        },
+        {
+          "name": "cache_file_new",
+          "line": 167,
+          "isDefault": false
+        }
+      ],
+      "metrics": {
+        "importCount": 0,
+        "exportCount": 4,
+        "functionCount": 0,
+        "classCount": 4
+      }
+    },
+    {
+      "path": "cli/loader_win_utils.c",
+      "language": "c",
+      "fileCategory": "code",
+      "totalLines": 351,
+      "nonEmptyLines": 313,
+      "functions": [
+        {
+          "name": "free",
+          "startLine": 15,
+          "endLine": 17,
+          "params": [
+            "mem"
+          ]
+        },
+        {
+          "name": "fwrite",
+          "startLine": 19,
+          "endLine": 37,
+          "params": [
+            "str",
+            "nchars",
+            "out"
+          ]
+        },
+        {
+          "name": "fputs",
+          "startLine": 39,
+          "endLine": 41,
+          "params": [
+            "str",
+            "out"
+          ]
+        },
+        {
+          "name": "setup_stdio",
+          "startLine": 105,
+          "endLine": 111,
+          "params": []
+        },
+        {
+          "name": "exit",
+          "startLine": 113,
+          "endLine": 115,
+          "params": [
+            "code"
+          ]
+        },
+        {
+          "name": "wtf8_decode1",
+          "startLine": 122,
+          "endLine": 162,
+          "params": [
+            "input"
+          ]
+        },
+        {
+          "name": "get_surrogate_value",
+          "startLine": 166,
+          "endLine": 177,
+          "params": [
+            "w_source_ptr"
+          ]
+        },
+        {
+          "name": "strlen",
+          "startLine": 285,
+          "endLine": 290,
+          "params": [
+            "x"
+          ]
+        },
+        {
+          "name": "wcslen",
+          "startLine": 292,
+          "endLine": 297,
+          "params": [
+            "x"
+          ]
+        }
+      ],
+      "exports": [
+        {
+          "name": "free",
+          "line": 15,
+          "isDefault": false
+        },
+        {
+          "name": "fwrite",
+          "line": 19,
+          "isDefault": false
+        },
+        {
+          "name": "fputs",
+          "line": 39,
+          "isDefault": false
+        },
+        {
+          "name": "setup_stdio",
+          "line": 105,
+          "isDefault": false
+        },
+        {
+          "name": "exit",
+          "line": 113,
+          "isDefault": false
+        },
+        {
+          "name": "strlen",
+          "line": 285,
+          "isDefault": false
+        },
+        {
+          "name": "wcslen",
+          "line": 292,
+          "isDefault": false
+        }
+      ],
+      "callGraph": [
+        {
+          "caller": "free",
+          "callee": "HeapFree",
+          "lineNumber": 16
+        },
+        {
+          "caller": "free",
+          "callee": "GetProcessHeap",
+          "lineNumber": 16
+        },
+        {
+          "caller": "fwrite",
+          "callee": "utf8_to_wchar",
+          "lineNumber": 23
+        },
+        {
+          "caller": "fwrite",
+          "callee": "WriteConsoleW",
+          "lineNumber": 26
+        },
+        {
+          "caller": "fwrite",
+          "callee": "wcslen",
+          "lineNumber": 26
+        },
+        {
+          "caller": "fwrite",
+          "callee": "free",
+          "lineNumber": 27
+        },
+        {
+          "caller": "fwrite",
+          "callee": "free",
+          "lineNumber": 30
+        },
+        {
+          "caller": "fwrite",
+          "callee": "WriteFile",
+          "lineNumber": 33
+        },
+        {
+          "caller": "fputs",
+          "callee": "fwrite",
+          "lineNumber": 40
+        },
+        {
+          "caller": "fputs",
+          "callee": "strlen",
+          "lineNumber": 40
+        },
+        {
+          "caller": "setup_stdio",
+          "callee": "GetStdHandle",
+          "lineNumber": 107
+        },
+        {
+          "caller": "setup_stdio",
+          "callee": "GetConsoleMode",
+          "lineNumber": 108
+        },
+        {
+          "caller": "setup_stdio",
+          "callee": "GetStdHandle",
+          "lineNumber": 109
+        },
+        {
+          "caller": "setup_stdio",
+          "callee": "GetConsoleMode",
+          "lineNumber": 110
+        },
+        {
+          "caller": "exit",
+          "callee": "ExitProcess",
+          "lineNumber": 114
+        }
+      ],
+      "metrics": {
+        "importCount": 0,
+        "exportCount": 7,
+        "functionCount": 9,
+        "classCount": 0
+      }
+    }
+  ]
+}

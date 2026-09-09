@@ -1,0 +1,182 @@
+{
+  "projectRoot": "/home/maruti/julia",
+  "batchFiles": [
+    {
+      "path": "test/project/Extensions/ImplicitEnv/A/ext/BExt.jl",
+      "language": "jl",
+      "sizeLines": 3,
+      "fileCategory": "code"
+    },
+    {
+      "path": "test/project/Extensions/ImplicitEnv/A/src/A.jl",
+      "language": "jl",
+      "sizeLines": 5,
+      "fileCategory": "code"
+    },
+    {
+      "path": "test/project/Extensions/ImplicitEnv/B/Project.toml",
+      "language": "toml",
+      "sizeLines": 3,
+      "fileCategory": "config"
+    },
+    {
+      "path": "test/project/Extensions/ImplicitEnv/B/src/B.jl",
+      "language": "jl",
+      "sizeLines": 5,
+      "fileCategory": "code"
+    },
+    {
+      "path": "test/project/Extensions/Parent.jl/Manifest.toml",
+      "language": "toml",
+      "sizeLines": 20,
+      "fileCategory": "config"
+    },
+    {
+      "path": "test/project/Extensions/Parent.jl/Project.toml",
+      "language": "toml",
+      "sizeLines": 7,
+      "fileCategory": "config"
+    },
+    {
+      "path": "test/project/Extensions/Parent.jl/src/Parent.jl",
+      "language": "jl",
+      "sizeLines": 7,
+      "fileCategory": "code"
+    },
+    {
+      "path": "test/project/Extensions/SomeOtherPackage/Project.toml",
+      "language": "toml",
+      "sizeLines": 4,
+      "fileCategory": "config"
+    },
+    {
+      "path": "test/project/Extensions/SomeOtherPackage/src/SomeOtherPackage.jl",
+      "language": "jl",
+      "sizeLines": 5,
+      "fileCategory": "code"
+    },
+    {
+      "path": "test/project/Extensions/SomePackage/Project.toml",
+      "language": "toml",
+      "sizeLines": 4,
+      "fileCategory": "config"
+    },
+    {
+      "path": "test/project/Extensions/SomePackage/src/SomePackage.jl",
+      "language": "jl",
+      "sizeLines": 5,
+      "fileCategory": "code"
+    },
+    {
+      "path": "test/project/Manifest.toml",
+      "language": "toml",
+      "sizeLines": 28,
+      "fileCategory": "config"
+    },
+    {
+      "path": "test/project/Project.toml",
+      "language": "toml",
+      "sizeLines": 6,
+      "fileCategory": "config"
+    },
+    {
+      "path": "test/project/ProjectPath/CustomPath.jl",
+      "language": "jl",
+      "sizeLines": 5,
+      "fileCategory": "code"
+    },
+    {
+      "path": "test/project/ProjectPath/Manifest.toml",
+      "language": "toml",
+      "sizeLines": 18,
+      "fileCategory": "config"
+    },
+    {
+      "path": "test/project/ProjectPath/Project.toml",
+      "language": "toml",
+      "sizeLines": 7,
+      "fileCategory": "config"
+    },
+    {
+      "path": "test/project/ProjectPath/ProjectPathDep/CustomPath.jl",
+      "language": "jl",
+      "sizeLines": 5,
+      "fileCategory": "code"
+    },
+    {
+      "path": "test/project/ProjectPath/ProjectPathDep/Project.toml",
+      "language": "toml",
+      "sizeLines": 4,
+      "fileCategory": "config"
+    },
+    {
+      "path": "test/project/Rot13/Project.toml",
+      "language": "toml",
+      "sizeLines": 3,
+      "fileCategory": "config"
+    },
+    {
+      "path": "test/project/Rot13/src/Rot13.jl",
+      "language": "jl",
+      "sizeLines": 28,
+      "fileCategory": "code"
+    },
+    {
+      "path": "test/project/ScriptProject/Project.toml",
+      "language": "toml",
+      "sizeLines": 2,
+      "fileCategory": "config"
+    },
+    {
+      "path": "test/project/ScriptProject/SubProject/Project.toml",
+      "language": "toml",
+      "sizeLines": 2,
+      "fileCategory": "config"
+    },
+    {
+      "path": "test/project/ScriptProject/bin/script.jl",
+      "language": "jl",
+      "sizeLines": 1,
+      "fileCategory": "code"
+    },
+    {
+      "path": "test/project/SubProject/Devved/Project.toml",
+      "language": "toml",
+      "sizeLines": 3,
+      "fileCategory": "config"
+    },
+    {
+      "path": "test/project/SubProject/Devved/src/Devved.jl",
+      "language": "jl",
+      "sizeLines": 5,
+      "fileCategory": "code"
+    }
+  ],
+  "batchImportData": {
+    "test/project/Extensions/ImplicitEnv/A/ext/BExt.jl": [],
+    "test/project/Extensions/ImplicitEnv/A/src/A.jl": [],
+    "test/project/Extensions/ImplicitEnv/B/Project.toml": [],
+    "test/project/Extensions/ImplicitEnv/B/src/B.jl": [],
+    "test/project/Extensions/Parent.jl/Manifest.toml": [],
+    "test/project/Extensions/Parent.jl/Project.toml": [],
+    "test/project/Extensions/Parent.jl/src/Parent.jl": [],
+    "test/project/Extensions/SomeOtherPackage/Project.toml": [],
+    "test/project/Extensions/SomeOtherPackage/src/SomeOtherPackage.jl": [],
+    "test/project/Extensions/SomePackage/Project.toml": [],
+    "test/project/Extensions/SomePackage/src/SomePackage.jl": [],
+    "test/project/Manifest.toml": [],
+    "test/project/Project.toml": [],
+    "test/project/ProjectPath/CustomPath.jl": [],
+    "test/project/ProjectPath/Manifest.toml": [],
+    "test/project/ProjectPath/Project.toml": [],
+    "test/project/ProjectPath/ProjectPathDep/CustomPath.jl": [],
+    "test/project/ProjectPath/ProjectPathDep/Project.toml": [],
+    "test/project/Rot13/Project.toml": [],
+    "test/project/Rot13/src/Rot13.jl": [],
+    "test/project/ScriptProject/Project.toml": [],
+    "test/project/ScriptProject/SubProject/Project.toml": [],
+    "test/project/ScriptProject/bin/script.jl": [],
+    "test/project/SubProject/Devved/Project.toml": [],
+    "test/project/SubProject/Devved/src/Devved.jl": []
+  }
+}

@@ -1,0 +1,104 @@
+{
+  "scriptCompleted": true,
+  "filesAnalyzed": 2,
+  "filesSkipped": [
+    "test/llvmpasses/safepoint_stress.jl",
+    "test/loading.jl",
+    "test/math.jl",
+    "test/meta.jl",
+    "test/misc.jl",
+    "test/missing.jl",
+    "test/mod2pi.jl",
+    "test/mpfr.jl",
+    "test/namedtuple.jl",
+    "test/netload/memtest.jl",
+    "test/numbers.jl",
+    "test/offsetarray.jl",
+    "test/opaque_closure.jl",
+    "test/operators.jl",
+    "test/ordering.jl",
+    "test/osutils.jl",
+    "test/parse.jl",
+    "test/path.jl",
+    "test/precompile.jl",
+    "test/precompile_absint1.jl",
+    "test/precompile_absint2.jl",
+    "test/precompile_extmi.jl",
+    "test/precompile_utils.jl"
+  ],
+  "analysisOutcomes": {
+    "structure": {
+      "succeeded": 2,
+      "failed": 0
+    },
+    "callGraph": {
+      "succeeded": 0,
+      "failed": 0,
+      "skipped": 2
+    }
+  },
+  "results": [
+    {
+      "path": "test/manifest/v1.0/Manifest.toml",
+      "language": "toml",
+      "fileCategory": "config",
+      "totalLines": 11,
+      "nonEmptyLines": 8,
+      "sections": [
+        {
+          "heading": "[[Logging]]",
+          "level": 1,
+          "line": 3
+        },
+        {
+          "heading": "[[Random]]",
+          "level": 1,
+          "line": 6
+        },
+        {
+          "heading": "[[Serialization]]",
+          "level": 1,
+          "line": 10
+        }
+      ],
+      "metrics": {
+        "importCount": 0,
+        "exportCount": 0,
+        "functionCount": 0,
+        "classCount": 0,
+        "sectionCount": 3
+      }
+    },
+    {
+      "path": "test/manifest/v2.0/Manifest.toml",
+      "language": "toml",
+      "fileCategory": "config",
+      "totalLines": 14,
+      "nonEmptyLines": 10,
+      "sections": [
+        {
+          "heading": "[[deps.Logging]]",
+          "level": 2,
+          "line": 6
+        },
+        {
+          "heading": "[[deps.Random]]",
+          "level": 2,
+          "line": 9
+        },
+        {
+          "heading": "[[deps.Serialization]]",
+          "level": 2,
+          "line": 13
+        }
+      ],
+      "metrics": {
+        "importCount": 0,
+        "exportCount": 0,
+        "functionCount": 0,
+        "classCount": 0,
+        "sectionCount": 3
+      }
+    }
+  ]
+}

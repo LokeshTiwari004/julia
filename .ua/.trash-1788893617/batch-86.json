@@ -1,0 +1,174 @@
+{
+  "batchIndex": 86,
+  "nodes": [
+    {
+      "id": "config:test/gcext/ForeignObjSerialization/Manifest.toml",
+      "type": "config",
+      "name": "Manifest.toml",
+      "filePath": "test/gcext/ForeignObjSerialization/Manifest.toml",
+      "summary": "Configuration file: Manifest.toml.",
+      "tags": [
+        "configuration",
+        "gc"
+      ],
+      "complexity": "simple",
+      "language": "toml"
+    },
+    {
+      "id": "config:test/gcext/ForeignObjSerialization/Project.toml",
+      "type": "config",
+      "name": "Project.toml",
+      "filePath": "test/gcext/ForeignObjSerialization/Project.toml",
+      "summary": "Configuration file: Project.toml.",
+      "tags": [
+        "configuration",
+        "gc"
+      ],
+      "complexity": "simple",
+      "language": "toml"
+    },
+    {
+      "id": "service:test/gcext/Makefile",
+      "type": "service",
+      "name": "Makefile",
+      "filePath": "test/gcext/Makefile",
+      "summary": "Infrastructure file: Makefile.",
+      "tags": [
+        "infrastructure",
+        "gc"
+      ],
+      "complexity": "moderate",
+      "language": "makefile"
+    },
+    {
+      "id": "service:test/llvmpasses/Makefile",
+      "type": "service",
+      "name": "Makefile",
+      "filePath": "test/llvmpasses/Makefile",
+      "summary": "Infrastructure file: Makefile.",
+      "tags": [
+        "infrastructure",
+        "codegen"
+      ],
+      "complexity": "simple",
+      "language": "makefile"
+    }
+  ],
+  "edges": [],
+  "batchFiles": [
+    {
+      "path": "test/gcext/ForeignObjSerialization/Manifest.toml",
+      "language": "toml",
+      "fileCategory": "config",
+      "totalLines": 14,
+      "nonEmptyLines": 11,
+      "sections": [
+        {
+          "heading": "[[deps.Foreign]]",
+          "level": 2,
+          "line": 7
+        },
+        {
+          "heading": "[[deps.Libdl]]",
+          "level": 2,
+          "line": 13
+        }
+      ],
+      "metrics": {
+        "importCount": 0,
+        "exportCount": 0,
+        "functionCount": 0,
+        "classCount": 0,
+        "sectionCount": 2
+      }
+    },
+    {
+      "path": "test/gcext/ForeignObjSerialization/Project.toml",
+      "language": "toml",
+      "fileCategory": "config",
+      "totalLines": 6,
+      "nonEmptyLines": 5,
+      "sections": [
+        {
+          "heading": "deps",
+          "level": 1,
+          "line": 5
+        }
+      ],
+      "metrics": {
+        "importCount": 0,
+        "exportCount": 0,
+        "functionCount": 0,
+        "classCount": 0,
+        "sectionCount": 1
+      }
+    },
+    {
+      "path": "test/gcext/Makefile",
+      "language": "makefile",
+      "fileCategory": "infra",
+      "totalLines": 76,
+      "nonEmptyLines": 58,
+      "steps": [
+        {
+          "name": "release",
+          "startLine": 40,
+          "endLine": 40
+        },
+        {
+          "name": "debug",
+          "startLine": 41,
+          "endLine": 42
+        },
+        {
+          "name": "check",
+          "startLine": 62,
+          "endLine": 65
+        },
+        {
+          "name": "clean",
+          "startLine": 66,
+          "endLine": 70
+        }
+      ],
+      "metrics": {
+        "importCount": 0,
+        "exportCount": 0,
+        "functionCount": 0,
+        "classCount": 0,
+        "stepCount": 4
+      }
+    },
+    {
+      "path": "test/llvmpasses/Makefile",
+      "language": "makefile",
+      "fileCategory": "infra",
+      "totalLines": 36,
+      "nonEmptyLines": 29,
+      "steps": [
+        {
+          "name": "check",
+          "startLine": 5,
+          "endLine": 6
+        },
+        {
+          "name": "update-help",
+          "startLine": 27,
+          "endLine": 32
+        },
+        {
+          "name": "clean",
+          "startLine": 33,
+          "endLine": 35
+        }
+      ],
+      "metrics": {
+        "importCount": 0,
+        "exportCount": 0,
+        "functionCount": 0,
+        "classCount": 0,
+        "stepCount": 3
+      }
+    }
+  ]
+}

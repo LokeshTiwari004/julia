@@ -1,0 +1,182 @@
+{
+  "projectRoot": "/home/maruti/julia",
+  "batchFiles": [
+    {
+      "path": "base/arraymath.jl",
+      "language": "jl",
+      "sizeLines": 317,
+      "fileCategory": "code"
+    },
+    {
+      "path": "base/arrayshow.jl",
+      "language": "jl",
+      "sizeLines": 625,
+      "fileCategory": "code"
+    },
+    {
+      "path": "base/asyncevent.jl",
+      "language": "jl",
+      "sizeLines": 542,
+      "fileCategory": "code"
+    },
+    {
+      "path": "base/asyncmap.jl",
+      "language": "jl",
+      "sizeLines": 356,
+      "fileCategory": "code"
+    },
+    {
+      "path": "base/atomics.jl",
+      "language": "jl",
+      "sizeLines": 402,
+      "fileCategory": "code"
+    },
+    {
+      "path": "base/baseext.jl",
+      "language": "jl",
+      "sizeLines": 43,
+      "fileCategory": "code"
+    },
+    {
+      "path": "base/binaryplatforms.jl",
+      "language": "jl",
+      "sizeLines": 1220,
+      "fileCategory": "code"
+    },
+    {
+      "path": "base/bitarray.jl",
+      "language": "jl",
+      "sizeLines": 1931,
+      "fileCategory": "code"
+    },
+    {
+      "path": "base/bitset.jl",
+      "language": "jl",
+      "sizeLines": 426,
+      "fileCategory": "code"
+    },
+    {
+      "path": "base/bool.jl",
+      "language": "jl",
+      "sizeLines": 170,
+      "fileCategory": "code"
+    },
+    {
+      "path": "base/boot.jl",
+      "language": "jl",
+      "sizeLines": 1329,
+      "fileCategory": "code"
+    },
+    {
+      "path": "base/broadcast.jl",
+      "language": "jl",
+      "sizeLines": 1447,
+      "fileCategory": "code"
+    },
+    {
+      "path": "base/c.jl",
+      "language": "jl",
+      "sizeLines": 543,
+      "fileCategory": "code"
+    },
+    {
+      "path": "base/cancellation.jl",
+      "language": "jl",
+      "sizeLines": 1128,
+      "fileCategory": "code"
+    },
+    {
+      "path": "base/cartesian.jl",
+      "language": "jl",
+      "sizeLines": 470,
+      "fileCategory": "code"
+    },
+    {
+      "path": "base/channels.jl",
+      "language": "jl",
+      "sizeLines": 794,
+      "fileCategory": "code"
+    },
+    {
+      "path": "base/char.jl",
+      "language": "jl",
+      "sizeLines": 392,
+      "fileCategory": "code"
+    },
+    {
+      "path": "base/checked.jl",
+      "language": "jl",
+      "sizeLines": 380,
+      "fileCategory": "code"
+    },
+    {
+      "path": "base/client.jl",
+      "language": "jl",
+      "sizeLines": 821,
+      "fileCategory": "code"
+    },
+    {
+      "path": "base/cmd.jl",
+      "language": "jl",
+      "sizeLines": 661,
+      "fileCategory": "code"
+    },
+    {
+      "path": "base/cmem.jl",
+      "language": "jl",
+      "sizeLines": 57,
+      "fileCategory": "code"
+    },
+    {
+      "path": "base/combinatorics.jl",
+      "language": "jl",
+      "sizeLines": 373,
+      "fileCategory": "code"
+    },
+    {
+      "path": "base/complex.jl",
+      "language": "jl",
+      "sizeLines": 1156,
+      "fileCategory": "code"
+    },
+    {
+      "path": "base/condition.jl",
+      "language": "jl",
+      "sizeLines": 466,
+      "fileCategory": "code"
+    },
+    {
+      "path": "base/coreio.jl",
+      "language": "jl",
+      "sizeLines": 45,
+      "fileCategory": "code"
+    }
+  ],
+  "batchImportData": {
+    "base/arraymath.jl": [],
+    "base/arrayshow.jl": [],
+    "base/asyncevent.jl": [],
+    "base/asyncmap.jl": [],
+    "base/atomics.jl": [],
+    "base/baseext.jl": [],
+    "base/binaryplatforms.jl": [],
+    "base/bitarray.jl": [],
+    "base/bitset.jl": [],
+    "base/bool.jl": [],
+    "base/boot.jl": [],
+    "base/broadcast.jl": [],
+    "base/c.jl": [],
+    "base/cancellation.jl": [],
+    "base/cartesian.jl": [],
+    "base/channels.jl": [],
+    "base/char.jl": [],
+    "base/checked.jl": [],
+    "base/client.jl": [],
+    "base/cmd.jl": [],
+    "base/cmem.jl": [],
+    "base/combinatorics.jl": [],
+    "base/complex.jl": [],
+    "base/condition.jl": [],
+    "base/coreio.jl": []
+  }
+}

@@ -1,0 +1,182 @@
+{
+  "projectRoot": "/home/maruti/julia",
+  "batchFiles": [
+    {
+      "path": "test/llvmpasses/alloc-opt-gcframe-addrspaces.ll",
+      "language": "ll",
+      "sizeLines": 33,
+      "fileCategory": "code"
+    },
+    {
+      "path": "test/llvmpasses/alloc-opt-gcframe.ll",
+      "language": "ll",
+      "sizeLines": 258,
+      "fileCategory": "code"
+    },
+    {
+      "path": "test/llvmpasses/alloc-opt-pass.ll",
+      "language": "ll",
+      "sizeLines": 472,
+      "fileCategory": "code"
+    },
+    {
+      "path": "test/llvmpasses/alloc-opt-pipeline.jl",
+      "language": "jl",
+      "sizeLines": 23,
+      "fileCategory": "code"
+    },
+    {
+      "path": "test/llvmpasses/alloc-opt-unsized.ll",
+      "language": "ll",
+      "sizeLines": 33,
+      "fileCategory": "code"
+    },
+    {
+      "path": "test/llvmpasses/atomic-modify.ll",
+      "language": "ll",
+      "sizeLines": 304,
+      "fileCategory": "code"
+    },
+    {
+      "path": "test/llvmpasses/cancellation-lowering-codegen.jl",
+      "language": "jl",
+      "sizeLines": 26,
+      "fileCategory": "code"
+    },
+    {
+      "path": "test/llvmpasses/cancellation-lowering.ll",
+      "language": "ll",
+      "sizeLines": 340,
+      "fileCategory": "code"
+    },
+    {
+      "path": "test/llvmpasses/codegen-alloc-zeroing.jl",
+      "language": "jl",
+      "sizeLines": 106,
+      "fileCategory": "code"
+    },
+    {
+      "path": "test/llvmpasses/cpu-features.ll",
+      "language": "ll",
+      "sizeLines": 46,
+      "fileCategory": "code"
+    },
+    {
+      "path": "test/llvmpasses/fastmath.jl",
+      "language": "jl",
+      "sizeLines": 18,
+      "fileCategory": "code"
+    },
+    {
+      "path": "test/llvmpasses/final-lower-gc-addrspaces.ll",
+      "language": "ll",
+      "sizeLines": 41,
+      "fileCategory": "code"
+    },
+    {
+      "path": "test/llvmpasses/final-lower-gc.ll",
+      "language": "ll",
+      "sizeLines": 103,
+      "fileCategory": "code"
+    },
+    {
+      "path": "test/llvmpasses/float16.ll",
+      "language": "ll",
+      "sizeLines": 229,
+      "fileCategory": "code"
+    },
+    {
+      "path": "test/llvmpasses/fmf.jl",
+      "language": "jl",
+      "sizeLines": 29,
+      "fileCategory": "code"
+    },
+    {
+      "path": "test/llvmpasses/gc-invariant-verifier.ll",
+      "language": "ll",
+      "sizeLines": 13,
+      "fileCategory": "code"
+    },
+    {
+      "path": "test/llvmpasses/gc-writebarrier-volatile.ll",
+      "language": "ll",
+      "sizeLines": 41,
+      "fileCategory": "code"
+    },
+    {
+      "path": "test/llvmpasses/gcroots.ll",
+      "language": "ll",
+      "sizeLines": 806,
+      "fileCategory": "code"
+    },
+    {
+      "path": "test/llvmpasses/image-codegen.jl",
+      "language": "jl",
+      "sizeLines": 22,
+      "fileCategory": "code"
+    },
+    {
+      "path": "test/llvmpasses/julia-licm-fail.ll",
+      "language": "ll",
+      "sizeLines": 95,
+      "fileCategory": "code"
+    },
+    {
+      "path": "test/llvmpasses/julia-licm-memoryssa.ll",
+      "language": "ll",
+      "sizeLines": 167,
+      "fileCategory": "code"
+    },
+    {
+      "path": "test/llvmpasses/julia-licm-missed.ll",
+      "language": "ll",
+      "sizeLines": 108,
+      "fileCategory": "code"
+    },
+    {
+      "path": "test/llvmpasses/julia-licm.ll",
+      "language": "ll",
+      "sizeLines": 229,
+      "fileCategory": "code"
+    },
+    {
+      "path": "test/llvmpasses/julia-simdloop-memoryssa.ll",
+      "language": "ll",
+      "sizeLines": 52,
+      "fileCategory": "code"
+    },
+    {
+      "path": "test/llvmpasses/julia-simdloop.ll",
+      "language": "ll",
+      "sizeLines": 133,
+      "fileCategory": "code"
+    }
+  ],
+  "batchImportData": {
+    "test/llvmpasses/alloc-opt-gcframe-addrspaces.ll": [],
+    "test/llvmpasses/alloc-opt-gcframe.ll": [],
+    "test/llvmpasses/alloc-opt-pass.ll": [],
+    "test/llvmpasses/alloc-opt-pipeline.jl": [],
+    "test/llvmpasses/alloc-opt-unsized.ll": [],
+    "test/llvmpasses/atomic-modify.ll": [],
+    "test/llvmpasses/cancellation-lowering-codegen.jl": [],
+    "test/llvmpasses/cancellation-lowering.ll": [],
+    "test/llvmpasses/codegen-alloc-zeroing.jl": [],
+    "test/llvmpasses/cpu-features.ll": [],
+    "test/llvmpasses/fastmath.jl": [],
+    "test/llvmpasses/final-lower-gc-addrspaces.ll": [],
+    "test/llvmpasses/final-lower-gc.ll": [],
+    "test/llvmpasses/float16.ll": [],
+    "test/llvmpasses/fmf.jl": [],
+    "test/llvmpasses/gc-invariant-verifier.ll": [],
+    "test/llvmpasses/gc-writebarrier-volatile.ll": [],
+    "test/llvmpasses/gcroots.ll": [],
+    "test/llvmpasses/image-codegen.jl": [],
+    "test/llvmpasses/julia-licm-fail.ll": [],
+    "test/llvmpasses/julia-licm-memoryssa.ll": [],
+    "test/llvmpasses/julia-licm-missed.ll": [],
+    "test/llvmpasses/julia-licm.ll": [],
+    "test/llvmpasses/julia-simdloop-memoryssa.ll": [],
+    "test/llvmpasses/julia-simdloop.ll": []
+  }
+}

@@ -1,0 +1,584 @@
+{
+  "batchIndex": 93,
+  "nodes": [
+    {
+      "id": "config:test/project/SubProject/Devved2/Project.toml",
+      "type": "config",
+      "name": "Project.toml",
+      "filePath": "test/project/SubProject/Devved2/Project.toml",
+      "summary": "Configuration file: Project.toml.",
+      "tags": [
+        "configuration"
+      ],
+      "complexity": "simple",
+      "language": "toml"
+    },
+    {
+      "id": "config:test/project/SubProject/Manifest.toml",
+      "type": "config",
+      "name": "Manifest.toml",
+      "filePath": "test/project/SubProject/Manifest.toml",
+      "summary": "Configuration file: Manifest.toml.",
+      "tags": [
+        "configuration"
+      ],
+      "complexity": "moderate",
+      "language": "toml"
+    },
+    {
+      "id": "config:test/project/SubProject/PackageThatIsSub/Project.toml",
+      "type": "config",
+      "name": "Project.toml",
+      "filePath": "test/project/SubProject/PackageThatIsSub/Project.toml",
+      "summary": "Configuration file: Project.toml.",
+      "tags": [
+        "configuration"
+      ],
+      "complexity": "simple",
+      "language": "toml"
+    },
+    {
+      "id": "config:test/project/SubProject/PackageThatIsSub/test/Project.toml",
+      "type": "config",
+      "name": "Project.toml",
+      "filePath": "test/project/SubProject/PackageThatIsSub/test/Project.toml",
+      "summary": "Configuration file: Project.toml.",
+      "tags": [
+        "configuration",
+        "test"
+      ],
+      "complexity": "simple",
+      "language": "toml"
+    },
+    {
+      "id": "config:test/project/SubProject/Project.toml",
+      "type": "config",
+      "name": "Project.toml",
+      "filePath": "test/project/SubProject/Project.toml",
+      "summary": "Configuration file: Project.toml.",
+      "tags": [
+        "configuration"
+      ],
+      "complexity": "simple",
+      "language": "toml"
+    },
+    {
+      "id": "config:test/project/SubProject/nested/deep/Project.toml",
+      "type": "config",
+      "name": "Project.toml",
+      "filePath": "test/project/SubProject/nested/deep/Project.toml",
+      "summary": "Configuration file: Project.toml.",
+      "tags": [
+        "configuration"
+      ],
+      "complexity": "simple",
+      "language": "toml"
+    },
+    {
+      "id": "config:test/project/SubProject/sub/Project.toml",
+      "type": "config",
+      "name": "Project.toml",
+      "filePath": "test/project/SubProject/sub/Project.toml",
+      "summary": "Configuration file: Project.toml.",
+      "tags": [
+        "configuration"
+      ],
+      "complexity": "simple",
+      "language": "toml"
+    },
+    {
+      "id": "config:test/project/SubProject/test/Project.toml",
+      "type": "config",
+      "name": "Project.toml",
+      "filePath": "test/project/SubProject/test/Project.toml",
+      "summary": "Configuration file: Project.toml.",
+      "tags": [
+        "configuration",
+        "test"
+      ],
+      "complexity": "simple",
+      "language": "toml"
+    },
+    {
+      "id": "config:test/project/SyntaxVersioning/explicit/Manifest.toml",
+      "type": "config",
+      "name": "Manifest.toml",
+      "filePath": "test/project/SyntaxVersioning/explicit/Manifest.toml",
+      "summary": "Configuration file: Manifest.toml.",
+      "tags": [
+        "configuration"
+      ],
+      "complexity": "simple",
+      "language": "toml"
+    },
+    {
+      "id": "config:test/project/SyntaxVersioning/explicit/Project.toml",
+      "type": "config",
+      "name": "Project.toml",
+      "filePath": "test/project/SyntaxVersioning/explicit/Project.toml",
+      "summary": "Configuration file: Project.toml.",
+      "tags": [
+        "configuration"
+      ],
+      "complexity": "simple",
+      "language": "toml"
+    },
+    {
+      "id": "config:test/project/SyntaxVersioning/explicit/VersionedDep1/Project.toml",
+      "type": "config",
+      "name": "Project.toml",
+      "filePath": "test/project/SyntaxVersioning/explicit/VersionedDep1/Project.toml",
+      "summary": "Configuration file: Project.toml.",
+      "tags": [
+        "configuration"
+      ],
+      "complexity": "simple",
+      "language": "toml"
+    },
+    {
+      "id": "config:test/project/SyntaxVersioning/explicit/VersionedDep2/Project.toml",
+      "type": "config",
+      "name": "Project.toml",
+      "filePath": "test/project/SyntaxVersioning/explicit/VersionedDep2/Project.toml",
+      "summary": "Configuration file: Project.toml.",
+      "tags": [
+        "configuration"
+      ],
+      "complexity": "simple",
+      "language": "toml"
+    },
+    {
+      "id": "config:test/project/SyntaxVersioning/explicit/VersionedDep3/Project.toml",
+      "type": "config",
+      "name": "Project.toml",
+      "filePath": "test/project/SyntaxVersioning/explicit/VersionedDep3/Project.toml",
+      "summary": "Configuration file: Project.toml.",
+      "tags": [
+        "configuration"
+      ],
+      "complexity": "simple",
+      "language": "toml"
+    },
+    {
+      "id": "config:test/project/SyntaxVersioning/implicit/Versioned1/Project.toml",
+      "type": "config",
+      "name": "Project.toml",
+      "filePath": "test/project/SyntaxVersioning/implicit/Versioned1/Project.toml",
+      "summary": "Configuration file: Project.toml.",
+      "tags": [
+        "configuration"
+      ],
+      "complexity": "simple",
+      "language": "toml"
+    },
+    {
+      "id": "config:test/project/SyntaxVersioning/implicit/Versioned2/Project.toml",
+      "type": "config",
+      "name": "Project.toml",
+      "filePath": "test/project/SyntaxVersioning/implicit/Versioned2/Project.toml",
+      "summary": "Configuration file: Project.toml.",
+      "tags": [
+        "configuration"
+      ],
+      "complexity": "simple",
+      "language": "toml"
+    },
+    {
+      "id": "config:test/project/SyntaxVersioning/implicit/Versioned3/Project.toml",
+      "type": "config",
+      "name": "Project.toml",
+      "filePath": "test/project/SyntaxVersioning/implicit/Versioned3/Project.toml",
+      "summary": "Configuration file: Project.toml.",
+      "tags": [
+        "configuration"
+      ],
+      "complexity": "simple",
+      "language": "toml"
+    }
+  ],
+  "edges": [],
+  "batchFiles": [
+    {
+      "path": "test/project/SubProject/Devved2/Project.toml",
+      "language": "toml",
+      "fileCategory": "config",
+      "totalLines": 3,
+      "nonEmptyLines": 3,
+      "metrics": {
+        "importCount": 0,
+        "exportCount": 0,
+        "functionCount": 0,
+        "classCount": 0,
+        "sectionCount": 0
+      }
+    },
+    {
+      "path": "test/project/SubProject/Manifest.toml",
+      "language": "toml",
+      "fileCategory": "config",
+      "totalLines": 68,
+      "nonEmptyLines": 54,
+      "sections": [
+        {
+          "heading": "[[deps.Base64]]",
+          "level": 2,
+          "line": 7
+        },
+        {
+          "heading": "[[deps.Devved]]",
+          "level": 2,
+          "line": 11
+        },
+        {
+          "heading": "[[deps.Devved2]]",
+          "level": 2,
+          "line": 16
+        },
+        {
+          "heading": "[[deps.InteractiveUtils]]",
+          "level": 2,
+          "line": 21
+        },
+        {
+          "heading": "[[deps.Logging]]",
+          "level": 2,
+          "line": 26
+        },
+        {
+          "heading": "[[deps.Markdown]]",
+          "level": 2,
+          "line": 31
+        },
+        {
+          "heading": "[[deps.MyPkg]]",
+          "level": 2,
+          "line": 36
+        },
+        {
+          "heading": "[[deps.PackageThatIsSub]]",
+          "level": 2,
+          "line": 42
+        },
+        {
+          "heading": "[[deps.Random]]",
+          "level": 2,
+          "line": 48
+        },
+        {
+          "heading": "[[deps.SHA]]",
+          "level": 2,
+          "line": 53
+        },
+        {
+          "heading": "[[deps.Serialization]]",
+          "level": 2,
+          "line": 57
+        },
+        {
+          "heading": "[[deps.StyledStrings]]",
+          "level": 2,
+          "line": 61
+        },
+        {
+          "heading": "[[deps.Test]]",
+          "level": 2,
+          "line": 65
+        }
+      ],
+      "metrics": {
+        "importCount": 0,
+        "exportCount": 0,
+        "functionCount": 0,
+        "classCount": 0,
+        "sectionCount": 13
+      }
+    },
+    {
+      "path": "test/project/SubProject/PackageThatIsSub/Project.toml",
+      "language": "toml",
+      "fileCategory": "config",
+      "totalLines": 14,
+      "nonEmptyLines": 11,
+      "sections": [
+        {
+          "heading": "workspace",
+          "level": 1,
+          "line": 5
+        },
+        {
+          "heading": "deps",
+          "level": 1,
+          "line": 8
+        },
+        {
+          "heading": "preferences",
+          "level": 1,
+          "line": 12
+        }
+      ],
+      "metrics": {
+        "importCount": 0,
+        "exportCount": 0,
+        "functionCount": 0,
+        "classCount": 0,
+        "sectionCount": 3
+      }
+    },
+    {
+      "path": "test/project/SubProject/PackageThatIsSub/test/Project.toml",
+      "language": "toml",
+      "fileCategory": "config",
+      "totalLines": 8,
+      "nonEmptyLines": 7,
+      "sections": [
+        {
+          "heading": "deps",
+          "level": 1,
+          "line": 1
+        },
+        {
+          "heading": "preferences",
+          "level": 1,
+          "line": 6
+        }
+      ],
+      "metrics": {
+        "importCount": 0,
+        "exportCount": 0,
+        "functionCount": 0,
+        "classCount": 0,
+        "sectionCount": 2
+      }
+    },
+    {
+      "path": "test/project/SubProject/Project.toml",
+      "language": "toml",
+      "fileCategory": "config",
+      "totalLines": 13,
+      "nonEmptyLines": 10,
+      "sections": [
+        {
+          "heading": "workspace",
+          "level": 1,
+          "line": 4
+        },
+        {
+          "heading": "deps",
+          "level": 1,
+          "line": 7
+        },
+        {
+          "heading": "preferences",
+          "level": 1,
+          "line": 11
+        }
+      ],
+      "metrics": {
+        "importCount": 0,
+        "exportCount": 0,
+        "functionCount": 0,
+        "classCount": 0,
+        "sectionCount": 3
+      }
+    },
+    {
+      "path": "test/project/SubProject/nested/deep/Project.toml",
+      "language": "toml",
+      "fileCategory": "config",
+      "totalLines": 2,
+      "nonEmptyLines": 2,
+      "metrics": {
+        "importCount": 0,
+        "exportCount": 0,
+        "functionCount": 0,
+        "classCount": 0,
+        "sectionCount": 0
+      }
+    },
+    {
+      "path": "test/project/SubProject/sub/Project.toml",
+      "language": "toml",
+      "fileCategory": "config",
+      "totalLines": 3,
+      "nonEmptyLines": 3,
+      "sections": [
+        {
+          "heading": "deps",
+          "level": 1,
+          "line": 1
+        }
+      ],
+      "metrics": {
+        "importCount": 0,
+        "exportCount": 0,
+        "functionCount": 0,
+        "classCount": 0,
+        "sectionCount": 1
+      }
+    },
+    {
+      "path": "test/project/SubProject/test/Project.toml",
+      "language": "toml",
+      "fileCategory": "config",
+      "totalLines": 4,
+      "nonEmptyLines": 4,
+      "sections": [
+        {
+          "heading": "deps",
+          "level": 1,
+          "line": 1
+        }
+      ],
+      "metrics": {
+        "importCount": 0,
+        "exportCount": 0,
+        "functionCount": 0,
+        "classCount": 0,
+        "sectionCount": 1
+      }
+    },
+    {
+      "path": "test/project/SyntaxVersioning/explicit/Manifest.toml",
+      "language": "toml",
+      "fileCategory": "config",
+      "totalLines": 19,
+      "nonEmptyLines": 15,
+      "sections": [
+        {
+          "heading": "[[deps.VersionedDep1]]",
+          "level": 2,
+          "line": 6
+        },
+        {
+          "heading": "[[deps.VersionedDep2]]",
+          "level": 2,
+          "line": 11
+        },
+        {
+          "heading": "[[deps.VersionedDep3]]",
+          "level": 2,
+          "line": 16
+        }
+      ],
+      "metrics": {
+        "importCount": 0,
+        "exportCount": 0,
+        "functionCount": 0,
+        "classCount": 0,
+        "sectionCount": 3
+      }
+    },
+    {
+      "path": "test/project/SyntaxVersioning/explicit/Project.toml",
+      "language": "toml",
+      "fileCategory": "config",
+      "totalLines": 4,
+      "nonEmptyLines": 4,
+      "sections": [
+        {
+          "heading": "deps",
+          "level": 1,
+          "line": 1
+        }
+      ],
+      "metrics": {
+        "importCount": 0,
+        "exportCount": 0,
+        "functionCount": 0,
+        "classCount": 0,
+        "sectionCount": 1
+      }
+    },
+    {
+      "path": "test/project/SyntaxVersioning/explicit/VersionedDep1/Project.toml",
+      "language": "toml",
+      "fileCategory": "config",
+      "totalLines": 3,
+      "nonEmptyLines": 3,
+      "metrics": {
+        "importCount": 0,
+        "exportCount": 0,
+        "functionCount": 0,
+        "classCount": 0,
+        "sectionCount": 0
+      }
+    },
+    {
+      "path": "test/project/SyntaxVersioning/explicit/VersionedDep2/Project.toml",
+      "language": "toml",
+      "fileCategory": "config",
+      "totalLines": 3,
+      "nonEmptyLines": 3,
+      "metrics": {
+        "importCount": 0,
+        "exportCount": 0,
+        "functionCount": 0,
+        "classCount": 0,
+        "sectionCount": 0
+      }
+    },
+    {
+      "path": "test/project/SyntaxVersioning/explicit/VersionedDep3/Project.toml",
+      "language": "toml",
+      "fileCategory": "config",
+      "totalLines": 3,
+      "nonEmptyLines": 3,
+      "metrics": {
+        "importCount": 0,
+        "exportCount": 0,
+        "functionCount": 0,
+        "classCount": 0,
+        "sectionCount": 0
+      }
+    },
+    {
+      "path": "test/project/SyntaxVersioning/implicit/Versioned1/Project.toml",
+      "language": "toml",
+      "fileCategory": "config",
+      "totalLines": 3,
+      "nonEmptyLines": 3,
+      "metrics": {
+        "importCount": 0,
+        "exportCount": 0,
+        "functionCount": 0,
+        "classCount": 0,
+        "sectionCount": 0
+      }
+    },
+    {
+      "path": "test/project/SyntaxVersioning/implicit/Versioned2/Project.toml",
+      "language": "toml",
+      "fileCategory": "config",
+      "totalLines": 3,
+      "nonEmptyLines": 3,
+      "metrics": {
+        "importCount": 0,
+        "exportCount": 0,
+        "functionCount": 0,
+        "classCount": 0,
+        "sectionCount": 0
+      }
+    },
+    {
+      "path": "test/project/SyntaxVersioning/implicit/Versioned3/Project.toml",
+      "language": "toml",
+      "fileCategory": "config",
+      "totalLines": 5,
+      "nonEmptyLines": 4,
+      "sections": [
+        {
+          "heading": "compat",
+          "level": 1,
+          "line": 4
+        }
+      ],
+      "metrics": {
+        "importCount": 0,
+        "exportCount": 0,
+        "functionCount": 0,
+        "classCount": 0,
+        "sectionCount": 1
+      }
+    }
+  ]
+}

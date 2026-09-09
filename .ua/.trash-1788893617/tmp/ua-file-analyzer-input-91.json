@@ -1,0 +1,182 @@
+{
+  "projectRoot": "/home/maruti/julia",
+  "batchFiles": [
+    {
+      "path": "test/project/Extensions/ExtDep3.jl/src/ExtDep3.jl",
+      "language": "jl",
+      "sizeLines": 5,
+      "fileCategory": "code"
+    },
+    {
+      "path": "test/project/Extensions/ExtNameCollision_A/Project.toml",
+      "language": "toml",
+      "sizeLines": 9,
+      "fileCategory": "config"
+    },
+    {
+      "path": "test/project/Extensions/ExtNameCollision_A/ext/REPLExt.jl",
+      "language": "jl",
+      "sizeLines": 0,
+      "fileCategory": "code"
+    },
+    {
+      "path": "test/project/Extensions/ExtNameCollision_A/src/ExtNameCollision_A.jl",
+      "language": "jl",
+      "sizeLines": 5,
+      "fileCategory": "code"
+    },
+    {
+      "path": "test/project/Extensions/ExtNameCollision_B/Project.toml",
+      "language": "toml",
+      "sizeLines": 9,
+      "fileCategory": "config"
+    },
+    {
+      "path": "test/project/Extensions/ExtNameCollision_B/ext/REPLExt.jl",
+      "language": "jl",
+      "sizeLines": 0,
+      "fileCategory": "code"
+    },
+    {
+      "path": "test/project/Extensions/ExtNameCollision_B/src/ExtNameCollision_B.jl",
+      "language": "jl",
+      "sizeLines": 5,
+      "fileCategory": "code"
+    },
+    {
+      "path": "test/project/Extensions/ExtToExtDependency/Manifest.toml",
+      "language": "toml",
+      "sizeLines": 21,
+      "fileCategory": "config"
+    },
+    {
+      "path": "test/project/Extensions/ExtToExtDependency/Project.toml",
+      "language": "toml",
+      "sizeLines": 14,
+      "fileCategory": "config"
+    },
+    {
+      "path": "test/project/Extensions/ExtToExtDependency/ext/ExtA.jl",
+      "language": "jl",
+      "sizeLines": 6,
+      "fileCategory": "code"
+    },
+    {
+      "path": "test/project/Extensions/ExtToExtDependency/ext/ExtAB.jl",
+      "language": "jl",
+      "sizeLines": 12,
+      "fileCategory": "code"
+    },
+    {
+      "path": "test/project/Extensions/ExtToExtDependency/src/ExtToExtDependency.jl",
+      "language": "jl",
+      "sizeLines": 7,
+      "fileCategory": "code"
+    },
+    {
+      "path": "test/project/Extensions/HasDepWithExtensions.jl/Manifest.toml",
+      "language": "toml",
+      "sizeLines": 43,
+      "fileCategory": "config"
+    },
+    {
+      "path": "test/project/Extensions/HasDepWithExtensions.jl/Project.toml",
+      "language": "toml",
+      "sizeLines": 9,
+      "fileCategory": "config"
+    },
+    {
+      "path": "test/project/Extensions/HasDepWithExtensions.jl/src/HasDepWithExtensions.jl",
+      "language": "jl",
+      "sizeLines": 21,
+      "fileCategory": "code"
+    },
+    {
+      "path": "test/project/Extensions/HasExtensions.jl/Manifest.toml",
+      "language": "toml",
+      "sizeLines": 10,
+      "fileCategory": "config"
+    },
+    {
+      "path": "test/project/Extensions/HasExtensions.jl/Project.toml",
+      "language": "toml",
+      "sizeLines": 15,
+      "fileCategory": "config"
+    },
+    {
+      "path": "test/project/Extensions/HasExtensions.jl/ext/Extension.jl",
+      "language": "jl",
+      "sizeLines": 13,
+      "fileCategory": "code"
+    },
+    {
+      "path": "test/project/Extensions/HasExtensions.jl/ext/ExtensionDep.jl",
+      "language": "jl",
+      "sizeLines": 9,
+      "fileCategory": "code"
+    },
+    {
+      "path": "test/project/Extensions/HasExtensions.jl/ext/ExtensionFolder/ExtensionFolder.jl",
+      "language": "jl",
+      "sizeLines": 9,
+      "fileCategory": "code"
+    },
+    {
+      "path": "test/project/Extensions/HasExtensions.jl/src/HasExtensions.jl",
+      "language": "jl",
+      "sizeLines": 11,
+      "fileCategory": "code"
+    },
+    {
+      "path": "test/project/Extensions/HasExtensions_v2.jl/Project.toml",
+      "language": "toml",
+      "sizeLines": 9,
+      "fileCategory": "config"
+    },
+    {
+      "path": "test/project/Extensions/HasExtensions_v2.jl/ext/Extension2.jl",
+      "language": "jl",
+      "sizeLines": 3,
+      "fileCategory": "code"
+    },
+    {
+      "path": "test/project/Extensions/HasExtensions_v2.jl/src/HasExtensions.jl",
+      "language": "jl",
+      "sizeLines": 10,
+      "fileCategory": "code"
+    },
+    {
+      "path": "test/project/Extensions/ImplicitEnv/A/Project.toml",
+      "language": "toml",
+      "sizeLines": 9,
+      "fileCategory": "config"
+    }
+  ],
+  "batchImportData": {
+    "test/project/Extensions/ExtDep3.jl/src/ExtDep3.jl": [],
+    "test/project/Extensions/ExtNameCollision_A/Project.toml": [],
+    "test/project/Extensions/ExtNameCollision_A/ext/REPLExt.jl": [],
+    "test/project/Extensions/ExtNameCollision_A/src/ExtNameCollision_A.jl": [],
+    "test/project/Extensions/ExtNameCollision_B/Project.toml": [],
+    "test/project/Extensions/ExtNameCollision_B/ext/REPLExt.jl": [],
+    "test/project/Extensions/ExtNameCollision_B/src/ExtNameCollision_B.jl": [],
+    "test/project/Extensions/ExtToExtDependency/Manifest.toml": [],
+    "test/project/Extensions/ExtToExtDependency/Project.toml": [],
+    "test/project/Extensions/ExtToExtDependency/ext/ExtA.jl": [],
+    "test/project/Extensions/ExtToExtDependency/ext/ExtAB.jl": [],
+    "test/project/Extensions/ExtToExtDependency/src/ExtToExtDependency.jl": [],
+    "test/project/Extensions/HasDepWithExtensions.jl/Manifest.toml": [],
+    "test/project/Extensions/HasDepWithExtensions.jl/Project.toml": [],
+    "test/project/Extensions/HasDepWithExtensions.jl/src/HasDepWithExtensions.jl": [],
+    "test/project/Extensions/HasExtensions.jl/Manifest.toml": [],
+    "test/project/Extensions/HasExtensions.jl/Project.toml": [],
+    "test/project/Extensions/HasExtensions.jl/ext/Extension.jl": [],
+    "test/project/Extensions/HasExtensions.jl/ext/ExtensionDep.jl": [],
+    "test/project/Extensions/HasExtensions.jl/ext/ExtensionFolder/ExtensionFolder.jl": [],
+    "test/project/Extensions/HasExtensions.jl/src/HasExtensions.jl": [],
+    "test/project/Extensions/HasExtensions_v2.jl/Project.toml": [],
+    "test/project/Extensions/HasExtensions_v2.jl/ext/Extension2.jl": [],
+    "test/project/Extensions/HasExtensions_v2.jl/src/HasExtensions.jl": [],
+    "test/project/Extensions/ImplicitEnv/A/Project.toml": []
+  }
+}

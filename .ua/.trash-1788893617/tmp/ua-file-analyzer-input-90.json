@@ -1,0 +1,182 @@
+{
+  "projectRoot": "/home/maruti/julia",
+  "batchFiles": [
+    {
+      "path": "test/print_process_affinity.jl",
+      "language": "jl",
+      "sizeLines": 31,
+      "fileCategory": "code"
+    },
+    {
+      "path": "test/profile_spawnmany_exec.jl",
+      "language": "jl",
+      "sizeLines": 14,
+      "fileCategory": "code"
+    },
+    {
+      "path": "test/project/Extensions/CrossPackageExtToExtDependency/Manifest.toml",
+      "language": "toml",
+      "sizeLines": 32,
+      "fileCategory": "config"
+    },
+    {
+      "path": "test/project/Extensions/CrossPackageExtToExtDependency/Project.toml",
+      "language": "toml",
+      "sizeLines": 12,
+      "fileCategory": "config"
+    },
+    {
+      "path": "test/project/Extensions/CrossPackageExtToExtDependency/ext/ExtAB.jl",
+      "language": "jl",
+      "sizeLines": 12,
+      "fileCategory": "code"
+    },
+    {
+      "path": "test/project/Extensions/CrossPackageExtToExtDependency/src/CrossPackageExtToExtDependency.jl",
+      "language": "jl",
+      "sizeLines": 7,
+      "fileCategory": "code"
+    },
+    {
+      "path": "test/project/Extensions/CyclicExtensions/Manifest.toml",
+      "language": "toml",
+      "sizeLines": 26,
+      "fileCategory": "config"
+    },
+    {
+      "path": "test/project/Extensions/CyclicExtensions/Project.toml",
+      "language": "toml",
+      "sizeLines": 13,
+      "fileCategory": "config"
+    },
+    {
+      "path": "test/project/Extensions/CyclicExtensions/ext/ExtA.jl",
+      "language": "jl",
+      "sizeLines": 6,
+      "fileCategory": "code"
+    },
+    {
+      "path": "test/project/Extensions/CyclicExtensions/ext/ExtB.jl",
+      "language": "jl",
+      "sizeLines": 6,
+      "fileCategory": "code"
+    },
+    {
+      "path": "test/project/Extensions/CyclicExtensions/src/CyclicExtensions.jl",
+      "language": "jl",
+      "sizeLines": 7,
+      "fileCategory": "code"
+    },
+    {
+      "path": "test/project/Extensions/DepWithParentExt.jl/Project.toml",
+      "language": "toml",
+      "sizeLines": 9,
+      "fileCategory": "config"
+    },
+    {
+      "path": "test/project/Extensions/DepWithParentExt.jl/ext/ParentExt.jl",
+      "language": "jl",
+      "sizeLines": 6,
+      "fileCategory": "code"
+    },
+    {
+      "path": "test/project/Extensions/DepWithParentExt.jl/src/DepWithParentExt.jl",
+      "language": "jl",
+      "sizeLines": 5,
+      "fileCategory": "code"
+    },
+    {
+      "path": "test/project/Extensions/EnvWithDeps/Manifest.toml",
+      "language": "toml",
+      "sizeLines": 26,
+      "fileCategory": "config"
+    },
+    {
+      "path": "test/project/Extensions/EnvWithDeps/Project.toml",
+      "language": "toml",
+      "sizeLines": 4,
+      "fileCategory": "config"
+    },
+    {
+      "path": "test/project/Extensions/EnvWithHasExtensions/Manifest.toml",
+      "language": "toml",
+      "sizeLines": 36,
+      "fileCategory": "config"
+    },
+    {
+      "path": "test/project/Extensions/EnvWithHasExtensions/Project.toml",
+      "language": "toml",
+      "sizeLines": 4,
+      "fileCategory": "config"
+    },
+    {
+      "path": "test/project/Extensions/EnvWithHasExtensionsv2/Manifest.toml",
+      "language": "toml",
+      "sizeLines": 30,
+      "fileCategory": "config"
+    },
+    {
+      "path": "test/project/Extensions/EnvWithHasExtensionsv2/Project.toml",
+      "language": "toml",
+      "sizeLines": 4,
+      "fileCategory": "config"
+    },
+    {
+      "path": "test/project/Extensions/ExtDep.jl/Project.toml",
+      "language": "toml",
+      "sizeLines": 7,
+      "fileCategory": "config"
+    },
+    {
+      "path": "test/project/Extensions/ExtDep.jl/src/ExtDep.jl",
+      "language": "jl",
+      "sizeLines": 10,
+      "fileCategory": "code"
+    },
+    {
+      "path": "test/project/Extensions/ExtDep2/Project.toml",
+      "language": "toml",
+      "sizeLines": 3,
+      "fileCategory": "config"
+    },
+    {
+      "path": "test/project/Extensions/ExtDep2/src/ExtDep2.jl",
+      "language": "jl",
+      "sizeLines": 5,
+      "fileCategory": "code"
+    },
+    {
+      "path": "test/project/Extensions/ExtDep3.jl/Project.toml",
+      "language": "toml",
+      "sizeLines": 4,
+      "fileCategory": "config"
+    }
+  ],
+  "batchImportData": {
+    "test/print_process_affinity.jl": [],
+    "test/profile_spawnmany_exec.jl": [],
+    "test/project/Extensions/CrossPackageExtToExtDependency/Manifest.toml": [],
+    "test/project/Extensions/CrossPackageExtToExtDependency/Project.toml": [],
+    "test/project/Extensions/CrossPackageExtToExtDependency/ext/ExtAB.jl": [],
+    "test/project/Extensions/CrossPackageExtToExtDependency/src/CrossPackageExtToExtDependency.jl": [],
+    "test/project/Extensions/CyclicExtensions/Manifest.toml": [],
+    "test/project/Extensions/CyclicExtensions/Project.toml": [],
+    "test/project/Extensions/CyclicExtensions/ext/ExtA.jl": [],
+    "test/project/Extensions/CyclicExtensions/ext/ExtB.jl": [],
+    "test/project/Extensions/CyclicExtensions/src/CyclicExtensions.jl": [],
+    "test/project/Extensions/DepWithParentExt.jl/Project.toml": [],
+    "test/project/Extensions/DepWithParentExt.jl/ext/ParentExt.jl": [],
+    "test/project/Extensions/DepWithParentExt.jl/src/DepWithParentExt.jl": [],
+    "test/project/Extensions/EnvWithDeps/Manifest.toml": [],
+    "test/project/Extensions/EnvWithDeps/Project.toml": [],
+    "test/project/Extensions/EnvWithHasExtensions/Manifest.toml": [],
+    "test/project/Extensions/EnvWithHasExtensions/Project.toml": [],
+    "test/project/Extensions/EnvWithHasExtensionsv2/Manifest.toml": [],
+    "test/project/Extensions/EnvWithHasExtensionsv2/Project.toml": [],
+    "test/project/Extensions/ExtDep.jl/Project.toml": [],
+    "test/project/Extensions/ExtDep.jl/src/ExtDep.jl": [],
+    "test/project/Extensions/ExtDep2/Project.toml": [],
+    "test/project/Extensions/ExtDep2/src/ExtDep2.jl": [],
+    "test/project/Extensions/ExtDep3.jl/Project.toml": []
+  }
+}

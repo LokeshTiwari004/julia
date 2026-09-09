@@ -1,0 +1,182 @@
+{
+  "projectRoot": "/home/maruti/julia",
+  "batchFiles": [
+    {
+      "path": "base/float.jl",
+      "language": "jl",
+      "sizeLines": 1164,
+      "fileCategory": "code"
+    },
+    {
+      "path": "base/floatfuncs.jl",
+      "language": "jl",
+      "sizeLines": 389,
+      "fileCategory": "code"
+    },
+    {
+      "path": "base/gcutils.jl",
+      "language": "jl",
+      "sizeLines": 295,
+      "fileCategory": "code"
+    },
+    {
+      "path": "base/generator.jl",
+      "language": "jl",
+      "sizeLines": 134,
+      "fileCategory": "code"
+    },
+    {
+      "path": "base/genericmemory.jl",
+      "language": "jl",
+      "sizeLines": 493,
+      "fileCategory": "code"
+    },
+    {
+      "path": "base/gmp.jl",
+      "language": "jl",
+      "sizeLines": 1132,
+      "fileCategory": "code"
+    },
+    {
+      "path": "base/hamt.jl",
+      "language": "jl",
+      "sizeLines": 282,
+      "fileCategory": "code"
+    },
+    {
+      "path": "base/hashing.jl",
+      "language": "jl",
+      "sizeLines": 638,
+      "fileCategory": "code"
+    },
+    {
+      "path": "base/iddict.jl",
+      "language": "jl",
+      "sizeLines": 189,
+      "fileCategory": "code"
+    },
+    {
+      "path": "base/idset.jl",
+      "language": "jl",
+      "sizeLines": 126,
+      "fileCategory": "code"
+    },
+    {
+      "path": "base/indices.jl",
+      "language": "jl",
+      "sizeLines": 579,
+      "fileCategory": "code"
+    },
+    {
+      "path": "base/initdefs.jl",
+      "language": "jl",
+      "sizeLines": 617,
+      "fileCategory": "code"
+    },
+    {
+      "path": "base/int.jl",
+      "language": "jl",
+      "sizeLines": 1107,
+      "fileCategory": "code"
+    },
+    {
+      "path": "base/intfuncs.jl",
+      "language": "jl",
+      "sizeLines": 1529,
+      "fileCategory": "code"
+    },
+    {
+      "path": "base/io.jl",
+      "language": "jl",
+      "sizeLines": 1709,
+      "fileCategory": "code"
+    },
+    {
+      "path": "base/iobuffer.jl",
+      "language": "jl",
+      "sizeLines": 1094,
+      "fileCategory": "code"
+    },
+    {
+      "path": "base/iostream.jl",
+      "language": "jl",
+      "sizeLines": 660,
+      "fileCategory": "code"
+    },
+    {
+      "path": "base/irrationals.jl",
+      "language": "jl",
+      "sizeLines": 311,
+      "fileCategory": "code"
+    },
+    {
+      "path": "base/iterators.jl",
+      "language": "jl",
+      "sizeLines": 1790,
+      "fileCategory": "code"
+    },
+    {
+      "path": "base/libc.jl",
+      "language": "jl",
+      "sizeLines": 613,
+      "fileCategory": "code"
+    },
+    {
+      "path": "base/libdl.jl",
+      "language": "jl",
+      "sizeLines": 506,
+      "fileCategory": "code"
+    },
+    {
+      "path": "base/libuv.jl",
+      "language": "jl",
+      "sizeLines": 183,
+      "fileCategory": "code"
+    },
+    {
+      "path": "base/linked_list.jl",
+      "language": "jl",
+      "sizeLines": 293,
+      "fileCategory": "code"
+    },
+    {
+      "path": "base/linking.jl",
+      "language": "jl",
+      "sizeLines": 221,
+      "fileCategory": "code"
+    },
+    {
+      "path": "base/loading.jl",
+      "language": "jl",
+      "sizeLines": 4912,
+      "fileCategory": "code"
+    }
+  ],
+  "batchImportData": {
+    "base/float.jl": [],
+    "base/floatfuncs.jl": [],
+    "base/gcutils.jl": [],
+    "base/generator.jl": [],
+    "base/genericmemory.jl": [],
+    "base/gmp.jl": [],
+    "base/hamt.jl": [],
+    "base/hashing.jl": [],
+    "base/iddict.jl": [],
+    "base/idset.jl": [],
+    "base/indices.jl": [],
+    "base/initdefs.jl": [],
+    "base/int.jl": [],
+    "base/intfuncs.jl": [],
+    "base/io.jl": [],
+    "base/iobuffer.jl": [],
+    "base/iostream.jl": [],
+    "base/irrationals.jl": [],
+    "base/iterators.jl": [],
+    "base/libc.jl": [],
+    "base/libdl.jl": [],
+    "base/libuv.jl": [],
+    "base/linked_list.jl": [],
+    "base/linking.jl": [],
+    "base/loading.jl": []
+  }
+}

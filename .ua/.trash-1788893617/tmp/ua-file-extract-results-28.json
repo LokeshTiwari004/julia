@@ -1,0 +1,228 @@
+{
+  "scriptCompleted": true,
+  "filesAnalyzed": 5,
+  "filesSkipped": [],
+  "analysisOutcomes": {
+    "structure": {
+      "succeeded": 5,
+      "failed": 0
+    },
+    "callGraph": {
+      "succeeded": 0,
+      "failed": 0,
+      "skipped": 5
+    }
+  },
+  "results": [
+    {
+      "path": ".ua/.trash-1788882187/tmp/ua-import-map-input.json",
+      "language": "json",
+      "fileCategory": "config",
+      "totalLines": 5590,
+      "nonEmptyLines": 5590,
+      "sections": [
+        {
+          "heading": "projectRoot",
+          "level": 1,
+          "line": 2
+        },
+        {
+          "heading": "files",
+          "level": 1,
+          "line": 3
+        }
+      ],
+      "metrics": {
+        "importCount": 0,
+        "exportCount": 0,
+        "functionCount": 0,
+        "classCount": 0,
+        "sectionCount": 2
+      }
+    },
+    {
+      "path": ".ua/.trash-1788882187/tmp/ua-import-map-output.json",
+      "language": "json",
+      "fileCategory": "config",
+      "totalLines": 1728,
+      "nonEmptyLines": 1728,
+      "sections": [
+        {
+          "heading": "scriptCompleted",
+          "level": 1,
+          "line": 2
+        },
+        {
+          "heading": "stats",
+          "level": 1,
+          "line": 3
+        },
+        {
+          "heading": "importMap",
+          "level": 1,
+          "line": 8
+        }
+      ],
+      "metrics": {
+        "importCount": 0,
+        "exportCount": 0,
+        "functionCount": 0,
+        "classCount": 0,
+        "sectionCount": 3
+      }
+    },
+    {
+      "path": ".ua/.trash-1788882187/tmp/ua-scan-files.json",
+      "language": "json",
+      "fileCategory": "config",
+      "totalLines": 6777,
+      "nonEmptyLines": 6777,
+      "sections": [
+        {
+          "heading": "scriptCompleted",
+          "level": 1,
+          "line": 2
+        },
+        {
+          "heading": "contentDigest",
+          "level": 1,
+          "line": 3
+        },
+        {
+          "heading": "files",
+          "level": 1,
+          "line": 4
+        },
+        {
+          "heading": "totalFiles",
+          "level": 1,
+          "line": 6708
+        },
+        {
+          "heading": "filteredByIgnore",
+          "level": 1,
+          "line": 6709
+        },
+        {
+          "heading": "estimatedComplexity",
+          "level": 1,
+          "line": 6710
+        },
+        {
+          "heading": "stats",
+          "level": 1,
+          "line": 6711
+        }
+      ],
+      "metrics": {
+        "importCount": 0,
+        "exportCount": 0,
+        "functionCount": 0,
+        "classCount": 0,
+        "sectionCount": 7
+      }
+    },
+    {
+      "path": ".ua/.trash-1788882187/tmp/ua-tour-input.json",
+      "language": "json",
+      "fileCategory": "config",
+      "totalLines": 49501,
+      "nonEmptyLines": 49501,
+      "sections": [
+        {
+          "heading": "nodes",
+          "level": 1,
+          "line": 2
+        },
+        {
+          "heading": "edges",
+          "level": 1,
+          "line": 24921
+        },
+        {
+          "heading": "layers",
+          "level": 1,
+          "line": 49444
+        }
+      ],
+      "metrics": {
+        "importCount": 0,
+        "exportCount": 0,
+        "functionCount": 0,
+        "classCount": 0,
+        "sectionCount": 3
+      }
+    },
+    {
+      "path": ".ua/.trash-1788882187/tmp/ua-tour-results.json",
+      "language": "json",
+      "fileCategory": "config",
+      "totalLines": 13360,
+      "nonEmptyLines": 13360,
+      "sections": [
+        {
+          "heading": "scriptCompleted",
+          "level": 1,
+          "line": 2
+        },
+        {
+          "heading": "entryPointCandidates",
+          "level": 1,
+          "line": 3
+        },
+        {
+          "heading": "fanInRanking",
+          "level": 1,
+          "line": 35
+        },
+        {
+          "heading": "fanOutRanking",
+          "level": 1,
+          "line": 157
+        },
+        {
+          "heading": "bfsTraversal",
+          "level": 1,
+          "line": 279
+        },
+        {
+          "heading": "nonCodeFiles",
+          "level": 1,
+          "line": 680
+        },
+        {
+          "heading": "clusters",
+          "level": 1,
+          "line": 2285
+        },
+        {
+          "heading": "layers",
+          "level": 1,
+          "line": 2381
+        },
+        {
+          "heading": "nodeSummaryIndex",
+          "level": 1,
+          "line": 2441
+        },
+        {
+          "heading": "totalNodes",
+          "level": 1,
+          "line": 13358
+        },
+        {
+          "heading": "totalEdges",
+          "level": 1,
+          "line": 13359
+        }
+      ],
+      "metrics": {
+        "importCount": 0,
+        "exportCount": 0,
+        "functionCount": 0,
+        "classCount": 0,
+        "sectionCount": 11
+      }
+    }
+  ]
+}

@@ -1,0 +1,182 @@
+{
+  "projectRoot": "/home/maruti/julia",
+  "batchFiles": [
+    {
+      "path": "stdlib/TOML/benchmark/benchmarks.jl",
+      "language": "jl",
+      "sizeLines": 81,
+      "fileCategory": "code"
+    },
+    {
+      "path": "stdlib/TOML/benchmark/files/Compat.toml",
+      "language": "toml",
+      "sizeLines": 153,
+      "fileCategory": "config"
+    },
+    {
+      "path": "stdlib/TOML/benchmark/files/Registry.toml",
+      "language": "toml",
+      "sizeLines": 4120,
+      "fileCategory": "config"
+    },
+    {
+      "path": "stdlib/TOML/docs/Manifest.toml",
+      "language": "toml",
+      "sizeLines": 98,
+      "fileCategory": "config"
+    },
+    {
+      "path": "stdlib/TOML/docs/Project.toml",
+      "language": "toml",
+      "sizeLines": 3,
+      "fileCategory": "config"
+    },
+    {
+      "path": "stdlib/TOML/docs/make.jl",
+      "language": "jl",
+      "sizeLines": 16,
+      "fileCategory": "code"
+    },
+    {
+      "path": "stdlib/TOML/docs/src/index.md",
+      "language": "markdown",
+      "sizeLines": 195,
+      "fileCategory": "docs"
+    },
+    {
+      "path": "stdlib/TOML/src/TOML.jl",
+      "language": "jl",
+      "sizeLines": 216,
+      "fileCategory": "code"
+    },
+    {
+      "path": "stdlib/TOML/src/precompile.jl",
+      "language": "jl",
+      "sizeLines": 38,
+      "fileCategory": "code"
+    },
+    {
+      "path": "stdlib/TOML/test/comments.jl",
+      "language": "jl",
+      "sizeLines": 350,
+      "fileCategory": "code"
+    },
+    {
+      "path": "stdlib/TOML/test/error_printing.jl",
+      "language": "jl",
+      "sizeLines": 38,
+      "fileCategory": "code"
+    },
+    {
+      "path": "stdlib/TOML/test/invalids.jl",
+      "language": "jl",
+      "sizeLines": 36,
+      "fileCategory": "code"
+    },
+    {
+      "path": "stdlib/TOML/test/jsonx.jl",
+      "language": "jl",
+      "sizeLines": 369,
+      "fileCategory": "code"
+    },
+    {
+      "path": "stdlib/TOML/test/parse.jl",
+      "language": "jl",
+      "sizeLines": 53,
+      "fileCategory": "code"
+    },
+    {
+      "path": "stdlib/TOML/test/print.jl",
+      "language": "jl",
+      "sizeLines": 234,
+      "fileCategory": "code"
+    },
+    {
+      "path": "stdlib/TOML/test/readme.jl",
+      "language": "jl",
+      "sizeLines": 1032,
+      "fileCategory": "code"
+    },
+    {
+      "path": "stdlib/TOML/test/runtests.jl",
+      "language": "jl",
+      "sizeLines": 33,
+      "fileCategory": "code"
+    },
+    {
+      "path": "stdlib/TOML/test/toml_test.jl",
+      "language": "jl",
+      "sizeLines": 199,
+      "fileCategory": "code"
+    },
+    {
+      "path": "stdlib/TOML/test/values.jl",
+      "language": "jl",
+      "sizeLines": 271,
+      "fileCategory": "code"
+    },
+    {
+      "path": "stdlib/Tar.version",
+      "language": "version",
+      "sizeLines": 4,
+      "fileCategory": "code"
+    },
+    {
+      "path": "stdlib/Test/Project.toml",
+      "language": "toml",
+      "sizeLines": 15,
+      "fileCategory": "config"
+    },
+    {
+      "path": "stdlib/Test/docs/src/index.md",
+      "language": "markdown",
+      "sizeLines": 586,
+      "fileCategory": "docs"
+    },
+    {
+      "path": "stdlib/Test/src/Test.jl",
+      "language": "jl",
+      "sizeLines": 3059,
+      "fileCategory": "code"
+    },
+    {
+      "path": "stdlib/Test/src/logging.jl",
+      "language": "jl",
+      "sizeLines": 453,
+      "fileCategory": "code"
+    },
+    {
+      "path": "stdlib/Test/src/precompile.jl",
+      "language": "jl",
+      "sizeLines": 15,
+      "fileCategory": "code"
+    }
+  ],
+  "batchImportData": {
+    "stdlib/TOML/benchmark/benchmarks.jl": [],
+    "stdlib/TOML/benchmark/files/Compat.toml": [],
+    "stdlib/TOML/benchmark/files/Registry.toml": [],
+    "stdlib/TOML/docs/Manifest.toml": [],
+    "stdlib/TOML/docs/Project.toml": [],
+    "stdlib/TOML/docs/make.jl": [],
+    "stdlib/TOML/docs/src/index.md": [],
+    "stdlib/TOML/src/TOML.jl": [],
+    "stdlib/TOML/src/precompile.jl": [],
+    "stdlib/TOML/test/comments.jl": [],
+    "stdlib/TOML/test/error_printing.jl": [],
+    "stdlib/TOML/test/invalids.jl": [],
+    "stdlib/TOML/test/jsonx.jl": [],
+    "stdlib/TOML/test/parse.jl": [],
+    "stdlib/TOML/test/print.jl": [],
+    "stdlib/TOML/test/readme.jl": [],
+    "stdlib/TOML/test/runtests.jl": [],
+    "stdlib/TOML/test/toml_test.jl": [],
+    "stdlib/TOML/test/values.jl": [],
+    "stdlib/Tar.version": [],
+    "stdlib/Test/Project.toml": [],
+    "stdlib/Test/docs/src/index.md": [],
+    "stdlib/Test/src/Test.jl": [],
+    "stdlib/Test/src/logging.jl": [],
+    "stdlib/Test/src/precompile.jl": []
+  }
+}

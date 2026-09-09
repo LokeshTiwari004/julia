@@ -1,0 +1,182 @@
+{
+  "projectRoot": "/home/maruti/julia",
+  "batchFiles": [
+    {
+      "path": "src/flisp/unittest.lsp",
+      "language": "lsp",
+      "sizeLines": 289,
+      "fileCategory": "code"
+    },
+    {
+      "path": "src/gc-interface.h",
+      "language": "c",
+      "sizeLines": 367,
+      "fileCategory": "code"
+    },
+    {
+      "path": "src/gc-mmtk/Makefile",
+      "language": "makefile",
+      "sizeLines": 155,
+      "fileCategory": "infra"
+    },
+    {
+      "path": "src/gc-mmtk/mmtk_julia/Cargo.toml",
+      "language": "toml",
+      "sizeLines": 56,
+      "fileCategory": "config"
+    },
+    {
+      "path": "src/gc-mmtk/mmtk_julia/api/mmtk.h",
+      "language": "c",
+      "sizeLines": 144,
+      "fileCategory": "code"
+    },
+    {
+      "path": "src/gc-mmtk/mmtk_julia/api/mmtkMutator.h",
+      "language": "c",
+      "sizeLines": 115,
+      "fileCategory": "code"
+    },
+    {
+      "path": "src/gc-mmtk/mmtk_julia/build.rs",
+      "language": "rust",
+      "sizeLines": 159,
+      "fileCategory": "code"
+    },
+    {
+      "path": "src/gc-mmtk/mmtk_julia/rust-toolchain",
+      "language": "unknown",
+      "sizeLines": 1,
+      "fileCategory": "code"
+    },
+    {
+      "path": "src/gc-tls-common.h",
+      "language": "c",
+      "sizeLines": 60,
+      "fileCategory": "code"
+    },
+    {
+      "path": "src/gc-tls-stock.h",
+      "language": "c",
+      "sizeLines": 73,
+      "fileCategory": "code"
+    },
+    {
+      "path": "src/gc-wb-stock.h",
+      "language": "c",
+      "sizeLines": 127,
+      "fileCategory": "code"
+    },
+    {
+      "path": "src/gen_sysimg_symtab.jl",
+      "language": "jl",
+      "sizeLines": 67,
+      "fileCategory": "code"
+    },
+    {
+      "path": "src/iddict.c",
+      "language": "c",
+      "sizeLines": 195,
+      "fileCategory": "code"
+    },
+    {
+      "path": "src/idset.c",
+      "language": "c",
+      "sizeLines": 122,
+      "fileCategory": "code"
+    },
+    {
+      "path": "src/jl_internal_data.inc",
+      "language": "inc",
+      "sizeLines": 7,
+      "fileCategory": "code"
+    },
+    {
+      "path": "src/jlfrontend.scm",
+      "language": "scm",
+      "sizeLines": 223,
+      "fileCategory": "code"
+    },
+    {
+      "path": "src/julia-parser.scm",
+      "language": "scm",
+      "sizeLines": 2778,
+      "fileCategory": "code"
+    },
+    {
+      "path": "src/julia-syntax.scm",
+      "language": "scm",
+      "sizeLines": 5786,
+      "fileCategory": "code"
+    },
+    {
+      "path": "src/julia.expmap.in",
+      "language": "in",
+      "sizeLines": 46,
+      "fileCategory": "code"
+    },
+    {
+      "path": "src/julia_locks.h",
+      "language": "c",
+      "sizeLines": 192,
+      "fileCategory": "code"
+    },
+    {
+      "path": "src/llvm-julia-passes.inc",
+      "language": "inc",
+      "sizeLines": 27,
+      "fileCategory": "code"
+    },
+    {
+      "path": "src/macroexpand.scm",
+      "language": "scm",
+      "sizeLines": 733,
+      "fileCategory": "code"
+    },
+    {
+      "path": "src/match.scm",
+      "language": "scm",
+      "sizeLines": 247,
+      "fileCategory": "code"
+    },
+    {
+      "path": "src/mig/README.md",
+      "language": "markdown",
+      "sizeLines": 16,
+      "fileCategory": "docs"
+    },
+    {
+      "path": "src/mig/exc.h",
+      "language": "c",
+      "sizeLines": 368,
+      "fileCategory": "code"
+    }
+  ],
+  "batchImportData": {
+    "src/flisp/unittest.lsp": [],
+    "src/gc-interface.h": [],
+    "src/gc-mmtk/Makefile": [],
+    "src/gc-mmtk/mmtk_julia/Cargo.toml": [],
+    "src/gc-mmtk/mmtk_julia/api/mmtk.h": [],
+    "src/gc-mmtk/mmtk_julia/api/mmtkMutator.h": [],
+    "src/gc-mmtk/mmtk_julia/build.rs": [],
+    "src/gc-mmtk/mmtk_julia/rust-toolchain": [],
+    "src/gc-tls-common.h": [],
+    "src/gc-tls-stock.h": [],
+    "src/gc-wb-stock.h": [],
+    "src/gen_sysimg_symtab.jl": [],
+    "src/iddict.c": [],
+    "src/idset.c": [],
+    "src/jl_internal_data.inc": [],
+    "src/jlfrontend.scm": [],
+    "src/julia-parser.scm": [],
+    "src/julia-syntax.scm": [],
+    "src/julia.expmap.in": [],
+    "src/julia_locks.h": [],
+    "src/llvm-julia-passes.inc": [],
+    "src/macroexpand.scm": [],
+    "src/match.scm": [],
+    "src/mig/README.md": [],
+    "src/mig/exc.h": []
+  }
+}

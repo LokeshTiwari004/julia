@@ -1,0 +1,206 @@
+{
+  "scriptCompleted": true,
+  "filesAnalyzed": 3,
+  "filesSkipped": [],
+  "analysisOutcomes": {
+    "structure": {
+      "succeeded": 3,
+      "failed": 0
+    },
+    "callGraph": {
+      "succeeded": 3,
+      "failed": 0,
+      "skipped": 0
+    }
+  },
+  "results": [
+    {
+      "path": "src/support/rle.c",
+      "language": "c",
+      "fileCategory": "code",
+      "totalLines": 92,
+      "nonEmptyLines": 82,
+      "callGraph": [
+        {
+          "caller": "rle_reference_to_index",
+          "callee": "assert",
+          "lineNumber": 69
+        }
+      ],
+      "metrics": {
+        "importCount": 1,
+        "exportCount": 0,
+        "functionCount": 0,
+        "classCount": 0
+      }
+    },
+    {
+      "path": "src/support/rle.h",
+      "language": "c",
+      "fileCategory": "code",
+      "totalLines": 49,
+      "nonEmptyLines": 36,
+      "metrics": {
+        "importCount": 0,
+        "exportCount": 0,
+        "functionCount": 0,
+        "classCount": 0
+      }
+    },
+    {
+      "path": "src/support/test/rletest.c",
+      "language": "c",
+      "fileCategory": "code",
+      "totalLines": 60,
+      "nonEmptyLines": 54,
+      "functions": [
+        {
+          "name": "main",
+          "startLine": 5,
+          "endLine": 60,
+          "params": []
+        }
+      ],
+      "exports": [
+        {
+          "name": "main",
+          "line": 5,
+          "isDefault": false
+        }
+      ],
+      "callGraph": [
+        {
+          "caller": "main",
+          "callee": "rle_iter_init",
+          "lineNumber": 8
+        },
+        {
+          "caller": "main",
+          "callee": "rle_iter_increment",
+          "lineNumber": 10
+        },
+        {
+          "caller": "main",
+          "callee": "assert",
+          "lineNumber": 11
+        },
+        {
+          "caller": "main",
+          "callee": "assert",
+          "lineNumber": 12
+        },
+        {
+          "caller": "main",
+          "callee": "rle_iter_init",
+          "lineNumber": 17
+        },
+        {
+          "caller": "main",
+          "callee": "rle_iter_increment",
+          "lineNumber": 19
+        },
+        {
+          "caller": "main",
+          "callee": "assert",
+          "lineNumber": 20
+        },
+        {
+          "caller": "main",
+          "callee": "assert",
+          "lineNumber": 21
+        },
+        {
+          "caller": "main",
+          "callee": "rle_iter_init",
+          "lineNumber": 26
+        },
+        {
+          "caller": "main",
+          "callee": "rle_iter_increment",
+          "lineNumber": 28
+        },
+        {
+          "caller": "main",
+          "callee": "assert",
+          "lineNumber": 29
+        },
+        {
+          "caller": "main",
+          "callee": "assert",
+          "lineNumber": 30
+        },
+        {
+          "caller": "main",
+          "callee": "rle_iter_init",
+          "lineNumber": 34
+        },
+        {
+          "caller": "main",
+          "callee": "rle_iter_increment",
+          "lineNumber": 36
+        },
+        {
+          "caller": "main",
+          "callee": "abort",
+          "lineNumber": 37
+        },
+        {
+          "caller": "main",
+          "callee": "rle_index_to_reference",
+          "lineNumber": 46
+        },
+        {
+          "caller": "main",
+          "callee": "assert",
+          "lineNumber": 47
+        },
+        {
+          "caller": "main",
+          "callee": "assert",
+          "lineNumber": 48
+        },
+        {
+          "caller": "main",
+          "callee": "assert",
+          "lineNumber": 49
+        },
+        {
+          "caller": "main",
+          "callee": "rle_reference_to_index",
+          "lineNumber": 49
+        },
+        {
+          "caller": "main",
+          "callee": "rle_index_to_reference",
+          "lineNumber": 53
+        },
+        {
+          "caller": "main",
+          "callee": "assert",
+          "lineNumber": 54
+        },
+        {
+          "caller": "main",
+          "callee": "assert",
+          "lineNumber": 55
+        },
+        {
+          "caller": "main",
+          "callee": "assert",
+          "lineNumber": 56
+        },
+        {
+          "caller": "main",
+          "callee": "rle_reference_to_index",
+          "lineNumber": 56
+        }
+      ],
+      "metrics": {
+        "importCount": 1,
+        "exportCount": 1,
+        "functionCount": 1,
+        "classCount": 0
+      }
+    }
+  ]
+}

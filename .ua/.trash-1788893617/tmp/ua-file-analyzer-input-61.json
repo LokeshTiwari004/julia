@@ -1,0 +1,182 @@
+{
+  "projectRoot": "/home/maruti/julia",
+  "batchFiles": [
+    {
+      "path": "contrib/add_license_to_files.jl",
+      "language": "jl",
+      "sizeLines": 204,
+      "fileCategory": "code"
+    },
+    {
+      "path": "contrib/asan/Make.user.asan",
+      "language": "asan",
+      "sizeLines": 24,
+      "fileCategory": "code"
+    },
+    {
+      "path": "contrib/asan/Make.user.tools",
+      "language": "tools",
+      "sizeLines": 2,
+      "fileCategory": "code"
+    },
+    {
+      "path": "contrib/asan/build.sh",
+      "language": "shell",
+      "sizeLines": 53,
+      "fileCategory": "script"
+    },
+    {
+      "path": "contrib/asan/check.jl",
+      "language": "jl",
+      "sizeLines": 87,
+      "fileCategory": "code"
+    },
+    {
+      "path": "contrib/bolt/Makefile",
+      "language": "makefile",
+      "sizeLines": 140,
+      "fileCategory": "infra"
+    },
+    {
+      "path": "contrib/bolt/README.md",
+      "language": "markdown",
+      "sizeLines": 17,
+      "fileCategory": "docs"
+    },
+    {
+      "path": "contrib/bpftrace/gc_all.bt",
+      "language": "bt",
+      "sizeLines": 44,
+      "fileCategory": "code"
+    },
+    {
+      "path": "contrib/bpftrace/gc_simple.bt",
+      "language": "bt",
+      "sizeLines": 23,
+      "fileCategory": "code"
+    },
+    {
+      "path": "contrib/bpftrace/gc_stop_the_world_latency.bt",
+      "language": "bt",
+      "sizeLines": 23,
+      "fileCategory": "code"
+    },
+    {
+      "path": "contrib/bpftrace/rt_all.bt",
+      "language": "bt",
+      "sizeLines": 81,
+      "fileCategory": "code"
+    },
+    {
+      "path": "contrib/check-whitespace.jl",
+      "language": "jl",
+      "sizeLines": 114,
+      "fileCategory": "code"
+    },
+    {
+      "path": "contrib/ci-timing/Project.toml",
+      "language": "toml",
+      "sizeLines": 6,
+      "fileCategory": "config"
+    },
+    {
+      "path": "contrib/ci-timing/ci_timing_compare.jl",
+      "language": "jl",
+      "sizeLines": 135,
+      "fileCategory": "code"
+    },
+    {
+      "path": "contrib/debug_bootstrap.gdb",
+      "language": "gdb",
+      "sizeLines": 3,
+      "fileCategory": "code"
+    },
+    {
+      "path": "contrib/generate_precompile.jl",
+      "language": "jl",
+      "sizeLines": 444,
+      "fileCategory": "code"
+    },
+    {
+      "path": "contrib/julia-config.jl",
+      "language": "jl",
+      "sizeLines": 143,
+      "fileCategory": "code"
+    },
+    {
+      "path": "contrib/julia.desktop",
+      "language": "desktop",
+      "sizeLines": 17,
+      "fileCategory": "code"
+    },
+    {
+      "path": "contrib/mac/app/Info.plist.in",
+      "language": "in",
+      "sizeLines": 32,
+      "fileCategory": "code"
+    },
+    {
+      "path": "contrib/mac/app/julia.icns",
+      "language": "icns",
+      "sizeLines": 628,
+      "fileCategory": "code"
+    },
+    {
+      "path": "contrib/mac/framework/Julia.h",
+      "language": "c",
+      "sizeLines": 6,
+      "fileCategory": "code"
+    },
+    {
+      "path": "contrib/mac/framework/Makefile",
+      "language": "makefile",
+      "sizeLines": 188,
+      "fileCategory": "infra"
+    },
+    {
+      "path": "contrib/mac/framework/julia.entitlements",
+      "language": "entitlements",
+      "sizeLines": 8,
+      "fileCategory": "code"
+    },
+    {
+      "path": "contrib/mac/framework/module.modulemap",
+      "language": "modulemap",
+      "sizeLines": 5,
+      "fileCategory": "code"
+    },
+    {
+      "path": "contrib/mac/frameworkapp/ExecSandbox/ExecSandbox.entitlements",
+      "language": "entitlements",
+      "sizeLines": 12,
+      "fileCategory": "code"
+    }
+  ],
+  "batchImportData": {
+    "contrib/add_license_to_files.jl": [],
+    "contrib/asan/Make.user.asan": [],
+    "contrib/asan/Make.user.tools": [],
+    "contrib/asan/build.sh": [],
+    "contrib/asan/check.jl": [],
+    "contrib/bolt/Makefile": [],
+    "contrib/bolt/README.md": [],
+    "contrib/bpftrace/gc_all.bt": [],
+    "contrib/bpftrace/gc_simple.bt": [],
+    "contrib/bpftrace/gc_stop_the_world_latency.bt": [],
+    "contrib/bpftrace/rt_all.bt": [],
+    "contrib/check-whitespace.jl": [],
+    "contrib/ci-timing/Project.toml": [],
+    "contrib/ci-timing/ci_timing_compare.jl": [],
+    "contrib/debug_bootstrap.gdb": [],
+    "contrib/generate_precompile.jl": [],
+    "contrib/julia-config.jl": [],
+    "contrib/julia.desktop": [],
+    "contrib/mac/app/Info.plist.in": [],
+    "contrib/mac/app/julia.icns": [],
+    "contrib/mac/framework/Julia.h": [],
+    "contrib/mac/framework/Makefile": [],
+    "contrib/mac/framework/julia.entitlements": [],
+    "contrib/mac/framework/module.modulemap": [],
+    "contrib/mac/frameworkapp/ExecSandbox/ExecSandbox.entitlements": []
+  }
+}

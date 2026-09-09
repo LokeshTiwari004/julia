@@ -1,0 +1,222 @@
+{
+  "project": "Julia",
+  "entryPoint": "cli/loader_exe.c",
+  "description": "Guided learning tour of the Julia programming language codebase. Covers runtime, compiler, frontend, base library, and standard libraries.",
+  "nodes": [
+    {
+      "id": "tour:start",
+      "title": "Start Here: Process Entry Point",
+      "layer": "cli",
+      "files": ["cli/loader_exe.c"],
+      "description": "The main() function starts here. It initializes the loader, finds libjulia, and jumps into jl_main(). This is where the Julia process begins execution.",
+      "next": ["tour:loader", "tour:runtime-core"]
+    },
+    {
+      "id": "tour:loader",
+      "title": "Dynamic Loader & Library Discovery",
+      "layer": "cli",
+      "files": [
+        "cli/loader.h",
+        "cli/loader_lib.c",
+        "cli/loader_library_probe.c",
+        "cli/loader_symbol_probe.c"
+      ],
+      "description": "Loader finds and loads libjulia.so/.dll, resolves symbols, and sets up trampolines for C API exports. Cross-platform (Linux/macOS/Windows).",
+      "next": ["tour:trampolines", "tour:runtime-core"]
+    },
+    {
+      "id": "tour:trampolines",
+      "title": "C API Trampolines & Exports",
+      "layer": "cli",
+      "files": [
+        "cli/trampolines/common.h",
+        "cli/list_strip_symbols.h",
+        "src/jl_exported_funcs.inc",
+        "src/jl_exported_data.inc"
+      ],
+      "description": "Generated trampolines export Julia's C API (jl_* functions) from the shared library. Symbol stripping controls public vs private exports.",
+      "next": ["tour:runtime-core"]
+    },
+    {
+      "id": "tour:runtime-core",
+      "title": "Runtime Core: Types, GC, Threading",
+      "layer": "runtime",
+      "files": [
+        "src/julia.h",
+        "src/julia_internal.h",
+        "src/julia_gcext.h",
+        "src/threading.h",
+        "src/julia_threads.h",
+        "src/julia_locks.h",
+        "src/julia_fasttls.h"
+      ],
+      "description": "Core runtime definitions: jl_value_t type hierarchy, garbage collector API, threading model, fast thread-local storage, locks. Everything builds on this.",
+      "next": ["tour:jit-codegen", "tour:builtins-intrinsics"]
+    },
+    {
+      "id": "tour:jit-codegen",
+      "title": "JIT Compilation & LLVM Codegen",
+      "layer": "runtime",
+      "files": [
+        "src/jitlayers.h",
+        "src/llvm-codegen-shared.h",
+        "src/llvm-version.h",
+        "src/passes.h",
+        "src/llvm-pass-helpers.h",
+        "src/llvm-Compression.h",
+        "src/objcache.h"
+      ],
+      "description": "JIT layer manages LLVM contexts, compiles Julia IR to machine code, runs optimization passes, caches compiled objects. LLVM version abstraction handles compatibility.",
+      "next": ["tour:compiler-layer"]
+    },
+    {
+      "id": "tour:builtins-intrinsics",
+      "title": "Builtins & Compiler Intrinsics",
+      "layer": "runtime",
+      "files": [
+        "src/builtin_proto.h",
+        "src/intrinsics.h"
+      ],
+      "description": "C prototypes for builtin functions (Core.Intrinsics) and compiler intrinsics that lower directly to LLVM IR. Bridge between runtime and compiler.",
+      "next": ["tour:compiler-layer"]
+    },
+    {
+      "id": "tour:support-utils",
+      "title": "Support Library: Hashing, I/O, Platform",
+      "layer": "runtime",
+      "files": [
+        "src/support/dtypes.h",
+        "src/support/platform.h",
+        "src/support/ptrhash.h",
+        "src/support/strhash.h",
+        "src/support/ios.h",
+        "src/support/strptime.h",
+        "src/support/timefuncs.h"
+      ],
+      "description": "Low-level utilities: pointer/string hashing, I/O streams, platform abstraction, time parsing. Used throughout runtime.",
+      "next": ["tour:compiler-layer"]
+    },
+    {
+      "id": "tour:compiler-layer",
+      "title": "Compiler Layer (Compiler.jl) — Written in Julia",
+      "layer": "compiler",
+      "files": [
+        "Compiler/"
+      ],
+      "description": "The compiler is a separate Julia module (Compiler.jl). Handles type inference, SSA IR (Core.Compiler), optimizations, codegen. Can be swapped independently. See Compiler/ directory.",
+      "next": ["tour:frontend", "tour:base-lib"]
+    },
+    {
+      "id": "tour:frontend",
+      "title": "Frontend: Parser & Lowering (JuliaSyntax, JuliaLowering)",
+      "layer": "frontend",
+      "files": [
+        "base/parser.jl",
+        "base/syntax.jl"
+      ],
+      "description": "Modern parser (JuliaSyntax.jl) produces lossless CST. JuliaLowering lowers to compiler IR (HIR). Both written in Julia, in base/ and stdlib/.",
+      "next": ["tour:base-lib"]
+    },
+    {
+      "id": "tour:base-lib",
+      "title": "Base Library — Core Standard Library",
+      "layer": "base",
+      "files": [
+        "base/"
+      ],
+      "description": "Loaded at startup. Fundamental types (Int, Float, Array, Tuple, Dict), I/O, math, reflection, exceptions, tasks, multi-threading primitives. All Julia code.",
+      "next": ["tour:stdlib", "tour:build-system"]
+    },
+    {
+      "id": "tour:stdlib",
+      "title": "Standard Library Packages",
+      "layer": "stdlib",
+      "files": [
+        "stdlib/"
+      ],
+      "description": "Independent packages (Pkg, REPL, LinearAlgebra, Random, Sockets, etc.). Each has own version, loaded on demand via `using`. See stdlib/ directory.",
+      "next": ["tour:build-system"]
+    },
+    {
+      "id": "tour:build-system",
+      "title": "Build System & Tooling",
+      "layer": "build",
+      "files": [
+        "Makefile",
+        "Make.user",
+        "deps/",
+        "contrib/",
+        "ci/"
+      ],
+      "description": "Make-based build. Make.user for local config. deps/ for external dependencies (LLVM, libuv, etc.). CI in GitHub Actions. Build outputs to usr/.",
+      "next": ["tour:docs", "tour:tests"]
+    },
+    {
+      "id": "tour:docs",
+      "title": "Documentation",
+      "layer": "docs",
+      "files": [
+        "doc/"
+      ],
+      "description": "User manual, developer docs, API reference. Built with Documenter.jl. Source in doc/src/. Key: doc/src/devdocs/ for contributor guides.",
+      "next": ["tour:tests"]
+    },
+    {
+      "id": "tour:tests",
+      "title": "Test Suite",
+      "layer": "tests",
+      "files": [
+        "test/",
+        "base/test/",
+        "stdlib/*/test/"
+      ],
+      "description": "Runtime tests (test/), base tests (base/test/), stdlib tests. Run with `make test` or `./julia test/runtests.jl`. Use JULIA_TEST_FAILFAST=1 for quick feedback.",
+      "next": []
+    }
+  ],
+  "edges": [
+    { "from": "tour:start", "to": "tour:loader", "label": "initializes" },
+    { "from": "tour:start", "to": "tour:runtime-core", "label": "calls jl_main()" },
+    { "from": "tour:loader", "to": "tour:trampolines", "label": "sets up" },
+    { "from": "tour:loader", "to": "tour:runtime-core", "label": "loads libjulia" },
+    { "from": "tour:trampolines", "to": "tour:runtime-core", "label": "exports C API" },
+    { "from": "tour:runtime-core", "to": "tour:jit-codegen", "label": "uses for codegen" },
+    { "from": "tour:runtime-core", "to": "tour:builtins-intrinsics", "label": "provides prototypes" },
+    { "from": "tour:runtime-core", "to": "tour:support-utils", "label": "depends on" },
+    { "from": "tour:jit-codegen", "to": "tour:compiler-layer", "label": "compiles IR from" },
+    { "from": "tour:builtins-intrinsics", "to": "tour:compiler-layer", "label": "intrinsics lowered by" },
+    { "from": "tour:compiler-layer", "to": "tour:frontend", "label": "consumes IR from" },
+    { "from": "tour:frontend", "to": "tour:base-lib", "label": "parses code in" },
+    { "from": "tour:base-lib", "to": "tour:stdlib", "label": "loads packages from" },
+    { "from": "tour:build-system", "to": "tour:runtime-core", "label": "builds" },
+    { "from": "tour:build-system", "to": "tour:compiler-layer", "label": "builds" },
+    { "from": "tour:build-system", "to": "tour:base-lib", "label": "builds sysimg" },
+    { "from": "tour:docs", "to": "tour:base-lib", "label": "documents" },
+    { "from": "tour:tests", "to": "tour:runtime-core", "label": "tests" },
+    { "from": "tour:tests", "to": "tour:compiler-layer", "label": "tests" },
+    { "from": "tour:tests", "to": "tour:base-lib", "label": "tests" },
+    { "from": "tour:tests", "to": "tour:stdlib", "label": "tests" }
+  ],
+  "learningPaths": [
+    {
+      "name": "Runtime Deep Dive",
+      "description": "Follow the C/C++ runtime from entry through GC, JIT, threading",
+      "nodes": ["tour:start", "tour:loader", "tour:trampolines", "tour:runtime-core", "tour:jit-codegen", "tour:builtins-intrinsics", "tour:support-utils"]
+    },
+    {
+      "name": "Compiler Pipeline",
+      "description": "Trace compilation from parsing to LLVM IR to machine code",
+      "nodes": ["tour:frontend", "tour:compiler-layer", "tour:jit-codegen", "tour:builtins-intrinsics"]
+    },
+    {
+      "name": "Base Library Tour",
+      "description": "Explore core Julia types, collections, and primitives",
+      "nodes": ["tour:base-lib", "tour:stdlib"]
+    },
+    {
+      "name": "Build & Test Workflow",
+      "description": "Understand how to build, test, and develop Julia",
+      "nodes": ["tour:build-system", "tour:tests", "tour:docs"]
+    }
+  ]
+}

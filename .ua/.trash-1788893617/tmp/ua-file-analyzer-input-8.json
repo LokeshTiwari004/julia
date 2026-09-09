@@ -1,0 +1,119 @@
+{
+  "projectRoot": "/home/maruti/julia",
+  "batchFiles": [
+    {
+      "path": "src/gc-mmtk/mmtk_julia/src/active_plan.rs",
+      "language": "rust",
+      "sizeLines": 96,
+      "fileCategory": "code"
+    },
+    {
+      "path": "src/gc-mmtk/mmtk_julia/src/api.rs",
+      "language": "rust",
+      "sizeLines": 732,
+      "fileCategory": "code"
+    },
+    {
+      "path": "src/gc-mmtk/mmtk_julia/src/build_info.rs",
+      "language": "rust",
+      "sizeLines": 22,
+      "fileCategory": "code"
+    },
+    {
+      "path": "src/gc-mmtk/mmtk_julia/src/collection.rs",
+      "language": "rust",
+      "sizeLines": 223,
+      "fileCategory": "code"
+    },
+    {
+      "path": "src/gc-mmtk/mmtk_julia/src/gc_trigger.rs",
+      "language": "rust",
+      "sizeLines": 358,
+      "fileCategory": "code"
+    },
+    {
+      "path": "src/gc-mmtk/mmtk_julia/src/julia_finalizer.rs",
+      "language": "rust",
+      "sizeLines": 259,
+      "fileCategory": "code"
+    },
+    {
+      "path": "src/gc-mmtk/mmtk_julia/src/julia_scanning.rs",
+      "language": "rust",
+      "sizeLines": 694,
+      "fileCategory": "code"
+    },
+    {
+      "path": "src/gc-mmtk/mmtk_julia/src/lib.rs",
+      "language": "rust",
+      "sizeLines": 176,
+      "fileCategory": "code"
+    },
+    {
+      "path": "src/gc-mmtk/mmtk_julia/src/object_model.rs",
+      "language": "rust",
+      "sizeLines": 394,
+      "fileCategory": "code"
+    },
+    {
+      "path": "src/gc-mmtk/mmtk_julia/src/reference_glue.rs",
+      "language": "rust",
+      "sizeLines": 80,
+      "fileCategory": "code"
+    },
+    {
+      "path": "src/gc-mmtk/mmtk_julia/src/scanning.rs",
+      "language": "rust",
+      "sizeLines": 393,
+      "fileCategory": "code"
+    },
+    {
+      "path": "src/gc-mmtk/mmtk_julia/src/slots.rs",
+      "language": "rust",
+      "sizeLines": 302,
+      "fileCategory": "code"
+    },
+    {
+      "path": "src/gc-mmtk/mmtk_julia/src/util.rs",
+      "language": "rust",
+      "sizeLines": 81,
+      "fileCategory": "code"
+    }
+  ],
+  "batchImportData": {
+    "src/gc-mmtk/mmtk_julia/src/active_plan.rs": [],
+    "src/gc-mmtk/mmtk_julia/src/api.rs": [],
+    "src/gc-mmtk/mmtk_julia/src/build_info.rs": [],
+    "src/gc-mmtk/mmtk_julia/src/collection.rs": [],
+    "src/gc-mmtk/mmtk_julia/src/gc_trigger.rs": [],
+    "src/gc-mmtk/mmtk_julia/src/julia_finalizer.rs": [],
+    "src/gc-mmtk/mmtk_julia/src/julia_scanning.rs": [
+      "src/gc-mmtk/mmtk_julia/src/api.rs",
+      "src/gc-mmtk/mmtk_julia/src/slots.rs"
+    ],
+    "src/gc-mmtk/mmtk_julia/src/lib.rs": [
+      "src/gc-mmtk/mmtk_julia/src/active_plan.rs",
+      "src/gc-mmtk/mmtk_julia/src/api.rs",
+      "src/gc-mmtk/mmtk_julia/src/build_info.rs",
+      "src/gc-mmtk/mmtk_julia/src/collection.rs",
+      "src/gc-mmtk/mmtk_julia/src/gc_trigger.rs",
+      "src/gc-mmtk/mmtk_julia/src/julia_finalizer.rs",
+      "src/gc-mmtk/mmtk_julia/src/julia_scanning.rs",
+      "src/gc-mmtk/mmtk_julia/src/object_model.rs",
+      "src/gc-mmtk/mmtk_julia/src/reference_glue.rs",
+      "src/gc-mmtk/mmtk_julia/src/scanning.rs",
+      "src/gc-mmtk/mmtk_julia/src/slots.rs",
+      "src/gc-mmtk/mmtk_julia/src/util.rs"
+    ],
+    "src/gc-mmtk/mmtk_julia/src/object_model.rs": [
+      "src/gc-mmtk/mmtk_julia/src/api.rs",
+      "src/gc-mmtk/mmtk_julia/src/julia_scanning.rs"
+    ],
+    "src/gc-mmtk/mmtk_julia/src/reference_glue.rs": [],
+    "src/gc-mmtk/mmtk_julia/src/scanning.rs": [
+      "src/gc-mmtk/mmtk_julia/src/slots.rs"
+    ],
+    "src/gc-mmtk/mmtk_julia/src/slots.rs": [],
+    "src/gc-mmtk/mmtk_julia/src/util.rs": []
+  }
+}

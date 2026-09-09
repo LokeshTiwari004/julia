@@ -1,0 +1,283 @@
+{
+  "batchIndex": 94,
+  "nodes": [
+    {
+      "id": "config:test/project/SyntaxVersioning/implicit/Versioned4/Project.toml",
+      "type": "config",
+      "name": "Project.toml",
+      "filePath": "test/project/SyntaxVersioning/implicit/Versioned4/Project.toml",
+      "summary": "Configuration file: Project.toml.",
+      "tags": [
+        "configuration"
+      ],
+      "complexity": "simple",
+      "language": "toml"
+    },
+    {
+      "id": "config:test/project/SyntaxVersioning/implicit/Versioned5/Project.toml",
+      "type": "config",
+      "name": "Project.toml",
+      "filePath": "test/project/SyntaxVersioning/implicit/Versioned5/Project.toml",
+      "summary": "Configuration file: Project.toml.",
+      "tags": [
+        "configuration"
+      ],
+      "complexity": "simple",
+      "language": "toml"
+    },
+    {
+      "id": "config:test/project/Workspaces/PrecompileExt/Bar/Project.toml",
+      "type": "config",
+      "name": "Project.toml",
+      "filePath": "test/project/Workspaces/PrecompileExt/Bar/Project.toml",
+      "summary": "Configuration file: Project.toml.",
+      "tags": [
+        "configuration"
+      ],
+      "complexity": "simple",
+      "language": "toml"
+    },
+    {
+      "id": "config:test/project/Workspaces/PrecompileExt/BarEnv/Project.toml",
+      "type": "config",
+      "name": "Project.toml",
+      "filePath": "test/project/Workspaces/PrecompileExt/BarEnv/Project.toml",
+      "summary": "Configuration file: Project.toml.",
+      "tags": [
+        "configuration"
+      ],
+      "complexity": "simple",
+      "language": "toml"
+    },
+    {
+      "id": "config:test/project/Workspaces/PrecompileExt/Foo/Project.toml",
+      "type": "config",
+      "name": "Project.toml",
+      "filePath": "test/project/Workspaces/PrecompileExt/Foo/Project.toml",
+      "summary": "Configuration file: Project.toml.",
+      "tags": [
+        "configuration"
+      ],
+      "complexity": "simple",
+      "language": "toml"
+    },
+    {
+      "id": "config:test/project/Workspaces/PrecompileExt/FooEnv/Project.toml",
+      "type": "config",
+      "name": "Project.toml",
+      "filePath": "test/project/Workspaces/PrecompileExt/FooEnv/Project.toml",
+      "summary": "Configuration file: Project.toml.",
+      "tags": [
+        "configuration"
+      ],
+      "complexity": "simple",
+      "language": "toml"
+    },
+    {
+      "id": "config:test/project/Workspaces/PrecompileExt/Manifest.toml",
+      "type": "config",
+      "name": "Manifest.toml",
+      "filePath": "test/project/Workspaces/PrecompileExt/Manifest.toml",
+      "summary": "Configuration file: Manifest.toml.",
+      "tags": [
+        "configuration"
+      ],
+      "complexity": "simple",
+      "language": "toml"
+    },
+    {
+      "id": "config:test/project/Workspaces/PrecompileExt/Project.toml",
+      "type": "config",
+      "name": "Project.toml",
+      "filePath": "test/project/Workspaces/PrecompileExt/Project.toml",
+      "summary": "Configuration file: Project.toml.",
+      "tags": [
+        "configuration"
+      ],
+      "complexity": "simple",
+      "language": "toml"
+    }
+  ],
+  "edges": [],
+  "batchFiles": [
+    {
+      "path": "test/project/SyntaxVersioning/implicit/Versioned4/Project.toml",
+      "language": "toml",
+      "fileCategory": "config",
+      "totalLines": 2,
+      "nonEmptyLines": 2,
+      "metrics": {
+        "importCount": 0,
+        "exportCount": 0,
+        "functionCount": 0,
+        "classCount": 0,
+        "sectionCount": 0
+      }
+    },
+    {
+      "path": "test/project/SyntaxVersioning/implicit/Versioned5/Project.toml",
+      "language": "toml",
+      "fileCategory": "config",
+      "totalLines": 5,
+      "nonEmptyLines": 4,
+      "sections": [
+        {
+          "heading": "compat",
+          "level": 1,
+          "line": 4
+        }
+      ],
+      "metrics": {
+        "importCount": 0,
+        "exportCount": 0,
+        "functionCount": 0,
+        "classCount": 0,
+        "sectionCount": 1
+      }
+    },
+    {
+      "path": "test/project/Workspaces/PrecompileExt/Bar/Project.toml",
+      "language": "toml",
+      "fileCategory": "config",
+      "totalLines": 3,
+      "nonEmptyLines": 3,
+      "metrics": {
+        "importCount": 0,
+        "exportCount": 0,
+        "functionCount": 0,
+        "classCount": 0,
+        "sectionCount": 0
+      }
+    },
+    {
+      "path": "test/project/Workspaces/PrecompileExt/BarEnv/Project.toml",
+      "language": "toml",
+      "fileCategory": "config",
+      "totalLines": 3,
+      "nonEmptyLines": 3,
+      "sections": [
+        {
+          "heading": "deps",
+          "level": 1,
+          "line": 1
+        }
+      ],
+      "metrics": {
+        "importCount": 0,
+        "exportCount": 0,
+        "functionCount": 0,
+        "classCount": 0,
+        "sectionCount": 1
+      }
+    },
+    {
+      "path": "test/project/Workspaces/PrecompileExt/Foo/Project.toml",
+      "language": "toml",
+      "fileCategory": "config",
+      "totalLines": 9,
+      "nonEmptyLines": 7,
+      "sections": [
+        {
+          "heading": "weakdeps",
+          "level": 1,
+          "line": 5
+        },
+        {
+          "heading": "extensions",
+          "level": 1,
+          "line": 8
+        }
+      ],
+      "metrics": {
+        "importCount": 0,
+        "exportCount": 0,
+        "functionCount": 0,
+        "classCount": 0,
+        "sectionCount": 2
+      }
+    },
+    {
+      "path": "test/project/Workspaces/PrecompileExt/FooEnv/Project.toml",
+      "language": "toml",
+      "fileCategory": "config",
+      "totalLines": 2,
+      "nonEmptyLines": 2,
+      "sections": [
+        {
+          "heading": "deps",
+          "level": 1,
+          "line": 1
+        }
+      ],
+      "metrics": {
+        "importCount": 0,
+        "exportCount": 0,
+        "functionCount": 0,
+        "classCount": 0,
+        "sectionCount": 1
+      }
+    },
+    {
+      "path": "test/project/Workspaces/PrecompileExt/Manifest.toml",
+      "language": "toml",
+      "fileCategory": "config",
+      "totalLines": 25,
+      "nonEmptyLines": 19,
+      "sections": [
+        {
+          "heading": "[[deps.Bar]]",
+          "level": 2,
+          "line": 7
+        },
+        {
+          "heading": "deps.Bar.syntax",
+          "level": 3,
+          "line": 12
+        },
+        {
+          "heading": "[[deps.Foo]]",
+          "level": 2,
+          "line": 15
+        },
+        {
+          "heading": "deps.Foo.extensions",
+          "level": 3,
+          "line": 21
+        },
+        {
+          "heading": "deps.Foo.syntax",
+          "level": 3,
+          "line": 24
+        }
+      ],
+      "metrics": {
+        "importCount": 0,
+        "exportCount": 0,
+        "functionCount": 0,
+        "classCount": 0,
+        "sectionCount": 5
+      }
+    },
+    {
+      "path": "test/project/Workspaces/PrecompileExt/Project.toml",
+      "language": "toml",
+      "fileCategory": "config",
+      "totalLines": 2,
+      "nonEmptyLines": 2,
+      "sections": [
+        {
+          "heading": "workspace",
+          "level": 1,
+          "line": 1
+        }
+      ],
+      "metrics": {
+        "importCount": 0,
+        "exportCount": 0,
+        "functionCount": 0,
+        "classCount": 0,
+        "sectionCount": 1
+      }
+    }
+  ]
+}
